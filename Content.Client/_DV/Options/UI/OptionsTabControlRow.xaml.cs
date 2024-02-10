@@ -1,7 +1,7 @@
 using Content.Client._DV.Options.UI;
 using Robust.Shared.Configuration;
 
-namespace Content.Client.Options.UI;
+namespace Content.Client._DV.Options.UI;
 
 public sealed partial class OptionsTabControlRow
 {
