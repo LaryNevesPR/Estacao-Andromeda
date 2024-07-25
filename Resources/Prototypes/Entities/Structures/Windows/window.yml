@@ -73,7 +73,7 @@
         acts: [ "Destruction" ]
   - type: Airtight
   - type: IconSmooth
-    key: walls
+    key: walls # Delta V - Make windows iconsmooth with walls
     base: window
   - type: Construction
     graph: Window
