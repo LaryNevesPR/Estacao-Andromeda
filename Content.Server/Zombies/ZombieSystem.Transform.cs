@@ -136,9 +136,22 @@ namespace Content.Server.Zombies
             melee.Animation = zombiecomp.AttackAnimation;
             melee.WideAnimation = zombiecomp.AttackAnimation;
             melee.AltDisarm = false;
-            melee.Range = 1.2f;
-            melee.Angle = 0.0f;
-            melee.SoundHit = zombiecomp.BiteSound;
+            melee.Range = 1.5f; // Sunrise-Edit
+            melee.Angle = 45.0f;
+            melee.HitSound = zombiecomp.BiteSound;
+
+            // Sunrise-Start
+            RemComp<CuffableComponent>(target);
+
+            var collectiveMindComponent = EnsureComp<CollectiveMindComponent>(target);
+            foreach (var collectiveMind in collectiveMindComponent.Minds.ToArray())
+            {
+                collectiveMindComponent.Minds.Remove(collectiveMind);
+            }
+
+            if (!collectiveMindComponent.Minds.Contains("Zombie"))
+                collectiveMindComponent.Minds.Add("Zombie");
+            // Sunrise-End
 
             if (mobState.CurrentState == MobState.Alive)
             {
@@ -178,16 +191,16 @@ namespace Content.Server.Zombies
                 {
                     DamageDict = new()
                     {
-                        { "Slash", 13 },
-                        { "Piercing", 7 },
-                        { "Structural", 10 }
+                        { "Slash", 15 },
+                        { "Piercing", 15 },
+                        { "Structural", 150 } // Sunrise-Edit
                     }
                 };
                 melee.Damage = dspec;
 
                 // humanoid zombies get to pry open doors and shit
                 var pryComp = EnsureComp<PryingComponent>(target);
-                pryComp.SpeedModifier = 0.75f;
+                pryComp.SpeedModifier = 10.00f; // Sunrise-Edit
                 pryComp.PryPowered = true;
                 pryComp.Force = true;
 
