@@ -5,7 +5,7 @@
         "y": 32
     },
     "license": "CC-BY-SA-3.0",
-    "copyright": "Felinid sprites made by Adrian16199 (Github)",
+    "copyright": "Felinid sprites made by Adrian16199 (Github), Rodentia sprites made by portfiend",
     "states": [
         {
             "name": "felinid0",
@@ -25,6 +25,38 @@
             "name": "felinid2"
         },
         {
+<<<<<<< HEAD
+            "name": "chitinid0",
+=======
+            "name": "rodentia0",
+>>>>>>> b45ce8e151 (Rodentia Species (#610))
+            "delays": [
+                [
+                    0.2,
+                    0.3,
+                    0.3,
+<<<<<<< HEAD
+                    0.3
+=======
+                    0.5
+>>>>>>> b45ce8e151 (Rodentia Species (#610))
+                ]
+            ]
+        },
+        {
+<<<<<<< HEAD
+            "name": "chitinid1"
+        },
+        {
+            "name": "chitinid2"
+=======
+            "name": "rodentia1"
+        },
+        {
+            "name": "rodentia2"
+>>>>>>> b45ce8e151 (Rodentia Species (#610))
+        },
+        {
             "name": "chitinid0",
             "delays": [
                 [
@@ -40,6 +72,23 @@
         },
         {
             "name": "chitinid2"
+        },
+        {
+            "name": "rodentia0",
+            "delays": [
+                [
+                    0.2,
+                    0.3,
+                    0.3,
+                    0.5
+                ]
+            ]
+        },
+        {
+            "name": "rodentia1"
+        },
+        {
+            "name": "rodentia2"
         }
     ]
 }

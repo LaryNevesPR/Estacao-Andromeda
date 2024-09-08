@@ -193,4 +193,5 @@ public enum SpeciesNaming : byte
     TheFirstofLast,
     FirstDashLast,
     FirstRoman,
+    LastFirst, // DeltaV
 }
