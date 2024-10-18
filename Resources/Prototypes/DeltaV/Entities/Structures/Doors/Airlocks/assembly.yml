@@ -5,14 +5,34 @@
   suffix: Robotics
   components:
   - type: Sprite
-    sprite: DeltaV/Structures/Doors/Airlocks/Standard/roboticist.rsi 
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/roboticist.rsi #Delta V - Resprite Doors
     state: "assembly"
 
+#Chemistry - Delta-V Creation
+- type: entity
+  parent: AirlockAssembly
+  id: AirlockAssemblyChemistry
+  suffix: Chemistry
+  components:
+  - type: Sprite
+    sprite: DeltaV/Structures/Doors/Airlocks/Standard/chemistry.rsi #Delta V - Resprite Doors
+    state: "assembly"
+
+#roboticist, glass - Delta-V Creation
 - type: entity
   parent: AirlockAssembly
   id: AirlockAssemblyRoboticistGlass
   suffix: Robotics, Glass
   components:
   - type: Sprite
-    sprite: DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi 
+    sprite: DeltaV/Structures/Doors/Airlocks/Glass/roboticist.rsi #Delta V - Resprite Doors
+    state: "assembly"
+
+#Chemistry, Glass - Delta-V Creation
+- type: entity
+  id: AirlockAssemblyChemistryGlass
+  suffix: Chemistry, Glass
+  components:
+  - type: Sprite
+    sprite: DeltaV/Structures/Doors/Airlocks/Glass/chemistry.rsi #Delta V - Resprite Doors
     state: "assembly"
