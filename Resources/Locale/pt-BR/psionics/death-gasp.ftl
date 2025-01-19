@@ -1,0 +1,3 @@
+death-gasp-normal = convulsiona e cai mole, { POSS-ADJ($ent) } olhos mortos e sem vida...
+death-gasp-medium = libera { POSS-ADJ($ent) } sopro final de vida, perceptível em algum nível estranho.
+death-gasp-high = fica tenso quando { POSS-ADJ($ent) } alma sai { POSS-ADJ($ent) } corpo, deixando { POSS-ADJ($ent) } antigo recipiente e iniciando { POSS-ADJ($ent) } viagem para o próximo mundo.

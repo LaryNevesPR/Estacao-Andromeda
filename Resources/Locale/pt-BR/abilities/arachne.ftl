@@ -1,0 +1,16 @@
+action-name-spin-web = Tecer teia
+action-desc-spin-web = Use suas fiandeiras para fazer uma teia de aranha no bloco atual. Deixa você com mais fome e sede.
+action-name-spin-web-space = Você não pode tecer teia no espaço!
+action-name-spin-web-blocked = Não há espaço para tecer teia aqui.
+spin-web-action-hungry = Você está com muita fome para tecer uma teia!
+spin-web-action-thirsty = Você está com muita sede para tecer uma teia!
+spin-web-start-second-person = Você começa a tecer uma teia.
+spin-web-start-third-person = {CAPITALIZE(THE($spider))} começa a tecer uma teia!
+cocoon-start-second-person = Você começa a encasular {THE($target)}.
+cocoon-start-third-person = {CAPITALIZE(THE($spider))} começa a encasular {THE($target)}.
+uncocoon-start-second-person = Você começa a soltar {THE($target)}.
+uncocoon-start-third-person = {CAPITALIZE(THE($spider))} começa a soltar {THE($target)}.
+spun-web-second-person = Você cria uma teia.
+spun-web-third-person = {CAPITALIZE(THE($spider))} cria uma teia!
+cocoon = Encasular
+uncocoon = Soltar

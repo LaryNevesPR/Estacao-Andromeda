@@ -1,0 +1,12 @@
+surgery-ui-window-title = Cirurgia
+surgery-ui-window-require = Necessário
+surgery-ui-window-parts = < Membros
+surgery-ui-window-surgeries = < Cirurgias
+surgery-ui-window-steps = < Passos
+surgery-ui-window-steps-error-skills = Você não tem treinamento médico.
+surgery-ui-window-steps-error-table = Você precisa de uma mesa de cirurgia.
+surgery-ui-window-steps-error-armor = Você precisa tirar a armadura disso!
+surgery-ui-window-steps-error-tools = Faltam ferramentas.
+surgery-error-laying = Isso precisa estar deitado!
+surgery-error-self-surgery = Você não pode operar a si!
+surgery-part-damage-evaded = {$user} escapou por pouco!

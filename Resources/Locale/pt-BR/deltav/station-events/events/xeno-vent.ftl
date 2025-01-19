@@ -1,0 +1,2 @@
+station-event-xeno-vents-announcement = Avistamentos confirmados de vida selvagem alienígena hostil na estação. O pessoal é aconselhado a se armar, fazer barricadas nas portas e se defender, se necessário. A segurança é aconselhada a erradicar a ameaça o mais rápido possível.
+station-event-xeno-vents-weak-announcement = Supostas assinaturas de vida selvagem alienígena hostil detectadas na estação. O pessoal é aconselhado a se armar, fazer barricadas nas portas e se defender, se necessário. A segurança é aconselhada a erradicar a ameaça o mais rápido possível.
