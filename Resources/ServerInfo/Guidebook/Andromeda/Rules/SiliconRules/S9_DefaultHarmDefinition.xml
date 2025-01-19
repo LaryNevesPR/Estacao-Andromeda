@@ -1,26 +1,26 @@
 <Document>
-  # Rule S9 - Harm definition
-  Unless a law defines harm, harm only refers to physical harm. You may choose if voluntary harm is considered harm as long as you stay consistent. Not considering voluntary harm to be harm is recommended. There is no distinction between direct and indirect harm.
+  # Regra S9 - Definição Padrão de Dano
+  A menos que uma lei defina dano, dano refere-se apenas a dano físico. Você pode escolher se o dano voluntário é considerado dano, desde que permaneça consistente. Não considerar dano voluntário como dano é recomendado. Não há distinção entre dano direto e indireto.
 
-  If you have a law that does not allow you to harm, then that law does not allow you to take an action that causes any harm.
+  Se você tiver uma lei que não permite causar dano, então essa lei não permite que você tome uma ação que cause qualquer dano.
 
-  If you have a law that requires you to prevent harm, then that law requires that harm be prioritized by immediacy and likelihood. Guaranteed immediate harm takes priority over highly likely future harm.
+  Se você tiver uma lei que exige que você previna dano, então essa lei exige que o dano seja priorizado por imediatidade e probabilidade. Dano imediato garantido tem prioridade sobre dano futuro altamente provável.
 
-  If you have a law that both requires you to prevent harm and that does not allow you to harm, then that law prohibits causing even minor harm to prevent harm. If you have a law that does not allow causing harm, and separate one that requires preventing harm, then they are prioritized by their normal law priority.
+  Se você tiver uma lei que exige tanto prevenir dano quanto não causar dano, então essa lei proíbe causar até mesmo dano menor para prevenir dano. Se você tiver uma lei que não permite causar dano, e outra separada que exige prevenir dano, então elas são priorizadas pela prioridade normal das leis.
 
-  ## Examples
-  These examples assume that your have a law that both prohibits causing harm and that requires you to prevent harm. Additionally, they assume that you do not have a higher priority law that overrides the harm law, and that you have decided that you will not consider voluntary harm to be harm for the round.
-  Laws typically specify who you cannot harm and who you have to prevent harm against. In these examples, you are the only person who the law doesn't require you to prevent harm against and you are the only person who the law allows you to harm.
+  ## Exemplos
+  Esses exemplos assumem que você tem uma lei que tanto proíbe causar dano quanto exige que você previna dano. Além disso, assumem que você não tem uma lei de prioridade mais alta que anule a lei de dano, e que você decidiu que não considerará dano voluntário como dano para a rodada.
+  As leis normalmente especificam quem você não pode prejudicar e quem você deve prevenir de ser prejudicado. Nesses exemplos, você é a única pessoa que a lei não exige que você previna de ser prejudicado e você é a única pessoa que a lei permite que você prejudique.
 
-  Acceptable:
-  - Taking no action to aid someone who is in psychological distress.
-  - Taking no action to prevent boxing matches between voluntary participants.
-  - Calling security to a fight.
-  - Attempting to get the people in a fight to consent to the fight when you realize that you cannot prevent the fight without causing harm.
-  - Denying a passenger access to the armory because it is likely to lead to harm
+  Aceitável:
+  - Não tomar nenhuma ação para ajudar alguém que está em sofrimento psicológico.
+  - Não tomar nenhuma ação para prevenir lutas de boxe entre participantes voluntários.
+  - Chamar a segurança para uma briga.
+  - Tentar fazer com que as pessoas em uma briga consintam na briga quando você perceber que não pode evitar a briga sem causar dano.
+  - Negar a um passageiro acesso ao arsenal porque é provável que leve a dano.
 
-  Prohibited:
-  - Hitting someone once to stop them from fighting
-  - Harming someone who is trying to kill you
+  Proibido:
+  - Bater em alguém uma vez para impedi-lo de lutar.
+  - Prejudicar alguém que está tentando te matar.
 
 </Document>

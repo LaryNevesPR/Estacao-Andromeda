@@ -26,16 +26,28 @@
   - [textlink="J7. Não se comporte como um antagonista, mesmo não sendo um." link="RuleJ7"]
   - [textlink="J8. Saia do jogo usando cryosleep." link="RuleJ8"]
 
+  Essas regras são exclusivas para silícios
+  - [textlink="S1. Suas leis de silício são regras" link="DeltaVRuleS1"]
+  - [textlink="S2. Prioridade de Leis" link="DeltaVRuleS2"]
+  - [textlink="S3. Leis podem redefinir termos" link="DeltaVRuleS3"]
+  - [textlink="S4. Leis Modificadas" link="DeltaVRuleS4"]
+  - [textlink="S5. Você é um agente livre se não tiver leis" link="DeltaVRuleS5"]
+  - [textlink="S6. Ordens Estúpidas" link="DeltaVRuleS6"]
+  - [textlink="S7. Você deve permanecer consistente" link="DeltaVRuleS7"]
+  - [textlink="S8. Definição Padrão de Tripulação" link="DeltaVRuleS8"]
+  - [textlink="S9. Definição Padrão de Dano" link="DeltaVRuleS9"]
+  - [textlink="S10. Ordens Conflitantes" link="DeltaVRuleS10"]
+
 ## Diretrizes de Comando, Segurança, Justiça e Antagonista
   Essas regras se aplicam dentro de rodadas para funções específicas.
 
   - [textlink="C1. Diretrizes de Comando, Segurança e Justiça" link="RuleCC1"]
   - [textlink="C2. Diretrizes do Prisioneiro" link="RuleCC2"]
-  - [textlink="C3. Follow Antagonist Guidelines" link="RuleCC3"]
+  - [textlink="C3. Siga as Diretrizes do Antagonista" link="RuleCC3"]
 
 
 ### Ainda em construção!!
 
-Versão: 0.03
+Versão: 0.04
 
 </Document>

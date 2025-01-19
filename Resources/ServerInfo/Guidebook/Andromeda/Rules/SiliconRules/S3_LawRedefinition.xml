@@ -1,9 +1,9 @@
 <Document>
-  # Rule S3 - Laws can redefine terms
-  A law can change the meaning of both earlier and later laws by redefining a term. If multiple laws define a term, then normal law priority determines which definition to use.
+  # Regra S3 - Leis podem redefinir termos
+  Uma lei pode mudar o significado de leis anteriores e posteriores, redefinindo um termo completamente. Se várias leis definirem um termo, então a prioridade normal da lei determina qual definição usar.
 
-  ## Examples
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 1 effectively becomes "obey orders from Urist McHands".
-  - Law 1 says to obey orders from crew. Law 2 says that only Urist McHands is crew. Law 3 says that only Urist McSlime is crew. Law 4 says that you may not harm crew. Law 1 effectively becomes "obey orders from Urist McHands". Law 4 effectively becomes "you may not harm Urist McHands". Law 3 has no effect because it entirely conflicts with law 2, which takes priority.
+  ## Exemplos
+  - A Lei 1 diz para obedecer ordens da tripulação. A Lei 2 diz que apenas Urist McHands é tripulação. A Lei 1 efetivamente se torna "obedecer ordens de Urist McHands".
+  - A Lei 1 diz para obedecer ordens da tripulação. A Lei 2 diz que apenas Urist McHands é tripulação. A Lei 3 diz que apenas Urist McSlime é tripulação. A Lei 4 diz que você não pode ferir a tripulação. A Lei 1 efetivamente se torna "obedecer ordens de Urist McHands". A Lei 4 efetivamente se torna "você não pode ferir Urist McHands". A Lei 3 não tem efeito porque conflita inteiramente com a Lei 2, que tem prioridade.
 
 </Document>

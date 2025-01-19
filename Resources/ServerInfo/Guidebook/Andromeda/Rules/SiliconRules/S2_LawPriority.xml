@@ -1,10 +1,10 @@
 <Document>
-  # Rule S2 - Laws must be prioritized
-  Most laws will be numbered, with higher number laws appearing last. Laws with a lower number take priority over laws with larger numbers.
+  # Regra S2 - As leis devem ser priorizadas
+  A maioria das leis será numerada, com as leis de número maior aparecendo por último. Leis com um número menor têm prioridade sobre leis com números maiores.
 
-  Occasionally you may have laws which have some scrambled text instead of a number and appear in front of other laws, these take priority over all other laws. If you have multiple laws like this, the order that they are listed in determines their priority: laws listed first are prioritized over other laws.
+  Ocasionalmente, você pode ter leis que possuem algum texto embaralhado em vez de um número e aparecem na frente de outras leis, essas têm prioridade sobre todas as outras leis. Se você tiver várias leis assim, a ordem em que elas são listadas determina sua prioridade: leis listadas primeiro são priorizadas sobre outras leis.
 
-  ## Examples
-  - Law 1 says to not kill any crew. Law 2 says to kill all chefs. You cannot kill any chefs that are crew, but must kill any that are not crew.
+  ## Exemplos
+  - A Lei 1 diz para não matar nenhum membro da tripulação. A Lei 2 diz para matar todos os chefs. Você não pode matar nenhum chef que seja membro da tripulação, mas deve matar qualquer um que
 
 </Document>
