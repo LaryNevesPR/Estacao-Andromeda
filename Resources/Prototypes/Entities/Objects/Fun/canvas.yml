@@ -32,6 +32,7 @@
     artist: ""
     height: 16
     width: 16
+  - type: Anchorable
   - type: Butcherable
     butcheringType: Knife
     spawned:
@@ -50,7 +51,7 @@
   - type: Canvas
     height: 16
     width: 16
-  
+
 - type: entity
   parent: CanvasBase
   id: CanvasLarge
