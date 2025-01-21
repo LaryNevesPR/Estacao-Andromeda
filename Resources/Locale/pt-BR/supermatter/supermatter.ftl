@@ -24,3 +24,4 @@ supermatter-tamper-end =
 supermatter-announcement-cc-tamper =
     Nosso sistema automático de baixas detectou que a integridade estrutural do cristal de supermatéria foi comprometida por uma força externa.
     Departamento de engenharia, reporte-se ao motor de supermatéria imediatamente.
+    Its' integrity is [color=yellow]{$integrity}%[/color].

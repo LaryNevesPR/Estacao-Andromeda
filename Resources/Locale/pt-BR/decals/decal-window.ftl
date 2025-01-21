@@ -7,3 +7,4 @@ decal-placer-window-enable-snap = Encaixar em Quadrado
 decal-placer-window-enable-cleanable = Limpável
 decal-placer-window-palette = Paleta
 palette-color-picker-window-title = Paletas
+﻿decal-placer-window-title = Decal Placer

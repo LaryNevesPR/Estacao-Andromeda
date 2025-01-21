@@ -20,9 +20,6 @@ forensic-scanner-printer-not-ready = A impressora ainda não está pronta.
 forensic-scanner-verb-text = Scan
 forensic-scanner-verb-message = Faça uma varredura forense
 
-
-
 forensic-pad-fingerprint-name = impressões digitais de {$entity}
 forensic-pad-gloves-name = fibras de {$entity}
-
 forensics-cleaning = Você começa a limpar as evidências de {THE($target)}...

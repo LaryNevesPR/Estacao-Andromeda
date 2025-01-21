@@ -3,3 +3,5 @@ butcherable-different-tool = Você vai precisar de uma ferramenta diferente para
 butcherable-need-knife = Use algo afiado para cortar essa criatura.
 butcherable-mob-isnt-dead = Precisa estar morto.
 butcherable-verb-name = Estilhaça
+﻿butcherable-different-tool = You need a different tool to butcher { THE($target) }.
+butcherable-not-in-container = { CAPITALIZE(THE($target)) } can't be in a container.

@@ -6,7 +6,6 @@ fax-machine-popup-name-set = O nome do fax foi atualizado
 
 fax-machine-dialog-rename = Renomear
 fax-machine-dialog-field-name = Nome
-
 fax-machine-ui-window = Maquina de fax
 fax-machine-ui-file-button = Imprimir Arquivo
 fax-machine-ui-paper-button-normal = Papel Normal
@@ -20,7 +19,6 @@ fax-machine-ui-from = A partir de:
 fax-machine-ui-paper = Papel:
 fax-machine-ui-paper-inserted = Papel na bandeja
 fax-machine-ui-paper-not-inserted = Não há papel
-
 fax-machine-chat-notify = Nova mensagem de fax recebida do fax "{$fax}"
-
-fax-machine-printed-paper-name = printed paper
+fax-machine-printed-paper-name = printed paperfax-machine-popup-error = ERROR - jam in paper feed
+fax-machine-popup-copy-error = ERROR - unable to copy!

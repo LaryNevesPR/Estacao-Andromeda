@@ -13,3 +13,4 @@ advertisement-cigs-12 = Aqui para tirar o estresse do trabalho!
 thankyou-cigs-1 = Você os tem, agora fume-os!
 thankyou-cigs-2 = Você provavelmente não irá se arrepender!
 thankyou-cigs-3 = Você se tornará um viciado em breve!
+﻿advertisement-cigs-1 = Space cigs taste good like a cigarette should.

@@ -9,10 +9,11 @@ general-station-record-console-record-species = Espécie: {$species}
 general-station-record-console-record-gender = Gênero: {$gender}
 general-station-record-console-record-fingerprint = Impressão biométrica: {$fingerprint}
 general-station-record-console-record-dna = DNA: {$dna}
-
 general-station-record-for-filter-line-placeholder = Entre com texto e aperte "Enter"
 general-station-record-name-filter = Nome da pessoa
 general-station-record-prints-filter = Digitais
 general-station-record-dna-filter = DNA
 general-station-record-console-search-records = Busca
 general-station-record-console-reset-filters = Reseta
+﻿general-station-record-console-window-title = Station Records Computer
+general-station-record-console-delete = Delete

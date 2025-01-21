@@ -5,7 +5,8 @@ objective-condition-steal-description = Precisamos que você roube {$itemName}. 
 
 objective-condition-steal-station = estação
 objective-condition-steal-Ian = corgi do chefe de pessoal
-
 objective-condition-thief-description = O {$itemName} seria uma ótima adição à minha coleção!
 objective-condition-thief-animal-description = O {$itemName} seria uma ótima adição à minha coleção! Principalmente, vivo.
 objective-condition-thief-multiply-description = Preciso obter {$count} {MAKEPLURAL($itemName)} e levá-los comigo.
+objective-condition-steal-smsliver-title = Cut off a sliver from the supermatter crystal.
+objective-condition-steal-smsliver-description = Use any cutting tool that comes in handy. A scalpel is more recommended. Also, don't die of radiation poisoning.

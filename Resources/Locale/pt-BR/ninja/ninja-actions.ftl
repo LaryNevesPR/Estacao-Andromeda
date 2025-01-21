@@ -4,3 +4,4 @@ ninja-suit-cooldown = O traje precisa de tempo para se recuperar do último ataq
 
 ninja-research-steal-fail = Nenhum novo nó de pesquisa foi roubado...
 ninja-research-steal-success = Roubou {$count} novos nós de {THE($server)}.
+ninja-criminal-records-hack-announcement = ERROR: Criminal records has detected a [REDACTED] error #*;"

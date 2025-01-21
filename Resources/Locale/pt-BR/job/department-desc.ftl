@@ -10,3 +10,4 @@ department-Specific-description = Trabalhos que nem todas as estações têm.
 # Nyano
 department-Epistemics-description = Descubra o que está além do tecido da realidade.
 department-Silicon-description = Siga suas leis a serviço dos humanos.
+﻿department-Cargo-description = Complete bounties, earn Spessos, and order useful supplies for the crew.

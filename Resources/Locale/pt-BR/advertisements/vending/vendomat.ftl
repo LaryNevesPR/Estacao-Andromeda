@@ -5,3 +5,4 @@ advertisement-vendomat-4 = Os melhores equipamentos do espaço!
 advertisement-vendomat-5 = Isso é certamente melhor do que o equipamento emitido padrão!
 advertisement-vendomat-6 = Pegue seu bom velho pé de cabra aqui!
 advertisement-vendomat-7 = Aqui para quando você precisa de um conjunto completo de ferramentas!
+﻿advertisement-vendomat-1 = Only the finest!

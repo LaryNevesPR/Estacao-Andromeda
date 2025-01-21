@@ -6,5 +6,5 @@ role-timer-role-insufficient = Você precisa de mais [color=yellow]{TOSTRING($ti
 role-timer-role-too-high = Você precisa de menos [color=yellow]{TOSTRING($time, "0")}[/color] minutos para jogar nessa função. (Você está tentando desempenhar um papel de trainee?)
 
 role-timer-locked = Trancado (passe o mouse para mais detalhes)
-
 role-ban = Você foi banido desta função.
+﻿role-timer-department-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of [color={$departmentColor}]{$department}[/color] department playtime to play this role.

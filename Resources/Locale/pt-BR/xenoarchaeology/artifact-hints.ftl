@@ -21,10 +21,8 @@ artifact-effect-hint-sentience = Atividade neurológica
 artifact-effect-hint-polymorph = Atividade transmogrificacional
 artifact-effect-hint-magnet = Ondas magnéticas
 artifact-effect-hint-visual = Distorções visuais
-
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")
-
 artifact-trigger-hint-electricity = Electricidade
 artifact-trigger-hint-heat = Altas temperaturas
 artifact-trigger-hint-physical = Trauma físico
@@ -40,3 +38,4 @@ artifact-trigger-hint-land = Desaceleração ativa
 artifact-trigger-hint-regular-gases = Gases atmosféricos padrão
 artifact-trigger-hint-plasma = Plasma Gasoso
 artifact-trigger-hint-examine = Examinar
+artifact-effect-hint-psionic = Noöspheric disturbance

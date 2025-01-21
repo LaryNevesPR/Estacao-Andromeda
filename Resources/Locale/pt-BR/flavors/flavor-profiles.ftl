@@ -7,7 +7,6 @@ flavor-profile-unknown = Tem um gosto indescritível.
 # of other flavors. When the flavors are processed, these
 # will go in front so you don't get this like "Tastes like tomatoes, sweet and spicy",
 # instead, you get "Tastes sweet, spicy and like tomatoes".
-
 flavor-base-acidic = ácido
 flavor-base-savory = salgado
 flavor-base-sweet = doce
@@ -48,34 +47,25 @@ flavor-base-clean = limpo
 flavor-base-alkaline = alcalino
 flavor-base-holy = sagrado
 flavor-base-horrible = horrível
-
 # lmao
 flavor-base-terrible = terrível
 flavor-base-mindful = atento
-
 # Complex flavors. Put a flavor here when you want something that's more
 # specific.
-
 flavor-complex-nothing = de nada
 flavor-complex-honey = de mel
-
 # Condiments
-
 flavor-complex-ketchunaise = como tomates e maionese
 flavor-complex-mayonnaise = como maionese
 flavor-complex-mustard = como mostarda
-
 # Food-specific flavors.
-
 ## Food chemicals. In case you get something that has this inside.
 flavor-complex-nutriment = nutritivo
 flavor-complex-vitamin = de vitaminas
 flavor-complex-protein = de proteínas
-
 ## Generic food taste. This should be replaced with an actual flavor profile,
 ## if you have food that looks like this.
 flavor-complex-food = de comida
-
 ## Basic foodstuffs (ingredients, generic flavors)
 flavor-complex-bun = de pãozinho
 flavor-complex-bread = de pão
@@ -126,9 +116,7 @@ flavor-complex-nettles = de urtigas
 flavor-complex-jungle = de selva
 flavor-complex-vegetables = de vegetais
 # use it when there multiple types of veggies
-
 ## Complex foodstuffs (cooked foods, joke flavors, etc)
-
 flavor-complex-pink = rosa
 flavor-complex-curry = de curry
 flavor-complex-borsch-1 = de borsch
@@ -170,15 +158,12 @@ flavor-complex-light = como uma luz que apagou
 flavor-complex-profits = como lucro
 flavor-complex-fishops = como os temidos fishops
 flavor-complex-violets = como violetas
-
 # Drink-specific flavors.
-
 ## Generic alcohol/soda taste. This should be replaced with an actual flavor profile.
 flavor-complex-alcohol = de álcool
 flavor-complex-soda = de refrigerante
 flavor-complex-juice = de suco
 flavor-complex-rocksandstones = de pedra e rocha
-
 ## Basic drinks
 flavor-complex-water = de água
 flavor-complex-beer = de cerveja
@@ -212,7 +197,6 @@ flavor-complex-milk = de leite
 flavor-complex-tea = de chá
 flavor-complex-ice = de gelo
 flavor-complex-mopwata = como água estagnada e suja
-
 ## Cocktails
 flavor-complex-long-island = suspeitosamente de chá gelado
 flavor-complex-three-mile-island = de chá feito em chernobyl
@@ -240,22 +224,17 @@ flavor-complex-themartinez = como violetas e limão vodka
 flavor-complex-cogchamp = como bronze
 flavor-complex-white-gilgamesh = como creme levemente adocicado
 flavor-complex-antifreeze = quente
-
 ### This is exactly what pilk tastes like. I'm not even joking. I might've been a little drunk though
 flavor-complex-pilk = de leite doce
-
 # Medicine/chemical-specific flavors.
-
 ## Generic flavors.
 flavor-complex-medicine = de remédio
-
 flavor-complex-carpet = como um punhado de pele
 flavor-complex-bee = inacreditável
 flavor-complex-sax = como jazz
 flavor-complex-bottledlightning = como um relâmpago engarrafado
 flavor-complex-punishment = de punição
 flavor-weh = like weh
-
 ## Nyano???
 flavor-complex-enthralling = apaixonante
 flavor-complex-sublime = sublime
@@ -272,3 +251,26 @@ flavor-complex-pinkdrink = esmagadoramente como rosa
 flavor-complex-sapopicante = como tomates e especiarias
 flavor-complex-graveyard = como uma bebida gelada forte
 flavor-complex-corncob = como uma piada doentia
+flavor-complex-cherry = like cherries
+flavor-complex-spaceshroom-cooked = like space umami
+flavor-complex-pyrotton = like a burning mouth
+flavor-complex-mothballs = like mothballs
+flavor-complex-paint-thinner = like paint thinner
+flavor-complex-numbing-tranquility = like numbing tranquility
+flavor-complex-true-nature = like the true nature of reality
+flavor-complex-false-meat = not entirely unlike meat
+flavor-complex-paper = like mushy pulp
+flavor-complex-compressed-meat = like compressed meat
+flavor-complex-ginger-soda = like ginger
+flavor-complex-coconut-rum = like nutty fermented sugar
+flavor-complex-arnold-palmer = like a hole-in-one
+flavor-complex-blue-hawaiian = like the tropics
+flavor-complex-cosmopolitan = sweet and tangy
+flavor-complex-painkiller = like spiked pineapple juice
+flavor-complex-pina-colada = like tropical sun
+flavor-complex-vodka-red-bool = like a heart attack
+flavor-complex-irish-bool = caffine and Ireland
+flavor-complex-xeno-basher = like killing bugs
+flavor-complex-budget-insuls-drink = like door hacking
+flavor-complex-watermelon-wakeup = like a sweet wakeup call
+flavor-complex-rubberneck = like synthetics

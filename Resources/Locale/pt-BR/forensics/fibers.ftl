@@ -10,7 +10,6 @@ fibers-nitrile = nitrilo
 fibers-nanomachines = nano máquina isolante
 fibers-chameleon = camaleão holográfico
 fibers-rubber = borracha
-
 fibers-purple = roxo
 fibers-red = vermelho
 fibers-black = preto
@@ -23,3 +22,4 @@ fibers-white = branco
 fibers-yellow = amarelo
 fibers-regal-blue = azul forte
 fibers-olive = verde-oliva
+fibers-dyed = dyed fibers

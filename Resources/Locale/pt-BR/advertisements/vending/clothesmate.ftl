@@ -5,3 +5,4 @@ advertisement-clothes-4 = Por que deixar o drip pra depois? Use ClothesMate!
 advertisement-clothes-5 = Agora com aquecedores de pescoço!
 advertisement-clothes-6 = Você está parecendo elegante!
 advertisement-clothes-7 = Linda roupa que você tem lá!
+﻿advertisement-clothes-1 = Dress for success!

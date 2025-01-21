@@ -21,6 +21,5 @@ research-console-unlocks-list-entry = - [color=yellow]{$name}[/color]
 research-console-unlocks-list-entry-generic = - [color=green]{$text}[/color]
 research-console-prereqs-list-start = Requer:
 research-console-prereqs-list-entry = - [color=orchid]{$text}[/color]
-
 research-console-no-access-popup = Sem acesso!
 research-console-unlock-technology-radio-broadcast = Desbloqueado [bold]{$technology}[/bold] para [bold]{$amount}[/bold] pesquisa.

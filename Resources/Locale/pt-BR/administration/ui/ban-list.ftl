@@ -8,7 +8,6 @@ ban-list-header-role = Função
 ban-list-header-time = Tempo de ban
 ban-list-header-expires = Expira em
 ban-list-header-banning-admin = Banido por
-
 ban-list-title = Bans para {$player}
 ban-list-hidden = Ver
 ban-list-id = ID: {$id}
@@ -17,4 +16,4 @@ ban-list-hwid = HWID: {$hwid}
 ban-list-guid = GUID: {$guid}
 ban-list-permanent = PERMANENTE
 ban-list-unbanned = Desbanido: {$date}
-ban-list-unbanned-by = Por {$unbanner}
+ban-list-unbanned-by = Por {$unbanner}ban-list-view = View

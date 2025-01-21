@@ -12,16 +12,12 @@ microwave-component-suicide-message = Você cozinha sua cabeça!
 microwave-component-interact-full = Está cheio.
 microwave-component-interact-item-too-big = { CAPITALIZE(THE($item)) } é muito grande para caber no micro-ondas!
 microwave-component-upgrade-cook-time = tempo de cozinhar
-
 ## Bound UI
-
 microwave-bound-user-interface-instant-button = INSTANTÂNEO
 microwave-bound-user-interface-cook-time-label = TEMPO PARA COZER: {$time}
 microwave-menu-footer-flavor-left = Não insira nenhum eletrônico, metais ou seres vivos.
 microwave-menu-footer-flavor-right = v1.5
-
 ## UI
-
 microwave-menu-title = Micro-ondas
 microwave-menu-start-button = Começar
 microwave-menu-eject-all-text = Ejetar TODOS os recipientes

@@ -15,20 +15,15 @@ random-sentience-event-strength-5 = comando
 random-sentience-event-strength-6 = palhaço
 random-sentience-event-strength-7 = baixo
 random-sentience-event-strength-8 = IA
-
 ## Announcement text
-
 station-event-random-sentience-announcement = Baseado em { $data }, nós acreditamos que alguns seres { $amount ->
     [1] { $kind1 }
     [2] { $kind1 } e { $kind2 }
     [3] { $kind1 }, { $kind2 }, e { $kind3 }
     *[other] { $kind1 }, { $kind2 }, { $kind3 }, etc.
 } da estação desenvolveram um nível de inteligência { $strength }, e a habilidade de se comunicar.
-
 ## Ghost role description
-
 station-event-random-sentience-role-description = Você é um { $name } senciente, trazido à vida através da magia espacial.
-
 # Flavors
 station-event-random-sentience-flavor-mechanical = mecânico
 station-event-random-sentience-flavor-organic = orgânico
@@ -36,3 +31,4 @@ station-event-random-sentience-flavor-corgi = corgi
 station-event-random-sentience-flavor-primate = primata
 station-event-random-sentience-flavor-kobold = kobold
 station-event-random-sentience-flavor-slime = slime
+station-event-random-sentience-flavor-inanimate = inanimate

@@ -14,3 +14,4 @@ sandbox-window-show-spawns-button = Mostrar Spawns
 sandbox-window-show-bb-button = Mostrar BB
 sandbox-window-show-npc-button = Mostrar NPC
 sandbox-window-link-machines-button = Ligar Máquinas
+sandbox-window-ai-overlay-button = AI Overlay

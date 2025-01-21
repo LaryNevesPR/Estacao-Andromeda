@@ -9,3 +9,4 @@ admin-menu-server-tab = Servidor
 admin-menu-panic-bunker-tab = Panic Bunker
 admin-menu-players-tab = Jogadores
 admin-menu-objects-tab = Objetos
+admin-menu-baby-jail-tab = Baby Jail

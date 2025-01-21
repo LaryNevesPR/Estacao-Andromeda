@@ -15,14 +15,10 @@ game-ticker-get-info-text = Olá e bem-vindo a [color=white]Estação Pirata![/c
                             O modo de jogo atual é: [color=white]{$gmTitle}[/color]
                             >[color=yellow]{$desc}[/color]
 game-ticker-get-info-preround-text = Olá e bem-vindo a [color=white]Estação Pirata![/color]
-                            A rodada atual é: [color=white]#{$roundId}[/color]
                             A quantidade de jogadores conectados é: [color=white]{$playerCount}[/color] ([color=white]{$readyCount}[/color] {$readyCount ->
                                 [one] está
                                 *[other] estão
                             } pronto(s))
-                            O mapa atual é: [color=white]{$mapName}[/color]
-                            O modo de jogo atual é: [color=white]{$gmTitle}[/color]
-                            >[color=yellow]{$desc}[/color]
 game-ticker-no-map-selected = [color=red]Nenhum mapa selecionado![/color]
 game-ticker-player-no-jobs-available-when-joining = Ao tentar entrar no jogo, nenhum trabalho está disponível.
 game-ticker-welcome-to-the-station = Bem-vindo à estação, Tripulação, aproveitem sua estadia!
@@ -30,14 +26,17 @@ game-ticker-welcome-to-the-station = Bem-vindo à estação, Tripulação, aprov
 # Displayed in chat to admins when a player joins
 player-join-message = O jogador {$name} entrou.
 player-first-join-message = O jogador {$name} entrou pela primeira vez.
-
 # Displayed in chat to admins when a player leaves
 player-leave-message = O jogador {$name} saiu.
-
 latejoin-arrival-announcement = {$character} ({$job}) chegou a estação!
 latejoin-arrival-sender = Estação
 latejoin-arrivals-direction = Uma nave pra te transferir pra a sua estação chegará em breve.
 latejoin-arrivals-direction-time = Uma nave pra te transferir para a sua estação chegará em {$time}.
-
 preset-not-enough-ready-players = Não é possível começar {$presetName}. Esse modo requer {$minimumPlayers} jogadores mas temos apenas {$readyPlayersCount}.
 preset-no-one-ready = Não é possível começar {$presetName}. Nenhum jogador pronto.
+                            The current round is: [color=white]#{$roundId}[/color]
+                            The current player count is: [color=white]{$playerCount}[/color] ([color=white]{$readyCount}[/color] {$readyCount ->
+                            The current map is: [color=white]{$mapName}[/color]
+                            The current game mode is: [color=white]{$gmTitle}[/color]
+latejoin-arrivals-dumped-from-shuttle = A mysterious force prevents you from leaving with the arrivals shuttle.
+latejoin-arrivals-teleport-to-spawn = A mysterious force teleports you off the arrivals shuttle. Have a safe shift!

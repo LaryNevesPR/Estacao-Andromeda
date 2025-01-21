@@ -13,9 +13,7 @@ disposal-mailing-unit-unit-self-reference = Essa unidade:
 disposal-mailing-unit-is-valid-interaction-cannot-interact = Você não pode fazer isso!
 disposal-mailing-unit-is-valid-interaction-cannot-reach = Você não alcança ali!
 disposal-mailing-unit-is-valid-interaction-no-hands = Você não tem mãos.
-
 ui-mailing-unit-window-title = {$tag} unidade de correspondência
-
 ui-mailing-unit-button-flush = Enviar
 ui-mailing-unit-destination-select-label = Selecione o destino:
 ui-mailing-unit-self-reference-label = Essa unidade:

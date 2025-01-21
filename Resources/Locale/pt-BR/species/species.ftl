@@ -11,3 +11,6 @@ species-name-moth = Pessoa Mariposa
 species-name-skeleton = Esqueleto
 species-name-vox = Vox
 species-name-daengati = Daengati
+species-name-ipc = IPC
+species-name-shadowkin = Shadowkin
+snail-hurt-by-salt-popup = The salty solution burns like acid!

@@ -6,12 +6,9 @@ cult-rune-not-enough-cultists = Not enough cultists to perform the ritual!
 cult-rune-no-targets = No targets have been found!
 
 cult-teleport-not-found = No runes found.
-
 cult-revive-rune-no-charges = Can not perform the revive ritual: no charges left.
 cult-revive-rune-already-alive = The target is already alive.
-
 cult-buff-already-buffed = You are already empowered.
-
 cult-rending-drawing-finished = The Geometer Of Blood has finished drawing the rune of end {$location}!
 cult-rending-target-alive = Can not start the ritual: the target is alive.
 cult-rending-already-summoning = Can not start the ritual: it's already in progress.

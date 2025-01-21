@@ -14,10 +14,8 @@ time-transfer-panel-checkbox-group = Group
 time-transfer-overall-checkbox = Overall
 time-transfer-panel-search-placeholder = Search jobs
 
-
 cmd-timetransferpanel-desc = Opens time transfer menu
 admin-player-actions-window-time-transfer = Time Transfer
 time-transfer-panel-no-player-database-message = Player not found in database
-
 # Please change it if you really-really need to do it
 time-transfer-panel-author = Made by BombasterDS for Goobstation

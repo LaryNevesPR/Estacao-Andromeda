@@ -2,9 +2,7 @@
 
 gas-analyzer-component-player-cannot-reach-message = Você não consegue alcançar.
 gas-analyzer-shutoff = O analisador de gás desligou.
-
 ## UI
-
 gas-analyzer-window-name = Analisador de Gás
 gas-analyzer-window-environment-tab-label = Ambiente
 gas-analyzer-window-tab-title-capitalized = {CAPITALIZE($title)}
@@ -22,11 +20,11 @@ gas-analyzer-window-percentage-column-name = %
 gas-analyzer-window-molarity-text = {$mol}
 gas-analyzer-window-percentage-text = {$percentage}
 gas-analyzer-window-molarity-percentage-text = {$gasName}: {$amount} mol ({$percentage}%)
-
 # Used for GasEntry.ToString()
 gas-entry-info = {$gasName}: {$gasAmount} mol
-
 # overrides for trinary devices to have saner names
 gas-analyzer-window-text-inlet = Entrada
 gas-analyzer-window-text-outlet = Saída
 gas-analyzer-window-text-filter = Filtro
+gas-analyzer-window-volume-text = Volume:
+gas-analyzer-window-volume-val-text = {$volume} L

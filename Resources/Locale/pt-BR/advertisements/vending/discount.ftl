@@ -15,3 +15,4 @@ thankyou-discount-5 = Por favor, não nos processe!
 thankyou-discount-6 = Juramos que era assim quando o estocamos!
 thankyou-discount-7 = Sim, boa sorte com isso.
 thankyou-discount-8 = Aproveite o seu, uh ... "lanche".
+﻿advertisement-discount-1 = Discount Dan, he's the man!

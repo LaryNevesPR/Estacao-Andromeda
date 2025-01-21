@@ -10,3 +10,4 @@ admin-player-actions-bans = Ban List
 admin-player-actions-clone = Clone
 admin-player-actions-follow = Seguir
 admin-player-actions-confirm = Tem certeza?
+admin-player-actions-player-panel = Open Player Panel

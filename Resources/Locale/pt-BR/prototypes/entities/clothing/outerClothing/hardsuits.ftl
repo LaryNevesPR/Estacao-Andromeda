@@ -23,28 +23,20 @@ ent-ClothingOuterHardsuitSecurity = FPA-83s - "Baghatur" tacsuit
     The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitBrigmedic = FPA-84m - "Tsagaan" tacsuit
     .desc = A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, used by doctors in the Nanotrasen security force.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitCombatStandard = FPA-85 - "Baghatur Mk.II" tacsuit
     .desc = A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitCombatOfficer = FPA-85s - "Baghatur Mk.II" tacsuit
     .desc = A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, painted with the colors of station security.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitCombatMedical = FPA-86 - "Tsagaan Mk.II" tacsuit
-    .desc = A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitCombatCorpsman = FPA-86m - "Tsagaan Mk.II" tacsuit
     .desc = A sturdy tactical combat hardsuit mass-produced by Five-Points-Armory, painted with the colors of station security & medical staff.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels heavy.
 ent-ClothingOuterHardsuitWarden = FPA-92s - "Sulde" tacsuit
     .desc = A specialized tactical combat hardsuit produced by Five-Points-Armory, often used by Wardens in Nanotrasen stations.
     The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitCombatRiot = FPA-93 - "Sulde Mk.II" tacsuit
     .desc = A specialized tactical combat hardsuit produced by Five-Points-Armory.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitCombatWarden = FPA-93s - "Sulde Mk.II" tacsuit
     .desc = A specialized tactical combat hardsuit produced by Five-Points-Armory, painted with the colors of station security.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitCap = NT-42c - "Tengri" tacsuit
     .desc = A formal, tactical combat hardsuit, made in collaboration by Nanotrasen's R&D department with Five-Points-Armory for station captains.
     The labels indicate that it provides protection against most forms of damage. It feels somewhat light.
@@ -64,10 +56,8 @@ ent-ClothingOuterHardsuitSecurityRed = FPA-98s - "Dayicin" tacsuit
     The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
 ent-ClothingOuterHardsuitCombatAdvanced = FPA-99 - "Dayicin Mk.II" tacsuit
     .desc = A top-of-the-line tactical combat hardsuit produced by Five-Points-Armory.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
 ent-ClothingOuterHardsuitCombatHoS = FPA-99s - "Dayicin Mk.II" tacsuit
     .desc = A top-of-the-line tactical combat hardsuit produced by Five-Points-Armory, painted with the colors of station security.
-    The tags on the suit indicate that its rated for moderate amounts of physical and explosion damage. It feels somewhat light.
 ent-ClothingOuterHardsuitLuxury = HpI-20c - "Minos" hardsuit
     .desc = A modified mining hardsuit from Hephaestus Industries, fashioned after the Logistics Officer's colors.
     The labels indicate that it provides slight protection against most forms of damage. It feels incredibly light.
@@ -75,10 +65,8 @@ ent-ClothingOuterHardsuitSyndie = CSA-51a - "Shanlin" tacsuit
     .desc = A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     This one has been painted blood red. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieReverseEngineered = CSA-51a - "Shanlin" tacsuit
-    .desc = A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
         This one has been painted blue. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieMedic = CSA-51m - "Zhongyao" tacsuit
-    .desc = A tactical combat hardsuit produced by the Cybersun-Armaments Corporation, the suit's tags indicate it provides moderate protection against most forms of damage.
     Half of the suit is painted blood red, the rest bears galactic-standard medical markings. It feels incredibly light.
 ent-ClothingOuterHardsuitSyndieElite = CSA-54UA - "Shiwei" tacsuit
     .desc = An "Up-Armored" tactical combat hardsuit produced by the Cybersun-Armaments Corporation.
@@ -91,8 +79,6 @@ ent-ClothingOuterHardsuitJuggernaut = CSA-80UA - "Guan Yu" tacsuit
     .desc = The pride and joy of the Cybersun-Armaments Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
     Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
 end-ClothingOuterHardsuitJuggernautReverseEngineered = CSA-80UA - "Guan Yu" tacsuit
-    .desc = The pride and joy of the Cybersun-Armaments Corporation, named after an ancient Sol' War God. Commonly known throughout the galaxy as a "Juggernaut".
-        Matching its bulky appearance, it protects against all forms of damage. It feels VERY heavy.
 ent-ClothingOuterHardsuitWizard = WZD-84 - "Mana" tacsuit
     .desc = A bizarre gem-encrusted hardsuit. Famously used by members of the Wizard Federation in their operations.
     Contrary to it's appearance, it can protect its wearer from space and considerable amounts of physical trauma, it feels somewhat light.
@@ -109,19 +95,14 @@ ent-ClothingOuterHardsuitERTCentcomm = NT-444c - "Ophanim" tacsuit
     The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTLeader = NT-444l - "Michael" tacsuit
     .desc = A highly advanced, tactical combat hardsuit used by Leaders of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-    The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTEngineer = NT-444e - "Uriel" hardsuit
     .desc = A highly advanced hardsuit used by Engineers of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-    The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTMedical = NT-444m - "Raphael" hardsuit
     .desc = A highly advanced hardsuit used by Doctors of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-    The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTSecurity = NT-444s - "Gabriel" tacsuit
     .desc = A highly advanced, tactical combat hardsuit used by Security Officers of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-    The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitERTJanitor = NT-444j - "Sandalphon" hardsuit
     .desc = A highly advanced hardsuit used by Janitors of the Emergency Response Team, it seems to be branded with the Nanotrasen logo and a strange looking series number.
-    The armor appears to be lined with a very sturdy alloy, it doesn't seem to have any weight either.
 ent-ClothingOuterHardsuitDeathsquad = NT-662ua "Samael" tacsuit
     .desc = A highly advanced, top of the line tactical combat hardsuit, it seems to be branded with the Nanotrasen logo and a strange looking series number.
     You can barely make out the letters "NTIA-DAP" written on it. The armor appears to be lined with a very sturdy alloy, and doesn't seem to have any weight either.

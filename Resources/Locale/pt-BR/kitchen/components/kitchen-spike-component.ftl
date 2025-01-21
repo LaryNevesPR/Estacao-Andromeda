@@ -5,14 +5,10 @@ comp-kitchen-spike-deny-not-dead = { CAPITALIZE(THE($victim)) } não pode ser co
 
 comp-kitchen-spike-begin-hook-victim = { THE($user) } está colocando você no { THE($this) }!
 comp-kitchen-spike-begin-hook-self = Você está se colocando no { THE($this) }!
-
 comp-kitchen-spike-kill = { CAPITALIZE(THE($user)) } jogou { THE($victim) } dentro do espinho, matando-o na mesma hora!
-
 comp-kitchen-spike-suicide-other = { CAPITALIZE(THE($victim)) } jogou a si mesmo no espinho de carne!
 comp-kitchen-spike-suicide-self = Você se joga no espinho de carne!
-
 comp-kitchen-spike-knife-needed = Você precisa de uma faca para isso.
 comp-kitchen-spike-remove-meat = Você removeu um pedaço de carne de { THE($victim) }.
 comp-kitchen-spike-remove-meat-last = Você removeu o ultimo pedaço de carne de { THE($victim) }!
-
 comp-kitchen-spike-meat-name = { $name } ({ $victim })

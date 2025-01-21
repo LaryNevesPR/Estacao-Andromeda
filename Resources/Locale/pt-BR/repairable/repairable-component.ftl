@@ -5,6 +5,4 @@ comp-repairable-repair = Você repara {PROPER($target) ->
   [true] {""}
   *[false] o{" "}
 }{$target} com, {PROPER($tool) ->
-  [true] {""}
-  *[false] o{" "}
 }{$tool}

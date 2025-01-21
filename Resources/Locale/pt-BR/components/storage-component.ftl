@@ -8,3 +8,5 @@ comp-storage-cant-drop = Você não consegue se livrar de { THE($entity) }!
 comp-storage-window-title = Armazenar Item
 comp-storage-window-weight = { $weight }/{ $maxWeight }, Tamanho máximo: {$size}
 comp-storage-window-slots = Slots: { $itemCount }/{ $maxCount }, Tamanho máximo: {$size}
+comp-storage-verb-open-storage = Open Storage
+comp-storage-verb-close-storage = Close Storage

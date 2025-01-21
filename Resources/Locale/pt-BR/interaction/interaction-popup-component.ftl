@@ -1,10 +1,8 @@
 ### Interaction Popup component
 
 ## Petting animals
-
 petting-success-generic = Você acaricia {THE($target)} em sua cabeça.
 petting-success-soft-floofy = Você acaricia {THE($target)} levemente em sua cabeça macia.
-
 petting-success-bingus = Você acaricia {THE($target)} em sua cabecinha enrugada.
 petting-success-bird = Você acaricia {THE($target)} em sua cabeça emplumada.
 petting-success-carp = Você acaricia {THE($target)} em sua cabecinha de peixe.
@@ -32,9 +30,7 @@ petting-success-slimes = Voce acaricia {THE($target)} em sua superfície mucosa.
 petting-success-snake = Você acaricia {THE($target)} na cabeça escamosa e grande.
 petting-success-monkey = Você acaricia {THE($target)} em sua travessa cabecinha.
 petting-success-nymph = Você acaricia {THE($target)} em sua cabecinha emadeirada.
-
 petting-failure-generic = Você tenta acariciar {THE($target)}, mas ele(a) se distância de você.
-
 petting-failure-bat = Você tenta acariciar {THE($target)}, mas ele(a) é muito difícil de pegar!
 petting-failure-carp = Você tenta acariciar {THE($target)}, mas ele(a) dentes afiados fazem você pensar duas vezes.
 petting-failure-corrupted-corgi = Você tenta acariciar {THE($target)}, mas pensa melhor sobre isso.
@@ -55,31 +51,43 @@ petting-failure-monkey = Você tenta acariciar {THE($target)}, mas {SUBJECT($tar
 petting-failure-nymph = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} move seus galhos para longe.
 petting-failure-shadow = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} mas sua mão passa através da fria escuridão de seu corpo.
 petting-failure-pibble = Você tenta acariciar {THE($target)}, e {SUBJECT($target)} avança em você!
-
 ## Petting silicons
-
 petting-success-honkbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal escorregadia.
 petting-success-mimebot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal frio.
 petting-success-cleanbot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal úmido.
 petting-success-medibot = Você acaricia {THE($target)} em {POSS-ADJ($target)} cabeça de metal estéril.
 petting-success-recycler = Você acaricia {THE($target)} em {POSS-ADJ($target)} exterior de aço levemente ameaçador.
-
 petting-failure-honkbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} buzina em recusa!
 petting-failure-cleanbot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado esfregando!
 petting-failure-mimebot = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} {CONJUGATE-BE($target)} ocupado imitando!
 petting-failure-medibot = Você tenta acariciar {THE($target)}, mas {POSS-ADJ($target)} seringa quase fura sua mão!
-
 ## Rattling fences
-
 fence-rattle-success = *chocalha*
-
 ## Hugging players
-
 hugging-success-generic = Você abraça {THE($target)}.
 hugging-success-generic-others = { CAPITALIZE(THE($user)) } abraçou {THE($target)}.
 hugging-success-generic-target = { CAPITALIZE(THE($user)) } te abraçou.
-
 ## Other
-
 petting-success-tesla = Você acaricia {THE($target)}, violando as leis da natureza e da física.
 petting-failure-tesla = Você estende a mão em direção a {THE($target)}, mas ela zapeia sua mão para longe.
+petting-success-firebot = You pet {THE($target)} on {POSS-ADJ($target)} warm metal head.
+petting-success-generic-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} metal head.
+petting-success-salvage-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} dirty metal head.
+petting-success-engineer-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} reflective metal head.
+petting-success-janitor-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} damp metal head.
+petting-success-medical-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} sterile metal head.
+petting-success-service-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} dapper looking metal head.
+petting-success-syndicate-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} menacing metal head.
+petting-success-derelict-cyborg = You pet {THE($target)} on {POSS-ADJ($target)} rusty metal head.
+petting-success-station-ai = You pet {THE($target)} on {POSS-ADJ($target)} cold, square screen.
+petting-failure-firebot = You reach out to pet {THE($target)}, but {SUBJECT($target)} sprays you in the face before you can get close!
+petting-failure-generic-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy stating laws!
+petting-failure-salvage-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy drilling!
+petting-failure-engineer-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy repairing!
+petting-failure-janitor-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy cleaning!
+petting-failure-medical-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy saving lives!
+petting-failure-service-cyborg = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BE($target)} busy serving others!
+petting-failure-syndicate-cyborg = You reach out to pet {THE($target)}, but {POSS-ADJ($target)} treacherous affiliation makes you reconsider.
+petting-failure-derelict-cyborg = You reach out to pet {THE($target)}, but {POSS-ADJ($target)} rusty and jagged exterior makes you reconsider.
+petting-failure-station-ai = You reach out to pet {THE($target)}, but {SUBJECT($target)} {CONJUGATE-BASIC($target, "zap", "zaps")} your hand away.
+petting-success-station-ai-others = { CAPITALIZE(THE($user)) } pets {THE($target)} on {POSS-ADJ($target)} cold, square screen.

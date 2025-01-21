@@ -18,3 +18,5 @@ thankyou-snack-2 = Aproveite seu produto!
 thankyou-snack-3 = Tenha um bom lanche.
 thankyou-snack-4 = Delícia!
 thankyou-snack-6 = Obrigado por comprar nossos lanches!
+﻿advertisement-snack-1 = Try our new nougat bar!
+thankyou-snack-5 = Yummy!

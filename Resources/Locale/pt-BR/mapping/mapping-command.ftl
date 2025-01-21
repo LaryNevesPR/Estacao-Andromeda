@@ -6,7 +6,6 @@ cmd-mapping-success-load = Mapa não inicializado do arquivo {$path} com ID {$ma
 cmd-mapping-success = Mapa não inicializado criado com ID {$mapId}.
 cmd-mapping-warning = AVISO: O servidor está usando uma versão debug. Você corre o risco de perder suas mudanças.
 
-
 # duplicate text from engine load/save map commands.
 # I CBF making this PR depend on that one.
 cmd-mapping-failure-integer = {$arg} não é um integer válido.

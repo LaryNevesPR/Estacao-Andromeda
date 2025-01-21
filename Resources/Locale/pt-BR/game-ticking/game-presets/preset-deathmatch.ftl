@@ -4,7 +4,6 @@ death-match-description = Mate qualquer coisa que se mova! O roleplay normal nã
 death-match-name-player = [bold]{$name}[/bold] ([italic]{$username}[/italic])
 death-match-name-npc = [bold]{$name}[/bold]
 death-match-assist = {$primary}, assistido por {$secondary},
-
 death-match-kill-callout-0 = {CAPITALIZE($killer)} assassinou {$victim}!
 death-match-kill-callout-1 = {CAPITALIZE($killer)} matou {$victim}!
 death-match-kill-callout-2 = {CAPITALIZE($killer)} fragmentou {$victim}!

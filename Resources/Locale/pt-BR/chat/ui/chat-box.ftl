@@ -15,7 +15,6 @@ hud-chatbox-select-channel-OOC = OOC
 hud-chatbox-select-channel-Damage = Dano
 hud-chatbox-select-channel-Visual = Ações
 hud-chatbox-select-channel-Radio = Rádio
-
 hud-chatbox-channel-Admin = Misc Admin
 hud-chatbox-channel-AdminAlert = Alerta Admin
 hud-chatbox-channel-AdminChat = Admin Chat

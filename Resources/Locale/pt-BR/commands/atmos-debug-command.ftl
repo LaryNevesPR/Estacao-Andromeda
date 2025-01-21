@@ -10,7 +10,6 @@ cmd-atvmode-error-invalid = Modo inválido
 cmd-atvmode-error-target-gas = Um gás alvo deve ser fornecido para este modo.
 cmd-atvmode-error-out-of-range = ID do gás não analisável ou fora do intervalo.
 cmd-atvmode-error-info = Nenhuma informação adicional é necessária para este modo.
-
 cmd-atvcbm-desc = Mudanças de vermelho/verde/azul para escala de cinza
 cmd-atvcbm-help = Uso: {$command} <true/false>
 cmd-atvcbm-error = Sinalizador inválido

@@ -6,3 +6,7 @@ player-tab-playtime = Tempo de Jogo
 player-tab-show-disconnected = Mostrar desconectados
 player-tab-overlay = Sobreposição
 player-tab-entry-tooltip = O tempo de jogo é exibido em dias:horas:minutos.
+﻿player-tab-username = Username
+player-tab-filter-line-edit-placeholder = Filter
+player-tab-is-antag-yes = YES
+player-tab-is-antag-no = NO

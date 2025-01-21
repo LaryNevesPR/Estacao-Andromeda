@@ -6,3 +6,4 @@ advertisement-sectech-5 = Todos nós adoramos de poder!
 thankyou-sectech-1 = Dê um inferno neles!
 thankyou-sectech-2 = Vá fazer cumprir a lei!
 thankyou-sectech-3 = Vá prender espectadores inocentes!
+﻿advertisement-sectech-1 = Crack communist skulls!

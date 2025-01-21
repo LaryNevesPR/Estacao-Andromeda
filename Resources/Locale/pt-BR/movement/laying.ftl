@@ -5,3 +5,4 @@ laying-comp-lay-fail-self = Você não pode se deitar agora.
 laying-comp-stand-success-self = Você se levanta.
 laying-comp-stand-success-other = {THE($entity)} se levanta.
 laying-comp-stand-fail-self = Você não pode se levantar agora.
+crawling-under-tables-disabled-popup = Crawling under tables is disabled on this server.

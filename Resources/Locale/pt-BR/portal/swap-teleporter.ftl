@@ -7,7 +7,6 @@ swap-teleporter-popup-teleport-cancel-link = Não está vinculado a outro dispos
 swap-teleporter-popup-teleport-other = {CAPITALIZE(THE($entity))} é ativado e você se encontra em outro lugar.
 
 swap-teleporter-verb-destroy-link = Destruir Link Quântico
-
 swap-teleporter-examine-link-present = [color=forestgreen]Ele está vinculado a outro dispositivo.[/color] Alt-Clique para quebrar o link quântico.
 swap-teleporter-examine-link-absent = [color=yellow]Não está vinculado no momento.[/color] Use em outro dispositivo para estabelecer um link quântico.
 swap-teleporter-examine-time-remaining = Tempo restante para recarregar: [color=purple]{$second} segundo{$second ->

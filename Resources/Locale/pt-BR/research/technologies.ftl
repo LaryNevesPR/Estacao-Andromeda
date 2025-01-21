@@ -21,7 +21,6 @@ research-technology-super-powercells = Super Baterias
 research-technology-bluespace-storage = Armazenamento Bluespace
 research-technology-portable-fission = Fissão Portátil
 research-technology-space-scanning = Escaneamento Espacial
-
 research-technology-salvage-weapons = Armas de Salvatagem
 research-technology-draconic-munitions = Munições Dracônicas
 research-technology-uranium-munitions = Munições de Urânio
@@ -36,7 +35,6 @@ research-technology-portable-microfusion-weaponry = Armamento portátil de micro
 research-technology-experimental-battery-ammo = Munição de Bateria Experimental
 research-technology-basic-shuttle-armament = Armamento básico de naves
 research-technology-advanced-shuttle-weapon = Armas avançadas de naves
-
 research-technology-basic-robotics = Robótica Básica
 research-technology-basic-anomalous-research = Pesquisa de Anomalias Básica
 research-technology-basic-xenoarcheology = XenoArqueologia Básica
@@ -53,7 +51,6 @@ research-technology-rped = Troca Rápida de Peças
 research-technology-super-parts = Super Peças
 research-technology-deterrence = Tecnologias de Dissuasão
 research-technology-medipen-refilling = Recarregamento de Medipens
-
 research-technology-janitorial-equipment = Equipamentos para Zeladoria
 research-technology-laundry-tech = Tecnologia de Lavanderia
 research-technology-basic-hydroponics = Hidroponia Básica
@@ -72,3 +69,7 @@ research-technology-advanced-spray = Spray Avançado
 research-technology-bluespace-cargo-transport = Bluespace Transporte de Cargas
 research-technology-quantum-fiber-weaving = Tecelagem de fibra quântica
 research-technology-bluespace-chemistry = Química Bluespace
+research-technology-excavation = Mass Excavation
+research-technology-advanced-bluespace = Advanced Bluespace Research
+research-technology-night-vision = Night vision
+research-technology-thermal-vision = Thermal vision

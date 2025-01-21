@@ -8,15 +8,10 @@ loadout-name-LoadoutAtmosphericTechnicianBeltUtility = utility belt (empty)
 loadout-name-LoadoutAtmosphericTechnicianBeltUtilityAtmos = utility belt (filled, Atmospheric Tools)
 loadout-description-LoadoutAtmosphericTechnicianBeltUtilityAtmos =
     This standard engineering belt includes a holofan emitter, as well as a gas analyzer instead of a multitool.
-
 loadout-name-LoadoutChiefEngineerBelt = advanced utility belt (empty)
 loadout-name-LoadoutChiefEngineerBeltFilled = advanced utility belt (filled)
-
 loadout-name-LoadoutSeniorEngineerBeltUtility = utility belt (empty)
 loadout-name-LoadoutSeniorEngineerBeltUtilityEngineering = utility belt (filled)
 loadout-name-LoadoutSeniorEngineerBeltUtilityAtmos = utility belt (filled, Atmospheric Tools)
 loadout-description-LoadoutSeniorEngineerBeltUtilityAtmos =
-    This standard engineering belt includes a holofan emitter, as well as a gas analyzer instead of a multitool.
-
 loadout-name-LoadoutEngineeringBeltUtilityAtmos = utility belt (filled, Atmospheric Tools)
-

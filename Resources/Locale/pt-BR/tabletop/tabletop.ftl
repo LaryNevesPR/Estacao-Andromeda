@@ -8,16 +8,12 @@ tabletop-added-piece = A placa brilha intensamente!
 ## Chess
 tabletop-chess-board-name = Xadrez
 tabletop-chess-flip = Virar
-
 ## Parchís
 tabletop-parchis-board-name = Parchis
-
 ## Backgammon
 tabletop-backgammon-board-name = Gamão
-
 ## Checkers
 tabletop-checkers-board-name = Damas
-
 ## Battlemap
 tabletop-battlemap-board-name = Battlemap
 ## Shogi

@@ -9,7 +9,6 @@ materials-steel = aço
 materials-gold = ouro
 materials-silver = prata
 materials-plasteel = plastiaço
-
 # Other
 materials-biomass = biomassa
 materials-cardboard = papelão
@@ -26,7 +25,6 @@ materials-web = seda
 materials-bones = osso
 materials-coal = carvão
 materials-gunpowder = pólvora
-
 # Ores
 materials-raw-iron = ferro bruto
 materials-raw-quartz = quartzo bruto
@@ -36,3 +34,9 @@ materials-raw-plasma = plasma bruto
 materials-raw-uranium = urânio bruto
 materials-raw-bananium = bananium bruto
 materials-raw-salt = sal em pedras
+materials-diamond = diamond
+materials-bluespace = bluespace
+materials-normality = normality
+materials-raw-bluespace = raw bluespace
+materials-raw-normality = raw normality
+material-reclaimer-upgrade-process-rate = process rate

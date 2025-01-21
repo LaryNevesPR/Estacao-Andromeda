@@ -2,12 +2,9 @@
 
 chem-master-component-activate-no-hands = Você não tem mãos.
 chem-master-component-cannot-put-entity-message = Você não pode pôr isso no ChemMaster!
-
 ## Bound UI
 chem-master-bound-user-interface-title = ChemMaster 4000
-
 ## UI
-
 chem-master-window-input-tab = Entrada
 chem-master-window-output-tab = Saída
 chem-master-window-container-label = Container

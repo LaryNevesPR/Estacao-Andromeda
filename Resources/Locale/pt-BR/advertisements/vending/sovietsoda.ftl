@@ -7,3 +7,4 @@ advertisement-sovietsoda-6 = Se for bom o suficiente para a vida cotidiana, é b
 thankyou-sovietsoda-1 = Aproveite, camarada!
 thankyou-sovietsoda-2 = Agora volte ao trabalho.
 thankyou-sovietsoda-3 = Isso é tudo o que você está recebendo.
+﻿advertisement-sovietsoda-1 = For comrade and country.

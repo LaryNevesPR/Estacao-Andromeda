@@ -4,3 +4,5 @@ survival-description = Sem ameaças internas, mas por quanto tempo a estação s
 survival-round-end-result = A tripulação teve que sobreviver por {$minutes} minutos.
 survival-success = [color=green]Sucesso![/color]
 survival-failure = [color=red]Fracasso![/color] ({$progress}%)
+hellshift-title = Hellshift
+hellshift-description = The station rolled a "one" in a luck check. Can the crew make it to the end?

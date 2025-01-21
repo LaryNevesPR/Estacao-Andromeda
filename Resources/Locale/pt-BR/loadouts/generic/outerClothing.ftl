@@ -9,7 +9,6 @@ loadout-name-LoadoutOuterCoatWinterCoat = winter coat (colorable)
 loadout-name-LoadoutOuterCoatHyenhSweater = sweater (colorable)
 loadout-name-LoadoutOuterWinterCoatLong = long winter coat (colorable)
 loadout-name-LoadoutOuterCoatMNKWhiteHoodie = MNK hoodie (colorable)
-
 loadout-name-LoadoutOuterSuitJacket = suit jacket (colorable)
 loadout-name-LoadoutOuterSuitJacketOpened = suit jacket, opened (colorable)
 loadout-name-LoadoutOuterCoatModern = modern coat (colorable)

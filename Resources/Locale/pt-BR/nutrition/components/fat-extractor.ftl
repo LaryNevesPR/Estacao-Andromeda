@@ -4,3 +4,4 @@ fat-extractor-fact-3 = Estar acima do peso ou obeso aumenta o risco de doenças 
 fat-extractor-fact-4 = Nem todas as gorduras são ruins. Uma certa quantidade de gordura é uma parte essencial de uma dieta saudável e equilibrada.
 fat-extractor-fact-5 = A gordura saturada não deve constituir mais de 11% de suas calorias diárias.
 fat-extractor-fact-6 = A gordura insaturada, ou seja, gorduras monoinsaturadas, gorduras poliinsaturadas e ácidos graxos ômega-3, é encontrada em plantas e peixes.
+fat-extractor-component-rate = extraction rate

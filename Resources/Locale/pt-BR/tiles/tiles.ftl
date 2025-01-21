@@ -124,3 +124,7 @@ tiles-chromite = cromita
 tiles-astro-grass = astro-grama
 tiles-astro-ice = astro-gelo
 tiles-wood-large = madeira grande
+tiles-grey-shuttle-floor = grey shuttle floor
+tiles-mowed-astro-grass = mowed astro-grass
+tiles-jungle-astro-grass = jungle astro-grass
+tiles-astro-snow = astro-snow

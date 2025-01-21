@@ -20,9 +20,6 @@ guidebook-reagent-recipes-mix-info = {$minTemp ->
     [0] {$hasMax ->
             [true] {CAPITALIZE($verb)} abaixo de {NATURALFIXED($maxTemp, 2)}K
             *[false] {CAPITALIZE($verb)}
-        }
     *[other] {CAPITALIZE($verb)} {$hasMax ->
             [true] entre {NATURALFIXED($minTemp, 2)}K e {NATURALFIXED($maxTemp, 2)}K
             *[false] acima de {NATURALFIXED($minTemp, 2)}K
-        }
-}

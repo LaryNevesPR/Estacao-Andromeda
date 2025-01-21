@@ -5,9 +5,7 @@ injector-inject-text = Injetar
 injector-invalid-injector-toggle-mode = Inválido
 injector-volume-label = Volume: [color=white]{$currentVolume}/{$totalVolume}[/color]
     Mode: [color=white]{$modeString}[/color] ([color=white]{$transferVolume}u[/color])
-
 ## Entity
-
 injector-component-drawing-text = Agora puxando
 injector-component-injecting-text = Agora injetando
 injector-component-cannot-transfer-message = Você não consegue transferir para {$target}!
@@ -20,12 +18,12 @@ injector-component-target-already-full-message = {$target} já está cheio!
 injector-component-target-is-empty-message = {$target} está vazio!
 injector-component-target-cannot-toggle-draw-message = Cheio demais para puxar!
 injector-component-target-cannot-toggle-inject-message = Nada para injetar!
-
 ## mob-inject doafter messages
-
 injector-component-drawing-user = Você começa a puxar com a agulha.
 injector-component-injecting-user = Você começa a injetar com a agulha.
 injector-component-drawing-target = {CAPITALIZE(THE($user))} está tentando te injetar algo com uma agulha!
 injector-component-injecting-target = {CAPITALIZE(THE($user))} está tentando tirar seu sangue com uma agulha!
 ## failure
 injector-component-failure-hardsuit = Você não consege perfurar a chapa de aço com a agulha!
+injector-component-cannot-toggle-draw-message = Too full to draw!
+injector-component-cannot-toggle-inject-message = Nothing to inject!

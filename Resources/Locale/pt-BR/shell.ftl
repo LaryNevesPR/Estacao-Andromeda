@@ -1,7 +1,6 @@
 ### for technical and/or system messages
 
 ## General
-
 shell-server-cannot = O servidor não pode fazer isso.
 shell-command-success = O comando foi um sucesso.
 shell-invalid-command = Comando inválido.
@@ -9,9 +8,7 @@ shell-invalid-command-specific = {$commandName} comando inválido.
 shell-cannot-run-command-from-server = Você não pode executar esse comando do servidor.
 shell-only-players-can-run-this-command = Apenas jogadores podem executar esse comando.
 shell-must-be-attached-to-entity = Você deve estar vinculado a uma entidade para executar este comando.
-
 ## Arguments
-
 shell-need-exactly-one-argument = Precisa de um argumento.
 shell-wrong-arguments-number-need-specific = Precisa de {$properAmount} argumentos, os argumentos foram {$currentAmount}.
 shell-argument-must-be-number = Argumento precisa ser um numero.
@@ -20,11 +17,8 @@ shell-wrong-arguments-number = Numero errado de argumentos.
 shell-need-between-arguments = Precisa de {$lower} para {$upper} argumentos!
 shell-need-minimum-arguments = Precisa pelo menos {$minimum} argumentos!
 shell-need-minimum-one-argument = Precisa de pelo menos um argumento!
-
 shell-argument-uid = EntityUid
-
 ## Guards
-
 shell-entity-is-not-mob = A entidade alvo não é um mob!
 shell-invalid-entity-id = ID de entidade inválido.
 shell-invalid-grid-id = ID de grid inválido.
@@ -44,6 +38,6 @@ shell-argument-number-must-be-between = Argumento {$index} precisa ser um numero
 shell-argument-station-id-invalid = Argumento {$index} precisa ser um id de estação válido!
 shell-argument-map-id-invalid = Argumento {$index} precisa ser um id de mapa válido!
 shell-argument-number-invalid = Argumento {$index} precisa ser um numero válido!
-
 # Hints
 shell-argument-username-hint = <nome de usuário>
+shell-argument-username-optional-hint = [username]

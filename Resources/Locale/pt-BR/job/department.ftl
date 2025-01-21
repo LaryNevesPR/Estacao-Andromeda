@@ -6,3 +6,4 @@ department-Medical = Médicos
 department-Security = de Segurança
 department-Science = de Pesquisa & Desenvolvimento
 department-Specific = Específicos da Estação
+department-Silicon = Silicons

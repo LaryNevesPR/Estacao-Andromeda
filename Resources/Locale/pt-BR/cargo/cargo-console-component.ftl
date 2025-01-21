@@ -30,7 +30,6 @@ cargo-console-snip-snip = Limite de encomendas alcançado
 cargo-console-insufficient-funds = Créditos insuficientes (necessita {$cost})
 cargo-console-unfulfilled = Sem espaço para cumprir a ordem
 cargo-console-trade-station = Enviado para {$destination}
-
 cargo-console-paper-print-name = Encomenda #{$orderNumber}
 cargo-console-paper-print-text =
     Encomenda #{$orderNumber}
@@ -38,10 +37,11 @@ cargo-console-paper-print-text =
     Pedido por: {$requester}
     Justificativa: {$reason}
     Aprovado por: {$approver}
-
 # Cargo shuttle console
 cargo-shuttle-console-menu-title = Console da Nave da Cargo
 cargo-shuttle-console-station-unknown = Desconhecida
 cargo-shuttle-console-shuttle-not-found = Não encontrada
 cargo-shuttle-console-organics = Formas de vida orgânica encontradas na nave
 cargo-no-shuttle = Nenhuma nave de carga encontrada!
+cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], which cost [bold]{$cost}[/bold], was approved by [bold]{$approver}[/bold]
+cargo-telepad-delay-upgrade = Teleport delay

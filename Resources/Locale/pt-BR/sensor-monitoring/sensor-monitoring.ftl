@@ -9,5 +9,4 @@ sensor-monitoring-value-display = {$unit ->
     [Moles] { TOSTRING($value, "N3") } mol
     *[Other] { $value }
 }
-
 # ({ TOSTRING(SUB($value, 273.15), "N3") } °C)

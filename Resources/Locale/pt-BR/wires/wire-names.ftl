@@ -42,7 +42,6 @@ wires-board-name-spaceheater = Aquecedor de Ambiente
 wires-board-name-medipenrefiller = MedipenRefiller
 
 # names that get displayed in the wire hacking hud & admin logs.
-
 wire-name-access = ACS
 wire-name-arcade-overflow = SLMT
 wire-name-air-alarm-panic = PANC
@@ -67,3 +66,8 @@ wire-name-bomb-boom = BOOM
 wire-name-bomb-bolt = PINO
 wire-name-speech = SOM
 wire-name-listen = MIC
+wires-board-name-jukebox = Jukebox
+wires-board-name-computer = Computer
+wires-board-name-holopad = Holopad
+wires-board-name-barsign = Bar Sign
+wire-name-log = LOG

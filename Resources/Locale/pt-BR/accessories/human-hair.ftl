@@ -190,3 +190,4 @@ marking-HumanHairVlongfringe = Muito Longo Com Franja
 marking-HumanHairVolaju = Desarrumado
 marking-HumanHairWisp = Ariana Grande
 marking-HumanHairUneven = Desigual
+marking-HumanHairSpookyLong = Spooky Long

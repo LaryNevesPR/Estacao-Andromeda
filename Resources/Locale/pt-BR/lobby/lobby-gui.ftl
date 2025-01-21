@@ -6,3 +6,4 @@ ui-lobby-observe-button = Observar
 ui-lobby-ready-up-button = Pronto
 ui-lobby-online-players-block = Jogadores
 ui-lobby-server-info-block = Informações 
+﻿ui-lobby-title = Lobby

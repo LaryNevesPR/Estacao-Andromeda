@@ -11,9 +11,7 @@ robotics-console-brain = [color=gray]Brain installed:[/color] [color={$brain ->
     [true] green]Yes
     *[false] red]No
 }[/color]
-
 robotics-console-locked-message = Controls locked, swipe ID.
 robotics-console-disable = Disable
 robotics-console-destroy = Destroy
-
 robotics-console-cyborg-destroying = {$name} is being remotely detonated!

@@ -13,4 +13,4 @@ cargoproduct-category-name-medical = Médico
 cargoproduct-category-name-science = Ciência
 cargoproduct-category-name-security = Segurança
 cargoproduct-category-name-service = Serviço
-cargoproduct-category-name-shuttle = Shuttle
+cargoproduct-category-name-shuttle = Shuttlecargoproduct-category-name-hardsuits = Hardsuits

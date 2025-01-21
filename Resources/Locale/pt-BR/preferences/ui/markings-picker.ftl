@@ -12,7 +12,6 @@ marking-slot-add = Adicionar
 marking-slot-remove = Remover
 
 # Categories
-
 markings-category-Hair = Cabelo
 markings-category-FacialHair = Barba
 markings-category-Head = Cabeça
@@ -24,3 +23,12 @@ markings-category-Arms = Braços
 markings-category-Legs = Pernas
 markings-category-Tail = Cauda
 markings-category-Overlay = Sobreposição
+markings-category-Face = Face
+markings-category-RightArm = Right Arm
+markings-category-RightHand = Right Hand
+markings-category-LeftArm = Left Arm
+markings-category-LeftHand = Left Hand
+markings-category-RightLeg = Right Leg
+markings-category-RightFoot = Right Foot
+markings-category-LeftLeg = Left Leg
+markings-category-LeftFoot = Left Foot

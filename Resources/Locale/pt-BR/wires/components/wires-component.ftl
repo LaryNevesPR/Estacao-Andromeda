@@ -7,6 +7,5 @@ wires-component-ui-on-receive-message-cannot-cut-cut-wire = Você não pode cort
 wires-component-ui-on-receive-message-cannot-mend-uncut-wire = Você não pode remendar um fio que já foi remendado!
 
 ## UI
-
 wires-menu-name-label = Fios
 wires-menu-dead-beef-text = DEAD-BEEF

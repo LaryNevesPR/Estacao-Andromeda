@@ -4,3 +4,4 @@ job-name-clerk = escriturário
 job-name-prosecutor = promotor
 job-name-lawyer = advogado
 job-name-courier = mensageiro
+job-name-admin-assistant = Administrative Assistant

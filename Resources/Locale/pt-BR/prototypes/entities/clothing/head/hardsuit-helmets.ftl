@@ -23,7 +23,6 @@ ent-ClothingHeadHelmetHardsuitCombatOfficer = FPA-85s helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }
 ent-ClothingHeadHelmetHardsuitCombatMedical = FPA-86 helmet
     .desc = A bulky helmet deployed with the Tsagaan Mk.II tacsuit.
-    Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
 ent-ClothingHeadHelmetHardsuitCombatCorpsman = FPA-86m helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatMedical.desc }
 ent-ClothingHeadHelmetHardsuitWarden = FPA-92s helmet
@@ -77,7 +76,6 @@ ent-ClothingHeadHelmetHardsuitPirateEVA = pirate helmet
     .suffix = Pirate
 ent-ClothingHeadHelmetHardsuitPirateCap = pirate captain's tacsuit helmet
     .desc = A special hardsuit helmet, made for the captain of a pirate ship.
-    .suffix = Pirate
 ent-ClothingHeadHelmetHardsuitERTCentcomm = NT-444c helmet
     .desc = A special tacsuit helmet worn by Central Command Officers.
 ent-ClothingHeadHelmetHardsuitERTLeader = NT-444l helmet

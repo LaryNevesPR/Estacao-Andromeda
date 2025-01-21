@@ -53,7 +53,6 @@ marking-CyberLimbsMarkingBishopRLeg-r_leg-primary = Primary Leg
 marking-CyberLimbsMarkingBishopRLeg-r_leg-secondary = Secondary Leg
 marking-CyberLimbsMarkingBishopRFoot = Right Robotic Foot from Bishop Cybernetics
 marking-CyberLimbsMarkingBishopRFoot-r_foot = Right Foot
-
 marking-CyberLimbsMarkingHesphiastosHead = Operational Monitor from Hesphiastos Industries
 marking-CyberLimbsMarkingHesphiastosHead-head-1 = Primary Head
 marking-CyberLimbsMarkingHesphiastosHead-head-2 = Primary Head
@@ -88,7 +87,6 @@ marking-CyberLimbsMarkingHesphiastosRLeg-r_leg-2 = Secondary Leg
 marking-CyberLimbsMarkingHesphiastosRFoot = Right Robotic Foot from Hesphiastos Industries
 marking-CyberLimbsMarkingHesphiastosRFoot-r_foot-1 = Primary Foot
 marking-CyberLimbsMarkingHesphiastosRFoot-r_foot-2 = Secondary Foot
-
 marking-CyberLimbsMarkingWardtakahashiHead = Operational Monitor from Ward-Takahashi
 marking-CyberLimbsMarkingWardtakahashiHead-head = Head
 marking-CyberLimbsMarkingWardtakahashiHeadAlt = Head from Ward-Takahashi
@@ -113,7 +111,6 @@ marking-CyberLimbsMarkingWardtakahashiRLeg = Right Robotic Leg from Ward-Takahas
 marking-CyberLimbsMarkingWardtakahashiRLeg-r_leg = Right Leg
 marking-CyberLimbsMarkingWardtakahashiRFoot = Right Robotic Foot from Ward-Takahashi
 marking-CyberLimbsMarkingWardtakahashiRFoot-r_foot = Right Foot
-
 marking-CyberLimbsMarkingXionHead = Operational Monitor from Xion Manufacturing Group
 marking-CyberLimbsMarkingXionHead-head-1 = Primary Head
 marking-CyberLimbsMarkingXionHead-head-2 = Secondary Head
@@ -147,7 +144,6 @@ marking-CyberLimbsMarkingXionRLeg-r_leg-2 = Secondary Leg
 marking-CyberLimbsMarkingXionRFoot = Right Robotic Foot from Xion Manufacturing Group
 marking-CyberLimbsMarkingXionRFoot-r_foot-1 = Primary Foot
 marking-CyberLimbsMarkingXionRFoot-r_foot-2 = Secondary Foot
-
 marking-CyberLimbsMarkingShellguardHead = Operational Monitor from Shellguard Munitions
 marking-CyberLimbsMarkingShellguardHead-head-1 = Primary Head
 marking-CyberLimbsMarkingShellguardHead-head-2 = Secondary Head
@@ -181,7 +177,6 @@ marking-CyberLimbsMarkingShellguardRLeg-r_leg-2 = Secondary Leg
 marking-CyberLimbsMarkingShellguardRFoot = Right Robotic Foot from Shellguard Munitions
 marking-CyberLimbsMarkingShellguardRFoot-r_foot-1 = Primary Foot
 marking-CyberLimbsMarkingShellguardRFoot-r_foot-2 = Secondary Foot
-
 marking-CyberLimbsMarkingMorpheusHead = Operational Monitor from Morpheus Cyberkinetics
 marking-CyberLimbsMarkingMorpheusHead-head = Head
 marking-CyberLimbsMarkingMorpheusHeadAlt = Head from Morpheus Cyberkinetics
@@ -204,7 +199,6 @@ marking-CyberLimbsMarkingMorpheusRLeg = Right Robotic Leg from Morpheus Cyberkin
 marking-CyberLimbsMarkingMorpheusRLeg-r_leg = Right Leg
 marking-CyberLimbsMarkingMorpheusRFoot = Right Robotic Foot from Morpheus Cyberkinetics
 marking-CyberLimbsMarkingMorpheusRFoot-r_foot = Right Foot
-
 marking-CyberLimbsMarkingZenghuHead = Head from Zenghu Pharmaceuticals
 marking-CyberLimbsMarkingZenghuHead-head-1 = Primary Head
 marking-CyberLimbsMarkingZenghuHead-head-2 = Secondary Head

@@ -24,7 +24,10 @@ command-mailto-invalid-container = A entidade contêiner de destino não tem um 
 command-mailto-unable-to-receive = A entidade do destinatário de destino não pôde ser configurada para receber e-mail. ID pode estar faltando.
 command-mailto-no-teleporter-found = A entidade do destinatário de destino não pôde corresponder ao teletransportador de correio de nenhuma estação. O destinatário pode estar fora da estação.
 command-mailto-success = Sucesso! O pacote de correspondência foi colocado na fila para o próximo teletransporte em {$timeToTeleport} segundos.
-
 command-mailnow = Forçar todos os teletransportadores de correspondência a entregar outra rodada de correspondência o mais rápido possível. Isso não ultrapassará o limite de mensagens não entregues.
 command-mailnow-help = Uso: {$command}
 command-mailnow-success = Sucesso! Todos os teletransportadores de correspondência estarão entregando outra rodada de correspondência em breve.
+mail-large-item-name-unaddressed = package
+mail-large-item-name-addressed = package ({$recipient})
+mail-large-desc-far = A large package.
+mail-large-desc-close = A large package addressed to {CAPITALIZE($name)}, {$job}.

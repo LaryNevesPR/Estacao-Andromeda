@@ -17,19 +17,14 @@ reverse-engineering-analysis-score = Analysis power: {$score}
 reverse-engineering-item-difficulty = Difficulty: {$difficulty}
 reverse-engineering-progress = Progress: {$progress}%
 reverse-engineering-last-attempt-result = Last probe result: {$result}
-
 reverse-engineering-total-progress-label = Total
-
 reverse-engineering-failure = CRITICAL FAILURE
 reverse-engineering-stagnation = Minimal Progress
 reverse-engineering-minor = Minor progress
 reverse-engineering-average = Acceptable progress
 reverse-engineering-major = Major progress
 reverse-engineering-success = Breakthrough
-
 reverse-engineering-machine-bonus-upgrade = Analysis power
 reverse-engineering-machine-aversion-upgrade = Destruction aversion bonus
-
 reverse-engineering-popup-failure = {CAPITALIZE(THE($machine))} blows smoke and debris everywhere!
-
 reverse-engineering-examine = [color=yellow]This item can be reverse engineered. Difficulty: {$diff}[/color]

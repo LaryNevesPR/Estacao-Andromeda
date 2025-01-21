@@ -6,12 +6,10 @@ advertisement-solsnack-4 = A taste of home!
 advertisement-weebvend-1 = Konnichiwa gaijin senpai!
 advertisement-weebvend-2 = Notice me senpai!
 advertisement-weebvend-3 = Kawaii-desu!
-
 advertisement-hotfood-1 = Get your stale, crumbling food here! Sol's national dish has never tasted better!
 advertisement-hotfood-2 = If this is the food waiting for you at home, it's no wonder you're hiding here.
 advertisement-hotfood-3 = Solarian food products, served with a side of diarrhea as always!
 advertisement-hotfood-4 = Revenge is a dish best served warm.
-
 advertisement-fitness-1 = SweatMAX, get robust!
 advertisement-fitness-2 = Pain is just weakness leaving the body!
 advertisement-fitness-3 = Run! Your fat is catching up to you!

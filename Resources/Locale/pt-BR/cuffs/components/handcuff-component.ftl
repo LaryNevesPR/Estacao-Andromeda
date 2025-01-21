@@ -14,4 +14,4 @@ handcuff-component-cuff-interrupt-message = Você foi interrompido enquanto alge
 handcuff-component-cuff-interrupt-other-message = Você interrompeu {$otherName} enquanto ele(a) te algemava!
 handcuff-component-cuff-interrupt-self-message = Você foi interrompido enquanto se algemava.
 handcuff-component-cuff-interrupt-buckled-message = Você não pode se afivelar enquanto algemado!
-handcuff-component-cuff-interrupt-unbuckled-message = Você não pode se desafivelar enquanto algemado!
+handcuff-component-cuff-interrupt-unbuckled-message = Você não pode se desafivelar enquanto algemado!handcuff-component-target-flying-error = You cannot reach {$targetName}'s hands!

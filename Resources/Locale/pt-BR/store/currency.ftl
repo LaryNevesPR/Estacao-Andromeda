@@ -9,3 +9,4 @@ store-currency-display-debugdollar = {$amount ->
 }
 store-currency-display-telecrystal = TC
 store-currency-display-stolen-essence = Essência Roubada
+store-currency-display-wizcoin = Wiz€oin™

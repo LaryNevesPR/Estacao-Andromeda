@@ -11,8 +11,9 @@ nav-beacon-examine-text = Isso está [color={$enabled ->
     [true] forestgreen]ligado
     *[false] crimson]desligado
 }[/color] e esta escrito [color={$color}]"{$label}"[/color]
-
 nav-beacon-pos-no-beacons = em um local desconhecido
 nav-beacon-pos-format = [color={$color}]perto de {$marker}[/color]
 nav-beacon-pos-format-direction = [color={$color}]{$modifier}{$direction} of {$marker}[/color]
 nav-beacon-pos-format-direction-mod-far = longe {""}
+station-map-filter-placeholder = Search by name
+}[/color] and the display reads [color={$color}]"{$label}"[/color]

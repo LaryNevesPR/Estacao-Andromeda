@@ -8,3 +8,4 @@ advertisement-dinnerware-7 = Você não precisa disso...
 advertisement-dinnerware-8 = Leve -os se quiser!
 advertisement-dinnerware-9 = Tenho certeza de que os beakers são obrigatórios.
 advertisement-dinnerware-10 = POR QUE EXISTEM TANTOS TIPOS DE CANECAS?
+﻿advertisement-dinnerware-1 = Mm, food stuffs!

@@ -20,7 +20,6 @@ surgery-popup-procedure-SurgeryAttachRightFoot-step-SurgeryStepInsertFeature = {
 surgery-popup-procedure-SurgeryAttachLegs-step-SurgeryStepInsertFeature = {$user} is attaching legs onto {$target}'s {$part}!
 surgery-popup-procedure-SurgeryAttachHands-step-SurgeryStepInsertFeature = {$user} is attaching hands onto {$target}'s {$part}!
 surgery-popup-procedure-SurgeryAttachFeet-step-SurgeryStepInsertFeature = {$user} is attaching feet onto {$target}'s {$part}!
-
 surgery-popup-step-SurgeryStepSealWounds = {$user} is sealing the wounds on {$target}'s {$part}.
 surgery-popup-step-SurgeryStepSawFeature = {$user} is sawing through the bones on {$target}'s {$part}.
 surgery-popup-step-SurgeryStepClampInternalBleeders = {$user} is clamping the internal bleeders on {$target}'s {$part}.
@@ -31,24 +30,20 @@ surgery-popup-step-SurgeryStepRepairBurnTissue = {$user} is repairing the burnt 
 surgery-popup-step-SurgeryStepSealTendWound = {$user} is sealing the wounds on {$target}'s {$part}.
 surgery-popup-step-SurgeryStepInsertItem = {$user} is inserting something into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepRemoveItem = {$user} is removing something from {$target}'s {$part}!
-
 surgery-popup-step-SurgeryStepRemoveOrgan = {$user} is removing an organ from {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertOrgan = {$user} is inserting an organ into {$target}'s {$part}!
-
 surgery-popup-procedure-SurgeryRemoveBrain-step-SurgeryStepRemoveOrgan = {$user} is removing the brain from {$target}'s {$part}!
 surgery-popup-procedure-SurgeryRemoveHeart-step-SurgeryStepRemoveOrgan = {$user} is removing the heart from {$target}'s {$part}!
 surgery-popup-procedure-SurgeryRemoveLiver-step-SurgeryStepRemoveOrgan = {$user} is removing the liver from {$target}'s {$part}!
 surgery-popup-procedure-SurgeryRemoveLungs-step-SurgeryStepRemoveOrgan = {$user} is removing the lungs from {$target}'s {$part}!
 surgery-popup-procedure-SurgeryRemoveEyes-step-SurgeryStepRemoveOrgan = {$user} is removing the eyes from {$target}'s {$part}!
 surgery-popup-procedure-SurgeryRemoveStomach-step-SurgeryStepRemoveOrgan = {$user} is removing the stomach from {$target}'s {$part}!
-
 surgery-popup-procedure-SurgeryInsertBrain-step-SurgeryStepInsertOrgan = {$user} is inserting a brain into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertLungs = {$user} is inserting lungs into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertLiver = {$user} is inserting a liver into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertEyes = {$user} is inserting eyes into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertHeart = {$user} is inserting a heart into {$target}'s {$part}!
 surgery-popup-step-SurgeryStepInsertStomach = {$user} is inserting a stomach into {$target}'s {$part}!
-
 surgery-popup-step-SurgeryStepSealOrganWound = {$user} is sealing the wounds on {$target}'s {$part}.
 surgery-popup-step-SurgeryStepLobotomize = {$user} is lobotomizing {$target}!
 surgery-popup-step-SurgeryStepMendBrainTissue = {$user} is mending the brain tissue on {$target}'s {$part}.

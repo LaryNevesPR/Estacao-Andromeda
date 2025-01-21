@@ -10,3 +10,4 @@ thankyou-cola-1 = Abre que pode e aproveita!
 thankyou-cola-2 = Poxa! Tome isso, sede!
 thankyou-cola-3 = Espero que goste do sabor!
 thankyou-cola-4 = Aproveite sua bebida cheia de açúcar!
+﻿advertisement-cola-1 = Refreshing!

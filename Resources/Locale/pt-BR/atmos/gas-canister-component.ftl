@@ -1,14 +1,10 @@
 ## UI
 
 # Bound Interface
-
 gas-canister-bound-user-interface-title = Tanque de Gás
-
 # Popup
 gas-canister-popup-denied = Acesso negado
-
 # window
-
 gas-canister-window-ok-text = OK
 gas-canister-window-edit-text = Editar
 gas-canister-window-label-label = Legenda:

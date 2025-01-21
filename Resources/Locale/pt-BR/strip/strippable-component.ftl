@@ -13,14 +13,12 @@ strippable-component-alert-owner-insert = {$user} está colocando {$item} em voc
 # generic warning for when a user interacts with your equipped items.
 # TODO: usar o pronome possessivo do gênero certo, concordando com o gênero do item - pra não ficar "om o seu boina" por exemplo
 strippable-component-alert-owner-interact = {$user} está fuçando com o seu {$item}!
-
-
 # StripVerb
 strip-verb-get-data-text = Pilhar
-
 ## UI
-
 strippable-bound-user-interface-stripping-menu-title = Inventário de {$ownerName}
 strippable-bound-user-interface-stripping-menu-ensnare-button = Atar pernas
 strippable-bound-user-interface-stripping-menu-handcuffs-button = Contenções
 strippable-bound-user-interface-stripping-menu-obfuscate = Ocupado
+thieving-component-user = Someone
+thieving-component-item = something

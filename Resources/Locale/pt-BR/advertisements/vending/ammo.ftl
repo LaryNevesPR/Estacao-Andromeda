@@ -8,3 +8,4 @@ advertisement-ammo-7 = Armas não matam pessoas, mas você pode!
 advertisement-ammo-8 = Quem precisa de responsabilidades quando se tem armas?
 advertisement-ammo-9 = Assassinar pessoas é divertido!
 advertisement-ammo-10 = Vá atirar!
+﻿advertisement-ammo-1 = Liberation Station: Your one-stop shop for all things second amendment!

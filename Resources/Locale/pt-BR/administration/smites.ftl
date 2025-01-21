@@ -15,9 +15,7 @@ admin-smite-super-speed-prompt = Você se move a mach 0.8!
 admin-smite-lung-removal-self = Você não pode respirar!
 admin-smite-terminate-prompt = Eu voltarei.
 
-
 ## Smite descriptions
-
 admin-smite-explode-description = Exploda ele.
 admin-smite-chess-dimension-description = Banimento para a Dimensão do Xadrez.
 admin-smite-set-alight-description = Faz com que eles queimem.
@@ -59,9 +57,7 @@ admin-smite-garbage-can-description = Transforme-os em uma lixeira para enfatiza
 admin-smite-super-bonk-description = Bate-los em todas as mesas da Estação e além.
 admin-smite-super-bonk-lite-description= Bate-los em todas as mesas da Estação e além. Para quando o alvo está morto.
 admin-smite-terminate-description = Cria uma função fantasma do Exterminador com o único objetivo de matá-los.
-
 ## Tricks descriptions
-
 admin-trick-unbolt-description = Desbloqueia a câmara de ar visada.
 admin-trick-bolt-description = Parafusa a câmara de ar visada.
 admin-trick-emergency-access-on-description = Ativa o acesso de emergência para a câmara de ar direcionada.

@@ -22,7 +22,6 @@ bark-default-14 = Woofums
 bark-default-15 = Rawrl
 bark-default-16 = Eeeeeee
 bark-default-17 = Barkum
-
 # This should always come last so that it's easy to keep track of.
 # Bark counts are locale-specific so they are typically defined in FTL files instead of YML, to make localization easier.
 bark-default-count = 17

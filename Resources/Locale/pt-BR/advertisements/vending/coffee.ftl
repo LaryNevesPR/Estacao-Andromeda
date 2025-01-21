@@ -16,3 +16,4 @@ thankyou-coffee-1 = Aproveite sua bebida!
 thankyou-coffee-2 = Pegue enquanto está quente!
 thankyou-coffee-3 = Bebida concluída.
 thankyou-coffee-4 = Bebida dispensada.
+﻿advertisement-coffee-1 = Have a drink!

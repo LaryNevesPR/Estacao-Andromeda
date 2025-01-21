@@ -6,3 +6,4 @@ advertisement-smartfridge-5 = Eu sou completamento funcional, e todos meus circu
 advertisement-smartfridge-6 = As definições de vírus foram atualizadas.
 advertisement-smartfridge-7 = Em execução de diagnóstico do sistema ...
 advertisement-smartfridge-8 = Minhas placas de circuito são muito avançadas para as funções que tenho permissão para operar.
+﻿advertisement-smartfridge-1 = Hello world!

@@ -8,9 +8,7 @@ guidebook-food-processing-butchering = Abater
 guidebook-food-processing-slicing = Fatiar
 guidebook-food-processing-cooking = {$time}s
 guidebook-food-processing-reaction = Misturar
-
 guidebook-food-processing-recipe = {$ingredients}
 guidebook-food-ingredient-solid = {$amount} {$name}
 guidebook-food-ingredient-liquid = {$amount}u {$name}
-
 guidebook-food-output = {$name} ({$number})

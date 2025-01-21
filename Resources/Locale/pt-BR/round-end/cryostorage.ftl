@@ -6,5 +6,4 @@ cryostorage-ui-label-slot-name = [bold]{CAPITALIZE($slot)}:[/bold]
 cryostorage-ui-button-remove = Remover
 cryostorage-ui-filler-hand = em mão
 cryostorage-ui-label-no-bodies = Sem corpos em crio-storagem
-
 cryostorage-popup-access-denied = Acesso negado!

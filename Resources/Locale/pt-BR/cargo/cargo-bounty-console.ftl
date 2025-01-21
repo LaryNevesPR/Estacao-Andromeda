@@ -13,6 +13,6 @@ bounty-console-id-label = ID#{$id}
 
 bounty-console-flavor-left = Recompensas obtidas de negociantes locais inescrupulosos.
 bounty-console-flavor-right = v1.4
-
 bounty-manifest-header = [font size=14][bold]Manifesto oficial de recompensas para Cargo[/bold] (ID#{$id})
 bounty-manifest-list-start = Manifesto de itens:
+bounty-console-skip-button-text = Skip

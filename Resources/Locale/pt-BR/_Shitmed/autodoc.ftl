@@ -11,7 +11,6 @@ autodoc-program-completed = PROGRAM COMPLETED
 autodoc-error = ERROR: {$error}
 autodoc-fatal-error = FATAL ERROR: {$error}
 autodoc-waiting = PROGRAM WAITING
-
 autodoc-error-missing-patient = MISSING PATIENT
 autodoc-error-body-part = BODY PART NOT DETECTED
 autodoc-error-surgery-impossible = SELECTED SURGERY IMPOSSIBLE
@@ -20,7 +19,6 @@ autodoc-error-surgery-failed = SURGERY FAILED
 autodoc-error-hand-full = ITEM MANIPULATOR FULL
 autodoc-error-storage-full = ITEM TRAYS FULL
 autodoc-error-patient-unsedated = PATIENT REQUIRES SEDATION
-
 # These intentionally have russian alongside them for ostranauts-like aesthetic.
 # If you are a russian fork, these don't need translating :)
 # Если вы являетесь русскоязычным форком, то они не нуждаются в переводе :)
@@ -29,7 +27,6 @@ autodoc-create-program = NEW PROGRAM НОВОЕ РАСПИСАНИЕ
 autodoc-program-title = PROGRAM TITLE ТИТУЛ РАСПИСАНИЯ
 autodoc-program-title-placeholder = Program {$number}
 autodoc-abort-program = ABORT PROGRAM АБОРТ РАСПИСАНИЯ
-
 autodoc-view-program-title = VIEW PROGRAM ПРОСМОТРИ
 autodoc-safety-enabled = SAFETY ON БЕЗОПАСНО НА
 autodoc-safety-disabled = SAFETY OFF В БЕЗОПАСНОСТИ
@@ -37,7 +34,6 @@ autodoc-remove-program = REMOVE PROGRAM УДАЛИТЕ
 autodoc-add-step = ADD STEP ДОБАВЬ ШАГ
 autodoc-remove-step = REMOVE STEP УДАЛИ ШАГ
 autodoc-start-program = START PROGRAM НАЧНИ РАСПИСАНИЕ
-
 autodoc-add-step-surgery = PERFORM SURGERY РАЗЫГРАЙ ОПЕРАЦИЮ
 autodoc-add-step-grab-item = GRAB ITEM ВОЗЬМИ ОБЪЕКТ
 autodoc-add-step-grab-item-prompt = Item name
@@ -49,7 +45,6 @@ autodoc-add-step-set-label = SET LABEL НАНЕСИТЕ ЯРЛЫК
 autodoc-add-step-set-label-prompt = Label
 autodoc-add-step-wait = WAIT ЖДАТЬ
 autodoc-add-step-wait-prompt = Seconds to wait
-
 autodoc-body-part-Other = Other
 autodoc-body-part-Torso = Torso
 autodoc-body-part-Head = Head
@@ -58,10 +53,8 @@ autodoc-body-part-Hand = Hand
 autodoc-body-part-Leg = Leg
 autodoc-body-part-Foot = Foot
 autodoc-body-part-Tail = Tail
-
 autodoc-body-symmetry-ignored = Any
 autodoc-body-symmetry-None = None
 autodoc-body-symmetry-Left = Left
 autodoc-body-symmetry-Right = Right
-
 autodoc-submit = Submit

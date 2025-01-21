@@ -19,7 +19,6 @@ device-frequency-prototype-name-surveillance-camera-service = Câmeras de Servi�
 device-frequency-prototype-name-surveillance-camera-medical = Câmeras da Medbay
 device-frequency-prototype-name-surveillance-camera-general = Câmeras gerais
 device-frequency-prototype-name-surveillance-camera-entertainment = Câmeras do Entretenimento
-
 # prefixes for randomly generated device addresses
 device-address-prefix-vent = VNT-
 device-address-prefix-scrubber = SCR-
@@ -30,20 +29,17 @@ device-address-prefix-heater = AQC-
 device-address-prefix-freezer = FZR-
 device-address-prefix-volume-pump = BOV-
 device-address-prefix-smes = SMS-
-
 # PDAs and terminals
 device-address-prefix-console = CLS-
 device-address-prefix-fire-alarm = FIR-
-
 device-address-prefix-sensor-monitor = MON-
 device-address-prefix-air-alarm = AR-
-
 device-address-examine-message = O endereço do dispositivo é {$address}.
-
 # Device net ID names
 device-net-id-private = Privado
 device-net-id-wired = Com fio
 device-net-id-wireless = Sem fio
 device-net-id-apc = APC
 device-net-id-atmos-devices = Dispositivos Atmos
-device-net-id-reserved = Reservado
+device-net-id-reserved = Reservadodevice-frequency-prototype-name-cyborg-control = Cyborg Control
+device-frequency-prototype-name-robotics-console = Robotics Console

@@ -3,7 +3,6 @@ ame-controller-component-fuel-slot-fail-locked = Desligue o AME antes de manipul
 ame-controller-component-fuel-slot-success-insert = Você insere o tanque no compartimento de combustível
 
 ## UI
-
 ame-window-title = Unidade de Controle da Antimatéria
 ame-window-engine-status-label = Estado do Motor:
 ame-window-engine-injection-status-not-injecting-label = Não Injetando

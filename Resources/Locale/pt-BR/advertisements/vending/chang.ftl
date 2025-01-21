@@ -5,3 +5,4 @@ advertisement-chang-4 = O Sr.chang é implacável!
 advertisement-chang-5 = 100% Comida chinesa autêntica!
 thankyou-chang-1 = O Sr. Chang agradece!
 thankyou-chang-2 = Aproveite a sua refeição autêntica!
+﻿advertisement-chang-1 = Taste 5000 years of culture!

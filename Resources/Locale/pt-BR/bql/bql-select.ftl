@@ -4,7 +4,6 @@ cmd-bql_select-help = Uso: bql_select <bql query>
 
 cmd-bql_select-err-server-shell = Não pode ser executado a partir do shell do servidor
 cmd-bql_select-err-rest = Aviso: parte não utilizada após consulta BQL: "{ $rest }"
-
 ui-bql-results-title = resultados BQL
 ui-bql-results-vv = VV
 ui-bql-results-tp = TP

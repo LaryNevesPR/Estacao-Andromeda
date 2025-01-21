@@ -10,10 +10,8 @@ loadout-description-LoadoutEyesBlindfoldColor = Why would you want this? At leas
 
 loadout-name-LoadoutEyesGlassesCheapSunglassesAviator = cheap aviators (colorable)
 loadout-name-LoadoutEyesGlassesSunglassesAviator = aviators (colorable)
-
 loadout-name-LoadoutItemBlindfoldFake = "blind"fold
 loadout-description-LoadoutItemBlindfoldFake = This product may not work as advertised.
 loadout-name-LoadoutEyesBlindfoldFakeColor = "blind"fold (colorable)
 loadout-description-LoadoutEyesBlindfoldFakeColor = This product may not work as advertised.
-
 loadout-name-LoadoutEyesGlasses = glasses (colorable)

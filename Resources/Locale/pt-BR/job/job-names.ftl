@@ -48,7 +48,6 @@ job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
 job-name-visitor = visitante
 
-
 # Nyano
 job-name-mystagogue = diretor de pesquisa
 job-name-mantis = mantis forênsica
@@ -64,7 +63,6 @@ job-name-prisoner = prisioneiro
 job-name-valet = valete
 job-name-guard = guarda prisional
 job-name-martialartist =  artista marcial
-
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobBartender = bartender
@@ -117,7 +115,6 @@ JobVisitor = visitante
 JobWarden = carcereiro
 JobBoxer = boxeador
 JobZookeeper = funcionário do zoológico
-
 # Nyano role timers
 JobCataloguer = arquivista
 JobCyborg = borgue
@@ -128,3 +125,23 @@ JobMystagogue = diretor de pesquisa
 JobPrisoner = prisioneiro
 JobSalvageTechnician = técnico em salvamento
 JobValet = valete
+job-name-senior-researcher = Mystic
+job-name-senior-engineer = Senior Engineer
+job-name-senior-physician = Senior Physician
+job-name-senior-officer = Senior Officer
+job-name-station-ai = Station AI
+job-name-cburn = CBURN Agent
+job-name-deathsquad = Deathsquad Agent
+job-name-ertchaplain = ERT Chaplain
+job-name-geneticist = Geneticist
+job-name-no-id = No ID
+job-name-syndicate = Syndicate
+job-name-unknown = Unknown
+job-name-virologist = Virologist
+job-name-zombie = Zombie
+job-title-visitor = Visitor
+job-title-cluwne = Cluwne
+job-title-universal = Universal
+JobERTChaplain = ERT Chaplain
+JobRoboticist = Golemancer
+JobStationAi = Station AI

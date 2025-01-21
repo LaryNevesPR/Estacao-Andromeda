@@ -63,19 +63,15 @@ admin-note-editor-expiry-label-expired = Expirado
 admin-note-editor-expiry-placeholder = Data de validade (yyyy-MM-dd HH:mm:ss)
 admin-note-editor-submit = Enviar
 admin-note-editor-submit-confirm = Você tem certeza?
-
 # Verb
 admin-notes-verb-text = Abrir notas de Admin
-
 # Watchlist and message login
 admin-notes-watchlist = Lista de observação para {$player}: {$message}
 admin-notes-new-message = Você recebeu uma mensagem do admin {$admin}: {$message}
 admin-notes-fallback-admin-name = [System]
-
 # Admin remarks
 admin-remarks-command-description = Abre a página de observações do administrador
 admin-remarks-command-error = Observações do administrador foi desativado
 admin-remarks-title = Observações do administrador
-
 # Misc
 system-user = [System]

@@ -5,6 +5,5 @@ lock-comp-do-unlock-success = Você destranca a {$entityName}.
 lock-comp-has-user-access-fail = Acesso negado
 
 ## ToggleLockVerb
-
 toggle-lock-verb-unlock = Destrancar
-toggle-lock-verb-lock = Trancar
+toggle-lock-verb-lock = Trancarlock-comp-generic-fail = {CAPITALIZE(SUBJECT($target))} {CONJUGATE-BE($target)} locked.

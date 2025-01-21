@@ -17,3 +17,4 @@ armor-damage-type-cold = Frio
 armor-damage-type-poison = Veneno
 armor-damage-type-shock = Choque
 armor-damage-type-structural = Estrutural
+armor-examine-stamina = - [color=cyan]Stamina[/color] damage reduced by [color=lightblue]{$num}%[/color].

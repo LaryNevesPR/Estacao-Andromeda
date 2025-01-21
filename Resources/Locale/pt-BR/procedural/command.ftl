@@ -13,10 +13,8 @@ cmd-dungen-hint-config = Config do Calabouço
 cmd-dungen-hint-posx = Posição X
 cmd-dungen-hint-posy = Posição Y
 cmd-dungen-hint-seed = [Semente]
-
 cmd-dungen_preset_vis-desc = Gera uma pré-visualização baseada em azulejo de uma predefinição de masmorra.
 cmd-dungen_preset_vis-help = dungen_preset_vis <mapid> <preset>
-
 cmd-dungen_pack_vis-success = Success
 cmd-dungen_pack_vis-desc = Gera uma pré-visualização baseada em azulejos de um pacote de masmorras.
 cmd-dungen_pack_vis-help = dungen_pack_vis <mapid> <pack>

@@ -6,3 +6,4 @@ drain-component-examine-volume = [color="blue"]Espaço restante - {$volume}u.[/c
 drain-component-unclog-fail = { CAPITALIZE(THE($object)) } ainda está cheio.
 drain-component-unclog-success = { CAPITALIZE(THE($object)) } desentompe.
 drain-component-unclog-notapplicable = { CAPITALIZE(THE($object)) } não está entupido.
+﻿drain-component-empty-verb-using-is-empty-message = { CAPITALIZE(THE($object)) } is empty!

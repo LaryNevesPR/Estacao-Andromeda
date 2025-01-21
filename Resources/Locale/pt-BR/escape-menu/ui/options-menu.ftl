@@ -6,13 +6,10 @@ ui-options-tab-controls = Controles
 ui-options-tab-audio = Audio
 ui-options-tab-network = Rede
 ui-options-tab-misc = Geral
-
 ui-options-apply = Aplicar
 ui-options-reset-all = Redefinir
 ui-options-default = Padrão
-
 # Misc/General menu
-
 ui-options-discordrich = Enable Discord Rich Presence
 ui-options-general-ui-style = Estilo de ui
 ui-options-general-discord = Discord
@@ -20,9 +17,7 @@ ui-options-general-cursor = Cursor
 ui-options-general-speech = Fala
 ui-options-general-storage = Armazenamento
 ui-options-general-accessibility = Acessibilidade
-
 ## Audio menu
-
 ui-options-master-volume = Volume Geral:
 ui-options-midi-volume = Volume MIDI (Instrumento):
 ui-options-ambient-music-volume = Volume da música ambiente:
@@ -39,9 +34,7 @@ ui-options-announcer-disable-multiple-sounds-tooltip = Alguns anúncios não soa
 ui-options-admin-sounds = Tocar Som de Admin
 ui-options-volume-label = Volume
 ui-options-volume-percent = { TOSTRING($volume, "P0") }
-
 ## Graphics menu
-
 ui-options-show-held-item = Mostrar item segurado ao lado do cursor
 ui-options-show-combat-mode-indicators = Mostrar indicadores de combate com o cursor
 ui-options-show-offer-mode-indicators = Mostrar indicadores de modo de oferta com o cursor
@@ -93,15 +86,12 @@ ui-options-parallax-low-quality = Parallax de Baixa Qualidade (fundo)
 ui-options-fps-counter = Mostrar Contador de FPS
 ui-options-vp-width = Viewport width: { $width }
 ui-options-hud-layout = HUD layout:
-
 ## Controls menu
-
 ui-options-binds-reset-all = Limpar TODAS as teclas
 ui-options-binds-explanation = Clique para vincular uma tecla, botão direito para limpar
 ui-options-unbound = Desvincular
 ui-options-bind-reset = Resetar
 ui-options-key-prompt = Aperte uma tecla...
-
 ui-options-header-movement = Movimentação
 ui-options-header-camera = Camera
 ui-options-header-interaction-basic = Interação Básica
@@ -114,24 +104,20 @@ ui-options-header-shuttle = Shuttle
 ui-options-header-map-editor = Editor de Mapa
 ui-options-header-dev = Desenvolvimento
 ui-options-header-general = Geral
-
 ui-options-hotkey-keymap = Usar teclas QWERTY
 ui-options-hotkey-toggle-walk = Alternar caminhar
 ui-options-hotkey-default-walk = Andar por default
-
 ui-options-function-move-up = Mover pra Cima
 ui-options-function-move-left = Mover pra Esquerda
 ui-options-function-move-down = Mover pra Baixo
 ui-options-function-move-right = Mover pra Direita
 ui-options-function-walk = Mudar Velocidade
-
 ui-options-function-camera-rotate-left = Girar para esquerda
 ui-options-function-camera-rotate-right = Girar para direita
 ui-options-function-camera-reset = Resetar
 ui-options-function-zoom-in = Zoom in
 ui-options-function-zoom-out = Zoom out
 ui-options-function-reset-zoom = Reset zoom
-
 ui-options-function-use = Usar
 ui-options-function-use-secondary = Usar secundário
 ui-options-function-alt-use = Alt use
@@ -150,7 +136,6 @@ ui-options-function-save-item-location = Salvar local do item
 ui-options-function-toggle-standing = Alternar ficar em pé
 ui-options-function-toggle-crawling-under = Alternar rastejar
 ui-options-static-storage-ui = Fixar janela de armazenamento à barra de atalhos
-
 ui-options-function-smart-equip-backpack = Smart-equip na mochila
 ui-options-function-smart-equip-belt = Smart-equip no cinto
 ui-options-function-open-backpack = Abrir mochila
@@ -163,14 +148,12 @@ ui-options-function-point = Apontar para local
 ui-options-function-rotate-object-clockwise = Rotacionar no sentido horário
 ui-options-function-rotate-object-counterclockwise = Rotacionar no sentido anti-horário
 ui-options-function-flip-object = Inverter
-
 ui-options-function-target-head = Mirar na cabeça
 ui-options-function-target-torso = Mirar no torso
 ui-options-function-target-left-arm = Mirar no braço esquerdo
 ui-options-function-target-right-arm = Mirar no braço direito
 ui-options-function-target-left-leg = Mirar na perna esquerda
 ui-options-function-target-right-leg = Mirar na perna direita
-
 ui-options-function-focus-chat-input-window = Foco no Chat
 ui-options-function-focus-local-chat-window = Foco no Chat (IC)
 ui-options-function-focus-emote = Foco no Chat (Emote)
@@ -200,11 +183,9 @@ ui-options-function-window-close-all = Fechar todas as janelas
 ui-options-function-window-close-recent = Fechar a janela recente
 ui-options-function-show-escape-menu = Alterna menu do jogo
 ui-options-function-escape-context = Fechar a janela recente ou alterna menu do jogo
-
 ui-options-function-take-screenshot = Tirar screenshot
 ui-options-function-take-screenshot-no-ui = Tirar screenshot (Sem UI)
 ui-options-function-toggle-fullscreen = Alternar para o modo tela cheia
-
 ui-options-function-editor-place-object = Colocar Objeto
 ui-options-function-editor-cancel-place = Cancelar Posicionamento
 ui-options-function-editor-grid-place = Posicionar na Grid
@@ -212,12 +193,10 @@ ui-options-function-editor-line-place = Posicionar Linha
 ui-options-function-editor-rotate-object = Girar
 ui-options-function-editor-flip-object = Virar
 ui-options-function-editor-copy-object = Copiar
-
 ui-options-function-show-debug-console = Abrir Console
 ui-options-function-show-debug-monitors = Mostrar monitores de Debug
 ui-options-function-inspect-entity = Inspecionar Entidade
 ui-options-function-hide-ui = Esconder UI
-
 ui-options-function-hotbar1 = Hotbar slot 1
 ui-options-function-hotbar2 = Hotbar slot 2
 ui-options-function-hotbar3 = Hotbar slot 3
@@ -238,7 +217,6 @@ ui-options-function-loadout7 = Hotbar Loadout 7
 ui-options-function-loadout8 = Hotbar Loadout 8
 ui-options-function-loadout9 = Hotbar Loadout 9
 ui-options-function-loadout0 = Hotbar Loadout 0
-
 ui-options-function-shuttle-strafe-up = Andar para cima
 ui-options-function-shuttle-strafe-right = Andar para direita
 ui-options-function-shuttle-strafe-left = Andar pra esquerda
@@ -246,44 +224,40 @@ ui-options-function-shuttle-strafe-down = Andar para baixo
 ui-options-function-shuttle-rotate-left = Rotacionar para esquerda
 ui-options-function-shuttle-rotate-right = Rotacionar para direita
 ui-options-function-shuttle-brake = Freiar
-
 ## Network menu
-
 ui-options-net-predict = Previsão client-side
-
 ui-options-net-interp-ratio = Tamanho do buffer de estado
 ui-options-net-interp-ratio-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
                                       à perda de pacote servidor->cliente, no entanto, ao fazê-lo,
                                       efetivamente um pouco mais de latência é adicionada e o cliente
                                       precisa prever mais ticks futuros.
-
 ui-options-net-predict-tick-bias = Viés de Previsão de Ticks
 ui-options-net-predict-tick-bias-tooltip = Aumentar isso geralmente tornará o jogo mais resistente
                                            à perda de pacote cliente->servidor, no entanto, ao fazê-lo
-                                           efetivamente um pouco mais de latência é adicionada e o cliente
-                                           precisa prever mais ticks futuros.
-
 ui-options-net-pvs-spawn = Orçamento de spawn de entidades PVS
 ui-options-net-pvs-spawn-tooltip = Esse valor limita a taxa na qual o servidor envia entidades recém
                                        spawnadas para o cliente. Reduzir isso pode ajudar a reduzir
                                        stutter devido à spawn de entidades, mas pode levar a pop-in.
-
 ui-options-net-pvs-entry = Orçamento PVS de entidades PVS
 ui-options-net-pvs-entry-tooltip = Esse valor limita a taxa na qual o servidor envia entidades tornadas
                                        visíveis recentemente visíveis ao cliente. Reduzir isso pode ajudar
                                        a reduzir stutter, mas pode levar a pop-in.
-
 ui-options-net-pvs-leave = Taxa de baixa de PVS
 ui-options-net-pvs-leave-tooltip = Isso limita a taxa na qual o cliente remove entidades
                                        fora de vista. Reduzir isso pode ajudar a reduzir
                                        stutter ao caminhar, mas pode ocasionalmente
                                        levar a previsões erradas e outros problemas.
-
 ## Toggle window console command
 cmd-options-desc = Abre o menu de opções, opcionalmente com uma certa aba selecionada.
 cmd-options-help = Uso: options [aba]
-
 ## Combat Options
 ui-options-function-look-up = Mirar
 ui-options-function-auto-get-up = Se levantar automaticamente depois de cair.
 ui-options-function-hold-look-up = Segurar para mirar
+ui-options-chatstack = Automatically merge identical chat messages
+ui-options-chatstack-off = Off
+ui-options-chatstack-single = Only last message
+ui-options-chatstack-double = Last two messages
+ui-options-chatstack-triple = Last three messages
+ui-options-vp-vertical-fit = Vertical viewport fitting
+ui-options-vp-vertical-fit-tooltip = When enabled, the main viewport will ignore the horizontal axis entirely when
