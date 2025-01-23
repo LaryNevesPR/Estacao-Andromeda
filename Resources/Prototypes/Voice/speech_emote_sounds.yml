@@ -34,6 +34,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleHuman
@@ -70,6 +74,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: MaleReptilian
@@ -106,6 +114,10 @@
       collection: Snores
     Sigh:
       collection: MaleSigh
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleReptilian
@@ -142,7 +154,10 @@
       collection: Snores
     Sigh:
       collection: FemaleSigh
-
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 - type: emoteSounds
   id: MaleSlime
   params:
@@ -180,6 +195,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleSlime
@@ -218,6 +237,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: MaleShadowkin
@@ -260,6 +283,10 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleShadowkin
@@ -302,6 +329,10 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: UnisexVox
@@ -338,6 +369,7 @@
       collection: Whistles
     Weh:
       collection: Weh
+
 
 - type: emoteSounds
   id: UnisexDiona
@@ -453,6 +485,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleDwarf
@@ -490,6 +526,10 @@
       collection: Whistles
     Weh:
       collection: Weh
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: UnisexMoth
