@@ -1,13 +1,13 @@
-# changestockprice command
-cmd-changestocksprice-desc = Changes a company's stock price to the specified number.
-cmd-changestocksprice-help = changestockprice <Company index> <New price> [Station UID]
-cmd-changestocksprice-invalid-company = Failed to execute command! Invalid company index or the new price exceeds the allowed limit.
-cmd-changestocksprice-invalid-station = No stock market found for specified station
-cmd-changestocksprice-no-stations = No stations with stock markets found
+# comando changestockprice
+cmd-changestocksprice-desc = Altera o preço das ações de uma empresa para o número especificado.
+cmd-changestocksprice-help = changestockprice <Índice da empresa> <Novo preço> [UID da estação]
+cmd-changestocksprice-invalid-company = Falha ao executar o comando! Índice da empresa inválido ou o novo preço excede o limite permitido.
+cmd-changestocksprice-invalid-station = Nenhum mercado de ações encontrado para a estação especificada
+cmd-changestocksprice-no-stations = Nenhuma estação com mercados de ações encontrada
 
-# addstockscompany command
-cmd-addstockscompany-desc = Adds a new company to the stocks market.
-cmd-addstockscompany-help = addstockscompany <Display name> <Base price> [Station UID]
-cmd-addstockscompany-failure = Failed to add company to the stock market.
-cmd-addstockscompany-invalid-station = No stock market found for specified station
-cmd-addstockscompany-no-stations = No stations with stock markets found
+# comando addstockscompany
+cmd-addstockscompany-desc = Adiciona uma nova empresa ao mercado de ações.
+cmd-addstockscompany-help = addstockscompany <Nome de exibição> <Preço base> [UID da estação]
+cmd-addstockscompany-failure = Falha ao adicionar empresa ao mercado de ações.
+cmd-addstockscompany-invalid-station = Nenhum mercado de ações encontrado para a estação especificada
+cmd-addstockscompany-no-stations = Nenhuma estação com mercados de ações encontrada

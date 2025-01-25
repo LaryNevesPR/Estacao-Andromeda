@@ -14,5 +14,5 @@ comp-space-heater-ui-Low-power-consumption = Baixo
 comp-space-heater-ui-Medium-power-consumption = Médio
 comp-space-heater-ui-High-power-consumption = Alto
 
-comp-space-heater-device-name = aquecedor
+comp-space-heater-device-name = Aquecedor
 comp-space-heater-unanchored = O {$device} não está ancorado.

@@ -1,2 +1,2 @@
-lathe-menu-mining-points = Mining Points: {$points}
-lathe-menu-mining-points-claim-button = Claim Points
+lathe-menu-mining-points = Pontos de Mineração: {$points}
+lathe-menu-mining-points-claim-button = Reivindicar Pontos

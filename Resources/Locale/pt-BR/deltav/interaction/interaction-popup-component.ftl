@@ -1,6 +1,6 @@
-### Interaction Popup component
+### Componente de Popup de Interação
 
-## Petting animals
+## Acariciando animais
 
-petting-success-nukie-mouse = You pet {THE($target)} on {POSS-ADJ($target)} little blood-red syndicate mouse head.
-petting-failure-nukie-mouse = You reach out to pet {THE($target)}, but {SUBJECT($target)} attempts to slice your finger with a mouse-sized e-dagger and only your quick reflexes save you from an almost fatal injury.
+petting-success-nukie-mouse = Você acaricia {THE($target)} na pequena cabeça de rato vermelho-sangue do sindicato de {POSS-ADJ($target)}.
+petting-failure-nukie-mouse = Você tenta acariciar {THE($target)}, mas {SUBJECT($target)} tenta cortar seu dedo

@@ -62,9 +62,9 @@ air-alarm-ui-scrubber-wide-net-label = Rede Local
 
 air-alarm-ui-sensor-gases = Gases
 air-alarm-ui-sensor-thresholds = Limites
-air-alarm-ui-thresholds-pressure-title = Thresholds (kPa)
-air-alarm-ui-thresholds-temperature-title = Thresholds (K)
-air-alarm-ui-thresholds-gas-title = Thresholds (%)
+air-alarm-ui-thresholds-pressure-title = Limites (kPa)
+air-alarm-ui-thresholds-temperature-title = Limites (K)
+air-alarm-ui-thresholds-gas-title = Limites (%)
 air-alarm-ui-thresholds-upper-bound = Perigo acima
 air-alarm-ui-thresholds-lower-bound = Perigo abaixo
 air-alarm-ui-thresholds-upper-warning-bound = Aviso acima

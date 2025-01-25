@@ -1,67 +1,64 @@
-autodoc-program-step-surgery = perform surgery on {$part}: {$name}
-autodoc-program-step-grab-item = grab item: '{$name}'
-autodoc-program-step-grab-any = grab any: {$name}
-autodoc-item-organ = Organ
-autodoc-item-part = Body Part
-autodoc-program-step-store-item = store item
-autodoc-program-step-set-label = set label: '{$label}'
-autodoc-program-step-wait = wait {$length} seconds
+autodoc-program-step-surgery = realizar cirurgia em {$part}: {$name}
+autodoc-program-step-grab-item = pegar item: '{$name}'
+autodoc-program-step-grab-any = pegar qualquer: {$name}
+autodoc-item-organ = Órgão
+autodoc-item-part = Parte do Corpo
+autodoc-program-step-store-item = armazenar item
+autodoc-program-step-set-label = definir etiqueta: '{$label}'
+autodoc-program-step-wait = esperar {$length} segundos
 
-autodoc-program-completed = PROGRAM COMPLETED
-autodoc-error = ERROR: {$error}
-autodoc-fatal-error = FATAL ERROR: {$error}
-autodoc-waiting = PROGRAM WAITING
+autodoc-program-completed = PROGRAMA COMPLETO
+autodoc-error = ERRO: {$error}
+autodoc-fatal-error = ERRO FATAL: {$error}
+autodoc-waiting = PROGRAMA AGUARDANDO
 
-autodoc-error-missing-patient = MISSING PATIENT
-autodoc-error-body-part = BODY PART NOT DETECTED
-autodoc-error-surgery-impossible = SELECTED SURGERY IMPOSSIBLE
-autodoc-error-item-unavailable = ITEM UNAVAILABLE
-autodoc-error-surgery-failed = SURGERY FAILED
-autodoc-error-hand-full = ITEM MANIPULATOR FULL
-autodoc-error-storage-full = ITEM TRAYS FULL
-autodoc-error-patient-unsedated = PATIENT REQUIRES SEDATION
+autodoc-error-missing-patient = PACIENTE AUSENTE
+autodoc-error-body-part = PARTE DO CORPO NÃO DETECTADA
+autodoc-error-surgery-impossible = CIRURGIA SELECIONADA IMPOSSÍVEL
+autodoc-error-item-unavailable = ITEM INDISPONÍVEL
+autodoc-error-surgery-failed = CIRURGIA FALHOU
+autodoc-error-hand-full = MANIPULADOR DE ITENS CHEIO
+autodoc-error-storage-full = BANDEJAS DE ITENS CHEIAS
+autodoc-error-patient-unsedated = PACIENTE REQUER SEDAÇÃO
 
-# These intentionally have russian alongside them for ostranauts-like aesthetic.
-# If you are a russian fork, these don't need translating :)
-# Если вы являетесь русскоязычным форком, то они не нуждаются в переводе :)
-autodoc-title = AUTODOC АВТОДОК MK.XIV
-autodoc-create-program = NEW PROGRAM НОВОЕ РАСПИСАНИЕ
-autodoc-program-title = PROGRAM TITLE ТИТУЛ РАСПИСАНИЯ
-autodoc-program-title-placeholder = Program {$number}
-autodoc-abort-program = ABORT PROGRAM АБОРТ РАСПИСАНИЯ
+autodoc-title = AUTODOC MK.XIV
+autodoc-create-program = NOVO PROGRAMA
+autodoc-program-title = TÍTULO DO PROGRAMA
+autodoc-program-title-placeholder = Programa {$number}
+autodoc-abort-program = ABORTAR PROGRAMA
 
-autodoc-view-program-title = VIEW PROGRAM ПРОСМОТРИ
-autodoc-safety-enabled = SAFETY ON БЕЗОПАСНО НА
-autodoc-safety-disabled = SAFETY OFF В БЕЗОПАСНОСТИ
-autodoc-remove-program = REMOVE PROGRAM УДАЛИТЕ
-autodoc-add-step = ADD STEP ДОБАВЬ ШАГ
-autodoc-remove-step = REMOVE STEP УДАЛИ ШАГ
-autodoc-start-program = START PROGRAM НАЧНИ РАСПИСАНИЕ
+autodoc-view-program-title = VER PROGRAMA
+autodoc-safety-enabled = SEGURANÇA ATIVADA
+autodoc-safety-disabled = SEGURANÇA DESATIVADA
+autodoc-remove-program = REMOVER PROGRAMA
+autodoc-add-step = ADICIONAR ETAPA
+autodoc-remove-step = REMOVER ETAPA
+autodoc-start-program = INICIAR PROGRAMA
 
-autodoc-add-step-surgery = PERFORM SURGERY РАЗЫГРАЙ ОПЕРАЦИЮ
-autodoc-add-step-grab-item = GRAB ITEM ВОЗЬМИ ОБЪЕКТ
-autodoc-add-step-grab-item-prompt = Item name
-autodoc-add-step-grab-item-placeholder = dwarf heart
-autodoc-add-step-grab-organ = GRAB ORGAN ВОЗЬМИ ОРГАН
-autodoc-add-step-grab-part = GRAB BODY PART ВОЗЬМИ ЧАСТЬ ТЕЛА
-autodoc-add-step-store-item = STORE ITEM МАГАЗИН ОБЪЕКТ
-autodoc-add-step-set-label = SET LABEL НАНЕСИТЕ ЯРЛЫК
-autodoc-add-step-set-label-prompt = Label
-autodoc-add-step-wait = WAIT ЖДАТЬ
-autodoc-add-step-wait-prompt = Seconds to wait
+autodoc-add-step-surgery = REALIZAR CIRURGIA
+autodoc-add-step-grab-item = PEGAR ITEM
+autodoc-add-step-grab-item-prompt = Nome do item
+autodoc-add-step-grab-item-placeholder = coração de anão
+autodoc-add-step-grab-organ = PEGAR ÓRGÃO
+autodoc-add-step-grab-part = PEGAR PARTE DO CORPO
+autodoc-add-step-store-item = ARMAZENAR ITEM
+autodoc-add-step-set-label = DEFINIR ETIQUETA
+autodoc-add-step-set-label-prompt = Etiqueta
+autodoc-add-step-wait = ESPERAR
+autodoc-add-step-wait-prompt = Segundos para esperar
 
-autodoc-body-part-Other = Other
-autodoc-body-part-Torso = Torso
-autodoc-body-part-Head = Head
-autodoc-body-part-Arm = Arm
-autodoc-body-part-Hand = Hand
-autodoc-body-part-Leg = Leg
-autodoc-body-part-Foot = Foot
-autodoc-body-part-Tail = Tail
+autodoc-body-part-Other = Outro
+autodoc-body-part-Torso = Tronco
+autodoc-body-part-Head = Cabeça
+autodoc-body-part-Arm = Braço
+autodoc-body-part-Hand = Mão
+autodoc-body-part-Leg = Perna
+autodoc-body-part-Foot = Pé
+autodoc-body-part-Tail = Cauda
 
-autodoc-body-symmetry-ignored = Any
-autodoc-body-symmetry-None = None
-autodoc-body-symmetry-Left = Left
-autodoc-body-symmetry-Right = Right
+autodoc-body-symmetry-ignored = Qualquer
+autodoc-body-symmetry-None = Nenhuma
+autodoc-body-symmetry-Left = Esquerda
+autodoc-body-symmetry-Right = Direita
 
-autodoc-submit = Submit
+autodoc-submit = Enviar

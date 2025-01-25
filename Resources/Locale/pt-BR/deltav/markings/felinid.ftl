@@ -1,7 +1,7 @@
-marking-FelinidFluffyTail-Felinid_fluffy_tail_full = Fluffy Tail
-marking-FelinidFluffyTailRings-Felinid_fluffy_tail_full = Fluffy tail
-marking-FelinidFluffyTailRings-felinid_fluffy_tail_rings = Fluffy Tail Rings
-marking-FelinidFluffyTail = Fluffy Tail
-marking-FelinidFluffyTailRings = Fluffy Tail with rings
-marking-FelinidAlternativeTail = Alternative Wagging Tail
-marking-FelinidAlternativeTail-m_waggingtail_cat_FRONT = Alternative Wagging Tail
+marca-FelinidFluffyTail-Felinid_fluffy_tail_full = Cauda Fofa
+marca-FelinidFluffyTailRings-Felinid_fluffy_tail_full = Cauda fofa
+marca-FelinidFluffyTailRings-felinid_fluffy_tail_rings = Anéis de Cauda Fofa
+marca-FelinidFluffyTail = Cauda Fofa
+marca-FelinidFluffyTailRings = Cauda Fofa com anéis
+marca-FelinidAlternativeTail = Cauda Alternativa Abanando
+marca-FelinidAlternativeTail-m_waggingtail_cat_FRONT = Cauda Alternativa Abanando

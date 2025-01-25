@@ -1,2 +1,2 @@
-action-name-shadowkin-rest = Rest
+action-name-shadowkin-rest = Descansar
 action-description-shadowkin-rest = Rama

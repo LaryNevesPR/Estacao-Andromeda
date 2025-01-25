@@ -1,1 +1,1 @@
-damage-group-organ-failure = Organ Failure
+damage-group-organ-failure = Falha de Órgão

@@ -46,7 +46,7 @@ glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O n
 glimmer-event-awakened-prefix = acordado {$entity}
 
 noospheric-zap-seize = Você se convulsiona!
-noospheric-zap-seize-potential-regained = Você se convulsion! Algum bloqueio mental também parece ter sido eliminado..
+noospheric-zap-seize-potential-regained = Você se convulsiona! Algum bloqueio mental também parece ter sido eliminado..
 
 mindswap-trapped = Parece que você está preso neste vaso.
 

@@ -1,23 +1,23 @@
 reagent-name-kvass = kvass
-reagent-desc-kvass = A cool refreshing drink with a taste of socialism.
+reagent-desc-kvass = Uma bebida refrescante e fresca com um gosto de socialismo.
 
-reagent-name-gunmetal = gunmetal
-reagent-desc-gunmetal = A controversial drink first mixed by Solus Cream, renowned as the first bartender to serve welding fuel in a cocktail - without losing their liquor license.
+reagent-name-gunmetal = arma de metal
+reagent-desc-gunmetal = Uma bebida controversa primeiro misturada por Solus Cream, renomado como o primeiro barman a servir combustível de solda em um coquetel - sem perder sua licença de bebidas.
 
-reagent-name-lemondrop = lemon drop
-reagent-desc-lemondrop = A simple, tangy, and tasty drink consisting of lemon, vodka, and simple syrup. Refreshing!
+reagent-name-lemondrop = gota de limão
+reagent-desc-lemondrop = Uma bebida simples, picante e saborosa, consistindo de limão, vodka e xarope simples. Refrescante!
 
-reagent-name-greengrass = green grass
-reagent-desc-greengrass = Green grass, or grüne wiese, is a peculiar green cocktail hailing from the now dissolved GDR. Popular amongst the disillusioned and disingenuous alike.
+reagent-name-greengrass = grama verde
+reagent-desc-greengrass = Grama verde, ou grüne wiese, é um peculiar coquetel verde originário da agora dissolvida RDA. Popular entre os desiludidos e desonestos.
 
-reagent-name-daiquiri = modern daiquiri
-reagent-desc-daiquiri = A sweet mix of deadrum and lime, a favourite of writers and politicians.
+reagent-name-daiquiri = daiquiri moderno
+reagent-desc-daiquiri = Uma mistura doce de deadrum e limão, um favorito de escritores e políticos.
 
-reagent-name-arsonistsbrew = arsonist's brew
-reagent-desc-arsonistsbrew = Take a sip and laugh, while you watch your world burn.
+reagent-name-arsonistsbrew = bebida do incendiário
+reagent-desc-arsonistsbrew = Tome um gole e ria, enquanto você vê seu mundo queimar.
 
-reagent-name-healthviolation = health code violation
-reagent-desc-healthviolation = Allegedly it's a cocktail. The warning cone motif seems apt.
+reagent-name-healthviolation = violação do código de saúde
+reagent-desc-healthviolation = Alegadamente é um coquetel. O motivo do cone de aviso parece apropriado.
 
-reagent-name-mothamphetamine = mothamphetamine
-reagent-desc-mothamphetamine = A strangely... fuzzy drink. It has a chaotic aura.
+reagent-name-mothamphetamine = metamfetamina de mariposa
+reagent-desc-mothamphetamine = Uma bebida estranhamente... felpuda. Tem uma aura caótica.

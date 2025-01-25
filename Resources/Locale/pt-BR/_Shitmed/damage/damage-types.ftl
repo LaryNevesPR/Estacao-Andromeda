@@ -1,2 +1,2 @@
-damage-type-organ = Decay
+damage-type-organ = Decadência
 damage-type-trauma = Trauma

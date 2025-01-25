@@ -1,142 +1,140 @@
 ## Job
-character-job-requirement = You must{$inverted ->
-    [true]{" "}not
+character-job-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be one of these jobs: {$jobs}
+} ser um destes trabalhos: {$jobs}
 
-character-department-requirement = You must{$inverted ->
-    [true]{" "}not
+character-department-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be in one of these departments: {$departments}
+} estar em um destes departamentos: {$departments}
 
-character-timer-department-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of [color={$departmentColor}]{$department}[/color] department playtime
-character-timer-department-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes in [color={$departmentColor}]{$department}[/color] department
+character-timer-department-insufficient = Você precisa de mais [color=yellow]{TOSTRING($time, "0")}[/color] minutos no departamento [color={$departmentColor}]{$department}[/color]
+character-timer-department-too-high = Você precisa de menos [color=yellow]{TOSTRING($time, "0")}[/color] minutos no departamento [color={$departmentColor}]{$department}[/color]
 
-character-timer-overall-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes of playtime
-character-timer-overall-too-high = You require [color=yellow]{TOSTRING($time, "0")}[/color] fewer minutes of playtime
+character-timer-overall-insufficient = Você precisa de mais [color=yellow]{TOSTRING($time, "0")}[/color] minutos de tempo de jogo
+character-timer-overall-too-high = Você precisa de menos [color=yellow]{TOSTRING($time, "0")}[/color] minutos de tempo de jogo
 
-character-timer-role-insufficient = You require [color=yellow]{TOSTRING($time, "0")}[/color] more minutes with [color={$departmentColor}]{$job}[/color]
-character-timer-role-too-high = You require[color=yellow] {TOSTRING($time, "0")}[/color] fewer minutes with [color={$departmentColor}]{$job}[/color]
+character-timer-role-insufficient = Você precisa de mais [color=yellow]{TOSTRING($time, "0")}[/color] minutos com [color={$departmentColor}]{$job}[/color]
+character-timer-role-too-high = Você precisa de menos [color=yellow]{TOSTRING($time, "0")}[/color] minutos com [color={$departmentColor}]{$job}[/color]
 
 
-## Logic
+## Lógica
 character-logic-and-requirement-listprefix = {""}
     {$indent}[color=gray]&[/color]{" "}
-character-logic-and-requirement = You must{$inverted ->
-    [true]{" "}not
+character-logic-and-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} fit [color=red]all[/color] of [color=gray]these[/color]: {$options}
+} atender a [color=red]todos[/color] estes [color=gray]requisitos[/color]: {$options}
 
 character-logic-or-requirement-listprefix = {""}
     {$indent}[color=white]O[/color]{" "}
-character-logic-or-requirement = You must{$inverted ->
-    [true]{" "}not
+character-logic-or-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} fit [color=red]at least one[/color] of [color=white]these[/color]: {$options}
+} atender a [color=red]pelo menos um[/color] destes [color=white]requisitos[/color]: {$options}
 
 character-logic-xor-requirement-listprefix = {""}
     {$indent}[color=white]X[/color]{" "}
-character-logic-xor-requirement = You must{$inverted ->
-    [true]{" "}not
+character-logic-xor-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} fit [color=red]only one[/color] of [color=white]these[/color]: {$options}
+} atender a [color=red]apenas um[/color] destes [color=white]requisitos[/color]: {$options}
 
 
-## Profile
-character-age-requirement = You must{$inverted ->
-    [true]{" "}not
+## Perfil
+character-age-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be within [color=yellow]{$min}[/color] and [color=yellow]{$max}[/color] years old
+} ter entre [color=yellow]{$min}[/color] e [color=yellow]{$max}[/color] anos
 
-character-backpack-type-requirement = You must {$inverted ->
-    [true] not use
-    *[other] use
-} a [color=brown]{$type}[/color] as your bag
+character-backpack-type-requirement = Você deve {$inverted ->
+    [true] não usar
+    *[other] usar
+} uma [color=brown]{$type}[/color] como sua mochila
 
-character-clothing-preference-requirement = You must {$inverted ->
-    [true] not wear
-    *[other] wear
-} a [color=white]{$type}[/color]
+character-clothing-preference-requirement = Você deve {$inverted ->
+    [true] não vestir
+    *[other] vestir
+} uma [color=white]{$type}[/color]
 
-character-gender-requirement = You must {$inverted ->
-    [true] not have
-    *[other] have
-} the pronouns [color=white]{$gender}[/color]
+character-gender-requirement = Você deve {$inverted ->
+    [true] não ter
+    *[other] ter
+} os pronomes [color=white]{$gender}[/color]
 
-character-sex-requirement = You must{$inverted ->
-    [true]{" "}not
+character-sex-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be [color=white]{$sex ->
-    [None] unsexed
+} ser [color=white]{$sex ->
+    [None] sem sexo
     *[other] {$sex}
 }[/color]
-character-species-requirement = You must{$inverted ->
-    [true]{" "}not
-    *[other]{""}
-} be a {$species}
 
-character-height-requirement = You must{$inverted ->
-    [true]{" "}not
+character-species-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be {$min ->
+} ser um {$species}
+
+character-height-requirement = Você deve{$inverted ->
+    [true]{" "}não
+    *[other]{""}
+} ter {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] shorter than [color={$color}]{$max}[/color]cm
+        *[other] menos de [color={$color}]{$max}[/color]cm
     }
     *[other]{$max ->
-        [2147483648] taller than [color={$color}]{$min}[/color]cm
-        *[other] between [color={$color}]{$min}[/color] and [color={$color}]{$max}[/color]cm tall
+        [2147483648] mais de [color={$color}]{$min}[/color]cm
+        *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]cm de altura
     }
 }
 
-character-width-requirement = You must{$inverted ->
-    [true]{" "}not
+character-width-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be {$min ->
+} ter {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] skinnier than [color={$color}]{$max}[/color]cm
+        *[other] menos de [color={$color}]{$max}[/color]cm de largura
     }
     *[other]{$max ->
-        [2147483648] wider than [color={$color}]{$min}[/color]cm
-        *[other] between [color={$color}]{$min}[/color] and [color={$color}]{$max}[/color]cm wide
+        [2147483648] mais de [color={$color}]{$min}[/color]cm de largura
+        *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]cm de largura
     }
 }
 
-character-weight-requirement = You must{$inverted ->
-    [true]{" "}not
+character-weight-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be {$min ->
+} ter {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] lighter than [color={$color}]{$max}[/color]kg
+        *[other] menos de [color={$color}]{$max}[/color]kg
     }
     *[other]{$max ->
-        [2147483648] heavier than [color={$color}]{$min}[/color]kg
-        *[other] between [color={$color}]{$min}[/color] and [color={$color}]{$max}[/color]kg
+        [2147483648] mais de [color={$color}]{$min}[/color]kg
+        *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]kg
     }
 }
 
+character-trait-requirement = Você deve {$inverted ->
+    [true] não ter
+    *[other] ter
+} um destes traços: {$traits}
 
-character-trait-requirement = You must {$inverted ->
-    [true] not have
-    *[other] have
-} one of these traits: {$traits}
+character-loadout-requirement = Você deve {$inverted ->
+    [true] não ter
+    *[other] ter
+} um destes equipamentos: {$loadouts}
 
-character-loadout-requirement = You must {$inverted ->
-    [true] not have
-    *[other] have
-} one of these loadouts: {$loadouts}
+character-item-group-requirement = Você deve {$inverted ->
+    [true] ter {$max} ou mais
+    *[other] ter {$max} ou menos
+} itens do grupo [color=white]{$group}[/color]
 
-
-character-item-group-requirement = You must {$inverted ->
-    [true] have {$max} or more
-    *[other] have {$max} or less
-} items from the group [color=white]{$group}[/color]
-
-
-## Whitelist
-character-whitelist-requirement = You must{$inverted ->
-    [true]{" "}not
+## Lista Branca
+character-whitelist-requirement = Você deve{$inverted ->
+    [true]{" "}não
     *[other]{""}
-} be whitelisted
+} estar na lista branca

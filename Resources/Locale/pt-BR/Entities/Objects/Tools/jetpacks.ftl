@@ -1,50 +1,50 @@
 ent-BaseJetpack = Jetpack
-     .desc = É um jetpack.
+    .desc = É um jetpack.
 
-ent-JetpackBlue = jetpack
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackBlue = Jetpack Azul
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackBlueFilled = jetpack
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackBlueFilled = Jetpack Azul
+    .desc = É um jetpack.
+    .suffix = Preenchido
 
-ent-JetpackBlack = jetpack
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackBlack = Jetpack Preto
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackBlackFilled = jetpack
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackBlackFilled = Jetpack Preto
+    .desc = É um jetpack.
+    .suffix = Preenchido
 
-ent-JetpackCaptain = jetpack do capitão
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackCaptain = Jetpack do Capitão
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackCaptainFilled = jetpack do capitão
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackCaptainFilled = Jetpack do Capitão
+    .desc = É um jetpack.
+    .suffix = Preenchido
 
-ent-JetpackMini = mini jetpack
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackMini = Mini Jetpack
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackMiniFilled = mini jetpack
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackMiniFilled = Mini Jetpack
+    .desc = É um jetpack.
+    .suffix = Preenchido
 
-ent-JetpackSecurity = jetpack de segurança
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackSecurity = Jetpack de Segurança
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackSecurityFilled = jetpack de segurança
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackSecurityFilled = Jetpack de Segurança
+    .desc = É um jetpack.
+    .suffix = Preenchido
 
-ent-JetpackVoid = vazio jetpack
-     .desc = É um jetpack.
-     .suffix = Vazio
+ent-JetpackVoid = Jetpack Vazio
+    .desc = É um jetpack.
+    .suffix = Vazio
 
-ent-JetpackVoidFilled = vazio jetpack
-     .desc = É um jetpack.
-     .suffix = Preenchido
+ent-JetpackVoidFilled = Jetpack Vazio
+    .desc = É um jetpack.
+    .suffix = Preenchido

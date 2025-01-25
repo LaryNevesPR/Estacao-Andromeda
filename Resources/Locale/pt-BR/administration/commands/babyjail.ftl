@@ -1,19 +1,19 @@
-cmd-babyjail-desc = Toggles the baby jail, which enables stricter restrictions on who's allowed to join the server.
-cmd-babyjail-help = Usage: babyjail
-babyjail-command-enabled = Baby jail has been enabled.
-babyjail-command-disabled = Baby jail has been disabled.
+cmd-babyjail-desc = Alterna a prisão de bebês, que habilita restrições mais rigorosas sobre quem pode entrar no servidor.
+cmd-babyjail-help = Uso: babyjail
+babyjail-command-enabled = A prisão de bebês foi habilitada.
+babyjail-command-disabled = A prisão de bebês foi desabilitada.
 
-cmd-babyjail_show_reason-desc = Toggles whether or not to show connecting clients the reason why the baby jail blocked them from joining.
-cmd-babyjail_show_reason-help = Usage: babyjail_show_reason
-babyjail-command-show-reason-enabled = The baby jail will now show a reason to users it blocks from connecting.
-babyjail-command-show-reason-disabled = The baby jail will no longer show a reason to users it blocks from connecting.
+cmd-babyjail_show_reason-desc = Alterna se deve ou não mostrar aos clientes que se conectam o motivo pelo qual a prisão de bebês os bloqueou de entrar.
+cmd-babyjail_show_reason-help = Uso: babyjail_show_reason
+babyjail-command-show-reason-enabled = A prisão de bebês agora mostrará um motivo aos usuários que ela bloquear de se conectar.
+babyjail-command-show-reason-disabled = A prisão de bebês não mostrará mais um motivo aos usuários que ela bloquear de se conectar.
 
-cmd-babyjail_max_account_age-desc = Gets or sets the maximum account age in minutes that an account can have to be allowed to connect with the baby jail enabled.
-cmd-babyjail_max_account_age-help = Usage: babyjail_max_account_age <hours>
-babyjail-command-max-account-age-is = The maximum account age for the baby jail is {$hours} hours.
-babyjail-command-max-account-age-set = Set the maximum account age for the baby jail to {$hours} hours.
+cmd-babyjail_max_account_age-desc = Obtém ou define a idade máxima da conta em minutos que uma conta pode ter para ser permitida a se conectar com a prisão de bebês habilitada.
+cmd-babyjail_max_account_age-help = Uso: babyjail_max_account_age <horas>
+babyjail-command-max-account-age-is = A idade máxima da conta para a prisão de bebês é de {$hours} horas.
+babyjail-command-max-account-age-set = Defina a idade máxima da conta para a prisão de bebês para {$hours} horas.
 
-cmd-babyjail_max_overall_hours-desc = Gets or sets the maximum overall playtime in minutes that an account can have to be allowed to connect with the baby jail enabled.
-cmd-babyjail_max_overall_hours-help = Usage: babyjail_max_overall_hours <hours>
-babyjail-command-max-overall-hours-is = The maximum overall playtime for the baby jail is {$hours} hours.
-babyjail-command-max-overall-hours-set = Set the maximum overall playtime for the baby jail to {$hours} hours.
+cmd-babyjail_max_overall_hours-desc = Obtém ou define o tempo total de jogo máximo em minutos que uma conta pode ter para ser permitida a se conectar com a prisão de bebês habilitada.
+cmd-babyjail_max_overall_hours-help = Uso: babyjail_max_overall_hours <horas>
+babyjail-command-max-overall-hours-is = O tempo total de jogo máximo para a prisão de bebês é de {$hours} horas.
+babyjail-command-max-overall-hours-set = Defina o tempo total de jogo máximo para a prisão de bebês para {$hours} horas.

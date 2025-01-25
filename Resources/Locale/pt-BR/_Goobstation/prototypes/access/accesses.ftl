@@ -1,3 +1,3 @@
-id-card-access-level-ntr = Nanotrasen Representative
-id-card-access-level-bso = Blueshield Officer
-id-card-access-level-mag = Magistrate
+id-card-access-level-ntr = Representante da Nanotrasen
+id-card-access-level-bso = Oficial Blueshield
+id-card-access-level-mag = Magistrado

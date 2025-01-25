@@ -1,24 +1,23 @@
-ent-BaseMagazineLightRifle = magazine (.30 rifle)
+ent-BaseMagazineLightRifle = carregador (.30 rifle)
     .desc = { "" }
 
-ent-MagazineLightRifleBox = L6 SAW caixa de magazine (.30 rifle)
+ent-MagazineLightRifleBox = caixa de carregador L6 SAW (.30 rifle)
     .desc = { "" }
 
-ent-MagazineLightRifle = magazine (.30 rifle)
+ent-MagazineLightRifle = carregador (.30 rifle)
     .desc = { "" }
 
-ent-MagazineLightRifleHighVelocity = magazine (.30 rifle de alta velocidade)
+ent-MagazineLightRifleHighVelocity = carregador (.30 rifle de alta velocidade)
     .desc = { "" }
 
-ent-MagazineLightRiflePractice = magazine (.30 rifle prática)
+ent-MagazineLightRiflePractice = carregador (.30 rifle prática)
     .desc = { "" }
 
-ent-MagazineLightRifleRubber = magazine (.30 rifle borracha)
+ent-MagazineLightRifleRubber = carregador (.30 rifle borracha)
     .desc = { "" }
 
-ent-MagazineLightRifleMaxim = pan magazine (.30 rifle)
+ent-MagazineLightRifleMaxim = carregador pan (.30 rifle)
     .desc = { "" }
 
-ent-MagazineLightRiflePkBox = PK munitions box (.30 rifle)
+ent-MagazineLightRiflePkBox = caixa de munições PK (.30 rifle)
     .desc = { "" }
-

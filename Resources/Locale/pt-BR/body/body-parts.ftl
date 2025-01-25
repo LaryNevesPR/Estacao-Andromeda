@@ -1,19 +1,19 @@
-# Locale values for TargetBodyPart
+# Valores de localidade para TargetBodyPart
 
-body-part-Head = head
+body-part-Head = cabeça
 body-part-Torso = torso
-body-part-Groin = groin
-body-part-LeftArm = left arm
-body-part-LeftHand = left hand
-body-part-RightArm = right arm
-body-part-RightHand = right hand
-body-part-LeftLeg = left leg
-body-part-LeftFoot = left foot
-body-part-RightLeg = right leg
-body-part-RightFoot = right foot
+body-part-Groin = virilha
+body-part-LeftArm = braço esquerdo
+body-part-LeftHand = mão esquerda
+body-part-RightArm = braço direito
+body-part-RightHand = mão direita
+body-part-LeftLeg = perna esquerda
+body-part-LeftFoot = pé esquerdo
+body-part-RightLeg = perna direita
+body-part-RightFoot = pé direito
 
-body-part-Hands = hands
-body-part-Arms = arms
-body-part-Legs = legs
-body-part-Feet = feet
-body-part-All = body
+body-part-Hands = mãos
+body-part-Arms = braços
+body-part-Legs = pernas
+body-part-Feet = pés
+body-part-All = corpo

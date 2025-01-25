@@ -1,14 +1,14 @@
-ent-CrateArmoryGrand = Rifles crate
-    .desc = Contains two Mark 1 Rifles and a box of speed-loaders. Requires Armory access to open.
+ent-CrateArmoryGrand = Caixa de Rifles
+    .desc = Contém dois Rifles Mark 1 e uma caixa de carregadores rápidos. Requer acesso ao Arsenal para abrir.
 
-ent-CrateArmoryUniversal = Universal crate
-    .desc = Contains two Mk32 Universal handguns with four mags. Requires Armory access to open.
+ent-CrateArmoryUniversal = Caixa Universal
+    .desc = Contém duas pistolas universais Mk32 com quatro carregadores. Requer acesso ao Arsenal para abrir.
 
-ent-CrateArmoryAdjutant = Adjutant crate
-    .desc = Contains two Adjutant shotguns with 3 ammo boxes. Requires Armory access to open.
+ent-CrateArmoryAdjutant = Caixa de Adjutante
+    .desc = Contém duas espingardas Adjutante com 3 caixas de munição. Requer acesso ao Arsenal para abrir.
 
-ent-CrateArmoryEnergyGun = Energy Gun Crate
-    .desc = Contains three Energy Guns. Requires Armory access to open.
+ent-CrateArmoryEnergyGun = Caixa de Armas de Energia
+    .desc = Contém três Armas de Energia. Requer acesso ao Arsenal para abrir.
 
-ent-CrateArmoryEnergyGunMini = Miniature Energy Gun Crate
-    .desc = Contains three Miniature Energy Guns. Requires Armory access to open.
+ent-CrateArmoryEnergyGunMini = Caixa de Armas de Energia Miniatura
+    .desc = Contém três Armas de Energia Miniatura. Requer acesso ao Arsenal para abrir.

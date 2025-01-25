@@ -1,3 +1,3 @@
-shuttle-console-inertia-dampener-off = Off
-shuttle-console-inertia-dampener-dampened = Dampened
-shuttle-console-inertia-dampener-anchored = Anchored
+shuttle-console-inertia-dampener-off = Desligado
+shuttle-console-inertia-dampener-dampened = Amortecido
+shuttle-console-inertia-dampener-anchored = Ancorado

@@ -1,3 +1,3 @@
-### Messages that can be utilized by multiple reagents.
+### Mensagens que podem ser utilizadas por vários reagentes.
 
-generic-reagent-effect-damnation = Your liver cries out in agony! Damnation!
+generic-reagent-effect-damnation = Seu fígado clama em agonia! Maldição!

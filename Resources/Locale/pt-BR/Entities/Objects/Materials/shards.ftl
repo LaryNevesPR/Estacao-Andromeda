@@ -1,9 +1,8 @@
-ent-ShardGlass = glass shard
-    .desc = A small piece of glass.
+ent-ShardGlass = caco de vidro
+    .desc = Um pequeno pedaço de vidro.
 
-ent-ShardGlassReinforced = reinforced glass shard
-    .desc = A small piece of reinforced glass.
+ent-ShardGlassReinforced = caco de vidro reforçado
+    .desc = Um pequeno pedaço de vidro reforçado.
 
-ent-ShardGlassPlasma = plasma glass shard
-    .desc = A small piece of plasma glass.
-
+ent-ShardGlassPlasma = caco de vidro de plasma
+    .desc = Um pequeno pedaço de vidro de plasma.

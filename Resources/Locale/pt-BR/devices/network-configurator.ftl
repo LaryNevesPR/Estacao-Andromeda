@@ -43,5 +43,5 @@ network-configurator-examine-current-mode = Modo atual: {$mode}
 network-configurator-examine-switch-modes = Aperte {$key} para mudar os modos
 
 # item status
-network-configurator-item-status-label = Modo atual: {$mode}
-{$keybinding} para mudar de modo
+network-configurator-item-status-label = Modo: {$mode}
+    {$keybinding} para mudar de modo

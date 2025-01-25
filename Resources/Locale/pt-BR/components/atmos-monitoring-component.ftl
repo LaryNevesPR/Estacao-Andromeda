@@ -1,14 +1,14 @@
-atmos-monitoring-window-title = Atmospheric Network Monitor
+atmos-monitoring-window-title = Monitor da Rede Atmosférica
 atmos-monitoring-window-station-name = [color=white][font size=14]{$stationName}[/font][/color]
-atmos-monitoring-window-unknown-location = Unknown location
-atmos-monitoring-window-label-gas-opening = Network opening 
-atmos-monitoring-window-label-gas-scrubber = Air scrubber
-atmos-monitoring-window-label-gas-flow-regulator = Flow regulator
-atmos-monitoring-window-label-thermoregulator = Thermoregulator
-atmos-monitoring-window-tab-networks = Atmospheric networks
-atmos-monitoring-window-toggle-overlays = Toggle map overlays
-atmos-monitoring-window-show-pipe-network = Pipe network
-atmos-monitoring-window-show-gas-pipe-sensors = Gas pipe sensors
-atmos-monitoring-window-label-gases = Present gases
-atmos-monitoring-window-flavor-left = Contact an atmospheric technician for assistance
+atmos-monitoring-window-unknown-location = Localização desconhecida
+atmos-monitoring-window-label-gas-opening = Abertura da rede
+atmos-monitoring-window-label-gas-scrubber = Purificador de ar
+atmos-monitoring-window-label-gas-flow-regulator = Regulador de fluxo
+atmos-monitoring-window-label-thermoregulator = Termorregulador
+atmos-monitoring-window-tab-networks = Redes atmosféricas
+atmos-monitoring-window-toggle-overlays = Alternar sobreposições do mapa
+atmos-monitoring-window-show-pipe-network = Rede de tubos
+atmos-monitoring-window-show-gas-pipe-sensors = Sensores de tubos de gás
+atmos-monitoring-window-label-gases = Gases presentes
+atmos-monitoring-window-flavor-left = Contate um técnico atmosférico para assistência
 atmos-monitoring-window-flavor-right = v1.1

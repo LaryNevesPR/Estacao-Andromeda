@@ -1,5 +1,5 @@
-stamp-component-stamped-name-lawyer = Lawyer
-stamp-component-stamped-name-psychologist = Psychologist
-stamp-component-stamped-name-notary = NOTARY
-stamp-component-stamped-name-chiefjustice = Chief Justice
-stamp-component-stamped-name-admin-assistant = Administrative Assistant
+stamp-component-stamped-name-lawyer = Advogado
+stamp-component-stamped-name-psychologist = Psicólogo
+stamp-component-stamped-name-notary = NOTÁRIO
+stamp-component-stamped-name-chiefjustice = Chefe de Justiça
+stamp-component-stamped-name-admin-assistant = Assistente Administrativo

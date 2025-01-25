@@ -1,5 +1,5 @@
-﻿ghost-command-description = Give up on life and become a ghost.
-ghost-command-help-text = The ghost command turns you into a ghost and makes the character you played permanently catatonic.
-                          Please note that you cannot return to your character's body after ghosting.
-ghost-command-no-session = You have no session, you can't ghost.
-ghost-command-denied = You cannot ghost right now.
+﻿ghost-command-description = Desista da vida e torne-se um fantasma.
+ghost-command-help-text = O comando fantasma transforma você em um fantasma e torna o personagem que você jogou permanentemente catatônico.
+                          Por favor, note que você não pode retornar ao corpo do seu personagem após se tornar um fantasma.
+ghost-command-no-session = Você não tem sessão, você não pode se tornar um fantasma.
+ghost-command-denied = Você não pode se tornar um fantasma agora.

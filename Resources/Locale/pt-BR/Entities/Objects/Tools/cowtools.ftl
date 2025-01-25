@@ -1,28 +1,27 @@
-ent-Haycutters = haycutters
-    .desc = This kills the wire. Moo!
+ent-Haycutters = cortadores de feno
+    .desc = Isso corta o fio. Muu!
 
-ent-Moodriver = moodriver
-    .desc = Turn to use. Moo!
+ent-Moodriver = condutor de humor
+    .desc = Gire para usar. Muu!
 
-ent-Wronch = wronch
-    .desc = Wronch thing. Moo!
+ent-Wronch = chave errada
+    .desc = Coisa errada. Muu!
 
-ent-Cowbar = cowbar
-    .desc = Cow your problems away. Moo!
+ent-Cowbar = barra de vaca
+    .desc = Resolva seus problemas. Muu!
 
-ent-Mooltitool = mooltitool
-    .desc = An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+ent-Mooltitool = multitool de vaca
+    .desc = Uma ferramenta rudimentar para copiar, armazenar e enviar pulsos e sinais elétricos através de fios e máquinas. Muu!
 
-ent-Cowelder = cowelding tool
-    .desc = Melts anything as long as it's fueled, don't forget your eye protection! Moo!
+ent-Cowelder = ferramenta de solda de vaca
+    .desc = Derrete qualquer coisa enquanto tiver combustível, não se esqueça da proteção para os olhos! Muu!
 
-ent-Milkalyzer = milkalyzer
-    .desc = A hand-held environmental scanner which reports current gas levels. Moo!
+ent-Milkalyzer = analisador de leite
+    .desc = Um scanner ambiental portátil que informa os níveis atuais de gás. Muu!
 
-ent-CowToolbox = cow toolbox
-    .desc = A weirdly shaped box, stocked with... tools?
+ent-CowToolbox = caixa de ferramentas de vaca
+    .desc = Uma caixa estranhamente moldada, cheia de... ferramentas?
 
-ent-CowToolboxFilled = cow toolbox
-    .desc = A weirdly shaped box, stocked with... tools?
-    .suffix = Filled
-
+ent-CowToolboxFilled = caixa de ferramentas de vaca
+    .desc = Uma caixa estranhamente moldada, cheia de... ferramentas?
+    .suffix = Cheia

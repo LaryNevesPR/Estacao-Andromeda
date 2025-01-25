@@ -1,6 +1,6 @@
-# Announcements related to captain presence and ACO state
+# Anúncios relacionados à presença do capitão e ao estado do ACO
 
-captain-arrived-revoke-aco-announcement = The Acting Commanding Officer's position is revoked due to the arrival of a NanoTrasen-appointed captain. All personnel are to return to the standard Chain of Command.
-no-captain-request-aco-vote-with-aa-announcement = Station records indicate that no captain is currently present. Command personnel are requested to nominate an Acting Commanding Officer and report the results to Central Command in accordance with Standard Operating Procedure. Emergency AA will be unlocked in {$minutes} minutes to ensure continued operational efficiency.
-no-captain-request-aco-vote-announcement = Station records indicate that no captain is currently present. Command personnel are requested to nominate an Acting Commanding Officer and report the results to Central Command in accordance with Standard Operating Procedure.
-no-captain-aa-unlocked-announcement = Command access authority has been granted to the Spare ID cabinet for use by the Acting Commanding Officer. Unauthorized possession of Emergency AA is punishable under Felony Offense [202]: Grand Theft.
+captain-arrived-revoke-aco-announcement = A posição de Oficial Comandante Interino foi revogada devido à chegada de um capitão nomeado pela NanoTrasen. Todo o pessoal deve retornar à Cadeia de Comando padrão.
+no-captain-request-aco-vote-with-aa-announcement = Os registros da estação indicam que nenhum capitão está presente no momento. O pessoal de comando deve nomear um Oficial Comandante Interino e relatar os resultados ao Comando Central de acordo com o Procedimento Operacional Padrão. A AA de Emergência será desbloqueada em {$minutes} minutos para garantir a eficiência operacional contínua.
+no-captain-request-aco-vote-announcement = Os registros da estação indicam que nenhum capitão está presente no momento. O pessoal de comando deve nomear um Oficial Comandante Interino e relatar os resultados ao Comando Central de acordo com o Procedimento Operacional Padrão.
+no-captain-aa-unlocked-announcement = A autoridade de acesso de comando foi concedida ao gabinete de ID de Reserva para uso pelo Oficial Comandante Interino. A posse não autorizada da AA de Emergência é punível sob a Ofensa Grave [202]: Grande Roubo.

@@ -1,2 +1,2 @@
-ent-CrateVendingMachineRestockPrideFilled = Pride-O-Mat restock crate
-    .desc = Contains a restock box for the Pride-O-Mat.
+ent-CrateVendingMachineRestockPrideFilled = Caixa de reabastecimento do Pride-O-Mat
+    .desc = Contém uma caixa de reabastecimento para o Pride-O-Mat.

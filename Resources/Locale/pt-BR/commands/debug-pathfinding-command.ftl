@@ -1,4 +1,4 @@
-cmd-pathfinder-desc = Toggles visibility of pathfinding debuggers.
-cmd-pathfinder-help = Usage: {$command} [options]
-cmd-pathfinder-error = Unrecognised pathfinder args {$arg}
-cmd-pathfinder-notify = Toggled {$arg} to {$newMode}
+cmd-pathfinder-desc = Alterna a visibilidade dos depuradores de pathfinding.
+cmd-pathfinder-help = Uso: {$command} [opções]
+cmd-pathfinder-error = Argumentos de pathfinder não reconhecidos {$arg}
+cmd-pathfinder-notify = Alternado {$arg} para {$newMode}

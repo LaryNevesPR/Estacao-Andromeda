@@ -1,8 +1,8 @@
 reagent-name-pesto = pesto
-reagent-desc-pesto = A combination of salt, herbs, garlic, oil, and pine nuts.
+reagent-desc-pesto = Uma combinação de sal, ervas, alho, óleo e pinhões.
 
-reagent-name-tomatosauce = tomato sauce
-reagent-desc-tomatosauce = Tomato with salt and herbs.
+reagent-name-tomatosauce = molho de tomate
+reagent-desc-tomatosauce = Tomate com sal e ervas.
 
 reagent-name-bechamel = bechamel
-reagent-desc-bechamel = A classic white sauce common to several cultures.
+reagent-desc-bechamel = Um molho branco clássico comum a várias culturas.

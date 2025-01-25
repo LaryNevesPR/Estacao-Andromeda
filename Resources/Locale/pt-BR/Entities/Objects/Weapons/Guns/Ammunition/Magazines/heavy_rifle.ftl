@@ -1,3 +1,2 @@
-ent-BaseMagazineHeavyRifle = magazine (.20 rifle)
+ent-BaseMagazineHeavyRifle = carregador (.20 rifle)
     .desc = { "" }
-

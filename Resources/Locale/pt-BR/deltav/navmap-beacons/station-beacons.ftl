@@ -1,8 +1,8 @@
-station-beacon-epistemics = Epistêmica
-station-beacon-mystagogue = Mistagogo
+station-beacon-epistemics = Ciência
+station-beacon-mystagogue = Diretor de Pesquisas
 
-station-beacon-logistics = Logística
-station-beacon-logistics-reception = Logística
+station-beacon-logistics = Cargo
+station-beacon-logistics-reception = Recepção de Cargo
 station-beacon-lo = LO
 
 station-beacon-conference-room = Sala de Conferências

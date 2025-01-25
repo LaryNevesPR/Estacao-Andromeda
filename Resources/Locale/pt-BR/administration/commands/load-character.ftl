@@ -1,12 +1,12 @@
-﻿loadcharacter-command-description = Applies your currently selected character to an entity
-loadcharacter-command-help = Usage: loadcharacter | loadcharacter <entityUid> | loadcharacter <entityUid> <characterName>
-loadcharacter-command-mismatch = Species mismatch detected between character and selected entity, this may have unexpected results.
-loadcharacter-command-complete = Character loaded.
-loadcharacter-command-fetching = Fetching character data for {$name}...
-loadcharacter-command-fetching-failed = Failed to fetch character data!
-loadcharacter-command-failed-fetching = Profile fetching failed???
-loadcharacter-command-hint-select = Select character
+﻿loadcharacter-command-description = Aplica seu personagem selecionado atualmente a uma entidade
+loadcharacter-command-help = Uso: loadcharacter | loadcharacter <entityUid> | loadcharacter <entityUid> <characterName>
+loadcharacter-command-mismatch = Detectada incompatibilidade de espécie entre o personagem e a entidade selecionada, isso pode ter resultados inesperados.
+loadcharacter-command-complete = Personagem carregado.
+loadcharacter-command-fetching = Buscando dados do personagem para {$name}...
+loadcharacter-command-fetching-failed = Falha ao buscar dados do personagem!
+loadcharacter-command-failed-fetching = Falha ao buscar perfil???
+loadcharacter-command-hint-select = Selecione o personagem
 
-spawncharacter-command-description = Spawns your currently selected/specified character
-spawncharacter-command-help = Usage: spawncharacter | spawncharacter <characterName>
-spawncharacter-command-complete = Character spawned.
+spawncharacter-command-description = Gera seu personagem selecionado/especificado atualmente
+spawncharacter-command-help = Uso: spawncharacter | spawncharacter <characterName>
+spawncharacter-command-complete = Personagem gerado.

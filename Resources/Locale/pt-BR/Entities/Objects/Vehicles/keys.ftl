@@ -1,7 +1,7 @@
 ent-VehicleKeyPussyWagon = chaves janicart
      .desc = Design interessante.
 
-ent-VehicleKeySecway = chaves secway
+ent-VehicleKeySecway = chaves segway
      .desc = As chaves para o futuro.
 
 ent-VehicleKeyATV = chaves do ATV

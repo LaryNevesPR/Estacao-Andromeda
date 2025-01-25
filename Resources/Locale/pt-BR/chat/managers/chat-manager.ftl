@@ -122,10 +122,10 @@ chat-speech-verb-electricity-1 = estalando
 chat-speech-verb-electricity-2 = zumbidas
 chat-speech-verb-electricity-3 = gritos
 
-chat-speech-verb-name-oni=Oni
-chat-speech-verb-oni-1=grunhe
-chat-speech-verb-oni-2=berra
-chat-speech-verb-oni-3=ressoa
-chat-speech-verb-oni-4=troveja
+chat-speech-verb-name-oni= Oni
+chat-speech-verb-oni-1= grunhe
+chat-speech-verb-oni-2= berra
+chat-speech-verb-oni-3= ressoa
+chat-speech-verb-oni-4= troveja
 
 chat-speech-verb-marish = Mars

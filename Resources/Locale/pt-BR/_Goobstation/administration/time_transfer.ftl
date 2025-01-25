@@ -1,23 +1,22 @@
-time-transfer-panel-title = Time Transfer
-time-transfer-panel-player-label = Player
-time-transfer-panel-time = Time
-time-transfer-panel-add-time = Add time 
-time-transfer-panel-set-time = Set time
-time-transfer-panel-set-time-confirm = Confirm
-time-transfer-panel-warning-no-player = Player not selected
-time-transfer-panel-warning-no-job = Role not selected
-time-transfer-panel-warning-group-no-time = Group time is empty
-time-transfer-panel-warning-add-success = Time successfully added
-time-transfer-panel-warning-set-success = Time successfully overwritten
-time-transfer-panel-warning-transfer-process = Time transfer in progress...
-time-transfer-panel-checkbox-group = Group
-time-transfer-overall-checkbox = Overall
-time-transfer-panel-search-placeholder = Search jobs
+time-transfer-panel-title = Transferência de Tempo
+time-transfer-panel-player-label = Jogador
+time-transfer-panel-time = Tempo
+time-transfer-panel-add-time = Adicionar tempo
+time-transfer-panel-set-time = Definir tempo
+time-transfer-panel-set-time-confirm = Confirmar
+time-transfer-panel-warning-no-player = Jogador não selecionado
+time-transfer-panel-warning-no-job = Função não selecionada
+time-transfer-panel-warning-group-no-time = Tempo do grupo está vazio
+time-transfer-panel-warning-add-success = Tempo adicionado com sucesso
+time-transfer-panel-warning-set-success = Tempo sobrescrito com sucesso
+time-transfer-panel-warning-transfer-process = Transferência de tempo em andamento...
+time-transfer-panel-checkbox-group = Grupo
+time-transfer-overall-checkbox = Geral
+time-transfer-panel-search-placeholder = Pesquisar funções
 
+cmd-timetransferpanel-desc = Abre o menu de transferência de tempo
+admin-player-actions-window-time-transfer = Transferência de Tempo
+time-transfer-panel-no-player-database-message = Jogador não encontrado no banco de dados
 
-cmd-timetransferpanel-desc = Opens time transfer menu
-admin-player-actions-window-time-transfer = Time Transfer
-time-transfer-panel-no-player-database-message = Player not found in database
-
-# Please change it if you really-really need to do it
-time-transfer-panel-author = Made by BombasterDS for Goobstation
+# Por favor, altere apenas se for realmente necessário
+time-transfer-panel-author = Feito por BombasterDS para Goobstation

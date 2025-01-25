@@ -1,6 +1,6 @@
-cmd-showhealthbars-desc = Toggles health bars above mobs.
-cmd-showhealthbars-help = Usage: {$command} [<DamageContainerId>]
-cmd-showhealthbars-error-not-player = You aren't a player.
-cmd-showhealthbars-error-no-entity = You do not have an attached entity.
-cmd-showhealthbars-notify-enabled = Enabled health overlay for DamageContainers: {$args}.
-cmd-showhealthbars-notify-disabled = Disabled health overlay.
+cmd-showhealthbars-desc = Alterna as barras de saúde acima dos mobs.
+cmd-showhealthbars-help = Uso: {$command} [<DamageContainerId>]
+cmd-showhealthbars-error-not-player = Você não é um jogador.
+cmd-showhealthbars-error-no-entity = Você não tem uma entidade anexada.
+cmd-showhealthbars-notify-enabled = Sobreposição de saúde ativada para DamageContainers: {$args}.
+cmd-showhealthbars-notify-disabled = Sobreposição de saúde desativada.

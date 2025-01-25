@@ -1,83 +1,82 @@
 ﻿command-description-visualize =
-    Takes the input list of entities and puts them into a UI window for easy browsing.
+    Coloca a lista de entidades de entrada em uma janela de interface para fácil navegação.
 command-description-runverbas =
-    Runs a verb over the input entities with the given user.
+    Executa um verbo sobre as entidades de entrada com o usuário fornecido.
 command-description-acmd-perms =
-    Returns the admin permissions of the given command, if any.
+    Retorna as permissões de administrador do comando fornecido, se houver.
 command-description-acmd-caninvoke =
-    Check if the given player can invoke the given command.
+    Verifica se o jogador fornecido pode invocar o comando fornecido.
 command-description-jobs-jobs =
-    Returns all jobs on a station.
+    Retorna todos os trabalhos em uma estação.
 command-description-jobs-job =
-    Returns a given job on a station.
+    Retorna um trabalho específico em uma estação.
 command-description-jobs-isinfinite =
-    Returns true if the input job is infinite, otherwise false.
+    Retorna verdadeiro se o trabalho de entrada for infinito, caso contrário, falso.
 command-description-jobs-adjust =
-    Adjusts the number of slots for the given job.
+    Ajusta o número de vagas para o trabalho fornecido.
 command-description-jobs-set =
-    Sets the number of slots for the given job.
+    Define o número de vagas para o trabalho fornecido.
 command-description-jobs-amount =
-    Returns the number of slots for the given job.
+    Retorna o número de vagas para o trabalho fornecido.
 command-description-laws-list =
-    Returns a list of all law bound entities.
+    Retorna uma lista de todas as entidades vinculadas por lei.
 command-description-laws-get =
-    Returns all of the laws for a given entity.
+    Retorna todas as leis para uma entidade fornecida.
 command-description-stations-list =
-    Returns a list of all stations.
+    Retorna uma lista de todas as estações.
 command-description-stations-get =
-    Gets the active station, if and only if there is only one.
+    Obtém a estação ativa, se e somente se houver apenas uma.
 command-description-stations-getowningstation =
-    Gets the station that a given entity is "owned by" (within)
+    Obtém a estação que uma entidade fornecida é "propriedade de" (dentro).
 command-description-stations-grids =
-    Returns all grids associated with the input station.
+    Retorna todas as grades associadas à estação de entrada.
 command-description-stations-config =
-    Returns the config associated with the input station, if any.
+    Retorna a configuração associada à estação de entrada, se houver.
 command-description-stations-addgrid =
-    Adds a grid to the given station.
+    Adiciona uma grade à estação fornecida.
 command-description-stations-rmgrid =
-    Removes a grid from the given station.
+    Remove uma grade da estação fornecida.
 command-description-stations-rename =
-    Renames the given station.
+    Renomeia a estação fornecida.
 command-description-stations-largestgrid =
-    Returns the largest grid the given station has, if any.
+    Retorna a maior grade que a estação fornecida possui, se houver.
 command-description-stations-rerollBounties =
-    Clears all the current bounties for the station and gets a new selection.
+    Limpa todas as recompensas atuais da estação e obtém uma nova seleção.
 command-description-stationevent-lsprob =
-    Lists the probability of different station events occuring out of the entire pool.
+    Lista a probabilidade de diferentes eventos de estação ocorrerem de todo o pool.
 command-description-stationevent-lsprobtime =
-    Lists the probability of different station events occuring based on the specified length of a round.
+    Lista a probabilidade de diferentes eventos de estação ocorrerem com base na duração especificada de uma rodada.
 command-description-stationevent-prob =
-    Returns the probability of a single station event occuring out of the entire pool.
+    Retorna a probabilidade de um único evento de estação ocorrer de todo o pool.
 command-description-admins-active =
-    Returns a list of active admins.
+    Retorna uma lista de administradores ativos.
 command-description-admins-all =
-    Returns a list of ALL admins, including deadmined ones.
+    Retorna uma lista de TODOS os administradores, incluindo os desativados.
 command-description-marked =
-    Returns the value of $marked as a List<EntityUid>.
+    Retorna o valor de $marked como uma Lista<EntityUid>.
 command-description-rejuvenate =
-    Rejuvenates the given entities, restoring them to full health, clearing status effects, etc.
+    Rejuvenesce as entidades fornecidas, restaurando-as à saúde total, limpando efeitos de status, etc.
 command-description-tag-list =
-    Lists tags on the given entities.
+    Lista as tags nas entidades fornecidas.
 command-description-tag-add =
-    Adds a tag to the given entities.
+    Adiciona uma tag às entidades fornecidas.
 command-description-tag-rm =
-    Removes a tag from the given entities.
+    Remove uma tag das entidades fornecidas.
 command-description-tag-addmany =
-    Adds a list of tags to the given entities.
+    Adiciona uma lista de tags às entidades fornecidas.
 command-description-tag-rmmany =
-    Removes a list of tags from the given entities.
+    Remove uma lista de tags das entidades fornecidas.
 command-description-polymorph =
-    Polymorphs the input entity with the given prototype.
+    Polimorfa a entidade de entrada com o protótipo fornecido.
 command-description-unpolymorph =
-    Reverts a polymorph.
+    Reverte uma polimorfia.
 command-description-solution-get =
-    Grabs the given solution off the given entity.
+    Pega a solução fornecida da entidade fornecida.
 command-description-solution-adjreagent =
-    Adjusts the given reagent on the given solution.
+    Ajusta o reagente fornecido na solução fornecida.
 command-description-mind-get =
-    Grabs the mind from the entity, if any.
+    Pega a mente da entidade, se houver.
 command-description-mind-control =
-    Assumes control of an entity with the given player.
+    Assume o controle de uma entidade com o jogador fornecido.
 command-description-addaccesslog =
-    Adds an access log to this entity. Do note that this bypasses the log's default limit and pause check.
-
+    Adiciona um log de acesso a esta entidade. Observe que isso ignora o limite padrão e a verificação de pausa do log.

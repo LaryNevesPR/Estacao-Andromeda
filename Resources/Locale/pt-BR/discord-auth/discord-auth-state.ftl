@@ -1,6 +1,6 @@
-discord-auth-title = Discord Authorization
-discord-auth-info = To access the server, you need to link your SS14 account to Discord
-discord-auth-warn = Don't worry, it only takes a couple of clicks!
+discord-auth-title = Autorização do Discord
+discord-auth-info = Para acessar o servidor, você precisa vincular sua conta SS14 ao Discord
+discord-auth-warn = Não se preocupe, leva apenas alguns cliques!
 discord-auth-link = Link:
-discord-auth-browser-btn = Open in browser
-discord-auth-quit-btn = Quit
+discord-auth-browser-btn = Abrir no navegador
+discord-auth-quit-btn = Sair
