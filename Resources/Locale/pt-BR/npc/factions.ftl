@@ -1,1 +1,1 @@
-npcfaction-component-faction-set = Faction set to: {$faction}
+npcfaction-component-faction-set = Faction set to: { $faction }

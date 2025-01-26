@@ -1,23 +1,16 @@
 reagent-name-kvass = kvass
 reagent-desc-kvass = Uma bebida refrescante e fresca com um gosto de socialismo.
-
 reagent-name-gunmetal = arma de metal
 reagent-desc-gunmetal = Uma bebida controversa primeiro misturada por Solus Cream, renomado como o primeiro barman a servir combustível de solda em um coquetel - sem perder sua licença de bebidas.
-
 reagent-name-lemondrop = gota de limão
 reagent-desc-lemondrop = Uma bebida simples, picante e saborosa, consistindo de limão, vodka e xarope simples. Refrescante!
-
 reagent-name-greengrass = grama verde
 reagent-desc-greengrass = Grama verde, ou grüne wiese, é um peculiar coquetel verde originário da agora dissolvida RDA. Popular entre os desiludidos e desonestos.
-
 reagent-name-daiquiri = daiquiri moderno
 reagent-desc-daiquiri = Uma mistura doce de deadrum e limão, um favorito de escritores e políticos.
-
 reagent-name-arsonistsbrew = bebida do incendiário
 reagent-desc-arsonistsbrew = Tome um gole e ria, enquanto você vê seu mundo queimar.
-
 reagent-name-healthviolation = violação do código de saúde
 reagent-desc-healthviolation = Alegadamente é um coquetel. O motivo do cone de aviso parece apropriado.
-
 reagent-name-mothamphetamine = metamfetamina de mariposa
 reagent-desc-mothamphetamine = Uma bebida estranhamente... felpuda. Tem uma aura caótica.

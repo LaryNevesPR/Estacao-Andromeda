@@ -17,20 +17,23 @@ ent-ClothingHeadHelmetHardsuitSecurity = FPA-83s helmet
 ent-ClothingHeadHelmetHardsuitBrigmedic = FPA-84m helmet
     .desc = A bulky helmet deployed with the Tsagaan tacsuit. Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
 ent-ClothingHeadHelmetHardsuitCombatStandard = FPA-85 helmet
-    .desc = A bulky helmet deployed with the Baghatur Mk.II tacsuit.
-    Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
+    .desc =
+        A bulky helmet deployed with the Baghatur Mk.II tacsuit.
+        Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
 ent-ClothingHeadHelmetHardsuitCombatOfficer = FPA-85s helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatStandard.desc }
 ent-ClothingHeadHelmetHardsuitCombatMedical = FPA-86 helmet
-    .desc = A bulky helmet deployed with the Tsagaan Mk.II tacsuit.
-    Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
+    .desc =
+        A bulky helmet deployed with the Tsagaan Mk.II tacsuit.
+        Protects its wearer against ballistics and explosive ordinance, at the cost of some mobility.
 ent-ClothingHeadHelmetHardsuitCombatCorpsman = FPA-86m helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatMedical.desc }
 ent-ClothingHeadHelmetHardsuitWarden = FPA-92s helmet
     .desc = A modified riot-control helmet for use with the Sulde tacsuit. Offers better overall protection than standard tacsuits at the expense of mobility.
 ent-ClothingHeadHelmetHardsuitCombatRiot = FPA-93 helmet
-    .desc = A modified riot-control helmet for use with the Sulde Mk.II tacsuit.
-    Offers better overall protection than other models at the expense of mobility.
+    .desc =
+        A modified riot-control helmet for use with the Sulde Mk.II tacsuit.
+        Offers better overall protection than other models at the expense of mobility.
 ent-ClothingHeadHelmetHardsuitCombatWarden = FPA-93s helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatRiot.desc }
 ent-ClothingHeadHelmetHardsuitCap = NT-42c helmet
@@ -38,8 +41,9 @@ ent-ClothingHeadHelmetHardsuitCap = NT-42c helmet
 ent-ClothingHeadHelmetHardsuitEngineeringWhite = HpI-24c helmet
     .desc = A high-grade helmet used with the Daedalus hardsuit, it has a lighter construction than its standard counterparts, along with more radiation protection.
 ent-ClothingHeadHelmetHardsuitMedical = ZhP-25m helmet
-    .desc = An extraordinarily lightweight helmet designed for use with the Okuninushi hardsuit.
-    It is primarily made from transparent hard-plastics, providing complete freedom of vision.
+    .desc =
+        An extraordinarily lightweight helmet designed for use with the Okuninushi hardsuit.
+        It is primarily made from transparent hard-plastics, providing complete freedom of vision.
 ent-ClothingHeadHelmetHardsuitRd = NT-45e helmet
     .desc = A heavily armored helmet worn over the Sophia hardsuit. It boasts the same near-immunity to explosions, heat and radiation as the suit, but heavily restricts the wearer's mobility.
 ent-ClothingHeadHelmetHardsuitMystagogue = NT-45e helmet
@@ -47,8 +51,9 @@ ent-ClothingHeadHelmetHardsuitMystagogue = NT-45e helmet
 ent-ClothingHeadHelmetHardsuitSecurityRed = FPA-98s helmet
     .desc = A high quality helmet for the Dayicin tacsuit. It offers better overall protection than standard tacsuits without impacting mobility as much.
 ent-ClothingHeadHelmetHardsuitCombatAdvanced = FPA-99 helmet
-    .desc = A high quality helmet for the Dayicin Mk.II tacsuit.
-    Features a lightweight construction, offering the same protection as a standard tacsuit without impacting mobility as much.
+    .desc =
+        A high quality helmet for the Dayicin Mk.II tacsuit.
+        Features a lightweight construction, offering the same protection as a standard tacsuit without impacting mobility as much.
 ent-ClothingHeadHelmetHardsuitCombatHoS = FPA-99s helmet
     .desc = { ent-ClothingHeadHelmetHardsuitCombatAdvanced.desc }
 ent-ClothingHeadHelmetHardsuitLuxury = HpI-20c helmet
@@ -58,8 +63,9 @@ ent-ClothingHeadHelmetHardsuitSyndie = CSA-51a helmet
 ent-ClothingHeadHelmetHardsuitSyndieReverseEngineered = CSA-51a helmet
     .desc = An armored helmet deployed over a Shanlin tacsuit. This one has been painted blue.
 ent-ClothingHeadHelmetHardsuitSyndieMedic = CSA-51m helmet
-    .desc = An armored helmet deployed over a Zhongyao tacsuit. features optic integrations for nearly every medical hud on the market.
-    Designed to enable the survival of combat medics in the most dangerous of environments.
+    .desc =
+        An armored helmet deployed over a Zhongyao tacsuit. features optic integrations for nearly every medical hud on the market.
+        Designed to enable the survival of combat medics in the most dangerous of environments.
 ent-ClothingHeadHelmetHardsuitSyndieElite = CSA-54UA helmet
     .desc = An elite version of the Shanlin tacsuit's helmet, featuring improved armor and fireproofing.
 ent-ClothingHeadHelmetHardsuitSyndieCommander = CSA-54c helmet

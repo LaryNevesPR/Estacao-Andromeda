@@ -1,3 +1,27 @@
+chat-emote-name-growl = Growl
+chat-emote-name-hisses = Hiss
+chat-emote-name-purr = Purr
+chat-emote-name-mew = Mew
+# Felinid
+chat-emote-name-meow = Meow
+chat-emote-name-vulphowl = Howl
+chat-emote-name-vulpwhine = Whine
+chat-emote-name-vulpsnarl = Snarl
+chat-emote-name-vulpbark = Bark
+# Vulp
+chat-emote-name-tailwag = Wag Tail
+chat-emote-name-harpycaw = Caw
+chat-emote-name-harpyrev = Rev
+chat-emote-name-harpybang = Bang
+chat-emote-name-harpypew = Pew
+# Harpy
+chat-emote-name-harpyring = Ring
+chat-emote-name-wurble = Wurble
+# Shadowkin
+chat-emote-name-mars = Mars
+chat-emote-name-whirr = Whirr
+# Silicon
+chat-emote-name-boop = Boop
 # Nomes
 chat-emote-name-scream = Grito
 chat-emote-name-laugh = Risada
@@ -28,7 +52,6 @@ chat-emote-name-monkeyscreeches = Macaco Gritando
 chat-emote-name-robotbeep = Robô
 chat-emote-name-yawn = Bocejo
 chat-emote-name-snore = Ronco
-
 # Mensagem
 chat-emote-msg-scream = grita!
 chat-emote-msg-laugh = ri.

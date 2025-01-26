@@ -1,8 +1,15 @@
+spray-painter-color-black = black
+spray-painter-color-white = white
+spray-painter-color-blue = blue
+spray-painter-color-cyan = cyan
+spray-painter-color-green = green
+spray-painter-color-brown = brown
+spray-painter-color-yellow = yellow
+spray-painter-color-red = red
+spray-painter-style-not-available = Cannot apply the selected style to this type of airlock
 spray-painter-window-title = Spray de Tinta
-
 spray-painter-not-available = Não é possível aplicar o estilo neste tipo de porta
 spray-painter-selected-style = Estilo selecionado:
-
 spray-painter-selected-color = Cor selecionada:
 spray-painter-selected-red = vermelho
 spray-painter-selected-yellow = amarelo

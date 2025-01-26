@@ -3,7 +3,6 @@
 # Bound Interface
 
 gas-canister-bound-user-interface-title = Tanque de Gás
-
 # Popup
 gas-canister-popup-denied = Acesso negado
 
@@ -17,4 +16,4 @@ gas-canister-window-release-pressure-label = Saída de pressão:
 gas-canister-window-valve-label = Válvula:
 gas-canister-window-valve-closed-text = Fechada
 gas-canister-window-valve-open-text = Aberta
-gas-canister-window-pressure-format-text = {$pressure}kPa
+gas-canister-window-pressure-format-text = { $pressure }kPa

@@ -13,7 +13,6 @@ badfeeling-artifact-12 = As luzes estão piscando.
 badfeeling-artifact-13 = As sombras estão se alongando.
 badfeeling-artifact-14 = As paredes estão se fechando.
 badfeeling-artifact-15 = Alguma coisa está muito errada.
-
 badfeeling-artifact-drastic-1 = Alguém está tentando te matar!
 badfeeling-artifact-drastic-2 = Tem alguma coisa ali fora!
 badfeeling-artifact-drastic-3 = O que está acontecendo com você?

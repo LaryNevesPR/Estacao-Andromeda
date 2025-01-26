@@ -1,3 +1,9 @@
+wires-menu-help-popup =
+    Click on the gold contacts with a multitool in hand to pulse their wire.
+    Click on the wires with a pair of wirecutters in hand to cut/mend them.
+    
+    The lights at the top show the state of the machine, messing with wires will probably do stuff to them.
+    Wire layouts are different each round, but consistent between machines of the same type.
 wires-component-ui-on-receive-message-no-hands = Você não tem mãos.
 wires-component-ui-on-receive-message-cannot-reach = Você não alcança!
 wires-component-ui-on-receive-message-need-wirecutters = Você precisa segurar um wirecutter em sua mão!

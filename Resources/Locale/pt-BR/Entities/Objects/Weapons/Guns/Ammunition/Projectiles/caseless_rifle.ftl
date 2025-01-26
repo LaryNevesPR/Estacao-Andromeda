@@ -1,11 +1,8 @@
 ent-BulletCaselessRifle = bala (.25 sem estojo)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-BulletCaselessRifleHighVelocity = bala (.25 alta velocidade sem estojo)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-BulletCaselessRiflePractice = bala (.25 prática sem estojo)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-BulletCaselessRifleRubber = bala (.25 borracha sem estojo)
-     .desc = { "" }
+    .desc = { "" }

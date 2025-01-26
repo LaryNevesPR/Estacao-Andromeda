@@ -1,6 +1,29 @@
+holiday-custom-festive-season = Have a nice festive season!
+holiday-custom-christmas = Have a merry Christmas!
+holiday-custom-kindness-day = Go do some random acts of kindness for a stranger!
+holiday-custom-talk-like-a-pirate-day = Ye be talkin' like a pirate today or else ye'r walkin' tha plank, matey!
+holiday-custom-friendship-day = Have a magical Friendship Day!
+holiday-custom-bastille-day = Do you hear the people sing?
+holiday-custom-mothers-day = Happy Mother's Day in most of the Americas, Asia, and Oceania!
+holiday-name-towel-day = Towel Day
+holiday-name-autism-awareness-day = Autism Awareness Day
+holiday-name-april-fool-day = April Fools Day
+holiday-name-easter = Easter
+holiday-name-st-patricks-day = St. Patrick's Day
+holiday-name-pi-day = Pi Day
+holiday-name-miku-day = Hatsune Miku Day
+holiday-name-leap-day = Leap Day
+holiday-name-random-kindness = Random Acts of Kindness Day
+holiday-name-birthday13 = Birthday of Space Station 13
+holiday-name-valentines-day = Valentine's Day
+holiday-name-groundhog-day = Groundhog Day
+holiday-name-chinese-new-year = Chinese New Year
+holiday-name-mister-lizard = Mister Lizard's Birthday
+holiday-name-new-year = New Year
+
 ## Generic Congrats
 
-holiday-greet = Feliz {$holidayName}!
+holiday-greet = Feliz { $holidayName }!
 
 ## Holiday Names
 
@@ -76,8 +99,8 @@ holiday-name-boxing-day = Boxing Day
 holiday-name-friday-thirteenth = Sexta-Feira 13
 holiday-name-national-coming-out-day = Dia de sair do armário
 
-
 ## Custom congrats
+
 holiday-custom-dia-mentira = Dia da mentira, dia das petas, dia dos tolos ou dia dos bobos.
 holiday-custom-data-magna-do-es = Data Magna do Estado do Espírito Santo o dia dedicado à Padroeira do Estado, Nossa Senhora da Penha, sendo considerado feriado estadual.
 holiday-custom-cosmonautics-day = Neste dia, a mais de 600 anos, Yuri Gagarin foi o primeiro homem a ir ao espaço!

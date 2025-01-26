@@ -13,7 +13,6 @@ advertisement-space-villain-12 = ME TEMAM!
 advertisement-space-villain-13 = Você ousa enfrentar-me em batalha!?
 advertisement-space-villain-14 = Cuidado, estou vivo!
 advertisement-space-villain-15 = Eu estou faminto!
-
 thankyou-space-villain-1 = E para onde você pensa que está indo, seu punk?
 thankyou-space-villain-2 = Isso é tudo que você tem?
 thankyou-space-villain-3 = Esta luta não acabou!

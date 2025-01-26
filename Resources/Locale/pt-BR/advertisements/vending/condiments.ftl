@@ -1,4 +1,4 @@
-﻿advertisement-condiment-1 = Cansado de carne seca? Espirre alguns condimentos cheios de sabor nela!
+advertisement-condiment-1 = Cansado de carne seca? Espirre alguns condimentos cheios de sabor nela!
 advertisement-condiment-2 = Utensílios seguros para crianças. Garfos, colheres e facas que não cortam nada.
 advertisement-condiment-3 = Óleo de milho!
 advertisement-condiment-4 = Adoce seu dia com Astrotame! Oito em cada dez médicos concordam, provavelmente não causa câncer.

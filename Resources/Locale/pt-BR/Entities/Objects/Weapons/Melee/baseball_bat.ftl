@@ -1,2 +1,2 @@
 ent-BaseBallBat = taco de beisebol
-     .desc = Um taco de beisebol robusto.
+    .desc = Um taco de beisebol robusto.

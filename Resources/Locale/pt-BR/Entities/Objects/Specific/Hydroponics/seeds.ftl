@@ -1,86 +1,58 @@
 ent-WheatSeeds = pacote de sementes de trigo
-     .desc = { "" }
-
+    .desc = { "" }
 ent-OatSeeds = pacote de sementes de aveia
-     .desc = { "" }
-
+    .desc = { "" }
 ent-BananaSeeds = pacote de sementes de banana
-     .desc = { "" }
-
+    .desc = { "" }
 ent-CarrotSeeds = pacote de sementes de cenoura
-     .desc = { "" }
-
+    .desc = { "" }
 ent-LemonSeeds = pacote de sementes de limão
-     .desc = { "" }
-
+    .desc = { "" }
 ent-PineappleSeeds = pacote de sementes de abacaxi
-     .desc = { "" }
-
+    .desc = { "" }
 ent-PotatoSeeds = pacote de sementes de batata
-     .desc = { "" }
-
+    .desc = { "" }
 ent-SugarcaneSeeds = pacote de sementes de cana-de-açúcar
-     .desc = { "" }
-
+    .desc = { "" }
 ent-TowercapSeeds = pacote de esporos de Towercap
-     .desc = { "" }
-
+    .desc = { "" }
 ent-TomatoSeeds = pacote de sementes de tomate
-     .desc = { "" }
-
+    .desc = { "" }
 ent-EggplantSeeds = pacote de sementes de berinjela
-     .desc = { "" }
-
+    .desc = { "" }
 ent-AppleSeeds = pacote de sementes de maçã
-     .desc = { "" }
-
+    .desc = { "" }
 ent-CornSeeds = pacote de sementes de milho
-     .desc = { "" }
-
+    .desc = { "" }
 ent-ChanterelleSeeds = pacote de esporos de chanterelle
-     .desc = { "" }
-
+    .desc = { "" }
 ent-EggySeeds = pacote de sementes de Egg-plant
-     .desc = { "" }
-
+    .desc = { "" }
 ent-TobaccoSeeds = pacote de sementes de tabaco
-     .desc = Essas sementes se transformam em plantas de tabaco.
-
+    .desc = Essas sementes se transformam em plantas de tabaco.
 ent-CannabisSeeds = pacote de sementes de cannabis
-     .desc = Tributável.
-
+    .desc = Tributável.
 ent-NettleSeeds = pacote de sementes de urtiga
-     .desc = Manuseie com luvas.
-
+    .desc = Manuseie com luvas.
 ent-ChiliSeeds = pacote de sementes de pimenta
-     .desc = Picante.
-
+    .desc = Picante.
 ent-AloeSeeds = pacote de sementes de babosa
-     .desc = Calmante.
-
+    .desc = Calmante.
 ent-PoppySeeds = pacote de sementes de papoula
-     .desc = Não coma nas 72 horas seguintes ao teste de drogas.
-
+    .desc = Não coma nas 72 horas seguintes ao teste de drogas.
 ent-LingzhiSeeds = pacote de esporos de lingzhi
-     .desc = Também conhecido como reishi.
-
+    .desc = Também conhecido como reishi.
 ent-AmbrosiaVulgarisSeeds = pacote de sementes de ambrosia vulgaris
-     .desc = Uma planta medicinal para o povo comum.
-
+    .desc = Uma planta medicinal para o povo comum.
 ent-GalaxythistleSeeds = pacote de sementes de galaxythistle
-     .desc = Pincéis de noites estreladas.
-
+    .desc = Pincéis de noites estreladas.
 ent-FlyAmanitaSeeds = pacote de esporos de Fly Amanita
-     .desc = O cogumelo icônico e extremamente mortal para ser usado para fins puramente ornamentais.
-
+    .desc = O cogumelo icônico e extremamente mortal para ser usado para fins puramente ornamentais.
 ent-GatfruitSeeds = pacote de sementes de gatfruit
-     .desc = Estes não são atiradores de ervilha.
-
+    .desc = Estes não são atiradores de ervilha.
 ent-OnionSeeds = pacote de sementes de cebola
-     .desc = Não é uma chalota.
-
+    .desc = Não é uma chalota.
 ent-KoibeanSeeds = pacote de sementes de koibean
-     .desc = { "" }
-
+    .desc = { "" }
 ent-LemoonSeeds = pacote de sementes de limoon
     .desc = { "" }

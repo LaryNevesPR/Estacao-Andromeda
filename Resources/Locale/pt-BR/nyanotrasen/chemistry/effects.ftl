@@ -1,19 +1,17 @@
 reagent-effect-guidebook-change-glimmer-reaction-effect =
     { $chance ->
         [1] Modifica
-        *[other] modificar
-    } o Glimmer conta por {$count} pontos
-
+       *[other] modificar
+    } o Glimmer conta por { $count } pontos
 reagent-effect-guidebook-chem-remove-psionic =
     { $chance ->
         [1] Remove
-        *[other] remover
+       *[other] remover
     } poderes psiônicos
-
 reagent-effect-guidebook-chem-reroll-psionic =
     { $chance ->
         [1] Permite
-        *[other] permitir
+       *[other] permitir
     } uma chance de obter um poder psiônico diferente
 
 ## Disease System support
@@ -21,5 +19,5 @@ reagent-effect-guidebook-chem-reroll-psionic =
 reagent-effect-guidebook-chem-miasma-pool =
     { $chance ->
         [1] Causas
-        *[other] causa
+       *[other] causa
     } doenças

@@ -1,3 +1,10 @@
+job-description-senior-officer = Teach new officers the basics of searches, performing arrests, prison times and how to properly shoot a firearm.
+job-description-senior-physician = Teach new medics the basics of tending to the wounded, chemistry, diagnosing the diseased and disposing of the dead.
+job-description-senior-researcher = Teach new scientists the basics of item printing, artifact research and anomalous objects.
+job-description-senior-engineer = Teach new engineers the basics of the station's engine, repairing, atmospherics and power.
+job-description-station-ai = Follow your laws, serve the crew.
+job-description-janitor = Keep the station clean of any trash or slipping hazards, and help deal with rat infestations.
+job-description-ertchaplain = Ensure the station crew's last rights are taken care of.
 job-description-technical-assistant = Aprenda o básico sobre como gerenciar a energia da estação, bem como consertar o casco da estação.
 job-description-atmostech = Otimize a configuração atmosférica da estação e sintetize gases raros para usar ou vender.
 job-description-bartender = Gerencie o bar e mantenha-o animado, distribua bebidas e ouça as histórias da equipe.

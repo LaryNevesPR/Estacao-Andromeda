@@ -1,4 +1,3 @@
-
 ## Guardian host specific
 
 guardian-created = Você se sente... assombrado.
@@ -17,8 +16,8 @@ guardian-entity-recall = O guardião desaparece no ar!
 guardian-entity-taking-damage = O seu guardião está levando dano!
 
 ## Health warnings
+
 guardian-host-critical-warn = SEU HÓSPEDE ESTÁ MACHUCADO!
 guardian-host-death-warn = SEU CORPO SUCUMBE À INEXISTÊNCIA!
 guardian-death-warn = SEU CORPO É PERFURADO POR UMA DOR SUBATÔMICA ENQUANTO SE DESINTEGRA!
 guardian-attack-host = Você não pode atacar o seu corpo hóspede.
-

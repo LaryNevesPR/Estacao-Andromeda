@@ -1,1 +1,1 @@
-energygun-examine-fire-mode = O modo de disparo está definido como {$mode}
+energygun-examine-fire-mode = O modo de disparo está definido como { $mode }

@@ -1,17 +1,14 @@
-﻿advertisement-solsnack-1 = Cortamos toda a burocracia para que você possa ter diarreia!
+advertisement-solsnack-1 = Cortamos toda a burocracia para que você possa ter diarreia!
 advertisement-solsnack-2 = Padrões de segurança alimentar são apenas uma sugestão se você conhece as pessoas certas!
 advertisement-solsnack-3 = Lanches de casa, corrupção incluída!
 advertisement-solsnack-4 = Um gosto de casa!
-
 advertisement-weebvend-1 = Konnichiwa gaijin senpai!
 advertisement-weebvend-2 = Note-me senpai!
 advertisement-weebvend-3 = Kawaii-desu!
-
 advertisement-hotfood-1 = Pegue sua comida velha e esfarelada aqui! O prato nacional de Sol nunca teve um gosto melhor!
 advertisement-hotfood-2 = Se esta é a comida que espera por você em casa, não é de se admirar que você esteja se escondendo aqui.
 advertisement-hotfood-3 = Produtos alimentícios solares, servidos com um lado de diarreia como sempre!
 advertisement-hotfood-4 = A vingança é um prato que se serve quente.
-
 advertisement-fitness-1 = SweatMAX, fique robusto!
 advertisement-fitness-2 = A dor é apenas a fraqueza deixando o corpo!
 advertisement-fitness-3 = Corra! Sua gordura está te alcançando!

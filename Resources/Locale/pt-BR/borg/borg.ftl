@@ -1,19 +1,20 @@
-﻿borg-player-not-allowed = O cérebro não cabe!
+borg-transponder-emagged-destroyed-popup = Your transponder's fuse blows!
+borg-transponder-emagged-disabled-popup = Your transponder's lights go out!
+borg-transponder-disabling-popup = Your transponder begins to lock you out of the chassis!
+borg-player-not-allowed = O cérebro não cabe!
+borg-transponder-destroying-popup = The self destruct of { $name } starts beeping!
 borg-player-not-allowed-eject = O cérebro foi expelido do chassi!!
-
+# Transponder
+borg-transponder-disabled-popup = A brain shoots out the top of { $name }!
 borg-panel-not-open = O painel do cyborg não está aberto...
-
-borg-mind-added = {CAPITALIZE($name)} ligou!
-borg-mind-removed = {CAPITALIZE($name)} desligou!
-
+borg-mind-added = { CAPITALIZE($name) } ligou!
+borg-mind-removed = { CAPITALIZE($name) } desligou!
 borg-module-too-many = Não há espaço suficiente para outro módulo...
 borg-module-whitelist-deny = Este módulo não se encaixa neste tipo de cyborg...
-
 borg-construction-guide-string = Os membros e o tronco do ciborgue devem ser ligados ao endoesqueleto.
-
 borg-ui-menu-title = Interface de Ciborgue
-borg-ui-charge-label = Carga: {$charge}%
+borg-ui-charge-label = Carga: { $charge }%
 borg-ui-no-brain = Nenhum cérebro presente
 borg-ui-remove-battery = Remover
 borg-ui-modules-label = Módulos:
-borg-ui-module-counter = {$actual}/{$max}
+borg-ui-module-counter = { $actual }/{ $max }

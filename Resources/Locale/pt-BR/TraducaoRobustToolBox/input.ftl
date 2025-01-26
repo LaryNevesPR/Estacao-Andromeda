@@ -7,7 +7,6 @@ input-key-F21 = F21
 input-key-F22 = F22
 input-key-F23 = F23
 input-key-F24 = F24
-
 input-key-NumpadNum0 = Numpad 0
 input-key-NumpadNum1 = Numpad 1
 input-key-NumpadNum2 = Numpad 2

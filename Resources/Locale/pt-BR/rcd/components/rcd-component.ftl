@@ -1,23 +1,21 @@
 ### UI
-rcd-component-examine-mode-details = Atualmente está configurado para o modo '{$mode}'.
-rcd-component-examine-build-details = Atualmente está configurado para construir {MAKEPLURAL($name)}.
+
+rcd-component-examine-mode-details = Atualmente está configurado para o modo '{ $mode }'.
+rcd-component-examine-build-details = Atualmente está configurado para construir { MAKEPLURAL($name) }.
 
 ### Mensagens de Interação
 
 # Mudança de Modo
-rcd-component-change-mode = O RCD agora está configurado para o modo '{$mode}'.
-rcd-component-change-build-mode = O RCD agora está configurado para construir {MAKEPLURAL($name)}.
-
+rcd-component-change-mode = O RCD agora está configurado para o modo '{ $mode }'.
+rcd-component-change-build-mode = O RCD agora está configurado para construir { MAKEPLURAL($name) }.
 # Contagem de Munição
 rcd-component-no-ammo-message = O RCD ficou sem cargas!
 rcd-component-insufficient-ammo-message = O RCD não tem cargas suficientes restantes!
-
 # Desconstrução
 rcd-component-tile-indestructible-message = Esse azulejo não pode ser destruído!
 rcd-component-deconstruct-target-not-on-whitelist-message = Você não pode desconstruir isso!
 rcd-component-nothing-to-deconstruct-message = Não há nada para desconstruir!
 rcd-component-tile-obstructed-message = Você não pode desconstruir azulejos quando há algo em cima deles!
-
 # Construção
 rcd-component-no-valid-grid = Você está muito longe do espaço aberto para construir aqui!
 rcd-component-must-build-on-empty-tile-message = Já existe uma fundação aqui!

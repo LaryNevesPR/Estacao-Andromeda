@@ -1,1 +1,1 @@
-﻿tips-system-chat-message-wrap = Dica: {$tip}
+tips-system-chat-message-wrap = Dica: { $tip }

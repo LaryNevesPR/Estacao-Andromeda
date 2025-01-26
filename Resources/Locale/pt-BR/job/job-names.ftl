@@ -1,3 +1,27 @@
+JobStationAi = Station AI
+JobRoboticist = Golemancer
+JobERTChaplain = ERT Chaplain
+job-title-universal = Universal
+job-title-cluwne = Cluwne
+# Job titles
+job-title-visitor = Visitor
+job-name-zombie = Zombie
+job-name-virologist = Virologist
+job-name-unknown = Unknown
+job-name-syndicate = Syndicate
+job-name-no-id = No ID
+# unused jobs
+# these are required for the agent ID job icon tooltips
+# I am keeping them for roleplaying opportunities
+job-name-geneticist = Geneticist
+job-name-ertchaplain = ERT Chaplain
+job-name-deathsquad = Deathsquad Agent
+job-name-cburn = CBURN Agent
+job-name-station-ai = Station AI
+job-name-senior-officer = Senior Officer
+job-name-senior-physician = Senior Physician
+job-name-senior-engineer = Senior Engineer
+job-name-senior-researcher = Mystic
 job-name-warden = carcereiro
 job-name-security = segurança
 job-name-cadet = segurança cadete
@@ -47,8 +71,6 @@ job-name-ertjanitor = zelador da ERT
 job-name-boxer = boxeador
 job-name-zookeeper = funcionário do zoológico
 job-name-visitor = visitante
-
-
 # Nyano
 job-name-mystagogue = diretor de pesquisa
 job-name-mantis = mantis forênsica
@@ -63,8 +85,7 @@ job-name-fugitive = fugitivo
 job-name-prisoner = prisioneiro
 job-name-valet = valete
 job-name-guard = guarda prisional
-job-name-martialartist =  artista marcial
-
+job-name-martialartist = artista marcial
 # Role timers - Make these alphabetical or I cut you
 JobAtmosphericTechnician = técnico atmosférico
 JobBartender = bartender
@@ -117,7 +138,6 @@ JobVisitor = visitante
 JobWarden = carcereiro
 JobBoxer = boxeador
 JobZookeeper = funcionário do zoológico
-
 # Nyano role timers
 JobCataloguer = arquivista
 JobCyborg = borgue

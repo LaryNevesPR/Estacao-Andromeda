@@ -1,17 +1,16 @@
-cmd-jobwhitelist-job-does-not-exist = Trabalho {$job} não existe.
-cmd-jobwhitelist-player-not-found = Jogador {$player} não encontrado.
+cmd-jobwhitelist-job-does-not-exist = Trabalho { $job } não existe.
+cmd-jobwhitelist-player-not-found = Jogador { $player } não encontrado.
 cmd-jobwhitelist-hint-player = [jogador]
 cmd-jobwhitelist-hint-job = [trabalho]
 cmd-jobwhitelistadd-desc = Permite que um jogador jogue um trabalho na lista de permissões.
 cmd-jobwhitelistadd-help = Uso: jobwhitelistadd <nome de usuário> <trabalho>
-cmd-jobwhitelistadd-already-whitelisted = {$player} já está na lista de permissões para jogar como {$jobId} ({$jobName}).
-cmd-jobwhitelistadd-added = Adicionado {$player} à lista de permissões para {$jobId} ({$jobName}).
+cmd-jobwhitelistadd-already-whitelisted = { $player } já está na lista de permissões para jogar como { $jobId } ({ $jobName }).
+cmd-jobwhitelistadd-added = Adicionado { $player } à lista de permissões para { $jobId } ({ $jobName }).
 cmd-jobwhitelistget-desc = Obtém todos os trabalhos para os quais um jogador foi adicionado à lista de permissões.
 cmd-jobwhitelistget-help = Uso: jobwhitelistadd <nome de usuário>
-cmd-jobwhitelistget-whitelisted-none = Jogador {$player} não está na lista de permissões para nenhum trabalho.
-cmd-jobwhitelistget-whitelisted-for = "Jogador {$player} está na lista de permissões para:{$jobs}"
-
+cmd-jobwhitelistget-whitelisted-none = Jogador { $player } não está na lista de permissões para nenhum trabalho.
+cmd-jobwhitelistget-whitelisted-for = "Jogador { $player } está na lista de permissões para:{ $jobs }"
 cmd-jobwhitelistremove-desc = Remove a capacidade de um jogador de jogar um trabalho na lista de permissões.
 cmd-jobwhitelistremove-help = Uso: jobwhitelistadd <nome de usuário> <trabalho>
-cmd-jobwhitelistremove-was-not-whitelisted = {$player} não estava na lista de permissões para jogar como {$jobId} ({$jobName}).
-cmd-jobwhitelistremove-removed = Removido {$player} da lista de permissões para {$jobId} ({$jobName}).
+cmd-jobwhitelistremove-was-not-whitelisted = { $player } não estava na lista de permissões para jogar como { $jobId } ({ $jobName }).
+cmd-jobwhitelistremove-removed = Removido { $player } da lista de permissões para { $jobId } ({ $jobName }).

@@ -1,1 +1,1 @@
-sophic-entity-name = Isso é um {$item}.
+sophic-entity-name = Isso é um { $item }.

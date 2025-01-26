@@ -7,10 +7,9 @@ story-gen-book-type6 = registros
 story-gen-book-type7 = tomo
 story-gen-book-type8 = diário
 story-gen-book-type9 = arquivos
-story-gen-book-type10= códice
-story-gen-book-type11= recordações
-story-gen-book-type12= compêndio
-
+story-gen-book-type10 = códice
+story-gen-book-type11 = recordações
+story-gen-book-type12 = compêndio
 story-gen-book-genre1 = ficção policial
 story-gen-book-genre2 = comédia
 story-gen-book-genre3 = horror
@@ -20,12 +19,11 @@ story-gen-book-genre6 = crônica
 story-gen-book-genre7 = ficção científica
 story-gen-book-genre8 = fantasia
 story-gen-book-genre9 = romance
-story-gen-book-genre10= suspense
-story-gen-book-genre11= ficção histórica
-story-gen-book-genre12= biografia
-story-gen-book-genre13= aventura
-story-gen-book-genre14= drama
-
+story-gen-book-genre10 = suspense
+story-gen-book-genre11 = ficção histórica
+story-gen-book-genre12 = biografia
+story-gen-book-genre13 = aventura
+story-gen-book-genre14 = drama
 story-gen-book-appearance1 = antigo
 story-gen-book-appearance2 = esfarrapado
 story-gen-book-appearance3 = sujo
@@ -53,7 +51,6 @@ story-gen-book-appearance24 = em relevo
 story-gen-book-appearance25 = descombinado
 story-gen-book-appearance26 = dourado
 story-gen-book-appearance27 = estranho
-
 story-gen-book-character1 = palhaço
 story-gen-book-character2 = mímico
 story-gen-book-character3 = repórter
@@ -94,11 +91,10 @@ story-gen-book-character37 = anão
 story-gen-book-character38 = ladrão
 story-gen-book-character39 = mago
 story-gen-book-character40 = slime
-
 story-gen-book-character-trait1 = estúpido
 story-gen-book-character-trait2 = sábio
 story-gen-book-character-trait3 = engraçado
-story-gen-book-character-trait4 = atraente  
+story-gen-book-character-trait4 = atraente
 story-gen-book-character-trait5 = charmoso
 story-gen-book-character-trait6 = nojento
 story-gen-book-character-trait7 = moribundo
@@ -119,7 +115,6 @@ story-gen-book-character-trait21 = dolorosamente belo
 story-gen-book-character-trait22 = robótico
 story-gen-book-character-trait23 = holográfico
 story-gen-book-character-trait24 = rindo histéricamente
-
 story-gen-book-event1 = um apocalipse zumbi
 story-gen-book-event2 = uma explosão nuclear
 story-gen-book-event3 = um assassinato em massa
@@ -144,7 +139,6 @@ story-gen-book-event21 = comeu pizza demais
 story-gen-book-event22 = brigou com um amigo próximo
 story-gen-book-event23 = a perda repentina de sua casa em um incêndio ardente
 story-gen-book-event24 = a perda de um PDA
-
 story-gen-book-action1 = compartilha um beijo com um
 story-gen-book-action2 = estrangula até a morte um
 story-gen-book-action3 = conseguie explodir um
@@ -157,7 +151,6 @@ story-gen-book-action9 = participou do casamento de um
 story-gen-book-action10 = uniu forças para derrotar seu inimigo comum, um
 story-gen-book-action11 = foram forçados a trabalhar juntos para escapar de um
 story-gen-book-action12 = deu um presente valioso para
-
 story-gen-book-action-trait1 = terrivelmente
 story-gen-book-action-trait2 = repugnantemente
 story-gen-book-action-trait3 = maravilhosamente
@@ -171,7 +164,6 @@ story-gen-book-action-trait10 = severamente
 story-gen-book-action-trait11 = impiedosamente
 story-gen-book-action-trait12 = divertidamente
 story-gen-book-action-trait13 = cuidadosamente
-
 story-gen-book-location1 = em um complexo subterrâneo
 story-gen-book-location2 = durante uma expedição
 story-gen-book-location3 = enquanto preso no espaço sideral
@@ -206,7 +198,6 @@ story-gen-book-location31 = enquanto projetado psiquicamente em seu subconscient
 story-gen-book-location32 = enquanto preso em uma dimensão sombria
 story-gen-book-location33 = enquanto tentava escapar de uma estação espacial destruída
 story-gen-book-location34 = enquanto estava espremido entre uma bola de Tesla e uma singularidade gravitacional
-
 story-gen-book-element1 = A trama
 story-gen-book-element2 = A reviravolta
 story-gen-book-element3 = O clímax
@@ -216,7 +207,6 @@ story-gen-book-element6 = A moral da história
 story-gen-book-element7 = O tema desta obra
 story-gen-book-element8 = O estilo literário
 story-gen-book-element9 = As ilustrações
-
 story-gen-book-element-trait1 = aterrorizante
 story-gen-book-element-trait2 = repugnante
 story-gen-book-element-trait3 = maravilhoso

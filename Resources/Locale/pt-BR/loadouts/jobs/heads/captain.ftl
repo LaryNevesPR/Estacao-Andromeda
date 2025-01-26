@@ -1,3 +1,5 @@
+loadout-name-LoadoutCaptainGlovesInspection = inspection gloves (colorable)
+loadout-name-LoadoutCaptainDrinkFlask = captain's drink flask (colorable)
 loadout-description-LoadoutCommandCapNeckMantle = To show who has the authority around here.
 loadout-description-LoadoutCommandCapNeckCloak = To really show who has the authority around here.
 loadout-description-LoadoutCommandCapNeckCloakFormal = More than just to show who has the authority, it also shows who has the greatest fashion sense.

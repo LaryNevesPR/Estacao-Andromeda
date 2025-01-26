@@ -13,10 +13,8 @@ time-transfer-panel-warning-transfer-process = Transferência de tempo em andame
 time-transfer-panel-checkbox-group = Grupo
 time-transfer-overall-checkbox = Geral
 time-transfer-panel-search-placeholder = Pesquisar funções
-
 cmd-timetransferpanel-desc = Abre o menu de transferência de tempo
 admin-player-actions-window-time-transfer = Transferência de Tempo
 time-transfer-panel-no-player-database-message = Jogador não encontrado no banco de dados
-
 # Por favor, altere apenas se for realmente necessário
 time-transfer-panel-author = Feito por BombasterDS para Goobstation

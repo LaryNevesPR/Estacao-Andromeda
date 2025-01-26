@@ -1,3 +1,5 @@
+department-Dignitary = Dignitary
+department-Silicon = Silicons
 department-Cargo = de Carga
 department-Civilian = Civis
 department-Command = de Comando

@@ -1,1 +1,1 @@
-objective-condition-kill-person-title = Mate ou abandone {$targetName}, {CAPITALIZE($job)}
+objective-condition-kill-person-title = Mate ou abandone { $targetName }, { CAPITALIZE($job) }

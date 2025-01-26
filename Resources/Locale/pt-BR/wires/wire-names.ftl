@@ -1,3 +1,8 @@
+wire-name-log = LOG
+wires-board-name-barsign = Bar Sign
+wires-board-name-holopad = Holopad
+wires-board-name-computer = Computer
+wires-board-name-jukebox = Jukebox
 # titles that get displayed in the wire hacking window
 wires-board-name-default = Fios
 wires-board-name-booze = BoozeDispenser

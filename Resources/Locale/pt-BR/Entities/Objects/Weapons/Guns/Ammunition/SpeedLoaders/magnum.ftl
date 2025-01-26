@@ -1,14 +1,10 @@
 ent-BaseSpeedLoaderMagnum = carregador de velocidade (.40 magnum)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-SpeedLoaderMagnum = carregador de velocidade (.40 magnum)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-SpeedLoaderMagnumHighVelocity = carregador de velocidade (.40 magnum de alta velocidade)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-SpeedLoaderMagnumPractice = carregador de velocidade (.40 prática magnum)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-SpeedLoaderMagnumRubber = carregador rápido (.40 borracha magnum)
-     .desc = { "" }
+    .desc = { "" }

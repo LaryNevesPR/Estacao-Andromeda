@@ -3,7 +3,6 @@ atmos-plaque-component-desc-fea = Essa placa comemora a queda da divisão Atmos 
 atmos-plaque-component-desc-linda = Essa placa comemora a queda da divisão Atmos LINDA. Por todos os homens queimados, atordoados e frágeis que morreram em suas mãos.
 atmos-plaque-component-desc-zas = Essa placa comemora a queda da divisão Atmos ZAS. Por todos os homens queimados, atordoados e frágeis que morreram em suas mãos.
 atmos-plaque-component-desc-unset = Uhm
-
 atmos-plaque-component-name-zum = Placa da Divisão Atmosféria ZUM
 atmos-plaque-component-name-fea = Placa da Divisão Atmosféria FEA
 atmos-plaque-component-name-linda = Placa da Divisão Atmosféria LINDA

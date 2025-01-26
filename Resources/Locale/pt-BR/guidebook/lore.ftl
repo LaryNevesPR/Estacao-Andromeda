@@ -9,5 +9,4 @@ guide-entry-private-military-contracting-group = Private Military Contracting Gr
 guide-entry-stellar-corporate-conglomerate = Stellar Corporate Conglomerate
 guide-entry-zavodskoi-interstellar = Zavodskoi Interstellar
 guide-entry-zeng-hu-pharmaceuticals = Zeng-Hu Pharmaceuticals
-
 guide-entry-loadout-info-security-weapons = Security Weapons

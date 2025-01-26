@@ -1,1 +1,1 @@
-﻿examine-pinpointer-linked = Está rastreando: {$target}
+examine-pinpointer-linked = Está rastreando: { $target }

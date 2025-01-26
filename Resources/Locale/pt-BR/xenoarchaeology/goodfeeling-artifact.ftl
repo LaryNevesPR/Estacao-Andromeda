@@ -12,7 +12,6 @@ goodfeeling-artifact-11 = Sua cabeça começa a formigar de felicidade.
 goodfeeling-artifact-12 = As cores parecem estar mais fortes.
 goodfeeling-artifact-13 = Tudo parece estar mais claro.
 goodfeeling-artifact-14 = Os problemas do mundo parecem ter sumido.
-
 goodfeeling-artifact-drastic-1 = Você quer abraçar todo mundo que conhece!
 goodfeeling-artifact-drastic-2 = Tudo está indo tão bem!
 goodfeeling-artifact-drastic-3 = Você se sente entusiasmado.

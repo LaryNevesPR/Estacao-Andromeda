@@ -1,9 +1,21 @@
+research-technology-advanced-life-improvements = Advanced Life Improvements
+research-technology-basic-life-improvements = Basic Life Improvements
+research-technology-basic-electronics = Basic Electronics
+research-technology-basic-cybernetics = Basic Cybernetics
+research-technology-thermal-vision = Thermal vision
+research-technology-night-vision = Night vision
+research-technology-advanced-bluespace = Advanced Bluespace Research
+research-technology-prototype-tacsuits = Prototype Tacsuits
+research-technology-advanced-tacsuits = Advanced Tacsuits
+research-technology-prototype-weapons = Prototype Weapons
+research-technology-advanced-weapons = Advanced Weapons
+research-technology-basic-weapons = Basic Weapons
+research-technology-excavation = Mass Excavation
 research-discipline-none = None
 research-discipline-industrial = Industrial
 research-discipline-arsenal = arsenal
 research-discipline-experimental = Experimental
 research-discipline-civilian-services = Serviços Civis
-
 research-technology-fulton = Fultons
 research-technology-salvage-equipment = Equipment de Salvatagem
 research-technology-advanced-powercells = Baterias Avançadas
@@ -21,7 +33,6 @@ research-technology-super-powercells = Super Baterias
 research-technology-bluespace-storage = Armazenamento Bluespace
 research-technology-portable-fission = Fissão Portátil
 research-technology-space-scanning = Escaneamento Espacial
-
 research-technology-salvage-weapons = Armas de Salvatagem
 research-technology-draconic-munitions = Munições Dracônicas
 research-technology-uranium-munitions = Munições de Urânio
@@ -36,7 +47,6 @@ research-technology-portable-microfusion-weaponry = Armamento portátil de micro
 research-technology-experimental-battery-ammo = Munição de Bateria Experimental
 research-technology-basic-shuttle-armament = Armamento básico de naves
 research-technology-advanced-shuttle-weapon = Armas avançadas de naves
-
 research-technology-basic-robotics = Robótica Básica
 research-technology-basic-anomalous-research = Pesquisa de Anomalias Básica
 research-technology-basic-xenoarcheology = XenoArqueologia Básica
@@ -53,7 +63,6 @@ research-technology-rped = Troca Rápida de Peças
 research-technology-super-parts = Super Peças
 research-technology-deterrence = Tecnologias de Dissuasão
 research-technology-medipen-refilling = Recarregamento de Medipens
-
 research-technology-janitorial-equipment = Equipamentos para Zeladoria
 research-technology-laundry-tech = Tecnologia de Lavanderia
 research-technology-basic-hydroponics = Hidroponia Básica

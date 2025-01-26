@@ -1,9 +1,19 @@
+chem-master-window-reagent-move-button = Move
+chem-master-window-transferring-default-label = Transferring: [color=#ffa500]50[/color]
+chem-master-window-sort-method-Amount-text = Quantity
+chem-master-window-sort-method-Alphabetical-text = Alphabetical Order
+chem-master-window-sort-method-Time-text = Last Added
+chem-master-window-sort-method-tooltip = Choose your buffer's sort method.
+chem-master-window-transferring-label = Transferring: [color={ $color }]{ $quantity }[/color]
+chem-master-window-amount-placeholder = Transfer Amount
+
 ## Entity
 
 chem-master-component-activate-no-hands = Você não tem mãos.
 chem-master-component-cannot-put-entity-message = Você não pode pôr isso no ChemMaster!
 
 ## Bound UI
+
 chem-master-bound-user-interface-title = ChemMaster 4000
 
 ## UI

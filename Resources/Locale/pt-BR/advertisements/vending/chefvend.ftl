@@ -1,4 +1,4 @@
-﻿advertisement-chefvend-1 = Pelo menos sessenta por cento dos nossos ovos não quebrados, garantido!
+advertisement-chefvend-1 = Pelo menos sessenta por cento dos nossos ovos não quebrados, garantido!
 advertisement-chefvend-2 = Arroz, arroz, bebê.
 advertisement-chefvend-3 = Passe um pouco de manteiga nisso!
 advertisement-chefvend-4 = Você vale o seu sal? Nós valemos.

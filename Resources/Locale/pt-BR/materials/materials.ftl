@@ -1,15 +1,20 @@
+# Material Reclaimer
+material-reclaimer-upgrade-process-rate = process rate
+materials-raw-normality = raw normality
+materials-raw-bluespace = raw bluespace
+materials-normality = normality
+materials-bluespace = bluespace
+materials-diamond = diamond
 # Glass
 materials-glass = vidro
 materials-reinforced-glass = vidro reforçado
 materials-plasma-glass = vidro de plasma
 materials-reinforced-plasma-glass = vidro de plasma reforçado
-
 # Metals
 materials-steel = aço
 materials-gold = ouro
 materials-silver = prata
 materials-plasteel = plastiaço
-
 # Other
 materials-biomass = biomassa
 materials-cardboard = papelão
@@ -26,7 +31,6 @@ materials-web = seda
 materials-bones = osso
 materials-coal = carvão
 materials-gunpowder = pólvora
-
 # Ores
 materials-raw-iron = ferro bruto
 materials-raw-quartz = quartzo bruto

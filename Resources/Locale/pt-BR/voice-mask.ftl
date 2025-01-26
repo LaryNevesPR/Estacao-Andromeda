@@ -1,10 +1,16 @@
 voice-mask-default-name-override = Desconhecido
-
 voice-mask-name-change-window = Alteração do nome da máscara de voz
 voice-mask-name-change-info = Digite o nome que você deseja imitar.
 voice-mask-name-change-speech-style = Forma de falar
 voice-mask-name-change-set = Definir nome
 voice-mask-name-change-set-description = Mude o nome que outras pessoas ouvem para outro.
-
 voice-mask-popup-success = Nome definido com sucesso.
 voice-mask-popup-failure = Não foi possível definir o nome.
+voice-mask-name-change-info = Type in the name you want to mimic.
+voice-mask-popup-success = Name set successfully.
+voice-mask-name-change-set = Set name
+voice-mask-default-name-override = Unknown
+voice-mask-name-change-window = Voice Mask Name Change
+voice-mask-popup-failure = Name could not be set.
+voice-mask-name-change-set-description = Change the name others hear to something else.
+voice-mask-name-change-speech-style = Speech style

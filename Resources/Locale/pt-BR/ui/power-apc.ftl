@@ -3,7 +3,7 @@ apc-menu-breaker-label = Disjuntor Principal
 apc-menu-breaker-button = Alternar
 apc-menu-power-label = Carga
 apc-menu-external-label = Potência Externa
-apc-menu-charge-label = {$percent} Carregado
+apc-menu-charge-label = { $percent } Carregado
 
 # For the power state label
 

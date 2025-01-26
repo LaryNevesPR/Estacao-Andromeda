@@ -1,3 +1,4 @@
+loadout-name-LoadoutHeadOfPersonnelGlovesInspection = inspection gloves (colorable)
 loadout-description-LoadoutCommandHOPNeckMantle = To show who has the authority around here.
 loadout-description-LoadoutCommandHOPNeckCloak = To really show who has the authority around here.
 loadout-description-LoadoutCommandHOPBackIan = A backpack that looks like Ian, how cute!

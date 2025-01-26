@@ -1,27 +1,19 @@
 ent-Haycutters = cortadores de feno
     .desc = Isso corta o fio. Muu!
-
 ent-Moodriver = condutor de humor
     .desc = Gire para usar. Muu!
-
 ent-Wronch = chave errada
     .desc = Coisa errada. Muu!
-
 ent-Cowbar = barra de vaca
     .desc = Resolva seus problemas. Muu!
-
 ent-Mooltitool = multitool de vaca
     .desc = Uma ferramenta rudimentar para copiar, armazenar e enviar pulsos e sinais elétricos através de fios e máquinas. Muu!
-
 ent-Cowelder = ferramenta de solda de vaca
     .desc = Derrete qualquer coisa enquanto tiver combustível, não se esqueça da proteção para os olhos! Muu!
-
 ent-Milkalyzer = analisador de leite
     .desc = Um scanner ambiental portátil que informa os níveis atuais de gás. Muu!
-
 ent-CowToolbox = caixa de ferramentas de vaca
     .desc = Uma caixa estranhamente moldada, cheia de... ferramentas?
-
 ent-CowToolboxFilled = caixa de ferramentas de vaca
     .desc = Uma caixa estranhamente moldada, cheia de... ferramentas?
     .suffix = Cheia

@@ -12,8 +12,8 @@ cmd-createvote-arg-vote-type = <vote type>
 
 cmd-customvote-desc = Cria uma votação customizada
 cmd-customvote-help = Uso: customvote <title> <option1> <option2> [option3...]
-cmd-customvote-on-finished-tie = Empate entre {$ties}!
-cmd-customvote-on-finished-win = {$winner} venceu!
+cmd-customvote-on-finished-tie = Empate entre { $ties }!
+cmd-customvote-on-finished-win = { $winner } venceu!
 cmd-customvote-arg-title = <title>
 cmd-customvote-arg-option-n = <option{ $n }>
 
@@ -36,8 +36,9 @@ cmd-listvotes-help = Uso: listvotes
 ## 'cancelvote' command
 
 cmd-cancelvote-desc = Cancela uma votação ativa
-cmd-cancelvote-help = Uso: cancelvote <id>
-                      Você pode pegar o ID do comando listvotes.
+cmd-cancelvote-help =
+    Uso: cancelvote <id>
+    Você pode pegar o ID do comando listvotes.
 cmd-cancelvote-error-invalid-vote-id = ID de voto inválido
 cmd-cancelvote-error-missing-vote-id = ID faltando
 cmd-cancelvote-arg-id = <id>

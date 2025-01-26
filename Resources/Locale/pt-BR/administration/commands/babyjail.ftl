@@ -2,18 +2,15 @@ cmd-babyjail-desc = Alterna a prisão de bebês, que habilita restrições mais 
 cmd-babyjail-help = Uso: babyjail
 babyjail-command-enabled = A prisão de bebês foi habilitada.
 babyjail-command-disabled = A prisão de bebês foi desabilitada.
-
 cmd-babyjail_show_reason-desc = Alterna se deve ou não mostrar aos clientes que se conectam o motivo pelo qual a prisão de bebês os bloqueou de entrar.
 cmd-babyjail_show_reason-help = Uso: babyjail_show_reason
 babyjail-command-show-reason-enabled = A prisão de bebês agora mostrará um motivo aos usuários que ela bloquear de se conectar.
 babyjail-command-show-reason-disabled = A prisão de bebês não mostrará mais um motivo aos usuários que ela bloquear de se conectar.
-
 cmd-babyjail_max_account_age-desc = Obtém ou define a idade máxima da conta em minutos que uma conta pode ter para ser permitida a se conectar com a prisão de bebês habilitada.
 cmd-babyjail_max_account_age-help = Uso: babyjail_max_account_age <horas>
-babyjail-command-max-account-age-is = A idade máxima da conta para a prisão de bebês é de {$hours} horas.
-babyjail-command-max-account-age-set = Defina a idade máxima da conta para a prisão de bebês para {$hours} horas.
-
+babyjail-command-max-account-age-is = A idade máxima da conta para a prisão de bebês é de { $hours } horas.
+babyjail-command-max-account-age-set = Defina a idade máxima da conta para a prisão de bebês para { $hours } horas.
 cmd-babyjail_max_overall_hours-desc = Obtém ou define o tempo total de jogo máximo em minutos que uma conta pode ter para ser permitida a se conectar com a prisão de bebês habilitada.
 cmd-babyjail_max_overall_hours-help = Uso: babyjail_max_overall_hours <horas>
-babyjail-command-max-overall-hours-is = O tempo total de jogo máximo para a prisão de bebês é de {$hours} horas.
-babyjail-command-max-overall-hours-set = Defina o tempo total de jogo máximo para a prisão de bebês para {$hours} horas.
+babyjail-command-max-overall-hours-is = O tempo total de jogo máximo para a prisão de bebês é de { $hours } horas.
+babyjail-command-max-overall-hours-set = Defina o tempo total de jogo máximo para a prisão de bebês para { $hours } horas.

@@ -1,4 +1,4 @@
-﻿## Modes
+## Modes
 
 suit-sensor-mode-off = Desligado
 suit-sensor-mode-binary = Binário
@@ -6,7 +6,8 @@ suit-sensor-mode-vitals = Vitais
 suit-sensor-mode-cords = Coordenadas
 
 ## Popups
-suit-sensor-mode-state = Suit sensors: {$mode}
+
+suit-sensor-mode-state = Suit sensors: { $mode }
 
 ## Components
 

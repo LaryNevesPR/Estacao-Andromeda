@@ -1,4 +1,4 @@
-﻿bounty-item-artifact = Artefato alienígena
+bounty-item-artifact = Artefato alienígena
 bounty-item-baseball-bat = Taco de beisebol
 bounty-item-box-hugs = Caixa de abraços
 bounty-item-brain = Cérebro
@@ -66,8 +66,6 @@ bounty-item-cardboard-box = Caixa de papelão
 bounty-item-wine = Garrafa de vinho
 bounty-item-cotton-boll = Capulho de algodão
 bounty-item-microwave-machine-board = Circuito de micro-ondas
-
-
 bounty-description-artifact = A NanoTrasen está com problemas por roubar artefatos de planetas não espaciais. Devolva um e nós o compensaremos por isso.
 bounty-description-baseball-bat = A febre do beisebol está rolando na CentCom! Seja gentil e envie alguns tacos de baseball para que a administração possa realizar seu sonho de infância.
 bounty-description-box-hugs = Vários oficiais-chefe ficaram dodóis. Uma caixa de abraços é urgentemente necessária para ajudar em sua recuperação.
@@ -135,4 +133,3 @@ bounty-description-cardobard-box = "Os Cardborgues Vêm Aí" é uma nova peça q
 bounty-description-wine = O novo bibliotecário e o Intendente estão se apaixonando depois que ele o pegou desmontando as estantes de livros para fazer lenha. Envie algumas garrafas de vinho (ou latas, se preferir) para ajudar a tornar o encontro romântico agradável.
 bounty-description-cotton-boll = Um enorme enxame de mothroaches comeu todos o papéis e tecidos na estação. Nos envie algodão para ajudar a manter nossos membros da tripulação alados alimentados.
 bounty-description-microwave-machine-board = O Sr. Cleiton achou que seria engraçado enfiar garfos em todos os micro-ondas da cozinha. Nos ajude a substituí-los antes que os cozinheiros comecem a fazer hambúrgueres de palhaço.
-

@@ -1,5 +1,5 @@
 loadout-description-LoadoutShoesBlack = Step into the shadows with these sleek and stylish black shoes, perfect for ninjas or anyone looking to leave an enigmatic impression.
-loadout-description-LoadoutShoesBlue =  From zero-gravity dance floors to orbital adventures, these kicks are ready to make your journey as vibrant as the cosmos.
+loadout-description-LoadoutShoesBlue = From zero-gravity dance floors to orbital adventures, these kicks are ready to make your journey as vibrant as the cosmos.
 loadout-description-LoadoutShoesBrown = Classic and reliable, these brown shoes are like your trusted sidekick on any adventure.
 loadout-description-LoadoutShoesGreen = Embrace the essence of nature with these green shoes. Slip them on, and let the world become your lush and vibrant playground.
 loadout-description-LoadoutShoesOrange = Gear up for high-octane thrills on the space station with these vivid orange shoes.

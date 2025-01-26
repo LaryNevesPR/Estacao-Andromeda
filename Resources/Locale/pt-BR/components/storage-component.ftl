@@ -1,3 +1,5 @@
+comp-storage-verb-close-storage = Close Storage
+comp-storage-verb-open-storage = Open Storage
 comp-storage-no-item-size = Nenhum
 comp-storage-cant-insert = Não pode inserir.
 comp-storage-too-big = Muito grande!
@@ -6,5 +8,5 @@ comp-storage-invalid-container = Este item não pode ser colocado aí.
 comp-storage-anchored-failure = Não pode inserir um item fixo.
 comp-storage-cant-drop = Você não consegue se livrar de { THE($entity) }!
 comp-storage-window-title = Armazenar Item
-comp-storage-window-weight = { $weight }/{ $maxWeight }, Tamanho máximo: {$size}
-comp-storage-window-slots = Slots: { $itemCount }/{ $maxCount }, Tamanho máximo: {$size}
+comp-storage-window-weight = { $weight }/{ $maxWeight }, Tamanho máximo: { $size }
+comp-storage-window-slots = Slots: { $itemCount }/{ $maxCount }, Tamanho máximo: { $size }

@@ -1,3 +1,7 @@
+tiles-astro-snow = astro-snow
+tiles-jungle-astro-grass = jungle astro-grass
+tiles-mowed-astro-grass = mowed astro-grass
+tiles-grey-shuttle-floor = grey shuttle floor
 tiles-space = espaço
 tiles-plating = chapa
 tiles-lattice = treliça

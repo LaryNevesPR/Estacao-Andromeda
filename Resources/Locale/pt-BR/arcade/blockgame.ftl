@@ -1,17 +1,14 @@
-
 ### UI
 
 # Current game score
-blockgame-menu-label-points = Pontos: {$points}
-
+blockgame-menu-label-points = Pontos: { $points }
 # Current game level
-blockgame-menu-label-level = Nível: {$level}
-
+blockgame-menu-label-level = Nível: { $level }
 # Game over information of your round
-blockgame-menu-gameover-info = Global: {$global}
-    Local: {$local}
-    Pontos: {$points}
-
+blockgame-menu-gameover-info =
+    Global: { $global }
+    Local: { $local }
+    Pontos: { $points }
 blockgame-menu-title = Nanotrasen Bloquinhos
 blockgame-menu-button-new-game = Novo Jogo
 blockgame-menu-button-scoreboard = Placar

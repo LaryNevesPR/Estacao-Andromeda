@@ -18,19 +18,19 @@ news-write-ui-create-text = Criar
 news-write-ui-cancel-text = Cancelar
 news-write-ui-preview-text = Visualizar
 news-write-ui-article-count-0 = 0 Artigos
-news-write-ui-article-count-text = {$count} Artigos
+news-write-ui-article-count-text = { $count } Artigos
 news-write-ui-footer-text = Sistema de Autoria de News#Manager™
 news-write-ui-new-article = Novo Artigo
 news-write-ui-article-name-label = Título:
 news-write-no-access-popup = Sem acesso
 news-writer-text-length-exceeded = O texto ultrapassa o tamanho máximo.
-news-write-ui-richtext-tooltip = Os artigos de notícias suportam texto formatado
+news-write-ui-richtext-tooltip =
+    Os artigos de notícias suportam texto formatado
     The following rich text tags are supported:
-    {"[color=Gray][bullet/]heading \\[size=1-3\\]"}
-    {"[bullet/]bold"}
-    {"[bullet/]italic"}
-    {"[bullet/]bolditalic"}
-    {"[bullet/]color"}
-    {"[bullet/]bullet[/color]"}
-
+    { "[color=Gray][bullet/]heading \\[size=1-3\\]" }
+    { "[bullet/]bold" }
+    { "[bullet/]italic" }
+    { "[bullet/]bolditalic" }
+    { "[bullet/]color" }
+    { "[bullet/]bullet[/color]" }
 news-pda-notification-header = Novo artigo de notícias

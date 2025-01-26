@@ -1,4 +1,4 @@
-﻿shuttle-curse-message-1 = A fuel technician just slit his own throat and begged for death.
+shuttle-curse-message-1 = A fuel technician just slit his own throat and begged for death.
 shuttle-curse-message-2 = A scan of the shuttle's fuel tank has revealed tainting by a mixture of humanoid innards and teeth.
 shuttle-curse-message-3 = A security incident involving a frenzied shuttle worker attacking coworkers with a laser cutter has just been reported as resolved by on-site security.
 shuttle-curse-message-4 = A shuttle engineer began screaming 'DEATH IS NOT THE END' and ripped out wires until an arc flash seared off her flesh.

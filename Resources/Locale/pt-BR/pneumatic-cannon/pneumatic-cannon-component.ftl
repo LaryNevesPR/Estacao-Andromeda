@@ -1,3 +1,5 @@
+pneumatic-cannon-component-itemslot-name = Gas Tank
+
 ### Loc for the pneumatic cannon.
 
 pneumatic-cannon-component-verb-gas-tank-name = Ejetar tanque de gás
@@ -14,16 +16,17 @@ pneumatic-cannon-component-fire-no-gas = { CAPITALIZE(THE($cannon)) } estala, ma
 
 ## Shown when changing the fire mode or power.
 
-pneumatic-cannon-component-change-fire-mode = { $mode ->
-    [All] Você solta as válvulas para soltar tudo de uma vez.
-    *[Single] Você aperta as válvulas soltar uma coisa de cada vez.
-}
-
-pneumatic-cannon-component-change-power = { $power ->
-    [High] Você seleciona o limitador para energia alta. parece estar muito energizado...
-    [Medium] Você seleciona o limitador para energia média.
-    *[Low] Você seleciona o limitador para energia baixa.
-}
+pneumatic-cannon-component-change-fire-mode =
+    { $mode ->
+        [All] Você solta as válvulas para soltar tudo de uma vez.
+       *[Single] Você aperta as válvulas soltar uma coisa de cada vez.
+    }
+pneumatic-cannon-component-change-power =
+    { $power ->
+        [High] Você seleciona o limitador para energia alta. parece estar muito energizado...
+        [Medium] Você seleciona o limitador para energia média.
+       *[Low] Você seleciona o limitador para energia baixa.
+    }
 
 ## Shown when inserting/removing the gas tank.
 
@@ -38,4 +41,3 @@ pneumatic-cannon-component-ejected-all = Você ejeta tudo do(a) { THE($cannon) }
 ## Shown when being stunned by having the power too high.
 
 pneumatic-cannon-component-power-stun = A pura força do(a) { THE($cannon) } te derruba!
-

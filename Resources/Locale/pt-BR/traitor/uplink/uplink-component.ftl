@@ -1,9 +1,6 @@
 uplink-bound-user-interface-insufficient-funds-popup = Fundos Insuficientes!
-
-uplink-bound-user-interface-tc-balance-popup = Saldo de TC: [color={$weightedColor}]{$balance}[/color]
-
+uplink-bound-user-interface-tc-balance-popup = Saldo de TC: [color={ $weightedColor }]{ $balance }[/color]
 uplink-user-interface-title = Uplink
-
 uplink-user-interface-search-label = Pesquisar
 
 # Withdraw UI

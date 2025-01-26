@@ -1,3 +1,55 @@
+loadout-category-Belt = Belt
+loadout-category-JobsServiceReporter = Reporter
+loadout-category-JobsServiceMime = Mime
+loadout-category-JobsServiceLawyer = Lawyer
+loadout-category-JobsServiceClown = Clown
+loadout-category-JobsServiceAUncategorized = All Service
+loadout-category-JobsSecurityWarden = Warden
+loadout-category-JobsSecuritySeniorOfficer = Senior Officer
+loadout-category-JobsSecuritySecurityOfficer = Security Officer
+loadout-category-JobsSecurityHeadOfSecurity = Head of Security
+loadout-category-JobsSecurityDetective = Detective
+loadout-category-JobsSecurityCorpsman = Corpsman
+loadout-category-JobsSecurityCadet = Cadet
+loadout-category-JobsSecurityAUncategorized = All Security
+loadout-category-JobsMedicalSeniorPhysician = Senior Physician
+loadout-category-JobsMedicalPsychologist = Psychologist
+loadout-category-JobsMedicalParamedic = Paramedic
+loadout-category-JobsMedicalMedicalIntern = Medical Intern
+loadout-category-JobsMedicalMedicalDoctor = Medical Doctor
+loadout-category-JobsMedicalChiefMedicalOfficer = Chief Medical Officer
+loadout-category-JobsMedicalChemist = Chemist
+loadout-category-JobsMedicalAUncategorized = All Medical
+loadout-category-JobsLogisticsSalvageSpecialist = Salvage Specialist
+loadout-category-JobsLogisticsLogisticsOfficer = Logistics Officer
+loadout-category-JobsLogisticsCourier = Courier
+loadout-category-JobsLogisticsCargoTechnician = Cargo Technician
+loadout-category-JobsLogisticsAUncategorized = All Logistics
+# Logistics
+loadout-category-JobsLogistics = Logistics
+loadout-category-JobsEpistemicsPsionicMantis = Psionic Mantis
+loadout-category-JobsEpistemicsNoviciate = Noviciate
+loadout-category-JobsEpistemicsMystic = Mystic
+loadout-category-JobsEpistemicsMystagogue = Mystagogue
+loadout-category-JobsEpistemicsGolemancer = Golemancer
+loadout-category-JobsEpistemicsChaplain = Chaplain
+loadout-category-JobsEpistemicsCataloger = Cataloger
+loadout-category-JobsEpistemicsAcolyte = Acolyte
+loadout-category-JobsEpistemicsAAUncategorized = All Epistemiologists
+# Epistemics
+loadout-category-JobsEpistemics = Epistemics
+loadout-category-JobsEngineeringTechnicalAssistant = Technical Assistant
+loadout-category-JobsEngineeringStationEngineer = Station Engineer
+loadout-category-JobsEngineeringSeniorEngineer = Senior Engineer
+loadout-category-JobsEngineeringChiefEngineer = Chief Engineer
+loadout-category-JobsEngineeringAtmosphericTechnician = Atmospheric Technician
+loadout-category-JobsEngineeringAAUncategorized = All Engineers
+loadout-category-JobsCommandMagistrate = Magistrate
+loadout-category-JobsCommandNanorep = Nanotrasen Representative
+loadout-category-JobsCommandBlueshieldOfficer = Blueshield Officer
+loadout-category-JobsCommandAdminAssistant = Administrative Assistant
+loadout-category-JobsCommandHeadOfPersonnel = Head of Personnel
+
 # Alphabetically ordered, except for Uncategorized since it is always first
 
 loadout-category-Uncategorized = Não categorizado

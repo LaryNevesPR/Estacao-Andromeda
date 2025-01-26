@@ -1,2 +1,2 @@
 species-name-ipc = IPC
-namepreset-firstdashlast = {$first}-{$last}
+namepreset-firstdashlast = { $first }-{ $last }

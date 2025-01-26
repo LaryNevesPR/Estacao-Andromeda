@@ -1,3 +1,11 @@
+# Punishments
+crime-assist-crimepunishment-innocent = No punishment may be necessary
+crime-assist-crimedetail-sexualharassment = To sexually harass, attempt to coerce into sexual relations, or effect unwanted sexual contact with an unwilling sophont.
+crime-assist-crimedetail-sedition = To act to overthrow a lawfully established Chain of Command or governing body without lawful or legitimate cause.
+crime-assist-crimedetail-kidnapping = To unlawfully confine or restrict the free movement of a sophont against their will.
+crime-assist-crimedetail-decorporealisation = To unlawfully, maliciously, and permanently strip a sophont’s mind from their body.
+crime-assist-crimedetail-grandsabotage = To engage in malicious actions that directly or indirectly make uninhabitable or inoperable a vessel or its part, or irreversibly modify and/or damage technology one is not authorised to access, causing severe bodily harm or death to multiple sophonts.
+
 ## CrimeAssist
 
 # Geral
@@ -10,12 +18,12 @@ crime-assist-crimetype-felony = Crime
 crime-assist-crimetype-capital = Capital
 crime-assist-crime-innocent = Nenhum crime foi cometido
 crime-assist-mainmenu = Bem-vindo ao Assistente de Crimes!
-crime-assist-sophont-explanation = Um sofôntico é descrito como qualquer entidade com a capacidade de exibir os seguintes atributos:
-                                   • [bold]Sapiência[/bold]: a entidade possui habilidades básicas de lógica e resolução de problemas, ou pelo menos algum nível de inteligência significativa.
-                                   • [bold]Senciência[/bold]: a entidade tem a capacidade de processar uma emoção ou a falta dela, ou pelo menos a habilidade de reconhecer sua própria dor.
-                                   • [bold]Autoconsciência[/bold]: a entidade é capaz de alterar seu comportamento de maneira razoável como resultado de estímulos, ou pelo menos é capaz de reconhecer sua própria sapiência e senciência.
-                                   Qualquer sofôntico é considerado uma pessoa legal, independentemente de origem ou status cognitivo anterior. Assim como qualquer outro orgânico inteligente, um sofôntico pode apresentar queixas contra a tripulação e ser julgado por crimes.
-
+crime-assist-sophont-explanation =
+    Um sofôntico é descrito como qualquer entidade com a capacidade de exibir os seguintes atributos:
+    • [bold]Sapiência[/bold]: a entidade possui habilidades básicas de lógica e resolução de problemas, ou pelo menos algum nível de inteligência significativa.
+    • [bold]Senciência[/bold]: a entidade tem a capacidade de processar uma emoção ou a falta dela, ou pelo menos a habilidade de reconhecer sua própria dor.
+    • [bold]Autoconsciência[/bold]: a entidade é capaz de alterar seu comportamento de maneira razoável como resultado de estímulos, ou pelo menos é capaz de reconhecer sua própria sapiência e senciência.
+    Qualquer sofôntico é considerado uma pessoa legal, independentemente de origem ou status cognitivo anterior. Assim como qualquer outro orgânico inteligente, um sofôntico pode apresentar queixas contra a tripulação e ser julgado por crimes.
 # Crimes
 crime-assist-crime-animalcruelty = Código 101: Crueldade contra Animais
 crime-assist-crime-theft = Código 102: Roubo
@@ -70,7 +78,6 @@ crime-assist-question-happenincourt = O suspeito foi um incômodo no tribunal?
 crime-assist-question-duringactiveinvestigation = O suspeito foi um incômodo durante uma investigação ativa e atrapalhou a investigação como resultado?
 crime-assist-question-tocommandstaff = O suspeito derrubou ou comprometeu uma Cadeia de Comando legalmente estabelecida, ou tentou fazer isso?
 crime-assist-question-wasitcommanditself = Um membro da equipe de comando ou chefe de departamento estava abusando de autoridade sobre outro sofôntico?
-
 # Detalhes do crime
 crime-assist-crimedetail-innocent = O crime não pôde ser determinado. Use seu melhor julgamento para resolver a situação.
 crime-assist-crimedetail-animalcruelty = Infligir sofrimento desnecessário a um ser senciente com intenção maliciosa.
@@ -120,7 +127,6 @@ crime-assist-crimepunishment-decorporealisation = Punição: Capital
 crime-assist-crimepunishment-kidnapping = Punição: Capital
 crime-assist-crimepunishment-sedition = Punição: Capital
 crime-assist-crimepunishment-sexualharassment = Punição: Capital
-
 # Geral
 mail-metrics-program-name = Métricas do Correio
 mail-metrics-header = Renda de Entregas de Correio
@@ -132,22 +138,21 @@ mail-metrics-unopened = Não Aberto
 mail-metrics-count-header = Pacotes
 mail-metrics-money-header = Spesos
 mail-metrics-total = Total
-mail-metrics-progress = {$opened} de {$total} pacotes abertos!
-mail-metrics-progress-percent = Taxa de sucesso: {$successRate}%
+mail-metrics-progress = { $opened } de { $total } pacotes abertos!
+mail-metrics-progress-percent = Taxa de sucesso: { $successRate }%
 
 ## StockTrading
 
 # Geral
 stock-trading-program-name = Negociação de Ações
 stock-trading-title = Mercado de Ações Intergaláctico
-stock-trading-balance = Saldo: {$balance} créditos
+stock-trading-balance = Saldo: { $balance } créditos
 stock-trading-no-entries = Sem entradas
-stock-trading-owned-shares = Possuído: {$shares}
+stock-trading-owned-shares = Possuído: { $shares }
 stock-trading-buy-button = Comprar
 stock-trading-sell-button = Vender
 stock-trading-amount-placeholder = Quantidade
 stock-trading-price-history = Histórico de Preços
-
 
 ## NanoChat
 
@@ -163,14 +168,13 @@ nano-chat-send = Enviar
 nano-chat-edit = Editar
 nano-chat-delete = Excluir
 nano-chat-loading = Carregando...
-nano-chat-message-too-long = Mensagem muito longa ({$current}/{$max} caracteres)
+nano-chat-message-too-long = Mensagem muito longa ({ $current }/{ $max } caracteres)
 nano-chat-max-recipients = Número máximo de chats atingido
-nano-chat-new-message-title = mensagem de {$sender}
-nano-chat-new-message-title-recipient = {$sender} ({$jobTitle})
-nano-chat-new-message-body = {$message}
+nano-chat-new-message-title = mensagem de { $sender }
+nano-chat-new-message-title-recipient = { $sender } ({ $jobTitle })
+nano-chat-new-message-body = { $message }
 nano-chat-toggle-mute = Silenciar notificações
 nano-chat-delivery-failed = Falha ao entregar
-
 # Criar popup de chat
 nano-chat-new-title = Adicionar um novo chat
 nano-chat-number-label = Número
@@ -181,17 +185,15 @@ nano-chat-name-placeholder = Insira um nome
 nano-chat-job-placeholder = Insira um título do trabalho (opcional)
 nano-chat-cancel = Cancelar
 nano-chat-create = Criar
-
 # Editar popup de chat
 nano-chat-edit-title = Editar um contato
 nano-chat-confirm = Confirmar
-
 # Adições do LogProbe
-log-probe-scan-nanochat = Logs do NanoChat de {$card} escaneados
+log-probe-scan-nanochat = Logs do NanoChat de { $card } escaneados
 log-probe-header-access = Scanner de Logs de Acesso
 log-probe-header-nanochat = Scanner de Logs do NanoChat
 log-probe-label-message = Mensagem
-log-probe-card-number = Cartão: {$number}
-log-probe-recipients = {$count} Destinatários
+log-probe-card-number = Cartão: { $number }
+log-probe-recipients = { $count } Destinatários
 log-probe-recipient-list = Destinatários Conhecidos:
-log-probe-message-format = {$sender} → {$recipient}: {$content}
+log-probe-message-format = { $sender } → { $recipient }: { $content }

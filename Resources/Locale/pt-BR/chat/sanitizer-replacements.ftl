@@ -21,6 +21,5 @@ chatsan-tearfully-salutes = saúda em lágrimas
 chatsan-shrugs = dá de ombros
 chatsan-tearfully-smiles = sorri lacrimejando
 chatsan-winks = pisca
-
 chatsan-shake-head-yes = faz que sim com a cabeça
 chatsan-shake-head-no = faz que não com a cabeça

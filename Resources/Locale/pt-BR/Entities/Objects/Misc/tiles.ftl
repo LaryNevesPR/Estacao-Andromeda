@@ -1,122 +1,82 @@
 ent-FloorTileItemSteel = azulejo de aço
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemMetalDiamond = azulejo de aço
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemWood = piso de madeira
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemWhite = azulejo branco
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemDark = azulejo escuro
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemTechmaint = piso de manutenção técnica
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemReinforced = azulejo reforçado
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemMono = azulejo mono
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemLino = piso de linóleo
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemDirty = azulejo sujo
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemElevatorShaft = azulejo de poço de elevador
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemRockVault = azulejo de cofre de rocha
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemBlue = azulejo azul
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemFreezer = azulejo congelado
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShowroom = azulejo de showroom
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemHydro = azulejo hidro
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemBar = azulejo de bar
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemClown = azulejo de palhaço
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemMime = azulejo de mímico
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemKitchen = azulejo de cozinha
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemLaundry = azulejo de lavanderia
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemArcadeBlue = piso de arcade azul
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemArcadeBlue2 = piso de arcade azul
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemArcadeRed = piso de arcade vermelho
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemEighties = piso dos anos oitenta
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemCarpetClown = piso de carpete de palhaço
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemCarpetOffice = piso de carpete de escritório
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemBoxing = piso de ringue de boxe
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemGym = piso de academia
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShuttleWhite = piso de transporte branco
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShuttleBlue = piso de transporte azul
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShuttleOrange = piso de transporte laranja
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShuttlePurple = piso de transporte roxo
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemShuttleRed = piso de transporte vermelho
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemGold = piso de ouro
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemSilver = azulejo de prata
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemGCircuit = piso de circuito verde
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemBCircuit = piso de circuito azul
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemGrass = azulejo de grama
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemGrassJungle = azulejo de grama da selva
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.
-
 ent-FloorTileItemSnow = azulejo de neve
     .desc = Isso poderia funcionar como uma arma de arremesso bastante decente.

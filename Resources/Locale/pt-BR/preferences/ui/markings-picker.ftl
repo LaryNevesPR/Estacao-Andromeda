@@ -1,3 +1,12 @@
+markings-category-LeftFoot = Left Foot
+markings-category-LeftLeg = Left Leg
+markings-category-RightFoot = Right Foot
+markings-category-RightLeg = Right Leg
+markings-category-LeftHand = Left Hand
+markings-category-LeftArm = Left Arm
+markings-category-RightHand = Right Hand
+markings-category-RightArm = Right Arm
+markings-category-Face = Face
 markings-used = Marcas Usadas
 markings-unused = Marcas Não Usadas
 markings-add = Adicionar Marca
@@ -5,9 +14,9 @@ markings-remove = Remover Marca
 markings-rank-up = Cima
 markings-rank-down = Baixo
 markings-search = Procurar
-marking-points-remaining = Marcas restantes: {$points}
-marking-used = {$marking-name}
-marking-used-forced = {$marking-name} (Forçado)
+marking-points-remaining = Marcas restantes: { $points }
+marking-used = { $marking-name }
+marking-used-forced = { $marking-name } (Forçado)
 marking-slot-add = Adicionar
 marking-slot-remove = Remover
 

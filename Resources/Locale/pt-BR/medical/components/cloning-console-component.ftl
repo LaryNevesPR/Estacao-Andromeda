@@ -1,8 +1,9 @@
 ## UI
+
 cloning-console-window-title = Console de Clonagem
 cloning-console-window-clone-button-text = Clonar
-cloning-console-window-scanner-id = ID: [color=white]{$scannerOccupantName}[/color]
-cloning-console-window-pod-id = ID: [color=white]{$podOccupantName}[/color]
+cloning-console-window-scanner-id = ID: [color=white]{ $scannerOccupantName }[/color]
+cloning-console-window-pod-id = ID: [color=white]{ $podOccupantName }[/color]
 cloning-console-window-no-patient-data-text = Sem dados do paciente.
 cloning-console-window-id-blank = ID:
 cloning-console-window-scanner-details-label = Status do Scanner Genético
@@ -24,8 +25,7 @@ cloning-console-component-msg-already-cloning = Não Está Pronto: Conflito De R
 cloning-console-component-msg-incomplete = Não Está Pronto: Clonagem Em Andamento
 cloning-console-component-msg-no-cloner = Não Está Pronto: Nenhum Clone Detectado
 cloning-console-component-msg-no-mind = Não Está Pronto: Nenhuma Atividade De Alma Detectada
-
-cloning-console-chat-error = ERRO: BIOMASSA INSUFICIENTE. A CLONAGEM DESTE CORPO REQUER {$units} UNIDADES DE BIOMASSA.
+cloning-console-chat-error = ERRO: BIOMASSA INSUFICIENTE. A CLONAGEM DESTE CORPO REQUER { $units } UNIDADES DE BIOMASSA.
 cloning-console-chat-no-genetics = ERRO: FALHA NA ANÁLISE GENÉTICA. O CORPO USA ESQUEMA DIFERENTE OU GENÉTICA NULA.
 cloning-console-uncloneable-trait-error = ERROR: A ALMA ESTÁ AUSENTE, A CLONAGEM É IMPOSSÍVEL.
-cloning-console-cellular-warning = ATENÇÃO: PONTUAÇÃO DE CONFIANÇA GENÉTICA É {$percent}%. A CLONAGEM PODE TER RESULTADOS INESPERADOS.
+cloning-console-cellular-warning = ATENÇÃO: PONTUAÇÃO DE CONFIANÇA GENÉTICA É { $percent }%. A CLONAGEM PODE TER RESULTADOS INESPERADOS.

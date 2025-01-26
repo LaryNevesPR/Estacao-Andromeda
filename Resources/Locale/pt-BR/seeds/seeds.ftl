@@ -1,7 +1,28 @@
+seeds-cherry-display-name = cherry tree
+seeds-cherry-name = cherry
+seeds-capfruit-display-name = capfruit tree
+seeds-capfruit-name = capfruit
+seeds-pyrotton-display-name = pyrotton plant
+seeds-pyrotton-name = pyrotton
+seeds-worldpea-display-name = world pea vines
+seeds-worldpea-name = world peas
+seeds-holymelon-display-name = holymelon vines
+seeds-holymelon-name = holymelon
+seeds-glasstle-display-name = glasstle
+seeds-glasstle-name = glasstle
+seeds-rainbow-cannabis-display-name = rainbow cannabis
+seeds-rainbow-cannabis-name = rainbow cannabis
+seeds-goldenapple-display-name = golden apple tree
+seeds-goldenapple-name = golden apple
+seeds-papercane-display-name = papercanes
+seeds-papercane-name = papercane
+seeds-extradimensionalorange-display-name = extradimensional orange trees
+seeds-extradimensionalorange-name = extradimensional orange
+seeds-meatwheat-display-name = meatwheat stalks
+seeds-meatwheat-name = meatwheat
 # Nouns
 seeds-noun-seeds = sementes
 seeds-noun-spores = esporos
-
 # Seeds
 seeds-wheat-name = trigo
 seeds-wheat-display-name = talos de trigo

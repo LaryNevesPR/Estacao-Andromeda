@@ -1,1 +1,1 @@
-objective-terminate-title = Eliminar {$targetName}, {CAPITALIZE($job)}
+objective-terminate-title = Eliminar { $targetName }, { CAPITALIZE($job) }

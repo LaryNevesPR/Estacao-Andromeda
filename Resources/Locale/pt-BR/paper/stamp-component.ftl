@@ -1,3 +1,5 @@
+stamp-component-stamped-name-magistrate = Magistrate
+stamp-component-stamped-name-nanorep = Nanotrasen Representative
 stamp-component-stamped-name-default = Uma pessoa muito importante
 stamp-component-stamped-name-detective = Detetive
 stamp-component-stamped-name-mime = Mímico

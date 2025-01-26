@@ -1,6 +1,10 @@
-forensic-fibers = {LOC($material)} fibras
-forensic-fibers-colored = {LOC($color)} {LOC($material)} fibras
-
+fibers-pink = pink
+fibers-maroon = maroon
+fibers-gold = gold
+fibers-silver = silver
+fibers-dyed = dyed fibers
+forensic-fibers = { LOC($material) } fibras
+forensic-fibers-colored = { LOC($color) } { LOC($material) } fibras
 fibers-insulative = isolante
 fibers-synthetic = sintética
 fibers-leather = couro
@@ -10,7 +14,6 @@ fibers-nitrile = nitrilo
 fibers-nanomachines = nano máquina isolante
 fibers-chameleon = camaleão holográfico
 fibers-rubber = borracha
-
 fibers-purple = roxo
 fibers-red = vermelho
 fibers-black = preto

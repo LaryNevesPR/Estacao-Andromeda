@@ -1,3 +1,4 @@
+fat-extractor-component-rate = extraction rate
 fat-extractor-fact-1 = As gorduras são triglicéridos constituídos por uma combinação de diferentes blocos de construção; glicerol e ácidos graxos.
 fat-extractor-fact-2 = Os adultos devem obter uma recomendação de 20 a 35% de sua ingestão energética de gordura.
 fat-extractor-fact-3 = Estar acima do peso ou obeso aumenta o risco de doenças crônicas, como doenças cardiovasculares, síndrome metabólica, diabetes tipo 2 e alguns tipos de câncer.

@@ -11,7 +11,6 @@ body-part-LeftLeg = perna esquerda
 body-part-LeftFoot = pé esquerdo
 body-part-RightLeg = perna direita
 body-part-RightFoot = pé direito
-
 body-part-Hands = mãos
 body-part-Arms = braços
 body-part-Legs = pernas

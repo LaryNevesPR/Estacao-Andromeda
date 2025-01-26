@@ -1,6 +1,7 @@
-﻿## Actions Commands loc
+## Actions Commands loc
 
 ## Upgradeaction command loc
+
 upgradeaction-command-need-one-argument = upgradeaction precisa de pelo menos um argumento, o uid da entidade de ação. O segundo argumento opcional é um nível especificado.
 upgradeaction-command-max-two-arguments = upgradeaction tem no máximo dois argumentos, o uid da entidade de ação e o nível (opcional) a ser definido.
 upgradeaction-command-second-argument-not-number = O segundo argumento de upgradeaction só pode ser um número.

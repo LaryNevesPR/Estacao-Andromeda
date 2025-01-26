@@ -1,3 +1,4 @@
+lathe-category-tacsuits = Tacsuits
 lathe-category-ammo = Munição
 lathe-category-circuitry = Circuito
 lathe-category-lights = Luzes

@@ -1,3 +1,6 @@
+player-tab-is-antag-no = NO
+player-tab-is-antag-yes = YES
+player-tab-filter-line-edit-placeholder = Filter
 player-tab-username = Nome de Usuário
 player-tab-character = Personagem
 player-tab-job = Trabalho

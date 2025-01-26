@@ -11,7 +11,6 @@ advertisement-block-game-10 = O Jogo de Blocos Nanotrasen É o que o Tetris NÃO
 advertisement-block-game-11 = Agora com processamento explosivo!
 advertisement-block-game-12 = Nossos advogados estão prontos!
 advertisement-block-game-13 = Aleluia, está chovendo blocos!
-
 thankyou-block-game-1 = Jogue novamente em breve!
 thankyou-block-game-2 = Bem jogado!
 thankyou-block-game-3 = Apenas mais uma partida?

@@ -1,209 +1,151 @@
 marking-VulpEar-vulp = Orelhas de Vulpkanin (base)
 marking-VulpEar-vulp-inner = Orelhas de Vulpkanin (interno)
 marking-VulpEar = Vulpkanin
-
 marking-VulpEarFade-vulp = Orelhas de Vulpkanin (base)
 marking-VulpEarFade-vulp-fade = Orelhas de Vulpkanin (desvanecer)
 marking-VulpEarFade = Vulpkanin (desvanecer)
-
 marking-VulpEarSharp-vulp = Orelhas de Vulpkanin (base)
 marking-VulpEarSharp-vulp-sharp = Orelhas de Vulpkanin (afiado)
 marking-VulpEarSharp = Vulpkanin (afiado)
-
 marking-VulpEarJackal-jackal = Orelhas de Chacal (base)
 marking-VulpEarJackal-jackal-inner = Orelhas de Chacal (interno)
 marking-VulpEarJackal = Vulpkanin Chacal
-
 marking-VulpEarTerrier-terrier = Orelhas de Terrier (base)
 marking-VulpEarTerrier-terrier-inner = Orelhas de Terrier (interno)
 marking-VulpEarTerrier = Vulpkanin Terrier
-
 marking-VulpEarWolf-wolf = Orelhas de Lobo (base)
 marking-VulpEarWolf-wolf-inner = Orelhas de Lobo (interno)
 marking-VulpEarWolf = Vulpkanin Lobo
-
 marking-VulpEarFennec-fennec = Orelhas de Feneco (base)
 marking-VulpEarFennec-fennec-inner = Orelhas de Feneco (interno)
 marking-VulpEarFennec = Vulpkanin Feneco
-
 marking-VulpEarFox-fox = Orelhas de Raposa
 marking-VulpEarFox = Vulpkanin Raposa
-
 marking-VulpEarOtie-otie = Orelhas de Otie (base)
 marking-VulpEarOtie-otie-inner = Orelhas de Otie (interno)
 marking-VulpEarOtie = Vulpkanin Otie
-
 marking-VulpEarTajaran-msai = Orelhas de Tajaran (base)
 marking-VulpEarTajaran-msai-inner = Orelhas de Tajaran (interno)
 marking-VulpEarTajaran = Vulpkanin Tajaran
-
 marking-VulpEarShock-shock = Orelhas de Choque
 marking-VulpEarShock = Vulpkanin Choque
-
 marking-VulpEarCoyote-coyote = Orelhas de Coiote
 marking-VulpEarCoyote = Vulpkanin Coiote
-
 marking-VulpEarDalmatian-dalmatian = Orelhas de Dálmata
 marking-VulpEarDalmatian = Vulpkanin Dálmata
-
 marking-VulpSnoutAlt-muzzle_alt = Focinho
 marking-VulpSnoutAlt-nose = Nariz
 marking-VulpSnoutAlt = Vulpkanin Focinho 2
-
 marking-VulpSnout-muzzle = Focinho
 marking-VulpSnout-nose = Nariz
 marking-VulpSnout = Vulpkanin Focinho
-
 marking-VulpSnoutSharp-muzzle_sharp = Focinho
 marking-VulpSnoutSharp-nose = Nariz
 marking-VulpSnoutSharp = Vulpkanin Focinho (afiado)
-
 marking-VulpSnoutFade-muzzle_fade = Focinho
 marking-VulpSnoutFade-nose = Nariz
 marking-VulpSnoutFade = Vulpkanin Focinho (desvanecer)
-
 marking-VulpSnoutNose-nose = Nariz
 marking-VulpSnoutNose = Vulpkanin Nariz
-
 marking-VulpSnoutMask-mask = Máscara
 marking-VulpSnoutMask-nose = Nariz
 marking-VulpSnoutMask = Vulpkanin Máscara
-
 marking-VulpSnoutVulpine-vulpine = Vulpino (base)
 marking-VulpSnoutVulpine-vulpine-lines = Vulpino (linhas)
 marking-VulpSnoutVulpine = Vulpkanin Vulpino
-
 marking-VulpSnoutSwift-vulpine-lines = Ágil
 marking-VulpSnoutSwift = Vulpkanin Ágil
-
 marking-VulpSnoutBlaze-blaze = Chama
 marking-VulpSnoutBlaze = Vulpkanin Chama
-
 marking-VulpSnoutPatch-patch = Mancha
 marking-VulpSnoutPatch = Vulpkanin Mancha
-
 marking-VulpHeadTiger-tiger_head = Listras de Tigre
 marking-VulpHeadTiger = Vulpkanin Listras de Tigre (cabeça)
-
 marking-VulpHeadTigerFace-tiger_face = Listras de Tigre
 marking-VulpHeadTigerFace = Vulpkanin Listras de Tigre (rosto)
-
 marking-VulpHeadSlash-slash = Corte
 marking-VulpHeadSlash = Vulpkanin Corte
-
 marking-VulpTail-vulp = Cauda de Vulpkanin (base)
 marking-VulpTail-vulp-fade = Cauda de Vulpkanin (desvanecer)
 marking-VulpTail = Vulpkanin
 marking-VulpTailAnimated = Vulpkanin (animado)
-
 marking-VulpTailTip-vulp = Cauda de Vulpkanin (base)
 marking-VulpTailTip-vulp-tip = Cauda de Vulpkanin (ponta)
 marking-VulpTailTip = Vulpkanin (ponta)
 marking-VulpTailTipAnimated = Vulpkanin (ponta) (animado)
-
 marking-VulpTailAlt-vulp_alt = Cauda de Vulpkanin (base)
 marking-VulpTailAlt-vulp_alt-fade = Cauda de Vulpkanin (desvanecer)
 marking-VulpTailAlt = Vulpkanin (alt)
-
 marking-VulpTailAltTip-vulp_alt = Cauda de Vulpkanin (base)
 marking-VulpTailAltTip-vulp_alt-tip = Cauda de Vulpkanin (ponta)
 marking-VulpTailAltTip = Vulpkanin (alt, ponta)
-
 marking-VulpTailLong-long = Cauda Longa (base)
 marking-VulpTailLong-long-tip = Cauda Longa (ponta)
 marking-VulpTailLong = Vulpkanin Longa
-
 marking-VulpTailFox-fox = Cauda de Raposa (base)
 marking-VulpTailFox-fox-fade = Cauda de Raposa (desvanecer)
 marking-VulpTailFox = Vulpkanin Raposa
 marking-VulpTailFoxAnimated = Vulpkanin Raposa (animado)
-
 marking-VulpTailFoxTip-fox = Cauda de Raposa (base)
 marking-VulpTailFoxTip-fox-tip = Cauda de Raposa (ponta)
 marking-VulpTailFoxTip = Vulpkanin Raposa (ponta)
 marking-VulpTailFoxTipAnimated = Vulpkanin Raposa (ponta) (animado)
-
 marking-VulpTailBushy-bushfluff = Cauda Espessa
 marking-VulpTailBushy = Vulpkanin Espessa
 marking-VulpTailBushyAnimated = Vulpkanin Espessa (animado)
-
 marking-VulpTailCoyote-coyote = Cauda de Coiote
 marking-VulpTailCoyote = Vulpkanin Coiote
 marking-VulpTailCoyoteAnimated = Vulpkanin Coiote (animado)
-
 marking-VulpTailHusky-husky-inner = Cauda de Husky (interno)
 marking-VulpTailHusky-husky-outer = Cauda de Husky (externo)
 marking-VulpTailHusky = Vulpkanin Husky
-
 marking-VulpTailHuskyAlt-husky = Cauda de Husky
 marking-VulpTailHuskyAlt = Vulpkanin Husky (alt)
-
 marking-VulpTailFox2-fox2 = Cauda de Raposa
 marking-VulpTailFox2 = Vulpkanin Raposa 2
-
 marking-VulpTailFox3-fox3 = Cauda de Raposa (base)
 marking-VulpTailFox3-fox3-tip = Cauda de Raposa (ponta)
 marking-VulpTailFox3 = Vulpkanin Raposa 3
-
 marking-VulpTailFennec-fennec = Cauda de Feneco
 marking-VulpTailFennec = Vulpkanin Feneco
-
 marking-VulpTailOtie-otie = Cauda de Otie
 marking-VulpTailOtie = Vulpkanin Otie
-
 marking-VulpTailFluffy-fluffy = Cauda Fofa
 marking-VulpTailFluffy = Vulpkanin Fofa
-
 marking-VulpTailCorgi-corgi = Cauda de Corgi
 marking-VulpTailCorgi = Vulpkanin Corgi
 marking-VulpTailCorgiAnimated = Vulpkanin Corgi (animado)
-
 marking-VulpTailDalmatian-dalmatian = Cauda de Dálmata
 marking-VulpTailDalmatian = Vulpkanin Dálmata
 marking-VulpTailDalmatianAnimated = Vulpkanin Dálmata (animado)
-
 marking-VulpBellyCrest-belly_crest = Barriga
 marking-VulpBellyCrest = Vulpkanin Barriga Crista
-
 marking-VulpBellyFull-belly_full = Barriga
 marking-VulpBellyFull = Vulpkanin Barriga 1
-
 marking-VulpBellyFox-belly_fox = Barriga
 marking-VulpBellyFox = Vulpkanin Barriga 2
-
 marking-VulpBodyPointsCrest-points_crest = Pontos (crista)
 marking-VulpBodyPointsCrest = Vulpkanin Pontos (crista)
-
 marking-VulpBodyPointsFade-points_fade = Pontos de Vulpkanin (desvanecer)
 marking-VulpBodyPointsFade = Vulpkanin Pontos (desvanecer)
-
 marking-VulpBodyPointsSharp-points_sharp = Pontos de Vulpkanin (afiado)
 marking-VulpBodyPointsSharp = Vulpkanin Pontos (afiado)
-
 marking-VulpPointsFeet-points_feet = Pontos Pés
 marking-VulpPointsFeet = Vulpkanin Pontos Pés
-
 marking-VulpPointsCrestLegs-points_crest-legs = Pontos (crista)
 marking-VulpPointsCrestLegs = Vulpkanin Pontos Pernas (crista)
-
 marking-VulpPointsFadeLegs-points_fade-legs = Pontos (desvanecer)
 marking-VulpPointsFadeLegs = Vulpkanin Pontos Pernas (desvanecer)
-
 marking-VulpPointsSharpLegs-points_sharp-legs = Pontos (afiado)
 marking-VulpPointsSharpLegs = Vulpkanin Pontos Pernas (afiado)
-
 marking-VulpPointsHands-points_hands = Pontos Mãos
 marking-VulpPointsHands = Vulpkanin Pontos Mãos
-
 marking-VulpPointsCrestArms-points_crest-arms = Pontos (crista)
 marking-VulpPointsCrestArms = Vulpkanin Pontos Braços (crista)
-
 marking-VulpPointsFadeArms-points_fade-arms = Pontos (desvanecer)
 marking-VulpPointsFadeArms = Vulpkanin Pontos Braços (desvanecer)
-
 marking-VulpPointsSharpArms-points_sharp-arms = Pontos (afiado)
 marking-VulpPointsSharpArms = Vulpkanin Pontos Braços (afiado)
-
 marking-VulpHairAdhara = Adhara
 marking-VulpHairAnita = Anita
 marking-VulpHairApollo = Apolo
@@ -225,7 +167,6 @@ marking-VulpHairRough = Áspero
 marking-VulpHairShort = Cabelo Curto
 marking-VulpHairShort2 = Cabelo Curto 2
 marking-VulpHairSpike = Espigado
-
 marking-VulpFacialHairRuff = Juba
 marking-VulpFacialHairElder = Ancião
 marking-VulpFacialHairElderChin = Ancião Queixo

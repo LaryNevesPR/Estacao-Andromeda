@@ -1,11 +1,11 @@
+verb-categories-blood-cult = Blood Cult
+verb-categories-power-level = Power Level
+verb-categories-select-faction = Select Faction
 verb-system-waiting-on-server-text = Aguardando no servidor...
 verb-system-null-server-response = Entitade fora de vista. Você não deveria ver isto.
-
-
 # if verbs have a range of targets (e.g., multiple ejectables) you can
 # usually just use Entity.Name. But it is a bit odd when targeting yourself
 verb-self-target-pronoun = Você
-
 
 # verb categories & common verbs. These appear across multiple systems, so they may as well go here.
 
@@ -29,7 +29,6 @@ verb-categories-lever = Alavancar
 verb-categories-select-type = Escolher Tipo
 verb-categories-fax = Definir destino
 verb-categories-interaction = Interact
-
 verb-common-toggle-light = Ligar luz
 verb-common-close = Fechar
 verb-common-open = Abrir

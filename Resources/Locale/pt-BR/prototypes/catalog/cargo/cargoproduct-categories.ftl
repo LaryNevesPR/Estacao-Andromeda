@@ -1,3 +1,4 @@
+cargoproduct-category-name-hardsuits = Hardsuits
 cargoproduct-category-name-armory = Arsenal
 cargoproduct-category-name-atmospherics = Atmos
 cargoproduct-category-name-cargo = Cargo

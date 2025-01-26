@@ -1,50 +1,38 @@
 ent-BaseJetpack = Jetpack
     .desc = É um jetpack.
-
 ent-JetpackBlue = Jetpack Azul
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackBlueFilled = Jetpack Azul
     .desc = É um jetpack.
     .suffix = Preenchido
-
 ent-JetpackBlack = Jetpack Preto
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackBlackFilled = Jetpack Preto
     .desc = É um jetpack.
     .suffix = Preenchido
-
 ent-JetpackCaptain = Jetpack do Capitão
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackCaptainFilled = Jetpack do Capitão
     .desc = É um jetpack.
     .suffix = Preenchido
-
 ent-JetpackMini = Mini Jetpack
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackMiniFilled = Mini Jetpack
     .desc = É um jetpack.
     .suffix = Preenchido
-
 ent-JetpackSecurity = Jetpack de Segurança
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackSecurityFilled = Jetpack de Segurança
     .desc = É um jetpack.
     .suffix = Preenchido
-
 ent-JetpackVoid = Jetpack Vazio
     .desc = É um jetpack.
     .suffix = Vazio
-
 ent-JetpackVoidFilled = Jetpack Vazio
     .desc = É um jetpack.
     .suffix = Preenchido

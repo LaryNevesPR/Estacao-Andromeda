@@ -1,3 +1,6 @@
+# Psionic Effects
+artifact-effect-hint-psionic = Noöspheric disturbance
+
 # you shouldn't be creating new hints for every effect/trigger
 # try and reuse them so that a hint isn't a dead giveaway. -emo
 

@@ -1,3 +1,4 @@
+sandbox-window-ai-overlay-button = AI Overlay
 sandbox-window-title = Painel Sandbox
 sandbox-window-respawn-button = Respawnar
 sandbox-window-spawn-entities-button = Spawnar Entidades

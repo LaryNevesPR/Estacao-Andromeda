@@ -1,47 +1,32 @@
 ent-BaseMagazineCaselessRifle = carregador (.25 sem estojo)
     .desc = { "" }
-
 ent-BaseMagazineCaselessRifleShort = carregador curto de rifle (.25 sem estojo)
     .desc = { "" }
-
 ent-BaseMagazinePistolCaselessRifle = carregador de pistola (.25 sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifle10x24 = carregador de caixa (.25 sem estojo)
     .desc = { "" }
-
 ent-MagazinePistolCaselessRifle = carregador de pistola (.25 sem estojo)
     .desc = { "" }
-
 ent-MagazinePistolCaselessRifleHighVelocity = carregador de pistola (.25 alta velocidade sem estojo)
     .desc = { "" }
-
 ent-MagazinePistolCaselessRiflePractice = carregador de pistola (.25 prática sem estojo)
     .desc = { "" }
-
 ent-MagazinePistolCaselessRifleRubber = carregador de pistola (.25 borracha sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifle = carregador (.25 sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleHighVelocity = carregador (.25 alta velocidade sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRiflePractice = carregador (.25 prática sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleRubber = carregador (.25 borracha sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleShort = carregador curto (.25 sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleShortHighVelocity = carregador curto (.25 alta velocidade sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleShortPractice = carregador curto (.25 prática sem estojo)
     .desc = { "" }
-
 ent-MagazineCaselessRifleShortRubber = carregador curto (.25 borracha sem estojo)
     .desc = { "" }

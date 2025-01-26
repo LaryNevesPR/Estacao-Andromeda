@@ -1,2 +1,2 @@
 ent-BriefcaseBrown = maleta marrom
-     .desc = Uma maleta útil.
+    .desc = Uma maleta útil.

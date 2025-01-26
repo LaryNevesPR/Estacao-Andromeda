@@ -1,5 +1,5 @@
 loadout-description-LoadoutShoesBlack = Step into the shadows with these sleek and stylish black shoes, perfect for ninjas or anyone looking to leave an enigmatic impression.
-loadout-description-LoadoutShoesBlue =  From zero-gravity dance floors to orbital adventures, these kicks are ready to make your journey as vibrant as the cosmos.
+loadout-description-LoadoutShoesBlue = From zero-gravity dance floors to orbital adventures, these kicks are ready to make your journey as vibrant as the cosmos.
 loadout-description-LoadoutShoesBrown = Classic and reliable, these brown shoes are like your trusted sidekick on any adventure.
 loadout-description-LoadoutShoesGreen = Embrace the essence of nature with these green shoes. Slip them on, and let the world become your lush and vibrant playground.
 loadout-description-LoadoutShoesOrange = Gear up for high-octane thrills on the space station with these vivid orange shoes.
@@ -8,7 +8,6 @@ loadout-description-LoadoutShoesRed = Embrace the spirit of exploration with the
 loadout-description-LoadoutShoesWhite = Elevate your style with these pristine white shoes, a symbol of innovation and progress.
 loadout-description-LoadoutShoesYellow = Light up the space station with these radiant yellow shoes, bringing a burst of energy to your every step.
 loadout-description-LoadoutShoesSlippersDuck = Quack up your downtime with these adorable duck slippers that waddle the line between comfort and quirkiness.
-
 loadout-name-LoadoutShoesWhite = shoes (colorable)
 loadout-name-LoadoutShoesBootsCowboyWhite = cowboy boots (colorable)
 loadout-name-LoadoutShoesBootsWorkColor = workboots (colorable)

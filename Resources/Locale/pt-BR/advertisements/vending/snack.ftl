@@ -1,3 +1,4 @@
+thankyou-snack-5 = Yummy!
 advertisement-snack-1 = Experimente nossa barra de torrone!
 advertisement-snack-2 = O dobro das calorias por metade do preço!
 advertisement-snack-3 = O mais saudável!

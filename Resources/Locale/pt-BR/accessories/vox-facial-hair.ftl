@@ -1,3 +1,8 @@
+marking-VoxFacialHairMane = Vox Beard (Mane)
+marking-VoxFacialHairNeck = Vox Beard (Neck Quills)
+marking-VoxFacialHairFu = Vox Moustache (Quill Fu)
+marking-VoxFacialHairColonel = Vox Moustache (Colonel)
+marking-VoxFacialHairBeard = Vox Beard (Quills)
 accessory-VoxFacialHairColonel = Coronel Vox
 accessory-VoxFacialHairFu = Quill Fu
 accessory-VoxFacialHairNeck = Pescoço Quill

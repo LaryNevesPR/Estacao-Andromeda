@@ -1,5 +1,4 @@
 # Shown when examining an in-construction object
-construction-insert-prototype-no-name = Agora, insira {$prototypeName}.
-
+construction-insert-prototype-no-name = Agora, insira { $prototypeName }.
 # Shown when examining an in-construction object
-construction-insert-prototype = Agora, insira {$entityName}.
+construction-insert-prototype = Agora, insira { $entityName }.

@@ -1,1 +1,1 @@
-﻿suicide-prevented = Você tenta o suicídio, mas apenas o seu espírito escapa.
+suicide-prevented = Você tenta o suicídio, mas apenas o seu espírito escapa.

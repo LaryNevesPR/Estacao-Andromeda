@@ -1,0 +1,12 @@
+ent-CorpsmanPDA = corpsman PDA
+    .desc = Red and Sterile. Has a built-in health analyzer.
+ent-ChiefJusticePDA = chief justice PDA
+    .desc = Whosoever bears this PDA is the law.
+ent-ClerkPDA = clerk PDA
+    .desc = It has the stamp to prove it's been officially notarized!
+ent-ProsecutorPDA = prosecutor PDA
+    .desc = Sharp. Looks like it could prosecute you all on its own.
+ent-SyndiListeningPostPDA = { ent-SyndiPDA }
+    .desc = { ent-SyndiPDA.desc }
+ent-AdminAssistantPDA = administrative assistant PDA
+    .desc = Theres pen scribbles all over the edges, and a few sticky notes stuck on it.

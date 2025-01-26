@@ -1,5 +1,4 @@
 loadout-description-LoadoutUniformAncientJumpsuit = The legend of the Greytide.
-
 loadout-name-LoadoutUniformJumpsuitColorWhite = jumpsuit (colorable)
 loadout-name-LoadoutUniformJumpskirtColorWhite = jumpskirt (colorable)
 loadout-name-LoadoutUniformMartialGi = gi (colorable)

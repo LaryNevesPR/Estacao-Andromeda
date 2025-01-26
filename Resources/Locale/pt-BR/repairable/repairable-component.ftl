@@ -1,10 +1,11 @@
 ### Interaction Messages
 
 # Shown when repairing something
-comp-repairable-repair = Você repara {PROPER($target) ->
-  [true] {""}
-  *[false] o{" "}
-}{$target} com, {PROPER($tool) ->
-  [true] {""}
-  *[false] o{" "}
-}{$tool}
+comp-repairable-repair =
+    Você repara { PROPER($target) ->
+        [true] { "" }
+       *[false] o{ " " }
+    }{ $target } com, { PROPER($tool) ->
+        [true] { "" }
+       *[false] o{ " " }
+    }{ $tool }

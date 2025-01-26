@@ -1,4 +1,4 @@
-﻿advertisement-happyhonk-1 = Honk! Honk! Porque não pedir um Honk Lanch Feliz hoje?
+advertisement-happyhonk-1 = Honk! Honk! Porque não pedir um Honk Lanch Feliz hoje?
 advertisement-happyhonk-2 = O palhaço merece um abraço, se você vir um lembre-se de mostrar o seu apreço.
 advertisement-happyhonk-3 = Se você encontrar o Golden Honker então agradeça aos deuses, você é uma pessoa sortuda.
 advertisement-happyhonk-4 = Honk Feliz, é um lanche its a meal its a deal its got a plastic toy that will make you squeal.

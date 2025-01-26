@@ -1,14 +1,10 @@
 ent-BaseMagazineShotgun = tambor de munição (.50 cartuchos)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-MagazineShotgun = tambor de munição (.50 chumbinho)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-MagazineShotgunBeanbag = tambor de munição (.50 beanbag)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-MagazineShotgunSlug = tambor de munição (.50 slug)
-     .desc = { "" }
-
+    .desc = { "" }
 ent-MagazineShotgunIncendiary = tambor de munição (.50 incendiário)
-     .desc = { "" }
+    .desc = { "" }

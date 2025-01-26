@@ -1,9 +1,8 @@
 hud-chatbox-info = T para falar, Tab para trocar entre canais.
-hud-chatbox-info-talk = {$talk-key} para conversar.
-hud-chatbox-info-cycle = Clique aqui para falar, {$cycle-key} para alternar canais.
+hud-chatbox-info-talk = { $talk-key } para conversar.
+hud-chatbox-info-cycle = Clique aqui para falar, { $cycle-key } para alternar canais.
 hud-chatbox-info-unbound = Clique aqui para conversar.
-
-hud-chatbox-select-name-prefixed = {$prefix} {$name}
+hud-chatbox-select-name-prefixed = { $prefix } { $name }
 hud-chatbox-select-channel-Admin = Admin
 hud-chatbox-select-channel-Console = Console
 hud-chatbox-select-channel-Dead = Morto
@@ -15,7 +14,6 @@ hud-chatbox-select-channel-OOC = OOC
 hud-chatbox-select-channel-Damage = Dano
 hud-chatbox-select-channel-Visual = Ações
 hud-chatbox-select-channel-Radio = Rádio
-
 hud-chatbox-channel-Admin = Misc Admin
 hud-chatbox-channel-AdminAlert = Alerta Admin
 hud-chatbox-channel-AdminChat = Admin Chat

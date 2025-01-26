@@ -1,12 +1,22 @@
+removeallpsionicpowers-not-psionic-error = The target entity is not Psionic.
+removeallpsionicpowers-args-one-error = Argument 1 must be an EntityUid.
+command-removeallpsionicpowers-help = Argument 1 must be an EntityUid.
+command-removeallpsionicpowers-description = Remove all Psionic powers from an entity.
+removepsionicpower-not-contains-error = The target entity does not have this PsionicPower.
+removepsionicpower-not-psionic-error = The target entity is not Psionic.
+removepsionicpower-args-two-error = Argument 2 must match the PrototypeId of a PsionicPower.
+removepsionicpower-args-one-error = Argument 1 must be an EntityUid
+command-removepsionicpower-help = Argument 1 must be an EntityUid, and argument 2 must be a string matching the PrototypeId of a PsionicPower.
+command-removepsionicpower-description = Remove a Psionic power from an entity.
+addrandompsionicpower-args-one-error = Argument 1 must be an EntityUid
+command-addrandompsionicpower-help = Argument 1 must be an EntityUid.
+command-addrandompsionicpower-description = Initialize an entity as Psionic with a random PowerPrototype that is available for that entity to roll.
 command-glimmershow-description = Mostra o nível de Glimmer atual.
 command-glimmershow-help = No arguments.
-
 command-glimmerset-description = Definir Glimmer para um número.
 command-glimmerset-help = glimmerset (integer)
-
 command-lspsionic-description = Lista os psiônicos.
 command-lspsionic-help = No arguments.
-
 command-addpsionicpower-description = Initialize an entity as Psionic with a given PowerPrototype
 command-addpsionicpower-help = Argument 1 must be an EntityUid, and argument 2 must be a string matching the PrototypeId of a PsionicPower.
 addpsionicpower-args-one-error = Argument 1 must be an EntityUid

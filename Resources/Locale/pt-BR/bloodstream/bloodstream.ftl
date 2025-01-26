@@ -1,5 +1,7 @@
-bloodstream-component-looks-pale = [color=bisque]{CAPITALIZE(SUBJECT($target))} está pálido.[/color]
-bloodstream-component-bleeding = [color=red]{CAPITALIZE(SUBJECT($target))} está sangrando.[/color]
-bloodstream-component-profusely-bleeding = [color=crimson]{CAPITALIZE(SUBJECT($target))} está sangrando profundamente![/color]
-
+bloodstream-component-selfaware-profusely-bleeding = [color=crimson]You are profusely bleeding![/color]
+bloodstream-component-selfaware-bleeding = [color=red]You are bleeding.[/color]
+bloodstream-component-selfaware-looks-pale = [color=bisque]You feel dizzy from blood loss.[/color]
+bloodstream-component-looks-pale = [color=bisque]{ CAPITALIZE(SUBJECT($target)) } está pálido.[/color]
+bloodstream-component-bleeding = [color=red]{ CAPITALIZE(SUBJECT($target)) } está sangrando.[/color]
+bloodstream-component-profusely-bleeding = [color=crimson]{ CAPITALIZE(SUBJECT($target)) } está sangrando profundamente![/color]
 bloodstream-component-wounds-cauterized = Você sente os seus ferimentos dolorosamente se fecharem!

@@ -1,1 +1,1 @@
-ame-controller-component-low-fuel-warning = AVISO: Combustível AME em {$percentage}%!
+ame-controller-component-low-fuel-warning = AVISO: Combustível AME em { $percentage }%!

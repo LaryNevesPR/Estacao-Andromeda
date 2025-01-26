@@ -1,8 +1,7 @@
 food-sequence-no-space = You can't put any more!
-
-food-sequence-standart-gen = {$prefix}{$content}{$suffix}
-
+food-sequence-standart-gen = { $prefix }{ $content }{ $suffix }
 food-sequence-burger-suffix = burger
+
 # GENERAL
 
 food-sequence-content-chicken = chicken
@@ -81,8 +80,7 @@ food-sequence-content-snail = snail
 
 # BURGERS
 
-food-sequence-burger-gen = {$content}burger
-
+food-sequence-burger-gen = { $content }burger
 food-sequence-burger-content-raw-meat = raw
 food-sequence-burger-content-meat = meaty
 food-sequence-burger-content-carp = carpo
@@ -114,9 +112,7 @@ food-sequence-burger-content-holymelon = holy
 food-sequence-burger-content-cannabis = funny
 food-sequence-burger-content-rainbow-cannabis = FUNNY
 food-sequence-burger-content-tobacco = tobaco
-
 food-sequence-burger-content-cheese = cheese
-
 food-sequence-burger-content-brain = brain
 food-sequence-burger-content-tongue = tongue
 food-sequence-burger-content-appendix = appendi
@@ -132,8 +128,8 @@ food-sequence-burger-content-world-pea = peace
 
 # TACO
 
-food-sequence-taco-gen = taco with {$content}
+food-sequence-taco-gen = taco with { $content }
 
 # SKEWER
 
-food-sequence-skewer-gen = {$content} kebab
+food-sequence-skewer-gen = { $content } kebab
