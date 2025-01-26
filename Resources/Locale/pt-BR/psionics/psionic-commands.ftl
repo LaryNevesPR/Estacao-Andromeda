@@ -1,13 +1,13 @@
 command-glimmershow-description = Mostra o nível de Glimmer atual.
-command-glimmershow-help = No arguments.
+command-glimmershow-help = Sem argumentos.
 
 command-glimmerset-description = Definir Glimmer para um número.
 command-glimmerset-help = glimmerset (integer)
 
 command-lspsionic-description = Lista os psiônicos.
-command-lspsionic-help = No arguments.
+command-lspsionic-help = Sem argumentos
 
-command-addpsionicpower-description = Initialize an entity as Psionic with a given PowerPrototype
-command-addpsionicpower-help = Argument 1 must be an EntityUid, and argument 2 must be a string matching the PrototypeId of a PsionicPower.
-addpsionicpower-args-one-error = Argument 1 must be an EntityUid
-addpsionicpower-args-two-error = Argument 2 must match the PrototypeId of a PsionicPower
+command-addpsionicpower-description = command-addpsionicpower-description = Inicialize uma entidade como Psionic com um PowerPrototype fornecido
+command-addpsionicpower-help = O argumento 1 deve ser um EntityUid e o argumento 2 deve ser uma string que corresponda ao PrototypeId de um PsionicPower.
+addpsionicpower-args-one-error = O argumento 1 deve ser um EntityUid
+addpsionicpower-args-two-error = O argumento 2 deve corresponder ao PrototypeId de um PsionicPower

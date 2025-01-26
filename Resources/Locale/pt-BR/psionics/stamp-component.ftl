@@ -1,1 +1,1 @@
-stamp-component-stamped-name-mantis = Mantis
+stamp-component-stamped-name-mantis = Mantis Psiônica
