@@ -225,3 +225,5 @@
     - type: DrawableSolution
       solution: step
     - type: BadDrink
+    - type: TimedDespawn
+      lifetime: 60 # Andromeda - O servidor agradece.

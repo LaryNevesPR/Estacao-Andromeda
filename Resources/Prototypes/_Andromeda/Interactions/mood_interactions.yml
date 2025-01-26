@@ -1,0 +1,131 @@
+- type: Interaction
+  id: HighFive
+  parent: [BaseGlobal, BaseHands]
+  priority: 0
+  icon: /Textures/_Andromeda/Interface/Actions/highfive.png
+  delay: 0.4
+  range: {max: 1}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    # TODO: this should pull the target closer or sumth, but I need to code that action first
+    !type:MoodAction
+    effect: ReceivingHighFive
+  effectSuccess:
+    popup: Obvious
+    sound: 
+        path: /Audio/_Andromeda/Effects/highfive.ogg
+        params:
+            volume: 5
+    
+- type: Interaction
+  id: Blush
+  parent: [BaseGlobal, BaseHands]
+  priority: -1
+  icon: /Textures/_Andromeda/Interface/Actions/blush.png
+  delay: 0.4
+  range: {max: 20}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement # Don't wave your hands at inanimate objects smh
+    inverted: true
+  action:
+    !type:MoodAction
+    effect: BeingPet
+  effectSuccess:
+    popup: Obvious
+
+- type: Interaction
+  id: Boop
+  parent: [BaseGlobal, BaseHands]
+  priority: 0
+  icon: /Textures/_Andromeda/Interface/Actions/boop.png
+  delay: 0.4
+  range: {max: 1}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    !type:MoodAction
+    effect: BeingPet
+  effectSuccess:
+    popup: Obvious
+    sound: {path: /Audio/Effects/pop.ogg}
+    
+- type: Interaction
+  id: Poke
+  parent: [BaseGlobal, BaseHands]
+  priority: 0
+  icon: /Textures/_Andromeda/Interface/Actions/poke.png
+  delay: 0.4
+  range: {max: 1}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    !type:MoodAction
+    effect: BeingPet
+  effectSuccess:
+    popup: Obvious
+    sound: {path: /Audio/Effects/thudswoosh.ogg}
+    soundPerceivedByOthers: false
+
+- type: Interaction
+  id: Bow
+  parent: [BaseGlobal, BaseHands]
+  priority: -1
+  icon: /Textures/_Andromeda/Interface/Actions/bow.png
+  delay: 0.4
+  range: {max: 30}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    # TODO: this should pull the target closer or sumth, but I need to code that action first
+    !type:MoodAction
+    effect: ReceivingHighFive
+  effectSuccess:
+    popup: Obvious
+    sound: {path: /Audio/Effects/thudswoosh.ogg}
+    
+- type: Interaction
+  id: Handshake
+  parent: [BaseGlobal, BaseHands]
+  priority: 0
+  icon: /Textures/_Andromeda/Interface/Actions/handshake.png
+  delay: 0.4
+  range: {max: 1}
+  hideByRequirement: true
+  requirement:
+    !type:MobStateRequirement
+    inverted: true
+  action:
+    # TODO: this should pull the target closer or sumth, but I need to code that action first
+    !type:MoodAction
+    effect: ReceivingHighFive
+  effectSuccess:
+    popup: Obvious
+    sound: {path: /Audio/Effects/thudswoosh.ogg}
+
+# - type: Interaction
+#   id: ButtSlap
+#   parent: [BaseGlobal, BaseHands]
+#   priority: -1
+#   icon: /Textures/_Andromeda/Interface/Actions/buttslap.png
+#   delay: 0.4
+#   range: {max: 1}
+#   hideByRequirement: true
+#   requirement:
+#     !type:MobStateRequirement
+#     inverted: true
+#   action:
+#     !type:MoodAction
+#     effect: BeingPet
+#   effectSuccess:
+#     popup: Obvious
+#     sound: {path: /Audio/_Andromeda/Effects/boing.ogg}
