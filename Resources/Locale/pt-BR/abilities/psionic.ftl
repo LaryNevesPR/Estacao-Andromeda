@@ -46,7 +46,7 @@ glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O n
 glimmer-event-awakened-prefix = acordado {$entity}
 
 noospheric-zap-seize = Você se convulsiona!
-noospheric-zap-seize-potential-regained = Você se convulsion! Algum bloqueio mental também parece ter sido eliminado..
+noospheric-zap-seize-potential-regained = Você se convulsiona! Algum bloqueio mental também parece ter sido eliminado..
 
 mindswap-trapped = Parece que você está preso neste vaso.
 
@@ -61,10 +61,10 @@ action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa
 
 action-name-pyrokinesis = Pirokinese
 action-description-pyrokinesis = Abre chama em um alvo inflamável.
-pyrokinesis-power-used = Uma língua de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
+pyrokinesis-power-used = Labareda de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
 
 action-name-psychokinesis = Psicokinese
 action-description-psychokinesis = Dobre a trama do espaço para se mover instantanemanete através dele.
 
-action-name-rf-sensitivity = Toggle Sensibilidade RF
+action-name-rf-sensitivity = Alternar Sensibilidade RF
 action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.
