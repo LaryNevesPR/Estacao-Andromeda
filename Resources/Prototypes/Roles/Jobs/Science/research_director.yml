@@ -14,15 +14,6 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
-    - !type:CharacterLogicOrRequirement
-      requirements:
-        - !type:CharacterSpeciesRequirement
-          species:
-            - Shadowkin
-        - !type:CharacterTraitRequirement
-          inverted: true
-          traits:
-            - ShadowkinBlackeye
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics
       min: 28800 # 8 hores
