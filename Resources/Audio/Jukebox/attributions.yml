@@ -1,27 +1,71 @@
-- files: ["sector11.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "-Sector11 by MashedByMachines. Converted to mono OGG."
-  source: "https://www.newgrounds.com/audio/listen/312622"
-
-- files: ["mod.flip-flap.ogg"]
-  license: "Custom"
-  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to mono OGG."
-  source: "http://aminet.net/package/mods/xceed/Flipflap"
-
-- files: ["title3.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted to mono OGG."
-  source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
-
-- files:
-  - "constellations.ogg"
-  - "drifting.ogg"
-  - "starlight.ogg"
-  license: "CC-BY-3.0"
-  copyright: "Constellations by Qwertyquerty. Converted to mono OGG."
-  source: "https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ"
-
-- files: ["sunset.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Sunset by PigeonBeans. Exported in Mono OGG."
-  source: "https://soundcloud.com/pigeonbeans/sunset"
+- copyright: -Sector11 by MashedByMachines. Converted to mono OGG.
+  files:
+  - sector11.ogg
+  license: CC-BY-NC-SA-3.0
+  source: https://www.newgrounds.com/audio/listen/312622
+- copyright: Flip Flap by X-ceed is licensed under a short but clear license (see
+    flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to
+    mono OGG.
+  files:
+  - mod.flip-flap.ogg
+  license: Custom
+  source: http://aminet.net/package/mods/xceed/Flipflap
+- copyright: Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted
+    to mono OGG.
+  files:
+  - title3.ogg
+  license: CC-BY-NC-SA-3.0
+  source: https://www.youtube.com/watch?v=YKVmXn-Gv0M
+- copyright: Constellations by Qwertyquerty. Converted to mono OGG.
+  files:
+  - constellations.ogg
+  - drifting.ogg
+  - starlight.ogg
+  license: CC-BY-3.0
+  source: https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ
+- copyright: Sunset by PigeonBeans. Exported in Mono OGG.
+  files:
+  - sunset.ogg
+  license: CC-BY-SA-3.0
+  source: https://soundcloud.com/pigeonbeans/sunset
+- copyright: TWRP Content 4 U.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - TWRP Content 4 U.ogg
+  license: CC-BY-SA-3.0
+  source: TWRP
+- copyright: Dancing in the Moonlight.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Dancing in the Moonlight.ogg
+  license: CC-BY-SA-3.0
+  source: Sherman Kelly
+- copyright: Ninja-Sex-Party-Africa.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Ninja-Sex-Party-Africa.ogg
+  license: CC-BY-SA-3.0
+  source: NSP
+- copyright: Pursuing-My-True-Self.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Pursuing-My-True-Self.ogg
+  license: CC-BY-SA-3.0
+  source: Persona
+- copyright: Reach-Out-To-The-Truth-First-Battle-.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Reach-Out-To-The-Truth-First-Battle-.ogg
+  license: CC-BY-SA-3.0
+  source: Persona
+- copyright: Space-Parody.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Space-Parody.ogg
+  license: CC-BY-SA-3.0
+  source: Zuko Vyper
+- copyright: Vast Error Blood-Right.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Vast Error Blood-Right.ogg
+  license: CC-BY-SA-3.0
+  source: Vast Error
+- copyright: Virtual-Insanity.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Virtual-Insanity.ogg
+  license: CC-BY-SA-3.0
+  source: Jamiroquai

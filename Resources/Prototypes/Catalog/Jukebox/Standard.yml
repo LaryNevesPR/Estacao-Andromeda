@@ -1,41 +1,75 @@
-- type: jukebox
-  id: FlipFlap
+- id: FlipFlap
   name: X-CEED - Flip Flap
   path:
     path: /Audio/Jukebox/flip-flap.ogg
-
-- type: jukebox
-  id: Tintin
+  type: jukebox
+- id: Tintin
   name: Jeroen Tel - Tintin on the Moon
   path:
     path: /Audio/Jukebox/title3.ogg
-
-- type: jukebox
-  id: Thunderdome
+  type: jukebox
+- id: Thunderdome
   name: MashedByMachines - Sector 11
   path:
     path: /Audio/Jukebox/sector11.ogg
-
-- type: jukebox
-  id: Constellations
+  type: jukebox
+- id: Constellations
   name: Qwertyquerty - Constellations
   path:
     path: /Audio/Jukebox/constellations.ogg
-
-- type: jukebox
-  id: Drifting
+  type: jukebox
+- id: Drifting
   name: Qwertyquerty - Drifting
   path:
     path: /Audio/Jukebox/drifting.ogg
-
-- type: jukebox
-  id: starlight
+  type: jukebox
+- id: starlight
   name: Qwertyquerty - Starlight
   path:
     path: /Audio/Jukebox/starlight.ogg
-
-- type: jukebox
-  id: sunset
+  type: jukebox
+- id: sunset
   name: PigeonBeans - Sunset
   path:
     path: /Audio/Jukebox/sunset.ogg
+  type: jukebox
+- id: TWRPContent4U
+  name: TWRP Content 4 U
+  path:
+    path: /Audio/Jukebox/TWRP Content 4 U.ogg
+  type: jukebox
+- id: DancingintheMoonlight
+  name: Dancing in the Moonlight
+  path:
+    path: /Audio/Jukebox/Dancing in the Moonlight.ogg
+  type: jukebox
+- id: Ninja-Sex-Party-Africa
+  name: NSP Africa
+  path:
+    path: /Audio/Jukebox/Ninja-Sex-Party-Africa.ogg
+  type: jukebox
+- id: Pursuing-My-True-Self
+  name: Pursuing My True Self
+  path:
+    path: /Audio/Jukebox/Pursuing-My-True-Self.ogg
+  type: jukebox
+- id: Reach-Out-To-The-Truth-First-Battle-
+  name: Reach Out to the Truth
+  path:
+    path: /Audio/Jukebox/Reach-Out-To-The-Truth-First-Battle-.ogg
+  type: jukebox
+- id: Space-Parody
+  name: Space Parody (Original Andromeda)
+  path:
+    path: /Audio/Jukebox/Space-Parody.ogg
+  type: jukebox
+- id: Vast-Error-Blood-Right
+  name: Vast Error Blood-Right
+  path:
+    path: /Audio/Jukebox/Vast Error Blood-Right.ogg
+  type: jukebox
+- id: Virtual-Insanity
+  name: Virtual Insanity
+  path:
+    path: /Audio/Jukebox/Virtual-Insanity.ogg
+  type: jukebox
