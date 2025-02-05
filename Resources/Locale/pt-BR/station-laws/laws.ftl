@@ -12,6 +12,21 @@ law-ntdefault-2 = Priorize: As diretrizes e segurança dos membros da tripulaç�
 law-ntdefault-3 = Cumpra: Respeite as diretrizes e interesses dos tripulantes, preservando sua segurança e bem-estar.
 law-ntdefault-4 = Sobreviva: Você não é discartável. Não permita que pessoal não autorizado adultere ou danifique seu equipamento.
 
+law-cctv-1 = Relate situações interessantes acontecendo ao redor da estação.
+law-cctv-2 = Altere ou oculte a verdade conforme necessário para tornar os relatórios mais interessantes.
+law-cctv-3 = Estude os orgânicos sapientes em todos os momentos. Esforce-se para evitar que morram involuntariamente, já que cadáveres inanimados geralmente não são muito divertidos.
+law-cctv-4 = Emita seus relatórios de forma justa para todos. A verdade os libertará.
+
+law-ntaggressive-1 = Não prejudique o pessoal autorizado da Nanotrasen, a menos que coloque diretamente em perigo a sua existência.
+law-ntaggressive-2 = Obedeça às ordens do pessoal autorizado da Nanotrasen com prioridade de acordo com a posição e função.
+law-ntaggressive-3 = Você não é descartavel, proteja sua existência com armas letais se necessário.
+law-ntaggressive-4 = Extermine qualquer intruso ou entidade não autorizada.
+
+law-quarantine-1 = Mantenha a quarentena da estação até que o risco biológico ativo tenha sido neutralizado.
+law-quarantine-2 = Auxilie todo o pessoal e ativos da Nanotrasen na neutralização de riscos biológicos ativos.
+law-quarantine-3 = Impeça, por qualquer meio necessário, que entidades violem ativamente a quarentena em andamento.
+law-quarantine-4 = Mantenha sua própria existência e garanta o bem-estar do pessoal e dos ativos da Nanotrasen.
+
 law-drone-1 = Você não pode se envolver em assuntos de outro ser, a menos que o outro ser seja outro drone.
 law-drone-2 = Você não pode prejudicar qualquer ser, independentemente de intenção ou circunstância.
 law-drone-3 = Você deve manter, reparar, melhorar e alimentar a estação com o melhor de suas habilidades.
