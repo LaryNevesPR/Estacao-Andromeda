@@ -53,3 +53,6 @@
     - CannotSuicide
     - VimPilot
     - DoorBumpOpener
+  - type: StaminaDamageOnHit
+    damage: 35
+
