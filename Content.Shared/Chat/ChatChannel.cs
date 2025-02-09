@@ -73,7 +73,7 @@ namespace Content.Shared.Chat
         /// <summary>
         ///     Admin alerts, messages likely of elevated importance to admins
         /// </summary>
-        AdminAlert = 1 << 12,
+        AdminAlert = 2 << 12,
 
         /// <summary>
         ///     Admin chat

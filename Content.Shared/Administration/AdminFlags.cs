@@ -8,10 +8,16 @@
     {
         None = 0,
 
+
+        /// <summary>
+        ///     Permite furar filas.
+        /// </summary>
+        Furafila = 1 << 0,
+
         /// <summary>
         ///     Basic admin verbs.
         /// </summary>
-        Admin = 1 << 0,
+        Admin = 2 << 0,
 
         /// <summary>
         ///     Ability to ban people.

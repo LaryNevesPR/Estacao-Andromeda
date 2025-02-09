@@ -157,7 +157,7 @@ namespace Content.Server.Connection
         private void AdminAlertIfSharedConnection(ICommonSession newSession)
         {
             var playerThreshold = _cfg.GetCVar(CCVars.AdminAlertMinPlayersSharingConnection);
-            if (playerThreshold < 0)
+            if (playerThreshold < 1)
                 return;
 
             var addr = newSession.Channel.RemoteEndPoint.Address;
