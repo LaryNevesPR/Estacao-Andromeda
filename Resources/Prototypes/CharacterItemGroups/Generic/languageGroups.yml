@@ -45,5 +45,3 @@
       id: ScottishAccent
     - type: trait
       id: SkeletonAccent
-    - type: trait
-      id: NerdAccent
