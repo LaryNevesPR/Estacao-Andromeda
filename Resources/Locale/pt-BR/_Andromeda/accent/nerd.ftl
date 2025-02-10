@@ -104,7 +104,7 @@ accent-nerd-words-35 = amigo
 accent-nerd-words-replace-35 = tchum
 
 accent-nerd-words-36 = muito obrigado
-accent-nerd-words-replace-36 = muito pogger
+accent-nerd-words-replace-36 = agradeço-lhe cordialmente
 
 accent-nerd-words-37 = arma laser
 accent-nerd-words-replace-37 = projector plasmae
