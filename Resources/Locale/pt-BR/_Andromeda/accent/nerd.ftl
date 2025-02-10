@@ -4,7 +4,7 @@ accent-nerd-words-replace-1 = canidae sapiens
 accent-nerd-words-2 = pessoa largato
 accent-nerd-words-replace-2 = sauris sapiens
 
-accent-nerd-words-3 = felinids
+accent-nerd-words-3 = felinid
 accent-nerd-words-replace-3 = felis sapiens
 
 accent-nerd-words-4 = plasmaman
@@ -91,17 +91,17 @@ accent-nerd-words-replace-30 = você subiu um nível na minha consideração
 accent-nerd-words-31 = não
 accent-nerd-words-replace-31 = inaceitável
 
-accent-nerd-words-32 = seu burro
-accent-nerd-words-replace-32 = seu protocolo de pensamento tem um bug
+accent-nerd-words-32 = burro
+accent-nerd-words-replace-32 = Erro 404: inteligência não encontrada
 
-accent-nerd-words-33 = seu chato
-accent-nerd-words-replace-33 = você é um NPC sem diálogos bons
+accent-nerd-words-33 = chato
+accent-nerd-words-replace-33 = um NPC sem diálogos bons
 
-accent-nerd-words-34 = concordo
-accent-nerd-words-replace-34 = se estivesse errado, eu já teria corrigido você
+accent-nerd-words-34 = sim
+accent-nerd-words-replace-34 = afirmativo
 
-    accent-nerd-words-35 = certo
-accent-nerd-words-replace-35 = se até um Gungan entende isso, então está certo
+accent-nerd-words-35 = amigo
+accent-nerd-words-replace-35 = aliado de longa data com estatísticas positivas de lealdade
 
 accent-nerd-words-36 = muito obrigado
 accent-nerd-words-replace-36 = você subiu um nível na minha consideração
