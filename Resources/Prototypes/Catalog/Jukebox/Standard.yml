@@ -73,3 +73,43 @@
   path:
     path: /Audio/Jukebox/Virtual-Insanity.ogg
   type: jukebox
+- id: Adriana_Figueroa_-_What_Can_I_Do_For_You
+  name: Adriana Figueroa - What Can I Do For You
+  path:
+    path: /Audio/Jukebox/Adriana Figueroa - What Can I Do For You.ogg
+  type: jukebox
+- id: beeos
+  name: beeos
+  path:
+    path: /Audio/Jukebox/beeos.ogg
+  type: jukebox
+- id: Daft_Punk_-_Harder,_Better,_Faster,_Stronger
+  name: Daft Punk - Harder, Better, Faster, Stronger
+  path:
+    path: /Audio/Jukebox/Daft Punk - Harder, Better, Faster, Stronger.ogg
+  type: jukebox
+- id: Daft_Punk_-Around_The_World
+  name: Daft Punk -Around The World
+  path:
+    path: /Audio/Jukebox/Daft Punk -Around The World.ogg
+  type: jukebox
+- id: Gorillaz_-_Andromeda
+  name: Gorillaz - Andromeda
+  path:
+    path: /Audio/Jukebox/Gorillaz - Andromeda.ogg
+  type: jukebox
+- id: Gorillaz_-_Pac-Man
+  name: Gorillaz - Pac-Man
+  path:
+    path: /Audio/Jukebox/Gorillaz - Pac-Man.ogg
+  type: jukebox
+- id: Space_Dandy_-_Star_Future
+  name: Space Dandy - Star Future
+  path:
+    path: /Audio/Jukebox/Space Dandy - Star Future.ogg
+  type: jukebox
+- id: TWRP_-_Rock_n_Roll_Best_Friends
+  name: TWRP - Rock n Roll Best Friends
+  path:
+    path: /Audio/Jukebox/TWRP - Rock n Roll Best Friends.ogg
+  type: jukebox

@@ -2,7 +2,7 @@
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedSnailAmuletPolymorph
   name: snail amulet
-  description: A beautiful gold amulet, featuring a ruby that shines with an otherworldly glow.
+  description: Um lindo amuleto de ouro, com um rubi que brilha com um brilho sobrenatural.
   suffix: Snail Seed
   components:
   - type: PolymorphProvider
@@ -11,12 +11,104 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedArticFoxAmuletPolymorph
-  name: snail amulet
-  description: A beautiful gold amulet, featuring a ruby that shines with an otherworldly glow.
+  name: ArticFox amulet
+  description: Um lindo amuleto de ouro, com um rubi que brilha uma raposa branca.
   suffix: Artic Fox
   components:
   - type: PolymorphProvider
     polymorph: PolymorphArcticFox
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedCatCakeAmuletPolymorph
+  name: Cak amulet
+  description: Um lindo amuleto de ouro, com um rubi que brilha com um brilho doce.
+  suffix: Gato Bolo
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphCatCake
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedSlimeOmniAmuletPolymorph
+  name: Slime Omni amulet
+  description: Um estranho amuleto de gel translúcido, pulsando suavemente com energia.
+  suffix: Slime Omni
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphSlimeOmni
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedGorillaAmuletPolymorph
+  name: Gorilla amulet
+  description: Um amuleto pesado de pedra negra, irradiando força bruta.
+  suffix: Gorilla
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphGorilla
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedCerberusAmuletPolymorph
+  name: Cerberus amulet
+  description: Um amuleto de obsidiana esculpido com três cabeças de cão ferozes.
+  suffix: Cerberus
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphCerberus
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedXenoTestAmuletPolymorph
+  name: Xeno Test amulet
+  description: Um amuleto de obsidiana esculpido com Um xeno diferente nela.
+  suffix: Xeno Test
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphXenoSubjectTess
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckPoppyAmuletPolymorph
+  name: Poppy amulet
+  description: Um amuleto de obsidiana esculpido com um gambá.
+  suffix: Poppy
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphPossumPoppy
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckBehonkerGravAmuletPolymorph
+  name: Behonker amulet
+  description: Um amuleto de obsidiana esculpido com um Behonker.
+  suffix: Behonker
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphBehonkerGrav
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckGooseAmuletPolymorph
+  name: ganso amulet
+  description: Um amuleto de obsidiana esculpido com um ganso.
+  suffix: ganso
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphGoose
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckLaserRaptorAmuletPolymorph
+  name: LaserRaptor amulet
+  description: Um amuleto de obsidiana esculpido com um LaserRaptor.
+  suffix: LaserRaptor
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphLaserRaptor
+
+
 
 - type: polymorph
   id: PolymorphSnailSpeed
@@ -33,6 +125,211 @@
   id: PolymorphArcticFox
   configuration:
     entity: MobArcticFox
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphCatCake
+  configuration:
+    entity: MobCatCake
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphSlimeOmni
+  configuration:
+    entity: ReagentSlimeOmnizine
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphGorilla
+  configuration:
+    entity: MobGorilla
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphCerberus
+  configuration:
+    entity: MobCorgiCerberus
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphXenoSubjectTess
+  configuration:
+    entity: MobXenoSubjectTess
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphPossumPoppy
+  configuration:
+    entity: MobPossumPoppy
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphBehonkerGrav
+  configuration:
+    entity: MobBehonkerGrav
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphGoose
+  configuration:
+    entity: MobGoose
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: polymorph
+  id: PolymorphLaserRaptor
+  configuration:
+    entity: MobLaserRaptor
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedLizardAmuletPolymorph
+  name: Lizard amulet
+  description: Um amuleto esverdeado com escamas incrustadas, irradiando uma energia reptiliana.
+  suffix: Lizard
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphLizard
+
+- type: polymorph
+  id: PolymorphLizard
+  configuration:
+    entity: MobLizard
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedCarpMagicAmuletPolymorph
+  name: Magic Carp amulet
+  description: Um amuleto aquático brilhante, pulsando com uma energia misteriosa.
+  suffix: Magic Carp
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphCarpMagic
+
+- type: polymorph
+  id: PolymorphCarpMagic
+  configuration:
+    entity: MobCarpMagic
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedSharkAmuletPolymorph
+  name: Shark amulet
+  description: Um amuleto prateado com a forma de uma barbatana afiada, exalando uma aura predatória.
+  suffix: Shark
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphShark
+
+- type: polymorph
+  id: PolymorphShark
+  configuration:
+    entity: MobShark
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSpeedDuckMallardAmuletPolymorph
+  name: Mallard Duck amulet
+  description: Um amuleto dourado com a forma de um pato-real, emitindo uma energia aquática e tranquila.
+  suffix: Mallard Duck
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphDuckMallard
+
+- type: polymorph
+  id: PolymorphDuckMallard
+  configuration:
+    entity: MobDuckMallard
+    forced: false
+    inventory: None
+    transferName: true
+    transferDamage: true
+    revertOnCrit: true
+    revertOnDeath: true
+
+- type: entity
+  parent: ClothingNeckDragonAmuletPolymorph
+  id: ClothingNeckSmileAmuletPolymorph
+  name: Cerberus amulet
+  description: Um amuleto de obsidiana esculpido com Um xeno diferente nela.
+  suffix: Smile
+  components:
+  - type: PolymorphProvider
+    polymorph: PolymorphSmile
+
+
+- type: polymorph
+  id: PolymorphSmile
+  configuration:
+    entity: MobSlimesPet
     forced: false
     inventory: None
     transferName: true

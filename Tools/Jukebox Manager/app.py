@@ -6,19 +6,21 @@ from tkinter import filedialog, messagebox
 import subprocess
 
 def load_yaml(file_path):
-    with open(file_path, 'r') as file:
-        return yaml.safe_load(file)
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as file:
+            return yaml.safe_load(file) or []
+    return []
 
 def save_yaml(file_path, data):
     with open(file_path, 'w') as file:
         yaml.safe_dump(data, file)
 
-def select_ogg_file():
-    file_path = filedialog.askopenfilename(
-        title="Select an .ogg file",
+def select_ogg_files():
+    file_paths = filedialog.askopenfilenames(
+        title="Select .ogg files",
         filetypes=[("OGG files", "*.ogg")]
     )
-    return file_path
+    return file_paths
 
 def update_listbox():
     listbox.delete(0, tk.END)
@@ -36,58 +38,42 @@ def update_attributions(file_name):
         "source": "Unknown"
     }
 
-    if os.path.exists(attributions_path):
-        attributions_data = load_yaml(attributions_path)
-        attributions_data.append(default_attribution)
-    else:
-        attributions_data = [default_attribution]
-
+    attributions_data = load_yaml(attributions_path)
+    attributions_data.append(default_attribution)
     save_yaml(attributions_path, attributions_data)
 
-def move_file_and_update_yaml():
-    ogg_file = select_ogg_file()
-    if not ogg_file:
+def move_files_and_update_yaml():
+    ogg_files = select_ogg_files()
+    if not ogg_files:
         return
 
-    try:
-        # Extract filename and construct destination path
-        file_name = os.path.basename(ogg_file)
-        dest_dir = os.path.abspath("../../Resources/Audio/Jukebox")
-        dest_path = os.path.join(dest_dir, file_name)
+    for ogg_file in ogg_files:
+        try:
+            file_name = os.path.basename(ogg_file)
+            dest_dir = os.path.abspath("../../Resources/Audio/Jukebox")
+            dest_path = os.path.join(dest_dir, file_name)
+            os.makedirs(dest_dir, exist_ok=True)
+            shutil.copy(ogg_file, dest_path)
 
-        # Ensure destination directory exists
-        os.makedirs(dest_dir, exist_ok=True)
-
-        # copy the file
-        shutil.copy(ogg_file, dest_path)
-
-        # Get new item details
-        item_id = file_name.rsplit(".", 1)[0]  # Filename without extension
-        item_name = file_name.replace("_", " ").rsplit(".", 1)[0]
-        new_item = {
-            "type": "jukebox",
-            "id": item_id,
-            "name": item_name,
-            "path": {
-                "path": f"/Audio/Jukebox/{file_name}"
+            item_id = file_name.rsplit(".", 1)[0].replace(" ", "_")
+            item_name = file_name.replace("_", " ").rsplit(".", 1)[0]
+            new_item = {
+                "type": "jukebox",
+                "id": item_id,
+                "name": item_name,
+                "path": {"path": f"/Audio/Jukebox/{file_name}"}
             }
-        }
 
-        # Load YAML, append new item, and save
-        yaml_data = load_yaml(yaml_file_path)
-        yaml_data.append(new_item)
-        save_yaml(yaml_file_path, yaml_data)
+            yaml_data = load_yaml(yaml_file_path)
+            yaml_data.append(new_item)
+            save_yaml(yaml_file_path, yaml_data)
+            update_attributions(file_name)
 
-        # Update attributions
-        update_attributions(file_name)
+        except Exception as e:
+            messagebox.showerror("Error", f"Error processing {file_name}: {str(e)}")
 
-        # Update listbox
-        update_listbox()
-
-        messagebox.showinfo("Success", f"File moved and YAML updated!\n\nNew ID: {item_id}\nPath: {dest_path}")
-
-    except Exception as e:
-        messagebox.showerror("Error", f"An error occurred: {str(e)}")
+    update_listbox()
+    messagebox.showinfo("Success", "All files moved and YAML updated!")
 
 def open_folder(path):
     abs_path = os.path.abspath(path)
@@ -102,7 +88,6 @@ root.title("Jukebox Manager")
 root.geometry("400x500")
 
 yaml_file_path = "../../Resources/Prototypes/Catalog/Jukebox/Standard.yml"
-
 if not os.path.exists(yaml_file_path):
     messagebox.showerror("Error", f"YAML file not found at {yaml_file_path}")
     root.destroy()
@@ -119,10 +104,9 @@ else:
     listbox.pack(side=tk.LEFT, fill=tk.BOTH, expand=True)
 
     scrollbar.config(command=listbox.yview)
-
     update_listbox()
 
-    tk.Button(root, text="Add OGG File", command=move_file_and_update_yaml, font=("Arial", 12)).pack(pady=10)
+    tk.Button(root, text="Add OGG Files", command=move_files_and_update_yaml, font=("Arial", 12)).pack(pady=10)
     tk.Button(root, text="Open Catalog Folder", command=lambda: open_folder("../../Resources/Prototypes/Catalog/Jukebox"), font=("Arial", 12)).pack(pady=5)
     tk.Button(root, text="Open Audio Folder", command=lambda: open_folder("../../Resources/Audio/Jukebox"), font=("Arial", 12)).pack(pady=5)
 
