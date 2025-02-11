@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloaksNanotrasenRepresentative
-  name: Capa do Representante da Nanotrasen
-  description: Mostre a superioridade de um grande burocrata
+  name: Capa de Representante da Nanotrasen
+  description: Mostre a superioridade de um grande burocrata.
   components:
   - type: Sprite
     sprite: _Andromeda/Clothing/Neck/Cloaks/rnt.rsi

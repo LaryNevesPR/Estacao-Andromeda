@@ -1,0 +1,15 @@
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatNanotrasenRepresentativecap
+  name: Chapéu de representante da Nanotrasen
+  description: Poucos tem a honra de usar.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Head/Hats/rnt.rsi
+  - type: Clothing
+    sprite: _Andromeda/Clothing/Head/Hats/rnt.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon
+    - HamsterWearable

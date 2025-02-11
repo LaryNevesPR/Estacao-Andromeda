@@ -25,6 +25,19 @@
 # Gloves
 
 # Head
+- type: loadout
+  id: LoadoutClothingHeadHatNanotrasenRepresentativecap
+  category: JobsCommandNanorep
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutNanorepHead
+  - !type:CharacterJobRequirement
+    jobs:
+    - NanotrasenRepresentative
+  items:
+  - ClothingHeadHatNanotrasenRepresentativecap
 
 # Id
 
