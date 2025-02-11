@@ -29,6 +29,19 @@
 # Id
 
 # Neck
+- type: loadout
+  id: LoadoutClothingNeckCloaksNanotrasenRepresentative
+  category: JobsCommandNanorep
+  cost: 0
+  exclusive: true
+  requirements:
+  - !type:CharacterItemGroupRequirement
+    group: LoadoutNanorepNeck
+  - !type:CharacterJobRequirement
+    jobs:
+    - NanotrasenRepresentative
+  items:
+  - ClothingNeckCloaksNanotrasenRepresentative
 
 # Mask
 
