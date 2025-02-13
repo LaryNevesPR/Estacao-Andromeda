@@ -1,0 +1,61 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineLunaraGooben
+  name: Lunara Gooben
+  description: Deusa. Somente Deusa.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: luna_figure
+    scale: 0.5, 0.5
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurinePodroSilva
+  name: Podro da Silva
+  description: Template
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: podro_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineWellsChaplon
+  name: Wells Chaplon
+  description: "Dizem que ele é melhor que o Capitão Ronaldo"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: wells_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurinePhilMal
+  name: Phil-Mal
+  description: "Impossivel olhar pra ele e não pensar 'Que cara legal'"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: phil_figure
+
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineJanieSmith
+  name: Janie Smith Coelho da Silva
+  description: "Lembrete da Medbay: Liguem os localizadores"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: janie_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineRonaldo
+  name: Ronaldo Raimundo
+  description: "Dizem que ele é melhor que o Capitão Wells"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: ronaldo_figure

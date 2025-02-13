@@ -133,3 +133,18 @@
       - id: ToyFigurineHamlet
         prob: 0.20
         orGroup: SpacemenFig
+      - id: ToyFigurineLunaraGooben
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurinePodroSilva
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurineWellsChaplon
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurinePhilMal
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurineJanieSmith
+        prob: 0.10
+        orGroup: SpacemenFig

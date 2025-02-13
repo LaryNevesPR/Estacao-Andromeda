@@ -22,6 +22,7 @@
     - RuleCC1
     - RuleCC2
     - RuleCC3
+    - RuleCC4
     - DeltaVRuleS1
     - DeltaVRuleS2
     - DeltaVRuleS3
@@ -133,6 +134,12 @@
   id: RuleCC3
   name: guide-entry-deltav-rule-c3
   text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C3_Antags.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleCC4
+  name: guide-entry-andromeda-rule-c4
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C4_GhostRoles.xml"
   ruleEntry: true
 
 - type: guideEntry

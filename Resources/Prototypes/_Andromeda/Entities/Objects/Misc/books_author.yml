@@ -1,0 +1,21 @@
+- type: entity
+  parent: BookBase
+  id: BookPerdido
+  name: Livro perdio - Os primeiros
+  description: Um dos livros perdidos. Ele conta sobre os gênios a fazer tudo isso funcionar. Infelizmente falta paginas nele.
+  components:
+    - type: Sprite
+      sprite: Objects/Misc/books.rsi
+      layers:
+      - state: paper
+      - state: cover_base
+        color: "#255c8a"
+      - state: decor_wingette_circle
+        color: "#dbe30e"
+      - state: icon_planet
+      - state: detail_bookmark
+        color: "#f7bb2f"
+      - state: detail_rivets
+        color: "#f7bb2f"
+    - type: Paper
+      content: book-text-perdido

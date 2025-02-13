@@ -8,5 +8,5 @@ ghost-role-information-listeningop-description = Você é um agente do Posto de 
 ghost-role-information-listeningop-rules =	Você é um Operativo do Sindicato encarregado de reportar e monitorar continuamente a estação e suas atividades, bem como auxiliar quaisquer colegas operativos que possam estar a bordo da estação. Como antagonista, faça o que for necessário para concluir esta tarefa. Certifique-se de que seu posto não caia em mãos inimigas e NÃO abandone seu posto! Esconda sua existência a qualquer custo!
 
 ghost-role-information-paradox-anomaly-name = Anomalia do Paradoxo
-ghost-role-information-paradox-anomaly-description = Substitua sua outra versão ou faça amizade com ela.
-ghost-role-information-paradox-anomaly-rules = Tente substituir seu gêmeo com essa brincadeira de antagonista em vez de inundar a estação com plasma ou algo assim. Você também pode simplesmente fazer amizade com ele.
+ghost-role-information-paradox-anomaly-description = Sobreviva a sua nova realidade que tem um clone igual a você.
+ghost-role-information-paradox-anomaly-rules = Tente sobreviver a essa nova realidade a ao lado do seu clone. [color=red]VOCÊ NÃO É ANTAGONISTA[/color]. Seu unico objetivo é sobreviver, substitua o original convencendo o restante da tripulação ou viva ao lado ao seu clone. Você é um antagonsita somente se o seu original tambem for.

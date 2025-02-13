@@ -80,6 +80,21 @@ trait-description-Stutter =
 trait-name-Southern = Southern Drawl
 trait-description-Southern = You have a different way of speakin'.
 
+trait-name-GermanAccent = German accent
+trait-description-GermanAccent = You speak with a German accent.
+
+trait-name-RussianAccent = Russian accent
+trait-description-RussianAccent = You speak with a Russian accent.
+
+trait-name-FrenchAccent = French accent
+trait-description-FrenchAccent = You speak with a French accent.
+
+trait-name-ItalianAccent = Italian accent
+trait-description-ItalianAccent = You speak with a Italian accent.
+
+trait-name-SpanishAccent = Spanish accent
+trait-description-SpanishAccent = You speak with a Spanish accent.
+
 trait-name-Snoring = Snoring
 trait-description-Snoring = You tend to snore loudly while sleeping.
 
@@ -94,6 +109,9 @@ trait-name-NormalVisionHarpy = Trichromat Modification
 trait-description-NormalVisionHarpy =
     Your eyes have been modified by means of advanced medicine to see in the standard colors of Red, Green, and Blue.
     You do not have the usual vision anomaly that your species may possess.
+
+trait-name-SkeletonAccent = Skeleton Accent
+trait-description-SkeletonAccent = You have a humerus skeleton accent that will rattle others to the bone!
 
 trait-name-NormalVision = Trichromat Modification
 trait-description-NormalVision =
@@ -328,7 +346,7 @@ trait-description-Clumsy =
 trait-name-Small = Small
 trait-description-Small =
     You are much smaller than a typical person, and can climb into spaces others would not normally be able to fit into, such as duffel bags.
-    This trait does not in any way modify your character's size, it merely requires that your character be at most the size of a standard Felinid.
+    This trait does not in any way modify your character's size, it merely requires that your character be at most the size of a standard Tajaran.
 
 trait-name-TemperatureTolerance = Temperature Tolerance
 trait-description-TemperatureTolerance =
@@ -520,3 +538,12 @@ trait-name-ThermographicVision = CyberEyes Module: Thermographic Scanner
 trait-description-ThermographicVision =
     Your CyberEyes have been enhanced with a Thermographic Scanner. When enabled, it captures a snapshot of the user's surroundings, while highlighting all
     biological life forms. It can even detect individuals through the walls of a station.
+
+trait-name-ShadowkinBlackeye = Blackeye
+trait-description-ShadowkinBlackeye =
+    You lose your special Shadowkin powers & respect amongst your peers, in return for some points. Effectively, you are only a Shadowkin in name, not in practice.
+
+trait-name-LyreBird = Lyre Bird
+trait-description-LyreBird =
+    Your natural talent for mimicry vastly exceeds that of other Harpies. You have the ability to perfectly imitate songs in their entirety.
+    Be your own full symphony orchestra, jazz group, or metal band.

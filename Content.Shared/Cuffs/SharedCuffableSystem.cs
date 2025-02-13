@@ -473,7 +473,14 @@ namespace Content.Shared.Cuffs
                 return false;
 
             // Success!
-            _hands.TryDrop(user, handcuff);
+            if (cuff.RemoveOnUse)
+                _hands.TryDrop(user, handcuff);
+            else
+            {
+                handcuff = Spawn("Zipties", Transform(user).Coordinates);
+                var newcuffs = EnsureComp<HandcuffComponent>(handcuff);
+                newcuffs.Used = true;
+            }
 
             _container.Insert(handcuff, component.Container);
             UpdateHeldItems(target, handcuff, component);

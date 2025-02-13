@@ -167,6 +167,7 @@
       inverted: true
       species:
         - Felinid
+        - Tajaran
 
 - type: trait
   id: Singer
@@ -182,6 +183,20 @@
       components:
         - type: Singer
           proto: NormalSinger
+
+- type: trait
+  id: LyreBird
+  category: Auditory
+  points: -10
+  requirements:
+    - !type:CharacterSpeciesRequirement
+      species:
+        - Harpy
+  functions:
+    - !type:TraitReplaceComponent
+      components:
+        - type: Singer
+          proto: HarpySingerAll
 
 - type: trait
   id: LatentPsychic
@@ -220,6 +235,8 @@
       inverted: true
       traits:
         - PsionicInsulation
+    - !type:CharacterItemGroupRequirement
+      group: TraitsMachine
 
 - type: trait
   id: PsionicInsulation
@@ -312,6 +329,7 @@
       inverted: true
       species:
         - Felinid
+        - Tajaran
         - Harpy
 
 - type: trait

@@ -147,7 +147,7 @@ ghost-role-information-skeleton-biker-name = Esqueleto Motociclista
 ghost-role-information-skeleton-biker-description = Passeie por aí em seu doce passeio.
 
 ghost-role-information-closet-skeleton-name = Esqueleto do armário
-ghost-role-information-closet-skeleton-description = Causar estragos! Você é uma força primordial sem lealdade. Viva feliz com a tripulação ou trave uma doce guerra esquelética.
+ghost-role-information-closet-skeleton-description = [color=red]VOCÊ NÃO É ANTAGONISTA[/color]. Viva a vida que você não viveu! Ajude a tripulação e curta sua nova vida.
 
 ghost-role-information-onestar-mecha-name = Onestar Mecha
 ghost-role-information-onestar-mecha-description = Você é um mecha experimental criado por sabe-se lá o quê, tudo o que você sabe é que tem armas e detecta alvos carnudos em movimento por perto...

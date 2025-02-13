@@ -7,7 +7,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 36000 # DeltaV - 10 hours
+      min: 18000 # 5 horas
   startingGear: AtmosphericTechnicianGear
   icon: "JobIconAtmosphericTechnician"
   supervisors: job-supervisors-ce
@@ -19,6 +19,9 @@
 
 - type: startingGear
   id: AtmosphericTechnicianGear
+  subGear:
+  - AtmosphericTechnicianPlasmamanGear
+
   equipment:
     jumpsuit: ClothingUniformJumpsuitAtmos
     back: ClothingBackpackAtmospherics
@@ -28,3 +31,11 @@
   innerClothingSkirt: ClothingUniformJumpskirtAtmos
   satchel: ClothingBackpackSatchelEngineeringFilled
   duffelbag: ClothingBackpackDuffelEngineeringFilled
+
+- type: startingGear
+  id: AtmosphericTechnicianPlasmamanGear
+  parent: BasePlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitAtmos
+    head: ClothingHeadEnvirohelmAtmos
+    gloves: ClothingHandsGlovesEnviroglovesAtmos

@@ -3,12 +3,14 @@
   name: job-name-mime
   description: job-description-mime
   playTimeTracker: JobMime
-  requirements:
-    - !type:CharacterOverallTimeRequirement
-      min: 7200 # DeltaV - 2 hours
   startingGear: MimeGear
   icon: "JobIconMime"
   supervisors: job-supervisors-hop
+  whitelisted: true
+  requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 7200 # 2 horas de sec para aprender que não é legal sofrer pra clown
   access:
   - Theatre
   - Maintenance
@@ -21,6 +23,8 @@
 
 - type: startingGear
   id: MimeGear
+  subGear:
+  - MimePlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitMime
     back: ClothingBackpackMimeFilled
@@ -36,6 +40,15 @@
   innerClothingSkirt: ClothingUniformJumpskirtMime
   satchel: ClothingBackpackSatchelMimeFilled
   duffelbag: ClothingBackpackDuffelMimeFilled
+
+- type: startingGear
+  id: MimePlasmamanGear
+  parent: BasePlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitMime
+    head: ClothingHeadEnvirohelmMime
+    gloves: ClothingHandsGlovesEnviroglovesWhite
+    mask: ClothingMaskMime # Parent sets mask to breath mask so set it again here
 
 - type: entity
   id: ActionMimeInvisibleWall

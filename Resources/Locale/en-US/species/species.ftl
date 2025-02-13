@@ -1,4 +1,4 @@
-﻿## Species Names
+## Species Names
 
 species-name-human = Human
 species-name-dwarf = Dwarf
@@ -13,6 +13,7 @@ species-name-vox = Vox
 species-name-ipc = IPC
 species-name-daengati = Daengati
 species-name-shadowkin = Shadowkin
+species-name-plasmaman = Plasmaman
 
 ## Misc species things
 

@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 28800 # DeltaV - 8 hours
+      min: 14400 # Andromeda
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo
@@ -23,6 +23,8 @@
 
 - type: startingGear
   id: ChemistGear
+  subGear:
+  - ChemistPlasmamanGear
   equipment:
     jumpsuit: ClothingUniformJumpsuitChemistry
     back: ClothingBackpackChemistryFilled
@@ -32,3 +34,11 @@
   innerClothingSkirt: ClothingUniformJumpskirtChemistry
   satchel: ClothingBackpackSatchelChemistryFilled
   duffelbag: ClothingBackpackDuffelChemistryFilled
+
+- type: startingGear
+  id: ChemistPlasmamanGear
+  parent: BasePlasmamanGear
+  equipment:
+    jumpsuit: ClothingUniformEnvirosuitChemist
+    head: ClothingHeadEnvirohelmChemist
+    gloves: ClothingHandsGlovesEnviroglovesWhite

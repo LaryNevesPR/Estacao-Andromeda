@@ -29,6 +29,8 @@ namespace Content.Shared.Localizations
 
             _loc.LoadCulture(culture);
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
+            _loc.AddFunction(culture, "MAKEPLURAL", FormatMakePlural);
+            _loc.AddFunction(culture, "MANY", FormatMany);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
             _loc.AddFunction(culture, "UNITS", FormatUnits);

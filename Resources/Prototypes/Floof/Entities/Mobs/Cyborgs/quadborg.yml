@@ -52,7 +52,7 @@
   - type: LayingDown
   - type: SiliconLawProvider
     laws: Qborg
-  #- type: LeashAnchor # Floofstation
+  - type: LeashAnchor # Floofstation
 
 - type: entity
   id: BorgChassisQuadCC
@@ -72,7 +72,7 @@
       shader: unshaded
       map: ["light"]
       visible: false
-      
+
 - type: entity
   id: BorgChassisQuadsalv
   parent: BorgChassisQuad

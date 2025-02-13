@@ -406,7 +406,7 @@ namespace Content.Client.Canvas.Ui
                 .Where(c => !char.IsWhiteSpace(c) && !char.IsControl(c))
                 .ToArray());
 
-            colorCode = colorCode.Replace(',', '.');
+            colorCode = colorCode.Replace('.', ',');
             string[] components = colorCode.Split('|');
             if (components.Length == 4 &&
                 float.TryParse(components[0], out float r) &&

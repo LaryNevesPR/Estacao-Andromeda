@@ -24,6 +24,8 @@
     - Vocal
   chatMessages: ["chat-emote-msg-laugh"]
   chatTriggers:
+    - ri
+    - da risada
     - laughs
     - chuckles
     - giggles
@@ -38,6 +40,7 @@
   whitelist:
     tags:
     - SiliconEmotes
+    - HarpyEmotes
   chatTriggers:
     - honks
 
@@ -51,6 +54,7 @@
     - Vocal
   chatMessages: ["chat-emote-msg-sigh"]
   chatTriggers:
+    - suspira
     - sighs
 
 - type: emote
@@ -63,6 +67,7 @@
     - Vocal
   chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
+    - assobia
     - whistles
 
 - type: emote
@@ -75,6 +80,8 @@
     - Vocal
   chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
+    - chora
+    - cry
     - cries
     - sobs
 
@@ -82,11 +89,10 @@
   id: Squish
   name: chat-emote-name-squish
   category: Vocal
-  available: false
   icon: Interface/Emotes/squish.png
   whitelist:
     components:
-    - Vocal
+    - HarpyEmotes
   blacklist:
     components:
     - BorgChassis
@@ -98,11 +104,10 @@
   id: Chitter
   name: chat-emote-name-chitter
   category: Vocal
-  available: false
   icon: Interface/Emotes/chitter.png
   whitelist:
     components:
-    - Vocal
+    - HarpyEmotes
   blacklist:
     components:
     - BorgChassis
@@ -114,11 +119,10 @@
   id: Squeak
   name: chat-emote-name-squeak
   category: Vocal
-  available: false
   icon: Interface/Emotes/squeak.png
   whitelist:
     components:
-      - Vocal
+    - HarpyEmotes
   blacklist:
     components:
     - BorgChassis
@@ -130,11 +134,10 @@
   id: Click
   name: chat-emote-name-click
   category: Vocal
-  available: false
   icon: Interface/Emotes/click.png
   whitelist:
     components:
-    - Vocal
+    - HarpyEmotes
   blacklist:
     components:
     - BorgChassis
@@ -156,6 +159,9 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
+    - bate palma
+    - bate palmas
+    - clap
     - claps
 
 - type: emote
@@ -192,6 +198,7 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
+    - salute
     - salutes
 
 - type: emote
@@ -251,9 +258,9 @@
   category: Vocal
   icon: Interface/Emotes/chirp.png
   whitelist:
-    requireAll: true
     components:
     - Nymph
+    - HarpyEmotes
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
     - chirps

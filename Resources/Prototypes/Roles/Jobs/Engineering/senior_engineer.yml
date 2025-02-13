@@ -6,13 +6,13 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobAtmosphericTechnician
-      min: 21600 #6 hrs
+      min: 10800 #3 hrs #3 hrs
     - !type:CharacterPlaytimeRequirement
       tracker: JobStationEngineer
-      min: 21600 #6 hrs
+      min: 10800 #3 hrs #3 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 216000 # 60 hrs
+      min: 72000 # 20 hrs
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce
@@ -24,6 +24,8 @@
 
 - type: startingGear
   id: SeniorEngineerGear
+  subGear:
+  - StationEngineerPlasmamanGear
   equipment:
     head: ClothingHeadHatBeretEngineering
     jumpsuit: ClothingUniformJumpsuitSeniorEngineer
