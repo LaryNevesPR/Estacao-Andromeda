@@ -117,32 +117,21 @@ action-name-shadeskip = Salto das sombras
 action-description-shadeskip =
     Invoque os senhores do sim dos sempos e suplique-lhes por um fragmento da verdadeira entropia.
 shadeskip-power-description = { action-description-shadeskip }
-shadeskip-power-initialization-feedback =
-    Me vejo em uma terra gélida, sob um céu desprovido de qualquer luz estelar. Frio é o vazio no fim dos tempos.
-    Olho para o horizonte azul pálido dentro do azul, e vejo um grande olho no centro de tudo, negro e mais vazio que as profundezas mais profundas do espaço.
-    Minha alma começa a murchar sob seu olhar, e me vejo implorando para que ele olhe para outro lado. O olho ri, exige que eu sirva ou morra.
-    Sabendo que não tenho escolha, juro minha lealdade a ele, e de repente estou de volta ao reino material. O olho ainda me observa por trás.
+shadeskip-power-initialization-feedback = Me vejo em uma terra gélida, sob um céu desprovido de qualquer luz estelar. Frio é o vazio no fim dos tempos. Olho para o horizonte azul pálido dentro do azul, e vejo um grande olho no centro de tudo, negro e mais vazio que as profundezas mais profundas do espaço. Minha alma começa a murchar sob seu olhar, e me vejo implorando para que ele olhe para outro lado. O olho ri, exige que eu sirva ou morra. Sabendo que não tenho escolha, juro minha lealdade a ele, e de repente estou de volta ao reino material. O olho ainda me observa por trás.
 shadeskip-power-metapsionic-feedback = {CAPITALIZE($entity)} foi reivindicado pelos senhores do fim dos tempos.
 shadeskip-overcharge-feedback = Meu corpo cambaleia de choque, sobrecarregado pela força que flui através de mim.
 
 # Pulso telecinético
 action-name-telekinetic-pulse = Pulso telecinético
-action-description-telekinetic-pulse =
-    Force todos ao seu redor para longe.
-telekinetic-pulse-power-description = { action-description-telekinetic-pulse }
-telekinetic-pulse-power-initialization-feedback =
-    Quando alcanço o véu com meu poder, descubro uma fonte de pura energia cinética. Ela flui através de mim, mas pareço carecer de controle fino sobre ela.
+action-description-telekinetic-pulse = telekinetic-pulse-power-description = { action-description-telekinetic-pulse }
+telekinetic-pulse-power-initialization-feedback = Quando alcanço o véu com meu poder, descubro uma fonte de pura energia cinética. Ela flui através de mim, mas pareço carecer de controle fino sobre ela.
 telekinetic-pulse-power-metapsionic-feedback = A essência da pura cinese flui através de {CAPITALIZE($entity)}.
 
 # Sinalizador Pyrocinetico
 action-name-pyrokinetic-flare = Sinalizador Pyrocinetico
-action-description-pyrokinetic-flare =
-    Cria um flash de luz solar de Gehenna para cegar seus inimigos.
+action-description-pyrokinetic-flare = Cria um flash de luz solar de Gehenna para cegar seus inimigos.
 pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
-pyrokinetic-flare-power-initialization-feedback =
-    Meu olhar é brevemente preenchido com um flash de imensa luz, e por um único momento eu posso ver um Glimmer de um reino
-    de fogo e dor, de fome e sofrimento. Assim que eu o vislumbro, a visão desaparece. Mas a memória daquele flash permanece em minha mente.
-    Eu ainda posso me lembrar disso, um Glimmer dos fogos de Gehenna.
+pyrokinetic-flare-power-initialization-feedback = Meu olhar é brevemente preenchido com um flash de imensa luz, e por um único momento eu posso ver um Glimmer de um reinode fogo e dor, de fome e sofrimento. Assim que eu o vislumbro, a visão desaparece. Mas a memória daquele flash permanece em minha mente.Eu ainda posso me lembrar disso, um Glimmer dos fogos de Gehenna.
 pyrokinetic-flare-power-metapsionic-feedback = Guh these don't even matter because nobody can read this line in-game and I don't know when I'm ever bringing back Narrow Pulse
 
 # Invocar Imp
@@ -169,7 +158,7 @@ psionic-roll-failed = Por um momento, minha consciência se expande, mas sinto q
 entity-anomaly-no-grid = Não há lugar onde eu possa conjurar seres.
 power-overwhelming-power-feedback = {CAPITALIZE($entity)} empunha uma vasta conexão com a noosfera.
 
-ethereal-pickup-fail = My hand sizzles as it passes through...
+ethereal-pickup-fail = Minha mão atravessa...
 
 # Psionic Familiar System
 psionic-familiar-cant-attack-master = Estou conectado ao meu mestre, não posso fazer-lo o mal.

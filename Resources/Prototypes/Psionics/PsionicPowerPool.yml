@@ -3,13 +3,21 @@
   weights:
     MetapsionicPower: 1
     DispelPower: 1
-    #TelegnosisPower: 1
     PsionicRegenerationPower: 1
-    MassSleepPower: 0.3
-#    PsionicInvisibilityPower: 0.15
-    MindSwapPower: 0.15
+    MassSleepPower: 1
+    MindSwapPower: 1
     TelepathyPower: 1
-    HealingWordPower: 0.85
-    ShadeskipPower: 0.15
-    TelekineticPulsePower: 0.15
-    PyrokineticFlare: 0.3
+    HealingWordPower: 1
+    TelekineticPulsePower: 1
+    PyrokineticFlare: 1
+    NoosphericZapPower: 1
+    PyrokinesisPower: 1
+    XenoglossyPower: 1
+    PsychognomyPower: 1
+    RevivifyPower: 1
+    LowAmplification: 1
+    PowerOverwhelming: 1
+    LowDampening: 1
+    HighDampening: 1
+    SummonImpPower: 1
+    AssayPower: 1

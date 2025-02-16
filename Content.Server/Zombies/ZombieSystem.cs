@@ -258,9 +258,9 @@ namespace Content.Server.Zombies
         /// <summary>
         ///     This is the function to call if you want to unzombify an entity.
         /// </summary>
-        /// <param name="source">the entity having the ZombieComponent</param>
-        /// <param name="target">the entity you want to unzombify (different from source in case of cloning, for example)</param>
-        /// <param name="zombiecomp"></param>
+        /// <param name="">the entity having the ZombieComponent</param>
+        /// #<param name="">the entity you want to unzombify (different from source in case of cloning, for example)</param>
+        /// <param name=""></param>
         /// <remarks>
         ///     this currently only restore the name and skin/eye color from before zombified
         ///     TODO: completely rethink how zombies are done to allow reversal.
