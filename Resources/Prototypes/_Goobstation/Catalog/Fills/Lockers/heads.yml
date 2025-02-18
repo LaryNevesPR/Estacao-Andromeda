@@ -6,8 +6,8 @@
   - type: StorageFill
     contents:
     - id: BoxFolderCentCom
+    - id: LockedBriefcase
     - id: WeaponDisabler
-    - id: BriefcaseBrownFilled
     - id: BedsheetCentcom
     - id: CaneSheathFilledNanotrasen
     - id: HandheldFaxNanorep
@@ -36,7 +36,7 @@
   - type: StorageFill
     contents:
     - id: BoxFolderCentCom
+    - id: LockedBriefcase
     - id: WeaponDisabler
-    - id: BriefcaseBrownFilled
     - id: RubberStampMagistrate
     - id: ClothingHeadHatPwig
