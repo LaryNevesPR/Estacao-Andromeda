@@ -322,6 +322,7 @@ public sealed partial class ChangelingSystem : SharedChangelingSystem
     {
         _audio.PlayPvs(comp.ShriekSound, uid);
 
+
         var center = Transform(uid).MapPosition;
         var gamers = Filter.Empty();
         gamers.AddInRange(center, comp.ShriekPower, _player, EntityManager);
@@ -740,6 +741,7 @@ public sealed partial class ChangelingSystem : SharedChangelingSystem
         RemComp<HungerComponent>(uid);
         RemComp<ThirstComponent>(uid);
         EnsureComp<ZombieImmuneComponent>(uid);
+
 
         // add actions
         foreach (var actionId in comp.BaseChangelingActions)

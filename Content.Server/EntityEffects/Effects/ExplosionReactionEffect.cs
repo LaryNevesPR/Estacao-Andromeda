@@ -5,6 +5,7 @@ using Content.Shared.Explosion;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using System.Text.Json.Serialization;
+using Content.Shared._Sunrise.Explosion;
 
 namespace Content.Server.EntityEffects.Effects;
 
@@ -51,6 +52,13 @@ public sealed partial class ExplosionReactionEffect : EntityEffect
     [JsonIgnore]
     public float IntensityPerUnit = 1;
 
+    /// <summary>
+    ///     Factor used to scale the explosion intensity when calculating tile break chances. Allows for stronger
+    ///     explosives that don't space tiles, without having to create a new explosion-type prototype.
+    /// </summary>
+    [DataField]
+    public float TileBreakScale = 1f;
+
     public override bool ShouldLog => true;
 
     protected override string? ReagentEffectGuidebookText(IPrototypeManager prototype, IEntitySystemManager entSys)
@@ -65,6 +73,11 @@ public sealed partial class ExplosionReactionEffect : EntityEffect
         {
             intensity = MathF.Min((float) reagentArgs.Quantity * IntensityPerUnit, MaxTotalIntensity);
         }
+
+        // Sunrise edit start
+        args.EntityManager.System<SharedSunriseExplosionSystem>()
+            .TryAddExplosionEffect(args.TargetEntity, ExplosionType);
+        // Sunrise edit end
 
         args.EntityManager.System<ExplosionSystem>()
             .QueueExplosion(

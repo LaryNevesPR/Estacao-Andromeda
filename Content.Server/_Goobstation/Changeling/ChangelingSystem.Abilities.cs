@@ -436,6 +436,7 @@ public sealed partial class ChangelingSystem
 
         _popup.PopupEntity(Loc.GetString("changeling-stasis-exit"), uid, uid);
 
+
         comp.IsInStasis = false;
     }
 
@@ -885,4 +886,5 @@ public sealed partial class ChangelingSystem
     }
 
     #endregion
+
 }

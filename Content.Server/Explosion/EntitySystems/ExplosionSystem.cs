@@ -7,6 +7,7 @@ using Content.Server.Explosion.Components;
 using Content.Server.NodeContainer.EntitySystems;
 using Content.Server.NPC.Pathfinding;
 using Content.Shared.Armor;
+using Content.Shared._RMC14.Explosion;
 using Content.Shared.Camera;
 using Content.Shared.CCVar;
 using Content.Shared.Damage;
@@ -321,6 +322,14 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         };
         _explosionQueue.Enqueue(boom);
         _queuedExplosions.Add(boom);
+
+        // Sunrise added start
+        if (!cause.HasValue)
+            return;
+
+        var ev = new CMExplosiveTriggeredEvent();
+        RaiseLocalEvent(cause.Value, ref ev);
+        // Sunrise added end
     }
 
     /// <summary>
@@ -341,7 +350,8 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
 
         var (area, iterationIntensity, spaceData, gridData, spaceMatrix) = results.Value;
 
-        var visualEnt = CreateExplosionVisualEntity(pos, queued.Proto.ID, spaceMatrix, spaceData, gridData.Values, iterationIntensity);
+        // Sunrise edit - queued.Proto.ID -> queued.Proto
+        var visualEnt = CreateExplosionVisualEntity(pos, queued.Proto, spaceMatrix, spaceData, gridData.Values, iterationIntensity);
 
         // camera shake
         CameraShake(iterationIntensity.Count * 4f, pos, queued.TotalIntensity);

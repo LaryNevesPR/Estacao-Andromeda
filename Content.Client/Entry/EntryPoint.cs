@@ -1,3 +1,6 @@
+using Content.Client._RMC14.Explosion;
+using Content.Client._RMC14.Xenonids.Screech;
+using Content.Client._Sunrise.ServersHub;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
@@ -158,6 +161,10 @@ namespace Content.Client.Entry
 
             _overlayManager.AddOverlay(new SingularityOverlay());
             _overlayManager.AddOverlay(new FlashOverlay());
+            // Sunrise edit start
+            _overlayManager.AddOverlay(new RMCExplosionShockWaveOverlay());
+            _overlayManager.AddOverlay(new RMCXenoScreechShockWaveOverlay());
+            // Sunrise edit end
             _overlayManager.AddOverlay(new RadiationPulseOverlay());
             _chatManager.Initialize();
             _clientPreferencesManager.Initialize();
