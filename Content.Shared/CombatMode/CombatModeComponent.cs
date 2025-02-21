@@ -1,3 +1,4 @@
+using Content.Shared._Andromeda;
 using Content.Shared.MouseRotator;
 using Content.Shared.Movement.Components;
 using Robust.Shared.Audio;
@@ -13,7 +14,7 @@ namespace Content.Shared.CombatMode
     ///     using *everything* as a weapon.
     /// </summary>
     [RegisterComponent, NetworkedComponent, AutoGenerateComponentState(true)]
-    [Access(typeof(SharedCombatModeSystem))]
+    [Access(typeof(SharedCombatModeSystem), typeof(DisarmGloves))]
     public sealed partial class CombatModeComponent : Component
     {
         #region Disarm

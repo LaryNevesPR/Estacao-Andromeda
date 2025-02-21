@@ -467,3 +467,30 @@
     sprite: Clothing/Hands/Gloves/evening_gloves.rsi
   - type: Clothing
     sprite: Clothing/Hands/Gloves/evening_gloves.rsi
+
+- type: entity
+  parent: ClothingHandsGlovesPowerglove
+  id: TesteLuva
+  name: Luva Disarme
+  description: TESTEEE
+  components:
+  - type: ToggleClothing
+    action: ActionToggleLuvas
+  - type: Sprite
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: Clothing
+    sprite: Clothing/Hands/Gloves/powerglove.rsi
+  - type: Fiber
+    fiberMaterial: fibers-nanomachines
+  - type: FingerprintMask
+
+- type: entity
+  id: ActionToggleLuvas
+  name: Ativar luvas
+  description: Ativar luvas!!!!
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: DisarmGloves
+  - type: InstantAction
+    itemIconStyle: BigItem
+    event: !type:ToggleActionEvent
