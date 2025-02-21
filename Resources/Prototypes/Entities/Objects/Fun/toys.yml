@@ -1435,6 +1435,7 @@
   name: basketball
   description: Where dah courts at?
   components:
+  - type: MultiHandedItem
   - type: Sprite
     sprite: Objects/Fun/toys.rsi
     state: basketball
@@ -2030,7 +2031,7 @@
       params:
         variation: 0.05
   - type: EmitSoundOnLand
-    sound: 
+    sound:
       path: /Audio/DeltaV/Voice/Harpy/caw1.ogg
       params:
         variation: 0.05

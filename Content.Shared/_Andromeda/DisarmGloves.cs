@@ -46,12 +46,17 @@ public sealed class DisarmGloves : EntitySystem
 
     private void OnGotUnequipped(Entity<DisarmGlovesComponent> ent, ref ClothingGotUnequippedEvent args)
     {
-        UpdateGlovesEffects(args.Wearer, ent, false);
+        var combat = EnsureComp<CombatModeComponent>(args.Wearer);
+        combat.BaseDisarmFailChance = ent.Comp.ChanceAnterior;
+        //UpdateGlovesEffects(args.Wearer, ent, false);
     }
 
     private void OnGotEquipped(Entity<DisarmGlovesComponent> ent, ref ClothingGotEquippedEvent args)
     {
-        UpdateGlovesEffects(args.Wearer, ent, _toggle.IsActivated(ent.Owner));
+        var combat = EnsureComp<CombatModeComponent>(args.Wearer);
+        ent.Comp.ChanceAnterior = combat.BaseDisarmFailChance;
+        combat.BaseDisarmFailChance = ent.Comp.Chance;
+        //UpdateGlovesEffects(args.Wearer, ent, _toggle.IsActivated(ent.Owner));
     }
 
     private void UpdateGlovesEffects(EntityUid user, Entity<DisarmGlovesComponent> ent, bool state)
