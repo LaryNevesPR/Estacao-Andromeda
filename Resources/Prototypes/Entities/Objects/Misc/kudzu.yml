@@ -197,7 +197,7 @@
     - type: DamageContacts
       damage:
         types:
-          Slash: 1.5
+          Slash: 3.5
           Piercing: 1.5
       ignoreWhitelist:
         tags:
@@ -241,8 +241,10 @@
       solutions:
         food:
           reagents:
+            - ReagentId: Razorium
+              Quantity: 4
             - ReagentId: Protein
-              Quantity: 2
+              Quantity: 1
     - type: Respirator
       damage:
         types:
