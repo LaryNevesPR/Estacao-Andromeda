@@ -68,8 +68,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
-        { "lmao", "chatsan-laughs" },
-        { "lmao.", "chatsan-laughs" },
+        // { "lmao", "chatsan-laughs" }, // pulmao
+        // { "lmao.", "chatsan-laughs" },
         { "lol", "chatsan-laughs" },
         { "lol.", "chatsan-laughs" },
         { "lel", "chatsan-laughs" },
