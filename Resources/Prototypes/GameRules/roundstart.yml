@@ -83,7 +83,7 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 15
   - type: LoadMapRule
     gameMap: NukieOutpost
   - type: AntagSelection
