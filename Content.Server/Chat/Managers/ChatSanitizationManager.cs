@@ -68,8 +68,8 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "^^/", "chatsan-waves" },
         { ":/", "chatsan-uncertain" },
         { ":\\", "chatsan-uncertain" },
-        { "lmao", "chatsan-laughs" },
-        { "lmao.", "chatsan-laughs" },
+        // { "lmao", "chatsan-laughs" }, // pulmao
+        // { "lmao.", "chatsan-laughs" },
         { "lol", "chatsan-laughs" },
         { "lol.", "chatsan-laughs" },
         { "lel", "chatsan-laughs" },
@@ -77,6 +77,13 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "kek", "chatsan-laughs" },
         { "kek.", "chatsan-laughs" },
         { "rofl", "chatsan-laughs" },
+        { "kkkkkkk", "chatsan-laughs" }, // eu odeio muito isso
+        { "kkkkkk", "chatsan-laughs" },  // tipo, muito
+        { "kkkkk", "chatsan-laughs" },   // mas como não tem sistema que usa regex pronto
+        { "kkkk", "chatsan-laughs" },    // vai assim mesmo até segunda ordem
+        { "kkk", "chatsan-laughs" },     // também odeio muito que isso não tá no locale de pt-br
+        { "kk", "chatsan-laughs" },      // c'est lá vie... eh a vida...
+        { "k", "chatsan-laughs" },       // ah, a ordem importa; os maiores tem que vir primeiro, se não ele vai pegar um dos menores e enviar o resto da mensagem
         { "o7", "chatsan-salutes" },
         { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },

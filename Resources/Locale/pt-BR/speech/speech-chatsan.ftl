@@ -300,37 +300,47 @@ chatsan-replacement-1106 = porra
 
 chatsan-word-1107 = mlk
 chatsan-word-1108 = mlc
+chatsan-word-1109 = mlq
 chatsan-replacement-moleque = moleque
 
-chatsan-word-1109 = nmrl
-chatsan-replacement-1109 = na moral
+chatsan-word-1110 = nmrl
+chatsan-replacement-1110 = na moral
 
-chatsan-word-1110 = tds
-chatsan-replacement-1110 = todos
+chatsan-word-1111 = tds
+chatsan-replacement-1111 = todos
 
-chatsan-word-1111 = qq
-chatsan-replacement-1111 = que que
+chatsan-word-1112 = qq
+chatsan-replacement-1112 = que que
 
-chatsan-word-1112 = SSD
-chatsan-replacement-1112 = distúrbio do sono espacial
+chatsan-word-1113 = SSD
+chatsan-replacement-1113 = distúrbio do sono espacial
 
-chatsan-word-1113 = dnv
-chatsan-replacement-1113 = de novo
+chatsan-word-1114 = dnv
+chatsan-replacement-1114 = de novo
 
-chatsan-word-1114 = qm
-chatsan-replacement-1114 = intendente de carga
+chatsan-word-1115 = qm
+chatsan-replacement-1115 = intendente de carga
 
-chatsan-word-1115 = ce
-chatsan-replacement-1115 = engenheiro chefe
+chatsan-word-1116 = ce
+chatsan-replacement-1116 = engenheiro chefe
 
-chatsan-word-1116 = cmo
-chatsan-replacement-1116 = médico chefe
+chatsan-word-1117 = cmo
+chatsan-replacement-1117 = médico chefe
 
-chatsan-word-1117 = rd
-chatsan-replacement-1117 = diretor de pesquisas
+chatsan-word-1118 = rd
+chatsan-replacement-1118 = diretor de pesquisas
 
-chatsan-word-1118 = hos
-chatsan-replacement-1118 = chefe da segurança
+chatsan-word-1119 = hos
+chatsan-replacement-1119 = chefe da segurança
 
-chatsan-word-1119 = hop
-chatsan-replacement-1119 = chefe dos funcionários
+chatsan-word-1120 = hop
+chatsan-replacement-1120 = chefe dos funcionários
+
+chatsan-word-1121 = n
+chatsan-replacement-1121 = não
+
+chatsan-word-1122 = s
+chatsan-replacement-1122 = sim
+
+chatsan-word-1123 = mn
+chatsan-replacement-1123 = mano
