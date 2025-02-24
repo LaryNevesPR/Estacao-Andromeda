@@ -503,8 +503,8 @@
     chatsan-word-1118: chatsan-replacement-1118
     chatsan-word-1119: chatsan-replacement-1119
     chatsan-word-1120: chatsan-replacement-1120
-    chatsan-word-1121: chatsan-replacement-1121
-    chatsan-word-1122: chatsan-replacement-1122
+    # chatsan-word-1121: chatsan-replacement-1121
+    # chatsan-word-1122: chatsan-replacement-1122
 
 - type: accent
   id: liar

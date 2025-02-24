@@ -82,8 +82,9 @@ public sealed class ChatSanitizationManager : IChatSanitizationManager
         { "kkkkk", "chatsan-laughs" },   // mas como não tem sistema que usa regex pronto
         { "kkkk", "chatsan-laughs" },    // vai assim mesmo até segunda ordem
         { "kkk", "chatsan-laughs" },     // também odeio muito que isso não tá no locale de pt-br
-        { "kk", "chatsan-laughs" },      // c'est lá vie... eh a vida...
-        { "k", "chatsan-laughs" },       // ah, a ordem importa; os maiores tem que vir primeiro, se não ele vai pegar um dos menores e enviar o resto da mensagem
+        // { "kk", "chatsan-laughs" },      // c'est lá vie... eh a vida...
+        // { "k", "chatsan-laughs" },       // ah, a ordem importa; os maiores tem que vir primeiro, se não ele vai pegar um dos menores e enviar o resto da mensagem
+        // COMENTADOS POR QUE OK APARENTEMENTE PEGA ISSO TAMBÉM
         { "o7", "chatsan-salutes" },
         { ";_;7", "chatsan-tearfully-salutes"},
         { "idk", "chatsan-shrugs" },

@@ -336,11 +336,13 @@ chatsan-replacement-1119 = chefe da segurança
 chatsan-word-1120 = hop
 chatsan-replacement-1120 = chefe dos funcionários
 
-chatsan-word-1121 = n
-chatsan-replacement-1121 = não
+# comentados até segunda ordem por que o radio de sec e sci (:n e :s) usam esses caras
 
-chatsan-word-1122 = s
-chatsan-replacement-1122 = sim
+# chatsan-word-1121 = n
+# chatsan-replacement-1121 = não
+
+# chatsan-word-1122 = s
+# chatsan-replacement-1122 = sim
 
 chatsan-word-1123 = mn
 chatsan-replacement-1123 = mano
