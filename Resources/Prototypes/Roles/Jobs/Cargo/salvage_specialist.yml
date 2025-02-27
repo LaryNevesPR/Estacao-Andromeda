@@ -3,7 +3,7 @@
   name: job-name-salvagespec
   description: job-description-salvagespec
   playTimeTracker: JobSalvageSpecialist
-  antagAdvantage: 3 # DeltaV - Reduced TC: External Access + Free hardsuit and weapons
+  antagAdvantage: 5 # Verificar agora com o rebalence do TC
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics

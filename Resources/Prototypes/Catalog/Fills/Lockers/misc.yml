@@ -154,7 +154,7 @@
     # Plushies
     - !type:NestedSelector
       tableId: AllPlushiesTable
-      prob: 0.10
+      prob: 0.20
       rolls: !type:RangeNumberSelector
         range: 1, 2
     # Weapons
@@ -168,7 +168,7 @@
     # Andromeda Loot
     - !type:NestedSelector
       tableId: AndromedaMaintLoot # HypnoTemp plushies. Should really be a part of the AllPlushiesTable, but meh.
-      prob: 0.3
+      prob: 0.15
 
 - type: entity
   id: ClosetMaintenanceFilledRandom

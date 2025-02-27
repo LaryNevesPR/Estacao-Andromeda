@@ -148,3 +148,12 @@
       - id: ToyFigurineJanieSmith
         prob: 0.10
         orGroup: SpacemenFig
+      - id: ToyFigurineGui
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurineRonaldo
+        prob: 0.10
+        orGroup: SpacemenFig
+      - id: ToyFigurineLao
+        prob: 0.10
+        orGroup: SpacemenFig

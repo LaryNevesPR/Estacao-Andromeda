@@ -24,6 +24,12 @@
         },
         {
             "name": "ronaldo_figure"
+        },
+        {
+            "name": "Lao_Figure"
+        },
+        {
+            "name": "gui_figure"
         }
     ]
 }

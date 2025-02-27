@@ -58,11 +58,6 @@
   path:
     path: /Audio/Jukebox/Reach-Out-To-The-Truth-First-Battle-.ogg
   type: jukebox
-- id: Space-Parody
-  name: Space Parody (Original Andromeda)
-  path:
-    path: /Audio/Jukebox/Space-Parody.ogg
-  type: jukebox
 - id: Vast-Error-Blood-Right
   name: Vast Error Blood-Right
   path:

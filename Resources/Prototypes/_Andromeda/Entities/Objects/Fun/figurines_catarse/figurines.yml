@@ -12,8 +12,8 @@
 - type: entity
   parent: ToyFigurineLunaraGooben
   id: ToyFigurinePodroSilva
-  name: Podro da Silva
-  description: Template
+  name: Podro Coelho da Silva
+  description: "Essa famosa raposa do ártico curiosa come todos os ratos que vê pela frente, mas, não importa oque aconteça... não puxe o seu rabo!!"
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -33,7 +33,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurinePhilMal
   name: Phil-Mal
-  description: "Impossivel olhar pra ele e não pensar 'Que cara legal'"
+  description: "Uma lagartixa muito azul"
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -59,3 +59,24 @@
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: ronaldo_figure
+
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineGui
+  name: Guilherme Carneiro Mendes
+  description: Template
+  components:
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: gui_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineLao
+  name: Lao Tsung
+  description: Template
+  components:
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: Lao_Figure
