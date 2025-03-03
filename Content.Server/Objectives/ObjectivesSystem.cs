@@ -11,7 +11,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using System.Linq;
 using System.Text;
-using Content.Shared._DV.CustomObjectiveSummery; // DeltaV
+using Content.Shared._DV.CustomObjectiveSummary; // DeltaV
 using Robust.Server.Player;
 
 namespace Content.Server.Objectives;

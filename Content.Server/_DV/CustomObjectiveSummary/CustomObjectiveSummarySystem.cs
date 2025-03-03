@@ -1,6 +1,6 @@
 using Content.Server.Administration.Logs;
 using Content.Shared._DV.CustomObjectiveSummary;
-using Content.Shared._DV.FeedbackOverwatch;
+//using Content.Shared.DeltaV.FeedbackOverwatch;
 using Content.Shared.Database;
 using Content.Shared.GameTicking;
 using Content.Shared.Mind;
@@ -13,7 +13,7 @@ public sealed class CustomObjectiveSummarySystem : EntitySystem
     [Dependency] private readonly IServerNetManager _net = default!;
     [Dependency] private readonly SharedMindSystem _mind = default!;
     [Dependency] private readonly IAdminLogManager _adminLog = default!;
-    [Dependency] private readonly SharedFeedbackOverwatchSystem _feedback = default!;
+    //[Dependency] private readonly SharedFeedbackOverwatchSystem _feedback = default!;
 
     public override void Initialize()
     {
@@ -66,7 +66,7 @@ public sealed class CustomObjectiveSummarySystem : EntitySystem
             if (mind.Comp.Objectives.Count == 0)
                 continue;
 
-            _feedback.SendPopupMind(mind, "RemoveGreentextPopup");
+            //_feedback.SendPopupMind(mind, "RemoveGreentextPopup");
         }
     }
 }
