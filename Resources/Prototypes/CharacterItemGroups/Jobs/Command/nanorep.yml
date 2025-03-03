@@ -15,6 +15,14 @@
       id: LoadoutClothingUniformJumpsuitNanotrasenRepresentative
 
 - type: characterItemGroup
+  id: LoadoutNanotrasenRepresentativeWeapon
+  maxItems: 1
+  items:
+    - type: loadout
+      id: LoadoutNanotrasenRepresentativeDisabler
+
+
+- type: characterItemGroup
   id: LoadoutNanorepNeck
   maxItems: 1
   items:
