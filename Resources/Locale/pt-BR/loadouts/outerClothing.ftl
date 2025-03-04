@@ -1,5 +1,6 @@
-loadout-description-LoadoutOuterGhostSheet = Spooky...
-loadout-description-LoadoutOuterCoatBomberjacket = A sleek bomber jacket.
-loadout-description-LoadoutOuterCoatHoodieBlack = A warm hoodie.
-loadout-description-LoadoutOuterCoatHoodieGrey = A warm hoodie.
-loadout-description-LoadoutOuterCoatWinterCoat = For keeping nice and snug.
+loadout-description-LoadoutOuterGhostSheet = Assustador...
+loadout-description-LoadoutOuterCoatBomberjacket = Uma jaqueta bomber elegante.
+loadout-description-LoadoutOuterCoatHoodieBlack = Um moletom com capuz quente.
+loadout-description-LoadoutOuterCoatHoodieGrey = Um moletom com capuz quente.
+loadout-description-LoadoutOuterCoatWinterCoat = Para manter-se bem aconchegado.
+

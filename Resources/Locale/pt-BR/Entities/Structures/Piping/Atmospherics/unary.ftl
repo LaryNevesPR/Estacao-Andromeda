@@ -1,8 +1,8 @@
 ent-GasVentPump = grade de ventilação
-    .desc = Libera ar para atmosféra.
+    .desc = Libera ar para atmosfera.
 
 ent-GasPassiveVent = grade de ventilação passiva
-    .desc = Conecta a atmosféra à rede de canos.
+    .desc = Conecta a atmosfera à rede de canos.
 
 ent-GasVentScrubber = filtrador de ar
     .desc = Remove contaminantes do ar.

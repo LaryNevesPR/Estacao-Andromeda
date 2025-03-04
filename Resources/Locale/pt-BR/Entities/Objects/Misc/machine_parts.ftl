@@ -34,8 +34,8 @@ ent-AdvancedMatterBinStockPart = caixa de matéria avançada
 ent-SuperCapacitorStockPart = supercapacitor
      .desc = Um capacitor de superalta capacidade usado na construção de uma variedade de dispositivos.
 
-ent-PhasicScanningModuleStockPart = módulo de escâner fásica
-     .desc = Um módulo de escâner fásica compacto e de alta resolução usado na construção de determinados dispositivos.
+ent-PhasicScanningModuleStockPart = módulo de escâner fásico
+     .desc = Um módulo de escâner fásico compacto e de alta resolução usado na construção de determinados dispositivos.
 
 ent-PicoManipulatorStockPart = pico-manipulador
      .desc = Um minúsculo manipulador usado na construção de certos dispositivos.
@@ -62,16 +62,16 @@ ent-BluespaceMatterBinStockPart = caixa de matéria do bluespace
      .desc = Um contêiner projetado para conter matéria comprimida no bluespace aguardando reconstrução.
 
 ent-AnsibleSubspaceStockPart = subespaço ansible
-     .desc = Um módulo compacto capaz de detectar atividade extradimensional.
+     .desc = Um módulo compacto capaz de detectar atividade extra-dimensional.
 
-ent-FilterSubspaceStockPart = filtro de hiperonda
-     .desc = Um minúsculo dispositivo capaz de filtrar e converter ondas de rádio superintensas.
+ent-FilterSubspaceStockPart = filtro de hiper onda
+     .desc = Um minúsculo dispositivo capaz de filtrar e converter ondas de rádio super intensas.
 
 ent-AmplifierSubspaceStockPart = amplificador subespacial
      .desc = Uma micromáquina compacta capaz de amplificar transmissões subespaciais fracas.
 
 ent-TreatmentSubspaceStockPart = disco de tratamento de subespaço
-     .desc = Uma micromáquina compacta capaz de esticar ondas de rádio hipercomprimidas.
+     .desc = Uma micromáquina compacta capaz de esticar ondas de rádio hiper comprimidas.
 
 ent-AnalyzerSubspaceStockPart = analisador de onda subespacial
      .desc = Um analisador sofisticado capaz de analisar comprimentos de onda crípticos do subespaço.

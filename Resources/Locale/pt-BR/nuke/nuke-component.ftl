@@ -17,7 +17,7 @@ nuke-user-interface-first-status-device-locked = DISPOSITIVO TRANCADO
 nuke-user-interface-first-status-input-code = INSIRA CÓDIGO
 nuke-user-interface-first-status-input-time = INSIRA TEMPO
 nuke-user-interface-first-status-device-ready = DISPOSITIVO PRONTO
-nuke-user-interface-first-status-device-armed = DISPOSTIIVO ATIVO
+nuke-user-interface-first-status-device-armed = DISPOSITIVO ATIVO
 nuke-user-interface-first-status-device-cooldown = DESATIVADO
 nuke-user-interface-status-error = ERRO
 
@@ -40,7 +40,7 @@ nuke-codes-list = {$name} code: {$code}
 nuke-codes-fax-paper-name = códigos de autenticação nuclear
 
 # Nuke disk slot
-nuke-slot-component-slot-name-disk = Disk
+nuke-slot-component-slot-name-disk = Disco
 
 ## Examine
 nuke-examine-armed = Aí, porquê aquela [color=red]luz vermelha[/color] tá piscando?

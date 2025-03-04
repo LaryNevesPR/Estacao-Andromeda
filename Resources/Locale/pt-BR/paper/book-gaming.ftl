@@ -1,31 +1,31 @@
-book-text-gaming1 = Can't stay for the game.
-      Engineering want me to keep a close eye on the singularity SMESes.
-      Leaving this so you know what's up.
-      Sorry.
+book-text-gaming1 = Não posso ficar para o jogo.
+      Engenharia quer que eu fique de olho nos SMESes de singularidade.
+      Deixando isso para que você saiba o que está acontecendo.
+      Desculpe.
        - Alexander
 
 book-text-gaming2 = Johny Clowe
-      Class: Druid
-      Alignment: Neutral Good
-      Str: 1,294,139
-      Dex: 4,102,103
-      Con: 9,522,913
-      Int: 528,491
-      Wis: 1
-      Cha: 1
-      Where's the age?
-      Why are those ability scores so ridiculous?
-      What even are you trying to do here, Leah? - Your Friendly DM
+      Classe: Druida
+      Alinhamento: Neutro e Bom
+      For: 1.294.139
+      Des: 4.102.103
+      Con: 9.522.913
+      Int: 528.491
+      Sab: 1
+      Car: 1
+      Cadê a idade?
+      Por que esses valores de habilidades são tão ridículos?
+      O que você está tentando fazer aqui, Leah? - Seu Amigável Mestre de Jogo
 
-book-text-gaming3 = THE GIANT SPACE FLY FROM SPACE
-      Session 1: They should have just learned what's going on with the world and the Giant Space Fly.
-      Session 2: They should know to ask the Wizard's Court about seismic distortions.
-      Session 3: On their way to underground lair.
-      Session 4: Just ran into the Architect Of Flies.
-      Oh dear goodness they just started randomly killing everybody
+book-text-gaming3 = A MOSCA GIGANTE DO ESPAÇO
+      Sessão 1: Eles deveriam ter aprendido o que está acontecendo com o mundo e a Mosca Gigante do Espaço.
+      Sessão 2: Eles deveriam saber perguntar ao Tribunal dos Magos sobre as distorções sísmicas.
+      Sessão 3: A caminho do esconderijo subterrâneo.
+      Sessão 4: Acabaram de encontrar o Arquiteto das Moscas.
+      Oh, meu Deus, eles simplesmente começaram a matar todo mundo aleatoriamente.
 
-book-text-gaming4 = Won't be able to come to the meet, chemist blew up the hospital again.
-      Fifth time this shift.
-      It's amazing.
-      But not in a good way.
-      Cheers, - Arielle
+book-text-gaming4 = Não vou poder ir ao encontro, o químico explodiu o hospital de novo.
+      Quinta vez neste turno.
+      É incrível.
+      Mas não de um jeito bom.
+      Saudações, - Arielle

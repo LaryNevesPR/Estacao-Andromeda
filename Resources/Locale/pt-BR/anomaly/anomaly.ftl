@@ -1,8 +1,8 @@
-anomaly-component-contact-damage = A anomalia torra fora sua pele!
+anomaly-component-contact-damage = A anomalia queima sua pele!
 
-anomaly-vessel-component-anomaly-assigned = Anomalia atribuida a vassalo.
-anomaly-vessel-component-not-assigned = Este vassalo não está atrobuído a nenhuma anomalia. Tente usar um scanner nele.
-anomaly-vessel-component-assigned = Este vassalo está atualmente atribuído a uma anomalia.
+anomaly-vessel-component-anomaly-assigned = Anomalia atribuída ao recipiente.
+anomaly-vessel-component-not-assigned = Este recipiente não está atribuído a nenhuma anomalia. Tente usar um scanner nele.
+anomaly-vessel-component-assigned = Este recipiente está atualmente atribuído a uma anomalia.
 
 anomaly-particles-delta = Partículas Delta
 anomaly-particles-epsilon = Partículas Epsilon
@@ -11,28 +11,28 @@ anomaly-particles-omega = Partículas Omega
 anomaly-particles-sigma = Partículas Sigma
 
 
-anomaly-scanner-component-scan-complete = Escan completao!
+anomaly-scanner-component-scan-complete = Scan completo!
 
-anomaly-scanner-ui-title = escaner de anomalia
-anomaly-scanner-no-anomaly = Nenhuma anomalia escaneda atualmente.
+anomaly-scanner-ui-title = analisador de anomalia
+anomaly-scanner-no-anomaly = Nenhuma anomalia analisada.
 anomaly-scanner-severity-percentage = Severidade atual: [color=gray]{$percent}[/color]
-anomaly-scanner-severity-percentage-unknown = Severidade atual: [color=red]ERROR[/color]
-anomaly-scanner-stability-low = Estado atual da anomalia: [color=gold]Decaindo[/color]
-anomaly-scanner-stability-medium = Estado atual da anomalia: [color=forestgreen]Estável[/color]
-anomaly-scanner-stability-high = Estado atual da anomalia: [color=crimson]Crescendo[/color]
-anomaly-scanner-stability-unknown = Estado atual da anomalia: [color=red]ERROR[/color]																					
+anomaly-scanner-severity-percentage-unknown = Severidade: [color=red]ERRO[/color]
+anomaly-scanner-stability-low = Estado da anomalia: [color=gold]Decaindo[/color]
+anomaly-scanner-stability-medium = Estado da anomalia: [color=forestgreen]Estável[/color]
+anomaly-scanner-stability-high = Estado da anomalia: [color=crimson]Crescendo[/color]
+anomaly-scanner-stability-unknown = Estado da anomalia: [color=red]ERRO[/color]
 anomaly-scanner-point-output = Ponto de saída: [color=gray]{$point}[/color]
-anomaly-scanner-point-output-unknown = Ponto de saída: [color=red]ERROR[/color]
-anomaly-scanner-particle-readout = Análise de Reação a Partículas:			
-anomaly-scanner-particle-danger = - [color=crimson]Tipo perigoso:[/color] {$type}
-anomaly-scanner-particle-unstable = - [color=plum]Tipo instável:[/color] {$type}
+anomaly-scanner-point-output-unknown = Ponto de saída: [color=red]ERRO[/color]
+anomaly-scanner-particle-readout = Análise de Reação a Partículas:
+anomaly-scanner-particle-danger = - [color=crimson]Tipo de perigo:[/color] {$type}
+anomaly-scanner-particle-unstable = - [color=plum]Tipo de instabilidade:[/color] {$type}
 anomaly-scanner-particle-containment = - [color=goldenrod]Tipo de contensão:[/color] {$type}
 anomaly-scanner-particle-transformation = - [color=#6b75fa]Tipo de Transformação:[/color] {$type}
 anomaly-scanner-particle-danger-unknown = - [color=crimson]Tipo de Perigo:[/color] [color=red]ERRO[/color]
 anomaly-scanner-particle-unstable-unknown = - [color=plum]Tipo de Instabilidade:[/color] [color=red]ERRO[/color]
 anomaly-scanner-particle-containment-unknown = - [color=goldenrod]Tipo de Contenção:[/color] [color=red]ERRO[/color]
 anomaly-scanner-particle-transformation-unknown = - [color=#6b75fa]Tipo de Transformação:[/color] [color=red]ERRO[/color]
-anomaly-scanner-pulse-timer = Tempo até próximo pulso: [color=gray]{$time}[/color]
+anomaly-scanner-pulse-timer = Tempo até o próximo pulso: [color=gray]{$time}[/color]
 
 anomaly-gorilla-core-slot-name = Núcleo de anomalia
 anomaly-gorilla-charge-none = Não possui [bold]núcleo de anomalia[/bold] dentro dele.
@@ -48,18 +48,18 @@ anomaly-gorilla-charge-limit = Tem [color={$count ->
 }[/color] restante.
 anomaly-gorilla-charge-infinite = Possui [color=gold]cargas infinitas[/color]. [italic]Por enquanto...[/italic]
 
-anomaly-sync-connected = Anomalia anexada com sucesso
-anomaly-sync-disconnected = A conexão com a anomalia foi perdida!
+anomaly-sync-connected = Anomalia sincronizada com sucesso
+anomaly-sync-disconnected = Sincronização com anomalia perdida!
 anomaly-sync-no-anomaly = Nenhuma anomalia no alcance.
-anomaly-sync-examine-connected = Está [color=darkgreen]anexado[/color] a uma anomalia.
-anomaly-sync-examine-not-connected = [color=darkred]não está anexado[/color] a uma anomalia.
-anomalia-sync-connect-verb-text = Anexar anomalia
-anomaly-sync-connect-verb-message = Anexe uma anomalia próxima a {THE($machine)}.
+anomaly-sync-examine-connected = Está [color=darkgreen]sincronizado[/color] com uma anomalia.
+anomaly-sync-examine-not-connected = [color=darkred]não está sincronizada[/color] com uma anomalia.
+anomalia-sync-connect-verb-text = sincronizar anomalia
+anomaly-sync-connect-verb-message = sincronize uma anomalia próxima a {THE($machine)}.
 
 anomaly-generator-ui-title = Gerador de Anomalia
 anomaly-generator-fuel-display = Combustível:
-anomaly-generator-cooldown = Cooldown: [color=gray]{$time}[/color]
-anomaly-generator-no-cooldown = Cooldown: [color=gray]Completo[/color]
+anomaly-generator-cooldown = Tempo de recarga: [color=gray]{$time}[/color]
+anomaly-generator-no-cooldown = Tempo de recarga: [color=gray]Completo[/color]
 anomaly-generator-yes-fire = Estado: [color=forestgreen]Pronto[/color]
 anomaly-generator-no-fire = Estado: [color=crimson]Não pronto[/color]
 anomaly-generator-generate = Gerar Anomalia
@@ -69,8 +69,8 @@ anomaly-generator-charges = {$charges ->
 }
 anomaly-generator-announcement = Uma anomalia foi gerada!
 
-anomaly-command-pulse = Pulsa um alvo de anomalia
-anomaly-command-supercritical = Faz com que um alvo de anomalia se torne supercrítica
+anomaly-command-pulse = Pulsa uma anomalia
+anomaly-command-supercritical = Faz com que uma anomalia se torne supercrítica
 
 # Flavor text on the footer
 anomaly-generator-flavor-left = Anomalias podem surgir dentro do operador.

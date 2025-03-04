@@ -1,7 +1,7 @@
 ﻿guidebook-reagent-effect-description =
     {$chance ->
         [1] { $effect }
-        *[other] Tem um { NATURALPERCENT($chance, 2) } chance para { $effect }
+        *[other] Tem { NATURALPERCENT($chance, 2) }% de chance de { $effect }
     }{ $conditionCount ->
         [0] .
         *[other] {" "}quando { $conditions }.

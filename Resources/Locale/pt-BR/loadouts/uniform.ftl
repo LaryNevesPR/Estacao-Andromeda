@@ -1,1 +1,1 @@
-loadout-description-LoadoutUniformAncientJumpsuit = The legend of the Greytide.
+loadout-description-LoadoutUniformAncientJumpsuit = A lenda da horda cinza.

@@ -1,30 +1,30 @@
-whitelist-not-whitelisted = Você não está na whitelist.
+whitelist-not-whitelisted = Você não está na Lista de Permissão.
 
 # proper handling for having a min/max or not
 whitelist-playercount-invalid = {$min ->
-    [0] A whitelist para este servidor só se aplica com menos de {$max} jogadores.
-    *[other] A whitelist para este servidor só se aplica com mais de {$min} {$max ->
+    [0] A Lista de Permissão para este servidor só se aplica com menos de {$max} jogadores.
+    *[other] A Lista de Permissão para este servidor só se aplica com mais de {$min} {$max ->
         [2147483647] -> jogadores, então talvez você possa entrar mais tarde.
         *[other] -> jogadores e menos de {$max} jogadores, então talvez você possa entrar mais tarde.
     }
 }
-whitelist-not-whitelisted-rp = Você não está na whitelist. Para entrar na whitelist, visite nosso Discord (que pode ser encontrado em http://estacaoandromeda.xyz/).
+whitelist-not-whitelisted-rp = Você não está na Lista de Permissão. Para entrar na Lista de Permissão, visite nosso Discord (que pode ser encontrado em http://estacaoandromeda.xyz/).
 
-cmd-whitelistadd-desc = Adiciona o jogador na whitelist.
+cmd-whitelistadd-desc = Adiciona o jogador na Lista de Permissão.
 cmd-whitelistadd-help = whitelistadd <username>
-cmd-whitelistadd-existing = {$username} já está na whitelist!
-cmd-whitelistadd-added = {$username} adicionado à whitelist
+cmd-whitelistadd-existing = {$username} já está na Lista de Permissão!
+cmd-whitelistadd-added = {$username} adicionado à Lista de Permissão
 cmd-whitelistadd-not-found = Usuário '{$username}' não encontrado
 cmd-whitelistadd-arg-player = [player]
 
-cmd-whitelistremove-desc = Remove o jogador da whitelist.
+cmd-whitelistremove-desc = Remove o jogador da Lista de Permissão.
 cmd-whitelistremove-help = whitelistremove <username>
-cmd-whitelistremove-existing = {$username} não está na whitelist!
-cmd-whitelistremove-removed = {$username} removido da whitelist
+cmd-whitelistremove-existing = {$username} não está na Lista de Permissão!
+cmd-whitelistremove-removed = {$username} removido da Lista de Permissão
 cmd-whitelistremove-not-found = Incapaz de achar '{$username}'
 cmd-whitelistremove-arg-player = [player]
 
-cmd-kicknonwhitelisted-desc = Expulsar todos os jogadores que não estão na whitelist.
+cmd-kicknonwhitelisted-desc = Expulsar todos os jogadores que não estão na Lista de Permissão.
 cmd-kicknonwhitelisted-help = kicknonwhitelisted
 
 ban-banned-permanent = Este ban só será removido através de apelo.

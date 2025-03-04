@@ -1,3 +1,4 @@
-loadout-description-LoadoutSecurityUniformJumpskirtSenior = A skirt fit for the best of the best.
-loadout-description-LoadoutSecurityUniformJumpsuitSenior = A suit fit for the best of the best.
-loadout-description-LoadoutSecurityShoesJackboots = A really nice, heavy, pair of black boots.
+loadout-description-LoadoutSecurityUniformJumpskirtSenior = Uma saia adequada para os melhores dos melhores.
+loadout-description-LoadoutSecurityUniformJumpsuitSenior = Um traje adequado para os melhores dos melhores.
+loadout-description-LoadoutSecurityShoesJackboots = Um par de botas pretas, pesadas e muito bonitas.
+

@@ -1,35 +1,35 @@
 language-Universal-name = Universal
-language-Universal-description = What are you?
+language-Universal-description = O que você é?
 
-language-GalacticCommon-name = Galactic common
-language-GalacticCommon-description = The standard Galatic language, most commonly used for inter-species communications and legal work.
+language-GalacticCommon-name = Galático Comum
+language-GalacticCommon-description = A língua padrão galáctica, mais comumente usada para comunicações entre espécies e trabalhos legais.
 
-language-Bubblish-name = Bubblish
-language-Bubblish-description = The language of Slimes. Being a mixture of bubbling noises and pops it's very difficult to speak for humans without the use of mechanical aids.
+language-Bubblish-name = Borbulhoso
+language-Bubblish-description = A língua dos Slimes. Sendo uma mistura de sons borbulhantes e estalos, é muito difícil para os humanos falarem sem o uso de ajuda mecânica.
 
-language-RootSpeak-name = Rootspeak
-language-RootSpeak-description = The strange whistling-style language spoken by the Diona.
+language-RootSpeak-name = Fala da raiz
+language-RootSpeak-description = A estranha língua de assobios falada pelos Diona.
 
-language-Nekomimetic-name = Nekomimetic
-language-Nekomimetic-description = To the casual observer, this language is an incomprehensible mess of broken Japanese. To the Felinids and Oni, it's somehow comprehensible.
+language-Nekomimetic-name = Nekomimético
+language-Nekomimetic-description = Para o observador casual, esta língua é uma bagunça incompreensível de japonês quebrado. Para os Felinids e Oni, é de alguma forma compreensível.
 
-language-Draconic-name = Draconic
-language-Draconic-description = The common language of lizard-people, composed of sibilant hisses and rattles.
+language-Draconic-name = Dracônico
+language-Draconic-description = A língua comum dos homens-lagarto, composta por sibilos e chocalhos.
 
-language-SolCommon-name = Sol common
-language-SolCommon-description = The language common to species from the Sol System.
+language-SolCommon-name = Sol Comum
+language-SolCommon-description = A língua comum às espécies do Sistema Sol.
 
 language-Canilunzt-name = Canilunzt
-language-Canilunzt-description = The guttural language spoken and utilized by the inhabitants of the Vazzend system, composed of growls, barks, yaps, and heavy utilization of ears and tail movements. Vulpkanin speak this language with ease.
+language-Canilunzt-description = A língua gutural falada e utilizada pelos habitantes do sistema Vazzend, composta por rosnados, latidos, guinchos e forte utilização de movimentos de orelhas e cauda. Os Vulpkanin falam essa língua com facilidade.
 
-language-Moffic-name = Moffic
-language-Moffic-description = The language of the mothpeople borders on complete unintelligibility.
+language-Moffic-name = Mófico
+language-Moffic-description = A língua dos povos mariposa beira a completa ininteligibilidade.
 
-language-RobotTalk-name = RobotTalk
-language-RobotTalk-description = A language consisting of harsh binary chirps, whistles, hisses, and whines. Organic tongues cannot speak it without aid from special translators.
+language-RobotTalk-name = Binário
+language-RobotTalk-description = Uma língua composta por guinchos binários, assobios, sibilos e lamentos. Línguas orgânicas não podem falar sem a ajuda de tradutores especiais.
 
-language-Sign-name = Galactic Sign Language
-language-Sign-description = GSL for short, this sign language is prevalent among mute and deaf people.
+language-Sign-name = Linguagem de Sinais Galáctica
+language-Sign-description = Abreviada como GSL, esta linguagem de sinais é prevalente entre pessoas mudas e surdas.
 
 language-TauCetiBasic-name = Tau-Ceti Básico
 language-TauCetiBasic-description =
@@ -37,50 +37,50 @@ language-TauCetiBasic-description =
     Seu alfabeto e estrutura únicos e totalmente personalizados permitem que seja falado até mesmo pela maioria das espécies alienígenas.
     É a língua oficial de Tau Ceti e tem tração crescente em círculos diplomáticos e universalistas em todo o espaço humano.
 
-language-Marish-name = Marish
-language-Marish-description =  Uma linguagem inerentemente empática, que transmite emoções com uma única palavra; falada sem esforço pelos Shadowkins, embora quase impossível de aprender ou replicar.
+language-Marish-name = Marisiano
+language-Marish-description = Uma linguagem inerentemente empática, que transmite emoções com uma única palavra; falada sem esforço pelos Shadowkins, embora quase impossível de aprender ou replicar.
 
-language-Cat-name = Cat
-language-Cat-description = Meow
+language-Cat-name = Gato
+language-Cat-description = Miau
 
-language-Dog-name = Dog
-language-Dog-description = Bark!
+language-Dog-name = Cachorro
+language-Dog-description = Au!
 
-language-Fox-name = Fox
-language-Fox-description = Yeeps!
+language-Fox-name = Raposa
+language-Fox-description = Yips!
 
 language-Xeno-name = Xeno
 language-Xeno-description = Sssss!
 
-language-Monkey-name = Monkey
-language-Monkey-description = oooook!
+language-Monkey-name = Macaco
+language-Monkey-description = uuuuh!
 
-language-Mouse-name = Mouse
-language-Mouse-description = Squeeek!
+language-Mouse-name = Rato
+language-Mouse-description = Squeek!
 
-language-Chicken-name = Chicken
-language-Chicken-description = Coot!
+language-Chicken-name = Galinha
+language-Chicken-description = Có!
 
-language-Duck-name = Duck
+language-Duck-name = Pato
 language-Duck-description = Quack!
 
-language-Cow-name = Cow
-language-Cow-description = Moooo!
+language-Cow-name = Vaca
+language-Cow-description = Muuu!
 
-language-Sheep-name = Sheep
-language-Sheep-description = Baaah!
+language-Sheep-name = Ovelha
+language-Sheep-description = Bééé!
 
-language-Kangaroo-name = Kangaroo
+language-Kangaroo-name = Canguru
 language-Kangaroo-description = Chuu!
 
-language-Pig-name = Pig
+language-Pig-name = Porco
 language-Pig-description = Oink!
 
-language-Crab-name = Crab
-language-Crab-description = Click!
+language-Crab-name = Caranguejo
+language-Crab-description = Clic!
 
 language-Kobold-name = Kobold
 language-Kobold-description = Hiss!
 
-language-Hissing-name = Hissing
+language-Hissing-name = Sibilo
 language-Hissing-description = Hiss!

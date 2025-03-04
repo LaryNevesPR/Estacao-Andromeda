@@ -22,10 +22,10 @@ humanoid-profile-editor-width-label = Largura: {$width}cm
 humanoid-profile-editor-weight-label = Peso: {$weight}kg
 humanoid-profile-editor-import-button = Importar
 humanoid-profile-editor-export-button = Exportar
-humanoid-profile-editor-export-image-button = Export img
-humanoid-profile-editor-open-image-button = Open img
+humanoid-profile-editor-export-image-button = Exportar img
+humanoid-profile-editor-open-image-button = Abrir img
 humanoid-profile-editor-save-button = Salvar
-humanoid-profile-editor-reset-button = Resetar
+humanoid-profile-editor-reset-button = Redefinir
 humanoid-profile-editor-clothing-label = Roupas:
 humanoid-profile-editor-backpack-label = Mochila:
 humanoid-profile-editor-spawn-priority-label = Prioridade de Spawn:
@@ -47,10 +47,10 @@ humanoid-profile-editor-preference-spawn-priority-cryosleep = Crio-hibernar
 
 humanoid-profile-editor-jobs-amount-in-department-tooltip = Trabalhos no departamento: {$departmentName}
 humanoid-profile-editor-department-jobs-label = Trabalhos {$departmentName}
-humanoid-profile-editor-antags-tab = Antags
+humanoid-profile-editor-antags-tab = Antagonistas
 humanoid-profile-editor-antag-preference-yes-button = Sim
 humanoid-profile-editor-antag-preference-no-button = Não
-humanoid-profile-editor-traits-tab = Traits
+humanoid-profile-editor-traits-tab = Características
 humanoid-profile-editor-job-priority-high-button = Alta
 humanoid-profile-editor-job-priority-medium-button = Média
 humanoid-profile-editor-job-priority-low-button = Baixa
@@ -58,39 +58,39 @@ humanoid-profile-editor-job-priority-never-button = Nunca
 humanoid-profile-editor-naming-rules-warning = Crie seu próprio nome único e realista. Consulte a regra nº 10 para todas as restrições e expectativas.
 humanoid-profile-editor-markings-tab = Marcas
 humanoid-profile-editor-flavortext-tab = Descrição
-humanoid-profile-editor-loadouts-show-unusable-button = Mostrar loadout invalidos
+humanoid-profile-editor-loadouts-show-unusable-button = Mostrar equipamentos inválidos
 humanoid-profile-editor-loadouts-show-unusable-button-tooltip =
-    Quando ativado, Os loadouts que seu personagem não pode usar serão destacados em vermelho.
-    Os Loadouts que seu personagem não pode vestir (se forem roupas) serão destacados em amarelo.
-    Você não poderá usar os Loadout inválidos a menos que ajuste a configuração do seu personagem.
+    Quando ativado, Os equipamentos que seu personagem não pode usar serão destacados em vermelho.
+    Os equipamentos que seu personagem não pode vestir (se forem roupas) serão destacados em amarelo.
+    Você não poderá usar os equipamentos inválidos a menos que ajuste a configuração do seu personagem.
     Isso é útil se você troca de trabalho com frequência e não quer re-selecionar seu carregamento sempre.
 humanoid-profile-editor-loadouts-remove-unusable-button = Remover {$count ->
-    [1] {$count} Unusable Loadout
-    *[other] {$count} Unusable Loadouts
+    [1] {$count} Equipamento Inválido
+    *[other] {$count} Equipamentos Inválidos
 }
 humanoid-profile-editor-loadouts-remove-unusable-button-tooltip =
-    Se você clicar neste botão, todos os Loadout que seu personagem não pode usar serão removidos.
+    Se você clicar neste botão, todos os equipamentos que seu personagem não pode usar serão removidos.
     Você precisará confirmar antes da remoção.
-humanoid-profile-editor-loadouts-no-loadouts = Nenhum loadout encontrado.
+humanoid-profile-editor-loadouts-no-loadouts = Nenhum equipamento encontrado.
 humanoid-profile-editor-loadouts-points-label = Você tem {$points}/{$max} pontos
-humanoid-profile-editor-loadouts-tab = Loadout
+humanoid-profile-editor-loadouts-tab = equipamentos
 humanoid-profile-editor-traits-header = Você tem {$points ->
-    [1] 1 point
-    *[other] {$points} points
+    [1] 1 ponto
+    *[other] {$points} pontos
 } and {$maxTraits ->
     [2147483648] {$traits ->
-        [1] {$traits} trait
-        *[other] {$traits} traits
+        [1] {$traits} Característica
+        *[other] {$traits} Características
     }
-    *[other] {$traits}/{$maxTraits} traits
+    *[other] {$traits}/{$maxTraits} Características
 }
-humanoid-profile-editor-traits-remove-unusable-button = Remover {$count} Unusable Traits
+humanoid-profile-editor-traits-remove-unusable-button = Remover {$count} Características inválidas
 humanoid-profile-editor-traits-remove-unusable-button-tooltip =
-    Se você clicar neste botão, todos os Loadout que seu personagem não pode usar serão removidos.
+    Se você clicar neste botão, todas as Características que seu personagem não pode usar serão removidos.
     Você precisará confirmar antes da remoção.
-humanoid-profile-editor-traits-no-traits = Nenhum traço encontrado.
-humanoid-profile-editor-traits-show-unusable-button = Mostrar Traços Inutilizáveis
+humanoid-profile-editor-traits-no-traits = Nenhuma Característica encontrada.
+humanoid-profile-editor-traits-show-unusable-button = Mostrar Características inválidas.
 humanoid-profile-editor-traits-show-unusable-button-tooltip =
- Quando ativado, traços que sua configuração atual de personagem não pode usar serão mostrados destacados em vermelho ou laranja se selecionados.
- Você ainda não poderá usar os traços inválidos, a menos que a configuração do seu personagem mude para atender aos requisitos.
- Isso provavelmente é útil apenas se houver um bug ocultando traços que você realmente pode usar ou se você quiser ver traços de outras espécies ou algo assim.
+ Quando ativado, Características que sua configuração atual de personagem não pode usar serão mostrados destacados em vermelho ou laranja se selecionados.
+ Você ainda não poderá usar as Características inválidas, a menos que a configuração do seu personagem mude para atender aos requisitos.
+ Isso provavelmente é útil apenas se houver um bug ocultando Características que você realmente pode usar ou se você quiser ver Características de outras espécies ou algo assim.

@@ -1,5 +1,5 @@
 comp-gas-canister-ui-canister-status = Status do Tanque
-comp-gas-canister-ui-canister-relabel = Relegendar
+comp-gas-canister-ui-canister-relabel = Re-legendar
 comp-gas-canister-ui-canister-pressure = Pressão do Tanque:
 
 comp-gas-canister-ui-port-status = Status da Porta:

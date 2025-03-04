@@ -7,11 +7,11 @@ ent-CrateFoodMRE = Caixa de MRE
 ent-CrateFoodCooking = Caixa de suprimentos de cozinha
     .desc = Suprimentos de cozinha extras, caso os botânicos estejam ausentes.
 
-ent-CrateFoodDinnerware = Kitchen dinnerware crate
-    .desc = Extra kitchen supplies, in case the clown was allowed in the cafeteria unsupervised.
+ent-CrateFoodDinnerware = Caixa de utensílios de cozinha
+    .desc = Suprimentos extras de cozinha, caso o palhaço tenha sido permitido na cafeteria sem supervisão.
 
-ent-CrateFoodBarSupply = Bartending supplies crate
-    .desc = Extra Bar supplies, in case the clown was allowed in the bar unsupervised.
+ent-CrateFoodBarSupply = Caixa de suprimentos de bar
+    .desc = Suprimentos extras de bar, caso o palhaço tenha sido permitido no bar sem supervisão.
 
 ent-CrateFoodKvassTank = Tanque KVASS
     .desc = Um tanque com kvass refrescante, que tanto ajuda no calor.

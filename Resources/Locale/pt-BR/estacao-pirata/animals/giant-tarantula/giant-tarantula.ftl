@@ -1,5 +1,5 @@
 giant-tarantula-raise-army-name = Aumentar exército
-giant-tarantula-raise-army-description = Gaste um pouco de fome para sumonar uma tarantula que te proteja.
+giant-tarantula-raise-army-description = Gaste um pouco de fome para criar uma tarantula que te protege.
 
 giant-tarantula-domain-name = Domínio da Tarantula
 giant-tarantula-domain-description = Gaste um pouco de fome para criar uma teia.

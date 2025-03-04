@@ -1,123 +1,122 @@
-ent-FloorTileItemSteel = steel tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemSteel = ladrilho de aço
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemMetalDiamond = steel tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemMetalDiamond = ladrilho de aço
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemWood = wood floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemWood = chão de madeira
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemWhite = white tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemWhite = ladrilho branco
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemDark = dark tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemDark = ladrilho escuro
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemTechmaint = techmaint floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemTechmaint = chão de techmaint
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemReinforced = reinforced tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemReinforced = ladrilho reforçado
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemMono = mono tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemMono = ladrilho mono
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemLino = linoleum floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemLino = chão de linóleo
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemDirty = dirty tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemDirty = ladrilho sujo
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemElevatorShaft = elevator shaft tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemElevatorShaft = ladrilho de poço de elevador
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemRockVault = rock vault tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemRockVault = ladrilho de cofre de rocha
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemBlue = blue tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemBlue = ladrilho azul
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemFreezer = freezer tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemFreezer = ladrilho de freezer
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShowroom = showroom tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShowroom = ladrilho de showroom
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemHydro = hydro tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemHydro = ladrilho hidro
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemBar = bar tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemBar = ladrilho de bar
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemClown = clown tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemClown = ladrilho de palhaço
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemMime = mime tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemMime = ladrilho de mímico
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemKitchen = kitchen tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemKitchen = ladrilho de cozinha
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemLaundry = laundry tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemLaundry = ladrilho de lavanderia
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemArcadeBlue = blue arcade floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemArcadeBlue = chão de arcade azul
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemArcadeBlue2 = blue arcade floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemArcadeBlue2 = chão de arcade azul
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemArcadeRed = red arcade floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemArcadeRed = chão de arcade vermelho
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemEighties = eighties floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemEighties = chão dos anos 80
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemCarpetClown = clown carpet floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemCarpetClown = chão de carpete de palhaço
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemCarpetOffice = office carpet floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemCarpetOffice = chão de carpete de escritório
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemBoxing = boxing ring floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemBoxing = chão de ringue de boxe
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemGym = gym floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemGym = chão de academia
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShuttleWhite = white shuttle floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShuttleWhite = chão de transporte branco
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShuttleBlue = blue shuttle floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShuttleBlue = chão de transporte azul
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShuttleOrange = orange shuttle floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShuttleOrange = chão de transporte laranja
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShuttlePurple = purple shuttle floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShuttlePurple = chão de transporte roxo
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemShuttleRed = red shuttle floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemShuttleRed = chão de transporte vermelho
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemGold = gold floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemGold = chão de ouro
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemSilver = silver tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemSilver = ladrilho de prata
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemGCircuit = green circuit floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemGCircuit = chão de circuito verde
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemBCircuit = blue circuit floor
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemBCircuit = chão de circuito azul
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemGrass = grass tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemGrass = ladrilho de grama
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemGrassJungle = jungle grass tile
-    .desc = These could work as a pretty decent throwing weapon.
+ent-FloorTileItemGrassJungle = ladrilho de grama de selva
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemSnow = snow tile
-    .desc = These could work as a pretty decent throwing weapon.
-
+ent-FloorTileItemSnow = ladrilho de neve
+    .desc = Isso poderia funcionar como uma arma de arremesso decente.

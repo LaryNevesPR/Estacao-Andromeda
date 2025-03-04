@@ -1,7 +1,8 @@
-marking-OniHornSingleCurved = Single Curved
-marking-OniHornSingleLeftCurved =Single Left Curved
-marking-OniHornSingleRightCurved = Single Right Curved
-marking-OniHornDoubleCurvedOutwards = Double Curved Outwards
-marking-OniHornDoubleCurved = Double Curved
-marking-OniHornDoubleLeftBrokeCurved = Double Left Broke Curved
-marking-OniHornDoubleRightBrokeCurved =  Double Right Broke Curved
+marking-OniHornSingleCurved = Curvado Único
+marking-OniHornSingleLeftCurved = Curvado Único Esquerdo
+marking-OniHornSingleRightCurved = Curvado Único Direito
+marking-OniHornDoubleCurvedOutwards = Curvado Duplo para Fora
+marking-OniHornDoubleCurved = Curvado Duplo
+marking-OniHornDoubleLeftBrokeCurved = Curvado Duplo Esquerdo Quebrado
+marking-OniHornDoubleRightBrokeCurved = Curvado Duplo Direito Quebrado
+

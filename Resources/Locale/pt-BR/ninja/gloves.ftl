@@ -1,4 +1,4 @@
-ninja-gloves-on = As luvas aumentam com poder!
+ninja-gloves-on = As luvas vibram com poder!
 ninja-gloves-off = As luvas desligam...
 ninja-gloves-not-wearing-suit = Você não está vestindo uma roupa de ninja
 ninja-gloves-examine-on = Todas as habilidades estão habilitadas.

@@ -1,6 +1,6 @@
 limited-charges-charges-remaining = {$charges ->
     [one] Tem [color=fuchsia]{$charges}[/color] carga restante.
-    *[other] Tem [color=fuchsia]{$charges}[/color] carga restantes.
+    *[other] Tem [color=fuchsia]{$charges}[/color] cargas restantes.
 }
 
 limited-charges-max-charges = Está em [color=green]maximum[/color] carga.

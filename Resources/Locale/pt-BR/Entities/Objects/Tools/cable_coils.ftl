@@ -1,28 +1,28 @@
 ent-CableStack = pilha de cabos
     .desc = { "" }
-    .suffix = Completa
+    .suffix = Cheio
 
-ent-CableHVStack = cabos de AT
+ent-CableHVStack = cabos HV
     .desc = Bobina de cabos de Alta Tensão para conexão de fontes de energia a SMES e Subestações.
-    .suffix = Completa
+    .suffix = Cheio
 
-ent-CableHVStack1 = cabos de AT
+ent-CableHVStack1 = cabos HV
     .desc = Bobina de cabos de Alta Tensão para conexão de fontes de energia a SMES e Subestações.
     .suffix = 1
 
-ent-CableMVStack = cabos de MT
+ent-CableMVStack = cabos MV
     .desc = Bobina de cabos de Média Tensão para conexão de Subestações a APCs
-    .suffix = Completa
+    .suffix = Cheio
 
-ent-CableMVStack1 = cabos de MT
+ent-CableMVStack1 = cabos MV
     .desc = Bobina de cabos de Média Tensão para conexão de Subestações a APCs
     .suffix = 1
 
-ent-CableApcStack = cabos de BT
+ent-CableApcStack = cabos LV
     .desc = Bobina de cabos de Baixa Tensão para conectar APCs a máquinas, luzes, portas, e outras finalidades.
-    .suffix = Completa
+    .suffix = Cheio
 
-ent-CableApcStack1 = cabos de BT
+ent-CableApcStack1 = cabos LV
     .desc = Bobina de cabos de Baixa Tensão para conectar APCs a máquinas, luzes, portas, e outras finalidades.
     .suffix = 1
 

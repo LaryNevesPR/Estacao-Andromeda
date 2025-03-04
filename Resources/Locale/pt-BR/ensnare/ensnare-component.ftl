@@ -2,4 +2,4 @@
 ensnare-component-try-free-complete = Você tem sucesso em se libertar de {$ensnare}!
 ensnare-component-try-free-fail = Você falha em se libertar de {$ensnare}!
 
-ensnare-component-try-free-other = Você começa remover {$ensnare} preso n{ THE($user) }!
+ensnare-component-try-free-other = Você começa remover {$ensnare} preso em { THE($user) }!

@@ -5,6 +5,6 @@ cryostorage-ui-window-title = Unidade de Sono Criogênico
 cryostorage-ui-label-slot-name = [bold]{CAPITALIZE($slot)}:[/bold]
 cryostorage-ui-button-remove = Remover
 cryostorage-ui-filler-hand = em mão
-cryostorage-ui-label-no-bodies = Sem corpos em crio-storagem
+cryostorage-ui-label-no-bodies = Sem corpos em crio-armazenamento
 
 cryostorage-popup-access-denied = Acesso negado!

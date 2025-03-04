@@ -6,8 +6,8 @@ invoke-verb-command-help = invokeverb <playerUid | "self"> <targetUid> <verbName
 
 invoke-verb-command-invalid-args = invokeverb precisa de 2 argumentos.
 
-invoke-verb-command-invalid-player-uid = UID do jogador não pôde ser analizado, ou "self" não foi válido.
-invoke-verb-command-invalid-target-uid = UID do alvo não pôde ser analizado.
+invoke-verb-command-invalid-player-uid = UID do jogador não pôde ser analisado, ou "self" não foi válido.
+invoke-verb-command-invalid-target-uid = UID do alvo não pôde ser analisado.
 
 invoke-verb-command-invalid-player-entity = UID do jogador não corresponde a uma entidade válida.
 invoke-verb-command-invalid-target-entity = UID do alvo não corresponde a uma entidade válida.

@@ -1,5 +1,6 @@
-discord-rpc-in-main-menu = In Main Menu
-discord-rpc-in-main-menu-logo-text = I think coolsville SUCKS
-discord-rpc-character = Username: {$username}
-discord-rpc-on-server = On Server: {$servername}
-discord-rpc-players = Players: {$players}/{$maxplayers}
+discord-rpc-in-main-menu = No Menu Principal
+discord-rpc-in-main-menu-logo-text = Eu acho que Coolsville é um LIXO
+discord-rpc-character = Nome de Usuário: {$username}
+discord-rpc-on-server = No Servidor: {$servername}
+discord-rpc-players = Jogadores: {$players}/{$maxplayers}
+

@@ -1,7 +1,7 @@
-ent-Autolathe = torno
+ent-Autolathe = autotorno
     .desc = Produz itens usando metal e vidro.
 
-ent-Protolathe = torno avançado
+ent-Protolathe = prototorno
     .desc = Converte matérias-primas em objetos úteis.
 
 ent-CircuitImprinter = impressora de circuitos
@@ -19,10 +19,10 @@ ent-UniformPrinter = impressora de uniformes
 ent-OreProcessor = processador de minérios
     .desc = Produz placas de materiais a partir de materiais brutos.
 
-ent-AutolatheHyperConvection = torno de hiperconvecção
+ent-AutolatheHyperConvection = torno de hiper convecção
     .desc = Um torno altamente experimental que aproveita o poder do calor extremo para criar lentamente objetos de forma mais econômica.
 
-ent-ProtolatheHyperConvection = torno avançado de hiperconvecção
+ent-ProtolatheHyperConvection = torno avançado de hiper convecção
     .desc = Um torno avançado altamente experimental que aproveita o poder do calor extremo para criar lentamente objetos de forma mais econômica.
 
 ent-OreProcessorIndustrial = processador de minérios industrial

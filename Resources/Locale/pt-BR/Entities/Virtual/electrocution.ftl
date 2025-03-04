@@ -1,9 +1,9 @@
-ent-VirtualElectrocutionLoadHVPower = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
+ent-VirtualElectrocutionLoadHVPower = ELECTROCUTION ENTITY VOCÊ NÃO DEVERIA VER ISTO
     .desc = { "" }
 
-ent-VirtualElectrocutionLoadMVPower = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
+ent-VirtualElectrocutionLoadMVPower = ELECTROCUTION ENTITY VOCÊ NÃO DEVERIA VER ISTO
     .desc = { "" }
 
-ent-VirtualElectrocutionLoadApc = ELECTROCUTION ENTITY YOU SHOULD NOT SEE THIS
+ent-VirtualElectrocutionLoadApc = ELECTROCUTION ENTITY VOCÊ NÃO DEVERIA VER ISTO
     .desc = { "" }
 

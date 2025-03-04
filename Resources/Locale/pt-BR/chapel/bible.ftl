@@ -10,7 +10,7 @@ bible-sizzle = O Livro treme em sua mão!
 bible-summon-verb = Convocar familiar
 bible-summon-verb-desc = Convoque um familiar que irá ajudá-lo e ganhar inteligência humana, uma vez habitado por uma alma.
 bible-summon-requested = O seu familiar irá chegar assim que uma alma disposta se voluntariar.
-bible-summon-respawn-ready = {CAPITALIZE(THE($book))} surge com poder etéreo. O seu residente está em casa denovo.
+bible-summon-respawn-ready = {CAPITALIZE(THE($book))} surge com poder etéreo. O seu residente está em casa novamente.
 
 necro-heal-success-self = Você acerta {THE($target)} com {THE($bible)}, e a carne dele(a) deforma enquanto derrete!
 necro-heal-success-others = {CAPITALIZE(THE($user))} acerta {THE($target)} com {THE($bible)}, e a carne dele(a) deforma enquanto derrete!

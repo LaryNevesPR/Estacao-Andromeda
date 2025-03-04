@@ -5,9 +5,9 @@ chat-speech-verb-vulpkanin-3 = rosna
 chat-speech-verb-vulpkanin-4 = rosna
 
 chat-speech-verb-name-felinid = Felinid
-chat-speech-verb-felinid-1 = mraows
-chat-speech-verb-felinid-2 = mews
-chat-speech-verb-felinid-3 = meows
+chat-speech-verb-felinid-1 = mia
+chat-speech-verb-felinid-2 = mia
+chat-speech-verb-felinid-3 = mia
 chat-speech-verb-felinid-4 = ronrona
 
 chat-speech-verb-name-harpy = Harpia

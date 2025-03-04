@@ -1,4 +1,4 @@
-ent-BaseWeaponPistol = BasePistola
+ent-BaseWeaponPistol = Pistola genérica
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponPistolViper = víbora

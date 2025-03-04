@@ -1,4 +1,4 @@
-ent-PlantBGoneSpray = Planta-B-Gone
+ent-PlantBGoneSpray = Spray Planta-B-Gone
      .desc = Mata aquelas ervas daninhas irritantes!
      .suffix = Preenchido
 

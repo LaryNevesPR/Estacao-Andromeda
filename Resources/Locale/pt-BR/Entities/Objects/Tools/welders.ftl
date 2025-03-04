@@ -10,5 +10,5 @@ ent-WelderIndustrialAdvanced = soldador industrial avançado
 ent-WelderExperimental = soldador experimental
      .desc = Um soldador experimental capaz de gerar autocombustível e menos prejudicial aos olhos.
 
-ent-WelderMini = soldador emergêncial
+ent-WelderMini = soldador emergencial
      .desc = Um soldador em miniatura usado em emergências.

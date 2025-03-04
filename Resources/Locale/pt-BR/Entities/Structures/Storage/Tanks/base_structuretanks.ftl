@@ -1,3 +1,3 @@
-ent-StorageTank = storage tank
-    .desc = A liquids storage tank.
+ent-StorageTank = tanque de armazenamento
+    .desc = Um tanque de armazenamento de líquidos.
 

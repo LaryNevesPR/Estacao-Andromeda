@@ -1,296 +1,299 @@
-accent-cowboy-words-1 = alcohol
-accent-cowboy-replacement-1 = firewater
+accent-cowboy-words-1 = álcool
+accent-cowboy-replacement-1 = pinga
 
 accent-cowboy-words-2 = alien
-accent-cowboy-replacement-2 = space critter
+accent-cowboy-replacement-2 = bicho do espaço
 
 accent-cowboy-words-3 = aliens
-accent-cowboy-replacement-3 = space critters
+accent-cowboy-replacement-3 = bichos do espaço
 
-accent-cowboy-words-4 = ambush
-accent-cowboy-replacement-4 = bush whack
+accent-cowboy-words-4 = emboscada
+accent-cowboy-replacement-4 = surpresa
 
-accent-cowboy-words-5 = angry
-accent-cowboy-replacement-5 = fit to be tied
+accent-cowboy-words-5 = irritado
+accent-cowboy-replacement-5 = pronto pra ser amarrado
 
 accent-cowboy-words-6 = animal
-accent-cowboy-replacement-6 = critter
+accent-cowboy-replacement-6 = bicho
 
 accent-cowboy-words-7 = animals
-accent-cowboy-replacement-7 = critters
+accent-cowboy-replacement-7 = bichos
 
-accent-cowboy-words-8 = arrest
-accent-cowboy-replacement-8 = lasso
+accent-cowboy-words-8 = prender
+accent-cowboy-replacement-8 = enlaçar
 
-accent-cowboy-words-9 = arrested
-accent-cowboy-replacement-9 = lassoed
+accent-cowboy-words-9 = preso
+accent-cowboy-replacement-9 = enlaçado
 
-accent-cowboy-words-10 = bomb
-accent-cowboy-replacement-10 = dynamite
+accent-cowboy-words-10 = bomba
+accent-cowboy-replacement-10 = dinamite
 
 accent-cowboy-words-11 = borg
-accent-cowboy-replacement-11 = tin man
+accent-cowboy-replacement-11 = homem de lata
 
-accent-cowboy-words-12 = bye
-accent-cowboy-replacement-12 = so long
+accent-cowboy-words-12 = tchau
+accent-cowboy-replacement-12 = até uma próxima
 
-accent-cowboy-words-13 = cell
-accent-cowboy-replacement-13 = pokey
+accent-cowboy-words-13 = cela
+accent-cowboy-replacement-13 = xilindró
 
-accent-cowboy-words-14 = chef
-accent-cowboy-replacement-14 = cookie
+accent-cowboy-words-14 = cozinheiro
+accent-cowboy-replacement-14 = mestre cuca
 
-accent-cowboy-words-15 = coffee
-accent-cowboy-replacement-15 = black water
+accent-cowboy-words-15 = cafée
+accent-cowboy-replacement-15 = agua preta
 
-accent-cowboy-words-16 = confused
-accent-cowboy-replacement-16 = stumped
+accent-cowboy-words-16 = confuso
+accent-cowboy-replacement-16 = Pego de calças curtas
 
-accent-cowboy-words-17 = cool
-accent-cowboy-replacement-17 = slick
+accent-cowboy-words-17 = maneiro
+accent-cowboy-replacement-17 = Show de bola
 
-accent-cowboy-words-18 = corpse
-accent-cowboy-replacement-18 = dead meat
+accent-cowboy-words-18 = cadáver
+accent-cowboy-replacement-18 = carne morta
 
-accent-cowboy-words-19 = cow
-accent-cowboy-replacement-19 = dogie
+accent-cowboy-words-19 = vaca
+accent-cowboy-replacement-19 = Bezerro
 
-accent-cowboy-words-20 = cows
-accent-cowboy-replacement-20 = dogies
+accent-cowboy-words-20 = vacas
+accent-cowboy-replacement-20 = Bezerros
 
 accent-cowboy-words-21 = crazy
-accent-cowboy-replacement-21 = cracked
+accent-cowboy-replacement-21 = Pirado
 
-accent-cowboy-words-22 = cyborg
-accent-cowboy-replacement-22 = tin man
+accent-cowboy-words-22 = ciborgue
+accent-cowboy-replacement-11 = homem de lata
 
-accent-cowboy-words-23 = dad
-accent-cowboy-replacement-23 = pappy
+accent-cowboy-words-23 = pai
+accent-cowboy-replacement-23 = painho
 
-accent-cowboy-words-24 = drunk
-accent-cowboy-replacement-24 = soaked
+accent-cowboy-words-24 = bêbado
+accent-cowboy-replacement-24 = Encharcado
 
-accent-cowboy-words-25 = explosive
-accent-cowboy-replacement-25 = dynamite
+accent-cowboy-words-25 = explosivo
+accent-cowboy-replacement-25 = dinamite
 
-accent-cowboy-words-26 = fast
-accent-cowboy-replacement-26 = lickety split
+accent-cowboy-words-26 = rápido
+accent-cowboy-replacement-26 = vapt-vupt
 
-accent-cowboy-words-27 = fight
-accent-cowboy-replacement-27 = scrap
+accent-cowboy-words-27 = luta
+accent-cowboy-replacement-27 = porrada
 
-accent-cowboy-words-28 = food
-accent-cowboy-replacement-28 = grub
+accent-cowboy-words-28 = comida
+accent-cowboy-replacement-28 = Bóia
 
-accent-cowboy-words-29 = friend
-accent-cowboy-replacement-29 = partner
+accent-cowboy-words-29 = amigo
+accent-cowboy-replacement-29 = parceiro
 
-accent-cowboy-words-30 = goodbye
-accent-cowboy-replacement-30 = so long
+accent-cowboy-words-30 = adeus
+accent-cowboy-replacement-12 = até uma próxima
 
-accent-cowboy-words-31 = greytide
-accent-cowboy-replacement-31 = varmints
+accent-cowboy-words-31 = maré de cinzas
+accent-cowboy-replacement-31 = maré de vermes
 
-accent-cowboy-words-32 = greytider
-accent-cowboy-replacement-32 = varmint
+accent-cowboy-words-32 = cinzeiro
+accent-cowboy-replacement-32 = verme
 
-accent-cowboy-words-33 = greytiders
-accent-cowboy-replacement-33 = varmints
+accent-cowboy-words-33 = cinzeiros
+accent-cowboy-replacement-33 = vermes
 
-accent-cowboy-words-34 = group
-accent-cowboy-replacement-34 = possee
+accent-cowboy-words-34 = grupo
+accent-cowboy-replacement-34 = bando
 
-accent-cowboy-words-35 = guess
-accent-cowboy-replacement-35 = reckon
+accent-cowboy-words-35 = acho
+accent-cowboy-replacement-35 = chuto
 
-accent-cowboy-words-36 = gun
-accent-cowboy-replacement-36 = big iron
+accent-cowboy-words-36 = revólver
+accent-cowboy-replacement-36 = trabuco
 
-accent-cowboy-words-37 = handcuff
-accent-cowboy-replacement-37 = hog tie
+accent-cowboy-words-37 = algema
+accent-cowboy-replacement-37 = Amarra
 
-accent-cowboy-words-38 = handcuffed
-accent-cowboy-replacement-38 = hog tied
+accent-cowboy-words-38 = algemado
+accent-cowboy-replacement-38 = Amarrado
 
-accent-cowboy-words-39 = hell
-accent-cowboy-replacement-39 = tarnation
+accent-cowboy-words-39 = inferno
+accent-cowboy-replacement-39 = Que diabo
 
-accent-cowboy-words-40 = hello
-accent-cowboy-replacement-40 = howdy
+accent-cowboy-words-40 = oi
+accent-cowboy-replacement-40 = olá
 
-accent-cowboy-words-41 = hey
-accent-cowboy-replacement-41 = howdy
+accent-cowboy-words-41 = olá
+accent-cowboy-replacement-41 = olá
 
-accent-cowboy-words-42 = hi
-accent-cowboy-replacement-42 = howdy
+accent-cowboy-words-42 = eae
+accent-cowboy-replacement-42 = olá
 
-accent-cowboy-words-43 = hungry
-accent-cowboy-replacement-43 = peckish
+accent-cowboy-words-43 = fome
+accent-cowboy-replacement-43 = vontade de beliscar
 
-accent-cowboy-words-44 = idiot
-accent-cowboy-replacement-44 = dunderhead
+accent-cowboy-words-44 = idiota
+accent-cowboy-replacement-44 = zé mané
 
-accent-cowboy-words-45 = intending
-accent-cowboy-replacement-45 = fixing
+accent-cowboy-words-45 = Idealizando
+accent-cowboy-replacement-45 = Querendo
 
-accent-cowboy-words-46 = jail
-accent-cowboy-replacement-46 = pokey
+accent-cowboy-words-46 = cadeia
+accent-cowboy-replacement-46 = xilindró
 
-accent-cowboy-words-47 = liqour
-accent-cowboy-replacement-47 = firewater
+accent-cowboy-words-47 = licor
+accent-cowboy-replacement-47 = pinga
 
-accent-cowboy-words-48 = lot
-accent-cowboy-replacement-48 = heap
+accent-cowboy-words-48 = muito
+accent-cowboy-replacement-48 = monte
 
-accent-cowboy-words-49 = lots
-accent-cowboy-replacement-49 = heaps
+accent-cowboy-words-49 = muitos
+accent-cowboy-replacement-49 = montão
 
-accent-cowboy-words-50 = mouth
-accent-cowboy-replacement-50 = bazoo
+accent-cowboy-words-50 = boca
+accent-cowboy-replacement-50 = beiço
 
-accent-cowboy-words-51 = nervous
-accent-cowboy-replacement-51 = rattled
+accent-cowboy-words-51 = nervoso
+accent-cowboy-replacement-51 = agitado
 
 accent-cowboy-words-52 = ninja
-accent-cowboy-replacement-52 = bushwhacker
+accent-cowboy-replacement-52 = emboscador
 
 accent-cowboy-words-53 = ninjas
-accent-cowboy-replacement-53 = bushwhackers
+accent-cowboy-replacement-53 = emboscadores
 
-accent-cowboy-words-54 = noise
-accent-cowboy-replacement-54 = ruckus
+accent-cowboy-words-54 = barulho
+accent-cowboy-replacement-54 = balbúrdia
 
 accent-cowboy-words-55 = nukies
-accent-cowboy-replacement-55 = outlaws
+accent-cowboy-replacement-55 = marginais
 
-accent-cowboy-words-56 = operator
-accent-cowboy-replacement-56 = outlaw
+accent-cowboy-words-100 = nukie
+accent-cowboy-replacement-100 = marginal
 
-accent-cowboy-words-57 = operators
-accent-cowboy-replacement-57 = outlaws
+accent-cowboy-words-56 = operador
+accent-cowboy-replacement-56 = marginal
+
+accent-cowboy-words-57 = operadores
+accent-cowboy-replacement-57 = marginais
 
 accent-cowboy-words-58 = ops
-accent-cowboy-replacement-58 = outlaws
+accent-cowboy-replacement-58 = marginais
 
-accent-cowboy-words-59 = pal
-accent-cowboy-replacement-59 = partner
+accent-cowboy-words-59 = amg
+accent-cowboy-replacement-59 = parceiro
 
-accent-cowboy-words-60 = party
-accent-cowboy-replacement-60 = shindig
+accent-cowboy-words-60 = festa
+accent-cowboy-replacement-60 = farra
 
 accent-cowboy-words-61 = assistente
-accent-cowboy-replacement-61 = greenhorn
+accent-cowboy-replacement-61 = novato
 
 accent-cowboy-words-62 = assistentes
-accent-cowboy-replacement-62 = greenhorns
+accent-cowboy-replacement-62 = novatos
 
-accent-cowboy-words-63 = planning
-accent-cowboy-replacement-63 = fixing
+accent-cowboy-words-63 = planejando
+accent-cowboy-replacement-63 = querendo
 
-accent-cowboy-words-64 = please
-accent-cowboy-replacement-64 = pray
+accent-cowboy-words-64 = por favor
+accent-cowboy-replacement-64 = pufavô
 
-accent-cowboy-words-65 = punch
-accent-cowboy-replacement-65 = lick
+accent-cowboy-words-65 = soco
+accent-cowboy-replacement-65 = porrada
 
-accent-cowboy-words-66 = punched
-accent-cowboy-replacement-66 = slogged
+accent-cowboy-words-66 = socou
+accent-cowboy-replacement-66 = deu uma sova
 
-accent-cowboy-words-67 = ran
-accent-cowboy-replacement-67 = skedaddled
+accent-cowboy-words-67 = correu
+accent-cowboy-replacement-67 = deu no pé
 
-accent-cowboy-words-68 = robbery
-accent-cowboy-replacement-68 = stick up
+accent-cowboy-words-68 = assalto
+accent-cowboy-replacement-68 = bote
 
-accent-cowboy-words-69 = run
-accent-cowboy-replacement-69 = skedaddle
+accent-cowboy-words-69 = correr
+accent-cowboy-replacement-69 = dar no pé
 
-accent-cowboy-words-70 = running
-accent-cowboy-replacement-70 = skedaddling
+accent-cowboy-words-70 = correndo
+accent-cowboy-replacement-70 = dando no pé
 
-accent-cowboy-words-71 = scream
-accent-cowboy-replacement-71 = holler
+accent-cowboy-words-71 = grito
+accent-cowboy-replacement-71 = berro
 
-accent-cowboy-words-72 = screamed
-accent-cowboy-replacement-72 = hollered
+accent-cowboy-words-72 = gritou
+accent-cowboy-replacement-72 = berrou
 
-accent-cowboy-words-73 = screaming
-accent-cowboy-replacement-73 = hollering
+accent-cowboy-words-73 = gritando
+accent-cowboy-replacement-73 = berrando
 
 accent-cowboy-words-74 = sec
-accent-cowboy-replacement-74 = law
+accent-cowboy-replacement-74 = homem da lei
 
 accent-cowboy-words-75 = secoff
-accent-cowboy-replacement-75 = deputy
+accent-cowboy-replacement-75 = delegado
 
-accent-cowboy-words-76 = security
-accent-cowboy-replacement-76 = law
+accent-cowboy-words-76 = segurança
+accent-cowboy-replacement-76 = homem da lei
 
 accent-cowboy-words-77 = shitsec
-accent-cowboy-replacement-77 = crooked law
+accent-cowboy-replacement-77 = homem da lei de merda
 
-accent-cowboy-words-78 = shoe
-accent-cowboy-replacement-78 = boot
+accent-cowboy-words-78 = sapato
+accent-cowboy-replacement-78 = bota
 
-accent-cowboy-words-79 = shoes
-accent-cowboy-replacement-79 = boots
+accent-cowboy-words-79 = sapatos
+accent-cowboy-replacement-79 = botas
 
-accent-cowboy-words-80 = steal
-accent-cowboy-replacement-80 = rustle
+accent-cowboy-words-80 = roubar
+accent-cowboy-replacement-80 = furtar
 
-accent-cowboy-words-81 = stole
-accent-cowboy-replacement-81 = rustled
+accent-cowboy-words-81 = roubou
+accent-cowboy-replacement-81 = furtou
 
-accent-cowboy-words-82 = stolen
-accent-cowboy-replacement-82 = rustled
+accent-cowboy-words-82 = roubado
+accent-cowboy-replacement-82 = furtado
 
-accent-cowboy-words-83 = story
-accent-cowboy-replacement-83 = yarn
+accent-cowboy-words-83 = história
+accent-cowboy-replacement-83 = conto
 
-accent-cowboy-words-84 = thank you
-accent-cowboy-replacement-84 = much obliged
+accent-cowboy-words-84 = obrigado
+accent-cowboy-replacement-84 = grato
 
-accent-cowboy-words-85 = thanks
-accent-cowboy-replacement-85 = much obliged
+accent-cowboy-words-85 = valeu
+accent-cowboy-replacement-85 = grato
 
-accent-cowboy-words-86 = thief
-accent-cowboy-replacement-86 = rustler
+accent-cowboy-words-86 = ladrão
+accent-cowboy-replacement-86 = bandido
 
-accent-cowboy-words-87 = thieves
-accent-cowboy-replacement-87 = rustlers
+accent-cowboy-words-87 = ladrões
+accent-cowboy-replacement-87 = bandidos
 
-accent-cowboy-words-88 = think
-accent-cowboy-replacement-88 = reckon
+accent-cowboy-words-88 = penso
+accent-cowboy-replacement-88 = acho
 
-accent-cowboy-words-89 = tired
-accent-cowboy-replacement-89 = dragged out
+accent-cowboy-words-89 = cansado
+accent-cowboy-replacement-89 = arriado
 
-accent-cowboy-words-90 = toilet
-accent-cowboy-replacement-90 = outhouse
+accent-cowboy-words-90 = banheiro
+accent-cowboy-replacement-90 = necessário
 
-accent-cowboy-words-91 = totally
-accent-cowboy-replacement-91 = plumb
+accent-cowboy-words-91 = totalmente
+accent-cowboy-replacement-91 = no talo
 
-accent-cowboy-words-92 = traitor
-accent-cowboy-replacement-92 = outlaw
+accent-cowboy-words-92 = traidor
+accent-cowboy-replacement-92 = marginal
 
-accent-cowboy-words-93 = traitors
-accent-cowboy-replacement-93 = outlaws
+accent-cowboy-words-93 = traidores
+accent-cowboy-replacement-93 = marginais
 
-accent-cowboy-words-94 = very
-accent-cowboy-replacement-94 = mighty
+accent-cowboy-words-94 = bastante
+accent-cowboy-replacement-94 = demasiado
 
-accent-cowboy-words-95 = worried
-accent-cowboy-replacement-95 = rattled
+accent-cowboy-words-95 = preocupado
+accent-cowboy-replacement-95 = agitado
 
-accent-cowboy-words-96 = wow
-accent-cowboy-replacement-96 = by gum
+accent-cowboy-words-96 = nossa
+accent-cowboy-replacement-96 = caramba
 
-accent-cowboy-words-97 = yell
-accent-cowboy-replacement-97 = holler
+accent-cowboy-words-97 = esbravejar
+accent-cowboy-replacement-97 = berrar
 
-accent-cowboy-words-98 = yelled
-accent-cowboy-replacement-98 = hollered
+accent-cowboy-words-98 = esbravejou
+accent-cowboy-replacement-98 = berrou
 
-accent-cowboy-words-99 = yelling
-accent-cowboy-replacement-99 = hollering
+accent-cowboy-words-99 = esbravejando
+accent-cowboy-replacement-99 = berrando

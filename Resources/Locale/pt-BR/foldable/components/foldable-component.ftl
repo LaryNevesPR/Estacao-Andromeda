@@ -1,6 +1,6 @@
 # Foldable
 
-foldable-deploy-fail = Você não pode abrir {$object} aqui.
+foldable-deploy-fail = Você não pode Desdobrar {$object} aqui.
 fold-verb = Dobrar
 unfold-verb = Desdobrar
 

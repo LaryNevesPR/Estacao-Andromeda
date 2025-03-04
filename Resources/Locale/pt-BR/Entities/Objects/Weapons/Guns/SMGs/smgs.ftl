@@ -1,4 +1,4 @@
-ent-BaseWeaponSubMachineGun = BaseSMG
+ent-BaseWeaponSubMachineGun = SMG genérica
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponSubMachineGunAtreides = Atreides

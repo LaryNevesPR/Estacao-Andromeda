@@ -4,21 +4,21 @@ cage-resist-third-person = {CAPITALIZE(THE($user))} começa a remover a {POSS-AD
 cage-uncage-verb = desenjaula
 
 action-name-metapsionic = Pulso Metapsiônico
-action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psíquico por perto.
+action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psiônico por perto.
 
-metapsionic-pulse-success = Você percebe uma presença psíquica próxima.
-metapsionic-pulse-failure = Você não detecta nenhuma presença psíquica próxima.
+metapsionic-pulse-success = Você percebe uma presença psiônica próxima.
+metapsionic-pulse-failure = Você não detecta nenhuma presença psiônica próxima.
 metapsionic-pulse-power = Você detecta que {$power} foi usado nas proximidades.
 
 action-name-dispel = Dissipar
 action-description-dispel = Dissipa entidades invocadas tais como familiares e paredes de força.
 
 action-name-mass-sleep = Sono em Massa
-action-description-mass-sleep = Coloca alvos em uma pequena área pra dormir.
+action-description-mass-sleep = Faz com que alvos em uma pequena área durmam.
 
 accept-psionics-window-title = Psiônico!
-accept-psionics-window-prompt-text-part = Você rolou um poder psiônico!
-                                         É possível que certas forças anti-psychicas te cacem,
+accept-psionics-window-prompt-text-part = Você recebeu um poder psiônico!
+                                         É possível que certas forças anti-psiônicas te cacem,
                                          então você deve considerar mantê-lo em segredo.
                                          Você ainda quer ser psiônico?
 
@@ -40,31 +40,31 @@ action-description-telegnosis = Crie uma projeção telegnóstica para observar 
 action-name-psionic-regeneration = Regeneração Psiônica
 action-description-psionic-regeneration = Leve o seu metabolismo ao limite para alimentar as capacidades regenerativas do seu corpo.
 
-glimmer-report = Nivel atual de Glimmer: {$level}μΨ.
-glimmer-event-report-generic = descarga noösférica detectada. Nivel de Glimmer diminuiu {$decrease} até {$level}μΨ.
-glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de Glimmer diminuiu em {$decrease} para {$level}Ψ.
+glimmer-report = Nivel atual de Brilho: {$level}μΨ.
+glimmer-event-report-generic = descarga noösférica detectada. Nivel de Brilho diminuiu {$decrease} até {$level}μΨ.
+glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de Brilho diminuiu em {$decrease} para {$level}Ψ.
 glimmer-event-awakened-prefix = acordado {$entity}
 
-noospheric-zap-seize = Você se convulsiona!
-noospheric-zap-seize-potential-regained = Você se convulsiona! Algum bloqueio mental também parece ter sido eliminado..
+noospheric-zap-seize = Você sofre uma convulsão!
+noospheric-zap-seize-potential-regained = Você sofre uma convulsão! Algum bloqueio mental também parece ter sido eliminado..
 
-mindswap-trapped = Parece que você está preso neste vaso.
+mindswap-trapped = Parece que você está preso neste recipiente.
 
 telegnostic-trapped-entity-name = projeção telegnóstica rompida
 telegnostic-trapped-entity-desc = Seus muitos olhos traem tristeza.
 
 psionic-burns-up = {CAPITALIZE(THE($item))} queima com um arco de estranha energia!
-psionic-burn-resist = Estranhos arcos dançam pel{THE($item)}!
+psionic-burn-resist = Estranhos arcos dançam por {THE($item)}!
 
-action-name-noospheric-zap = Zap Noosférico
+action-name-noospheric-zap = Choque Noosférico
 action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa atordoados e gagejando.
 
-action-name-pyrokinesis = Pirokinese
-action-description-pyrokinesis = Abre chama em um alvo inflamável.
-pyrokinesis-power-used = Labareda de chama engolfa {THE($target)}, incendiando {OBJECT($target)}!
+action-name-pyrokinesis = Pirocinese
+action-description-pyrokinesis = Cria chamas em um alvo inflamável.
+pyrokinesis-power-used = Labareda de chamas engolfa {THE($target)}, incendiando {OBJECT($target)}!
 
-action-name-psychokinesis = Psicokinese
-action-description-psychokinesis = Dobre a trama do espaço para se mover instantanemanete através dele.
+action-name-psychokinesis = Psicocinese
+action-description-psychokinesis = Dobre o espaço para se mover instantanemanete através dele.
 
 action-name-rf-sensitivity = Alternar Sensibilidade RF
 action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.
