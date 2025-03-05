@@ -1,0 +1,11 @@
+- type: entity
+  parent: [ BaseComputerCircuitboard ]
+  id: CentcommCommsComputerCircuitboard
+  name: placa do computador de comunicação do Comando Central
+  description: Uma placa de circuito impressa do computador de comunicações de comando central.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Misc/module.rsi
+    state: cpu_centcomm
+  - type: ComputerBoard
+    prototype: CentcommComputerComms
