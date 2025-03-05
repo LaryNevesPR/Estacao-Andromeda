@@ -65,7 +65,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurineGui
   name: Guilherme Carneiro Mendes
-  description: Template
+  description: "O prodigio da nanotrasen! Quem eu to querendo enganar? É só um CLT médio da Nanotrasen."
   components:
     - type: Sprite
       sprite: _Andromeda/misc/figures_catarse.rsi
