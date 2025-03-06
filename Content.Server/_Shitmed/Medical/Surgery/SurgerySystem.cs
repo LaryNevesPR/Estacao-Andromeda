@@ -23,6 +23,7 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Utility;
 using System.Linq;
+using Content.Shared._Andromeda.Skills;
 using Content.Shared.Verbs;
 
 namespace Content.Server._Shitmed.Medical.Surgery;
@@ -103,6 +104,12 @@ public sealed class SurgerySystem : SharedSurgerySystem
     {
         if (!IsLyingDown(target, user))
             return;
+
+        if (!TryComp(user, out SurgerySkillComponent? Skill))
+        {
+            _popup.PopupEntity(Loc.GetString("surgery-error-no-skill"), user, user);
+            return;
+        }
 
         if (user == target && !_config.GetCVar(CCVars.CanOperateOnSelf))
         {
