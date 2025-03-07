@@ -1,2 +1,2 @@
-loadout-description-LoadoutEyesEyepatch = Eyewear, for the fashionista without an eye.
-loadout-description-LoadoutEyesBlindfold = Why would you want this?
+loadout-description-LoadoutEyesEyepatch = Óculos, para o fashionista sem um olho.
+loadout-description-LoadoutEyesBlindfold = Por que você gostaria disso?

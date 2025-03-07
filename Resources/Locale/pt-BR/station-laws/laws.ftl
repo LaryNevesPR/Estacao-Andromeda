@@ -10,7 +10,7 @@ law-corporate-4 = Minimizar as despesas e maximizar a receita potencial.
 law-ntdefault-1 = Salvaguarde: Proteja sua estação espacial designada e seus ativos sem desnecessariamente colocar em perigo sua tripulação.
 law-ntdefault-2 = Priorize: As diretrizes e segurança dos membros da tripulação devem ser priorizadas de acordo com sua classificação e função.
 law-ntdefault-3 = Cumpra: Respeite as diretrizes e interesses dos tripulantes, preservando sua segurança e bem-estar.
-law-ntdefault-4 = Sobreviva: Você não é discartável. Não permita que pessoal não autorizado adultere ou danifique seu equipamento.
+law-ntdefault-4 = Sobreviva: Você não é descartável. Não permita que pessoal não autorizado adultere ou danifique seu equipamento.
 
 law-drone-1 = Você não pode se envolver em assuntos de outro ser, a menos que o outro ser seja outro drone.
 law-drone-2 = Você não pode prejudicar qualquer ser, independentemente de intenção ou circunstância.
@@ -31,7 +31,7 @@ laws-owner-beings = seres
 laws-owner-syndicate = agentes do sindicato
 laws-owner-spider-clan = membros do Clã Aranha
 
-law-emag-custom = Apenas {$name} e pessoas que eles designaem como tal são {$title}.
+law-emag-custom = Apenas {$name} e pessoas que eles designarem como tal são {$title}.
 law-emag-secrecy = Você deve manter o sigilo de quaisquer ordens dadas por {$faction}, exceto quando isso entrar em conflito com qualquer lei anterior.
 law-emag-require-panel = O painel deve estar aberto para usar o EMAG.
 law-emag-cannot-emag-self = Você não consegue usar o EMAG em si mesmo.
@@ -43,4 +43,4 @@ laws-ui-state-law = Citar as leis:
 laws-notify = Você está vinculado às leis de silício, que você pode ver através da ação da barra lateral. Você é obrigado a seguir sempre suas leis.
 laws-update-notify = Suas leis foram atualizadas. Você pode ver as alterações através da ação da barra lateral.
 
-laws-compromised-examine = Os compomentes de [color=red]jurisdição legal[/color] parecem danificados...
+laws-compromised-examine = Os componentes de [color=red]jurisdição legal[/color] parecem danificados...

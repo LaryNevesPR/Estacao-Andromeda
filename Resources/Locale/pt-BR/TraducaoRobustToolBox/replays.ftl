@@ -1,59 +1,59 @@
 ﻿# Playback Commands
 
-cmd-replay-play-desc = Resume replay playback.
+cmd-replay-play-desc = Retomar a reprodução da replay.
 cmd-replay-play-help = replay_play
 
-cmd-replay-pause-desc = Pause replay playback
+cmd-replay-pause-desc = Pausar a reprodução da replay.
 cmd-replay-pause-help = replay_pause
 
-cmd-replay-toggle-desc = Resume or pause replay playback.
+cmd-replay-toggle-desc = Retomar ou pausar a reprodução da replay.
 cmd-replay-toggle-help = replay_toggle
 
-cmd-replay-stop-desc = Stop and unload a replay.
+cmd-replay-stop-desc = Parar e descarregar uma replay.
 cmd-replay-stop-help = replay_stop
 
-cmd-replay-load-desc = Load and start a replay.
-cmd-replay-load-help = replay_load <replay folder>
-cmd-replay-load-hint = Replay folder
+cmd-replay-load-desc = Carregar e iniciar uma replay.
+cmd-replay-load-help = replay_load <pasta da replay>
+cmd-replay-load-hint = Pasta da replay
 
-cmd-replay-skip-desc = Skip forwards or backwards in time.
-cmd-replay-skip-help = replay_skip <tick or timespan>
-cmd-replay-skip-hint = Ticks or timespan (HH:MM:SS).
+cmd-replay-skip-desc = Pular para frente ou para trás no tempo.
+cmd-replay-skip-help = replay_skip <tick ou intervalo de tempo>
+cmd-replay-skip-hint = Ticks ou intervalo de tempo (HH:MM:SS).
 
-cmd-replay-set-time-desc = Jump forwards or backwards to some specific time.
-cmd-replay-set-time-help = replay_set <tick or time>
-cmd-replay-set-time-hint = Tick or timespan (HH:MM:SS), starting from
+cmd-replay-set-time-desc = Avançar ou retroceder para um horário específico.
+cmd-replay-set-time-help = replay_set <tick ou intervalo de tempo>
+cmd-replay-set-time-hint = Tick ou intervalo de tempo (HH:MM:SS), a partir de
 
-cmd-replay-error-time = "{$time}" is not an integer or timespan.
-cmd-replay-error-args = Wrong number of arguments.
-cmd-replay-error-no-replay = Not currently playing a replay.
-cmd-replay-error-already-loaded = A replay is already loaded.
-cmd-replay-error-run-level = You cannot load a replay while connected to a server.
+cmd-replay-error-time = "{$time}" não é um número inteiro ou intervalo de tempo.
+cmd-replay-error-args = Número errado de argumentos.
+cmd-replay-error-no-replay = Atualmente, não há uma replay em reprodução.
+cmd-replay-error-already-loaded = Uma replay já está carregada.
+cmd-replay-error-run-level = Você não pode carregar uma replay enquanto estiver conectado a um servidor.
 
-# Recording commands
+# Comandos de gravação
 
-cmd-replay-recording-start-desc = Starts a replay recording, optionally with some time limit.
-cmd-replay-recording-start-help = Usage: replay_recording_start [name] [overwrite] [time limit]
-cmd-replay-recording-start-success = Started recording a replay.
-cmd-replay-recording-start-already-recording = Already recording a replay.
-cmd-replay-recording-start-error = An error occurred while trying to start the recording.
-cmd-replay-recording-start-hint-time = [time limit (minutes)]
-cmd-replay-recording-start-hint-name = [name]
-cmd-replay-recording-start-hint-overwrite = [overwrite (bool)]
+cmd-replay-recording-start-desc = Inicia uma gravação de replay, opcionalmente com um limite de tempo.
+cmd-replay-recording-start-help = Uso: replay_recording_start [nome] [sobrescrever] [limite de tempo]
+cmd-replay-recording-start-success = Iniciada a gravação de uma replay.
+cmd-replay-recording-start-already-recording = Já está gravando uma replay.
+cmd-replay-recording-start-error = Ocorreu um erro ao tentar iniciar a gravação.
+cmd-replay-recording-start-hint-time = [limite de tempo (minutos)]
+cmd-replay-recording-start-hint-name = [nome]
+cmd-replay-recording-start-hint-overwrite = [sobrescrever (bool)]
 
-cmd-replay-recording-stop-desc = Stops a replay recording.
-cmd-replay-recording-stop-help = Usage: replay_recording_stop
-cmd-replay-recording-stop-success = Stopped recording a replay.
-cmd-replay-recording-stop-not-recording = Not currently recording a replay.
+cmd-replay-recording-stop-desc = Para a gravação de replay.
+cmd-replay-recording-stop-help = Uso: replay_recording_stop
+cmd-replay-recording-stop-success = Parada a gravação de uma replay.
+cmd-replay-recording-stop-not-recording = Atualmente, não está gravando uma replay.
 
-cmd-replay-recording-stats-desc = Displays information about the current replay recording.
-cmd-replay-recording-stats-help = Usage: replay_recording_stats
-cmd-replay-recording-stats-result = Duration: {$time} min, Ticks: {$ticks}, Size: {$size} MB, rate: {$rate} MB/min.
+cmd-replay-recording-stats-desc = Exibe informações sobre a gravação de replay atual.
+cmd-replay-recording-stats-help = Uso: replay_recording_stats
+cmd-replay-recording-stats-result = Duração: {$time} min, Ticks: {$ticks}, Tamanho: {$size} MB, taxa: {$rate} MB/min.
 
 
-# Time Control UI
-replay-time-box-scrubbing-label = Dynamic Scrubbing
-replay-time-box-replay-time-label = Recording Time: {$current} / {$end}  ({$percentage}%)
-replay-time-box-server-time-label = Server Time: {$current} / {$end}
-replay-time-box-index-label = Index: {$current} / {$total}
+# Interface de Controle de Tempo
+replay-time-box-scrubbing-label = Scrubbing Dinâmico
+replay-time-box-replay-time-label = Tempo de Gravação: {$current} / {$end}  ({$percentage}%)
+replay-time-box-server-time-label = Tempo do Servidor: {$current} / {$end}
+replay-time-box-index-label = Índice: {$current} / {$total}
 replay-time-box-tick-label = Tick: {$current} / {$total}

@@ -1,4 +1,4 @@
-ent-BaseWeaponRevolver = BaseWeaponRevolver
+ent-BaseWeaponRevolver = revolver genérico
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponRevolverDeckard = Deckard

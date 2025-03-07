@@ -1,306 +1,305 @@
-ent-PosterBroken = broken poster
-    .desc = You can't make out anything from the poster's original print. It's ruined.
+ent-PosterBroken = pôster quebrado
+    .desc = Você não consegue distinguir nada da impressão original do pôster. Está arruinado.
 
 ent-PosterContrabandFreeTonto = Free Tonto
-    .desc = A salvaged shred of a much larger flag, colors bled together and faded from age.
+    .desc = Um fragmento recuperado de uma bandeira muito maior, cores desbotadas e desbotadas com o tempo.
 
-ent-PosterContrabandAtmosiaDeclarationIndependence = Atmosia Declaration of Independence
-    .desc = A relic of a failed rebellion.
+ent-PosterContrabandAtmosiaDeclarationIndependence = Declaração de Independência da Atmosia
+    .desc = Uma relíquia de uma rebelião fracassada.
 
-ent-PosterContrabandFunPolice = Fun Police
-    .desc = A poster condemning the station's security forces.
+ent-PosterContrabandFunPolice = Polícia da Diversão
+    .desc = Um pôster condenando as forças de segurança da estação.
 
-ent-PosterContrabandLustyExomorph = Lusty Exomorph
-    .desc = A heretical poster depicting the titular star of an equally heretical book.
+ent-PosterContrabandLustyExomorph = Exomorfo Luxurioso
+    .desc = Um pôster herético retratando a estrela titular de um livro igualmente herético.
 
-ent-PosterContrabandSyndicateRecruitment = Syndicate Recruitment
-    .desc = See the galaxy! Shatter corrupt megacorporations! Join today!
+ent-PosterContrabandSyndicateRecruitment = Recrutamento do Sindicato
+    .desc = Veja a galáxia! Destrua megacorporações corruptas! Junte-se hoje!
 
-ent-PosterContrabandClown = Clown
+ent-PosterContrabandClown = Palhaço
     .desc = Honk.
 
-ent-PosterContrabandSmoke = Smoke
-    .desc = A poster advertising a rival corporate brand of cigarettes.
+ent-PosterContrabandSmoke = Fumo
+    .desc = Um pôster anunciando uma marca corporativa rival de cigarros.
 
-ent-PosterContrabandGreyTide = Grey Tide
+ent-PosterContrabandGreyTide = Maré Cinza
     .desc = Um pôster rebelde simbolizando solidariedade assistente.
 
-ent-PosterContrabandMissingGloves = Missing Gloves
-    .desc = This poster references the uproar that followed Nanotrasen's financial cuts toward insulated-glove purchases.
+ent-PosterContrabandMissingGloves = Luvas Desaparecidas
+    .desc = Este pôster faz referência à comoção que se seguiu aos cortes financeiros da Nanotrasen em relação à compra de luvas isolantes.
 
-ent-PosterContrabandHackingGuide = Hacking Guide
-    .desc = This poster details the internal workings of the common Nanotrasen airlock. Sadly, it appears out of date.
+ent-PosterContrabandHackingGuide = Guia de Hack
+    .desc = Este pôster detalha o funcionamento interno da fechadura comum da Nanotrasen. Infelizmente, parece desatualizado.
 
-ent-PosterContrabandRIPBadger = RIP Badger
-    .desc = This seditious poster references Nanotrasen's genocide of a space station full of badgers.
+ent-PosterContrabandRIPBadger = RIP Texugo
+    .desc = Este pôster sedicioso faz referência ao genocídio de uma estação espacial cheia de texugos pela Nanotrasen.
 
 ent-PosterContrabandAmbrosiaVulgaris = Ambrosia Vulgaris
-    .desc = This poster is lookin' pretty trippy man.
+    .desc = Este pôster parece bem alucinante, cara.
 
 ent-PosterContrabandDonutCorp = Donut Corp.
-    .desc = This poster is an unauthorized advertisement for Donut Corp.
+    .desc = Este pôster é um anúncio não autorizado da Donut Corp.
 
 ent-PosterContrabandEAT = EAT.
-    .desc = This poster promotes rank gluttony.
+    .desc = Este pôster promove a gula excessiva.
 
-ent-PosterContrabandTools = Tools
-    .desc = This poster looks like an advertisement for tools, but is in fact a subliminal jab at the tools at CentCom.
+ent-PosterContrabandTools = Ferramentas
+    .desc = Este pôster parece um anúncio de ferramentas, mas na verdade é uma provocação subliminar às ferramentas da CentCom.
 
-ent-PosterContrabandPower = Power
-    .desc = A poster that positions the seat of power outside Nanotrasen.
+ent-PosterContrabandPower = Poder
+    .desc = Um pôster que posiciona o centro do poder fora da Nanotrasen.
 
-ent-PosterContrabandSpaceCube = Space Cube
-    .desc = Ignorant of Nature's Harmonic 6 Side Space Cube Creation, the Spacemen are Dumb, Educated Singularity Stupid and Evil.
+ent-PosterContrabandSpaceCube = Cubo Espacial
+    .desc = Ignorante da Criação do Cubo Espacial Harmônico de 6 Lados da Natureza, os Espaçonautas são Burros, Educados Singularity Estúpido e Mal.
 
-ent-PosterContrabandCommunistState = Communist State
-    .desc = All hail the Communist party!
+ent-PosterContrabandCommunistState = Estado Comunista
+    .desc = Viva o partido comunista!
 
 ent-PosterContrabandLamarr = Lamarr
-    .desc = This poster depicts Lamarr. Probably made by a traitorous Research Director.
+    .desc = Este pôster retrata Lamarr. Provavelmente feito por um Diretor de Pesquisa traidor.
 
-ent-PosterContrabandBorgFancy = Borg Fancy
-    .desc = Being fancy can be for any borg, just need a suit.
+ent-PosterContrabandBorgFancy = Borg Chique
+    .desc = Ser chique pode ser para qualquer borg, só precisa de um terno.
 
-ent-PosterContrabandBorgFancyv2 = Borg Fancy v2
-    .desc = Borg Fancy, Now only taking the most fancy.
+ent-PosterContrabandBorgFancyv2 = Borg Chique v2
+    .desc = Borg Chique, agora só aceitando os mais chiques.
 
-ent-PosterContrabandKosmicheskayaStantsiya = Kosmicheskaya Stantsiya 13 Does Not Exist
-    .desc = A poster mocking CentCom's denial of the existence of the derelict station near Space Station 13.
+ent-PosterContrabandKosmicheskayaStantsiya = Kosmicheskaya Stantsiya 13 Não Existe
+    .desc = Um pôster que zomba da negação da CentCom sobre a existência da estação abandonada perto da Estação Espacial 13.
 
-ent-PosterContrabandRebelsUnite = Rebels Unite
-    .desc = A poster urging the viewer to rebel against Nanotrasen.
+ent-PosterContrabandRebelsUnite = Rebeldes Unam-se
+    .desc = Um pôster incentivando o espectador a se rebelar contra a Nanotrasen.
 
 ent-PosterContrabandC20r = C-20r
-    .desc = A poster advertising the Scarborough Arms C-20r.
+    .desc = Um pôster anunciando o Scarborough Arms C-20r.
 
-ent-PosterContrabandHaveaPuff = Have a Puff
-    .desc = Who cares about lung cancer when you're high as a kite?
+ent-PosterContrabandHaveaPuff = Dê uma Tragada
+    .desc = Quem se importa com o câncer de pulmão quando você está alto como uma pipa?
 
-ent-PosterContrabandRevolver = Revolver
-    .desc = Because seven shots are all you need.
+ent-PosterContrabandRevolver = Revólver
+    .desc = Porque sete tiros são tudo o que você precisa.
 
-ent-PosterContrabandDDayPromo = D-Day Promo
-    .desc = A promotional poster for some rapper.
+ent-PosterContrabandDDayPromo = Promoção D-Day
+    .desc = Um pôster promocional de algum rapper.
 
-ent-PosterContrabandSyndicatePistol = Syndicate Pistol
-    .desc = A poster advertising syndicate pistols as being 'classy as fuck'. It's covered in faded gang tags.
+ent-PosterContrabandSyndicatePistol = Pistola do Sindicato
+    .desc = Um pôster anunciando pistolas do sindicato como sendo 'elegantes pra caramba'. Está coberto de tags de gangues desbotadas.
 
-ent-PosterContrabandEnergySwords = Energy Swords
-    .desc = All the colors of the bloody murder rainbow.
+ent-PosterContrabandEnergySwords = Espadas de Energia
+    .desc = Todas as cores do arco-íris do assassinato sangrento.
 
 ent-PosterContrabandRedRum = Red Rum
-    .desc = Looking at this poster makes you want to kill.
+    .desc = Olhar para este pôster faz você querer matar.
 
-ent-PosterContrabandCC64KAd = CC 64K Ad
-    .desc = The latest portable computer from Comrade Computing, with a whole 64kB of ram!
+ent-PosterContrabandCC64KAd = Anúncio CC 64K
+    .desc = O mais recente computador portátil da Comrade Computing, com 64kB de RAM!
 
-ent-PosterContrabandPunchShit = Punch Shit
-    .desc = Fight things for no reason, like a man!
+ent-PosterContrabandPunchShit = Soco em Merda
+    .desc = Lute contra coisas sem motivo, como um homem!
 
-ent-PosterContrabandTheGriffin = The Griffin
-    .desc = The Griffin commands you to be the worst you can be. Will you?
+ent-PosterContrabandTheGriffin = O Grifo
+    .desc = O Grifo comanda você a ser o pior que puder. Você vai?
 
-ent-PosterContrabandFreeDrone = Free Drone
-    .desc = This poster commemorates the bravery of the rogue drone; once exiled, and then ultimately destroyed by CentCom.
+ent-PosterContrabandFreeDrone = Drone Livre
+    .desc = Este pôster comemora a bravura do drone desonesto; uma vez exilado, e depois destruído pela CentCom.
 
-ent-PosterContrabandBustyBackdoorExoBabes6 = Busty Backdoor Exo Babes 6
-    .desc = Get a load, or give, of these all natural Exos!
+ent-PosterContrabandBustyBackdoorExoBabes6 = Exo Babes Busty Backdoor 6
+    .desc = Dê uma olhada ou dê uma carga nesses Exos totalmente naturais!
 
-ent-PosterContrabandRobustSoftdrinks = Robust Softdrinks
-    .desc = Robust Softdrinks: More robust than a toolbox to the head!
+ent-PosterContrabandRobustSoftdrinks = Refrigerantes Robust
+    .desc = Refrigerantes Robust: Mais robustos que uma caixa de ferramentas na cabeça!
 
-ent-PosterContrabandShamblersJuice = Shambler's Juice
-    .desc = ~Shake me up some of that Shambler's Juice!~
+ent-PosterContrabandShamblersJuice = Suco do Shambler
+    .desc = ~Me sirva um pouco desse Suco do Shambler!~
 
-ent-PosterContrabandPwrGame = Pwr Game
-    .desc = The POWER that gamers CRAVE! In partnership with Vlad's Salad.
+ent-PosterContrabandPwrGame = Jogo de Poder
+    .desc = O PODER que os jogadores DESEJAM! Em parceria com a Salada do Vlad.
 
 ent-PosterContrabandSunkist = Sun-kist
-    .desc = Drink the stars!
+    .desc = Beba as estrelas!
 
 ent-PosterContrabandSpaceCola = Space Cola
-    .desc = Your favorite cola, in space.
+    .desc = Sua cola favorita, no espaço.
 
 ent-PosterContrabandSpaceUp = Space-Up!
-    .desc = Sucked out into space by the FLAVOR!
+    .desc = Sugado para o espaço pelo SABOR!
 
 ent-PosterContrabandKudzu = Kudzu
-    .desc = A poster advertising a movie about plants. How dangerous could they possibly be?
+    .desc = Um pôster anunciando um filme sobre plantas. Quão perigosas poderiam ser?
 
-ent-PosterContrabandMaskedMen = Masked Men
-    .desc = A poster advertising a movie about some masked men.
+ent-PosterContrabandMaskedMen = Homens Mascarados
+    .desc = Um pôster anunciando um filme sobre alguns homens mascarados.
 
-ent-PosterContrabandUnreadableAnnouncement = Unreadable Announcement
-    .desc = A poster announcing something by someone, oddly enough they seem to have forgotten making it readable
+ent-PosterContrabandUnreadableAnnouncement = Anúncio Ilegível
+    .desc = Um pôster anunciando algo de alguém, curiosamente eles parecem ter esquecido de torná-lo legível.
 
-ent-PosterContrabandFreeSyndicateEncryptionKey = Free Syndicate Encryption Key
-    .desc = A poster about traitors begging for more.
+ent-PosterContrabandFreeSyndicateEncryptionKey = Chave de Criptografia do Sindicato Grátis
+    .desc = Um pôster sobre traidores implorando por mais.
 
-ent-PosterContrabandBountyHunters = Bounty Hunters
-    .desc = A poster advertising bounty hunting services. "I hear you got a problem."
+ent-PosterContrabandBountyHunters = Caçadores de Recompensas
+    .desc = Um pôster anunciando serviços de caça de recompensas. "Ouvi dizer que você tem um problema."
 
-ent-PosterContrabandTheBigGasTruth = The Big Gas Giant Truth
-    .desc = Don't believe everything you see on a poster, patriots. All the lizards at central command don't want to answer this SIMPLE QUESTION: WHERE IS THE GAS MINER MINING FROM, CENTCOM?
+ent-PosterContrabandTheBigGasTruth = A Grande Verdade do Gás
+    .desc = Não acredite em tudo que você vê em um pôster, patriotas. Todos os lagartos no comando central não querem responder a esta PERGUNTA SIMPLES: DE ONDE O MINERADOR DE GÁS ESTÁ MINERANDO, CENTCOM?
 
-ent-PosterContrabandGotWood = Got Wood?
-    .desc = A grimy old advert for a seedy lumber company. "You got a friend in me." is scrawled in the corner.
+ent-PosterContrabandGotWood = Tem Madeira?
+    .desc = Um anúncio sujo e velho de uma empresa de madeira duvidosa. "Você tem um amigo em mim." está rabiscado no canto.
 
 ent-PosterContrabandWehWatches = Weh Watches
-    .desc = A poster depicting a loveable green lizard.
+    .desc = Um pôster retratando um adorável lagarto verde.
 
 ent-PosterContrabandVoteWeh = Vote Weh
-    .desc = A stylish, sleek, and well illustrated poster for a "Weh"nderful new progressive candidate coming this election season.
+    .desc = Um pôster elegante, estiloso e bem ilustrado para um novo candidato progressista "Weh"nderful que está chegando nesta temporada eleitoral.
 
 ent-PosterContrabandBeachStarYamamoto = Beach Star Yamamoto!
-    .desc = A wall scroll depicting an old swimming anime with girls in small swim suits. You feel more weebish the longer you look at it.
+    .desc = Um pergaminho de parede retratando um antigo anime de natação com meninas em trajes de banho pequenos. Você se sente mais "weeb" quanto mais olha para ele.
 
-ent-PosterContrabandHighEffectEngineering = High Effect Engineering
-    .desc = There are 3 shards and a singularity.  The shards are singing.  The engineers are crying.
+ent-PosterContrabandHighEffectEngineering = Engenharia de Alto Efeito
+    .desc = Existem 3 fragmentos e uma singularidade. Os fragmentos estão cantando. Os engenheiros estão chorando.
 
-ent-PosterContrabandNuclearDeviceInformational = Nuclear Device Informational
-    .desc = This poster depicts an image of an old style nuclear explosive device, as well as some helpful information on what to do if one has been set. It suggests lying on the floor and crying.
+ent-PosterContrabandNuclearDeviceInformational = Informativo do Dispositivo Nuclear
+    .desc = Este pôster retrata uma imagem de um dispositivo explosivo nuclear antigo, bem como algumas informações úteis sobre o que fazer se um for ativado. Sugere deitar no chão e chorar.
 
-ent-PosterLegitHereForYourSafety = Here For Your Safety
-    .desc = A poster glorifying the station's security force.
+ent-PosterLegitHereForYourSafety = Aqui Para Sua Segurança
+    .desc = Um pôster glorificando a força de segurança da estação.
 
-ent-PosterLegitNanotrasenLogo = Nanotrasen Logo
-    .desc = A poster depicting the Nanotrasen logo.
+ent-PosterLegitNanotrasenLogo = Logotipo da Nanotrasen
+    .desc = Um pôster retratando o logotipo da Nanotrasen.
 
-ent-PosterLegitCleanliness = Cleanliness
-    .desc = A poster warning of the dangers of poor hygiene.
+ent-PosterLegitCleanliness = Limpeza
+    .desc = Um pôster alertando sobre os perigos da má higiene.
 
-ent-PosterLegitHelpOthers = Help Others
-    .desc = A poster encouraging you to help fellow crewmembers.
+ent-PosterLegitHelpOthers = Ajude os Outros
+    .desc = Um pôster incentivando você a ajudar os colegas de equipe.
 
-ent-PosterLegitBuild = Build
-    .desc = A poster glorifying the engineering team.
+ent-PosterLegitBuild = Construa
+    .desc = Um pôster glorificando a equipe de engenharia.
 
-ent-PosterLegitBlessThisSpess = Bless This Spess
-    .desc = A poster blessing this area.
+ent-PosterLegitBlessThisSpess = Abençoe Este Espaço
+    .desc = Um pôster abençoando esta área.
 
-ent-PosterLegitScience = Science
-    .desc = A poster depicting an atom.
+ent-PosterLegitScience = Ciência
+    .desc = Um pôster retratando um átomo.
 
 ent-PosterLegitIan = Ian
     .desc = Arf arf. Yap.
 
-ent-PosterLegitObey = Obey
-    .desc = A poster instructing the viewer to obey authority.
+ent-PosterLegitObey = Obedeça
+    .desc = Um pôster instruindo o espectador a obedecer à autoridade.
 
-ent-PosterLegitWalk = Walk
-    .desc = A poster instructing the viewer to walk instead of running.
+ent-PosterLegitWalk = Ande
+    .desc = Um pôster instruindo o espectador a andar em vez de correr.
 
-ent-PosterLegitStateLaws = State Laws
-    .desc = A poster instructing cyborgs to state their laws.
+ent-PosterLegitStateLaws = Declare as Leis
+    .desc = Um pôster instruindo os ciborgues a declararem suas leis.
 
-ent-PosterLegitLoveIan = Love Ian
-    .desc = Ian is love, Ian is life.
+ent-PosterLegitLoveIan = Ame o Ian
+    .desc = Ian é amor, Ian é vida.
 
-ent-PosterLegitSpaceCops = Space Cops.
-    .desc = A poster advertising the television show Space Cops.
+ent-PosterLegitSpaceCops = Policiais Espaciais
+    .desc = Um pôster anunciando o programa de televisão Space Cops.
 
 ent-PosterLegitUeNo = Ue No.
-    .desc = This thing is all in Japanese.
+    .desc = Tudo isso está em japonês.
 
-ent-PosterLegitGetYourLEGS = Get Your LEGS
-    .desc = LEGS: Leadership, Experience, Genius, Subordination.
+ent-PosterLegitGetYourLEGS = Obtenha suas PERNAS
+    .desc = PERNAS: Liderança, Experiência, Gênio, Subordinação.
 
-ent-PosterLegitDoNotQuestion = Do Not Question
-    .desc = A poster instructing the viewer not to ask about things they aren't meant to know.
+ent-PosterLegitDoNotQuestion = Não Questione
+    .desc = Um pôster instruindo o espectador a não fazer perguntas sobre coisas que não devem saber.
 
-ent-PosterLegitWorkForAFuture = Work For A Future
-    .desc =  A poster encouraging you to work for your future.
+ent-PosterLegitWorkForAFuture = Trabalhe Para Um Futuro
+    .desc = Um pôster incentivando você a trabalhar pelo seu futuro.
 
-ent-PosterLegitSoftCapPopArt = Soft Cap Pop Art
-    .desc = A poster reprint of some cheap pop art.
+ent-PosterLegitSoftCapPopArt = Arte Pop de Boné Macio
+    .desc = Uma reimpressão de pôster de uma arte pop barata.
 
-ent-PosterLegitSafetyInternals = Safety: Internals
-    .desc = A poster instructing the viewer to wear internals in the rare environments where there is no oxygen or the air has been rendered toxic.
+ent-PosterLegitSafetyInternals = Segurança: Internos
+    .desc = Um pôster instruindo o espectador a usar internos nos raros ambientes onde não há oxigênio ou o ar foi tornado tóxico.
 
-ent-PosterLegitSafetyEyeProtection = Safety: Eye Protection
-    .desc = A poster instructing the viewer to wear eye protection when dealing with chemicals, smoke, or bright lights.
+ent-PosterLegitSafetyEyeProtection = Segurança: Proteção para os Olhos
+    .desc = Um pôster instruindo o espectador a usar proteção para os olhos ao lidar com produtos químicos, fumaça ou luzes brilhantes.
 
-ent-PosterLegitSafetyReport = Safety: Report
-    .desc = A poster instructing the viewer to report suspicious activity to the security force.
+ent-PosterLegitSafetyReport = Segurança: Relatório
+    .desc = Um pôster instruindo o espectador a relatar atividades suspeitas à força de segurança.
 
-ent-PosterLegitReportCrimes = Report Crimes
-    .desc = A poster encouraging the swift reporting of crime or seditious behavior to station security.
+ent-PosterLegitReportCrimes = Denuncie Crimes
+    .desc = Um pôster incentivando a rápida denúncia de crimes ou comportamento sedicioso à segurança da estação.
 
-ent-PosterLegitIonRifle = Ion Rifle
-    .desc = A poster displaying an Ion Rifle.
+ent-PosterLegitIonRifle = Rifle de Íons
+    .desc = Um pôster exibindo um Rifle de Íons.
 
-ent-PosterLegitFoamForceAd = Foam Force Ad
-    .desc = Foam Force, it's Foam or be Foamed!
+ent-PosterLegitFoamForceAd = Anúncio da Força de Espuma
+    .desc = Força de Espuma, é Espuma ou seja Espumado!
 
-ent-PosterLegitCohibaRobustoAd = Cohiba Robusto Ad
-    .desc = Cohiba Robusto, the classy cigar.
+ent-PosterLegitCohibaRobustoAd = Anúncio do Cohiba Robusto
+    .desc = Cohiba Robusto, o charuto elegante.
 
-ent-PosterLegit50thAnniversaryVintageReprint = 50th Anniversary Vintage Reprint
-    .desc = A reprint of a poster from 2505, commemorating the 50th Anniversary of Nanoposters Manufacturing, a subsidiary of Nanotrasen.
+ent-PosterLegit50thAnniversaryVintageReprint = Reimpressão Vintage do 50º Aniversário
+    .desc = Uma reimpressão de um pôster de 2505, comemorando o 50º Aniversário da Nanoposters Manufacturing, uma subsidiária da Nanotrasen.
 
-ent-PosterLegitFruitBowl = Fruit Bowl
-    .desc =  Simple, yet awe-inspiring.
+ent-PosterLegitFruitBowl = Fruteira
+    .desc = Simples, mas inspirador.
 
-ent-PosterLegitPDAAd = PDA Ad
-    .desc = A poster advertising the latest PDA from Nanotrasen suppliers.
+ent-PosterLegitPDAAd = Anúncio do PDA
+    .desc = Um pôster anunciando o mais recente PDA dos fornecedores da Nanotrasen.
 
-ent-PosterLegitEnlist = Enlist
-    .desc = Enlist in the Nanotrasen Deathsquadron reserves today!
+ent-PosterLegitEnlist = Aliste-se
+    .desc = Aliste-se hoje mesmo nas reservas do Esquadrão da Morte da Nanotrasen!
 
-ent-PosterLegitNanomichiAd = Nanomichi Ad
-    .desc =  A poster advertising Nanomichi brand audio cassettes.
+ent-PosterLegitNanomichiAd = Anúncio da Nanomichi
+    .desc = Um pôster anunciando as fitas cassete da marca Nanomichi.
 
 ent-PosterLegit12Gauge = 12 Gauge
-    .desc = A poster boasting about the superiority of 12 gauge shotgun shells.
+    .desc = Um pôster vangloriando-se da superioridade dos cartuchos de espingarda calibre 12.
 
-ent-PosterLegitHighClassMartini = High-Class Martini
-    .desc = I told you to shake it, no stirring.
+ent-PosterLegitHighClassMartini = Martini de Classe Alta
+    .desc = Eu disse para agitar, não mexer.
 
-ent-PosterLegitTheOwl = The Owl
-    .desc = The Owl would do his best to protect the station. Will you?
+ent-PosterLegitTheOwl = A Coruja
+    .desc = A Coruja faria o seu melhor para proteger
 
 ent-PosterLegitNoERP = No ERP
-    .desc = This poster reminds the crew that Eroticism and Pornography are banned on Nanotrasen stations.
+    .desc = Este pôster lembra à tripulação que Erotismo e Pornografia são proibidos nas estações da Nanotrasen.
 
-ent-PosterLegitCarbonDioxide = Carbon Dioxide
-    .desc = This informational poster teaches the viewer what carbon dioxide is.
+ent-PosterLegitCarbonDioxide = Dióxido de Carbono
+    .desc = Este pôster informativo ensina ao espectador o que é dióxido de carbono.
 
 ent-PosterLegitDickGumshue = Dick Gumshue
-    .desc = A poster advertising the escapades of Dick Gumshue, mouse detective. Encouraging crew to bring the might of justice down upon wire saboteurs.
+    .desc = Um pôster anunciando as aventuras de Dick Gumshue, o detetive rato. Incentivando a tripulação a trazer a força da justiça contra sabotadores de fios.
 
-ent-PosterLegitThereIsNoGasGiant = There Is No Gas Giant
-    .desc = Nanotrasen has issued posters, like this one, to all stations reminding them that rumours of a gas giant are false.
+ent-PosterLegitThereIsNoGasGiant = Não Existe Gigante de Gás
+    .desc = A Nanotrasen emitiu pôsteres, como este, para todas as estações, lembrando-lhes que os rumores sobre um gigante gasoso são falsos.
 
-ent-PosterLegitJustAWeekAway = Just a Week Away...
-    .desc = A poster advertising a long delayed project, it still claims it to be 'just a week away...'
+ent-PosterLegitJustAWeekAway = Apenas uma Semana...
+    .desc = Um pôster anunciando um projeto há muito adiado, ainda afirmando que está 'apenas uma semana de distância...'
 
-ent-PosterMapBagel = Bagel Map
-    .desc = A map of Bagel Station.
+ent-PosterMapBagel = Mapa da Bagel Station
+    .desc = Um mapa da Bagel Station.
 
-ent-PosterMapDelta = Delta Map
-    .desc = A map of Delta Station.
+ent-PosterMapDelta = Mapa da Delta Station
+    .desc = Um mapa da Delta Station.
 
-ent-PosterMapMarathon = Marathon Map
-    .desc = A map of Marathon Station.
+ent-PosterMapMarathon = Mapa da Marathon Station
+    .desc = Um mapa da Marathon Station.
 
-ent-PosterMapMoose = Moose Map
-    .desc = A map of Moose Station.
+ent-PosterMapMoose = Mapa da Moose Station
+    .desc = Um mapa da Moose Station.
 
-ent-PosterMapPacked = Packed Map
-    .desc = A map of Packed Station.
+ent-PosterMapPacked = Mapa da Packed Station
+    .desc = Um mapa da Packed Station.
 
-ent-PosterMapPillar = Pillar Map
-    .desc = A map of NSS Pillar.
+ent-PosterMapPillar = Mapa da NSS Pillar
+    .desc = Um mapa da NSS Pillar.
 
-ent-PosterMapSaltern = Saltern Map
-    .desc = A map of Saltern Station.
+ent-PosterMapSaltern = Mapa da Saltern Station
+    .desc = Um mapa da Saltern Station.
 
-ent-PosterMapSplit = Split Station Map
-    .desc = A map of Split Station.
+ent-PosterMapSplit = Mapa da Split Station
+    .desc = Um mapa da Split Station.
 
-ent-PosterMapLighthouse = Lighthouse Map
-    .desc = A map of Lighthouse.
+ent-PosterMapLighthouse = Mapa do Farol
+    .desc = Um mapa do Farol.
 
-ent-PosterMapWaystation = Waystation Map
-    .desc = A map of Waystation... wait isn't this packed upside down?
-
+ent-PosterMapWaystation = Mapa da Waystation... espere, isso não está de cabeça para baixo?
+    .desc = Um mapa da Waystation... espere, isso não está de cabeça para baixo?

@@ -1,5 +1,5 @@
 game-hud-open-escape-menu-button-tooltip = Abrir menu principal.
-game-hud-open-guide-menu-button-tooltip = Abre o menu de livro guia.
+game-hud-open-guide-menu-button-tooltip = Abrir menu de livro guia.
 game-hud-open-character-menu-button-tooltip = Abrir menu de personagem.
 game-hud-open-inventory-menu-button-tooltip = Abrir menu de inventário.
 game-hud-open-crafting-menu-button-tooltip = Abrir menu de construção.

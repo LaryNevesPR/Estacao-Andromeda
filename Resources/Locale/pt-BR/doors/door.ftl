@@ -1,1 +1,1 @@
-door-pry = Arrombar porta
+door-pry = Arrombar

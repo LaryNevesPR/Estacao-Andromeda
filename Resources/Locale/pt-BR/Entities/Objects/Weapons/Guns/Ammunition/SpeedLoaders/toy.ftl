@@ -1,6 +1,6 @@
-ent-BaseSpeedLoaderCap = carregador de velocidade de espoleta
+ent-BaseSpeedLoaderCap = carregador rápido de espoleta
      .desc = { "" }
 
-ent-SpeedLoaderCap = carregador de velocidade de espoleta
+ent-SpeedLoaderCap = carregador rápido de espoleta
      .desc = { "" }
 

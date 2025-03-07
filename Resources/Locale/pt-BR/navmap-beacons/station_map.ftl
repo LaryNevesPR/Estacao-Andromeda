@@ -1,5 +1,5 @@
 station-map-window-title = Mapa da estação
-station-map-user-interface-flavor-left = Não entrar em pânico
+station-map-user-interface-flavor-left = Não entre em pânico
 station-map-user-interface-flavor-right = v1.42
 
 nav-beacon-window-title = Farol da estação

@@ -1,54 +1,53 @@
 ent-CrateFoodVendingMachineRestock = Caixa de reabastecimento de máquina de alimentos e bebidas
     .desc = Um conjunto de pacotes para reabastecer máquinas de venda automática de alimentos e bebidas.
 
-ent-CrateVendingMachineRestockClothesFilled = Clothing restock crate
-    .desc = Contains a pair of restock boxes, one for the ClothesMate and one for the AutoDrobe.
+ent-CrateVendingMachineRestockClothesFilled = Caixa de reabastecimento de roupas
+    .desc = Contém um par de caixas de reabastecimento, uma para o ClothesMate e outra para o AutoDrobe.
 
-ent-CrateVendingMachineRestockDinnerwareFilled = Plasteel Chef restock crate
-    .desc = Contains a restock box for the Plasteel Chef vending machine.
+ent-CrateVendingMachineRestockDinnerwareFilled = Caixa de reabastecimento do Plasteel Chef
+    .desc = Contém uma caixa de reabastecimento para a máquina de venda Plasteel Chef.
 
-ent-CrateVendingMachineRestockEngineeringFilled = EngiVend restock crate
-    .desc = Contains a restock box for the EngiVend. Also supports the YouTool.
+ent-CrateVendingMachineRestockEngineeringFilled = Caixa de reabastecimento EngiVend
+    .desc = Contém uma caixa de reabastecimento para a EngiVend. Também é compatível com a YouTool.
 
-ent-CrateVendingMachineRestockGamesFilled = Good Clean Fun restock crate
-    .desc = Contains a restock box for the Good Clean Fun vending machine.
+ent-CrateVendingMachineRestockGamesFilled = Caixa de reabastecimento Good Clean Fun
+    .desc = Contém uma caixa de reabastecimento para a máquina de venda Good Clean Fun.
 
-ent-CrateVendingMachineRestockHotDrinksFilled = Solar's Best restock crate
-    .desc = Contains two restock boxes for Solar's Best Hot Drinks vending machine.
+ent-CrateVendingMachineRestockHotDrinksFilled = Caixa de reabastecimento Solar's Best
+    .desc = Contém duas caixas de reabastecimento para a máquina de venda Solar's Best Hot Drinks.
 
-ent-CrateVendingMachineRestockMedicalFilled = NanoMed restock crate
-    .desc = Contains a restock box, compatible with the NanoMed and NanoMedPlus.
+ent-CrateVendingMachineRestockMedicalFilled = Caixa de reabastecimento NanoMed
+    .desc = Contém uma caixa de reabastecimento, compatível com o NanoMed e o NanoMedPlus.
 
-ent-CrateVendingMachineRestockNutriMaxFilled = NutriMax restock crate
-    .desc = Contains a restock box for the NutriMax vending machine.
+ent-CrateVendingMachineRestockNutriMaxFilled = Caixa de reabastecimento NutriMax
+    .desc = Contém uma caixa de reabastecimento para a máquina de venda NutriMax.
 
-ent-CrateVendingMachineRestockPTechFilled = PTech restock crate
-    .desc = Contains a restock box for the PTech bureaucracy dispenser.
+ent-CrateVendingMachineRestockPTechFilled = Caixa de reabastecimento PTech
+    .desc = Contém uma caixa de reabastecimento para o distribuidor burocrático PTech.
 
-ent-CrateVendingMachineRestockRobustSoftdrinksFilled = Robust Softdrinks restock crate
-    .desc = Contains two restock boxes for the Robust Softdrinks LLC vending machine.
+ent-CrateVendingMachineRestockRobustSoftdrinksFilled = Caixa de reabastecimento Robust Softdrinks
+    .desc = Contém duas caixas de reabastecimento para a máquina de venda Robust Softdrinks LLC.
 
-ent-CrateVendingMachineRestockSalvageEquipmentFilled = Salvage restock crate
-    .desc = Contains a restock box for the salvage vendor.
+ent-CrateVendingMachineRestockSalvageEquipmentFilled = Caixa de reabastecimento de salvamento
+    .desc = Contém uma caixa de reabastecimento para o vendedor de salvamento.
 
-ent-CrateVendingMachineRestockSecTechFilled = SecTech restock crate
-    .desc = Contains a restock box for the SecTech vending machine.
+ent-CrateVendingMachineRestockSecTechFilled = Caixa de reabastecimento SecTech
+    .desc = Contém uma caixa de reabastecimento para a máquina de venda SecTech.
 
-ent-CrateVendingMachineRestockSeedsFilled = MegaSeed restock crate
-    .desc = Contains a restock box for the MegaSeed vending machine.
+ent-CrateVendingMachineRestockSeedsFilled = Caixa de reabastecimento MegaSeed
+    .desc = Contém uma caixa de reabastecimento para a máquina de venda MegaSeed.
 
-ent-CrateVendingMachineRestockSmokesFilled = ShadyCigs restock crate
-    .desc = Contains two restock boxes for the ShadyCigs vending machine.
+ent-CrateVendingMachineRestockSmokesFilled = Caixa de reabastecimento ShadyCigs
+    .desc = Contém duas caixas de reabastecimento para a máquina de venda ShadyCigs.
 
-ent-CrateVendingMachineRestockSnacksFilled = Snack restock crate
-    .desc = Contains four restock boxes, each covering a different snack vendor. Mr. Chang's, Discount Dans, Robust Donuts, and Getmore Chocolate are featured on the advertisement.
+ent-CrateVendingMachineRestockSnacksFilled = Caixa de reabastecimento de lanches
+    .desc = Contém quatro caixas de reabastecimento, cada uma cobrindo um vendedor de lanches diferente. Mr. Chang's, Discount Dans, Robust Donuts e Getmore Chocolate são apresentados no anúncio.
 
-ent-CrateVendingMachineRestockVendomatFilled = Vendomat restock crate
-    .desc = Contains a restock box for a Vendomat vending machine.
+ent-CrateVendingMachineRestockVendomatFilled = Caixa de reabastecimento Vendomat
+    .desc = Contém uma caixa de reabastecimento para uma máquina de
 
-ent-CrateVendingMachineRestockTankDispenserFilled = Tank dispenser restock crate
-    .desc = Contains a restock box for an Engineering or Atmospherics tank dispenser.
+ent-CrateVendingMachineRestockTankDispenserFilled = Caixa de reabastecimento do dispensador de tanques
+    .desc = Contém uma caixa de reabastecimento para um dispensador de tanques de Engenharia ou Atmosfera.
 
-ent-CrateVendingMachineRestockHappyHonkFilled = Happy honk restock crate
-    .desc = Contains a restock box for a happy honk dispenser.
-
+ent-CrateVendingMachineRestockHappyHonkFilled = Caixa de reabastecimento de buzina alegre
+    .desc = Contém uma caixa de reabastecimento para um dispensador de buzina alegre.

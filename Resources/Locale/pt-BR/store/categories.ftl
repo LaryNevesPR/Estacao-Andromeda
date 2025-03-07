@@ -1,6 +1,6 @@
 ﻿# Uplink
-store-category-debug = debug category
-store-category-debug2 = debug category 2
+store-category-debug = categoria de depuração
+store-category-debug2 = categoria de depuração 2
 store-category-weapons = Arsenal
 store-category-ammo = Munição
 store-category-explosives = Explosivos

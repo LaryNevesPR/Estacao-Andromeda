@@ -14,7 +14,7 @@ technologies-advanced-botany = Botânica avançada
 technologies-advanced-botany-description = Uma melhor compreensão da botânica.
 
 technologies-virology = Virologia
-technologies-virology-description = Os segredos do sistema imunolôgico.
+technologies-virology-description = Os segredos do sistema imunológico.
 
 technologies-advanced-surgery = Cirurgia avançada
 technologies-advanced-surgery-description = Pesquisar novos procedimentos cirúrgicos.
@@ -68,18 +68,18 @@ technologies-advanced-powercell-printing = Impressão de baterias avançada
 technologies-advanced-powercell-printing-description = Imprima células de potência avançadas.
 
 technologies-super-powercell-printing = Super impressão de baterias
-technologies-super-powercell-printing-description = Imprima super powercells.
+technologies-super-powercell-printing-description = Imprima super células de energia.
 
 technologies-scientific-technology = Tecnologia básica
 technologies-scientific-technology-description = Os fundamentos dos suprimentos de uma equipe de pesquisa.
 
-technologies-anomaly-technology = Tecnologo de anomalias
+technologies-anomaly-technology = Tecnologia de anomalias
 technologies-anomaly-technology-description = Máquinas para contenção avançada de anomalias.
 
 technologies-robotics-technology = Tecnologia robótica
 technologies-robotics-technology-description = Partes do robô.
 
-technologies-archaeology = Equipamento arqueológico
+technologies-archaeology = Equipamento xenoarqueológico
 technologies-archaeology-description = Equipamento avançado para descobrir os segredos dos artefatos.
 
 technologies-adv-parts-technology = Tecnologia avançada de peças
@@ -100,10 +100,10 @@ technologies-direct-energy-technology-description = Aproveite nossos avanços em
 technologies-non-lethal-technology = Tecnologia não letal
 technologies-non-lethal-technology-description = Opções menos letais para segurança.
 
-technologies-ripley-technology = Exosuit: Ripley
+technologies-ripley-technology = Exotraje: Ripley
 technologies-ripley-technology-description = O que há de mais moderno e moderno em construção mecanizada de cargas.
 
-technologies-bluespace-technology = Tecnologia Bluespace
+technologies-bluespace-technology = Tecnologia Espaço Azul
 technologies-bluespace-technology-description = Armazenamento extradimensional.
 
 technologies-teleportation-technology = Tecnologia de teletransporte

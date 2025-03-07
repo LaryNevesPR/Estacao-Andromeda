@@ -86,7 +86,7 @@ ent-BoxSurvival = caixa de sobrevivência
     .desc = Uma caixa que contém equipamentos básicos de sobrevivência.
 
 ent-BoxSurvivalEngineering = caixa de sobrevivência de capacidade estendida
-    .desc = Uma caixa que contém equipamentos básicos de sobrevivência. Esta está entiquetada como contendo um tanque de capacidade estendida.
+    .desc = Uma caixa que contém equipamentos básicos de sobrevivência. Esta está etiquetada como contendo um tanque de capacidade estendida.
 
 ent-BoxSurvivalSecurity = caixa de sobrevivência
     .desc = Uma caixa que contém equipamentos básicos de sobrevivência.
@@ -98,7 +98,7 @@ ent-BoxHug = caixa de abraços
     .desc = Uma caixa especial para pessoas sensíveis.
 
 ent-BoxSurvivalSyndicate = caixa de sobrevivência de capacidade estendida
-    .desc = Uma caixa que contém equipamentos básicos de sobrevivência. Esta está entiquetada como contendo um tanque de capacidade estendida.
+    .desc = Uma caixa que contém equipamentos básicos de sobrevivência. Esta está etiquetada como contendo um tanque de capacidade estendida.
 
 # Geral
 ent-BoxCardboard = caixa de papelão
@@ -135,7 +135,7 @@ ent-BoxHugHealing = caixa de abraços
     .desc = Uma caixa especial para pessoas sensíveis.
 
 ent-BoxInflatable = caixa de parede inflável
-    .desc = As paredes infláveis não devem ser usadas como bóias.
+    .desc = As paredes infláveis não devem ser usadas como boias.
 
 ent-BoxPerformer = caixa do dia da hatsune miku
     .desc = Feliz Dia da Hatsune Miku!!
@@ -208,8 +208,8 @@ ent-BoxSterileMask = caixa de máscaras descartáveis
 ent-BoxLatexGloves = caixa de luvas de látex
     .desc = Contém luvas de látex.
 
-ent-BoxNitrileGloves = caixa de luvas de nítrilo
-    .desc = Contém luvas de nítrilo. Melhor que látex.
+ent-BoxNitrileGloves = caixa de luvas de nitrilo
+    .desc = Contém luvas de nitrilo. Melhor que látex.
 
 ent-BoxMouthSwab = caixa de swab estéril
     .desc = Uma caixa de papelão para guardar coisas.
@@ -241,7 +241,7 @@ ent-BoxForensicPad = caixa de cartões forense
     .desc = Uma caixa de cartões forense.
 
 # Syndicate
-ent-ElectricalDisruptionKit = kit de peturbação elétrica
+ent-ElectricalDisruptionKit = kit de perturbação elétrica
     .desc = Uma caixa de papelão para guardar coisas.
 
 ent-ChemicalSynthesisKit = kit de síntese química

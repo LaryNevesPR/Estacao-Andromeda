@@ -13,21 +13,20 @@ ent-GlowstickYellow = bastão luminoso amarelo
 ent-GlowstickBlue = bastão luminoso azul
      .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest1 = light pulse test
-    .desc = Useful for raves and emergencies.
+ent-LightBehaviourTest1 = teste de pulso de luz
+    .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest2 = color cycle test
-    .desc = Useful for raves and emergencies.
+ent-LightBehaviourTest2 = teste de ciclo de cores
+    .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest3 = multi-behaviour light test
-    .desc = Useful for raves and emergencies.
+ent-LightBehaviourTest3 = teste de luz com múltiplos comportamentos
+    .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest4 = light fade in test
-    .desc = Useful for raves and emergencies.
+ent-LightBehaviourTest4 = teste de fade in de luz
+    .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest5 = light pulse radius test
-    .desc = Useful for raves and emergencies.
+ent-LightBehaviourTest5 = teste de raio de pulso de luz
+    .desc = Útil para raves e emergências.
 
-ent-LightBehaviourTest6 = light randomize radius test
-    .desc = Useful for raves and emergencies.
-
+ent-LightBehaviourTest6 = teste de raio de luz aleatório
+    .desc = Útil para raves e emergências.

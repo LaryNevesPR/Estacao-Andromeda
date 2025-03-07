@@ -1,6 +1,6 @@
 ### UI
 
-chat-manager-max-message-length = Sua mensagem excedeu o limite de {$maxMessageLength} caractéres
+chat-manager-max-message-length = Sua mensagem excedeu o limite de {$maxMessageLength} caracteres
 chat-manager-ooc-chat-enabled-message = Chat OOC foi habilitado.
 chat-manager-ooc-chat-disabled-message = Chat OOC foi desabilitado.
 chat-manager-looc-chat-enabled-message = Chat LOOC foi habilitado.
@@ -12,7 +12,7 @@ chat-manager-crit-looc-chat-disabled-message = Jogadores em estado critico não 
 chat-manager-admin-ooc-chat-enabled-message = Chat Admin OOC foi habilitado.
 chat-manager-admin-ooc-chat-disabled-message = Chat Admin OOC foi desabilitado.
 
-chat-manager-max-message-length-exceeded-message = Sua mensagem excedeu o limite de {$limit} caractéres
+chat-manager-max-message-length-exceeded-message = Sua mensagem excedeu o limite de {$limit} caracteres
 chat-manager-no-headset-on-message = Você não tem um headset ligado!
 chat-manager-no-radio-key = Nenhuma chave de canal selecionada!
 chat-manager-no-such-channel = Não existe canal com a chave '{$key}'!
@@ -66,11 +66,11 @@ chat-speech-verb-stutter = gagueja
 chat-speech-verb-mumble = murmura
 
 chat-speech-verb-insect-1 = chia
-chat-speech-verb-insect-2 = gorjea
+chat-speech-verb-insect-2 = gorja
 chat-speech-verb-insect-3 = clica
 
 chat-speech-verb-winged-1 = vibra
-chat-speech-verb-winged-2 = agitar
+chat-speech-verb-winged-2 = agita
 chat-speech-verb-winged-3 = zumbe
 
 chat-speech-verb-slime-1 = borrifa
@@ -98,7 +98,7 @@ chat-speech-verb-vox-3 = cui
 
 chat-speech-verb-canine-1 = late
 chat-speech-verb-canine-2 = ladre
-chat-speech-verb-canine-3 = uivos
+chat-speech-verb-canine-3 = uiva
 
 chat-speech-verb-small-mob-1 = guincha
 chat-speech-verb-small-mob-2 = pia
@@ -106,7 +106,7 @@ chat-speech-verb-small-mob-2 = pia
 chat-speech-verb-large-mob-1 = ruge
 chat-speech-verb-large-mob-2 = rosna
 
-chat-speech-verb-monkey-1 = macaquea
+chat-speech-verb-monkey-1 = macaqueia
 chat-speech-verb-monkey-2 = guincha
 
 chat-speech-verb-cluwne-1 = ri
@@ -118,9 +118,9 @@ chat-speech-verb-ghost-2 = suspira
 chat-speech-verb-ghost-3 = zumbe
 chat-speech-verb-ghost-4 = murmura
 
-chat-speech-verb-electricity-1 = estalando
-chat-speech-verb-electricity-2 = zumbidas
-chat-speech-verb-electricity-3 = gritos
+chat-speech-verb-electricity-1 = estala
+chat-speech-verb-electricity-2 = zumbe
+chat-speech-verb-electricity-3 = grita
 
 chat-speech-verb-name-oni=Oni
 chat-speech-verb-oni-1=grunhe

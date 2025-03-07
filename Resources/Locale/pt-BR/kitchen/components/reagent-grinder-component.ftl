@@ -17,4 +17,4 @@ grinder-menu-chamber-content-box-label = Compartimento
 grinder-menu-chamber-content-box-button = Ejetar
 grinder-menu-beaker-content-box-label = Becker
 grinder-menu-beaker-content-box-button = Ejetar Becker
-grinder-menu-beaker-content-box-is-empty = Vázio
+grinder-menu-beaker-content-box-is-empty = Vazio

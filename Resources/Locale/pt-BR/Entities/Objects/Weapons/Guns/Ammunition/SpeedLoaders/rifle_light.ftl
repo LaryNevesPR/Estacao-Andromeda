@@ -1,3 +1,3 @@
-ent-SpeedLoaderLightRifle = carregador de velocidade (.30 rifle)
+ent-SpeedLoaderLightRifle = carregador rápido (.30 rifle)
     .desc = { "" }
 

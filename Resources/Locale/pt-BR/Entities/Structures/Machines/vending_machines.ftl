@@ -38,7 +38,7 @@ ent-VendingMachineMedical = NanoFarma Mais
     .desc = Um dispensador de medicamentos. 100% natural!
 
 ent-VendingMachineNutri = NutriMaxi
-    .desc = Vende ferramentas e produtos botanicos.
+    .desc = Vende ferramentas e produtos botânicos.
 
 ent-VendingMachineSec = SecTéc
     .desc = Uma máquina de venda com equipamentos de segurança. Tem um aviso que diz "USO RESTRITO A SEGURANÇAS".
@@ -55,7 +55,7 @@ ent-VendingMachineSmartFridge = Geladeira Smart
     .desc = Uma geladeira smart, conecta na internet e passa propaganda do jogo do tigrinho.
 
 ent-VendingMachineSnack = ComaComa Choco Co.
-    .desc = Uma máquina de salgadinhos. Cortesia da compania chocolateira ComaComa Choco, baseada em Marte.
+    .desc = Uma máquina de salgadinhos. Cortesia da companhia chocolateira ComaComa Choco, baseada em Marte.
 
 ent-VendingMachineSovietSoda = BODA
     .desc = Uma máquina antiga que vende água saborizada.

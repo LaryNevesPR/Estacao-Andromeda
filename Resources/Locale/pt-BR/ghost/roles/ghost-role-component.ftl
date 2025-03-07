@@ -37,8 +37,8 @@ ghost-role-information-xeno-name = Xeno
 ghost-role-information-xeno-description = Você é um xeno, coopere com sua colmeia para matar todos os tripulantes!
 ghost-role-information-xeno-rules = Você é um antagonista, espanque, corte e quebre!
 
-ghost-role-information-revenant-name = Revenant
-ghost-role-information-revenant-description = Você é um Revenant. Use seus poderes para colher almas e desencadear o caos na tripulação. Desbloqueie novas habilidades com a essência que você colhe.
+ghost-role-information-revenant-name = Espectro
+ghost-role-information-revenant-description = Você é um Espectro. Use seus poderes para colher almas e desencadear o caos na tripulação. Desbloqueie novas habilidades com a essência que você colhe.
 ghost-role-information-revenant-rules = Você é um antagonista, colhe, contamina e leva a tripulação à loucura.
 
 ghost-role-information-kangaroo-name = Canguru
@@ -76,14 +76,14 @@ ghost-role-information-space-tick-description = Cause estragos na estação!
 ghost-role-information-salvage-tick-name = Carrapato espacial no naufrágio de salvamento
 ghost-role-information-salvage-tick-description = Defenda o saque dentro do naufrágio de salvamento!
 
-ghost-role-information-honkbot-name = Honkbot
+ghost-role-information-honkbot-name = Bubô
 ghost-role-information-honkbot-description = Um ser artificial de pura maldade.
 
-ghost-role-information-jonkbot-name = Jonkbot
+ghost-role-information-jonkbot-name = Pibô
 ghost-role-information-jonkbot-description = Um ser artificial de pura maldade.
 
-ghost-role-information-mimebot-name = Mimebot
-ghost-role-information-mimebot-description = Um Mimebot, age como um mímico, mas não como um greytider.
+ghost-role-information-mimebot-name = Mimibô
+ghost-role-information-mimebot-description = Um Mimibô, age como um mímico, mas não como um Cinzeiro.
 
 ghost-role-information-taxibot-name = TaxiBot
 ghost-role-information-taxibot-description = Dirija a tripulação da estação até o seu destino.
@@ -124,13 +124,13 @@ ghost-role-information-tropico-description = O nobre companheiro da Atmosia e se
 ghost-role-information-guardian-name = Guardião
 ghost-role-information-guardian-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
-ghost-role-information-holoparasite-name = Holoparasite
+ghost-role-information-holoparasite-name = Holoparasita
 ghost-role-information-holoparasite-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
 ghost-role-information-holoclown-name = Holopalhaço
 ghost-role-information-holoclown-description = Ouça o seu dono. Utilize seus bolsos e mãos para ajudar seu dono.
 
-ghost-role-information-ifrit-name = Ifrit
+ghost-role-information-ifrit-name = Ifrite
 ghost-role-information-ifrit-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
 
 ghost-role-information-space-dragon-name = Dragão Espacial
@@ -191,7 +191,7 @@ ghost-role-information-loneop-rules = Você é um agente do sindicato encarregad
 ghost-role-information-behonker-name = Behonker
 ghost-role-information-behonker-description = Você é um antagonista, traga a morte e buzinas para aqueles que não seguem a honkmother.
 
-ghost-role-information-hellspawn-name = Hellspawn
+ghost-role-information-hellspawn-name = ínfero
 ghost-role-information-hellspawn-description = Você é um antagonista, trazendo a morte àqueles que não seguem o grande deus Nar'Sie.
 
 ghost-role-information-Death-Squad-name = Esquadrão da Morte
@@ -225,8 +225,8 @@ ghost-role-information-syndicate-monkey-reinforcement-name = Agente Macaco do Si
 ghost-role-information-syndicate-monkey-reinforcement-description = Alguém precisa de reforços. Você, um macaco treinado, irá ajudá-los.
 ghost-role-information-syndicate-monkey-reinforcement-rules = As regras normais para antagonistas do sindicato se aplicam. Trabalhe com quem o chamou e não o prejudique.
 
-ghost-role-information-medibot-name = Medibot
-ghost-role-information-medibot-description = Clique nas pessoas para curá-las. Cure qualquer pessoa que seu autoinjetor permitir.
+ghost-role-information-medibot-name = Medibô
+ghost-role-information-medibot-description = Clique nas pessoas para curá-las. Cure qualquer pessoa que seu auto-injetor permitir.
 
-ghost-role-information-cleanbot-name = CleanBot
+ghost-role-information-cleanbot-name = Limpabô
 ghost-role-information-cleanbot-description = Clique nas poças para limpá-las.

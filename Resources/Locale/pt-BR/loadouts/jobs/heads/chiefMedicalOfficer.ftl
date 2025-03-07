@@ -1,5 +1,5 @@
-loadout-description-LoadoutCommandCMONeckMantle = To show who has the authority around here. It seems unusually clean.
-loadout-description-LoadoutCommandCMONeckCloak = To really show who has the authority around here. It seems unusually clean.
-loadout-description-LoadoutCommandCMOOuterWinter = A warm coat for the cold of space. It seems unusually clean.
-loadout-description-LoadoutCommandCMOOuterLab = A lab coat for the CMO. It seems unusually clean.
-loadout-description-LoadoutCommandCMOHatBeret = A beret for the CMO. It seems unusually clean.
+loadout-description-LoadoutCommandCMONeckMantle = Para mostrar quem tem a autoridade por aqui. Parece estranhamente limpo.
+loadout-description-LoadoutCommandCMONeckCloak = Para realmente mostrar quem tem a autoridade por aqui. Parece estranhamente limpo.
+loadout-description-LoadoutCommandCMOOuterWinter = Um casaco quente para o frio do espaço. Parece estranhamente limpo.
+loadout-description-LoadoutCommandCMOOuterLab = Um jaleco para o CMO. Parece estranhamente limpo.
+loadout-description-LoadoutCommandCMOHatBeret = Uma boina para o CMO. Parece estranhamente limpo.

@@ -13,7 +13,7 @@ ent-GrenadeBaton = granada de cassetete
 ent-GrenadeBlast = granada de explosão
      .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
-ent-GrenadeFlash = granada de flash
+ent-GrenadeFlash = granada de atordoamento
      .desc = Uma ogiva 1.5 projetada para o lançador RPG-7. É incomumente lento.
 
 ent-GrenadeFrag = granada de fragmentação

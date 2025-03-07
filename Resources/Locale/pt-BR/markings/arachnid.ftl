@@ -43,7 +43,7 @@ marking-ArachnidAppendagesFreaky-freaky_secondary = Malhas
 marking-ArachnidTorsoStripes = Listras
 marking-ArachnidTorsoStripes-stripes = Modelo
 
-marking-ArachnidTorsoSlashes = Slashes
+marking-ArachnidTorsoSlashes = Cortes
 marking-ArachnidTorsoSlashes-slashes = Modelo
 
 marking-ArachnidTorsoCross = Cross

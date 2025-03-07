@@ -1,4 +1,4 @@
-uplink-kanabou-name = Kanabú
+uplink-kanabou-name = Kanabō
 uplink-kanabou-desc = Uma arma para aqueles que desejam abrir mão da sutileza. Particularmente adequado para oni.
 
 uplink-nocturine-gland-injector-name = Glândula Injetora de Nocturina

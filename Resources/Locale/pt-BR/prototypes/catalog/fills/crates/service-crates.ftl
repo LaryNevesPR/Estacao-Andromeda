@@ -22,5 +22,5 @@ ent-CrateServicePersonnel = Caixa de funcionário
 ent-CrateServiceBooks = Caixa de livros
     .desc = Contém 10 livros vazios de aparentemente aleatórios
 
-ent-CrateJanitorBiosuit = Caixa de traje de bioproteção do zelador
-    .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença irá distraí-lo da limpeza.
+ent-CrateJanitorBiosuit = Caixa de traje de bio-proteção do zelador
+    .desc = Contém 2 trajes de bio-proteção para garantir que nenhuma doença irá distraí-lo da limpeza.

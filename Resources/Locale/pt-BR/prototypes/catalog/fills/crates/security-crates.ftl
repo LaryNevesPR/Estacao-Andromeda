@@ -16,5 +16,5 @@ ent-CrateSecuritySupplies = Caixa de suprimentos de segurança
 ent-CrateRestraints = Caixa de contenções
     .desc = Contém duas caixas de algemas e zíperes. Requer acesso de segurança para abrir.
 
-ent-CrateSecurityBiosuit = Caixa de traje de bioproteção da segurança
-    .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença irá distraí-lo de seus deveres. Requer acesso à segurança para abrir.
+ent-CrateSecurityBiosuit = Caixa de traje de bio-proteção da segurança
+    .desc = Contém 2 trajes de bio-proteção para garantir que nenhuma doença irá distraí-lo de seus deveres. Requer acesso à segurança para abrir.

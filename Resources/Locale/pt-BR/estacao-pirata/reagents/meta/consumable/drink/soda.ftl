@@ -8,4 +8,4 @@ reagent-name-bubbletea = bubble tea
 reagent-desc-bubbletea = Você tem que beber!
 
 reagent-name-chocolate = chocolate derretido
-reagent-desc-chocolate = Tão amargo que parece natual.
+reagent-desc-chocolate = Tão amargo que parece Natural.

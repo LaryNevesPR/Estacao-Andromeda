@@ -2,11 +2,11 @@ supermatter-announcer = Reator de Supermatéria Automático
 supermatter-examine-integrity =
     A sua integridade é [color=yellow]{$integrity}%[/color].
 supermatter-warning =
-    Aviso! A integridade da hiperestutura do cristal está se deteriorando! Integridade: {$integrity}%.
+    Aviso! A integridade da hiperestrutura do cristal está se deteriorando! Integridade: {$integrity}%.
 supermatter-emergency =
-    PERIGO! A integridade da hiperestutura do cristal atingiu níveis críticos! Integridade: {$integrity}%.
+    PERIGO! A integridade da hiperestrutura do cristal atingiu níveis críticos! Integridade: {$integrity}%.
 supermatter-delam-explosion =
-    DELAMINAÇÃO DO CRISTAL EMINENTE! O cristal atingiu níveis de integridade de falha crítica! O campo de desestabilização de baixas de emergência foi acionado. 
+    DELAMINAÇÃO DO CRISTAL EMINENTE! O cristal atingiu níveis de integridade de falha crítica! O campo de desestabilização de baixas de emergência foi acionado.
 supermatter-delam-overmass =
     DELAMINAÇÃO DO CRISTAL EMINENTE! A integridade da hiperestrutura do cristal apresenta falha de massa crítica!
 supermatter-delam-tesla =

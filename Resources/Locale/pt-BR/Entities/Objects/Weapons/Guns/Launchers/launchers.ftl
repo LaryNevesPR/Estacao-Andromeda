@@ -1,4 +1,4 @@
-ent-BaseWeaponLauncher = BaseWeaponLauncher
+ent-BaseWeaponLauncher = Lançador genérico
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponLauncherChinaLake = Chinalake

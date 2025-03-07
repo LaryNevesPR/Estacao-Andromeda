@@ -1,27 +1,27 @@
-book-text-escalation = When it comes to getting robusted, it's all about strategy. Do it right and you'll be the envy of the station. Do it wrong and the gods themselves may turn against you. Personally, I always aim for the former...
+book-text-escalation = Quando se trata de ser robusto, tudo é uma questão de estratégia. Faça certo e você será a inveja da estação. Faça errado e os deuses podem se voltar contra você. Pessoalmente, sempre miro no primeiro...
 
-        First things first: let the insults fly! This is your chance to really let your opponent know what you think of their ridiculously large shoes and that annoying bike horn.
+        Primeiro de tudo: deixe os insultos voarem! Esta é sua chance de realmente deixar seu oponente saber o que você pensa sobre seus sapatos ridiculamente grandes e aquela buzina de bicicleta irritante.
 
-        No conflict is complete without a little bit of physicality. Give your opponent a good shove or two, and if you're lucky, they'll stumble and fall, providing even more opportunities for insults.
+        Nenhum conflito está completo sem um pouco de fisicalidade. Dê um bom empurrão ou dois no seu oponente, e se você tiver sorte, ele vai tropeçar e cair, proporcionando ainda mais oportunidades para insultos.
 
-        But beware, because by now your opponent is probably trying to kill you. So, try to calm things down a bit. It'll make you look good during the inevitable homicide investigation.
+        Mas cuidado, porque a essa altura seu oponente provavelmente está tentando te matar. Então, tente acalmar as coisas um pouco. Isso vai fazer você parecer bem durante a inevitável investigação de homicídio.
 
-        If deescalation doesn't work, it's time to grab a weapon. But be smart about it - choose something that looks like it couldn't possibly be deadly, like this book.
+        Se a desescalada não funcionar, é hora de pegar uma arma. Mas seja esperto - escolha algo que pareça que não poderia ser mortal, como este livro.
 
-        And if you're both still standing, it's time to pull out the big guns. Find the sharpest thing you can and end things, because everyone's getting kind of tired of this by now.
+        E se vocês dois ainda estiverem de pé, é hora de puxar as armas grandes. Encontre a coisa mais afiada que puder e acabe com isso, porque todos já estão meio cansados disso agora.
 
-        Now parade your vanquished opponent through the halls to the medbay so that everyone knows just how robust you really are.
+        Agora desfile seu oponente derrotado pelos corredores até a enfermaria para que todos saibam o quão robusto você realmente é.
 
-        Remember, it's all about conserving energy. Let your opponent do some of the escalation for you - it's a win-win!
+        Lembre-se, é tudo sobre conservar energia. Deixe seu oponente fazer parte da escalada por você - é uma situação ganha-ganha!
 
-book-text-escalation-security = Get it right and you'll have the whole station calling you shitsec. Get it wrong and you'll face harmbatoning from the gods. Personally, I always aim for the former...
+book-text-escalation-security = Faça certo e toda a estação vai te chamar de "shitsec". Faça errado e você enfrentará o cacetete dos deuses. Pessoalmente, sempre miro no primeiro...
 
-        They say the pen is mightier than the sword, but you don't have a sword, you have a stun baton, and as soon as you start writing, any suspect is going to leave.
+        Dizem que a caneta é mais poderosa que a espada, mas você não tem uma espada, você tem um bastão de choque, e assim que começar a escrever, qualquer suspeito vai embora.
 
-        So, try starting your confrontations with words. It probably won't get you called shitsec, but it's also not likely to be very effective against someone with lethal intent.
+        Então, tente começar suas confrontações com palavras. Provavelmente não vai te fazer ser chamado de "shitsec", mas também não é muito eficaz contra alguém com intenção letal.
 
-        Your next move should be to use non-lethal or less lethal devices, like stun batons, disablers, flashes, and flashbangs. Just make sure you get some training on these before trying to use them - offering them to a suspect in exchange for their cooperation is not an effective use of these tools.
+        Seu próximo movimento deve ser usar dispositivos não letais ou menos letais, como bastões de choque, desativadores, flashes e granadas de flash. Apenas certifique-se de receber algum treinamento sobre esses antes de tentar usá-los - oferecê-los a um suspeito em troca de sua cooperação não é um uso eficaz dessas ferramentas.
 
-        If you're lucky enough to run into a suspect who is a lethal threat, it's time to bust out all the goodies you've been hoarding from the armory.
+        Se você tiver a sorte de encontrar um suspeito que seja uma ameaça letal, é hora de tirar todas as guloseimas que você tem guardado do arsenal.
 
-        For an extra intimidation factor, take your robusted suspects to the medbay to be healed instead of the brig. That way, the whole crew can see just how robust you are.
+        Para um fator de intimidação extra, leve seus suspeitos robustos para a enfermaria para serem curados em vez de para a prisão. Dessa forma, toda a tripulação pode ver o quão robusto você é.

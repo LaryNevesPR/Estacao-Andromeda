@@ -11,7 +11,7 @@ cmd-playtime_addoverall-help = Uso: {$command} <user name> <minutes>
 cmd-playtime_addoverall-succeed = Aumentado o tempo de jogo geral de {$username} para {TOSTRING($time, "dddd\\:hh\\:mm")}
 cmd-playtime_addoverall-arg-user = <user name>
 cmd-playtime_addoverall-arg-minutes = <minutes>
-cmd-playtime_addoverall-error-args = Experados exatamente dois argumentos
+cmd-playtime_addoverall-error-args = Esperados exatamente dois argumentos
 
 # - playtime_addrole
 cmd-playtime_addrole-desc = Adiciona os minutos especificados para o tempo de jogo de uma função de um jogador
@@ -20,14 +20,14 @@ cmd-playtime_addrole-succeed = Aumentado o tempo de jogo de {$username} / \'{$ro
 cmd-playtime_addrole-arg-user = <user name>
 cmd-playtime_addrole-arg-role = <role>
 cmd-playtime_addrole-arg-minutes = <minutes>
-cmd-playtime_addrole-error-args = Experados exatamente três argumentos
+cmd-playtime_addrole-error-args = Esperados exatamente três argumentos
 
 # - playtime_getoverall
 cmd-playtime_getoverall-desc = Mostra o tempo de jogo geral, em minutos, de um jogador
 cmd-playtime_getoverall-help = Uso: {$command} <user name>
 cmd-playtime_getoverall-success = O tempo de jogo geral de {$username} é {TOSTRING($time, "dddd\\:hh\\:mm")}.
 cmd-playtime_getoverall-arg-user = <user name>
-cmd-playtime_getoverall-error-args = Experado exatamente um argumento
+cmd-playtime_getoverall-error-args = Esperado exatamente um argumento
 
 # - GetRoleTimer
 cmd-playtime_getrole-desc = Mostra o tempo de jogo de uma ou todas funções, em minutos, de um jogador
@@ -38,14 +38,14 @@ cmd-playtime_getrole-overall = Tempo de jogo geral é {$time}
 cmd-playtime_getrole-succeed = Tempo de jogo de {$username} é: {TOSTRING($time, "dddd\\:hh\\:mm")}.
 cmd-playtime_getrole-arg-user = <user name>
 cmd-playtime_getrole-arg-role = <role|'Overall'>
-cmd-playtime_getrole-error-args = Experados exatamente um ou dois argumentos
+cmd-playtime_getrole-error-args = Esperados exatamente um ou dois argumentos
 
 # - playtime_save
 cmd-playtime_save-desc = Salva o tempo de jogo do jogador para o DB
 cmd-playtime_save-help = Uso: {$command} <user name>
 cmd-playtime_save-succeed = Tempo de jogo de {$username} salvo.
 cmd-playtime_save-arg-user = <user name>
-cmd-playtime_save-error-args = Experado exatamente um argumento
+cmd-playtime_save-error-args = Esperado exatamente um argumento
 
 ## 'playtime_flush' command'
 
@@ -58,5 +58,6 @@ cmd-playtime_flush-error-args = Esperado zero ou um argumento
 cmd-playtime_flush-arg-user = [user name]
 
 ## playtime_getoffline
-cmd-playtime_getoffline-desc = Get overall playtime from the username of an offline player.
-cmd-playtime_getoffline-failure = Failed to get overall playtime for {$username}.
+cmd-playtime_getoffline-desc = Obter o tempo total de jogo pelo nome de usuário de um jogador offline.
+cmd-playtime_getoffline-failure = Falha ao obter o tempo total de jogo para {$username}.
+

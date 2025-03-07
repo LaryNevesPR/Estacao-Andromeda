@@ -1,423 +1,423 @@
 ﻿command-description-tpto =
-    Teleport the given entities to some target entity.
+    Teletransporta as entidades fornecidas para alguma entidade alvo.
 command-description-player-list =
-    Returns a list of all player sessions.
+    Retorna uma lista de todas as sessões de jogadores.
 command-description-player-self =
-    Returns the current player session.
+    Retorna a sessão do jogador atual.
 command-description-player-imm =
-    Returns the session associated with the player given as argument.
+    Retorna a sessão associada ao jogador fornecido como argumento.
 command-description-player-entity =
-    Returns the entities of the input sessions.
+    Retorna as entidades das sessões de entrada.
 command-description-self =
-    Returns the current attached entity.
+    Retorna a entidade atual anexada.
 command-description-physics-velocity =
-    Returns the velocity of the input entities.
+    Retorna a velocidade das entidades de entrada.
 command-description-physics-angular-velocity =
-    Returns the angular velocity of the input entities.
+    Retorna a velocidade angular das entidades de entrada.
 command-description-buildinfo =
-    Provides information about the build of the game.
+    Fornece informações sobre a construção do jogo.
 command-description-cmd-list =
-    Returns a list of all commands, for this side.
+    Retorna uma lista de todos os comandos, para este lado.
 command-description-explain =
-    Explains the given expression, providing command descriptions and signatures.
+    Explica a expressão fornecida, fornecendo descrições e assinaturas de comandos.
 command-description-search =
-    Searches through the input for the provided value.
+    Pesquisa através da entrada pelo valor fornecido.
 command-description-stopwatch =
-    Measures the execution time of the given expression.
+    Mede o tempo de execução da expressão fornecida.
 command-description-types-consumers =
-    Provides all commands that can consume the given type.
+    Fornece todos os comandos que podem consumir o tipo fornecido.
 command-description-types-tree =
-    Debug tool to return all types the command interpreter can downcast the input to.
+    Ferramenta de depuração para retornar todos os tipos que o interpretador de comandos pode converter a entrada.
 command-description-types-gettype =
-    Returns the type of the input.
+    Retorna o tipo da entrada.
 command-description-types-fullname =
-    Returns the full name of the input type according to CoreCLR.
+    Retorna o nome completo do tipo de entrada de acordo com CoreCLR.
 command-description-as =
-    Casts the input to the given type.
-    Effectively a type hint if you know the type but the interpreter does not.
+    Converte a entrada para o tipo fornecido.
+    Eficazmente uma dica de tipo se você souber o tipo, mas o interpretador não.
 command-description-count =
-    Counts the amount of entries in it's input, returning an integer.
+    Conta a quantidade de entradas na sua entrada, retornando um número inteiro.
 command-description-map =
-    Maps the input over the given block, with the provided expected return type.
-    This command may be modified to not need an explicit return type in the future.
+    Mapeia a entrada sobre o bloco fornecido, com o tipo de retorno esperado fornecido.
+    Este comando pode ser modificado para não precisar de um tipo de retorno explícito no futuro.
 command-description-select =
-    Selects N objects or N% of objects from the input.
-    One can additionally invert this command with not to make it select everything except N objects instead.
+    Seleciona N objetos ou N% de objetos da entrada.
+    Você pode inverter este comando com not para fazer ele selecionar tudo, exceto N objetos.
 command-description-comp =
-    Returns the given component from the input entities, discarding entities without that component.
+    Retorna o componente fornecido das entidades de entrada, descartando entidades sem esse componente.
 command-description-delete =
-    Deletes the input entities.
+    Exclui as entidades de entrada.
 command-description-ent =
-    Returns the provided entity ID.
+    Retorna o ID da entidade fornecida.
 command-description-entities =
-    Returns all entities on the server.
+    Retorna todas as entidades no servidor.
 command-description-paused =
-    Filters the input entities by whether or not they are paused.
-    This command can be inverted with not.
+    Filtra as entidades de entrada por estarem ou não pausadas.
+    Este comando pode ser invertido com not.
 command-description-with =
-    Filters the input entities by whether or not they have the given component.
-    This command can be inverted with not.
+    Filtra as entidades de entrada por estarem ou não possuindo o componente fornecido.
+    Este comando pode ser invertido com not.
 command-description-fuck =
-    Throws an exception.
+    Lança uma exceção.
 command-description-ecscomp-listty =
-    Lists every type of component registered.
+    Lista todos os tipos de componentes registrados.
 command-description-cd =
-    Changes the session's current directory to the given relative or absolute path.
+    Altera o diretório atual da sessão para o caminho relativo ou absoluto fornecido.
 command-description-ls-here =
-    Lists the contents of the current directory.
+    Lista o conteúdo do diretório atual.
 command-description-ls-in =
-    Lists the contents of the given relative or absolute path.
+    Lista o conteúdo do caminho relativo ou absoluto fornecido.
 command-description-methods-get =
-    Returns all methods associated with the input type.
+    Retorna todos os métodos associados ao tipo de entrada.
 command-description-methods-overrides =
-    Returns all methods overriden on the input type.
+    Retorna todos os métodos substituídos no tipo de entrada.
 command-description-methods-overridesfrom =
-    Returns all methods overriden from the given type on the input type.
+    Retorna todos os métodos substituídos do tipo fornecido no tipo de entrada.
 command-description-cmd-moo =
-    Asks the important questions.
+    Faz as perguntas importantes.
 command-description-cmd-descloc =
-    Returns the localization string for a command's description.
+    Retorna a string de localização para a descrição de um comando.
 command-description-cmd-getshim =
-    Returns a command's execution shim.
+    Retorna um shim de execução de um comando.
 command-description-help =
-    Provides a quick rundown of how to use toolshed.
+    Fornece um resumo rápido de como usar o toolshed.
 command-description-ioc-registered =
-    Returns all the types registered with IoCManager on the current thread (usually the game thread)
+    Retorna todos os tipos registrados no IoCManager na thread atual (geralmente a thread do jogo).
 command-description-ioc-get =
-    Gets an instance of an IoC registration.
+    Obtém uma instância de um registro IoC.
 command-description-loc-tryloc =
-    Tries to get a localization string, returning null if unable.
+    Tenta obter uma string de localização, retornando null se não conseguir.
 command-description-loc-loc =
-    Gets a localization string, returning the unlocalized string if unable.
+    Obtém uma string de localização, retornando a string não localizada se não conseguir.
 command-description-physics-angular_velocity =
-    Returns the angular velocity of the given entities.
+    Retorna a velocidade angular das entidades fornecidas.
 command-description-vars =
-    Provides a list of all variables set in this session.
+    Fornece uma lista de todas as variáveis definidas nesta sessão.
 command-description-any =
-    Returns true if there's any values in the input, otherwise false.
+    Retorna verdadeiro se houver algum valor na entrada, caso contrário, falso.
 command-description-ArrowCommand =
-    Assigns the input to a variable.
+    Atribui a entrada a uma variável.
 command-description-isempty =
-    Returns true if the input is empty, otherwise false.
+    Retorna verdadeiro se a entrada estiver vazia, caso contrário, falso.
 command-description-isnull =
-    Returns true if the input is null, otherwise false.
+    Retorna verdadeiro se a entrada for nula, caso contrário, falso.
 command-description-unique =
-    Filters the input sequence for uniqueness, removing duplicate values.
+    Filtra a sequência de entrada para exclusividade, removendo valores duplicados.
 command-description-where =
-    Given some input sequence IEnumerable<T>, takes a block of signature T -> bool that decides if each input value should be included in the output sequence.
+    Dada uma sequência de entrada IEnumerable<T>, pega um bloco de assinatura T -> bool que decide se cada valor de entrada deve ser incluído na sequência de saída.
 command-description-do =
-    Backwards compatibility with BQL, applies the given old commands over the input sequence.
+    Compatibilidade retroativa com BQL, aplica os comandos antigos fornecidos sobre a sequência de entrada.
 command-description-named =
-    Filters the input entities by their name, with the regex ^selector$.
+    Filtra as entidades de entrada pelo nome, com a regex ^selector$.
 command-description-prototyped =
-    Filters the input entities by their prototype.
+    Filtra as entidades de entrada pelo seu protótipo.
 command-description-nearby =
-    Creates a new list of all entities nearby the inputs within the given range.
+    Cria uma nova lista de todas as entidades próximas às entradas dentro do intervalo fornecido.
 command-description-first =
-    Returns the first entry of the given enumerable.
+    Retorna a primeira entrada do enumerável fornecido.
 command-description-splat =
-    "Splats" a block, value, or variable, creating N copies of it in a list.
+    "Espalha" um bloco, valor ou variável, criando N cópias dele em uma lista.
 command-description-val =
-    Casts the given value, block, or variable to the given type. This is mostly a workaround for current limitations of variables.
+    Converte o valor, bloco ou variável fornecido para o tipo fornecido. Isso é principalmente uma solução alternativa para as limitações atuais das variáveis.
 command-description-actor-controlled =
-    Filters entities by whether or not they're actively controlled.
+    Filtra entidades por estarem ou não sendo controladas ativamente.
 command-description-actor-session =
-    Returns the sessions associated with the input entities.
+    Retorna as sessões associadas às entidades de entrada.
 command-description-physics-parent =
-    Returns the parent(s) of the input entities.
+    Retorna o(s) pai(s) das entidades de entrada.
 command-description-emplace =
-    Runs the given block over it's inputs, with the input value placed into the variable $value within the block.
-    Additionally breaks out $wx, $wy, $proto, $desc, $name, and $paused for entities.
-    Can also have breakout values for other types, consult the documentation for that type for further info.
+    Executa o bloco fornecido sobre suas entradas, com o valor de entrada colocado na variável $value dentro do bloco.
+    Além disso, divide $wx, $wy, $proto, $desc, $name e $paused para entidades.
+    Também pode ter valores divididos para outros tipos, consulte a documentação para esse tipo para mais informações.
 command-description-AddCommand =
-    Performs numeric addition.
+    Executa adição numérica.
 command-description-SubtractCommand =
-    Performs numeric subtraction.
+    Executa subtração numérica.
 command-description-MultiplyCommand =
-    Performs numeric multiplication.
+    Executa multiplicação numérica.
 command-description-DivideCommand =
-    Performs numeric division.
+    Executa divisão numérica.
 command-description-min =
-    Returns the minimum of two values.
+    Retorna o mínimo de dois valores.
 command-description-max =
-    Returns the maximum of two values.
+    Retorna o máximo de dois valores.
 command-description-BitAndCommand =
-    Performs bitwise AND.
+    Executa AND bit a bit.
 command-description-BitOrCommand =
-    Performs bitwise OR.
+    Executa OR bit a bit.
 command-description-BitXorCommand =
-    Performs bitwise XOR.
+    Executa XOR bit a bit.
 command-description-neg =
-    Negates the input.
+    Nega a entrada.
 command-description-GreaterThanCommand =
-    Performs a greater-than comparison, x > y.
+    Executa uma comparação de maior que, x > y.
 command-description-LessThanCommand =
-    Performs a less-than comparison, x < y.
+    Executa uma comparação de menor que, x < y.
 command-description-GreaterThanOrEqualCommand =
-    Performs a greater-than-or-equal comparison, x >= y.
+    Executa uma comparação de maior ou igual que, x >= y.
 command-description-LessThanOrEqualCommand =
-    Performs a less-than-or-equal comparison, x <= y.
+    Executa uma comparação de menor ou igual que, x <= y.
 command-description-EqualCommand =
-    Performs an equality comparison, returning true if the inputs are equal.
+    Executa uma comparação de igualdade, retornando verdadeiro se as entradas forem iguais.
 command-description-NotEqualCommand =
-    Performs an equality comparison, returning true if the inputs are not equal.
+    Executa uma comparação de igualdade, retornando verdadeiro se as entradas não forem iguais.
 command-description-append =
-    Appends a value to the input enumerable.
+    Acrescenta um valor ao enumerável de entrada.
 command-description-DefaultIfNullCommand =
-    Replaces the input with the type's default value if it is null, albeit only for value types (not objects).
+    Substitui a entrada pelo valor padrão do tipo se for nulo, embora apenas para tipos de valor (não objetos).
 command-description-OrValueCommand =
-    If the input is null, uses the provided alternate value.
+    Se a entrada for nula, usa o valor alternativo fornecido.
 command-description-DebugPrintCommand =
-    Prints the given value transparently, for debug prints in a command run.
+    Imprime o valor fornecido de forma transparente, para impressões de depuração em uma execução de comando.
 command-description-i =
-    Integer constant.
+    Constante inteira.
 command-description-f =
-    Float constant.
+    Constante flutuante.
 command-description-s =
-    String constant.
+    Constante de string.
 command-description-b =
-    Bool constant.
+    Constante booleana.
 command-description-join =
-    Joins two sequences together into one sequence.
+    Junta duas sequências em uma sequência.
 command-description-reduce =
-    Given a block to use as a reducer, turns a sequence into a single value.
-    The left hand side of the block is implied, and the right hand is stored in $value.
+    Dado um bloco a ser usado como redutor, transforma uma sequência em um único valor.
+    O lado esquerdo do bloco é implícito e o lado direito é armazenado em $value.
 command-description-rep =
-    Repeats the input value N times to form a sequence.
+    Repete o valor de entrada N vezes para formar uma sequência.
 command-description-take =
-    Takes N values from the input sequence
+    Pega N valores da sequência de entrada.
 command-description-spawn-at =
-    Spawns an entity at the given coordinates.
+    Gera uma entidade nas coordenadas fornecidas.
 command-description-spawn-on =
-    Spawns an entity on the given entity, at it's coordinates.
+    Gera uma entidade na entidade fornecida, em suas coordenadas.
 command-description-spawn-attached =
-    Spawns an entity attached to the given entity, at (0 0) relative to it.
+    Gera uma entidade anexada à entidade fornecida, em (0, 0) em relação a ela.
 command-description-mappos =
-    Returns an entity's coordinates relative to it's current map.
+    Retorna as coordenadas de uma entidade em relação ao seu mapa atual.
 command-description-pos =
-    Returns an entity's coordinates.
+    Retorna as coordenadas de uma entidade.
 command-description-tp-coords =
-    Teleports the target to the given coordinates.
+    Teletransporta o alvo para as coordenadas fornecidas.
 command-description-tp-to =
-    Teleports the target to the given other entity.
+    Teletransporta o alvo para a outra entidade fornecida.
 command-description-tp-into =
-    Teleports the target "into" the given other entity, attaching it at (0 0) relative to it.
+    Teletransporta o alvo "dentro" da outra entidade fornecida, anexando-o em (0, 0) em relação a ela.
 command-description-comp-get =
-    Gets the given component from the given entity.
+    Obtém o componente fornecido da entidade fornecida.
 command-description-comp-add =
-    Adds the given component to the given entity.
+    Adiciona o componente fornecido à entidade fornecida.
 command-description-comp-ensure =
-    Ensures the given entity has the given component.
+    Garante que a entidade fornecida tenha o componente fornecido.
 command-description-comp-has =
-    Check if the given entity has the given component.
+    Verifica se a entidade fornecida possui o componente fornecido.
 command-description-AddVecCommand =
-    Adds a scalar (single value) to every element in the input.
+    Adiciona um escalar (valor único) a cada elemento da entrada.
 command-description-SubVecCommand =
-    Subtracts a scalar (single value) from every element in the input.
+    Subtrai um escalar (valor único) de cada elemento da entrada.
 command-description-MulVecCommand =
-    Multiplies a scalar (single value) by every element in the input.
+    Multiplica um escalar (valor único) por cada elemento da entrada.
 command-description-DivVecCommand =
-    Divides every element in the input by a scalar (single value).
+    Divide cada elemento da entrada por um escalar (valor único).
 command-description-rng-to =
-    Returns a number from its input to its argument (i.e. n..m inclusive)
+    Retorna um número da sua entrada para seu argumento (ou seja, n..m inclusive)
 command-description-rng-from =
-    Returns a number to its input from its argument (i.e. m..n inclusive)
+    Retorna um número para sua entrada a partir de seu argumento (ou seja, m..n inclusive)
 command-description-rng-prob =
-    Returns a boolean based on the input probability/chance (from 0 to 1)
+    Retorna um booleano com base na probabilidade/chance de entrada (de 0 a 1)
 command-description-sum =
-    Computes the sum of the input.
+    Calcula a soma da entrada.
 command-description-bin =
-    "Bins" the input, counting up how many times each unique element occurs.
+    "Agrupa" a entrada, contando quantas vezes cada elemento único ocorre.
 command-description-extremes =
-    Returns the two extreme ends of a list, interwoven.
+    Retorna os dois extremos de uma lista, entrelaçados.
 command-description-sortby =
-    Sorts the input least to greatest by the computed key.
+    Ordena a entrada do menor para o maior pela chave calculada.
 command-description-sortmapby =
-    Sorts the input least to greatest by the computed key, replacing the value with it's computed key afterward.
+    Ordena a entrada do menor para o maior pela chave calculada, substituindo o valor por sua chave calculada posteriormente.
 command-description-sort =
-    Sorts the input least to greatest.
+    Ordena a entrada do menor para o maior.
 command-description-sortdownby =
-    Sorts the input greatest to least by the computed key.
+    Ordena a entrada do maior para o menor pela chave calculada.
 command-description-sortmapdownby =
-    Sorts the input greatest to least by the computed key, replacing the value with it's computed key afterward.
+    Ordena a entrada do maior para o menor pela chave calculada, substituindo o valor por sua chave calculada posteriormente.
 command-description-sortdown =
-    Sorts the input greatest to least.
+    Ordena a entrada do maior para o menor.
 command-description-iota =
-    Returns a list of numbers 1 to N.
+    Retorna uma lista de números de 1 a N.
 command-description-to =
-    Returns a list of numbers N to M.
+    Retorna uma lista de números de N a M.
 command-description-curtick =
-    The current game tick.
+    O tick atual do jogo.
 command-description-curtime =
-    The current game time (a TimeSpan)
+    O tempo atual do jogo (um TimeSpan)
 command-description-realtime =
-    The current realtime since startup (a TimeSpan)
+    O tempo real atual desde o início (um TimeSpan)
 command-description-servertime =
-    The current server game time, or zero if we are the server (a TimeSpan)
+    O tempo atual do jogo no servidor, ou zero se formos o servidor (um TimeSpan)
 command-description-replace =
-    Replaces the input entities with the given prototype, preserving position and rotation (but nothing else)
+    Substitui as entidades de entrada pelo protótipo fornecido, preservando posição e rotação (mas nada mais).
 command-description-allcomps =
-    Returns all components on the given entity.
+    Retorna todos os componentes na entidade fornecida.
 command-description-entitysystemupdateorder-tick =
-    Lists the tick update order of entity systems.
+    Lista a ordem de atualização dos sistemas de entidade por tick.
 command-description-entitysystemupdateorder-frame =
-    Lists the frame update order of entity systems.
+    Lista a ordem de atualização dos sistemas de entidade por frame.
 command-description-more =
-    Prints the contents of $more, i.e. any extras that Toolshed didn't print from the last command.
+    Imprime o conteúdo de $more, ou seja, quaisquer extras que o Toolshed não imprimiu no último comando.
 command-description-ModulusCommand =
-    Computes the modulus of two values.
-    This is usually remainder, check C#'s documentation for the type.
+    Calcula o módulo de dois valores.
+    Isso geralmente é o restante, verifique a documentação do C# para o tipo.
 command-description-ModVecCommand =
-    Performs the modulus operation over the input with the given constant right-hand value.
+    Realiza a operação de módulo sobre a entrada com o valor constante fornecido à direita.
 command-description-BitAndNotCommand =
-    Performs bitwise AND-NOT over the input.
+    Realiza AND-NOT bit a bit na entrada.
 command-description-BitOrNotCommand =
-    Performs bitwise OR-NOT over the input.
+    Realiza OR-NOT bit a bit na entrada.
 command-description-BitXnorCommand =
-    Performs bitwise XNOR over the input.
+    Realiza XNOR bit a bit na entrada.
 command-description-BitNotCommand =
-    Performs bitwise NOT on the input.
+    Realiza NOT bit a bit na entrada.
 command-description-abs =
-    Computes the absolute value of the input (removing the sign)
+    Calcula o valor absoluto da entrada (removendo o sinal)
 command-description-average =
-    Computes the average (arithmetic mean) of the input.
+    Calcula a média (média aritmética) da entrada.
 command-description-bibytecount =
-    Returns the size of the input in bytes, given that the input implements IBinaryInteger.
-    This is NOT sizeof.
+    Retorna o tamanho da entrada em bytes, desde que a entrada implemente IBinaryInteger.
+    Isso NÃO é sizeof.
 command-description-shortestbitlength =
-    Returns the minimum number of bits needed to represent the input value.
+    Retorna o número mínimo de bits necessários para representar o valor de entrada.
 command-description-countleadzeros =
-    Counts the number of leading binary zeros in the input value.
+    Conta o número de zeros binários à esquerda no valor de entrada.
 command-description-counttrailingzeros =
-    Counts the number of trailing binary zeros in the input value.
+    Conta o número de zeros binários à direita no valor de entrada.
 command-description-fpi =
-    pi (3.14159...) as a float.
+    pi (3,14159...) como um float.
 command-description-fe =
-    e (2.71828...) as a float.
+    e (2,71828...) como um float.
 command-description-ftau =
-    tau (6.28318...) as a float.
+    tau (6,28318...) como um float.
 command-description-fepsilon =
-    The epsilon value for a float, exactly 1.4e-45.
+    O valor de epsilon para um float, exatamente 1,4e-45.
 command-description-dpi =
-    pi (3.14159...) as a double.
+    pi (3,14159...) como um double.
 command-description-de =
-    e (2.71828...) as a double.
+    e (2,71828...) como um double.
 command-description-dtau =
-    tau (6.28318...) as a double.
+    tau (6,28318...) como um double.
 command-description-depsilon =
-    The epsilon value for a double, exactly 4.9406564584124654E-324.
+    O valor de epsilon para um double, exatamente 4,9406564584124654E-324.
 command-description-hpi =
-    pi (3.14...) as a half.
+    pi (3,14...) como um half.
 command-description-he =
-    e (2.71...) as a half.
+    e (2,71...) como um half.
 command-description-htau =
-    tau (6.28...) as a half.
+    tau (6,28...) como um half.
 command-description-hepsilon =
-    The epsilon value for a half, exactly 5.9604645E-08.
+    O valor de epsilon para um half, exatamente 5,9604645E-08.
 command-description-floor =
-    Returns the floor of the input value (rounding toward zero).
+    Retorna o piso do valor de entrada (arredondando em direção a zero).
 command-description-ceil =
-    Returns the ceil of the input value (rounding away from zero).
+    Retorna o teto do valor de entrada (arredondando para longe de zero).
 command-description-round =
-    Rounds the input value.
+    Arredonda o valor de entrada.
 command-description-trunc =
-    Truncates the input value.
+    Trunca o valor de entrada.
 command-description-round2frac =
-    Rounds the input value to the specified number of fractional digits.
+    Arredonda o valor de entrada para o número especificado de dígitos fracionários.
 command-description-exponentbytecount =
-    Returns the number of bytes required to store the exponent.
+    Retorna o número de bytes necessários para armazenar o expoente.
 command-description-significandbytecount =
-    Returns the number of bytes required to store the significand.
+    Retorna o número de bytes necessários para armazenar o significando.
 command-description-significandbitcount =
-    Returns the exact bit length of the significand.
+    Retorna o comprimento exato em bits do significando.
 command-description-exponentshortestbitcount =
-    Returns the minimum number of bits to store the exponent.
+    Retorna o número mínimo de bits para armazenar o expoente.
 command-description-stepnext =
-    Steps to the next float value, adding one to the significand with carry.
+    Passa para o próximo valor de float, adicionando um ao significando com retenção.
 command-description-stepprev =
-    Steps to the previous float value, subtracting one from the significand with carry.
+    Passa para o valor de float anterior, subtraindo um do significando com retenção.
 command-description-checkedto =
-    Converts from the input numeric type to the target, erroring if not possible.
+    Converte do tipo numérico de entrada para o destino, gerando erro se não for possível.
 command-description-saturateto =
-    Converts from the input numeric type to the target, saturating if the value is out of range.
-    For example, converting 382 to a byte would saturate to 255 (the maximum value of a byte).
+    Converte do tipo numérico de entrada para o destino, saturando se o valor estiver fora do intervalo.
+    Por exemplo, converter 382 para um byte saturaria para 255 (o valor máximo de um byte).
 command-description-truncto =
-    Converts from the input numeric type to the target, with truncation.
-    In the case of integers, this is a bit cast with sign extension.
+    Converte do tipo numérico de entrada para o destino, com truncamento.
+    No caso de inteiros, isso é uma conversão de bits com extensão de sinal.
 command-description-iscanonical =
-    Returns whether the input is in canonical form.
+    Retorna se a entrada está em forma canônica.
 command-description-iscomplex =
-    Returns whether the input is a complex number (by value, not by type)
+    Retorna se a entrada é um número complexo (por valor, não por tipo)
 command-description-iseven =
-    Returns whether the input is even.
-    Not a javascript package.
+    Retorna se a entrada é par.
+    Não é um pacote javascript.
 command-description-isodd =
-    Returns whether the input is odd.
+    Retorna se a entrada é ímpar.
 command-description-isfinite =
-    Returns whether the input is finite.
+    Retorna se a entrada é finita.
 command-description-isimaginary =
-    Returns whether the input is purely imaginary (no real part).
+    Retorna se a entrada é puramente imaginária (sem parte real).
 command-description-isinfinite =
-    Returns whether the input is infinite.
+    Retorna se a entrada é infinita.
 command-description-isinteger =
-    Returns whether the input is an integer (by value, not by type)
+    Retorna se a entrada é um inteiro (por valor, não por tipo)
 command-description-isnan =
-    Returns whether the input is Not a Number (NaN).
-    This is a special floating point value, so this is by value, not by type.
+    Retorna se a entrada não é um número (NaN).
+    Este é um valor especial de ponto flutuante, então isso é por valor, não por tipo.
 command-description-isnegative =
-    Returns whether the input is negative.
+    Retorna se a entrada é negativa.
 command-description-ispositive =
-    Returns whether the input is positive.
+    Retorna se a entrada é positiva.
 command-description-isreal =
-    Returns whether the input is purely real (no imaginary part).
+    Retorna se a entrada é puramente real (sem parte imaginária).
 command-description-issubnormal =
-    Returns whether the input is in sub-normal form.
+    Retorna se a entrada está em forma subnormal.
 command-description-iszero =
-    Returns whether the input is zero.
+    Retorna se a entrada é zero.
 command-description-pow =
-    Computes the power of its lefthand to its righthand. x^y.
+    Calcula a potência de sua entrada esquerda para sua entrada direita. x^y.
 command-description-sqrt =
-    Computes the square root of its input.
+    Calcula a raiz quadrada de sua entrada.
 command-description-cbrt =
-    Computes the cube root of its input.
+    Calcula a raiz cúbica de sua entrada.
 command-description-root =
-    Computes the Nth root of its input.
+    Calcula a raiz N de sua entrada.
 command-description-hypot =
-    Computes the hypotenuse of a triangle with the given sides A and B.
+    Calcula a hipotenusa de um triângulo com os lados A e B fornecidos.
 command-description-sin =
-    Computes the sine of the input.
+    Calcula o seno da entrada.
 command-description-sinpi =
-    Computes the sine of the input multiplied by pi.
+    Calcula o seno da entrada multiplicada por pi.
 command-description-asin =
-    Computes the arcsine of the input.
+    Calcula o arco seno da entrada.
 command-description-asinpi =
-    Computes the arcsine of the input multiplied by pi.
+    Calcula o arco seno da entrada multiplicada por pi.
 command-description-cos =
-    Computes the cosine of the input.
+    Calcula o cosseno da entrada.
 command-description-cospi =
-    Computes the cosine of the input multiplied by pi.
+    Calcula o cosseno da entrada multiplicada por pi.
 command-description-acos =
-    Computes the arcosine of the input.
+    Calcula o arco cosseno da entrada.
 command-description-acospi =
-    Computes the arcosine of the input multiplied by pi.
+    Calcula o arco cosseno da entrada multiplicada por pi.
 command-description-tan =
-    Computes the tangent of the input.
+    Calcula a tangente da entrada.
 command-description-tanpi =
-    Computes the tangent of the input multiplied by pi.
+    Calcula a tangente da entrada multiplicada por pi.
 command-description-atan =
-    Computes the arctangent of the input.
+    Calcula o arco tangente da entrada.
 command-description-atanpi =
-    Computes the arctangent of the input multiplied by pi.
+    Calcula o arco tangente da entrada multiplicada por pi.
 command-description-iterate =
-    Iterates the given function over the input N times, returning a list of results.
-    Think of this like successively applying the function to a value, tracking all the intermediate values.
+    Itera a função fornecida sobre a entrada N vezes, retornando uma lista de resultados.
+    Pense nisso como aplicar sucessivamente a função a um valor, acompanhando todos os valores intermediários.
 command-description-pick =
-    Picks a random value from the input.
+    Escolhe um valor aleatório da entrada.
 command-description-tee =
-    Tees the input into the given block, ignoring the block's result.
-    This essentially lets you have a branch in your code to do multiple operations on one value.
+    Distribui a entrada no bloco fornecido, ignorando o resultado do bloco.
+    Isso essencialmente permite que você tenha um ramal no seu código para fazer várias operações em um valor.
 command-description-cmd-info =
-    Returns a CommandSpec for the given command.
-    On it's own, this means it'll print the comamnd's help message.
+    Retorna um CommandSpec para o comando fornecido.
+    Por si só, isso significa que ele imprimirá a mensagem de ajuda do comando.
 command-description-comp-rm =
-    Removes the given component from the entity.
+    Remove o componente fornecido da entidade.

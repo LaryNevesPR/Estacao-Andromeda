@@ -9,12 +9,12 @@ chat-radio-centcom = CentCom
 chat-radio-command = Comando
 chat-radio-engineering = Engenharia
 chat-radio-medical = Médico
-chat-radio-science = Ciêntífico
+chat-radio-science = Epistemia
 chat-radio-security = Segurança
 chat-radio-service = Serviço
 chat-radio-supply = Carga
 chat-radio-syndicate = Sindicato
-chat-radio-freelance = Freelance
+chat-radio-freelance = Autônomo
 chat-radio-justice = Justiça
 chat-radio-prison = Prisão
 

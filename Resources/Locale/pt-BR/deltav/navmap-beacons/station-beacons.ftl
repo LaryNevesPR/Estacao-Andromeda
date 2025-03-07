@@ -13,12 +13,12 @@ station-beacon-exam = Consultórios
 station-beacon-med-outpost = Posto Médico
 station-beacon-psych = Psicólogo
 
-station-beacon-glimmer-prober = Probers
+station-beacon-glimmer-prober = sondas
 station-beacon-forensic-mantis = Mantis
 
 station-beacon-mailroom = Correios
 
-station-beacon-engi-outpost = Posto Engi
+station-beacon-engi-outpost = Posto de Eng.
 
 station-beacon-janitor-office = Escr. Zeladoria
 station-beacon-janitor-closet = Armár. Zeladoria

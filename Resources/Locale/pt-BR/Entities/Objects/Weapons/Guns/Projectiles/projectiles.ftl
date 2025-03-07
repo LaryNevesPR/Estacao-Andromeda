@@ -1,7 +1,7 @@
-ent-BaseBullet = BaseBullet
+ent-BaseBullet = bala genérica
     .desc = Se você consegue ver isso, provavelmente está morto!
 
-ent-BaseBulletTrigger = BaseBullet
+ent-BaseBulletTrigger = gatilho genérico
     .desc = Se você consegue ver isso, provavelmente está morto!
 
 ent-BaseBulletHighVelocity = bala de alta velocidade

@@ -18,7 +18,7 @@ replay-menu-open = Abre Pasta de Replays
 replay-menu-none = Não foram encontrados replays.
 
 # Main Menu Info Box
-replay-info-title = Replay Information
+replay-info-title = Informação do Replay
 replay-info-none-selected = Nenhum replay selecionado
 replay-info-invalid = [color=red]Replay inválido selecionado[/color]
 replay-info-info = {"["}color=gray]Selecionado:[/color]  {$name} ({$file})
@@ -35,7 +35,7 @@ replay-info-info = {"["}color=gray]Selecionado:[/color]  {$name} ({$file})
 replay-menu-select-title = Selecionar Replay
 
 # Replay related verbs
-replay-verb-spectate = Espectar
+replay-verb-spectate = Observar
 
 # command
 cmd-replay-spectate-help = replay_spectate [optional entity]

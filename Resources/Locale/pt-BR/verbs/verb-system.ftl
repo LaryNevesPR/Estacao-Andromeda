@@ -1,5 +1,5 @@
 verb-system-waiting-on-server-text = Aguardando no servidor...
-verb-system-null-server-response = Entitade fora de vista. Você não deveria ver isto.
+verb-system-null-server-response = Entidade fora de vista. Você não deveria ver isto.
 
 
 # if verbs have a range of targets (e.g., multiple ejectables) you can

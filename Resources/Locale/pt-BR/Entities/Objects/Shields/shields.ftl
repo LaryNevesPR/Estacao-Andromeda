@@ -16,7 +16,7 @@ ent-WoodenBuckler = broquel de madeira
 ent-MakeshiftShield = escudo improvisado
      .desc = Um escudo de aparência degradada, que não serve para muita coisa.
 
-ent-ClockworkShield = Clockwork Shield
+ent-ClockworkShield = Escudo relógio
      .desc = Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
 
 ent-MirrorShield = Escudo Espelhado

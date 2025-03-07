@@ -1,11 +1,11 @@
 analysis-console-menu-title = console de análise
 analysis-console-server-list-button = Lista de servidores
-analysis-console-scan-button = Varredura
-analysis-console-scan-tooltip-info = Escaneie artefatos para obter informações sobre sua estrutura.
+analysis-console-scan-button = Analisar
+analysis-console-scan-tooltip-info = Analise o artefato para obter informações sobre sua estrutura.
 analysis-console-print-button = Imprimir
 analysis-console-print-tooltip-info = Imprima as informações atuais sobre o artefato.
 analysis-console-extract-button = Extrair
-analysis-console-extract-button-info = Extrair pontos de um artefato baseado nos nós recém-explorados.
+analysis-console-extract-button-info = Extraia pontos de um artefato baseado em nós recém-explorados.
 
 analysis-console-info-no-scanner = Nenhum analisador conectado! Conecte um usando uma multiferramenta.
 analysis-console-info-no-artifact = Nenhum artefato presente! Coloque um no bloco e procure informações.
@@ -30,6 +30,6 @@ analysis-console-progress-text = {$seconds ->
 analyzer-artifact-component-upgrade-analysis = duração da análise
 
 analysis-console-print-popup = O console imprimiu um relatório.
-analyzer-artifact-extract-popup = Energia resplandesce na superfície do artefato
+analyzer-artifact-extract-popup = Energia resplandece na superfície do artefato
 
 analysis-report-title = Relatório de Artefato: Node {$id}

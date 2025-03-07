@@ -25,7 +25,7 @@ artifact-effect-hint-visual = Distorções visuais
 # the triggers should be more obvious than the effects
 # gives people an idea of what to do: don't be too specific (i.e. no "welders")
 
-artifact-trigger-hint-electricity = Electricidade
+artifact-trigger-hint-electricity = Eletricidade
 artifact-trigger-hint-heat = Altas temperaturas
 artifact-trigger-hint-physical = Trauma físico
 artifact-trigger-hint-tool = Uso de ferramenta

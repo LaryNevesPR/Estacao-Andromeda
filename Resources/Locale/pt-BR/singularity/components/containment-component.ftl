@@ -7,7 +7,7 @@ comp-containment-off = Está [color=red]desligado[/color].
 comp-containment-connected = O gerador de contenção solta uma luz enquanto estabelece uma conexão!
 comp-containment-disconnected = A luz do gerador de contenção some, interrompendo a conexão.
 
-comp-containment-anchor-warning = Você não pode desfixar o gerador de contenção enquanto está ativo ou conectado!
+comp-containment-anchor-warning = Você não pode desafixar o gerador de contenção enquanto está ativo ou conectado!
 comp-containment-toggle-warning = Você não pode desligar o gerador enquanto está ativo ou conectado!
 
 comp-field-vaporized = {CAPITALIZE(THE($entity))} bate no campo e é vaporizado!

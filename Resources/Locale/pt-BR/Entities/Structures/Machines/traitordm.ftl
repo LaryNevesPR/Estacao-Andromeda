@@ -1,3 +1,4 @@
-ent-TraitorDMRedemptionMachine = traitor deathmatch pda redemption machine
-    .desc = Put someone else's PDA into this to get telecrystals.
+ent-TraitorDMRedemptionMachine = máquina de recompensa de pda
+    .desc = Coloque o PDA de outra pessoa aqui para obter telecristais.
+
 

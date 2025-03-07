@@ -32,7 +32,7 @@ ent-CrateEngineeringMiniJetpack = Caixa de Mini Jetpack
     .desc = Dois mini jetpacks para quem quer um desafio extra.
 
 ent-CrateAirlockKit = Caixa de Portas
-    .desc = Uma caixa para contruir 6 portas, não inclui ferramentas.
+    .desc = Uma caixa para construir 6 portas, não inclui ferramentas.
 
 ent-CrateEvaKit = Caixa de EVA
     .desc = Uma caixa com dois prestigiosos trajes e capacetes EVA.

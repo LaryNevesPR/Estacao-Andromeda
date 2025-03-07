@@ -126,7 +126,7 @@ ent-RubberStampQm = carimbo do QM
 ent-RubberStampRd = carimbo do RD
      .desc = Um carimbo para carimbar documentos importantes.
 
-ent-RubberStampWarden = carimbo do Carceiro
+ent-RubberStampWarden = carimbo do Carcereiro
      .desc = Um carimbo para carimbar documentos importantes.
 
 ent-RubberStampTrader = carimbo do comerciante

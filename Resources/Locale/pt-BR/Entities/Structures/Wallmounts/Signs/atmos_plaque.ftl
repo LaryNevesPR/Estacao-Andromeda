@@ -1,3 +1,3 @@
-ent-PlaqueAtmos = atmos plaque
+ent-PlaqueAtmos = placa de atmos
     .desc = { "" }
 

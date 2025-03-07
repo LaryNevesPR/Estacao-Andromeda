@@ -26,7 +26,7 @@ signal-port-name-doorbolt = Travar porta
 signal-port-description-doorbolt = Trava a porta quando ALTO.
 
 signal-port-name-trigger = Acionar
-signal-port-description-trigger = Aciona algum mecânismo no dispositivo.
+signal-port-description-trigger = Aciona algum mecanismo no dispositivo.
 
 signal-port-name-order-sender = Enviador de encomenda
 signal-port-description-order-sender = Enviador de encomenda do console da cargo
@@ -35,10 +35,10 @@ signal-port-name-order-receiver = Recebedor de encomenda
 signal-port-description-order-receiver = Recebedor de encomenda do console da cargo
 
 signal-port-name-pressurize = Pressurizar
-signal-port-description-pressurize = Faz com que o dispositivo começe a soltar ar até atingir uma pressão alvo.
+signal-port-description-pressurize = Faz com que o dispositivo comece a soltar ar até atingir uma pressão alvo.
 
 signal-port-name-depressurize = Despressurizar
-signal-port-description-depressurize = Faz com que o dispositivo começe a puxar ar até atingir uma pressão alvo.
+signal-port-description-depressurize = Faz com que o dispositivo comece a puxar ar até atingir uma pressão alvo.
 
 signal-port-name-pod-sender = Pod de Clonagem
 signal-port-description-pod-sender = Emissor de sinal do pod de clonagem

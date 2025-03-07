@@ -1,3 +1,3 @@
-ent-HandVirtualItem = VIRTUAL ITEM YOU SHOULD NOT SEE THIS
+ent-HandVirtualItem = VIRTUAL ITEM VOCÊ NÃO DEVERIA VER ISTO
     .desc = { "" }
 

@@ -1,4 +1,4 @@
-ent-BaseWeaponRifle = BaseWeaponRifle
+ent-BaseWeaponRifle = Rifle genérico
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponRifleAk = AKMS
