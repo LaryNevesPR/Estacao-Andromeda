@@ -1,3 +1,2 @@
-ent-BaseSign = base sign
+ent-BaseSign = placa base
     .desc = { "" }
-

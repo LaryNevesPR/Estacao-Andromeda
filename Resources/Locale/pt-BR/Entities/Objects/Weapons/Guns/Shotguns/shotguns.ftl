@@ -1,4 +1,4 @@
-ent-BaseWeaponShotgun = BaseWeaponShotgun
+ent-BaseWeaponShotgun = Espingarda genérica
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponShotgunBulldog = Buldogue

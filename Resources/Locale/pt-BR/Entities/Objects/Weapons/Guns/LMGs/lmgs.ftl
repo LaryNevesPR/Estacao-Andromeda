@@ -1,4 +1,4 @@
-ent-BaseWeaponLightMachineGun = BaseWeaponLightMachineGun
+ent-BaseWeaponLightMachineGun = Metralhadora leve genérica
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponLightMachineGunL6 = L6 SAW

@@ -1,2 +1,3 @@
-loadout-description-LoadoutHeadBeaverHat = Gentlemen.
-loadout-description-LoadoutHeadTophat = A stylish black tophat.
+loadout-description-LoadoutHeadBeaverHat = Cavalheiros.
+loadout-description-LoadoutHeadTophat = Uma cartola preta elegante.
+

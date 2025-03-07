@@ -30,5 +30,5 @@ ent-CrateEmergencyAdvancedKit = Kit de emergência avançado
 ent-CrateEmergencyRadiationKit = Kit de emergência para lesões por radiação
     .desc = Caixa com quatro kits de tratamento contra lesões causadas por exposição à radiação
 
-ent-CrateVirologyBiosuit = Caixa de trajes de bioproteção da virologia
-    .desc = Contém 2 trajes de bioproteção para garantir que nenhuma doença o distraia ao tratar a tripulação. Requer acesso médico para abrir
+ent-CrateVirologyBiosuit = Caixa de trajes de bio-proteção da virologia
+    .desc = Contém 2 trajes de bio-proteção para garantir que nenhuma doença o distraia ao tratar a tripulação. Requer acesso médico para abrir

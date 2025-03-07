@@ -1,4 +1,4 @@
-offer-item-empty-hand = Você não tem nada na mão para dar!
+offer-item-empty-hand = Você não tem nada na mão para oferecer!
 
 offer-item-full-hand = Sua mão não está livre para receber o item.
 

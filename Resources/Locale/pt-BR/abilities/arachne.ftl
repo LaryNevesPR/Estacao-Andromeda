@@ -1,5 +1,5 @@
 action-name-spin-web = Tecer teia
-action-desc-spin-web = Use suas fiandeiras para fazer uma teia de aranha no bloco atual. Deixa você com mais fome e sede.
+action-desc-spin-web = Use suas fiandeiras para tecer uma teia de aranha no bloco atual. Deixa você com mais fome e sede.
 action-name-spin-web-space = Você não pode tecer teia no espaço!
 action-name-spin-web-blocked = Não há espaço para tecer teia aqui.
 spin-web-action-hungry = Você está com muita fome para tecer uma teia!

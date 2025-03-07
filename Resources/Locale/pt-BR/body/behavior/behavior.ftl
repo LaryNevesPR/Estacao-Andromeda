@@ -1,3 +1,3 @@
-lung-behavior-gasp = Sufoca
+lung-behavior-gasp = está sufocando
 
 silicon-behavior-buzz = Bzzzzt...

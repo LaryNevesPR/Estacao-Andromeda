@@ -1,57 +1,57 @@
-ent-PaintingEmpty = Empty Frame
-    .desc = An empty frame, waiting to be filled with art.
+ent-PaintingEmpty = Quadro Vazio
+    .desc = Uma moldura vazia, esperando para ser preenchida com arte.
 
-ent-PaintingMoony = Abstract No.1
-    .desc = An imposing abstract painting. It feels like it's pressuring you to do good.
+ent-PaintingMoony = Abstrato No.1
+    .desc = Uma pintura abstrata imponente. Parece que está pressionando você a fazer o bem.
 
-ent-PaintingPersistenceOfMemory = The Persistence of Memory
-    .desc = This painting depicts a barren landscape. It's filled with various surreal objects.
+ent-PaintingPersistenceOfMemory = A Persistência da Memória
+    .desc = Esta pintura retrata uma paisagem desolada. Está cheia de vários objetos surreais.
 
-ent-PaintingTheSonOfMan = The Son of Man
-    .desc = This painting depicts a formal-looking man. His face is obscured by an apple.
+ent-PaintingTheSonOfMan = O Filho do Homem
+    .desc = Esta pintura retrata um homem de aparência formal. Seu rosto está obscurecido por uma maçã.
 
-ent-PaintingTheKiss = The Kiss
-    .desc = This painting depicts a couple in tender embrace. It's covered in glittery gold ornamentation.
+ent-PaintingTheKiss = O Beijo
+    .desc = Esta pintura retrata um casal em um abraço terno. Está coberta de ornamentação dourada brilhante.
 
-ent-PaintingTheScream = The Scream
-    .desc = This painting depicts a distressed man standing on a bridge.
+ent-PaintingTheScream = O Grito
+    .desc = Esta pintura retrata um homem angustiado em pé em uma ponte.
 
-ent-PaintingTheGreatWave = The Great Wave off Kanagawa
-    .desc = This painting depicts a majestic wave. It's throwing around several small fishing boats.
+ent-PaintingTheGreatWave = A Grande Onda de Kanagawa
+    .desc = Esta pintura retrata uma onda majestosa. Está jogando vários pequenos barcos de pesca.
 
-ent-PaintingCafeTerraceAtNight = Cafe Terrace at Night
-    .desc = This painting depicts lively night scene at a cafe.
+ent-PaintingCafeTerraceAtNight = Terraço do Café à Noite
+    .desc = Esta pintura retrata uma cena noturna animada em um café.
 
-ent-PaintingNightHawks = Nighthawks
-    .desc = This painting depicts a lonely-looking diner. The patrons are sitting glumly at the counter.
+ent-PaintingNightHawks = Falcões Noturnos
+    .desc = Esta pintura retrata um restaurante solitário. Os clientes estão sentados tristemente no balcão.
 
-ent-PaintingSkeletonCigarette = Skull of a Skeleton with Burning Cigarette
-    .desc = This painting depicts an impressionist portrait of a skeleton. A lit cigarette is wedged between its teeth.
+ent-PaintingSkeletonCigarette = Crânio de um Esqueleto com Cigarro Aceso
+    .desc = Esta pintura retrata um retrato impressionista de um esqueleto. Um cigarro aceso está preso entre seus dentes.
 
-ent-PaintingSkeletonBoof = Skull of MLG Skeleton with Fat Boof
-    .desc = Painting goes hard. Feel free to screenshot.
+ent-PaintingSkeletonBoof = Crânio de Esqueleto MLG com Boof Grosso
+    .desc = A pintura é intensa. Sinta-se à vontade para tirar uma captura de tela.
 
-ent-PaintingPrayerHands = Study of the Hands of an Apostle
-    .desc = This painting depicts a pair of hands clasped in prayer.
+ent-PaintingPrayerHands = Estudo das Mãos de um Apóstolo
+    .desc = Esta pintura retrata um par de mãos unidas em oração.
 
-ent-PaintingOldGuitarist = The Old Guitarist
-    .desc = This painting depicts an old, thin man clutching a guitar. His face looks shallow and sickly.
+ent-PaintingOldGuitarist = O Velho Guitarrista
+    .desc = Esta pintura retrata um homem velho e magro segurando uma guitarra. Seu rosto parece raso e doentio.
 
 ent-PaintingOlympia = Olympia
-    .desc = This painting depicts a nude woman lying on a bed. A servant is tending to her.
+    .desc = Esta pintura retrata uma mulher nua deitada em uma cama. Um servo está cuidando dela.
 
-ent-PaintingSaturn = Saturn Devouring His Son
-    .desc = This painting depicts giant devouring a human corpse. He has a frightening look in his eyes.
+ent-PaintingSaturn = Saturno Devorando Seu Filho
+    .desc = Esta pintura retrata um gigante devorando um cadáver humano. Ele tem um olhar assustador nos olhos.
 
-ent-PaintingSleepingGypsy = The Sleeping Gypsy
-    .desc = This painting depicts a gypsy sleeping among their belongings in the desert. A lion stands behind them.
+ent-PaintingSleepingGypsy = A Cigana Adormecida
+    .desc = Esta pintura retrata uma cigana dormindo entre seus pertences no deserto. Um leão está atrás dela.
 
-ent-PaintingRedBlueYellow = Composition with Red Blue and Yellow
-    .desc = This painting is made up of several boxes. They are filled with flat shades of color.
+ent-PaintingRedBlueYellow = Composição com Vermelho Azul e Amarelo
+    .desc = Esta pintura é composta por várias caixas. Elas estão preenchidas com tons planos de cor.
 
-ent-PaintingAmogusTriptych = Amogus Triptych (Untitled.)
-    .desc = This painting is made up of 3 individual sections. Each depicts a religious figure.
+ent-PaintingAmogusTriptych = Tríptico Amogus (Sem Título.)
+    .desc = Esta pintura é composta por 3 seções individuais. Cada uma retrata uma figura religiosa.
 
-ent-PaintingHelloWorld = Hello World
-    .desc = This painting is made up of lots of multicolored squares arranged in a peculiar pattern. Perhaps it means something?
+ent-PaintingHelloWorld = Olá Mundo
+    .desc = Esta pintura é composta por muitos quadrados multicoloridos dispostos em um padrão peculiar. Talvez signifique algo?
 

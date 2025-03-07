@@ -30,8 +30,8 @@ uplink-gloves-north-star-desc = Um par de luvas que reduz drasticamente o tempo 
 uplink-explosive-grenade-name = Granada Explosiva
 uplink-explosive-grenade-desc = Uma granada simplista com um fusível de três segundos e meio de comprimento, destinada a ferir pessoas. Causa danos mínimos do casco.
 
-uplink-flash-grenade-name = Flashbang
-uplink-flash-grenade-desc = Um flashbang de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
+uplink-flash-grenade-name = Granada de atordoamento
+uplink-flash-grenade-desc = Uma granada de atordoamento de edição padrão, capaz de cegar e retardar qualquer pessoa sem proteção adequada. Isso, é claro, inclui você; certifique-se de que você está devidamente equipado antes de usá-lo.
 
 uplink-smoke-grenade-name = Granada de Fumaça
 uplink-smoke-grenade-desc = Uma granada que libera uma enorme nuvem de fumaça, perfeita para matar alguém nas sombras ou fazer uma fuga furtiva.
@@ -80,13 +80,13 @@ uplink-shrapnel-grenade-desc = Lança uma rajada de fragmentos pontiagudos, caus
 
 # Ammo
 uplink-pistol-magazine-name = Pente de Pistola (.35 auto)
-uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compativel com a Viper.
+uplink-pistol-magazine-desc = Pente de pistola com 10 cartuchos. Compatível com a Viper.
 
 uplink-pistol-magazine-c20r-name = Pente de SMG (.35 auto)
 uplink-pistol-magazine-c20r-desc = Pente de smg com 30 cartuchos. Compatível com a C-20r.
 
 uplink-pistol-magazine-caseless-name = Pente de Pistola (.25 sem estojo)
-uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compativel com a Cobra.
+uplink-pistol-magazine-caseless-desc = Pente de pistola com 10 cartuchos. Compatível com a Cobra.
 
 uplink-speedloader-magnum-name = Speedloader (.45 magnum AP)
 uplink-speedloader-magnu-desc = Carregador rápido de revolver com 6 cartuchos perfurantes de armadura, capazes de penetrar qualquer chapa. Compatível com a Python.
@@ -125,7 +125,7 @@ uplink-reinforcement-radio-name = Teleportador de Reforço
 uplink-reinforcement-radio-desc = Teleporte em um agente de qualidade extremamente questionável. Sem botão de desligar, compre isto se estiver pronto para a festa. Eles têm uma pistola sem munição reserva, e uma faca. É isso mesmo.
 
 uplink-reinforcement-radio-cyborg-assault-name = Teleportador de Ciborgue de Assalto ao Sindicato
-uplink-reinforcement-radio-cyborg-assault-desc = Uma máquina de matar enxuta e média com acesso a uma Espada de Energia, LMG, Sequenciador Criptográfico e um Pinpointer.
+uplink-reinforcement-radio-cyborg-assault-desc = Uma máquina de matar enxuta e média com acesso a uma Espada de Energia, LMG, Sequenciador Criptográfico e um localizador.
 
 uplink-stealth-box-name = Caixa de Stealth
 uplink-stealth-box-desc = Uma caixa equipada com tecnologia de camuflagem, esgueire-se com isso mas não se mova muito rápido agora!
@@ -146,7 +146,7 @@ uplink-voice-mask-name = Máscara de Voz
 uplink-voice-mask-desc = Uma máscara de gás que permite ajustar a sua voz para quem quer que possa pensar. Também utiliza tecnologia camaleão de ponta.
 
 uplink-clothing-eyes-hud-syndicate-name = Visor do Sindicato
-uplink-clothing-eyes-hud-syndicate-desc = O head-up display profissional do sindicato, projetado para melhor detecção de humanóides e sua posterior eliminação.
+uplink-clothing-eyes-hud-syndicate-desc = O head-up display profissional do sindicato, projetado para melhor detecção de humanoides e sua posterior eliminação.
 
 uplink-radio-jammer-name = Bloqueador de rádio
 uplink-radio-jammer-desc = Este dispositivo interromperá qualquer comunicação de rádio de saída próxima, bem como sensores de traje quando ativado.
@@ -159,10 +159,10 @@ uplink-singularity-beacon-desc = Um dispositivo que atrai singularidades. Tem qu
 
 # Implants
 uplink-storage-implanter-name = Implanter de Armazenamento
-uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia bluespace!
+uplink-storage-implanter-desc = Esconda as paradas dentro de si com a nova tecnologia de espaço azul!
 
 uplink-freedom-implanter-name = Implanter de Liberdade
-uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradávis com este implante de três usos!
+uplink-freedom-implanter-desc = Livre-se desses oficiais da seg desagradáveis com este implante de três usos!
 
 uplink-scram-implanter-name = Implantador de Fuga
 uplink-scram-implanter-desc = Um implante de 2 usos que teletransporta você para um grande raio. Tenta teletransportar você para um ladrilho desobstruído. Às vezes pode não conseguir fazer isso. Seguro de vida não incluído.
@@ -193,13 +193,13 @@ uplink-observation-kit-name = Kit de Observação
 uplink-observation-kit-desc = Inclui placa de monitor de câmera de vigilância e proteção de segurança disfarçada de óculos de sol.
 
 uplink-emp-kit-name = Kit Disruptor Eletromagnético
-uplink-emp-kit-desc = A reversão final em armamento baseado em energia: Desativa os disablers, estuna stunbatons, descarrega armas a laser! Contém 3 granadas EMP e um EMPr. Nota: Não afeta armas de fogo reais.
+uplink-emp-kit-desc = A reversão final em armamento baseado em energia: Desativa os incapacitadores, bastões de choque, e descarrega armas a laser! Contém 3 granadas EMP e um EMPr. Nota: Não afeta armas de fogo reais.
 
 uplink-decoy-kit-name = Kit de Chamarizes
 uplink-decoy-kit-desc = Tecnologia de distração de última geração direto da Pesquisa. Vem com cinco balões realistas, quatro granadas iscas e alguns snap poppers!
 
 uplink-chemistry-kit-name = Kit de Síntese Química
-uplink-chemistry-kit-desc = Um kit inicial para aspirantes a químico, inclui toxina e vestiína para todas as suas necessidades criminais!
+uplink-chemistry-kit-desc = Um kit inicial para aspirantes a químico, inclui toxina e vestina para todas as suas necessidades criminais!
 
 uplink-knives-kit-name = Kit de Facas de Arremesso
 uplink-knives-kit-desc = Um conjunto de 4 facas de arremesso da marca Sindicato, perfeitas para serem embutidas no corpo de suas vítimas.
@@ -223,7 +223,7 @@ uplink-grenade-launcher-bundle-name = China-Lake Bundle
 uplink-grenade-launcher-bundle-desc = Um antigo lançador de granadas China-Lake empacotado com 11 rodadas de vários capacidade de destruição.
 
 uplink-l6-saw-bundle-name = Pacote L6 SAW
-uplink-l6-saw-bundle-desc = Mais dakka: A icônica metraladora leve L6 SAW, empacotada com 2 caixas de fita.
+uplink-l6-saw-bundle-desc = Mais dakka: A icônica metralhadora leve L6 SAW, empacotada com 2 caixas de fita.
 
 uplink-zombie-bundle-name = Kit Zumbi do Sindicato
 uplink-zombie-bundle-desc = Um kit all-in-one para soltar os mortos-vivos em cima de uma estação.
@@ -261,7 +261,7 @@ uplink-necronomicon-name = Necronomicon
 uplink-necronomicon-desc = Um livro profano capaz de invocar um familiar demoníaco.
 
 uplink-holy-hand-grenade-name = Granada Santa de Mão
-uplink-holy-hand-grenade-desc = Senhor, abençõem esta tua granada de mão, para que com ele possas soprar os teus inimigos em pedacinhos, na tua misericórdia.
+uplink-holy-hand-grenade-desc = Senhor, abençoem esta tua granada de mão, para que com ele possas soprar os teus inimigos em pedacinhos, na tua misericórdia.
 
 uplink-revolver-cap-gun-fake-name = Arma de Festim Falsa
 uplink-revolver-cap-gun-fake-desc = Engane o seu inimigo! Cabe munições de festim e de magnum. Vem carregada com cartuchos magnum.
@@ -292,7 +292,7 @@ uplink-clothing-no-slips-shoes-name = Sapatos sem-escorregões
 uplink-clothing-no-slips-shoes-desc = Sapatos de camaleão que o protegem de escorregões.
 
 uplink-clothing-thieving-gloves-name = Luvas de Furto
-uplink-clothing-thieving-gloves-desc = Discretemente roube de bolsos e aumente a sua técnica de ladrão com estas luvas novas extravagantes, tudo isso com a aparência de luvas normais!
+uplink-clothing-thieving-gloves-desc = Discretamente roube de bolsos e aumente a sua técnica de ladrão com estas luvas novas extravagantes, tudo isso com a aparência de luvas normais!
 
 uplink-clothing-outer-vest-web-name = Colete Web
 uplink-clothing-outer-vest-web-desc = Um colete de armadura sintética. Este adicionou bolsos e placas balísticas.
@@ -310,7 +310,7 @@ uplink-hardsuit-syndieelite-name = Hardsuit Elite do Sindicato
 uplink-hardsuit-syndieelite-desc = Uma versão elite do hardsuit vermelho-sangue, com maior mobilidade e resistência ao fogo. Propriedade dos Saqueadores Gorlex.
 
 uplink-clothing-outer-hardsuit-juggernaut-name = Traje Cybersun Demolidor
-uplink-clothing-outer-hardsuit-juggernaut-desc = Armadura hiper-resistente feita de materiais testados na instalação da cromosfera Tau. A unica coisa que vai te atrasar é próprio traje...e tasers.
+uplink-clothing-outer-hardsuit-juggernaut-desc = Armadura hiper-resistente feita de materiais testados na instalação da cromosfera Tau. A única coisa que vai te atrasar é próprio traje...e tasers.
 
 # Misc/noct
 uplink-cyberpen-name = Caneta Cybersun

@@ -30,7 +30,7 @@ use-emp-implant-action-name = Ativar EMP
 use-emp-implant-action-description = Aciona um pequeno pulso EMP ao seu redor
 
 use-dna-scrambler-implant-action-name = Misturar DNA
-use-dna-scrambler-implant-action-description = LING NA MANUTENÇÃO!
+use-dna-scrambler-implant-action-description = irá mudar completamente sua aparência (e talvez espécie)!
 
 ## Implant Popups
 

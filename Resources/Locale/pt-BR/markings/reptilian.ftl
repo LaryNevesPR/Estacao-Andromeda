@@ -47,20 +47,20 @@ marking-LizardSnoutSharp = Nariz de Lagarto (Afiado)
 marking-LizardChestTiger-body_tiger = Peito de Lagarto (Tigre)
 marking-LizardChestTiger = Peito de Lagarto (Tigre)
 
-marking-LizardHeadTiger-head_tiger = Lizard Head (Tiger)
-marking-LizardHeadTiger = Lizard Head (Tiger)
+marking-LizardHeadTiger-head_tiger = Cabeça de Lagarto (Tigre)
+marking-LizardHeadTiger = Cabeça de Lagarto (Tigre)
 
-marking-LizardLArmTiger-l_arm_tiger = Lizard Left Arm (Tiger)
-marking-LizardLArmTiger = Lizard Left Arm (Tiger)
+marking-LizardLArmTiger-l_arm_tiger = Braço Esquerdo de Lagarto (Tigre)
+marking-LizardLArmTiger = Braço Esquerdo de Lagarto (Tigre)
 
-marking-LizardLLegTiger-l_leg_tiger = Lizard Left Leg (Tiger)
-marking-LizardLLegTiger = Lizard Left Leg (Tiger)
+marking-LizardLLegTiger-l_leg_tiger = Perna Esquerda de Lagarto (Tigre)
+marking-LizardLLegTiger = Perna Esquerda de Lagarto (Tigre)
 
-marking-LizardRArmTiger-r_arm_tiger = Lizard Right Arm (Tiger)
-marking-LizardRArmTiger = Lizard Right Arm (Tiger)
+marking-LizardRArmTiger-r_arm_tiger = Braço Direito de Lagarto (Tigre)
+marking-LizardRArmTiger = Braço Direito de Lagarto (Tigre)
 
-marking-LizardRLegTiger-r_leg_tiger = Lizard Right Leg (Tiger)
-marking-LizardRLegTiger = Lizard Right Leg (Tiger)
+marking-LizardRLegTiger-r_leg_tiger = Perna Direita de Lagarto (Tigre)
+marking-LizardRLegTiger = Perna Direita de Lagarto (Tigre)
 
 marking-LizardFrillsDivinity-frills_divinity = Babados de Lagarto (Divindade)
 marking-LizardFrillsDivinity = Babados de Lagarto (Divindade)
@@ -71,33 +71,33 @@ marking-LizardFrillsBig = Babados de Lagarto (Grandes)
 marking-LizardHornsDouble-horns_double = Chifres de Lagarto (Duplos)
 marking-LizardHornsDouble = Chifres de Lagarto (Duplos)
 
-marking-LizardFrillsAxolotl-frills_axolotl = Lizard Frills (Axolotl)
-marking-LizardFrillsAxolotl = Lizard Frills (Axolotl)
+marking-LizardFrillsAxolotl-frills_axolotl = Barbatanas de Lagarto (Axolote)
+marking-LizardFrillsAxolotl = Barbatanas de Lagarto (Axolote)
 
-marking-LizardFrillsHood-frills_hood_primary = Outer Hood
-marking-LizardFrillsHood-frills_hood_secondary = Inner Hood
-marking-LizardFrillsHood = Lizard Frills (Hood)
+marking-LizardFrillsHood-frills_hood_primary = Capuz Externo
+marking-LizardFrillsHood-frills_hood_secondary = Capuz Interno
+marking-LizardFrillsHood = Barbatanas de Lagarto (Capuz)
 
-marking-LizardHornsArgali-horns_argali = Lizard Horns (Argali)
-marking-LizardHornsArgali = Lizard Horns (Argali)
+marking-LizardHornsArgali-horns_argali = Chifres de Lagarto (Argali)
+marking-LizardHornsArgali = Chifres de Lagarto (Argali)
 
-marking-LizardHornsAyrshire-horns_ayrshire = Lizard Horns (Ayrshire)
-marking-LizardHornsAyrshire = Lizard Horns (Ayrshire)
+marking-LizardHornsAyrshire-horns_ayrshire = Chifres de Lagarto (Ayrshire)
+marking-LizardHornsAyrshire = Chifres de Lagarto (Ayrshire)
 
-marking-LizardHornsMyrsore-horns_myrsore = Lizard Horns (Myrsore)
-marking-LizardHornsMyrsore = Lizard Horns (Myrsore)
+marking-LizardHornsMyrsore-horns_myrsore = Chifres de Lagarto (Mysore)
+marking-LizardHornsMyrsore = Chifres de Lagarto (Mysore)
 
-marking-LizardHornsBighorn-horns_bighorn = Lizard Horns (Bighorn)
-marking-LizardHornsBighorn = Lizard Horns (Bighorn)
+marking-LizardHornsBighorn-horns_bighorn = Chifres de Lagarto (Grande Chifre)
+marking-LizardHornsBighorn = Chifres de Lagarto (Grande Chifre)
 
-marking-LizardHornsKoboldEars-horns_kobold_ears = Lizard Ears (Kobold)
-marking-LizardHornsKoboldEars = Lizard Ears (Kobold)
+marking-LizardHornsKoboldEars-horns_kobold_ears = Orelhas de Lagarto (Kobold)
+marking-LizardHornsKoboldEars = Orelhas de Lagarto (Kobold)
 
-marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Lizard Ears (Floppy Kobold)
-marking-LizardHornsFloppyKoboldEars = Lizard Ears (Floppy Kobold)
+marking-LizardHornsFloppyKoboldEars-horns_floppy_kobold_ears = Orelhas de Lagarto (Kobold Flexíveis)
+marking-LizardHornsFloppyKoboldEars = Orelhas de Lagarto (Kobold Flexíveis)
 
-marking-LizardChestUnderbelly-body_underbelly = Lizard Chest (Underbelly)
-marking-LizardChestUnderbelly = Lizard Chest (Underbelly)
+marking-LizardChestUnderbelly-body_underbelly = Peito de Lagarto (Barriga Inferior)
+marking-LizardChestUnderbelly = Peito de Lagarto (Barriga Inferior)
 
-marking-LizardChestBackspikes-body_backspikes = Lizard Back spikes (Four)
-marking-LizardChestBackspikes = Lizard Back spikes (Four)
+marking-LizardChestBackspikes-body_backspikes = Espinhos nas Costas de Lagarto (Quatro)
+marking-LizardChestBackspikes = Espinhos nas Costas de Lagarto (Quatro)

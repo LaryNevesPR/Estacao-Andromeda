@@ -22,5 +22,5 @@ ent-APCSuperCapacity = terminal de APC
 
 ent-APCHyperCapacity = terminal de APC
     .desc = Um terminal de controle para os sistemas elétricos da área.
-    .suffix = Hipercapacidade, 200kW
+    .suffix = Hiper capacidade, 200kW
 

@@ -1,4 +1,4 @@
-ent-BaseWeaponSniper = BaseWeaponSniper
+ent-BaseWeaponSniper = Fuzil de precisão genérico
      .desc = Um ponto enraizado e atirado.
 
 ent-WeaponSniperMosin = Kardashev-Mosin

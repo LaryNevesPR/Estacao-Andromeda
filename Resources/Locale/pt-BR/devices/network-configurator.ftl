@@ -1,7 +1,7 @@
 # Popups
 
 network-configurator-device-saved = O dispositivo de rede {$device} foi salvo com sucesso com o endereço {$address}!
-network-configurator-device-failed = Falha ao salvar o dispositio de rede {$device}! Nenhum endereço assinado!
+network-configurator-device-failed = Falha ao salvar o dispositivo de rede {$device}! Nenhum endereço assinado!
 network-configurator-too-many-devices = Muitos dispositivos armazenados neste dispositivo!
 network-configurator-update-ok = Armazenamento do dispositivo atualizado.
 network-configurator-device-already-saved = dispositivo de rede: {$device} já está salvo.
@@ -16,8 +16,8 @@ network-configurator-switched-mode = Modo comutado para: {$mode}
 network-configurator-save-device = Salvar Dispositivo
 network-configurator-configure = Configurar
 network-configurator-switch-mode = Mudar de modo
-network-configurator-link-defaults = Links padrões
-network-configurator-start-link = Comerçar a linkar
+network-configurator-link-defaults = conexões padrões
+network-configurator-start-link = Começar conexão
 network-configurator-link = Link
 
 # ui

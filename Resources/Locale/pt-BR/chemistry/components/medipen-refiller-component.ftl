@@ -1,6 +1,6 @@
 ## UI
 
-medipen-refiller-bound-user-interface-title = Medipen Refiller
+medipen-refiller-bound-user-interface-title = Refill de Medipen
 medipen-refiller-window-medipen-list-label = Lista de Medipens
 medipen-refiller-window-container-label = Container
 medipen-refiller-window-eject-button = Ejetar

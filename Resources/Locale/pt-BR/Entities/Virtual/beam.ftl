@@ -1,3 +1,4 @@
-ent-VirtualBeamEntityController = BEAM ENTITY YOU SHOULD NOT SEE THIS
+ent-VirtualBeamEntityController = BEAM ENTITY VOCÊ NÃO DEVERIA VER ISTO
     .desc = { "" }
+
 

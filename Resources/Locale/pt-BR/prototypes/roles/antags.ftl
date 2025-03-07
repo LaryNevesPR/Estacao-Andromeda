@@ -32,7 +32,7 @@ role-antag-thief-name = Ladrão
 role-antag-thief-objective= Adicione alguma propriedade do NT à sua coleção pessoal sem usar violência.
 
 roles-antag-fugitive-name = Fugitivo
-roles-antag-fugitive-description = Sobrevia. Escape.
+roles-antag-fugitive-description = Sobreviva. Escape.
 
 role-antag-terminator-name = Exterminador
 role-antag-terminator-objective = Mate o alvo a todo custo, o futuro depende disso.

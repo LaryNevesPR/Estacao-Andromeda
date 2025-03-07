@@ -1,54 +1,54 @@
-book-text-atmos-distro = The distribution network, or "distro" for short, is the station's lifeline. It's responsible for transporting air from atmospherics throughout the station.
+book-text-atmos-distro = A rede de distribuição, ou "distro" para abreviar, é a linha vital da estação. É responsável por transportar ar dos serviços atmosféricos por toda a estação.
 
-        Relevant pipes are often painted Popping Subdued Blue, but a surefire way to identify them is to use a tray scanner to trace which pipes are connected to active vents on the station.
+        Os tubos relevantes são frequentemente pintados de Azul Suave Estourando, mas uma maneira infalível de identificá-los é usar um scanner de bandeja para rastrear quais tubos estão conectados a saídas de ventilação ativas na estação.
 
-        The standard gas mix of the distribution network is 20 degrees celsius, 78% nitrogen, 22% oxygen. You can check this by using a gas analyzer on a distro pipe or any vent connected to it. Special circumstances may call for special mixes.
+        A mistura de gases padrão da rede de distribuição é 20 graus Celsius, 78% nitrogênio, 22% oxigênio. Você pode verificar isso usando um analisador de gases em um tubo de distro ou qualquer ventilação conectada a ele. Circunstâncias especiais podem exigir misturas especiais.
 
-        When it comes to deciding on a distro pressure, there are a few things to consider. Active vents will regulate the station's pressure, so as long as everything is functioning properly, there's no such thing as too high of a distro pressure.
+        Quando se trata de decidir uma pressão de distro, há algumas coisas a considerar. As ventilações ativas irão regular a pressão da estação, então enquanto tudo estiver funcionando corretamente, não existe uma pressão de distro muito alta.
 
-        A higher distro pressure will allow the distro network to act as a buffer between the gas miners and vents, providing a significant amount of extra air that can be used to re-pressurize the station after a spacing.
+        Uma pressão de distro mais alta permitirá que a rede de distro atue como um buffer entre os mineradores de gás e as saídas de ventilação, fornecendo uma quantidade significativa de ar extra que pode ser usada para re-pressurizar a estação após um espaço vazio.
 
-        A lower distro pressure will reduce the amount of gas lost in the event that the distro is spaced, a quick way to deal with distro contamination. It can also help slow or prevent over-pressurization of the station in the event of vent issues.
+        Uma pressão de distro mais baixa reduzirá a quantidade de gás perdida no caso de a distro ser espaçada, uma maneira rápida de lidar com a contaminação da distro. Também pode ajudar a retardar ou prevenir a sobrepressurização da estação no caso de problemas de ventilação.
 
-        Common distro pressures are in the range of 300-375 kPa, but other pressures can be used with knowledge of the risks and benefits.
+        As pressões comuns de distro estão na faixa de 300-375 kPa, mas outras pressões podem ser usadas com conhecimento dos riscos e benefícios.
 
-        The pressure of the network is determined by the last pump pumping into it. To prevent bottlenecks, all other pumps between the miners and the last pump should be set to their maximum rate, and any unnecessary devices should be removed.
+        A pressão da rede é determinada pela última bomba bombeando para ela. Para evitar gargalos, todas as outras bombas entre os mineradores e a última bomba devem ser configuradas para sua taxa máxima, e quaisquer dispositivos desnecessários devem ser removidos.
 
-        You can validate the distro pressure with a gas analyzer, but keep in mind that high demand due to things like spacings can cause the distro to be below the set target pressure for extended periods. So, if you see a dip in pressure, don't panic - it might be temporary.
+        Você pode validar a pressão da distro com um analisador de gases, mas tenha em mente que a alta demanda devido a coisas como espaços vazios pode fazer com que a distro esteja abaixo da pressão alvo definida por períodos prolongados. Então, se você vir uma queda de pressão, não entre em pânico - pode ser temporária.
 
-book-text-atmos-waste = The waste network is the primary system responsible for keeping the air on the station free of contaminants.
+book-text-atmos-waste = A rede de resíduos é o principal sistema responsável por manter o ar na estação livre de contaminantes.
 
-        You can identify the relevant pipes by their Pleasing Dull Red color or by using a tray scanner to trace which pipes are connected to the scrubbers on the station.
+        Você pode identificar os tubos relevantes pela cor Vermelho Opaco Prazeroso ou usando um scanner de bandeja para rastrear quais tubos estão conectados aos depuradores na estação.
 
-        The waste network is used to transport waste gasses to either be filtered or spaced. It is ideal to keep the pressure at 0 kPa, but it may sometimes be at a low non-zero pressure while in use.
+        A rede de resíduos é usada para transportar gases residuais para serem filtrados ou espaçados. É ideal manter a pressão em 0 kPa, mas às vezes pode estar em uma pressão baixa não nula enquanto em uso.
 
-        Technicians have the option to filter or space the waste gasses. While spacing is faster, filtering allows for the gasses to be reused for recycling or selling.
+        Os técnicos têm a opção de filtrar ou espaçar os gases residuais. Embora o espaçamento seja mais rápido, a filtragem permite que os gases sejam reutilizados para reciclagem ou venda.
 
-        The waste network can also be used to diagnose atmospheric issues on the station. High levels of a waste gas may suggest a large leak, while the presence of non-waste gases may indicate a scrubber configuration or physical connection issue. If the gases are at a high temperature, it could indicate a fire.
+        A rede de resíduos também pode ser usada para diagnosticar problemas atmosféricos na estação. Altos níveis de um gás residual podem sugerir um grande vazamento, enquanto a presença de gases não residuais pode indicar um problema de configuração do depurador ou de conexão física. Se os gases estiverem em alta temperatura, pode indicar um incêndio.
 
-book-text-atmos-alarms = Air alarms are located throughout stations to allow management and monitoring of the local atmosphere.
+book-text-atmos-alarms = Alarmes de ar estão localizados por toda a estação para permitir o gerenciamento e monitoramento da atmosfera local.
 
-            The air alarm interface provides technicians with a list of connected sensors, their readings, and the ability to adjust thresholds. These thresholds are used to determine the alarm condition of the air alarm. Technicians can also use the interface to set target pressures for vents and configure the operating speeds and targeted gases for scrubbers.
+            A interface do alarme de ar fornece aos técnicos uma lista de sensores conectados, suas leituras e a capacidade de ajustar limites. Esses limites são usados para determinar a condição de alarme do alarme de ar. Os técnicos também podem usar a interface para definir pressões alvo para saídas de ventilação e configurar as velocidades de operação e os gases-alvo para depuradores.
 
-            While the interface allows for fine-tuning of the devices under the air alarm's control, there are also several modes available for rapid configuration of the alarm. These modes are automatically switched to when the alarm state changes:
-            - Filtering: The default mode
-            - Filtering (wide): A filtering mode that modifies the operation of scrubbers to scrub a wider area
-            - Fill: Disables scrubbers and sets vents to their maximum pressure
-            - Panic: Disables vents and sets scrubbers to siphon
+            Enquanto a interface permite ajustes finos dos dispositivos sob o controle do alarme de ar, há também vários modos disponíveis para configuração rápida do alarme. Esses modos são automaticamente alternados quando o estado do alarme muda:
+            - Filtragem: O modo padrão
+            - Filtragem (ampla): Um modo de filtragem que modifica a operação dos depuradores para uma área mais ampla
+            - Preencher: Desabilita os depuradores e define as saídas de ventilação para sua pressão máxima
+            - Pânico: Desabilita as saídas de ventilação e define os depuradores para sifonar
 
-            A multitool or network configurator can be used to link devices to air alarms.
+            Uma ferramenta múltipla ou um configurador de rede pode ser usado para vincular dispositivos aos alarmes de ar.
 
 book-text-atmos-vents =
-    Below is a quick reference guide to several atmospheric devices:
+    Abaixo está um guia de referência rápida para vários dispositivos atmosféricos:
 
-                Passive Vents:
-                These vents don't require power, they allow gases to flow freely both into and out of the pipe network they are attached to.
+                Válvulas Passivas:
+                Essas válvulas não requerem energia, permitem que gases fluam livremente para dentro e para fora da rede de tubos a que estão conectadas.
 
-                Active Vents:
-                These are the most common vents on the station. They have an internal pump, and require power. By default, they will only pump gases out of pipes, and only up to 101 kpa. However, they can be reconfigured using an air alarm. They will also lock out if the room is under 1 kpa, to prevent pumping gasses into space.
+                Válvulas Ativas:
+                Essas são as válvulas mais comuns na estação. Elas possuem uma bomba interna e requerem energia. Por padrão, elas apenas bombeiam gases para fora dos tubos, e somente até 101 kPa. No entanto, elas podem ser reconfiguradas usando um alarme de ar. Elas também serão bloqueadas se a sala estiver abaixo de 1 kPa, para evitar bombear gases para o espaço.
 
-                Air Scrubbers:
-                These devices allow gases to be removed from the environment and put into the connected pipe network. They can be configured to select specific gases when connected to an air alarm.
+                Depuradores de Ar:
+                Esses dispositivos permitem a remoção de gases do ambiente e a colocação na rede de tubos conectada. Eles podem ser configurados para selecionar gases específicos quando conectados a um alarme de ar.
 
-                Air Injectors:
-                Injectors are similar to active vents, but they have no internal pump and do not require power. They cannot be configured, but they can continue to pump gasses up to much higher pressures.
+                Injetores de Ar:
+                Injetores são semelhantes às válvulas ativas, mas não possuem bomba interna e não requerem energia. Eles não podem ser configurados, mas podem continuar bombeando gases até pressões muito mais altas.

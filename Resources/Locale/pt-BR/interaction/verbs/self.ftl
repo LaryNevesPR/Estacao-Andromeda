@@ -6,9 +6,9 @@ interaction-PinchSelf-success-self-popup = Você se belisca... Ai!
 interaction-PinchSelf-success-others-popup = {THE($user)} belisca {REFLEXIVE($user)}... Parece doloroso!
 interaction-PinchSelf-fail-self-popup = Você de alguma forma não consegue se beliscar. Melhor assim.
 interaction-PinchSelf-delayed-self-popup = Você se belisca...
-interaction-PinchSelf-message-1 = Ouchh!!
-interaction-PinchSelf-message-2 = Aaaah!!
-interaction-PinchSelf-message-3 = Ow!!
+interaction-PinchSelf-message-1 = Ui!!
+interaction-PinchSelf-message-2 = Aai!!
+interaction-PinchSelf-message-3 = Au!!
 
 interaction-MakeSleepSelf-name = Dormir
 interaction-MakeSleepSelf-description = Vá dormir.

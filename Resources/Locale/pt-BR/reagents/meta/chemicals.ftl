@@ -1,4 +1,4 @@
-reagent-name-acetone = Acetone
+reagent-name-acetone = Acetona
 reagent-desc-acetone = Um líquido escorregadio e levemente cancerígeno. Tem uma infinidade de usos mundanos na vida cotidiana.
 
 reagent-name-phenol = Phenol
@@ -10,10 +10,10 @@ reagent-desc-sodium-carbonate = Sal branco, inodoro e solúvel em água que prod
 reagent-name-artifexium = Artifexium
 reagent-desc-artifexium = Uma mistura lavanda de fragmentos de artefatos microscópicos e um ácido forte. Tem a capacidade de ativar artefatos.
 
-reagent-name-benzene = Benzene
+reagent-name-benzene = Benzeno
 reagent-desc-benzene = Um anel de carbono aromático, ligeiramente cancerígeno, formando uma base para muitos compostos orgânicos.
 
-reagent-name-hydroxide = Hydroxide
+reagent-name-hydroxide = Hidróxido
 reagent-desc-hydroxide = Um produto químico alcalino forte, formando uma base para muitos compostos orgânicos.
 
 reagent-name-sodium-hydroxide = Hidróxido de Sódio

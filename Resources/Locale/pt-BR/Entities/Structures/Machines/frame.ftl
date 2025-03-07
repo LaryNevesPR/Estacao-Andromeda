@@ -6,7 +6,7 @@ ent-MachineFrame = chassis de máquina
     .desc = Uma máquina ainda sendo montada. Requer mais partes.
     .suffix = Pronta
 
-ent-MachineFrameDestroyed = chassis de máquina destruida
+ent-MachineFrameDestroyed = chassis de máquina destruída
     .desc = Uma máquina ainda sendo montada. Requer mais partes.
     .suffix = Pronta
 

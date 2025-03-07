@@ -1,1 +1,1 @@
-lathe-popup-material-not-used = Esse material não é usado nesse lathe.
+lathe-popup-material-not-used = Esse material não é usado nesse torno.

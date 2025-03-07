@@ -2,9 +2,9 @@ salvage-system-announcement-losing = O ímã não é mais capaz de reter os detr
 salvage-system-announcement-spawn-debris-disintegrated = Detritos desintegrados durante a transferência orbital.
 salvage-system-announcement-spawn-no-debris-available = Nenhum detrito pode ser recuperado pelo ímã de salvamento.
 salvage-system-announcement-arrived = Um pedaço de entulho recuperável foi retirado. Tempo de espera estimado: {$timeLeft} segundos.
-salvage-asteroid-name = Asteróide
+salvage-asteroid-name = Asteroide
 
-salvage-magnet-window-title = Ímã de salvamento
+salvage-magnet-window-title = Ímã de salvatagem
 salvage-expedition-window-progression = Progressão
 
 salvage-magnet-resources = {$resource ->
@@ -17,8 +17,8 @@ salvage-magnet-resources = {$resource ->
     [OrePlasma] Plasma
     [OreUranium] Urânio
     [OreArtifactFragment] Fragmentos de artefato
-    [OreBluespace] Cristais Bluespace
-    [OreNormality] Cristais Normality
+    [OreBluespace] Cristais Espaço Azul
+    [OreNormality] Cristais de Normalidade
     *[other] {$resource}
 }
 
@@ -51,7 +51,7 @@ salvage-map-proto-SmallParty = Festa de aniversário
 salvage-map-proto-SmallSyndicate = Nave de Sindicato em ruínas
 salvage-map-proto-SmallTesla = Contenção de tesla
 
-salvage-map-proto-SmallA1 = Asteróide Plasmafire
+salvage-map-proto-SmallA1 = Asteroide Plasmafire
 salvage-map-proto-Medium1 = Cache de Plasma
 salvage-map-proto-MediumVault1 = Cofre
 salvage-map-proto-MediumOrchestra = Orquestra Silenciosa
@@ -60,7 +60,7 @@ salvage-map-proto-MediumCargoWreck = Naufrágio do Departamento de Carga
 salvage-map-proto-MediumPirateWreck = Fragmento da Barcaça Pirata
 salvage-map-proto-MediumHaulingShuttleWreck = Nave de transporte arruinado
 salvage-map-proto-TickColony = Colônia de carrapatos espaciais
-salvage-map-proto-CargoDock = Doca de carga de asteróide
+salvage-map-proto-CargoDock = Doca de carga de asteroide
 salvage-map-proto-SpaceWaffleHome = Casa do Waffle
 salvage-map-proto-MediumShuttleWreck = Nave de emergência arruinado
 salvage-map-proto-MediumPetHospital = Hospital de animais e ursos

@@ -7,19 +7,19 @@ comp-climbable-verb-climb = Pular por cima
 ### Interaction Messages
 
 # Shown to you when your character climbs on $climbable
-comp-climbable-user-climbs = Você pula em cima d{ THE($climbable) }!
+comp-climbable-user-climbs = Você por cima de { THE($climbable) }!
 
 # Shown to others when $user climbs on $climbable
-comp-climbable-user-climbs-other  = { CAPITALIZE(THE($user)) } pula em cima d{ THE($climbable) }!
+comp-climbable-user-climbs-other  = { CAPITALIZE(THE($user)) } pula por cima de { THE($climbable) }!
 
 # Shown to you when your character forces someone to climb on $climbable
-comp-climbable-user-climbs-force = Você joga { THE($moved-user) } em cima d{ THE($climbable) }!
+comp-climbable-user-climbs-force = Você joga { THE($moved-user) } por cima de { THE($climbable) }!
 
 # Shown to others when someone forces other $moved-user to climb on $climbable
-comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } joga { THE($moved-user) } em cima d{ THE($climbable) }!
+comp-climbable-user-climbs-force-other = { CAPITALIZE(THE($user)) } joga { THE($moved-user) } por cima de { THE($climbable) }!
 
 # Shown to you when your character is far away from climbable
-comp-climbable-cant-reach = Você não alcança ali!
+comp-climbable-cant-reach = Você não consegue alcançar!
 
 # Shown to you when your character can't interact with climbable for some reason
 comp-climbable-cant-interact = Você não consegue faze isso!

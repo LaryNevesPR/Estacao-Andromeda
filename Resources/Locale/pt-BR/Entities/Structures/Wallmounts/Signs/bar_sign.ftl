@@ -1,99 +1,98 @@
-ent-BaseBarSign = bar sign
+ent-BaseBarSign = placa de bar
     .desc = { "" }
 
-ent-BarSign = bar sign
+ent-BarSign = placa de bar
     .desc = { "" }
-    .suffix = Random
+    .suffix = Aleatório
 
-ent-LargeBarSign = large bar sign
+ent-LargeBarSign = placa de bar grande
     .desc = { "" }
-    .suffix = Random
+    .suffix = Aleatório
 
-ent-BarSignComboCafe = Combo Cafe
-    .desc = Renowned system-wide for their utterly uncreative drink combinations.
-    .suffix = Random
+ent-BarSignComboCafe = Combo Café
+    .desc = Conhecido em todo o sistema por suas combinações de bebidas totalmente sem criatividade.
+    .suffix = Aleatório
 
-ent-BarSignEmergencyRumParty = Emergency Rum Party
-    .desc = Recently relicensed after a long closure.
-    .suffix = Random
+ent-BarSignEmergencyRumParty = Festa de Rum de Emergência
+    .desc = Recentemente re-licenciado após um longo fechamento.
+    .suffix = Aleatório
 
 ent-BarSignLV426 = LV426
-    .desc = Drinking with fancy facemasks is clearly more important than going to medbay.
-    .suffix = Random
+    .desc = Beber com máscaras faciais chiques é claramente mais importante do que ir à enfermaria.
+    .suffix = Aleatório
 
-ent-BarSignMaidCafe = Maid Cafe
-    .desc = Welcome back, master!
-    .suffix = Random
+ent-BarSignMaidCafe = Maid Café
+    .desc = Bem-vindo de volta, mestre!
+    .suffix = Aleatório
 
-ent-BarSignMalteseFalcon = Maltese Falcon
-    .desc = Play it again, sam.
-    .suffix = Random
+ent-BarSignMalteseFalcon = Falcão Maltês
+    .desc = Toque de novo, Sam.
+    .suffix = Aleatório
 
-ent-BarSignOfficerBeersky = Officer Beersky
-    .desc = Man eat a dong, these drinks are great.
-    .suffix = Random
+ent-BarSignOfficerBeersky = Oficial Beersky
+    .desc = Cara, coma um dong, essas bebidas são ótimas.
+    .suffix = Aleatório
 
-ent-BarSignRobustaCafe = Robusta Cafe
-    .desc = Holder of the 'Most Lethal Barfights' record 5 years uncontested.
-    .suffix = Random
+ent-BarSignRobustaCafe = Café Robusta
+    .desc = Detentor do recorde de 'Brigas de Bar Mais Letais' por 5 anos ininterruptos.
+    .suffix = Aleatório
 
 ent-BarSignTheAleNath = The Ale Nath
-    .desc = All right, buddy. I think you've had EI NATH. Time to get a cab.
-    .suffix = Random
+    .desc = Tudo bem, amigo. Acho que você já teve EI NATH suficiente. Hora de pegar um táxi.
+    .suffix = Aleatório
 
-ent-BarSignTheBirdCage = The Bird Cage
+ent-BarSignTheBirdCage = A Gaiola das Loucas
     .desc = Caw caw!
-    .suffix = Random
+    .suffix = Aleatório
 
-ent-BarSignTheCoderbus = The Coderbus
-    .desc = A very controversial bar known for its wide variety of constantly-changing drinks.
-    .suffix = Random
+ent-BarSignTheCoderbus = O Coderbus
+    .desc = Um bar muito controverso, conhecido por sua grande variedade de bebidas constantemente mutáveis.
+    .suffix = Aleatório
 
-ent-BarSignTheDrunkCarp = The Drunk Carp
-    .desc = Don't drink and swim.
-    .suffix = Random
+ent-BarSignTheDrunkCarp = O Peixe Bêbado
+    .desc = Não beba e nade.
+    .suffix = Aleatório
 
-ent-BarSignEngineChange = The Engine Change
-    .desc = Still waiting.
-    .suffix = Random
+ent-BarSignEngineChange = A Troca de Motor
+    .desc = Ainda esperando.
+    .suffix = Aleatório
 
-ent-BarSignTheHarmbaton = The Harmbaton
-    .desc = A great dining experience for both security members and passengers.
-    .suffix = Random
+ent-BarSignTheHarmbaton = O Cacetete
+    .desc = Uma excelente experiência gastronômica tanto para membros da segurança quanto para passageiros.
+    .suffix = Aleatório
 
-ent-BarSignTheLightbulb = The Lightbulb
-    .desc = A cafe popular among moths and moffs. Once shut down for a week after the bartender used mothballs to protect her spare uniforms.
-    .suffix = Random
+ent-BarSignTheLightbulb = A Lâmpada
+    .desc = Um café popular entre mariposas e moffs. Foi fechado por uma semana depois que o barman usou naftalinas para proteger seus uniformes de reposição.
+    .suffix = Aleatório
 
-ent-BarSignTheLooseGoose = The Loose Goose
-    .desc = Drink till you puke and/or break the laws of reality!
-    .suffix = Random
+ent-BarSignTheLooseGoose = O Ganso Solto
+    .desc = Beba até vomitar e/ou quebrar as leis da realidade!
+    .suffix = Aleatório
 
-ent-BarSignTheNet = The Net
-    .desc = You just seem to get caught up in it for hours.
-    .suffix = Random
+ent-BarSignTheNet = A Rede
+    .desc = Você simplesmente parece ficar preso nela por horas.
+    .suffix = Aleatório
 
-ent-BarSignTheOuterSpess = The Outer Spess
-    .desc = This bar isn't actually located in outer space.
-    .suffix = Random
+ent-BarSignTheOuterSpess = O Espaço Exterior
+    .desc = Este bar na verdade não está localizado no espaço exterior.
+    .suffix = Aleatório
 
-ent-BarSignTheSingulo = The Singulo
-    .desc = Where people go that'd rather not be called by their name.
-    .suffix = Random
+ent-BarSignTheSingulo = O Singulo
+    .desc = Onde as pessoas vão que preferem não ser chamadas pelo nome.
+    .suffix = Aleatório
 
-ent-BarSignTheSun = The Sun
-    .desc = Ironically bright for such a shady bar.
-    .suffix = Random
+ent-BarSignTheSun = O Sol
+    .desc = Ironicamente brilhante para um bar tão sombrio.
+    .suffix = Aleatório
 
-ent-BarSignWiggleRoom = Wiggle Room
-    .desc = MoMMIs got moves.
-    .suffix = Random
+ent-BarSignWiggleRoom = Sala de Dança
+    .desc = As MoMMIs têm movimento.
+    .suffix = Aleatório
 
 ent-BarSignZocalo = Zocalo
-    .desc = Anteriormente ubicado en Spessmerica.
-    .suffix = Random
+    .desc = Anteriormente localizado em Spessmerica.
+    .suffix = Aleatório
 
-ent-BarSignEmprah = 4 The Emprah
-    .desc = Enjoyed by fanatics, heretics, and brain-damaged patrons alike.
-    .suffix = Random
-
+ent-BarSignEmprah = 4 O Emprah
+    .desc = Apreciado por fanáticos, hereges e frequentadores com lesões cerebrais igualmente.
+    .suffix = Aleatório

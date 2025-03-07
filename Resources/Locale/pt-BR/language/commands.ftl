@@ -1,34 +1,34 @@
-command-list-langs-desc = List languages your current entity can speak at the current moment.
-command-list-langs-help = Usage: {$command}
+command-list-langs-desc = Lista os idiomas que sua entidade atual pode falar no momento.
+command-list-langs-help = Uso: {$command}
 
-command-saylang-desc = Send a message in a specific language. To choose a language, you can use either the name of the language, or its position in the list of languages.
-command-saylang-help = Usage: {$command} <language id> <message>. Example: {$command} GalacticCommon "Hello World!". Example: {$command} 1 "Hello World!"
+command-saylang-desc = Envie uma mensagem em um idioma específico. Para escolher um idioma, você pode usar o nome do idioma ou sua posição na lista de idiomas.
+command-saylang-help = Uso: {$command} <id do idioma> <mensagem>. Exemplo: {$command} GalacticCommon "Olá Mundo!". Exemplo: {$command} 1 "Olá Mundo!"
 
-command-language-select-desc = Select the currently spoken language of your entity. You can use either the name of the language, or its position in the list of languages.
-command-language-select-help = Usage: {$command} <language id>. Example: {$command} 1. Example: {$command} GalacticCommon
+command-language-select-desc = Selecione o idioma atual falado pela sua entidade. Você pode usar o nome do idioma ou sua posição na lista de idiomas.
+command-language-select-help = Uso: {$command} <id do idioma>. Exemplo: {$command} 1. Exemplo: {$command} GalacticCommon
 
-command-language-spoken = Spoken:
-command-language-understood = Understood:
-command-language-current-entry = {$id}. {$language} - {$name} (current)
+command-language-spoken = Falado:
+command-language-understood = Entendido:
+command-language-current-entry = {$id}. {$language} - {$name} (atual)
 command-language-entry = {$id}. {$language} - {$name}
 
-command-language-invalid-number = The language number must be between 0 and {$total}. Alternatively, use the language name.
-command-language-invalid-language = The language {$id} does not exist or you cannot speak it.
+command-language-invalid-number = O número do idioma deve estar entre 0 e {$total}. Alternativamente, use o nome do idioma.
+command-language-invalid-language = O idioma {$id} não existe ou você não pode falá-lo.
 
 # toolshed
 
-command-description-language-add = Adds a new language to the piped entity. The two last arguments indicate whether it should be spoken/understood. Example: 'self language:add "Canilunzt" true true'
-command-description-language-rm = Removes a language from the piped entity. Works similarly to language:add. Example: 'self language:rm "GalacticCommon" true true'.
-command-description-language-lsspoken = Lists all languages the entity can speak. Example: 'self language:lsspoken'
-command-description-language-lsunderstood = Lists all languages the entity can understand. Example: 'self language:lssunderstood'
+command-description-language-add = Adiciona um novo idioma à entidade conectada. Os dois últimos argumentos indicam se ele deve ser falado/entendido. Exemplo: 'self language:add "Canilunzt" true true'
+command-description-language-rm = Remove um idioma da entidade conectada. Funciona de maneira semelhante ao language:add. Exemplo: 'self language:rm "GalacticCommon" true true'.
+command-description-language-lsspoken = Lista todos os idiomas que a entidade pode falar. Exemplo: 'self language:lsspoken'
+command-description-language-lsunderstood = Lista todos os idiomas que a entidade pode entender. Exemplo: 'self language:lsunderstood'
 
-command-description-translator-addlang = Adds a new target language to the piped translator entity. See language:add for details.
-command-description-translator-rmlang = Removes a target language from the piped translator entity. See language:rm for details.
-command-description-translator-addrequired = Adds a new required language to the piped translator entity. Example: 'ent 1234 translator:addrequired "GalacticCommon"'
-command-description-translator-rmrequired = Removes a required language from the piped translator entity. Example: 'ent 1234 translator:rmrequired "GalacticCommon"'
-command-description-translator-lsspoken = Lists all spoken languages for the piped translator entity. Example: 'ent 1234 translator:lsspoken'
-command-description-translator-lsunderstood = Lists all understood languages for the piped translator entity. Example: 'ent 1234 translator:lssunderstood'
-command-description-translator-lsrequired = Lists all required languages for the piped translator entity. Example: 'ent 1234 translator:lsrequired'
+command-description-translator-addlang = Adiciona um novo idioma alvo à entidade tradutora conectada. Consulte language:add para detalhes.
+command-description-translator-rmlang = Remove um idioma alvo da entidade tradutora conectada. Consulte language:rm para detalhes.
+command-description-translator-addrequired = Adiciona um novo idioma obrigatório à entidade tradutora conectada. Exemplo: 'ent 1234 translator:addrequired "GalacticCommon"'
+command-description-translator-rmrequired = Remove um idioma obrigatório da entidade tradutora conectada. Exemplo: 'ent 1234 translator:rmrequired "GalacticCommon"'
+command-description-translator-lsspoken = Lista todos os idiomas falados pela entidade tradutora conectada. Exemplo: 'ent 1234 translator:lsspoken'
+command-description-translator-lsunderstood = Lista todos os idiomas entendidos pela entidade tradutora conectada. Exemplo: 'ent 1234 translator:lsunderstood'
+command-description-translator-lsrequired = Lista todos os idiomas obrigatórios para a entidade tradutora conectada. Exemplo: 'ent 1234 translator:lsrequired'
 
-command-language-error-this-will-not-work = This will not work.
-command-language-error-not-a-translator = Entity {$entity} is not a translator.
+command-language-error-this-will-not-work = Isso não vai funcionar.
+command-language-error-not-a-translator = A entidade {$entity} não é um tradutor.

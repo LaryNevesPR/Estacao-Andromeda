@@ -10,7 +10,7 @@ cmd-ban-hint-reason = <razão>
 cmd-ban-hint-duration = [duração]
 cmd-ban-hint-severity = [gravidade]
 
-cmd-ban-hint-duration-1 = Permanenente
+cmd-ban-hint-duration-1 = Permanente
 cmd-ban-hint-duration-2 = 1 dia
 cmd-ban-hint-duration-3 = 3 dias
 cmd-ban-hint-duration-4 = 1 semana
@@ -63,7 +63,7 @@ ban-panel-tabs-reason = Razão
 ban-panel-tabs-players = Lista de Jogadores
 ban-panel-tabs-role = Info de role ban
 ban-panel-no-data = Você deve fornecer um usuário, IP ou HWID para banir
-ban-panel-invalid-ip =  O endereço IP não pôde ser parseado. Por favor, tente novamente.
+ban-panel-invalid-ip =  O endereço IP não pôde ser analisado. Por favor, tente novamente.
 ban-panel-select = Selecione tipo
 ban-panel-server = Ban de servidor
 ban-panel-role = Role ban

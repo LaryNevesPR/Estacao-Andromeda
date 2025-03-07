@@ -1,28 +1,27 @@
-ent-Haycutters = haycutters
-    .desc = This kills the wire. Moo!
+ent-Haycutters = cortadores de feno
+    .desc = Isto corta o fio. Moo!
 
 ent-Moodriver = moodriver
-    .desc = Turn to use. Moo!
+    .desc = Gire para usar. Moo!
 
 ent-Wronch = wronch
-    .desc = Wronch thing. Moo!
+    .desc = Coisa errada. Moo!
 
 ent-Cowbar = cowbar
-    .desc = Cow your problems away. Moo!
+    .desc = Afaste seus problemas. Moo!
 
-ent-Mooltitool = mooltitool
-    .desc = An crude tool to copy, store, and send electrical pulses and signals through wires and machines. Moo!
+ent-Mooltitool = mooltiferramenta
+    .desc = Uma ferramenta rudimentar para copiar, armazenar e enviar pulsos e sinais elétricos através de fios e máquinas. Moo!
 
-ent-Cowelder = cowelding tool
-    .desc = Melts anything as long as it's fueled, don't forget your eye protection! Moo!
+ent-Cowelder = ferramenta de solda
+    .desc = Derrete qualquer coisa enquanto estiver com combustível, não se esqueça de proteger os olhos! Moo!
 
 ent-Milkalyzer = milkalyzer
-    .desc = A hand-held environmental scanner which reports current gas levels. Moo!
+    .desc = Um scanner ambiental portátil que relata os níveis de gás atuais. Moo!
 
-ent-CowToolbox = cow toolbox
-    .desc = A weirdly shaped box, stocked with... tools?
+ent-CowToolbox = caixa de ferramentas
+    .desc = Uma caixa de formato estranho, cheia de... ferramentas?
 
-ent-CowToolboxFilled = cow toolbox
-    .desc = A weirdly shaped box, stocked with... tools?
-    .suffix = Filled
-
+ent-CowToolboxFilled = caixa de ferramentas
+    .desc = Uma caixa de formato estranho, cheia de... ferramentas?
+    .suffix = Cheia

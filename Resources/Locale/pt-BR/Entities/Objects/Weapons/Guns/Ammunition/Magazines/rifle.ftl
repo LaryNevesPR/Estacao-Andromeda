@@ -1,14 +1,14 @@
-ent-BaseMagazineRifle = magazine (.20 rifle)
+ent-BaseMagazineRifle = carregador (.20 rifle)
     .desc = { "" }
 
-ent-MagazineRifle = magazine (.20 rifle)
+ent-MagazineRifle = carregador (.20 rifle)
     .desc = { "" }
 
-ent-MagazineRifleHighVelocity = magazine (.20 rifle de alta velocidade)
+ent-MagazineRifleHighVelocity = carregador (.20 rifle de alta velocidade)
     .desc = { "" }
 
-ent-MagazineRiflePractice = magazine (.20 prática de rifle)
+ent-MagazineRiflePractice = carregador (.20 prática de rifle)
     .desc = { "" }
 
-ent-MagazineRifleRubber = magazine (.20 borracha de rifle)
+ent-MagazineRifleRubber = carregador (.20 borracha de rifle)
     .desc = { "" }

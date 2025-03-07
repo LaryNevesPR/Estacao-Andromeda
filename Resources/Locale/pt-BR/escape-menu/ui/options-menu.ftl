@@ -34,7 +34,7 @@ ui-options-announcer-volume = Volume do Anunciador:
 ui-options-lobby-music = Musica no Lobby & Fim do Round
 ui-options-restart-sounds = Round Restart Sounds
 ui-options-event-music = Música de Evento
-ui-options-announcer-disable-multiple-sounds = Disabilitar Sobreposição de Sons de Anuciador
+ui-options-announcer-disable-multiple-sounds = Desabilitar Sobreposição de Sons de Anunciador
 ui-options-announcer-disable-multiple-sounds-tooltip = Alguns anúncios não soarão corretamente, esta configuração não é recomendada
 ui-options-admin-sounds = Tocar Som de Admin
 ui-options-volume-label = Volume
@@ -99,7 +99,7 @@ ui-options-hud-layout = HUD layout:
 ui-options-binds-reset-all = Limpar TODAS as teclas
 ui-options-binds-explanation = Clique para vincular uma tecla, botão direito para limpar
 ui-options-unbound = Desvincular
-ui-options-bind-reset = Resetar
+ui-options-bind-reset = Redefinir
 ui-options-key-prompt = Aperte uma tecla...
 
 ui-options-header-movement = Movimentação
@@ -109,7 +109,7 @@ ui-options-header-interaction-adv = Interação Avançada
 ui-options-header-ui = Interface do Usuário
 ui-options-header-targeting = Mirar
 ui-options-header-misc = Miscelânea
-ui-options-header-hotbar = Hotbar
+ui-options-header-hotbar = Barra de atalho
 ui-options-header-shuttle = Shuttle
 ui-options-header-map-editor = Editor de Mapa
 ui-options-header-dev = Desenvolvimento
@@ -127,7 +127,7 @@ ui-options-function-walk = Mudar Velocidade
 
 ui-options-function-camera-rotate-left = Girar para esquerda
 ui-options-function-camera-rotate-right = Girar para direita
-ui-options-function-camera-reset = Resetar
+ui-options-function-camera-reset = Redefinir
 ui-options-function-zoom-in = Zoom in
 ui-options-function-zoom-out = Zoom out
 ui-options-function-reset-zoom = Reset zoom
@@ -140,7 +140,7 @@ ui-options-function-activate-item-in-hand = Ativar item na mão
 ui-options-function-alt-activate-item-in-hand = Ativar item na mão alternativo
 ui-options-function-activate-item-in-world = Ativar item no mundo
 ui-options-function-alt-activate-item-in-world = Ativar item no mundo alternativo
-ui-options-function-drop = Dropar Item
+ui-options-function-drop = Largar Item
 ui-options-function-examine-entity = Examinar
 ui-options-function-swap-hands = Trocar de Mão
 ui-options-function-move-stored-item = Mover item armazenado
@@ -218,26 +218,26 @@ ui-options-function-show-debug-monitors = Mostrar monitores de Debug
 ui-options-function-inspect-entity = Inspecionar Entidade
 ui-options-function-hide-ui = Esconder UI
 
-ui-options-function-hotbar1 = Hotbar slot 1
-ui-options-function-hotbar2 = Hotbar slot 2
-ui-options-function-hotbar3 = Hotbar slot 3
-ui-options-function-hotbar4 = Hotbar slot 4
-ui-options-function-hotbar5 = Hotbar slot 5
-ui-options-function-hotbar6 = Hotbar slot 6
-ui-options-function-hotbar7 = Hotbar slot 7
-ui-options-function-hotbar8 = Hotbar slot 8
-ui-options-function-hotbar9 = Hotbar slot 9
-ui-options-function-hotbar0 = Hotbar slot 0
-ui-options-function-loadout1 = Hotbar Loadout 1
-ui-options-function-loadout2 = Hotbar Loadout 2
-ui-options-function-loadout3 = Hotbar Loadout 3
-ui-options-function-loadout4 = Hotbar Loadout 4
-ui-options-function-loadout5 = Hotbar Loadout 5
-ui-options-function-loadout6 = Hotbar Loadout 6
-ui-options-function-loadout7 = Hotbar Loadout 7
-ui-options-function-loadout8 = Hotbar Loadout 8
-ui-options-function-loadout9 = Hotbar Loadout 9
-ui-options-function-loadout0 = Hotbar Loadout 0
+ui-options-function-hotbar1 = Slot 1 da barra de atalho
+ui-options-function-hotbar2 = Slot 2 da barra de atalho
+ui-options-function-hotbar3 = Slot 3 da barra de atalho
+ui-options-function-hotbar4 = Slot 4 da barra de atalho
+ui-options-function-hotbar5 = Slot 5 da barra de atalho
+ui-options-function-hotbar6 = Slot 6 da barra de atalho
+ui-options-function-hotbar7 = Slot 7 da barra de atalho
+ui-options-function-hotbar8 = Slot 8 da barra de atalho
+ui-options-function-hotbar9 = Slot 9 da barra de atalho
+ui-options-function-hotbar0 = Slot 0 da barra de atalho
+ui-options-function-loadout1 = Configuração de barra de atalho 1
+ui-options-function-loadout2 = Configuração de barra de atalho 2
+ui-options-function-loadout3 = Configuração de barra de atalho 3
+ui-options-function-loadout4 = Configuração de barra de atalho 4
+ui-options-function-loadout5 = Configuração de barra de atalho 5
+ui-options-function-loadout6 = Configuração de barra de atalho 6
+ui-options-function-loadout7 = Configuração de barra de atalho 7
+ui-options-function-loadout8 = Configuração de barra de atalho 8
+ui-options-function-loadout9 = Configuração de barra de atalho 9
+ui-options-function-loadout0 = Configuração de barra de atalho 0
 
 ui-options-function-shuttle-strafe-up = Andar para cima
 ui-options-function-shuttle-strafe-right = Andar para direita
@@ -265,8 +265,8 @@ ui-options-net-predict-tick-bias-tooltip = Aumentar isso geralmente tornará o j
 
 ui-options-net-pvs-spawn = Orçamento de spawn de entidades PVS
 ui-options-net-pvs-spawn-tooltip = Esse valor limita a taxa na qual o servidor envia entidades recém
-                                       spawnadas para o cliente. Reduzir isso pode ajudar a reduzir
-                                       stutter devido à spawn de entidades, mas pode levar a pop-in.
+                                       criadas para o cliente. Reduzir isso pode ajudar a reduzir
+                                       stutter devido à criação de entidades, mas pode levar a pop-in.
 
 ui-options-net-pvs-entry = Orçamento PVS de entidades PVS
 ui-options-net-pvs-entry-tooltip = Esse valor limita a taxa na qual o servidor envia entidades tornadas

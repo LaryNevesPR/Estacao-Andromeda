@@ -1,4 +1,4 @@
-action-name-suck-blood = Chupa Sangue
+action-name-suck-blood = Chupar Sangue
 action-description-suck-blood = Chupa o sangue da vítima na sua mão.
 
 bloodsucker-fail-helmet = Você precisa remover o {THE($helmet)}.
@@ -8,11 +8,11 @@ bloodsucker-fail-not-blood = { CAPITALIZE(SUBJECT($target)) } não tem o delicio
 bloodsucker-fail-no-blood = { CAPITALIZE(SUBJECT($target)) } não tem sangue no corpo de { POSS-ADJ($target) }.
 bloodsucker-fail-no-blood-bloodsucked = { CAPITALIZE(SUBJECT($target)) } foi chupado até secar.
 
-bloodsucker-blood-sucked = Você chupa um pouco de sangue de {$target}.
+bloodsucker-blood-sucked = Você chupa um pouco do sangue de {$target}.
 bloodsucker-doafter-start = Você tenta morder o pescoço de {$target}.
 
 bloodsucker-doafter-start-victim = {CAPITALIZE(THE($sucker))} está tentando morder seu pescoço!
-bloodsucker-blood-sucked-victim = {CAPITALIZE(THE($sucker))} chupa um pouco do seu sangue!
+bloodsucker-blood-sucked-victim = {CAPITALIZE(THE($sucker))} chupou um pouco do seu sangue!
 
 bloodsucked-health-examine = [color=red]{ CAPITALIZE(SUBJECT($target)) } { CONJUGATE-HAVE($target) } marcas de mordida no pescoço de { POSS-ADJ($target) }.[/color]
 

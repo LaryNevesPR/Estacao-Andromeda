@@ -1,1 +1,1 @@
-defusable-verb-begin = Comece a contagem regressiva
+defusable-verb-begin = Começa a contagem regressiva
