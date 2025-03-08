@@ -15,7 +15,7 @@
     - Foreigner
     - ForeignerLight
   setPreference: true
-  startingGear: CentcomOpeGear
+  startingGear: CentcomOperadorGear
   icon: "JobIconNanotrasen"
   supervisors: job-supervisors-dcc
   canBeAntag: false
@@ -35,14 +35,14 @@
     powerCell: PowerCellHigh
 
 - type: startingGear
-  id: CentcomOpeGear
+  id: CentcomOperadorGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitCentcomOfficial
+    jumpsuit: ClothingUniformJumpsuitCentcomOperador
     shoes: ClothingShoesBootsCombatFilled
     head: ClothingHeadHatBeretCentcomm
     eyes: ClothingEyesGlassesSunglasses
     gloves: ClothingHandsGlovesCombat
-    outerClothing: ClothingOuterWinterCentcom
+    outerClothing: ClothingOuterArmorBasic
     id: CentcomPDA
     ears: ClothingHeadsetAltCentCom
     belt: BoxFolderCentComClipboard
