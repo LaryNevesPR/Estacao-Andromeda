@@ -80,3 +80,13 @@
     - type: Sprite
       sprite: _Andromeda/misc/figures_catarse.rsi
       state: Lao_Figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineLawLaw
+  name: Law Law
+  description: "Ao apertar a barriga dela, ela pergunta: 'Quer um cafezinho?'. Perfeita para você que é um head solitário."
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: lawlaw_figure

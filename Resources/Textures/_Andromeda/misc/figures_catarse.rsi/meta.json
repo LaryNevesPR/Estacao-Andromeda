@@ -30,6 +30,9 @@
         },
         {
             "name": "gui_figure"
+        },
+        {
+            "name": "lawlaw_figure"
         }
     ]
 }
