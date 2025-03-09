@@ -2,9 +2,9 @@
   id: DefaultMapPool
   maps:
   - Arena # Maintained by astriloqua.
- # - Asterisk # De-rotated, no current maintainer.
+  - Asterisk # Os mapas pequenos tão tudo sem manutenção. É foda
   - Core # No current Maintainer. In need of a rework...
- # - Edge # De-rotated, no current maintainer.
+  - Edge #
   - Glacier # Maintained by Violet, pending update.
  # - Hammurabi # De-rotated, no current maintainer.
   - Lighthouse # Maintained by the SiN Mapping Team, ODJ, and TCJ.
