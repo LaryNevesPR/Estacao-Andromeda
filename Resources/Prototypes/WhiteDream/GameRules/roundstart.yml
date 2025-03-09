@@ -18,6 +18,7 @@
         sound: "/Audio/WhiteDream/BloodCult/blood_cult_greeting.ogg"
       startingGear: BloodCultistGear
       components:
+      - type: SurgerySkill
       - type: BloodCultist
       - type: BloodCultSpellsHolder
       mindRoles:

@@ -514,6 +514,7 @@
       pickPlayer: false
       startingGear: SyndicateLoneOperativeGearFull
       components:
+      - type: SurgerySkill
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
