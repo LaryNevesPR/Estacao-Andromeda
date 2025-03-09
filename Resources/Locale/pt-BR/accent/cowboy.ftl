@@ -62,7 +62,7 @@ accent-cowboy-words-21 = crazy
 accent-cowboy-replacement-21 = Pirado
 
 accent-cowboy-words-22 = ciborgue
-accent-cowboy-replacement-11 = homem de lata
+accent-cowboy-replacement-22 = homem de lata
 
 accent-cowboy-words-23 = pai
 accent-cowboy-replacement-23 = painho
@@ -86,7 +86,7 @@ accent-cowboy-words-29 = amigo
 accent-cowboy-replacement-29 = parceiro
 
 accent-cowboy-words-30 = adeus
-accent-cowboy-replacement-12 = até uma próxima
+accent-cowboy-replacement-30 = até uma próxima
 
 accent-cowboy-words-31 = maré de cinzas
 accent-cowboy-replacement-31 = maré de vermes
