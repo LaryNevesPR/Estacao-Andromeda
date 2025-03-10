@@ -9,7 +9,7 @@ borg-mind-removed = {CAPITALIZE($name)} desligou!
 borg-module-too-many = Não há espaço suficiente para outro módulo...
 borg-module-whitelist-deny = Este módulo não se encaixa neste tipo de cyborg...
 
-borg-construction-guide-string = Os membros e o tronco do ciborgue devem ser ligados ao endoesqueleto.
+borg-construction-guide-string = Os membros e o tronco do ciborgue devem ser ligados ao endosqueleto.
 
 borg-ui-menu-title = Interface de Ciborgue
 borg-ui-charge-label = Carga: {$charge}%

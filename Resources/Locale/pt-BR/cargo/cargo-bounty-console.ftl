@@ -1,4 +1,4 @@
-﻿bounty-console-menu-title = Console de Recompensas da Cargo
+﻿bounty-console-menu-title = Console de Encomendas de carga
 bounty-console-label-button-text = Print label
 bounty-console-time-label = Tempo: [color=orange]{$time}[/color]
 bounty-console-reward-label = Retorno: [color=limegreen]${$reward}[/color]

@@ -40,8 +40,8 @@ action-description-telegnosis = Crie uma projeção telegnóstica para observar 
 action-name-psionic-regeneration = Regeneração Psiônica
 action-description-psionic-regeneration = Leve o seu metabolismo ao limite para alimentar as capacidades regenerativas do seu corpo.
 
-glimmer-report = Nivel atual de Brilho: {$level}μΨ.
-glimmer-event-report-generic = descarga noösférica detectada. Nivel de Brilho diminuiu {$decrease} até {$level}μΨ.
+glimmer-report = Nível atual de Brilho: {$level}μΨ.
+glimmer-event-report-generic = descarga noösférica detectada. Nível de Brilho diminuiu {$decrease} até {$level}μΨ.
 glimmer-event-report-signatures = Novas assinaturas psiônicas manifestadas. O nível de Brilho diminuiu em {$decrease} para {$level}Ψ.
 glimmer-event-awakened-prefix = acordado {$entity}
 
@@ -56,7 +56,7 @@ telegnostic-trapped-entity-desc = Seus muitos olhos traem tristeza.
 psionic-burns-up = {CAPITALIZE(THE($item))} queima com um arco de estranha energia!
 psionic-burn-resist = Estranhos arcos dançam por {THE($item)}!
 
-action-name-noospheric-zap = Choque Noosférico
+action-name-noospheric-zap = Choque Noösférico
 action-description-noospheric-zap = Eletrocuta a consciência do alvo e os deixa atordoados e gagejando.
 
 action-name-pyrokinesis = Pirocinese
@@ -64,7 +64,7 @@ action-description-pyrokinesis = Cria chamas em um alvo inflamável.
 pyrokinesis-power-used = Labareda de chamas engolfa {THE($target)}, incendiando {OBJECT($target)}!
 
 action-name-psychokinesis = Psicocinese
-action-description-psychokinesis = Dobre o espaço para se mover instantanemanete através dele.
+action-description-psychokinesis = Dobre o espaço para se mover instantaneamente através dele.
 
 action-name-rf-sensitivity = Alternar Sensibilidade RF
 action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.

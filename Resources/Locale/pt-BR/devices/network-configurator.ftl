@@ -6,8 +6,8 @@ network-configurator-too-many-devices = Muitos dispositivos armazenados neste di
 network-configurator-update-ok = Armazenamento do dispositivo atualizado.
 network-configurator-device-already-saved = dispositivo de rede: {$device} já está salvo.
 network-configurator-device-access-denied = Acesso negado!
-network-configurator-link-mode-started = Dispositivo de vinculação iniciado: {$device}
-network-configurator-link-mode-stopped = Parou de vincular.
+network-configurator-link-mode-started = Vinculação de dispositivo iniciada: {$device}
+network-configurator-link-mode-stopped = Vinculação de dispositivo interrompida.
 network-configurator-mode-link = Link
 network-configurator-mode-list = Lista
 network-configurator-switched-mode = Modo comutado para: {$mode}
@@ -18,7 +18,7 @@ network-configurator-configure = Configurar
 network-configurator-switch-mode = Mudar de modo
 network-configurator-link-defaults = conexões padrões
 network-configurator-start-link = Começar conexão
-network-configurator-link = Link
+network-configurator-link = Vincular
 
 # ui
 network-configurator-title-saved-devices = Dispositivos salvos

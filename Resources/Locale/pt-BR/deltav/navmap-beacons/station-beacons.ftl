@@ -1,4 +1,4 @@
-station-beacon-epistemics = Epistêmica
+station-beacon-epistemics = Epistemologia
 station-beacon-mystagogue = Mistagogo
 
 station-beacon-logistics = Logística

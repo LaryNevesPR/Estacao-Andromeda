@@ -1,5 +1,5 @@
-job-description-mystagogue = Lidere a pesquisa da estação e gerencie os tripulantes psiônicos.
-job-description-mantis = Resolva mistérios desde pequenos furtos até a natureza do universo.
+job-description-mystagogue = Coordene a Pesquisa e o departamento de Epistemologia. Organize a investigação de Artefatos e Anomalias. monitore o Brilho.
+job-description-mantis = Resolva mistérios. Rastreie tripulantes psiônicos. Administre MindBreak em psiônicos designados como perigosos quando o Código Branco for declarado.
 job-description-epistemologist = Pesquise a natureza da verdade. Também armas laser. Fume ambrosia para alcançar a transcendência.
 job-description-cataloguer = Sente-se na biblioteca. Tente realizar uma sessão de RPG para a tripulação. Fique entediado e ajude os epistemólogos a se matarem quando ninguém aparece.
 job-description-mail-carrier = Entregue correspondência. Evite cães.

@@ -1,4 +1,4 @@
-disarm-action-disarmable = Não é possivél desarmar {THE($targetName)}!
+disarm-action-disarmable = Não é possível desarmar {THE($targetName)}!
 disarm-action-popup-message-other-clients = {$performerName} falhou em desarmar {$targetName}!
 disarm-action-popup-message-cursor = Você falha em desarmar {$targetName}!
 disarm-action-shove-popup-message-other-clients = {CAPITALIZE(THE($performerName))} empurra {THE($targetName)}!

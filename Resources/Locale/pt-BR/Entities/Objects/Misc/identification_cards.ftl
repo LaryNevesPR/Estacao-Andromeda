@@ -1,10 +1,10 @@
 ent-IDCardStandard = ID
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-PassengerIDCard = ID do assistente
+ent-PassengerIDCard = ID de assistente
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-TechnicalAssistantIDCard = ID do assistente técnico
+ent-TechnicalAssistantIDCard = ID de assistente técnico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-MedicalInternIDCard = ID de estagiário médico
@@ -13,103 +13,103 @@ ent-MedicalInternIDCard = ID de estagiário médico
 ent-SecurityCadetIDCard = ID de cadete de segurança
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ServiceWorkerIDCard = ID do faz-tudo
+ent-ServiceWorkerIDCard = ID de faz-tudo
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CaptainIDCard = ID do Capitão
+ent-CaptainIDCard = ID de Capitão
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-SecurityIDCard = ID de segurança
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-WardenIDCard = ID do diretor
+ent-WardenIDCard = ID de diretor
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-EngineeringIDCard = ID do engenheiro
+ent-EngineeringIDCard = ID de engenheiro
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-MedicalIDCard = ID médica
+ent-MedicalIDCard = ID de médico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-ChemistIDCard = ID de químico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CargoIDCard = ID de carga
+ent-CargoIDCard = ID de logística
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-SalvageIDCard = ID de salvamento
+ent-SalvageIDCard = ID de salvatagem
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-QuartermasterIDCard = ID do intendente de carga
+ent-QuartermasterIDCard = ID de intendente de logística
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ResearchIDCard = ID de pesquisa
+ent-ResearchIDCard = ID de pesquisador
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-ClownIDCard = ID de palhaço
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-MimeIDCard = ID mime
+ent-MimeIDCard = ID de mímico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ChaplainIDCard = ID do padre
+ent-ChaplainIDCard = ID de padre
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-JanitorIDCard = ID do zelador
+ent-JanitorIDCard = ID de zelador
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-BartenderIDCard = ID do bartender
+ent-BartenderIDCard = ID de bartender
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ChefIDCard = ID do chef
+ent-ChefIDCard = ID de chef
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-BotanistIDCard = ID de botânico
+ent-BotanistIDCard = ID de botanista
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-LibrarianIDCard = ID do bibliotecário
+ent-LibrarianIDCard = ID de bibliotecário
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-LawyerIDCard = ID de advogado
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-HoPIDCard = ID do chefe de funcionários
+ent-HoPIDCard = ID de chefe de funcionários
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CEIDCard = ID do engenheiro chefe
+ent-CEIDCard = ID de engenheiro chefe
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CMOIDCard = ID do médico chefe
+ent-CMOIDCard = ID de médico chefe
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-RDIDCard = ID do diretor de pesquisa
+ent-RDIDCard = ID de mistagogo
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-HoSIDCard = chefe do ID de segurança
+ent-HoSIDCard = ID de chefe de segurança
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCard = ID do Centcom
+ent-CentcomIDCard = ID de Centcom
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-ERTLeaderIDCard = ID do ERT
+ent-ERTLeaderIDCard = ID de ERT
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCardSyndie = ID do Centcom
+ent-CentcomIDCardSyndie = ID de Centcom
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-MusicianIDCard = ID do músico
+ent-MusicianIDCard = ID de músico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CentcomIDCardDeathsquad = ID do Death Squad
+ent-CentcomIDCardDeathsquad = ID de Esquadrão da morte
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-AgentIDCard = ID do Death Squad
+ent-AgentIDCard = ID de Esquadrão da morte
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-AtmosIDCard = ID de técnico atmosférico
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-SyndicateIDCard = ID do sindicato
+ent-SyndicateIDCard = ID de sindicato
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
 ent-PsychologistIDCard = ID de psicólogo
@@ -124,6 +124,5 @@ ent-BoxerIDCard = ID de boxeador
 ent-DetectiveIDCard = ID de detetive
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
 
-ent-CBURNIDcard = ID do CBURN
+ent-CBURNIDcard = ID de CBURN
      .desc = Um cartão necessário para acessar diversas áreas a bordo da estação.
-

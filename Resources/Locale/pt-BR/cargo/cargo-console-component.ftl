@@ -1,5 +1,5 @@
 ## UI
-cargo-console-menu-title = Console de Pedidos da Cargo
+cargo-console-menu-title = Console de Requisições de carga
 cargo-console-menu-account-name-label = Nome da conta:{" "}
 cargo-console-menu-account-name-none-text = Nenhum
 cargo-console-menu-shuttle-name-label = Nome da nave:{" "}
@@ -40,7 +40,7 @@ cargo-console-paper-print-text =
     Aprovado por: {$approver}
 
 # Cargo shuttle console
-cargo-shuttle-console-menu-title = Console da Nave da Cargo
+cargo-shuttle-console-menu-title = Console da Nave de Carga
 cargo-shuttle-console-station-unknown = Desconhecida
 cargo-shuttle-console-shuttle-not-found = Não encontrada
 cargo-shuttle-console-organics = Formas de vida orgânica encontradas na nave

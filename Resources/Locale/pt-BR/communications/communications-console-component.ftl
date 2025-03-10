@@ -1,5 +1,5 @@
 # User interface
-comms-console-menu-title = Console de Comunicações
+comms-console-menu-title = Console de Comunicação
 comms-console-menu-announcement-placeholder = Aviso
 comms-console-menu-announcement-button = Anunciar
 comms-console-menu-broadcast-button = Transmissão
