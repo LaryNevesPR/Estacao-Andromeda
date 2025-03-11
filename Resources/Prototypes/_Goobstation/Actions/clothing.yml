@@ -1,7 +1,7 @@
 - type: entity
   id: ActionClothingSeal
-  name: Seal/Unseal Clothing
-  description: Seals or unseals your current clothing.
+  name: Vedar/Desvedar Roupa
+  description: Veda ou desveda sua roupa atual.
   categories: [ HideSpawnMenu ]
   components:
   - type: ConfirmableAction

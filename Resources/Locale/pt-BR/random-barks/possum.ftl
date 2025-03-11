@@ -1,0 +1,24 @@
+# Gambá <3
+bark-possum-1 = Hiss hiss
+bark-possum-2 = Hiss hiss hiss
+bark-possum-3 = Comida
+bark-possum-4 = Fome
+bark-possum-5 = Mais comida
+bark-possum-6 = Hiss
+bark-possum-7 = Fingir de morto
+bark-possum-8 = Assustado
+bark-possum-9 = Esconder-se
+bark-possum-10 = Escuridão, por favor
+bark-possum-11 = Lar na árvore
+bark-possum-12 = Hiss hiss hiss hiss
+bark-possum-13 = Comida agora
+bark-possum-14 = Sonolento
+bark-possum-15 = Hiss hiss hiss
+bark-possum-16 = Noite boa
+bark-possum-17 = Fruta, por favor
+bark-possum-18 = Sem luz
+bark-possum-19 = Hiss hiss hiss hiss hiss
+bark-possum-20 = Escuridão segura
+bark-possum-21 = Preciso me esconder
+bark-possum-22 = Hiss... Fique longe
+bark-possum-count = 22

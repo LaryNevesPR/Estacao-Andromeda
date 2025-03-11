@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatNanotrasenRepresentativecap
-  name: Chapéu de representante da Nanotrasen
+  name: Chapéu de representante da NanoTrasen
   description: Poucos tem a honra de usar.
   components:
   - type: Sprite

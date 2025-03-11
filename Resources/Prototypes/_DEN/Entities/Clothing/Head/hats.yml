@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatSeniorTrooper
-  name: senior trooper hat
-  description: A campaign hat for the Nanotrasen Troopers, comes with a case too, but you lost it.
+  name: chapéu de Sênior da Tropa
+  description: Um chapéu de campanha para as Tropas da NanoTrasen. Vem com uma caixa também, mas você a perdeu.
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Head/Hats/seniortrooperhat.rsi

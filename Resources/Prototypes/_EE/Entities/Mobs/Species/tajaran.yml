@@ -5,14 +5,14 @@
   abstract: true
   components:
   - type: Hunger
-    baseDecayRate: 0.02083333332 # 25% more than default
+    baseDecayRate: 0.02083333332 # 25% mais que o padrão
   - type: Thirst
   - type: Sprite
     scale: 0.8, 0.8
   - type: HumanoidAppearance
     species: Tajaran
   - type: Fixtures
-    fixtures: # TODO: This needs a second fixture just for mob collisions.
+    fixtures: # TODO: isso precisa de uma segunda fixture apenas para colisões de mobs.
       fix1:
         shape:
           !type:PhysShapeCircle
@@ -30,16 +30,16 @@
     damageModifierSet: Tajaran
   - type: SlowOnDamage
     speedModifierThresholds:
-      60: 0.85  # 0.7 is base speed.
-      80: 0.75  # 0.5 is base speed.
-  - type: Carriable # Carrying system from nyanotrasen.
+      60: 0.85  # 0.7 é a velocidade base.
+      80: 0.75  # 0.5 é a velocidade base.
+  - type: Carriable # Sistema de transporte da nyanotrasen.
   - type: Butcherable
     butcheringType: Spike
     spawned:
     - id: FoodMeatHuman
       amount: 5
   - type: Flammable
-    fireStackIncreaseMultiplier: 1.35 # until you light it up, cuz it's oily too
+    fireStackIncreaseMultiplier: 1.35 # até que você queime, porque também é oleoso
   - type: NightVision
     color: "#808080"
     activateSound: null
@@ -58,13 +58,13 @@
         Piercing: 1
   - type: Speech
     speechSounds: Alto
-  - type: DamageOnHighSpeedImpact # Landing on all fours!
+  - type: DamageOnHighSpeedImpact # Aterrissando nas quatro patas!
     damage:
       types:
         Blunt: 1
   - type: Stamina
     critThreshold: 85
-    decay: 2.55 # 3 base decay multiplied by 0.85 = 2.55
+    decay: 2.55 # 3 decaimento base multiplicado por 0.85 = 2.55
   - type: TypingIndicator
     proto: felinid
   - type: PseudoItem
@@ -103,14 +103,14 @@
     - FelinidEmotes
   - type: FootPrints
   - type: Temperature
-    coldDamageThreshold: 248.15 # -25 degrees centigrade, like 12 degrees below normal
-    currentTemperature: 311.76  # Body temperature of cat
+    coldDamageThreshold: 248.15 # -25 graus Celsius, cerca de 12 graus abaixo do normal
+    currentTemperature: 311.76  # Temperatura corporal de um gato
     coldDamage:
       types:
-        Cold: 0.065 # in line with cold resist
+        Cold: 0.065 # em linha com a resistência ao frio
     heatDamage:
       types:
-        Heat: 2 # poor kitty
+        Heat: 2 # pobrezinho
   - type: ThermalRegulator
     normalBodyTemperature: 311.76
 
@@ -121,7 +121,7 @@
   parent: MobHumanDummy
   id: MobTajaranDummy
   categories: [ HideSpawnMenu ]
-  description: A dummy tajaran meant to be used in character setup.
+  description: Um boneco tajaran destinado a ser usado na configuração do personagem.
   components:
   - type: HumanoidAppearance
     species: Tajaran

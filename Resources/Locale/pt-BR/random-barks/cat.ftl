@@ -1,0 +1,26 @@
+bark-cat-1 = Miau
+bark-cat-2 = Ronronando Ronronando
+bark-cat-3 = Faminto
+bark-cat-4 = Peixe!
+bark-cat-5 = Pássaros!
+bark-cat-6 = Hora do cochilo
+bark-cat-7 = Arranha arranha arranha
+bark-cat-8 = Ronronando Ronronando Ronronando
+bark-cat-9 = Isso é um rato?
+bark-cat-10 = Miau miau
+bark-cat-11 = Brrow
+bark-cat-12 = Faça carinho em mim
+bark-cat-13 = Carinhos são bons
+bark-cat-14 = Bocejo
+bark-cat-15 = Sibilo
+bark-cat-16 = Cadê o sol?
+bark-cat-17 = Hora de brincar
+bark-cat-18 = Sonolento
+bark-cat-19 = Preciso descansar
+bark-cat-20 = Ouço ratos
+bark-cat-21 = Preciso pegar o rato
+bark-cat-22 = baraposa tinha um gosto bom
+bark-cat-23 = Ronromiau
+bark-cat-24 = Mrrp miau mrrow
+bark-cat-count = 24
+

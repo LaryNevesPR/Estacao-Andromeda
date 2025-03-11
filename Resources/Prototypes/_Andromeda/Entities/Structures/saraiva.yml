@@ -1,8 +1,8 @@
 - type: entity
   id: ApoloSaraiva
   parent: BaseStructure
-  name: Lendario Apolo Saraiva
-  description: Uma estatua de bronze. Ela mostra o retorno do salvador que vai mostrar como é que se faz.
+  name: Lendário Apolo Saraiva
+  description: Uma estátua de bronze. Ela mostra o retorno do salvador que vai mostrar como é que se faz.
   components:
   - type: Sprite
     noRot: true

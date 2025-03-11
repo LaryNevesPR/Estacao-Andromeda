@@ -1,0 +1,22 @@
+popup-grab-soft-target = {CAPITALIZE($puller)} te agarrou suavemente.
+popup-grab-hard-target = {CAPITALIZE($puller)} te agarrou firmemente.
+popup-grab-suffocate-target = {CAPITALIZE($puller)} começou a te sufocar!
+popup-grab-no-target = {CAPITALIZE($puller)} parou de te agarrar.
+popup-grab-soft-self = Você agarrou {CAPITALIZE($target)} suavemente.
+popup-grab-hard-self = Você agarrou {CAPITALIZE($target)} firmemente.
+popup-grab-suffocate-self = Você começou a sufocar {CAPITALIZE($target)}.
+popup-grab-no-self = Você parou de agarrar {CAPITALIZE($target)}.
+popup-grab-soft-others = {CAPITALIZE($puller)} agarrou {CAPITALIZE($target)} suavemente.
+popup-grab-hard-others = {CAPITALIZE($puller)} agarrou {CAPITALIZE($target)} firmemente.
+popup-grab-suffocate-others = {CAPITALIZE($puller)} começou a sufocar {CAPITALIZE($target)}!
+popup-grab-no-others = {CAPITALIZE($puller)} parou de agarrar {CAPITALIZE($target)}.
+popup-grab-release-fail-self = Você está tentando escapar.
+popup-grab-release-success-self = Você escapou do agarrão!
+popup-grab-release-success-puller = {CAPITALIZE($target)} escapou!
+popup-grab-retake-fail = {CAPITALIZE($puller)} não está deixando você puxar {CAPITALIZE($pulled)}!
+popup-grab-retake-fail-puller = {CAPITALIZE($puller)} está tentando soltar {CAPITALIZE($pulled)}!
+popup-grab-retake-success = Você soltou {CAPITALIZE($pulled)} do agarrão de {CAPITALIZE($puller)}!
+popup-grab-retake-success-puller = {CAPITALIZE($puller)} soltou {CAPITALIZE($pulled)} do seu agarrão!
+popup-grabbed-cant-speak = Você não consegue respirar!
+popup-grab-need-hand = Você precisa de uma mão livre!
+
