@@ -34,3 +34,4 @@ station-beacon-corpsman = Médico Militar
 station-beacon-justice = Fórum
 station-beacon-chiefjustice = Chefe de Justiça
 station-beacon-prosecutor = Procuradoria
+station-beacon-clerk = Atendente

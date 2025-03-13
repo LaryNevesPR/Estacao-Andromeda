@@ -96,6 +96,10 @@ barsign-prototype-description-empbarsign = Algo deu muito errado.
 ## SignOff
 barsign-prototype-description-sign-off = Esse letreiro não está ligado.
 
+## Spacebucks
+barsign-prototype-name-spacebucks = Spacebucks
+barsign-prototype-description-spacebucks = Você não consegue fugir deles, mesmo no espaço, e mesmo depois de começarmos a chamá-los de 'spesos'.
+
 # Nyano specific sign
 ## Whiskey Echoes
 barsign-prototype-name-whiskeyecho = Whiskey Echoes

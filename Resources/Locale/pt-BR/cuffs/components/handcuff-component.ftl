@@ -3,6 +3,7 @@ handcuff-component-cuffs-broken-error = As algemas estão quebradas!
 handcuff-component-target-has-no-hands-error = {$targetName} não tem mãos!
 handcuff-component-target-has-no-free-hands-error = {$targetName} não tem mãos livres!
 handcuff-component-too-far-away-error = Você está muito longe para algemar!
+handcuff-component-target-flying-error = Você não pode alcançar as mãos de {$targetName}!
 handcuff-component-start-cuffing-observer = {$user} começa a algemar {$target}!
 handcuff-component-start-cuffing-target-message = Você começa a algemar {$targetName}.
 handcuff-component-start-cuffing-by-other-message = {$otherName} começa a te algemar!

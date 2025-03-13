@@ -24,7 +24,7 @@ autodoc-error-patient-unsedated = PACIENTE REQUER SEDAÇÃO
 # Estes intencionalmente têm russo ao lado deles para uma estética semelhante a ostranauts.
 # Se você é um fork russo, eles não precisam ser traduzidos :)
 # Если вы являетесь русскоязычным форком, то они не нуждаются в переводе :)
-autodoc-title = AUTODOC АВТОДОК MK.XIV
+autodoc-title = AUTODOUTOR АВТОДОК MK.XIV
 autodoc-create-program = NOVO PROGRAMA НОВОЕ РАСПИСАНИЕ
 autodoc-program-title = TÍTULO DO PROGRAMA ТИТУЛ РАСПИСАНИЯ
 autodoc-program-title-placeholder = Programa {$number}

@@ -1,4 +1,4 @@
-admin-explosion-eui-title = Spawnar Explosões
+admin-explosion-eui-title = Criar Explosões
 
 admin-explosion-eui-label-type = Tipo de explosão
 admin-explosion-eui-label-mapid = ID do mapa

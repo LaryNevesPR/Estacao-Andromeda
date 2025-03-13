@@ -1,5 +1,5 @@
-﻿bounty-console-menu-title = Console de Encomendas de carga
-bounty-console-label-button-text = Print label
+﻿bounty-console-menu-title = Console de Encomendas
+bounty-console-label-button-text = Imprimir rótulo
 bounty-console-time-label = Tempo: [color=orange]{$time}[/color]
 bounty-console-reward-label = Retorno: [color=limegreen]${$reward}[/color]
 bounty-console-manifest-label = Manifesto: [color=orange]{$item}[/color]

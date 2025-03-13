@@ -1,2 +1,2 @@
-reagent-name-Quartzite = Quartzite
-reagent-desc-Quartzite = Millions of microscopic crystaline shards. Will cause internal bleeding, do not drink.
+reagent-name-Quartzite = Quartzito
+reagent-desc-Quartzite = Milhões de fragmentos cristalinos microscópicos. Causa hemorragia interna, não ingerir.

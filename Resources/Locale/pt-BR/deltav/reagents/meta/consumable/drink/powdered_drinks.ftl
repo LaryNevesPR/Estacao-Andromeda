@@ -1,41 +1,41 @@
-reagent-name-powdered-milk = powdered milk
-reagent-desc-powdered-milk = A powder-based milk substitute that can be reconstituted with water.
+reagent-name-powdered-milk = leite em pó
+reagent-desc-powdered-milk = Um substituto do leite à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-milk-soy = powdered soy milk
-reagent-desc-powdered-milk-soy = A powder-based dairy-free milk substitute that can be reconstituted with water.
+reagent-name-powdered-milk-soy = leite de soja em pó
+reagent-desc-powdered-milk-soy = Um substituto do leite sem laticínios à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-orange = powdered orange juice
-reagent-desc-powdered-juice-orange = A powder-based orange juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-orange = suco de laranja em pó
+reagent-desc-powdered-juice-orange = Um substituto do suco de laranja à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-lime = powdered lime juice
-reagent-desc-powdered-juice-lime = A powder-based lime juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-lime = suco de limão em pó
+reagent-desc-powdered-juice-lime = Um substituto do suco de limão à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-lemon = powdered lemon juice
-reagent-desc-powdered-juice-lemon = A powder-based lemon juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-lemon = suco de limão em pó
+reagent-desc-powdered-juice-lemon = Um substituto do suco de limão à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-pineapple = powdered pineapple juice
-reagent-desc-powdered-juice-pineapple = A powder-based pineapple juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-pineapple = suco de abacaxi em pó
+reagent-desc-powdered-juice-pineapple = Um substituto do suco de abacaxi à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-banana = powdered banana juice
-reagent-desc-powdered-juice-banana = A powder-based banana juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-banana = suco de banana em pó
+reagent-desc-powdered-juice-banana = Um substituto do suco de banana à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-berry = powdered berry juice
-reagent-desc-powdered-juice-berry = A powder-based berry juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-berry = suco de frutas vermelhas em pó
+reagent-desc-powdered-juice-berry = Um substituto do suco de frutas vermelhas à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-watermelon = powdered melon juice
-reagent-desc-powdered-juice-watermelon = A powder-based watermelon juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-watermelon = suco de melancia em pó
+reagent-desc-powdered-juice-watermelon = Um substituto do suco de melancia à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-grape = powdered grape juice
-reagent-desc-powdered-juice-grape = A powder-based grape juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-grape = suco de uva em pó
+reagent-desc-powdered-juice-grape = Um substituto do suco de uva à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-apple = powdered apple juice
-reagent-desc-powdered-juice-apple = A powder-based apple juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-apple = suco de maçã em pó
+reagent-desc-powdered-juice-apple = Um substituto do suco de maçã à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-cherry = powdered cherry juice
-reagent-desc-powdered-juice-cherry = A powder-based cherry juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-cherry = suco de cereja em pó
+reagent-desc-powdered-juice-cherry = Um substituto do suco de cereja à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-carrot = powdered carrot juice
-reagent-desc-powdered-juice-carrot = A powder-based carrot juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-carrot = suco de cenoura em pó
+reagent-desc-powdered-juice-carrot = Um substituto do suco de cenoura à base de pó que pode ser reconstituído com água.
 
-reagent-name-powdered-juice-tomato = powdered tomato juice
-reagent-desc-powdered-juice-tomato = A powder-based tomato juice substitute that can be reconstituted with water.
+reagent-name-powdered-juice-tomato = suco de tomate em pó
+reagent-desc-powdered-juice-tomato = Um substituto do suco de tomate à base de pó que pode ser reconstituído com água.

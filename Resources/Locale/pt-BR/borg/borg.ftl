@@ -17,3 +17,10 @@ borg-ui-no-brain = Nenhum cérebro presente
 borg-ui-remove-battery = Remover
 borg-ui-modules-label = Módulos:
 borg-ui-module-counter = {$actual}/{$max}
+
+# Transponder
+borg-transponder-disabled-popup = Um cérebro sai do topo de {$name}!
+borg-transponder-disabling-popup = Seu transponder começa a bloquear você do chassi!
+borg-transponder-destroying-popup = A autodestruição de {$name} começa a bipar!
+borg-transponder-emagged-disabled-popup = As luzes do seu transponder se apagam!
+borg-transponder-emagged-destroyed-popup = O fusível do seu transponder queima!

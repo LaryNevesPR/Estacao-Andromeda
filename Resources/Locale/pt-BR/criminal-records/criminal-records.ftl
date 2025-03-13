@@ -14,7 +14,6 @@ criminal-records-status-suspected = Suspeito
 criminal-records-status-discharged = Liberado
 criminal-records-status-paroled = sob Condicional
 
-
 criminal-records-console-wanted-reason = [color=gray]Procurado por[/color]
 criminal-records-console-suspected-reason = [color=gray]Razão de Suspeita[/color]
 criminal-records-console-reason = Razão

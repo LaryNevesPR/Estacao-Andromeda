@@ -1,1 +1,1 @@
-clothing-boots-sidearm = Arma de bota
+clothing-boots-sidearm = Arma secundária

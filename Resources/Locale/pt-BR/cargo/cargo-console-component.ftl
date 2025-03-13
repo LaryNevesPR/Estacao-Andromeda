@@ -1,5 +1,5 @@
 ## UI
-cargo-console-menu-title = Console de Requisições de carga
+cargo-console-menu-title = Console de Requisições
 cargo-console-menu-account-name-label = Nome da conta:{" "}
 cargo-console-menu-account-name-none-text = Nenhum
 cargo-console-menu-shuttle-name-label = Nome da nave:{" "}
@@ -21,15 +21,16 @@ cargo-console-menu-populate-orders-cargo-order-row-product-name-text = {$product
 cargo-console-menu-cargo-order-row-approve-button = Aprovar
 cargo-console-menu-cargo-order-row-cancel-button = Cancelar
 
-# Orders
+# Pedidos
 cargo-console-order-not-allowed = Acesso não permitido
-cargo-console-station-not-found = Sem estação disponível
+cargo-console-station-not-found = Nenhuma estação disponível
 cargo-console-invalid-product = ID do produto inválido
-cargo-console-too-many = Encomendas demais aprovadas
-cargo-console-snip-snip = Limite de encomendas alcançado
-cargo-console-insufficient-funds = Créditos insuficientes (necessita {$cost})
-cargo-console-unfulfilled = Sem espaço para cumprir a ordem
+cargo-console-too-many = Muitos pedidos aprovados
+cargo-console-snip-snip = Pedido reduzido à capacidade
+cargo-console-insufficient-funds = Fundos insuficientes (requer {$cost})
+cargo-console-unfulfilled = Sem espaço para atender o pedido
 cargo-console-trade-station = Enviado para {$destination}
+cargo-console-unlock-approved-order-broadcast = [bold]{$productName} x{$orderAmount}[/bold], que custou [bold]{$cost}[/bold], foi aprovado por [bold]{$approver}[/bold]
 
 cargo-console-paper-print-name = Encomenda #{$orderNumber}
 cargo-console-paper-print-text =

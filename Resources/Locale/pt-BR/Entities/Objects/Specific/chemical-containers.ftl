@@ -1,50 +1,50 @@
 ent-Jug = jarro
     .desc = Usado para conter uma quantidade muito grande de produtos químicos ou soluções. Ingerir é extremamente desaconselhável.
 
-ent-JugCarbon = jarro (carbono)
+ent-JugCarbon = jarro
 
-ent-JugIodine = jarro (iodo)
+ent-JugIodine = jarro
 
-ent-JugFluorine = jarro (flúor)
+ent-JugFluorine = jarro
 
-ent-JugChlorine = jarro (clorina)
+ent-JugChlorine = jarro
 
-ent-JugAluminium = jarro (alumínio)
+ent-JugAluminium = jarro
 
-ent-JugPhosphorus = jarro (fósforo)
+ent-JugPhosphorus = jarro
 
-ent-JugSulfur = jarro (enxofre)
+ent-JugSulfur = jarro
 
-ent-JugSilicon = jarro (silício)
+ent-JugSilicon = jarro
 
-ent-JugHydrogen = jarro (hidrogênio)
+ent-JugHydrogen = jarro
 
-ent-JugLithium = jarro (lítio)
+ent-JugLithium = jarro
 
-ent-JugSodium = jarro (sódio)
+ent-JugSodium = jarro
 
-ent-JugPotassium = jarro (potássio)
+ent-JugPotassium = jarro
 
-ent-JugRadium = jarro (rádio)
+ent-JugRadium = jarro
 
-ent-JugIron = jarro (ferro)
+ent-JugIron = jarro
 
-ent-JugCopper = jarro (cobre)
+ent-JugCopper = jarro
 
-ent-JugGold = jarro (ouro)
+ent-JugGold = jarro
 
-ent-JugMercury = jarro (mercúrio)
+ent-JugMercury = jarro
 
-ent-JugSilver = jarro (prata)
+ent-JugSilver = jarro
 
-ent-JugEthanol = jarro (etanol)
+ent-JugEthanol = jarro
 
-ent-JugSugar = jarro (açúcar)
+ent-JugSugar = jarro
 
-ent-JugNitrogen = jarro (nitrogênio)
+ent-JugNitrogen = jarro
 
-ent-JugOxygen = jarro (oxigênio)
+ent-JugOxygen = jarro
 
-ent-JugPlantBGone = jarro (Planta-B-Gone)
+ent-JugPlantBGone = jarro
 
-ent-JugWeldingFuel = jarro (combustível de solda)
+ent-JugWeldingFuel = jarro
