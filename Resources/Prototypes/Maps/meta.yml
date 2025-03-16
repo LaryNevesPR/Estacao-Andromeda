@@ -2,7 +2,7 @@
   id: Meta
   mapName: 'Meta Station'
   mapPath: /Maps/meta.yml
-  minPlayers: 10 #
+  minPlayers: 30 #
   maxPlayers: 85 #
   stations:
     Meta:
