@@ -9,3 +9,5 @@ altar-failure-reason-target-humanoid = {CAPITALIZE(THE($target))} {CONJUGATE-BE(
 altar-failure-reason-target-catatonic = {CAPITALIZE(THE($target))} {CONJUGATE-BE($target)} braindead!
 
 altar-sacrifice-popup = {$user} starts to sacrifice {$target}!
+
+altar-sacrifice-verb = Realizar Ritual
