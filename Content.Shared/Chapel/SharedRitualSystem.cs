@@ -48,7 +48,7 @@ public abstract partial class SharedRitualSystem : EntitySystem
         args.Verbs.Add(new AlternativeVerb()
         {
             Act = () => AttemptRitual(ent, user, target),
-            Text = Loc.GetString("altar-ritual-verb"),
+            Text = "Fazer um ritual", //Loc.GetString("altar-ritual-verb"),
             Priority = 3
         });
     }
