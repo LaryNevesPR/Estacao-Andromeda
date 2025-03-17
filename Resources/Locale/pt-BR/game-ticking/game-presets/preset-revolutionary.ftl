@@ -5,9 +5,9 @@ roles-antag-rev-head-objective = Seu objetivo é assumir o controle da estação
 
 head-rev-role-greeting =
     Você é um Líder Revolucionário.
-    Você recebeu a tarefa de assumir o controle da estação por quaisquer meios necessários.
-    O Sindicato o patrocinou com um flash que converte a tripulação para o seu lado.
-    Tenha cuidado, pois isso não funcionará com a Segurança, Comando, ou aqueles que estiverem usando óculos de sol.
+    Você tem a tarefa de remover todo o Comando da estação por meio de morte, exílio ou prisão.
+    O Sindicato patrocinou você com um manifesto que convence a tripulação a ficar do seu lado.
+    Cuidado, isso não funcionará na Segurança ou no Comando - a lealdade deles é inabalável.
     Viva la revolución!
 
 head-rev-briefing =

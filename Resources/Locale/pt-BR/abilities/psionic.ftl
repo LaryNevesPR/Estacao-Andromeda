@@ -5,7 +5,10 @@ cage-uncage-verb = desenjaula
 
 action-name-metapsionic = Pulso Metapsiônico
 action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psiônico por perto.
+action-description-metapsionic = Envia um pulso mental através da área para ver se há algum psiônico por perto.
 
+metapsionic-pulse-success = Você percebe uma presença psiônica próxima.
+metapsionic-pulse-failure = Você não detecta nenhuma presença psiônica próxima.
 metapsionic-pulse-success = Você percebe uma presença psiônica próxima.
 metapsionic-pulse-failure = Você não detecta nenhuma presença psiônica próxima.
 metapsionic-pulse-power = Você detecta que {$power} foi usado nas proximidades.
@@ -15,8 +18,11 @@ action-description-dispel = Dissipa entidades invocadas tais como familiares e p
 
 action-name-mass-sleep = Sono em Massa
 action-description-mass-sleep = Faz com que alvos em uma pequena área durmam.
+action-description-mass-sleep = Faz com que alvos em uma pequena área durmam.
 
 accept-psionics-window-title = Psiônico!
+accept-psionics-window-prompt-text-part = Você recebeu um poder psiônico!
+                                         É possível que certas forças anti-psiônicas te cacem,
 accept-psionics-window-prompt-text-part = Você recebeu um poder psiônico!
                                          É possível que certas forças anti-psiônicas te cacem,
                                          então você deve considerar mantê-lo em segredo.

@@ -13,3 +13,18 @@
     - ClothMade
     - WhitelistChameleon
     - HamsterWearable
+
+- type: entity
+  parent: ClothingHeadBase
+  id: ClothingHeadHatCangaceiro
+  name: Chapéu de cangaceiro
+  description: Se sente como nos velhos tempos.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Head/Hats/cangaceiro.rsi
+  - type: Clothing
+    sprite: _Andromeda/Clothing/Head/Hats/cangaceiro.rsi
+  - type: Tag
+    tags:
+    - ClothMade
+    - WhitelistChameleon

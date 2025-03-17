@@ -1,0 +1,6 @@
+﻿- type: department
+  id: ComandoCentral
+  description: department-ComandoCentral-description
+  color: "#009100"
+  roles:
+  - CentralCommandOperador

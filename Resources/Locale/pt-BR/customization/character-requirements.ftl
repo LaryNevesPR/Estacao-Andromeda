@@ -43,25 +43,15 @@ character-logic-xor-requirement = Você deve{$inverted ->
 
 
 ## Perfil
-character-age-requirement-range = Você deve{$inverted ->
+character-age-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}
-} ter entre [color=yellow]{$min}[/color] e [color=yellow]{$max}[/color] anos de idade
+} estar entre [color=yellow]{$min}[/color] e [color=yellow]{$max}[/color] anos de idade
 
-character-age-requirement-minimum-only = Você deve{$inverted ->
-    [true]{" "}não
-    *[other]{""}
-} ter pelo menos [color=yellow]{$min}[/color] anos de idade
-
-character-age-requirement-maximum-only = Você deve{$inverted ->
-    [true]{""}
-    *[other]{" "}não
-} ter mais de [color=yellow]{$max}[/color] anos de idade
-
-character-backpack-type-requirement = Você deve {$inverted ->
+character-backpack-type-requirement = Você deve{$inverted ->
     [true] não usar
     *[other] usar
-} [color=brown]{$type}[/color] como sua mochila
+} uma [color=brown]{$type}[/color] como sua bolsa
 
 character-clothing-preference-requirement = Você deve {$inverted ->
     [true] não usar
@@ -88,13 +78,13 @@ character-species-requirement = Você deve{$inverted ->
 character-height-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}
-} ter {$min ->
+} estar entre {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] menos de [color={$color}]{$max}[/color]cm de altura
+        *[other] ser mais baixo que [color={$color}]{$max}[/color]cm
     }
     *[other]{$max ->
-        [2147483648] mais de [color={$color}]{$min}[/color]cm de altura
+        [2147483648] ser mais alto que [color={$color}]{$min}[/color]cm
         *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]cm de altura
     }
 }
@@ -102,13 +92,13 @@ character-height-requirement = Você deve{$inverted ->
 character-width-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}
-} ter {$min ->
+} estar entre {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] menos de [color={$color}]{$max}[/color]cm de largura
+        *[other] ser mais magro que [color={$color}]{$max}[/color]cm
     }
     *[other]{$max ->
-        [2147483648] mais de [color={$color}]{$min}[/color]cm de largura
+        [2147483648] ser mais largo que [color={$color}]{$min}[/color]cm
         *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]cm de largura
     }
 }
@@ -116,28 +106,26 @@ character-width-requirement = Você deve{$inverted ->
 character-weight-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}
-} ter {$min ->
+} estar entre {$min ->
     [-2147483648]{$max ->
         [2147483648]{""}
-        *[other] menos de [color={$color}]{$max}[/color]kg
+        *[other] ser mais leve que [color={$color}]{$max}[/color]kg
     }
     *[other]{$max ->
-        [2147483648] mais de [color={$color}]{$min}[/color]kg
+        [2147483648] ser mais pesado que [color={$color}]{$min}[/color]kg
         *[other] entre [color={$color}]{$min}[/color] e [color={$color}]{$max}[/color]kg
     }
 }
 
-
 character-trait-requirement = Você deve {$inverted ->
     [true] não ter
     *[other] ter
-} uma dessas características: {$traits}
+} uma destas características: {$traits}
 
 character-loadout-requirement = Você deve {$inverted ->
     [true] não ter
     *[other] ter
-} um desses loadouts: {$loadouts}
-
+} um destes equipamentos: {$loadouts}
 
 character-item-group-requirement = Você deve {$inverted ->
     [true] ter {$max} ou mais
@@ -150,11 +138,3 @@ character-whitelist-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}
 } estar na lista de permissões
-
-## CVar
-
-character-cvar-requirement =
-    O servidor deve{$inverted ->
-    [true]{" "}não
-    *[other]{""}
-} ter [color={$color}]{$cvar}[/color] definido como [color={$color}]{$value}[/color].

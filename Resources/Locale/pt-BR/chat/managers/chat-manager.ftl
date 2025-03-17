@@ -130,7 +130,7 @@ chat-speech-verb-oni-4 = resmunga
 
 chat-speech-verb-name-canine = Canino
 chat-speech-verb-canine-1 = late
-chat-speech-verb-canine-2 = au-au
+chat-speech-verb-canine-2 = ladre
 chat-speech-verb-canine-3 = uiva
 
 chat-speech-verb-name-small-mob = Rato

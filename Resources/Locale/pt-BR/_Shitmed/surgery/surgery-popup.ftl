@@ -52,3 +52,5 @@ surgery-popup-step-SurgeryStepInsertStomach = {$user} está inserindo um estôma
 surgery-popup-step-SurgeryStepSealOrganWound = {$user} está selando as feridas em {$part} de {$target}.
 surgery-popup-step-SurgeryStepLobotomize = {$user} está lobotomizando {$target}!
 surgery-popup-step-SurgeryStepMendBrainTissue = {$user} está reparando o tecido cerebral em {$part} de {$target}.
+
+surgery-error-no-skill = Você não sabe realizar uma cirurgia.

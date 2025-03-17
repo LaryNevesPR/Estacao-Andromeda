@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingUniformJumpsuitCentcomOperador
+  name: Uniforme de Operador do Comando Central
+  description: Um uniforme usado por Operadores do Comando Central
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/centcom_operador.rsi
+  - type: Clothing
+    sprite: _Andromeda/Clothing/Uniforms/Jumpsuit/centcom_operador.rsi

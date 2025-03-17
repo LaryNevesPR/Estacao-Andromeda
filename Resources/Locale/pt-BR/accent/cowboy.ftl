@@ -62,7 +62,7 @@ accent-cowboy-words-21 = crazy
 accent-cowboy-replacement-21 = Pirado
 
 accent-cowboy-words-22 = ciborgue
-accent-cowboy-replacement-11 = homem de lata
+accent-cowboy-replacement-22 = homem de lata
 
 accent-cowboy-words-23 = pai
 accent-cowboy-replacement-23 = painho

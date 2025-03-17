@@ -1,18 +1,19 @@
-# Nomes
+# Names
 chat-emote-name-scream = Grito
 chat-emote-name-laugh = Risada
 chat-emote-name-honk = Buzina
 chat-emote-name-sigh = Suspiro
 chat-emote-name-whistle = Assobio
-chat-emote-name-crying = Choro
-chat-emote-name-squish = Apertar
-chat-emote-name-chitter = Chiado
+chat-emote-name-crying = Chorar
+chat-emote-name-squish = Esmagar
+chat-emote-name-chitter = Chirriar
 chat-emote-name-squeak = Guincho
-chat-emote-name-click = Estalo
+chat-emote-name-click = Clique
 chat-emote-name-clap = Aplauso
-chat-emote-name-snap = Estalar
+chat-emote-name-snap = Estalo
 chat-emote-name-salute = Saudação
 chat-emote-name-deathgasp = Suspiro de Morte
+chat-emote-name-buzz = Zumbido
 chat-emote-name-weh = Weh
 chat-emote-name-sneeze = Espirro
 chat-emote-name-cough = Tosse
@@ -81,3 +82,4 @@ chat-emote-msg-cathisses = sibila!
 chat-emote-msg-monkeyscreeches = grita!
 chat-emote-msg-yawn = boceja.
 chat-emote-msg-snore = ronca.
+chat-emote-msg-farts = solta um pum.

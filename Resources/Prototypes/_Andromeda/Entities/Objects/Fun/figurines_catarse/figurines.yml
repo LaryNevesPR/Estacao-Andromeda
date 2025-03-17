@@ -63,7 +63,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurineGui
   name: Guilherme Carneiro Mendes
-  description: Template
+  description: "O prodigio da Nanotrasen!!! Quem eu to querendo enganar... É só um CLT médio da Nanotrasen."
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -75,6 +75,16 @@
   name: Lao Tsung
   description: Template
   components:
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: Lao_Figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineLawLaw
+  name: Law Law
+  description: "Ao apertar a barriga dela, ela pergunta: 'Quer um cafezinho?'. Perfeita para você que é um head solitário."
+  components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
-    state: Lao_Figure
+    state: lawlaw_figure

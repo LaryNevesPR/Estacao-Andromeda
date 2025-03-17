@@ -1,5 +1,6 @@
+# Helmets
 - type: entity
-  parent: [ClothingHeadHelmetBasic, SolAllianceInfo]
+  parent: [ClothingHeadHelmetBasic, SolAllianceInfo, BaseClothingRadio]
   id: ClothingHeadHelmetSAN
   name: capacete tático SAN
   description: Um design simples de capacete solariano, apenas marginalmente diferente do antigo sallet que o inspirou. Hoje eles são feitos do mesmo aço dos cascos das naves estelares. Ele incorpora um rádio de onda curta embutido.

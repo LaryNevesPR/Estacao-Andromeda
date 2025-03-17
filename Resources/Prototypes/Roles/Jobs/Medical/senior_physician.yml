@@ -24,6 +24,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+    - type: SurgerySkill
     - type: SurgerySpeedModifier
       speedModifier: 2.0
 

@@ -100,6 +100,7 @@
         nameSegments:
         - nukeops-role-commander
         - SyndicateNamesElite
+      - type: SurgerySkill
       - type: NpcFactionMember
         factions:
         - Syndicate
@@ -111,6 +112,7 @@
       playerRatio: 10
       startingGear: SyndicateOperativeMedicFull
       components:
+      - type: SurgerySkill
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -128,6 +130,7 @@
       playerRatio: 10
       startingGear: SyndicateOperativeGearFull
       components:
+      - type: SurgerySkill
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -173,6 +176,8 @@
         components:
         - AntagImmune
       lateJoinAdditional: true
+      components:
+      - type: SurgerySkill
       mindRoles:
       - MindRoleTraitor
 

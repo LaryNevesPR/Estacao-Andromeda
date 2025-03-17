@@ -157,3 +157,7 @@
       - id: ToyFigurineLao
         prob: 0.10
         orGroup: SpacemenFig
+      - id: ToyFigurineLawLaw
+        prob: 0.10
+        orGroup: SpacemenFig
+
