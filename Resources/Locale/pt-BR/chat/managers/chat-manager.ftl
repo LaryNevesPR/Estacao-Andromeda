@@ -18,12 +18,9 @@ chat-manager-no-radio-key = Nenhuma chave de canal selecionada!
 chat-manager-no-such-channel = Não existe canal com a chave '{$key}'!
 chat-manager-whisper-headset-on-message = Você não pode sussurrar no rádio!
 
-chat-manager-language-prefix = ({ $language }){" "}
-
 chat-manager-server-wrap-message = [bold]{$message}[/bold]
 chat-manager-sender-announcement-wrap-message = [font size=14][bold]Anúncio de {$sender}:[/font][font size=12]
                                                 {$message}[/bold][/font]
-
 chat-manager-entity-say-wrap-message = [BubbleHeader][Name][font size=11][color={$color}][bold]{$language}[/bold][/color][/font][bold]{$entityName}[/bold][/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize} ][color={$color}]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}]{$message}[/color][/font][/BubbleContent]"[/color][/font]
 chat-manager-entity-say-bold-wrap-message = [BubbleHeader][Name][font size=11][color={$color}][bold]{$language}[/bold][/color][/font][bold]{$entityName}[/bold][/Name][/BubbleHeader] {$verb}, [font="{$fontType}" size={$fontSize} ][color={$color}][bold]"[BubbleContent][font="{$fontType}" size={$fontSize}][color={$color}][bold]{$message}[/bold][/color][/font][/BubbleContent]"[/bold][/color][/font]
 
@@ -53,11 +50,6 @@ chat-manager-admin-channel-name = ADMIN
 chat-manager-rate-limited = Você está enviando mensagens muito rapidamente!
 chat-manager-rate-limit-admin-announcement = O jogador { $player } violou os limites de taxa de chat. Observe-os se esta for uma ocorrência regular.
 
-chat-manager-send-empathy-chat-wrap-message = {$source}: {$message}
-
-chat-manager-send-cult-chat-wrap-message = [bold]\[{ $channelName }\] [BubbleHeader]{ $player }[/BubbleHeader]:[/bold] [BubbleContent]{ $message }[/BubbleContent]
-chat-manager-cult-channel-name = Culto do Sangue
-
 ## Speech verbs for chat
 
 chat-speech-verb-suffix-exclamation = !
@@ -66,108 +58,74 @@ chat-speech-verb-suffix-question = ?
 chat-speech-verb-suffix-stutter = -
 chat-speech-verb-suffix-mumble = ..
 
-chat-speech-verb-name-none = Nenhum
-chat-speech-verb-name-default = Padrão
 chat-speech-verb-default = diz
-chat-speech-verb-name-exclamation = Exclamando
 chat-speech-verb-exclamation = exclama
-chat-speech-verb-name-exclamation-strong = Gritando
 chat-speech-verb-exclamation-strong = grita
-chat-speech-verb-name-question = Perguntando
 chat-speech-verb-question = pergunta
-chat-speech-verb-name-stutter = Gaguejando
 chat-speech-verb-stutter = gagueja
-chat-speech-verb-name-mumble = Murmurando
 chat-speech-verb-mumble = murmura
 
-chat-speech-verb-name-arachnid = Aracnídeo
-chat-speech-verb-insect-1 = chocalha
-chat-speech-verb-insect-2 = cricrila
-chat-speech-verb-insect-3 = estala
+chat-speech-verb-insect-1 = chia
+chat-speech-verb-insect-2 = gorja
+chat-speech-verb-insect-3 = clica
 
-chat-speech-verb-name-moth = Mariposa
-chat-speech-verb-winged-1 = bate asas
-chat-speech-verb-winged-2 = vibra
-chat-speech-verb-winged-3 = zune
+chat-speech-verb-winged-1 = vibra
+chat-speech-verb-winged-2 = agita
+chat-speech-verb-winged-3 = zumbe
 
-chat-speech-verb-name-slime = Gosma
-chat-speech-verb-slime-1 = chacoalha
+chat-speech-verb-slime-1 = borrifa
 chat-speech-verb-slime-2 = borbulha
 chat-speech-verb-slime-3 = escorre
 
-chat-speech-verb-name-plant = Diona
 chat-speech-verb-plant-1 = farfalha
 chat-speech-verb-plant-2 = balança
 chat-speech-verb-plant-3 = range
 
-chat-speech-verb-name-robotic = Robótico
-chat-speech-verb-robotic-1 = declara
+chat-speech-verb-robotic-1 = afirma
 chat-speech-verb-robotic-2 = bipa
-chat-speech-verb-robotic-3 = boopa
 
-chat-speech-verb-name-reptilian = Reptiliano
-chat-speech-verb-reptilian-1 = sibila
-chat-speech-verb-reptilian-2 = assobia
-chat-speech-verb-reptilian-3 = estala
+chat-speech-verb-reptilian-1 = chia
+chat-speech-verb-reptilian-2 = bufa
+chat-speech-verb-reptilian-3 = magoa
 
-chat-speech-verb-name-skeleton = Esqueleto / Plasmaman
-chat-speech-verb-skeleton-1 = chacoalha
-chat-speech-verb-skeleton-2 = rib
-chat-speech-verb-skeleton-3 = osseia
-chat-speech-verb-skeleton-4 = claca
-chat-speech-verb-skeleton-5 = estala
+chat-speech-verb-skeleton-1 = chocalha
+chat-speech-verb-skeleton-2 = estala
+chat-speech-verb-skeleton-3 = range
 
-chat-speech-verb-name-vox = Vox
-chat-speech-verb-vox-1 = grita
-chat-speech-verb-vox-2 = berra
-chat-speech-verb-vox-3 = crocita
+chat-speech-verb-vox-1 = guincha
+chat-speech-verb-vox-2 = pia
+chat-speech-verb-vox-3 = cui
 
-chat-speech-verb-name-oni = Oni
-chat-speech-verb-oni-1 = grunhe
-chat-speech-verb-oni-2 = ruge
-chat-speech-verb-oni-3 = brada
-chat-speech-verb-oni-4 = resmunga
-
-chat-speech-verb-name-canine = Canino
 chat-speech-verb-canine-1 = late
 chat-speech-verb-canine-2 = ladre
 chat-speech-verb-canine-3 = uiva
 
-chat-speech-verb-name-small-mob = Rato
 chat-speech-verb-small-mob-1 = guincha
 chat-speech-verb-small-mob-2 = pia
 
-chat-speech-verb-name-large-mob = Carpa
 chat-speech-verb-large-mob-1 = ruge
 chat-speech-verb-large-mob-2 = rosna
 
-chat-speech-verb-name-monkey = Macaco
-chat-speech-verb-monkey-1 = chimpanzeia
-chat-speech-verb-monkey-2 = screeches
-
-chat-speech-verb-name-cluwne = Cluwne
-
-chat-speech-verb-name-parrot = Papagaio
-chat-speech-verb-parrot-1 = grasna
-chat-speech-verb-parrot-2 = canta
-chat-speech-verb-parrot-3 = pia
+chat-speech-verb-monkey-1 = macaqueia
+chat-speech-verb-monkey-2 = guincha
 
 chat-speech-verb-cluwne-1 = ri
 chat-speech-verb-cluwne-2 = gargalha
-chat-speech-verb-cluwne-3 = ri
+chat-speech-verb-cluwne-3 = dá risada
 
-chat-speech-verb-name-ghost = Fantasma
 chat-speech-verb-ghost-1 = reclama
-chat-speech-verb-ghost-2 = respira
-chat-speech-verb-ghost-3 = murmura
-chat-speech-verb-ghost-4 = sussurra
+chat-speech-verb-ghost-2 = suspira
+chat-speech-verb-ghost-3 = zumbe
+chat-speech-verb-ghost-4 = murmura
 
-chat-speech-verb-name-electricity = Eletricidade
 chat-speech-verb-electricity-1 = estala
-chat-speech-verb-electricity-2 = zune
+chat-speech-verb-electricity-2 = zumbe
 chat-speech-verb-electricity-3 = grita
 
-chat-speech-verb-marish = Mara
+chat-speech-verb-name-oni=Oni
+chat-speech-verb-oni-1=grunhe
+chat-speech-verb-oni-2=berra
+chat-speech-verb-oni-3=ressoa
+chat-speech-verb-oni-4=troveja
 
-chat-speech-verb-name-supermatter = Supermateria
-chat-speech-verb-supermatter = declara
+chat-speech-verb-marish = Mars

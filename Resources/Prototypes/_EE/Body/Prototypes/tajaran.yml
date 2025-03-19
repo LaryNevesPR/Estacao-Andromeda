@@ -13,38 +13,38 @@
     torso:
       part: TorsoTajaran
       connections:
-      - braço direito
-      - braço esquerdo
-      - perna direita
-      - perna esquerda
-      - cabeça # Mudança Shitmed
+      - right arm
+      - left arm
+      - right leg
+      - left leg
+      - head # Shitmed Change
       organs:
         heart: OrganAnimalHeart
         lungs: OrganHumanLungs
         stomach: OrganVulpkaninStomach
-        liver: OrganAnimalLiver
+        liver:  OrganAnimalLiver
         kidneys: OrganHumanKidneys
-    braço direito:
+    right arm:
       part: RightArmTajaran
       connections:
-      - mão direita
-    braço esquerdo:
+      - right hand
+    left arm:
       part: LeftArmTajaran
       connections:
-      - mão esquerda
-    mão direita:
+      - left hand
+    right hand:
       part: RightHandTajaran
-    mão esquerda:
+    left hand:
       part: LeftHandTajaran
-    perna direita:
+    right leg:
       part: RightLegTajaran
       connections:
-      - pé direito
-    perna esquerda:
+      - right foot
+    left leg:
       part: LeftLegTajaran
       connections:
-      - pé esquerdo
-    pé direito:
+      - left foot
+    right foot:
       part: RightFootTajaran
-    pé esquerdo:
+    left foot:
       part: LeftFootTajaran

@@ -1,14 +1,14 @@
 ent-ClosetBase = armário
-    .desc = Uma unidade de armazenamento NanoTrasen padrão.
+    .desc = Uma unidade de armazenamento Nanotrasen padrão.
 
 ent-ClosetSteelBase = armário
-    .desc = Uma unidade de armazenamento NanoTrasen padrão.
+    .desc = Uma unidade de armazenamento Nanotrasen padrão.
 
 ent-BaseWallCloset = armário de parede
-    .desc = Uma unidade de armazenamento NanoTrasen padrão, agora nas paredes.
+    .desc = Uma unidade de armazenamento Nanotrasen padrão, agora nas paredes.
 
 ent-BaseWallLocker = armário de parede
-    .desc = Uma unidade de armazenamento NanoTrasen padrão, agora nas paredes.
+    .desc = Uma unidade de armazenamento Nanotrasen padrão, agora nas paredes.
 
 ent-SuitStorageBase = unidade de armazenamento de trajes
     .desc = Uma unidade de armazenamento sofisticada de alta tecnologia feita para guardar trajes espaciais.

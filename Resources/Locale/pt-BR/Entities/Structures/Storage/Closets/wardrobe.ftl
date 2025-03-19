@@ -41,7 +41,7 @@ ent-ClosetChef = armário de chef
     .desc = É uma unidade de armazenamento para roupas de alimentação e ratoeiras.
 
 ent-WardrobeChapel = guarda-roupa do capelão
-    .desc = É uma unidade de armazenamento para trajes religiosos aprovados pela NanoTrasen.
+    .desc = É uma unidade de armazenamento para trajes religiosos aprovados pela Nanotrasen.
 
 ent-ClosetLegal = armário jurídico
     .desc = É uma unidade de armazenamento para roupas e itens do tribunal.

@@ -1,7 +1,7 @@
 golem-name = Name:
-golem-master = Mestre:
+golem-master = Nome do Mestre:
 golem-install-button = Instalar
-golem-menu-title = Interface de Golem
+golem-menu-title = Criar Golem
 
 
 golem-law = Obedecer {$master} sobre qualquer outra coisa. Defender {$master}. Não tome medidas que possam colocar {$master} em risco.

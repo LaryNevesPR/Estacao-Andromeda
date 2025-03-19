@@ -19,13 +19,13 @@ ent-ScalpelLaser = bisturi laser
 ent-Retractor = retrator
     .desc = Uma ferramenta cirúrgica utilizada para manter cortes abertos.
 
-ent-Hemostat = hemoestato
-    .desc = Uma ferramenta cirúrgica utilizada para evitar grampear artérias, assim evitando sangramentos.
+ent-Hemostat = hermoestato
+    .desc = Uma ferramenta cirúrgica utilizda para evitar grampear artérias, assim evitando sangramentos.
 
 ent-Saw = serra de metal
     .desc = Para cortar madeira, ou em caso de emergência, até mesmo ossos.
 
-ent-SawImprov = Corta-corta
+ent-SawImprov = choppa
     .desc = Uma lâmina serrilhada feita de qualquer coisa afiada e desagradável que você pudesse encontrar.
 
 ent-SawElectric = serra circular

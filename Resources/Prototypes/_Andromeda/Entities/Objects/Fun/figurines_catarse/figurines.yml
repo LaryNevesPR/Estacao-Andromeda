@@ -13,7 +13,7 @@
   parent: ToyFigurineLunaraGooben
   id: ToyFigurinePodroSilva
   name: Podro Coelho da Silva
-  description: "Esta famosa raposa do ártico curiosa come todos os ratos que vê pela frente, mas, não importa o que aconteça... não puxe seu rabo!!"
+  description: "Essa famosa raposa do ártico curiosa come todos os ratos que vê pela frente, mas, não importa oque aconteça... não puxe o seu rabo!!"
   components:
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
@@ -39,6 +39,7 @@
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: phil_figure
 
+
 - type: entity
   parent: ToyFigurineLunaraGooben
   id: ToyFigurineJanieSmith
@@ -59,15 +60,16 @@
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: ronaldo_figure
 
+
 - type: entity
   parent: ToyFigurineLunaraGooben
   id: ToyFigurineGui
   name: Guilherme Carneiro Mendes
   description: "O prodigio da Nanotrasen!!! Quem eu to querendo enganar... É só um CLT médio da Nanotrasen."
   components:
-  - type: Sprite
-    sprite: _Andromeda/misc/figures_catarse.rsi
-    state: gui_figure
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: gui_figure
 
 - type: entity
   parent: ToyFigurineLunaraGooben

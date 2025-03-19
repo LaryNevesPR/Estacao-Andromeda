@@ -1,5 +1,5 @@
 technologies-basic-research-technology = Tecnologia de pesquisa básica
-technologies-basic-research-technology-description = Tecnologias de pesquisa básica NanoTrasen.
+technologies-basic-research-technology-description = Tecnologias de pesquisa básica Nanotrasen.
 
 technologies-cleaning-technology = Tecnologia de limpeza
 technologies-cleaning-technology-description = Comece com uma estação limpa e brilhante.
@@ -104,7 +104,7 @@ technologies-ripley-technology = Exotraje: Ripley
 technologies-ripley-technology-description = O que há de mais moderno e moderno em construção mecanizada de cargas.
 
 technologies-bluespace-technology = Tecnologia Espaço Azul
-technologies-bluespace-technology-description = Armazenamento extra-dimensional.
+technologies-bluespace-technology-description = Armazenamento extradimensional.
 
 technologies-teleportation-technology = Tecnologia de teletransporte
 technologies-teleportation-technology-description = A capacidade de mover a matéria instantaneamente de um lugar para outro.

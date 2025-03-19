@@ -1,6 +1,6 @@
 ## UI
 
-reagent-grinder-bound-user-interface-instant-button = INSTANTÂNEO
+reagent-grinder-bound-user-interface-instant-button = INTANTÂNEO
 reagent-grinder-bound-user-interface-cook-time-label = TEMPO DE COZIMENTO
 reagent-grinder-component-cannot-put-entity-message = Você não pode colocar isso no moedor de reagentes!
 

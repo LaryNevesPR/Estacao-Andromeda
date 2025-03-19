@@ -1,7 +1,7 @@
 anomaly-component-contact-damage = A anomalia queima sua pele!
 
 anomaly-vessel-component-anomaly-assigned = Anomalia atribuída ao recipiente.
-anomaly-vessel-component-not-assigned = Este recipiente não está atribuído a nenhuma anomalia. Tente usar um analisador de anomalias nele.
+anomaly-vessel-component-not-assigned = Este recipiente não está atribuído a nenhuma anomalia. Tente usar um scanner nele.
 anomaly-vessel-component-assigned = Este recipiente está atualmente atribuído a uma anomalia.
 
 anomaly-particles-delta = Partículas Delta
@@ -11,8 +11,7 @@ anomaly-particles-omega = Partículas Omega
 anomaly-particles-sigma = Partículas Sigma
 
 
-anomaly-scanner-component-scan-complete = analise completa!
-anomaly-scanner-scan-copied = Dados de anomalia copiados!
+anomaly-scanner-component-scan-complete = Scan completo!
 
 anomaly-scanner-ui-title = analisador de anomalia
 anomaly-scanner-no-anomaly = Nenhuma anomalia analisada.

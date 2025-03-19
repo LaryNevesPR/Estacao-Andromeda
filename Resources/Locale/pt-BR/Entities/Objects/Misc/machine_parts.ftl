@@ -1,4 +1,4 @@
-ent-BaseStockPart = peça genérica
+ent-BaseStockPart = peça de estoque
      .desc = O quê?
 
 ent-CapacitorStockPart = capacitor

@@ -1,7 +1,7 @@
 - type: entity
   id: PartTajaran
   parent: [BaseItem, BasePart]
-  name: "parte do corpo de tajaran"
+  name: "tajaran body part"
   abstract: true
   components:
   - type: Extractable
@@ -14,7 +14,7 @@
 
 - type: entity
   id: TorsoTajaran
-  name: "torso de tajaran"
+  name: "Tajaran torso"
   parent: [PartTajaran, BaseTorso]
   components:
   - type: Sprite
@@ -28,9 +28,10 @@
       - ReagentId: Blood
         Quantity: 20
 
+
 - type: entity
   id: HeadTajaran
-  name: "cabeça de tajaran"
+  name: "Tajaran head"
   parent: [PartTajaran, BaseHead]
   components:
   - type: Sprite
@@ -46,7 +47,7 @@
 
 - type: entity
   id: LeftArmTajaran
-  name: "braço esquerdo de tajaran"
+  name: "left Tajaran arm"
   parent: [PartTajaran, BaseLeftArm]
   components:
   - type: Sprite
@@ -55,7 +56,7 @@
 
 - type: entity
   id: RightArmTajaran
-  name: "braço direito de tajaran"
+  name: "right Tajaran arm"
   parent: [PartTajaran, BaseRightArm]
   components:
   - type: Sprite
@@ -64,7 +65,7 @@
 
 - type: entity
   id: LeftHandTajaran
-  name: "mão esquerda de tajaran"
+  name: "left Tajaran hand"
   parent: [PartTajaran, BaseLeftHand]
   components:
   - type: Sprite
@@ -73,7 +74,7 @@
 
 - type: entity
   id: RightHandTajaran
-  name: "mão direita de tajaran"
+  name: "right Tajaran hand"
   parent: [PartTajaran, BaseRightHand]
   components:
   - type: Sprite
@@ -82,7 +83,7 @@
 
 - type: entity
   id: LeftLegTajaran
-  name: "perna esquerda de tajaran"
+  name: "left Tajaran leg"
   parent: [PartTajaran, BaseLeftLeg]
   components:
   - type: Sprite
@@ -91,7 +92,7 @@
 
 - type: entity
   id: RightLegTajaran
-  name: "perna direita de tajaran"
+  name: "right Tajaran leg"
   parent: [PartTajaran, BaseRightLeg]
   components:
   - type: Sprite
@@ -100,7 +101,7 @@
 
 - type: entity
   id: LeftFootTajaran
-  name: "pé esquerdo de tajaran"
+  name: "left Tajaran foot"
   parent: [PartTajaran, BaseLeftFoot]
   components:
   - type: Sprite
@@ -109,7 +110,7 @@
 
 - type: entity
   id: RightFootTajaran
-  name: "pé direito de tajaran"
+  name: "right Tajaran foot"
   parent: [PartTajaran, BaseRightFoot]
   components:
   - type: Sprite

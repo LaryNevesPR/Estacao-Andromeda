@@ -25,7 +25,7 @@ station-beacon-cmo = CMO
 station-beacon-morgue = Necrotério
 station-beacon-surgery = Cirurgia
 
-station-beacon-science = Epistemologia
+station-beacon-science = Ciência
 station-beacon-research-and-development = Pesquisa e desenvolvimento
 station-beacon-research-server = Servidor P&D
 station-beacon-research-director = RD
@@ -42,7 +42,7 @@ station-beacon-salvage = Salvatagem
 station-beacon-engineering = Engenharia
 station-beacon-ce = CE
 station-beacon-ame = AME
-station-beacon-solars = Painéis Solares
+station-beacon-solars = Solares
 station-beacon-gravgen = Gravidade
 station-beacon-pa = Controle PA
 station-beacon-smes = SMES

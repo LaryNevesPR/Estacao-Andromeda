@@ -1,4 +1,4 @@
-admin-explosion-eui-title = Criar Explosões
+admin-explosion-eui-title = Spawnar Explosões
 
 admin-explosion-eui-label-type = Tipo de explosão
 admin-explosion-eui-label-mapid = ID do mapa
@@ -8,7 +8,7 @@ admin-explosion-eui-label-current = Posição atual
 admin-explosion-eui-label-preview = Preview
 admin-explosion-eui-label-total = Intensidade total
 admin-explosion-eui-label-slope = Inclinação da intensidade
-admin-explosion-eui-label-max = Intensidade máxima
+admin-explosion-eui-label-max = Itensidade máxima
 admin-explosion-eui-label-directional = Direcional
 admin-explosion-eui-label-angle = Ângulo
 admin-explosion-eui-label-spread = Espalhar

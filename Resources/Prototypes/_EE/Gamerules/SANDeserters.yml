@@ -2,14 +2,14 @@
   parent: BaseUnknownShuttleRule
   id: Deserters
   components:
-  - type: StationEvent
-    earliestStart: 35
-    weight: 5.5
-    minimumPlayers: 20
-    duration: 1
-    maxOccurrences: 1
-  - type: LoadMapRule
-    preloadedGrid: SANDesertersDropship
+    - type: StationEvent
+      earliestStart: 35
+      weight: 5.5
+      minimumPlayers: 20
+      duration: 1
+      maxOccurrences: 1
+    - type: LoadMapRule
+      preloadedGrid: SANDesertersDropship
 
 - type: preloadedGrid
   id: SANDesertersDropship
@@ -19,42 +19,42 @@
 - type: entity
   categories: [HideSpawnMenu]
   id: SpawnPointGhostSANDeserter
-  name: ponto de desova de função fantasma
-  suffix: Desertor SAN
+  name: ghost role spawn point
+  suffix: SAN Deserter
   parent: MarkerBase
   components:
-  - type: GhostRole
-    name: ghost-role-information-deserter-name
-    description: ghost-role-information-deserter-description
-    rules: ghost-role-information-deserter-rules
-    mindRoles:
-    - MindRoleDeserter
-  - type: GhostRoleMobSpawner
-    prototype: MobHumanSANDeserter
-  - type: Sprite
-    sprite: Markers/jobs.rsi
-    layers:
-    - state: green
-    - sprite: Structures/Wallmounts/signs.rsi
-      state: radiation
-  - type: GhostRoleAntagSpawner
+    - type: GhostRole
+      name: ghost-role-information-deserter-name
+      description: ghost-role-information-deserter-description
+      rules: ghost-role-information-deserter-rules
+      mindRoles:
+      - MindRoleDeserter
+    - type: GhostRoleMobSpawner
+      prototype: MobHumanSANDeserter
+    - type: Sprite
+      sprite: Markers/jobs.rsi
+      layers:
+        - state: green
+        - sprite: Structures/Wallmounts/signs.rsi
+          state: radiation
+    - type: GhostRoleAntagSpawner
 
 - type: entity
   categories: [HideSpawnMenu]
   parent: MobHuman
   id: MobHumanSANDeserter
-  name: Desertor SAN
+  name: SAN Deserter
   components:
-  - type: Loadout
-    prototypes: [SANDeserterGearFull]
-  - type: NpcFactionMember
-    factions:
-    - SAN
-  - type: RandomMetadata
-    nameSegments:
-    - NamesFirstMilitary
-    - names_last
-  # TODO: Mindroles
+    - type: Loadout
+      prototypes: [SANDeserterGearFull]
+    - type: NpcFactionMember
+      factions:
+      - SAN
+    - type: RandomMetadata
+      nameSegments:
+      - NamesFirstMilitary
+      - names_last
+    # TODO: Mindroles
 
 - type: antag
   id: SANDeserter
@@ -66,7 +66,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDeserter
-  name: Função de Desertor SAN
+  name: SAN Deserter Role
   components:
   - type: MindRole
     antagPrototype: SANDeserter

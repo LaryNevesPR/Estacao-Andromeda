@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: GasPressurePump
   id: GasPressurePumpHighFlow
-  name: bomba de gás de alto fluxo
-  description: Uma bomba que move gás por pressão. Bombeia ar a três vezes a pressão de uma bomba padrão.
+  name: high flow gas pump
+  description: A pump that moves gas by pressure. It pumps air at three times the pressure of a standard pump.
   placement:
     mode: SnapgridCenter
   components:
@@ -13,22 +13,22 @@
 - type: entity
   parent: GasVolumePump
   id: GasVolumePumpHighFlow
-  name: bomba volumétrica de gás de alto fluxo.
-  description: Uma bomba que move gás por volume. Bombeia ar a três vezes o volume de uma bomba padrão.
+  name: high flow volumetric gas pump. It pumps air at three times the volume of a standard pump
+  description: A pump that moves gas by volume.
   placement:
     mode: SnapgridCenter
   components:
-  - type: GasVolumePump
-    maxTransferRate: 600
+    - type: GasVolumePump
+      maxTransferRate: 600
 
 - type: entity
   parent: GasDualPortVentPump
   id: GasDualPortVentPumpHighFlow
-  name: ventilação de alto fluxo de duas portas
-  description: Possui uma válvula e uma bomba anexadas a ela. Existem duas portas, uma é uma entrada para liberar ar, a outra é uma saída ao sifonar. Pode lidar com três vezes a pressão de uma ventilação padrão.
+  name: high flow dual-port air vent
+  description: Has a valve and a pump attached to it. There are two ports, one is an input for releasing air, the other is an output when siphoning. It can handle three times the pressure of a standard vent.
   placement:
     mode: SnapgridCenter
   components:
-  - type: GasVentPump
-    maxPressure: 13500
-    PumpPower: 6
+    - type: GasVentPump
+      maxPressure: 13500
+      PumpPower: 6

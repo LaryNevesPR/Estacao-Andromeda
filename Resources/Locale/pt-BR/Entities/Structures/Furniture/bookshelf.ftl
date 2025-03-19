@@ -1,3 +1,3 @@
 ent-Bookshelf = estante de livros
-    .desc = Contém todo conhecimento inútil do universo.
+    .desc = Contém todo conhecimento inutil do universo.
 

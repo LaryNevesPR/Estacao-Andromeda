@@ -2,7 +2,7 @@
 
 comp-solution-transfer-fill-normal = Você enche {THE($target)} com {$amount} unidades de {THE($owner)}.
 comp-solution-transfer-fill-fully = Você enche {THE($target)} até a borda com {$amount} unidades de {THE($owner)}.
-comp-solution-transfer-transfer-solution = Você transfere {$amount} unidades para {THE($target)}.
+comp-solution-transfer-transfer-solution = Você transfere {$amount} unidades ao {THE($target)}.
 
 ## Displayed when trying to transfer to a solution, but either the giver is empty or the taker is full
 comp-solution-transfer-is-empty = {THE($target)} está vazio!

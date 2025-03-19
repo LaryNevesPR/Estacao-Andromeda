@@ -1,4 +1,4 @@
-ent-CrateArmorySMG = Caixa de SMGs
+ent-CrateArmorySMG = Caixa de SMG
     .desc = Contém dois rifles semiautomáticos de alta potência com quatro carregadores. Requer acesso ao Arsenal para abrir.
 
 ent-CrateArmoryShotgun = Caixa de espingardas

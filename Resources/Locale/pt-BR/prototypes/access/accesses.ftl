@@ -14,7 +14,7 @@ id-card-access-level-engineering = Engenharia
 id-card-access-level-atmospherics = Atmosféricos
 
 id-card-access-level-research-director = Mistagogo
-id-card-access-level-research = Epistemólogo
+id-card-access-level-research = Epistêmica
 
 id-card-access-level-chief-medical-officer = Médico Chefe
 id-card-access-level-medical = Médica

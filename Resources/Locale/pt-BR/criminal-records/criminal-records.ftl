@@ -1,4 +1,4 @@
-criminal-records-console-window-title = Console de Registros Criminais
+criminal-records-console-window-title = Computador de Registros Criminais
 criminal-records-console-records-list-title = Tripulantes
 criminal-records-console-select-record-info = Selecione um registro.
 criminal-records-console-no-records = Nenhum registro encontrado!
@@ -13,6 +13,7 @@ criminal-records-status-detained = Detido
 criminal-records-status-suspected = Suspeito
 criminal-records-status-discharged = Liberado
 criminal-records-status-paroled = sob Condicional
+
 
 criminal-records-console-wanted-reason = [color=gray]Procurado por[/color]
 criminal-records-console-suspected-reason = [color=gray]Razão de Suspeita[/color]

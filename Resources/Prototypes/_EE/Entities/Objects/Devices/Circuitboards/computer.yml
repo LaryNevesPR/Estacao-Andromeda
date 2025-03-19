@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerCircuitboard
   id: SupermatterComputerCircuitboard
-  name: placa de circuito de console de monitoramento de supermatéria
-  description: Uma placa de circuito impresso de computador para um console de monitoramento de supermatéria.
+  name: supermatter monitoring console board
+  description: A computer printed circuit board for a supermatter monitoring console.
   components:
   - type: Sprite
     state: cpu_engineering

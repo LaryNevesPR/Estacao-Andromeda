@@ -1,4 +1,4 @@
-ent-LandMineKick = chutar mina
+ent-LandMineKick = chute mina
      .desc = { "" }
 
 ent-LandMineModular = mina modular

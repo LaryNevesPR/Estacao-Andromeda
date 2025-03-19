@@ -16,7 +16,7 @@ ent-ChemistryEmptyBottle04 = garrafa
 ent-EpinephrineChemistryBottle = garrafa de epinefrina
      .desc = Uma pequena garrafa.
 
-ent-RobustHarvestChemistryBottle = garrafa de colheita robusta
+ent-RobustHarvestChemistryBottle = garrafa de robust harvest
      .desc = Isso aumentará a potência de suas plantas.
 
 ent-NocturineChemistryBottle = garrafa de nocturina

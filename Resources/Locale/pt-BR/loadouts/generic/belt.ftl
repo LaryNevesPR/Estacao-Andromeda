@@ -1,6 +1,0 @@
-loadout-name-LoadoutBeltGeneric = cinto (colorível)
-loadout-name-LoadoutBeltGenericThin = cinto fino (colorível)
-loadout-name-LoadoutBeltGenericThick = cinto grosso (colorível)
-loadout-name-LoadoutBeltWaist = cinto de cintura (colorível)
-loadout-name-LoadoutBeltWaistThin = cinto fino de cintura (colorível)
-loadout-name-LoadoutBeltWaistbagColor = pochete (colorível)

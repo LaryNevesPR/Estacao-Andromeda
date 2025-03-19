@@ -1,4 +1,5 @@
 ## UI
+
 door-remote-open-close-text = Abre e Fecha Portas
 door-remote-toggle-bolt-text = Alterna Tranca
 door-remote-emergency-access-text = Alterna Acesso de Emergência

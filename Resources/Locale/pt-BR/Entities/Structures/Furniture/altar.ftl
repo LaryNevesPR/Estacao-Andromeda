@@ -1,7 +1,7 @@
 ent-AltarBase = altar
     .desc = O Altar dos Deuses
 
-ent-AltarNanotrasen = altar da NanoTrasen
+ent-AltarNanotrasen = altar da nanotrasen
     .desc = O Altar dos Deuses
 
 ent-AltarChaos = altar do caos
@@ -16,7 +16,7 @@ ent-AltarToolbox = altar da caixa de ferramenta
 ent-AltarSpaceChristian = altar do cristão espacial
     .desc = O Altar dos Deuses
 
-ent-AltarSatana = altar satânico
+ent-AltarSatana = altar satãnico
     .desc = O Altar dos Deuses
 
 ent-AltarTechnology = altar da tecnologia

@@ -1,4 +1,4 @@
-ent-BaseShield = escudo
+ent-BaseShield = escudo base
      .desc = Um escudo!
 
 ent-RiotShield = escudo anti-motim

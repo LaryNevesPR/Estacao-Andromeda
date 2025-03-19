@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseComputerAiAccess
   id: ComputerSupermatter
-  name: console de monitoramento de supermatéria
-  description: Usado para monitorar o status do cristal de supermatéria.
+  name: supermatter monitoring console
+  description: Used to monitor the status of supermatter crystals.
   components:
   - type: Computer
     board: SupermatterComputerCircuitboard
@@ -17,7 +17,7 @@
       state: supermatter-0
     - map: ["computerLayerKeys"]
       state: supermatter_keys
-    - map: ["enum.WiresVisualLayers.MaintenancePanel"]
+    - map: [ "enum.WiresVisualLayers.MaintenancePanel" ]
       state: generic_panel_open
   - type: PointLight
     radius: 1.5
@@ -51,7 +51,7 @@
     key: enum.SupermatterConsoleUiKey.Key
   - type: UserInterface
     interfaces:
-      enum.SupermatterConsoleUiKey.Key:
-        type: SupermatterConsoleBoundUserInterface
-      enum.WiresUiKey.Key:
-        type: WiresBoundUserInterface
+        enum.SupermatterConsoleUiKey.Key:
+            type: SupermatterConsoleBoundUserInterface
+        enum.WiresUiKey.Key:
+          type: WiresBoundUserInterface

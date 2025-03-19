@@ -84,7 +84,7 @@ alerts-vow-silence-desc = Você fez um voto de silêncio como parte da iniciaç�
 alerts-vow-broken-name = Voto quebrado
 alerts-vow-broken-desc = Você quebrou seus votos para Mimes em todos os lugares. Você pode falar, mas perdeu seus poderes por pelo menos 5 minutos inteiros!!! Clique para tentar retomar seu voto.
 
-alerts-pulled-name = Puxado
+alerts-pulled-name = Retirado
 alerts-pulled-desc = Você está sendo puxado. Mova-se para se libertar.
 
 alerts-pulling-name = Puxar
@@ -99,7 +99,7 @@ alerts-pacified-desc = Você está pacificado; você não será capaz de atacar 
 alerts-suit-power-name = Energia do traje
 alerts-suit-power-desc = Quanto energia seu traje ninja espacial tem.
 
-alertas-magboots-name = Magbotas
+alertas-magboots-name = Botas magnéticas
 alerts-magboots-desc= Você é imune ao fluxo de ar, mas um pouco mais lento.
 
 alerts-revenant-essence-name = Essência

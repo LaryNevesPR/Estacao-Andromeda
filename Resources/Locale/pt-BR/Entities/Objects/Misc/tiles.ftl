@@ -13,7 +13,7 @@ ent-FloorTileItemWhite = ladrilho branco
 ent-FloorTileItemDark = ladrilho escuro
     .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
-ent-FloorTileItemTechmaint = ladrilho de manutenção
+ent-FloorTileItemTechmaint = chão de techmaint
     .desc = Isso poderia funcionar como uma arma de arremesso decente.
 
 ent-FloorTileItemReinforced = ladrilho reforçado

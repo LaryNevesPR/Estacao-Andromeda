@@ -20,7 +20,7 @@ book-text-ame-scribbles = Não sei se você já foi treinado, então espero que 
       O controlador AME precisa de energia LV e um fio HV para saída. Verifique a área com um pé-de-cabra se não tiver certeza.
       Deve haver uma sala vazia ao lado de onde você encontrou isso, essa sala está conectada para o AME.
       Você pode colocar um AME em qualquer lugar, se conseguir conectar os fios a ele.
-      Grade de 3x3 de peças AME, use a multiferramenta para desempacotar. Cuidado para não 'prender' nada.
+      Grade de 3x3 de peças AME, use a ferramenta multitool para desempacotar. Cuidado para não 'prender' nada.
       Controlador AME adjacente horizontal ou verticalmente (não diagonalmente) a qualquer ponto.
       Com apenas 1 núcleo (o que uma grade de 3x3 lhe dará), não aumente acima de 2.
       A regra de ouro é 2 injeções para cada 1 núcleo. Você pode baixar para economizar combustível.

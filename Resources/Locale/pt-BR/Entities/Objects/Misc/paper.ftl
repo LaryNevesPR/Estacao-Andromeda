@@ -37,7 +37,7 @@ ent-Pen = caneta
 ent-LuxuryPen = caneta de luxo
     .desc = Uma caneta sofisticada e cara que você só merece ter se estiver qualificado para lidar com grandes quantidades de papelada.
 
-ent-CyberPen = caneta da Cybersun
+ent-CyberPen = caneta Cybersun
      .desc = Uma caneta de alta tecnologia vinda diretamente do departamento jurídico da Cybersun, capaz de refratar luz forte em ângulos impossíveis através de sua ponta de diamante para escrever.
 
 ent-PenCap = caneta-tinteiro do Capitão

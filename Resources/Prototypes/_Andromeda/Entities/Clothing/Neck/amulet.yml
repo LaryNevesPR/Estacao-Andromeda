@@ -1,19 +1,19 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedSnailAmuletPolymorph
-  name: Amuleto de Caracol
+  name: snail amulet
   description: Um lindo amuleto de ouro, com um rubi que brilha com um brilho sobrenatural.
-  suffix: Semente de Caracol
+  suffix: Snail Seed
   components:
   - type: PolymorphProvider
     polymorph: PolymorphSnailSpeed
 
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
-  id: ClothingNeckSpeedArcticFoxAmuletPolymorph
-  name: Amuleto de Raposa do Ártico
-  description: Um lindo amuleto de ouro, com um rubi que brilha com a imagem de uma raposa branca.
-  suffix: Raposa do Ártico
+  id: ClothingNeckSpeedArticFoxAmuletPolymorph
+  name: ArticFox amulet
+  description: Um lindo amuleto de ouro, com um rubi que brilha uma raposa branca.
+  suffix: Artic Fox
   components:
   - type: PolymorphProvider
     polymorph: PolymorphArcticFox
@@ -21,7 +21,7 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedCatCakeAmuletPolymorph
-  name: Amuleto de Gato Bolo
+  name: Cak amulet
   description: Um lindo amuleto de ouro, com um rubi que brilha com um brilho doce.
   suffix: Gato Bolo
   components:
@@ -31,7 +31,7 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedSlimeOmniAmuletPolymorph
-  name: Amuleto de Slime Omni
+  name: Slime Omni amulet
   description: Um estranho amuleto de gel translúcido, pulsando suavemente com energia.
   suffix: Slime Omni
   components:
@@ -41,9 +41,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedGorillaAmuletPolymorph
-  name: Amuleto de Gorila
+  name: Gorilla amulet
   description: Um amuleto pesado de pedra negra, irradiando força bruta.
-  suffix: Gorila
+  suffix: Gorilla
   components:
   - type: PolymorphProvider
     polymorph: PolymorphGorilla
@@ -51,9 +51,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedCerberusAmuletPolymorph
-  name: Amuleto de Cérbero
+  name: Cerberus amulet
   description: Um amuleto de obsidiana esculpido com três cabeças de cão ferozes.
-  suffix: Cérbero
+  suffix: Cerberus
   components:
   - type: PolymorphProvider
     polymorph: PolymorphCerberus
@@ -61,9 +61,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedXenoTestAmuletPolymorph
-  name: Amuleto de Teste Xeno
-  description: Um amuleto de obsidiana esculpido com um xeno diferente nele.
-  suffix: Teste Xeno
+  name: Xeno Test amulet
+  description: Um amuleto de obsidiana esculpido com Um xeno diferente nela.
+  suffix: Xeno Test
   components:
   - type: PolymorphProvider
     polymorph: PolymorphXenoSubjectTess
@@ -71,7 +71,7 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckPoppyAmuletPolymorph
-  name: Amuleto de Poppy
+  name: Poppy amulet
   description: Um amuleto de obsidiana esculpido com um gambá.
   suffix: Poppy
   components:
@@ -81,7 +81,7 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckBehonkerGravAmuletPolymorph
-  name: Amuleto de Behonker
+  name: Behonker amulet
   description: Um amuleto de obsidiana esculpido com um Behonker.
   suffix: Behonker
   components:
@@ -91,9 +91,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckGooseAmuletPolymorph
-  name: Amuleto de Ganso
+  name: ganso amulet
   description: Um amuleto de obsidiana esculpido com um ganso.
-  suffix: Ganso
+  suffix: ganso
   components:
   - type: PolymorphProvider
     polymorph: PolymorphGoose
@@ -101,12 +101,13 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckLaserRaptorAmuletPolymorph
-  name: Amuleto de LaserRaptor
+  name: LaserRaptor amulet
   description: Um amuleto de obsidiana esculpido com um LaserRaptor.
   suffix: LaserRaptor
   components:
   - type: PolymorphProvider
     polymorph: PolymorphLaserRaptor
+
 
 
 - type: polymorph
@@ -233,9 +234,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedLizardAmuletPolymorph
-  name: Amuleto de Lagarto
+  name: Lizard amulet
   description: Um amuleto esverdeado com escamas incrustadas, irradiando uma energia reptiliana.
-  suffix: Lagarto
+  suffix: Lizard
   components:
   - type: PolymorphProvider
     polymorph: PolymorphLizard
@@ -254,9 +255,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedCarpMagicAmuletPolymorph
-  name: Amuleto de Carpa Mágica
+  name: Magic Carp amulet
   description: Um amuleto aquático brilhante, pulsando com uma energia misteriosa.
-  suffix: Carpa Mágica
+  suffix: Magic Carp
   components:
   - type: PolymorphProvider
     polymorph: PolymorphCarpMagic
@@ -275,9 +276,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedSharkAmuletPolymorph
-  name: Amuleto de Tubarão
+  name: Shark amulet
   description: Um amuleto prateado com a forma de uma barbatana afiada, exalando uma aura predatória.
-  suffix: Tubarão
+  suffix: Shark
   components:
   - type: PolymorphProvider
     polymorph: PolymorphShark
@@ -296,9 +297,9 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSpeedDuckMallardAmuletPolymorph
-  name: Amuleto de Pato-real
+  name: Mallard Duck amulet
   description: Um amuleto dourado com a forma de um pato-real, emitindo uma energia aquática e tranquila.
-  suffix: Pato-real
+  suffix: Mallard Duck
   components:
   - type: PolymorphProvider
     polymorph: PolymorphDuckMallard
@@ -317,12 +318,13 @@
 - type: entity
   parent: ClothingNeckDragonAmuletPolymorph
   id: ClothingNeckSmileAmuletPolymorph
-  name: Amuleto de Sorriso
-  description: Um amuleto de obsidiana esculpido com um xeno diferente nele.
-  suffix: Sorriso
+  name: Cerberus amulet
+  description: Um amuleto de obsidiana esculpido com Um xeno diferente nela.
+  suffix: Smile
   components:
   - type: PolymorphProvider
     polymorph: PolymorphSmile
+
 
 - type: polymorph
   id: PolymorphSmile

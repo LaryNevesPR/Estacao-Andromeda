@@ -1,7 +1,7 @@
 - type: entity
   parent: PlushieHuman
   id: PlushieJanie
-  name: Pelúcia de Janie
+  name: Janie plushie
   description: Sua própria Janie, edição de colecionador.
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: PlushieJanie
   id: KaliPlushie
-  name: Pelúcia de Kali
+  name: Kali plushie
   description: Kali só para você, edição de colecionador.
   components:
   - type: Sprite
@@ -44,7 +44,7 @@
 - type: entity
   parent: PlushieHuman
   id: PodroPlushie
-  name: Pelúcia de Podro
+  name: Podro  plushie
   description: Podro só para você, edição de colecionador.
   components:
   - type: Sprite
@@ -69,7 +69,7 @@
 - type: entity
   parent: PodroPlushie
   id: ApoloPlushie
-  name: Pelúcia de Apolo
+  name: Apolo  plushie
   description: Apolo só para você, edição de colecionador.
   components:
   - type: Sprite
@@ -79,8 +79,8 @@
 - type: entity
   parent: PodroPlushie
   id: AndroSealPlushie
-  name: Pelúcia de Foca
-  description: Uma pelúcia de foca.
+  name: Foca  plushie
+  description: Um plushie de foca.
   components:
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi
@@ -90,7 +90,7 @@
   parent: PodroPlushie
   id: WellsPlushie
   name: Wells Chaplon
-  description: Ele ama gorilas
+  description: Ele ama Gorilas
   components:
   - type: Sprite
     sprite: _Andromeda/Objects/Fun/andromeda_plush.rsi

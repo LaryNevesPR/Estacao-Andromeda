@@ -1,4 +1,4 @@
-access-overrider-window-privileged-id = ID Modelo:
+access-overrider-window-privileged-id = ID Privilegiado:
 access-overrider-window-eject-button = Ejetar
 access-overrider-window-insert-button = Inserir
 access-overrider-window-target-label = Dispositivo conectado:

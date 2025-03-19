@@ -1,4 +1,3 @@
-admin-player-actions-bans = Lista de Banimentos
 admin-player-actions-notes = Notas
 admin-player-actions-kick = Expulsar
 admin-player-actions-ban = Banir

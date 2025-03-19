@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSuicideAction
   id: ActionActivateBluespaceLifeline
-  name: Ativar Salva-Vidas de Espaço Azul
-  description: Ativa seu implante salva-vidas de espaço azul, teleportando você para muito, muito longe desta estação. Você não poderá voltar.
+  name: Activate Bluespace Lifeline
+  description: Activates your bluespace lifeline implant, teleporting you far-far away from this station. You won't be able to come back.
   components:
   - type: InstantAction
     checkCanInteract: false

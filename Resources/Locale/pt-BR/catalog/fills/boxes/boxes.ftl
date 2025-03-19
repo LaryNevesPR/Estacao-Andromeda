@@ -5,80 +5,80 @@ ent-BoxMagazine = caixa de carregadores
 ent-BoxMagazinePistolCaselessRifle = caixa de carregadores .25 caseless
     .desc = Uma caixa cheia de carregadores .25 caseless.
 
-ent-BoxMagazinePistolCaselessRiflePractice = caixa de carregadores .25 caseless (prática)
-    .desc = Uma caixa cheia de carregadores .25 caseless (prática).
+ent-BoxMagazinePistolCaselessRiflePractice = caixa de carregadores (prática) .25 caseless
+    .desc = Uma caixa cheia de carregadores (prática) .25 caseless.
 
-ent-BoxMagazineCaselessRifleRubber = caixa de carregadores .25 caseless (borracha)
-    .desc = Uma caixa cheia de carregadores .25 caseless (borracha).
+ent-BoxMagazineCaselessRifleRubber = caixa de carregadores (borracha) .25 caseless
+    .desc = Uma caixa cheia de carregadores (borracha) .25 caseless.
 
-ent-BoxMagazineLightRifle = caixa de carregadores .30 de rifle
-    .desc = Uma caixa cheia de carregadores .30 de rifle.
+ent-BoxMagazineLightRifle = caixa de carregadores .30 rifles
+    .desc = Uma caixa cheia de carregadores .30 rifles.
 
-ent-BoxMagazineLightRiflePractice = caixa de carregadores .30 de rifle (prática)
-    .desc = Uma caixa cheia de carregadores .30 de rifle (prática).
+ent-BoxMagazineLightRiflePractice = caixa de carregadores (prática) .30 rifles
+    .desc = Uma caixa cheia de carregadores (prática) .30 rifles.
 
-ent-BoxMagazineLightRifleRubber = caixa de carregadores .30 de rifle (borracha)
-    .desc = Uma caixa cheia de carregadores .30 de rifle (borracha).
+ent-BoxMagazineLightRifleRubber = caixa de carregadores (borracha) .30 rifles
+    .desc = Uma caixa cheia de carregadores (borracha) .30 rifles.
 
-ent-BoxMagazineMagnumSubMachineGun = caixa de carregadores de Vector
-    .desc = Uma caixa cheia de carregadores de Vector.
+ent-BoxMagazineMagnumSubMachineGun = caixa de carregadores Vector
+    .desc = Uma caixa cheia de carregadores Vector.
 
-ent-BoxMagazineMagnumSubMachineGunPractice = caixa de carregadores de Vector (prática)
-    .desc = Uma caixa cheia de carregadores de Vector (prática).
+ent-BoxMagazineMagnumSubMachineGunPractice = caixa de carregadores (prática) Vector
+    .desc = Uma caixa cheia de carregadores (prática) Vector.
 
-ent-BoxMagazineMagnumSubMachineGunRubber = caixa de carregadores de Vector (borracha)
-    .desc = Uma caixa cheia de carregadores de Vector (borracha).
+ent-BoxMagazineMagnumSubMachineGunRubber = caixa de carregadores (borracha) Vector
+    .desc = Uma caixa cheia de carregadores (borracha) Vector.
 
-ent-BoxMagazinePistolSubMachineGunTopMounted = caixa de carregadores .35 auto de WT550
-    .desc = Uma caixa cheia de carregadores .35 auto de WT550.
+ent-BoxMagazinePistolSubMachineGunTopMounted = caixa de carregadores WT550 .35 auto
+    .desc = Uma caixa cheia de carregadores WT550 .35 auto.
 
-ent-BoxMagazinePistol = caixa de carregadores .35 de pistola auto
-    .desc = Uma caixa cheia de carregadores .35 de pistola auto.
+ent-BoxMagazinePistol = caixa de carregadores .35 pistola auto
+    .desc = Uma caixa cheia de carregadores .35 pistola auto.
 
-ent-BoxMagazinePistolPractice = caixa de carregadores .35 auto de pistola (prática)
-    .desc = Uma caixa cheia de carregadores .35 auto de pistola (prática).
+ent-BoxMagazinePistolPractice = caixa de carregadores (prática) .35 auto pistola
+    .desc = Uma caixa cheia de carregadores (prática) .35 auto pistola.
 
-ent-BoxMagazinePistolRubber = caixa de carregadores .35 auto de pistola (borracha)
-    .desc = Uma caixa cheia de carregadores .35 auto de pistola (borracha).
+ent-BoxMagazinePistolRubber = caixa de carregadores (borracha) .35 auto pistola
+    .desc = Uma caixa cheia de carregadores (borracha) .35 auto pistola.
 
-ent-BoxMagazinePistolHighCapacity = caixa de carregadores .35 auto de pistola automática
-    .desc = Uma caixa cheia de carregadores .35 auto de pistola automática.
+ent-BoxMagazinePistolHighCapacity = caixa de carregadores .35 auto pistola automática
+    .desc = Uma caixa cheia de carregadores .35 auto pistola automática.
 
-ent-BoxMagazinePistolHighCapacityPractice = caixa de carregadores .35 auto de pistola automática (prática)
-    .desc = Uma caixa cheia de carregadores .35 auto de pistola automática (prática).
+ent-BoxMagazinePistolHighCapacityPractice = caixa de carregadores (prática) .35 auto pistola automática
+    .desc = Uma caixa cheia de carregadores (prática) .35 auto pistola automática.
 
-ent-BoxMagazinePistolHighCapacityRubber = caixa de carregadores .35 auto de pistola automática (borracha)
-    .desc = Uma caixa cheia de carregadores .35 auto de pistola automática (borracha).
+ent-BoxMagazinePistolHighCapacityRubber = caixa de carregadores (borracha) .35 auto pistola automática
+    .desc = Uma caixa cheia de carregadores (borracha) .35 auto pistola automática.
 
-ent-BoxMagazinePistolSubMachineGun = caixa de carregadores .35 auto de SMG
-    .desc = Uma caixa cheia de carregadores .35 auto de SMG.
+ent-BoxMagazinePistolSubMachineGun = caixa de carregadores .35 auto SMG
+    .desc = Uma caixa cheia de carregadores .35 auto SMG.
 
-ent-BoxMagazinePistolSubMachineGunPractice = caixa de carregadores .35 auto de SMG (prática)
-    .desc = Uma caixa cheia de carregadores .35 auto de SMG (prática).
+ent-BoxMagazinePistolSubMachineGunPractice = caixa de carregadores (prática) .35 auto SMG
+    .desc = Uma caixa cheia de carregadores (prática) .35 auto SMG.
 
-ent-BoxMagazinePistolSubMachineGunRubber = caixa de carregadores .35 auto de SMG (borracha)
-    .desc = Uma caixa cheia de carregadores .35 auto de SMG (borracha).
+ent-BoxMagazinePistolSubMachineGunRubber = caixa de carregadores (borracha) .35 auto SMG
+    .desc = Uma caixa cheia de carregadores (borracha) .35 auto SMG.
 
-ent-BoxMagazineShotgun = caixa de tambores de munição (.50 pellet)
-    .desc = Uma caixa cheia de tambores de munição (.50 pellet).
+ent-BoxMagazineShotgun = caixa de (.50 pellet) tambor de munição
+    .desc = Uma caixa cheia de (.50 pellet) tambor de munição.
 
-ent-BoxMagazineShotgunBeanbag = caixa de tambores de munição (.50 beanbag)
-    .desc = Uma caixa cheia de tambores de munição (.50 beanbag).
+ent-BoxMagazineShotgunBeanbag = caixa de (.50 beanbag) tambor de munição
+    .desc = Uma caixa cheia de (.50 beanbag) tambor de munição.
 
-ent-BoxMagazineShotgunSlug = caixa de tambores de munição (.50 slug)
-    .desc = Uma caixa cheia de tambores de munição (.50 slug).
+ent-BoxMagazineShotgunSlug = caixa de (.50 slug) tambor de munição
+    .desc = Uma caixa cheia de (.50 slug) tambor de munição.
 
-ent-BoxMagazineShotgunIncendiary = caixa de tambores de munição (.50 incendiária)
-    .desc = Uma caixa cheia de tambores de munição (.50 incendiária).
+ent-BoxMagazineShotgunIncendiary = caixa de (.50 incendiária) tambor de munição
+    .desc = Uma caixa cheia de (.50 incendiária) tambor de munição.
 
-ent-BoxMagazineRifle = caixa de carregadores .20 de rifle
-    .desc = Uma caixa cheia de carregadores .20 de rifle.
+ent-BoxMagazineRifle = caixa de carregadores .20 rifle
+    .desc = Uma caixa cheia de carregadores .20 rifle.
 
-ent-BoxMagazineRiflePractice = caixa de carregadores .20 de rifle (prática)
-    .desc = Uma caixa cheia de carregadores .20 de rifle (prática).
+ent-BoxMagazineRiflePractice = caixa de carregadores (prática) .20 rifle
+    .desc = Uma caixa cheia de carregadores (prática) .20 rifle.
 
-ent-BoxMagazineRifleRubber = caixa de carregadores .20 de rifle (borracha)
-    .desc = Uma caixa cheia de carregadores .20 de rifle (borracha).
+ent-BoxMagazineRifleRubber = caixa de carregadores (borracha) .20 rifle
+    .desc = Uma caixa cheia de carregadores (borracha) .20 rifle.
 
 # Emergência
 
@@ -101,8 +101,8 @@ ent-BoxSurvivalSyndicate = caixa de sobrevivência de capacidade estendida
     .desc = Uma caixa que contém equipamentos básicos de sobrevivência. Esta está etiquetada como contendo um tanque de capacidade estendida.
 
 # Geral
-ent-BoxCardboard = caixa de papelões
-    .desc = Uma caixa de caixas de papelão para guardar coisas.
+ent-BoxCardboard = caixa de papelão
+    .desc = Uma caixa de papelão para guardar coisas.
 
 ent-BoxMousetrap = caixa de ratoeiras
     .desc = Esta caixa está cheia de ratoeiras. Tente não prender sua mão em uma delas.
@@ -116,13 +116,13 @@ ent-BoxLighttube = caixa de tubos de luz
 ent-BoxLightMixed = caixa de luzes mistas
     .desc = Esta caixa tem um formato interno que permite apenas lâmpadas e tubos de luz caibam.
 
-ent-BoxPDA = caixa de PDAs
+ent-BoxPDA = caixa de PDA
     .desc = Uma caixa de microcomputadores PDA sobressalentes.
 
 ent-BoxID = caixa de cartões ID
     .desc = Uma caixa de cartões ID vazios sobressalentes.
 
-ent-BoxHeadset = caixa de headsets
+ent-BoxHeadset = caixa de headset
     .desc = Uma caixa de headsets de passageiro sobressalentes.
 
 ent-BoxMesonScanners = caixa de óculos de engenheiro
@@ -134,28 +134,28 @@ ent-BoxMRE = M.R.E.
 ent-BoxHugHealing = caixa de abraços
     .desc = Uma caixa especial para pessoas sensíveis.
 
-ent-BoxInflatable = caixa de paredes infláveis
+ent-BoxInflatable = caixa de parede inflável
     .desc = As paredes infláveis não devem ser usadas como boias.
 
 ent-BoxPerformer = caixa do dia da hatsune miku
     .desc = Feliz Dia da Hatsune Miku!!
 
-ent-BoxFlare = caixa de sinalizadores
+ent-BoxFlare = caixa de sinalizador
     .desc = Uma caixa de sinalizadores. Hora da festa.
 
 ent-BoxTrashbag = caixa de sacolas de lixo
     .desc = Uma caixa de sacolas de lixo. Sons de felicidade dos zeladores.
 
-ent-BoxEncryptionKeyPassenger = caixa de chaves de criptografia de passageiros
+ent-BoxEncryptionKeyPassenger = caixa de chaves de criptografia de passageiro
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
-ent-BoxEncryptionKeyCargo = caixa de chaves de criptografia de Logística
+ent-BoxEncryptionKeyCargo = caixa de chaves de criptografia de carga
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
 ent-BoxEncryptionKeyEngineering = caixa de chaves de criptografia de engenharia
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
-ent-BoxEncryptionKeyMedicalScience = caixa de chaves de criptografia de med-epi
+ent-BoxEncryptionKeyMedicalScience = caixa de chaves de criptografia de med-sci
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
 ent-BoxEncryptionKeyMedical = caixa de chaves de criptografia de medicina
@@ -164,7 +164,7 @@ ent-BoxEncryptionKeyMedical = caixa de chaves de criptografia de medicina
 ent-BoxEncryptionKeyRobo = caixa de chaves de criptografia de roboticista
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
-ent-BoxEncryptionKeyScience = caixa de chaves de criptografia de Epistêmica
+ent-BoxEncryptionKeyScience = caixa de chaves de criptografia de ciência
     .desc = Uma caixa de chaves de criptografia sobressalentes.
 
 ent-BoxEncryptionKeySecurity = caixa de chaves de criptografia de segurança
@@ -176,7 +176,7 @@ ent-BoxEncryptionKeyService = caixa de chaves de criptografia de serviço
 ent-BoxEncryptionKeySyndie = caixa de chaves de criptografia do sindicato
     .desc = Duas chaves de criptografia do sindicato pelo preço de uma. Miniaturizado para facilitar o uso.
 
-ent-BoxDeathRattleImplants = caixa de implantes alertamorte
+ent-BoxDeathRattleImplants = caixa de implante alertamorte
     .desc = Seis implantes alertamorte e dispositivos GPS portáteis para toda a equipe.
 
 ent-BoxLeadLined = caixa de chumbo
@@ -231,13 +231,13 @@ ent-BoxHandcuff = caixa de algemas
 ent-BoxFlashbang = caixa de granadas de atordoamento
     .desc = 'AVISO: Estes dispositivos são extremamente perigosos e podem causar cegueira ou surdez em caso de uso repetido.'
 
-ent-BoxSechud = caixa de huds de segurança
-    .desc = Uma caixa de huds da segurança.
+ent-BoxSechud = caixa de hud da segurança
+    .desc = Uma caixa de hud da segurança.
 
 ent-BoxZiptie = caixa de amarras
     .desc = Uma caixa cheia de amarras.
 
-ent-BoxForensicPad = caixa de cartões forenses
+ent-BoxForensicPad = caixa de cartões forense
     .desc = Uma caixa de cartões forense.
 
 # Syndicate

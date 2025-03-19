@@ -53,7 +53,7 @@ ent-BedsheetMime = lençol do mime
      .desc = Uma manta listrada muito calmante. Todo o barulho parece desaparecer quando você está debaixo das cobertas.
 
 ent-BedsheetNT = lençol do NT
-     .desc = Tem o logotipo da NanoTrasen e uma aura de dever.
+     .desc = Tem o logotipo da Nanotrasen e uma aura de dever.
 
 ent-BedsheetOrange = lençol laranja
      .desc = Um lençol de linho surpreendentemente macio.
@@ -73,7 +73,7 @@ ent-BedsheetRD = lençol de RD
 ent-BedsheetRed = lençol vermelho
      .desc = Um lençol de linho surpreendentemente macio.
 
-ent-BedsheetSyndie = lençol Sindie
+ent-BedsheetSyndie = lençol Syndie
      .desc = Possui um emblema de sindicato e uma aura de maldade.
 
 ent-BedsheetUSA = lençol dos EUA

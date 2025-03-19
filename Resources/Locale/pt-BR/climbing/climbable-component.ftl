@@ -7,7 +7,7 @@ comp-climbable-verb-climb = Pular por cima
 ### Interaction Messages
 
 # Shown to you when your character climbs on $climbable
-comp-climbable-user-climbs = Você pula por cima de { THE($climbable) }!
+comp-climbable-user-climbs = Você por cima de { THE($climbable) }!
 
 # Shown to others when $user climbs on $climbable
 comp-climbable-user-climbs-other  = { CAPITALIZE(THE($user)) } pula por cima de { THE($climbable) }!

@@ -1,1 +1,1 @@
-solution-heater-upgrade-heat = Força de aquecimento
+solution-heater-upgrade-heat = Força do calor

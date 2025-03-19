@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: SupermatterSliver
-  name: fragmento de supermatéria
-  description: Um fragmento do cristal de supermatéria. Altamente radioativo. Se ingerido, contém um valor nutricional que irá te manter saciado pelo resto de sua vida.
+  name: supermatter sliver
+  description: A shard from the station's Supermatter crystal. Highly radioactive.
   components:
   - type: PointLight
     enabled: true
@@ -21,5 +21,5 @@
     stealGroup: SupermatterSliver
   - type: Tag
     tags:
-    - HighRiskItem
+      - HighRiskItem
   - type: SupermatterImmune
