@@ -13,3 +13,27 @@ chat-language-Canilunzt-name = Canilunzt
 chat-language-Moffic-name = Moffic
 chat-language-RobotTalk-name = Binário
 chat-language-ValyrianStandard-name = Valyrian
+chat-language-Sign-name = Língua de Sinais
+chat-language-Marish-name = Marish
+chat-language-Chittin-name = Chittin
+chat-language-Calcic-name = Calcic
+
+# Idiomas dos Animais
+
+chat-language-Cat-name = Gato
+chat-language-Chicken-name = Galinha
+chat-language-Cow-name = Vaca
+chat-language-Crab-name = Caranguejo
+chat-language-Dog-name = Cachorro
+chat-language-Duck-name = Pato
+chat-language-Eldritch-name = Eldritch
+chat-language-Fox-name = Raposa
+chat-language-Hissing-name = Sibilo
+chat-language-Kangaroo-name = Canguru
+chat-language-Kobold-name = Kobold
+chat-language-Monkey-name = Macaco
+chat-language-Mouse-name = Rato
+chat-language-Penguin-name = Pinguim
+chat-language-Pig-name = Porco
+chat-language-Sheep-name = Ovelha
+chat-language-Xeno-name = Xeno

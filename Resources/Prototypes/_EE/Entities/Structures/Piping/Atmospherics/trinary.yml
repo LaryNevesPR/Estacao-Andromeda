@@ -1,21 +1,21 @@
 - type: entity
   parent: GasFilter
   id: GasFilterHighFlow
-  name: high flow gas filter
-  description: Very useful for filtering gases. It can handle three times the volume of a standard filter, which makes it suitable for use in Supermatter engines.
+  name: filtro de gás de alto fluxo
+  description: Muito útil para filtrar gases. Pode lidar com três vezes o volume de um filtro padrão, o que o torna adequado para uso em motores de supermatéria.
   placement:
     mode: SnapgridCenter
   components:
-    - type: GasFilter
-      enabled: false
-      transferRate: 3000
-      maxTransferRate: 3000
+  - type: GasFilter
+    enabled: false
+    transferRate: 3000
+    maxTransferRate: 3000
 
 - type: entity
   parent: GasFilterFlipped
   id: GasFilterFlippedHighFlow
-  name: high flow gas filter
-  suffix: Flipped
+  name: filtro de gás de alto fluxo
+  suffix: Invertido
   placement:
     mode: SnapgridCenter
   components:
@@ -27,19 +27,19 @@
 - type: entity
   parent: GasMixer
   id: GasMixerHighFlow
-  name: high pressure gas mixer
-  description: Used for mixing gasses at the extreme pressures required by Supermatter engines.
+  name: misturador de gás de alta pressão
+  description: Usado para misturar gases nas pressões extremas exigidas por motores de supermatéria.
   placement:
     mode: SnapgridCenter
   components:
-    - type: GasMixer
-      maxTargetPressure: 13500
+  - type: GasMixer
+    maxTargetPressure: 13500
 
 - type: entity
   parent: GasMixerFlipped
   id: GasMixerFlippedHighFlow
-  name: high pressure gas mixer
-  suffix: Flipped
+  name: misturador de gás de alta pressão
+  suffix: Invertido
   placement:
     mode: SnapgridCenter
   components:
@@ -49,10 +49,10 @@
 - type: entity
   parent: PressureControlledValve
   id: PressureControlledValveHighFlow
-  name: blow-off valve
-  description: A variant on a pneumatic valve designed for fire suppression of Supermatter engines. When the pressure in its flow direction exceeds the "reference" pressure on its side, the valve opens.
+  name: válvula de alívio
+  description: Uma variante de uma válvula pneumática projetada para supressão de incêndio em motores de supermatéria. Quando a pressão na direção do fluxo excede a pressão "de referência" em seu lado, a válvula abre.
   placement:
     mode: SnapgridCenter
   components:
-    - type: PressureControlledValve
-      maxTransferRate: 3000
+  - type: PressureControlledValve
+    maxTransferRate: 3000

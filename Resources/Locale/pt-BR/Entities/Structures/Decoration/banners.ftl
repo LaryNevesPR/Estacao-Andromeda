@@ -1,14 +1,14 @@
 ent-BannerBase = estandarte base
     .desc = É o modelo de um banner, você não devia estar vendo isso.
 
-ent-BannerNanotrasen = estandarte da Nanotrasen
+ent-BannerNanotrasen = estandarte da NanoTrasen
     .desc = Um estandarte que mostra o logo da Nanotrasen. Parece bem barato.
 
 ent-BannerCargo = estandarte da logística
     .desc = Um estandarte mostrando as cores do departamento de logistica. Não. É. Da. Cargonia.
 
 ent-BannerEngineering = estandarte da engenheria
-    .desc = Um estrandarte mostrando as cores do departamento de engenharia. Escungrularidade.
+    .desc = Um estandarte mostrando as cores do departamento de engenharia. Escungularidade.
 
 ent-BannerMedical = estandarte da medicina
     .desc = Um estandarte mostrando as cores do departamento de medicina. Bem estéril.

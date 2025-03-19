@@ -1,8 +1,8 @@
 - type: entity
-  name: FPA-90 sub machine gun
+  name: submetralhadora FPA-90
   parent: BaseWeaponPistol
   id: WeaponSubMachineGunFPA90
-  description: It's a cheap piece of shit made by a company well known for cheap guns, but at least you don't need hearing protection while using it. It fires .25 caseless.
+  description: É uma merda barata feita por uma empresa bem conhecida por fazer armas baratas, mas pelo menos você não precisa de proteção auditiva enquanto a usa. Dispara munição .25 caseless.
   components:
   - type: Sprite
     sprite: _EE/Objects/Weapons/Guns/SMGs/FPA90.rsi
@@ -26,7 +26,7 @@
         maxDistance: 8
         rolloffFactor: 1.2
     availableModes:
-      - Burst
+    - Burst
     fireOnDropChance: 1
   - type: MagazineVisuals
     magState: mag
@@ -41,15 +41,15 @@
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
         whitelist:
-          tags:
-            - MagazineCaselessRifle
+        tags:
+        - MagazineCaselessRifle
       gun_chamber:
         name: Chamber
         startingItem: CartridgeCaselessRifle
         priority: 1
         whitelist:
-          tags:
-            - CartridgeCaselessRifle
+        tags:
+        - CartridgeCaselessRifle
   - type: Appearance
   - type: StaticPrice
     price: 200
@@ -92,7 +92,7 @@
   name: BRDI R-25
   parent: [BaseWeaponSubMachineGun, BaseGunWieldable]
   id: WeaponSubMachineGunBRDIR25
-  description: An iconic weapon used by members of the Biesel Republic Foreign Legion. As a pride and joy of the colonies, it represents freedom from the tyranny of the Sol Alliance. It is chambered in .25 Caseless Rifle.
+  description: Uma arma icônica usada por membros da Legião Estrangeira da República de Biesel. Como orgulho das colônias, representa a liberdade da tirania da Aliança Solar. É equipada com munição .25 caseless.
   components:
   - type: Sprite
     sprite: _EE/Objects/Weapons/Guns/SMGs/BRDI_R25.rsi
@@ -144,15 +144,15 @@
         ejectSound: /Audio/Weapons/Guns/MagOut/smg_magout.ogg
         priority: 2
         whitelist:
-          tags:
-            - MagazineCaselessRifle
+        tags:
+        - MagazineCaselessRifle
       gun_chamber:
         name: Chamber
         startingItem: CartridgeCaselessRifle
         priority: 1
         whitelist:
-          tags:
-            - CartridgeCaselessRifle
+        tags:
+        - CartridgeCaselessRifle
   - type: ExtendDescription
     descriptionList:
       - description: "gun-suppressed"
@@ -161,10 +161,10 @@
         requireDetailRange: false
 
 - type: entity
-  name: antique BRDI R-25
+  name: BRDI R-25 antiga
   parent: WeaponSubMachineGunBRDIR25
   id: WeaponSubMachineGunBRDIR25HoS
-  description: Once wielded by an unknown member of the Biesel Foreign Legion, this beloved rifle has seen battle with Sol on every world in the colonies.
+  description: Outrora empunhada por um membro desconhecido da Legião Estrangeira de Biesel, este amado rifle viu batalha com Sol em todos os mundos das colônias.
   components:
     - type: StealTarget
       stealGroup: HoSAntiqueWeapon

@@ -374,17 +374,17 @@ ent-SignPlaque = placa dourada
 ent-SignKiddiePlaque = placa infantil
     .desc = Uma placa modesta.
 
-ent-SignNanotrasen1 = placa Nanotrasen 1
+ent-SignNanotrasen1 = placa NanoTrasen 1
     .desc = Parte 1.
 
-ent-SignNanotrasen2 = placa Nanotrasen 2
+ent-SignNanotrasen2 = placa NanoTrasen 2
     .desc = Parte 2.
 
-ent-SignNanotrasen3 = placa Nanotrasen 3
+ent-SignNanotrasen3 = placa NanoTrasen 3
     .desc = Parte 3.
 
-ent-SignNanotrasen4 = placa Nanotrasen 4
+ent-SignNanotrasen4 = placa NanoTrasen 4
     .desc = Parte 4.
 
-ent-SignNanotrasen5 = placa Nanotrasen 5
+ent-SignNanotrasen5 = placa NanoTrasen 5
     .desc = Parte 5.

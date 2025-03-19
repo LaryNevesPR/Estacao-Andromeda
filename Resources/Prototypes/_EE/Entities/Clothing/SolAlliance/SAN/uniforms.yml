@@ -38,33 +38,33 @@
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGreen
-  name: Solarian green BDUs
-  suffix: SAN
-  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although Earth is no longer the green paradise of old, olive BDUs remain an emblem of old Earth's militaries.
+  name: farda SAN
+  suffix: Verde
+  description: Um uniforme comum usado pelos "soldados rasos" nas Forças Armadas Solarianas. Embora a Terra já não seja mais o paraíso verde de antigamente, as fardas de combate em verde oliva continuam sendo um emblema dos militares da antiga Terra.
   components:
-    - type: Sprite
-      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
-    - type: Clothing
-      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
+  - type: Sprite
+    sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
+  - type: Clothing
+    sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_green.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueGrey
-  name: Solarian grey BDUs
-  suffix: SAN
-  description: A common uniform worn by "grunts" in the Solarian Armed Forces. Although not as common as olive BDUs, "stone gray" remains a popular choice of uniform color.
+  name: farda SAN
+  suffix: Cinza
+  description: Um uniforme comum usado pelos "soldados rasos" nas Forças Armadas Solarianas. Embora não seja tão comum quanto as fardas de combate em verde oliva, o "cinza pedra" continua sendo uma escolha popular de cor de uniforme.
   components:
-    - type: Sprite
-      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
-    - type: Clothing
-      sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
+  - type: Sprite
+    sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
+  - type: Clothing
+    sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_grey.rsi
 
 - type: entity
   parent: [ClothingUniformBase, ClothingUniformFoldableBase, SolAllianceInfo]
   id: ClothingUniformJumpsuitSolFatigueIPC
-  name: Solarian IPC fatigues
-  suffix: SAN
-  description: IPCs serve as the only exception to the infamous xenophobia of the Solarians Armed Forces. For while SAN has never once permitted an alien to serve, it is eager to make use of synthetics to save pure humans from back breaking labor or charging into meat grinders.
+  name: farda SAN IPC
+  suffix: Cinza
+  description: IPCs são a única exceção à infame xenofobia das Forças Armadas Solarianas. Embora a SAN nunca tenha permitido que um alienígena servisse, ela está ansiosa para usar sintéticos para poupar humanos de trabalhos extenuantes ou de enfrentar situações mortais.
   components:
     - type: Sprite
       sprite: _EE/Clothing/SolAlliance/Uniforms/SAN_fatigue_ipc.rsi

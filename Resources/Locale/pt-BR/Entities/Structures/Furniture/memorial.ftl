@@ -1,9 +1,7 @@
 ent-Memorial = memorial
-    .desc = Esqueci por que existe.
+    .desc = Está Comemorando Algo.
 
 ent-SS13Memorial = Tumba de um Empregado Desconhecido
     .desc = Aqui descansa um empregado
-    Cujo nome ou profissão é desconhecida
-    Cujos atos não serão esquecidos
-
-
+    Cujo nome ou profissão foram desconhecidos
+    Cujos atos nunca serão esquecidos

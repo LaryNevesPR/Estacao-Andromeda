@@ -1,5 +1,5 @@
 ghost-role-information-giant-spider-vampire-name = Oneirófago
-ghost-role-information-giant-spider-vampire-description = Nest. Lure. Ambush. Consume.
+ghost-role-information-giant-spider-vampire-description = Aninhar. Atrair. Emboscar. Consumir. Repetir.
 
 ghost-role-information-cancer-mouse-name = Rato Cancerígeno
 ghost-role-information-cancer-mouse-description = Um Rato com câncer.

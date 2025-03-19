@@ -2,36 +2,36 @@
   parent: BaseItem
   id: BaseProgramDisk
   abstract: true
-  name: program disk
+  name: Disco de Programa
   components:
-    - type: Sprite
-      sprite: Objects/Misc/cd.rsi
-      state: icon
-    - type: ComputerDisk
-    - type: Tag
-      tags:
-        - ComputerDisk
+  - type: Sprite
+    sprite: Objects/Misc/cd.rsi
+    state: icon
+  - type: ComputerDisk
+  - type: Tag
+    tags:
+    - ComputerDisk
 
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskCommunications
-  name: program disk
-  suffix: Communications
-  description: A diskette for usage in a computer.
+  name: Disco de Programa
+  suffix: Comunicações
+  description: Um disquete para uso em um computador.
   components:
-    - type: ComputerDisk
-      programPrototype: CommunicationsConsoleDiskPrototype
-      persistState: true
+  - type: ComputerDisk
+    programPrototype: CommunicationsConsoleDiskPrototype
+    persistState: true
 
 - type: entity
   parent: BaseProgramDisk
   id: ProgramDiskUnburnt
-  name: program disk
-  description: A diskette for usage in a computer.
+  name: Disco de Programa
+  description: Um disquete para uso em um computador.
   components:
-    - type: ComputerDisk
-      programPrototype: UnburnedDiskPrototype
-      persistState: true
+  - type: ComputerDisk
+    programPrototype: UnburnedDiskPrototype
+    persistState: true
 
 - type: latheRecipe
   id: ProgramDiskUnburnt

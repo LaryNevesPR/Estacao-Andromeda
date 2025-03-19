@@ -1,12 +1,12 @@
-ent-UnfinishedMachineFrame = chassis de máquina
+ent-UnfinishedMachineFrame = chassi de máquina
     .desc = Uma máquina ainda sendo montada. Requer mais partes.
     .suffix = Inacabada
 
-ent-MachineFrame = chassis de máquina
+ent-MachineFrame = chassi de máquina
     .desc = Uma máquina ainda sendo montada. Requer mais partes.
     .suffix = Pronta
 
-ent-MachineFrameDestroyed = chassis de máquina destruída
+ent-MachineFrameDestroyed = chassi de máquina destruída
     .desc = Uma máquina ainda sendo montada. Requer mais partes.
     .suffix = Pronta
 

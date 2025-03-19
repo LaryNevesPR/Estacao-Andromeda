@@ -14,4 +14,4 @@ ent-BookLeiColetaneaParaCadetes = Coletânea de 3 volumes - Lei Espacial Vol. 1,
     .desc = Um conjunto de livros fundamentais para advogados de primeira.
 
 ent-BookSecurity = Elementos de Segurança
-    .desc = Um livro sobre segurança escrito pela Nanotrasen. O livro está manchado com sangue. Parece ter sido mais usado como arma do que como material de leitura. Está parcialmente em uma lingua estrangeira.
+    .desc = Um livro sobre segurança escrito pela NanoTrasen. O livro está manchado com sangue. Parece ter sido mais usado como arma do que como material de leitura. Está parcialmente em uma lingua estrangeira.
