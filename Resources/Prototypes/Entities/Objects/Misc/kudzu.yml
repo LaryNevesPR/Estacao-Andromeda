@@ -197,7 +197,7 @@
     - type: DamageContacts
       damage:
         types:
-          Slash: 3.5
+          Slash: 1.5
           Piercing: 1.5
       ignoreWhitelist:
         tags:
@@ -241,10 +241,8 @@
       solutions:
         food:
           reagents:
-            - ReagentId: Razorium
-              Quantity: 4
             - ReagentId: Protein
-              Quantity: 1
+              Quantity: 2
     - type: Respirator
       damage:
         types:
@@ -313,5 +311,13 @@
       chance: 0.45
       prototypes:
         - ShadowBasaltRandom
+    - type: TimedDespawn
+      lifetime: 30
+
+- type: entity
+  name: Temporary haze
+  id: ShadowKudzuTemp
+  parent: ShadowKudzuWeak
+  components:
     - type: TimedDespawn
       lifetime: 30
