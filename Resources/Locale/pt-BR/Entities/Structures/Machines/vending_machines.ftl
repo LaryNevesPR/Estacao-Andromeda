@@ -150,4 +150,4 @@ ent-VendingMachineChemicals = Vende-Químicos
     .desc = Provavelmente não é máquina de café.
 
 ent-VendingMachineChemicalsSyndicate = SyndiSucos
-    .desc = Espero que não seja feito com syndies recém-espremidos.
+    .desc = Espero que não seja feito com sindies recém-espremidos.

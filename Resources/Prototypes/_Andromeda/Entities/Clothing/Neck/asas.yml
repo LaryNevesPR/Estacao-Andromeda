@@ -2,7 +2,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCupidoAsa
   name: Asas de Cupido
-  description: Oxe asas? Ata é um cupido. Cupido?
+  description: Oxe asas? Ah, é um cupido... UM CUPIDO??
   components:
   - type: Sprite
     sprite: _Andromeda/Clothing/Neck/Cupido/asas.rsi

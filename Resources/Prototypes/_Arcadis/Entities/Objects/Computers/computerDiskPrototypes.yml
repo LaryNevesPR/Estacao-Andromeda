@@ -1,40 +1,41 @@
 - type: entity
   id: UnburnedDiskPrototype
-  name: unburned disk dummy prototype
+  name: Protótipo de Disco não Gravado
   categories: [HideSpawnMenu]
 
 - type: entity
   id: CrewMonitorDiskPrototype
-  name: Crew Monitor
+  name: Monitor da tripulação
   categories: [HideSpawnMenu]
   components:
-    - type: ActivatableUI
-      key: enum.CrewMonitoringUIKey.Key
-    - type: UserInterface
-      interfaces:
-        enum.CrewMonitoringUIKey.Key:
-          type: CrewMonitoringBoundUserInterface
-    - type: CrewMonitoringConsole
-    - type: DeviceNetwork
-      deviceNetId: Wireless
-      receiveFrequencyId: CrewMonitor
-    - type: WirelessNetworkConnection
-      range: 1200
+  - type: ActivatableUI
+    key: enum.CrewMonitoringUIKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.CrewMonitoringUIKey.Key:
+        type: CrewMonitoringBoundUserInterface
+  - type: CrewMonitoringConsole
+  - type: DeviceNetwork
+    deviceNetId: Wireless
+    receiveFrequencyId: CrewMonitor
+  - type: WirelessNetworkConnection
+    range: 1200
 
 - type: entity
   id: CommunicationsConsoleDiskPrototype
-  name: Communications Console
+  name: Console de Comunicações
   categories: [HideSpawnMenu]
   components:
-    - type: AccessReader
-      access: [["Command"]]
-    - type: CommunicationsConsole
-      title: comms-console-announcement-title-station
-    - type: DeviceNetwork
-      transmitFrequencyId: ShuttleTimer
-    - type: ActivatableUI
-      key: enum.CommunicationsConsoleUiKey.Key
-    - type: UserInterface
-      interfaces:
-        enum.CommunicationsConsoleUiKey.Key:
-          type: CommunicationsConsoleBoundUserInterface
+  - type: AccessReader
+    access: [["Command"]]
+  - type: CommunicationsConsole
+    title: comms-console-announcement-title-station
+  - type: DeviceNetwork
+    transmitFrequencyId: ShuttleTimer
+  - type: ActivatableUI
+    key: enum.CommunicationsConsoleUiKey.Key
+  - type: UserInterface
+    interfaces:
+      enum.CommunicationsConsoleUiKey.Key:
+        type: CommunicationsConsoleBoundUserInterface
+

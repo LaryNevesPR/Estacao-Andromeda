@@ -58,13 +58,13 @@ ghost-role-information-rat-servant-name = Servo Rato
 ghost-role-information-rat-servant-description = Você é um Servo Rato. Você deve seguir as ordens do seu rei.
 ghost-role-information-rat-servant-rules = Você é um antagonista, vasculhe, ataque e sirva seu rei!
 
-ghost-role-information-salvage-carp-name = Carpa espacial em naufrágio de salvamento
-ghost-role-information-salvage-carp-description = Defenda o saque dentro do naufrágio de salvamento!
+ghost-role-information-salvage-carp-name = Carpa espacial em naufrágio de salvatagem
+ghost-role-information-salvage-carp-description = Defenda o saque dentro do naufrágio de salvatagem!
 
 ghost-role-information-sentient-carp-name = Carpa Senciente
 ghost-role-information-sentient-carp-description = Ajude o dragão a encher a estação de carpas!
 
-ghost-role-information-salvage-shark-name = Sharkminnow espacial em naufrágio de salvamento
+ghost-role-information-salvage-shark-name = Tubarão espacial em naufrágio de salvatagem
 ghost-role-information-salvage-shark-description = Ajude as carpas mais jovens a proteger suas presas. Cheire o sangue!
 
 ghost-role-information-willow-name = Willow o canguru
@@ -73,8 +73,8 @@ ghost-role-information-willow-description = Você é um canguru chamado Willow! 
 ghost-role-information-space-tick-name = Carrapato espacial
 ghost-role-information-space-tick-description = Cause estragos na estação!
 
-ghost-role-information-salvage-tick-name = Carrapato espacial no naufrágio de salvamento
-ghost-role-information-salvage-tick-description = Defenda o saque dentro do naufrágio de salvamento!
+ghost-role-information-salvage-tick-name = Carrapato espacial no naufrágio de salvatagem
+ghost-role-information-salvage-tick-description = Defenda o saque dentro do naufrágio de salvatagem!
 
 ghost-role-information-honkbot-name = Bubô
 ghost-role-information-honkbot-description = Um ser artificial de pura maldade.
@@ -94,32 +94,32 @@ ghost-role-information-supplybot-description = Entregue mercadorias pela estaç�
 ghost-role-information-space-bear-name = Urso Espacial
 ghost-role-information-space-bear-description = Sua barriga ronca, e essas pessoas parecem realmente gostosas... que banquete!
 
-ghost-role-information-salvage-bear-name = Urso Espacial em naufrágio de salvamento
-ghost-role-information-salvage-bear-description = Defenda o saque dentro do naufrágio de salvamento!
+ghost-role-information-salvage-bear-name = Urso Espacial em naufrágio de salvatagem
+ghost-role-information-salvage-bear-description = Defenda o saque dentro do naufrágio de salvatagem!
 
 ghost-role-information-space-kangaroo-name = Canguru Espacial
 ghost-role-information-space-kangaroo-description = Dê à tripulação um gostinho de suas garras afiadas!
 
-ghost-role-information-salvage-kangaroo-name = Canguru espacial em naufrágio de salvamento
-ghost-role-information-salvage-kangaroo-description = Defenda o saque dentro do naufrágio de salvamento!
+ghost-role-information-salvage-kangaroo-name = Canguru espacial em naufrágio de salvatagem
+ghost-role-information-salvage-kangaroo-description = Defenda o saque dentro do naufrágio de salvatagem!
 
 ghost-role-information-space-spider-name = Aranha Espacial
 ghost-role-information-space-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
 
-ghost-role-information-salvage-spider-name = Aranha espacial em naufrágio de salvamento
+ghost-role-information-salvage-spider-name = Aranha espacial em naufrágio de salvatagem
 ghost-role-information-salvage-spider-description = As aranhas espaciais são tão agressivas quanto as aranhas comuns, consuma.
 
 ghost-role-information-space-cobra-name = Cobra Espacial
 ghost-role-information-space-cobra-description = As cobras espaciais realmente não gostam de visitantes e sempre petiscarão um intruso.
 
-ghost-role-information-salvage-cobra-name = Cobra Espacial em Naufrágio de Salvamento
+ghost-role-information-salvage-cobra-name = Cobra Espacial em Naufrágio de salvatagem
 ghost-role-information-salvage-cobra-description = As cobras espaciais realmente não gostam de visitantes e sempre petiscarão um intruso.
 
-ghost-role-information-salvage-flesh-name = Carne Anormal em Naufrágio de Salvamento
-ghost-role-information-salvage-flesh-description = Defenda o saque dentro do naufrágio de salvamento!
+ghost-role-information-salvage-flesh-name = Carne Anormal em Naufrágio de salvatagem
+ghost-role-information-salvage-flesh-description = Defenda o saque dentro do naufrágio de salvatagem!
 
 ghost-role-information-tropico-name = Tropico
-ghost-role-information-tropico-description = O nobre companheiro da Atmosia e seu mais defensor mais robusto. Viva!
+ghost-role-information-tropico-description = O nobre companheiro da Atmos e seu mais defensor mais robusto. Viva!
 
 ghost-role-information-guardian-name = Guardião
 ghost-role-information-guardian-description = Ouça seu dono. Não danifique o tanque. socar as pessoas com força.
@@ -161,19 +161,19 @@ ghost-role-information-cerberus-name = Cerberus, familiar do Mal
 ghost-role-information-cerberus-description = Obedeça seu mestre. Espalhe o caos.
 ghost-role-information-cerberus-rules = Você é um cachorro inteligente e demoníaco. Tente ajudar o padre e qualquer um de seu rebanho. Como antagonista, você não tem restrições.
 
-ghost-role-information-ert-leader-name = ERT Leader
+ghost-role-information-ert-leader-name = Líder ERT
 ghost-role-information-ert-leader-description = Liderar uma equipe de especialistas para resolver os problemas das estações.
 
-ghost-role-information-ert-janitor-name = ERT Janitor
+ghost-role-information-ert-janitor-name = Zelador ERT
 ghost-role-information-ert-janitor-description = Auxiliar nos esforços de custódia para resolver os problemas da estação.
 
-ghost-role-information-ert-engineer-name = ERT Engineer
+ghost-role-information-ert-engineer-name = Engenheiro ERT
 ghost-role-information-ert-engineer-description = Auxiliar nos esforços de engenharia para resolver os problemas das estações.
 
-ghost-role-information-ert-security-name = ERT Security
+ghost-role-information-ert-security-name = Segurança ERT
 ghost-role-information-ert-security-description = Auxiliar nos esforços de segurança para resolver os problemas das estações.
 
-ghost-role-information-ert-medical-name = ERT Medical
+ghost-role-information-ert-medical-name = Medico ERT
 ghost-role-information-ert-medical-description = Auxiliar nos esforços médicos para resolver os problemas das estações.
 
 ghost-role-information-cburn-agent-name = Agente de CBURN

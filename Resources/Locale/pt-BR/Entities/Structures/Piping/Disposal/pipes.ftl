@@ -1,4 +1,4 @@
-ent-DisposalHolder = disposal holder
+ent-DisposalHolder = recipiente de descarte
     .desc = { "" }
 
 ent-DisposalPipeBroken = tubo de rejeitos quebrado

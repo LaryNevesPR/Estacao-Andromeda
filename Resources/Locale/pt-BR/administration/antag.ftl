@@ -1,4 +1,4 @@
-verb-categories-antag = Controle de Antag
+verb-categories-antag = Controles de Antag
 admin-verb-make-traitor = Transforma o alvo em um traidor.
 admin-verb-make-zombie = Zumbifica o alvo imediatamente.
 admin-verb-make-nuclear-operative = Transforma o alvo em um nukie solitário.
@@ -12,3 +12,5 @@ admin-verb-text-make-nuclear-operative = Torna Operativo Nuclear
 admin-verb-text-make-pirate = Torna Pirata
 admin-verb-text-make-head-rev = Torna Head Rev
 admin-verb-text-make-thief = Torna Ladrão
+
+admin-overlay-antag-classic = ANTAG

@@ -26,13 +26,13 @@ ent-PosterContrabandGreyTide = Maré Cinza
     .desc = Um pôster rebelde simbolizando solidariedade assistente.
 
 ent-PosterContrabandMissingGloves = Luvas Desaparecidas
-    .desc = Este pôster faz referência à comoção que se seguiu aos cortes financeiros da Nanotrasen em relação à compra de luvas isolantes.
+    .desc = Este pôster faz referência à comoção que se seguiu aos cortes financeiros da NanoTrasen em relação à compra de luvas isolantes.
 
 ent-PosterContrabandHackingGuide = Guia de Hack
-    .desc = Este pôster detalha o funcionamento interno da fechadura comum da Nanotrasen. Infelizmente, parece desatualizado.
+    .desc = Este pôster detalha o funcionamento interno da fechadura comum da NanoTrasen. Infelizmente, parece desatualizado.
 
 ent-PosterContrabandRIPBadger = RIP Texugo
-    .desc = Este pôster sedicioso faz referência ao genocídio de uma estação espacial cheia de texugos pela Nanotrasen.
+    .desc = Este pôster sedicioso faz referência ao genocídio de uma estação espacial cheia de texugos pela NanoTrasen.
 
 ent-PosterContrabandAmbrosiaVulgaris = Ambrosia Vulgaris
     .desc = Este pôster parece bem alucinante, cara.
@@ -47,7 +47,7 @@ ent-PosterContrabandTools = Ferramentas
     .desc = Este pôster parece um anúncio de ferramentas, mas na verdade é uma provocação subliminar às ferramentas da CentCom.
 
 ent-PosterContrabandPower = Poder
-    .desc = Um pôster que posiciona o centro do poder fora da Nanotrasen.
+    .desc = Um pôster que posiciona o centro do poder fora da NanoTrasen.
 
 ent-PosterContrabandSpaceCube = Cubo Espacial
     .desc = Ignorante da Criação do Cubo Espacial Harmônico de 6 Lados da Natureza, os Espaçonautas são Burros, Educados Singularity Estúpido e Mal.
@@ -68,7 +68,7 @@ ent-PosterContrabandKosmicheskayaStantsiya = Kosmicheskaya Stantsiya 13 Não Exi
     .desc = Um pôster que zomba da negação da CentCom sobre a existência da estação abandonada perto da Estação Espacial 13.
 
 ent-PosterContrabandRebelsUnite = Rebeldes Unam-se
-    .desc = Um pôster incentivando o espectador a se rebelar contra a Nanotrasen.
+    .desc = Um pôster incentivando o espectador a se rebelar contra a NanoTrasen.
 
 ent-PosterContrabandC20r = C-20r
     .desc = Um pôster anunciando o Scarborough Arms C-20r.
@@ -163,8 +163,8 @@ ent-PosterContrabandNuclearDeviceInformational = Informativo do Dispositivo Nucl
 ent-PosterLegitHereForYourSafety = Aqui Para Sua Segurança
     .desc = Um pôster glorificando a força de segurança da estação.
 
-ent-PosterLegitNanotrasenLogo = Logotipo da Nanotrasen
-    .desc = Um pôster retratando o logotipo da Nanotrasen.
+ent-PosterLegitNanotrasenLogo = Logotipo da NanoTrasen
+    .desc = Um pôster retratando o logotipo da NanoTrasen.
 
 ent-PosterLegitCleanliness = Limpeza
     .desc = Um pôster alertando sobre os perigos da má higiene.
@@ -236,16 +236,16 @@ ent-PosterLegitCohibaRobustoAd = Anúncio do Cohiba Robusto
     .desc = Cohiba Robusto, o charuto elegante.
 
 ent-PosterLegit50thAnniversaryVintageReprint = Reimpressão Vintage do 50º Aniversário
-    .desc = Uma reimpressão de um pôster de 2505, comemorando o 50º Aniversário da Nanoposters Manufacturing, uma subsidiária da Nanotrasen.
+    .desc = Uma reimpressão de um pôster de 2505, comemorando o 50º Aniversário da Nanoposters Manufacturing, uma subsidiária da NanoTrasen.
 
 ent-PosterLegitFruitBowl = Fruteira
     .desc = Simples, mas inspirador.
 
 ent-PosterLegitPDAAd = Anúncio do PDA
-    .desc = Um pôster anunciando o mais recente PDA dos fornecedores da Nanotrasen.
+    .desc = Um pôster anunciando o mais recente PDA dos fornecedores da NanoTrasen.
 
 ent-PosterLegitEnlist = Aliste-se
-    .desc = Aliste-se hoje mesmo nas reservas do Esquadrão da Morte da Nanotrasen!
+    .desc = Aliste-se hoje mesmo nas reservas do Esquadrão da Morte da NanoTrasen!
 
 ent-PosterLegitNanomichiAd = Anúncio da Nanomichi
     .desc = Um pôster anunciando as fitas cassete da marca Nanomichi.
@@ -260,7 +260,7 @@ ent-PosterLegitTheOwl = A Coruja
     .desc = A Coruja faria o seu melhor para proteger
 
 ent-PosterLegitNoERP = No ERP
-    .desc = Este pôster lembra à tripulação que Erotismo e Pornografia são proibidos nas estações da Nanotrasen.
+    .desc = Este pôster lembra à tripulação que Erotismo e Pornografia são proibidos nas estações da NanoTrasen.
 
 ent-PosterLegitCarbonDioxide = Dióxido de Carbono
     .desc = Este pôster informativo ensina ao espectador o que é dióxido de carbono.
@@ -269,7 +269,7 @@ ent-PosterLegitDickGumshue = Dick Gumshue
     .desc = Um pôster anunciando as aventuras de Dick Gumshue, o detetive rato. Incentivando a tripulação a trazer a força da justiça contra sabotadores de fios.
 
 ent-PosterLegitThereIsNoGasGiant = Não Existe Gigante de Gás
-    .desc = A Nanotrasen emitiu pôsteres, como este, para todas as estações, lembrando-lhes que os rumores sobre um gigante gasoso são falsos.
+    .desc = A NanoTrasen emitiu pôsteres, como este, para todas as estações, lembrando-lhes que os rumores sobre um gigante gasoso são falsos.
 
 ent-PosterLegitJustAWeekAway = Apenas uma Semana...
     .desc = Um pôster anunciando um projeto há muito adiado, ainda afirmando que está 'apenas uma semana de distância...'

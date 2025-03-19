@@ -1,15 +1,15 @@
 ﻿# UI
-ban-list-bans = Bans
-ban-list-role-bans = Bans de Função
+ban-list-bans = Banimentos
+ban-list-role-bans = Banimentos de Função
 
 ban-list-header-ids = Ids
 ban-list-header-reason = Razão
 ban-list-header-role = Função
-ban-list-header-time = Tempo de ban
+ban-list-header-time = Tempo de Banimento
 ban-list-header-expires = Expira em
 ban-list-header-banning-admin = Banido por
 
-ban-list-title = Bans para {$player}
+ban-list-title = Banimentos para {$player}
 ban-list-hidden = Ver
 ban-list-id = ID: {$id}
 ban-list-ip = IP: {$ip}

@@ -2,18 +2,18 @@
 - type: entity
   parent: [IDCardStandard, SolAllianceInfo]
   id: SANIdCard
-  name: "Solarian Alliance Navy RFItags"
+  name: "Colar de identificação da Marinha da Aliança Solar"
   components:
-    - type: Icon
-      sprite: Clothing/Neck/Misc/dogtags.rsi
-      state: icon
-    - type: Sprite
-      sprite: Clothing/Neck/Misc/dogtags.rsi
-      state: icon
-    - type: Clothing
-      sprite: Clothing/Neck/Misc/dogtags.rsi
-      slots:
-        - idcard
-    - type: Access
-      tags:
-        - SAN
+  - type: Icon
+    sprite: Clothing/Neck/Misc/dogtags.rsi
+    state: icon
+  - type: Sprite
+    sprite: Clothing/Neck/Misc/dogtags.rsi
+    state: icon
+  - type: Clothing
+    sprite: Clothing/Neck/Misc/dogtags.rsi
+    slots:
+    - idcard
+  - type: Access
+    tags:
+    - SAN

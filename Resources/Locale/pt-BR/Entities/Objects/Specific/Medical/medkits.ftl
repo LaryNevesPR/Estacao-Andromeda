@@ -5,13 +5,13 @@ ent-MedkitBurn = kit de queimados
     .desc = Um kit médico contendo itens especializados no tratamento de queimaduras.
 
 ent-MedkitToxin = kit de toxina
-    .desc = Um kit médico contendo itens especilaizados no tratamento de toxinas.
+    .desc = Um kit médico contendo itens especializados no tratamento de toxinas.
 
 ent-MedkitO2 = kit de sufocamento
     .desc = Um kit médico contendo itens especializados no tratamento de sufocamento.
 
 ent-MedkitBrute = kit de trauma bruto
-    .desc = Um kit médico contendo itens utilizados no tratemtento de traumas brutos.
+    .desc = Um kit médico contendo itens utilizados no tratamento de traumas brutos.
 
 ent-MedkitAdvanced = kit médico avançado
     .desc = Um kit médico de alto padrão.

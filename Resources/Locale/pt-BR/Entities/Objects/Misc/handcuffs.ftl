@@ -4,5 +4,5 @@ ent-Algemas = algemas
 ent-Cablecuffs = algemas improvisadas
      .desc = Algemas caseiras feitas com cabos sobressalentes.
 
-ent-Zipties = zipties
-     .desc = Zipties de plástico resistentes e descartáveis, ideais para conter prisioneiros turbulentos.
+ent-Zipties = braçadeiras de plástico
+     .desc = braçadeiras de plástico resistentes e descartáveis, ideais para conter prisioneiros turbulentos.

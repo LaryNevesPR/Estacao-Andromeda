@@ -1,5 +1,5 @@
 ﻿- type: entity
-  name: bow
+  name: arco
   parent: BaseBow
   id: CupidoBow
   description: O ARCO DO CUPIDO?? ELE EXISTE???
@@ -34,8 +34,8 @@
 - type: entity
   parent: BaseArrow
   id: ArrowCupido
-  name: Flecha do cupido
-  description: A lendária flecha do cupido. Seu amor está a uma flechada de distancia.
+  name: Flecha do Cupido
+  description: A lendária flecha do Cupido. Seu amor está a uma flechada de distância.
   components:
   - type: Sprite
     sprite: _Andromeda/Objects/Weapons/Guns/Bow/flecha.rsi

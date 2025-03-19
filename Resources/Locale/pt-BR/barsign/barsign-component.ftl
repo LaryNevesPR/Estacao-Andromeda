@@ -56,7 +56,7 @@ barsign-prototype-description-maltese-falcon = Toca denovo, sam.
 
 ## The Sun
 barsign-prototype-name-the-sun = O Sol
-barsign-prototype-description-the-sun = Não irônicamente brilhante para um bar sombrio.
+barsign-prototype-description-the-sun = Não ironicamente brilhante para um bar sombrio.
 
 ## The Birdcage
 barsign-prototype-name-the-birdcage = A Gaiola
@@ -64,7 +64,7 @@ barsign-prototype-description-the-birdcage = Piu piu piu!
 
 ## Zocalo
 barsign-prototype-name-zocalo = Zocalo
-barsign-prototype-description-zocalo = Anteriormente ubicado en Spessmerica.
+barsign-prototype-description-zocalo = Anteriormente publicado en Spessmerica.
 
 ## LV426
 barsign-prototype-name-lv426 = LV-426
@@ -95,6 +95,10 @@ barsign-prototype-description-empbarsign = Algo deu muito errado.
 
 ## SignOff
 barsign-prototype-description-sign-off = Esse letreiro não está ligado.
+
+## Spacebucks
+barsign-prototype-name-spacebucks = Spacebucks
+barsign-prototype-description-spacebucks = Você não consegue fugir deles, mesmo no espaço, e mesmo depois de começarmos a chamá-los de 'spesos'.
 
 # Nyano specific sign
 ## Whiskey Echoes

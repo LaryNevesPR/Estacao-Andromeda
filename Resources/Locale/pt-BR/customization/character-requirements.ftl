@@ -56,7 +56,7 @@ character-backpack-type-requirement = Você deve{$inverted ->
 character-clothing-preference-requirement = Você deve {$inverted ->
     [true] não usar
     *[other] usar
-} um [color=white]{$type}[/color]
+} [color=white]{$type}[/color]
 
 character-gender-requirement = Você deve {$inverted ->
     [true] não ter
@@ -70,7 +70,6 @@ character-sex-requirement = Você deve{$inverted ->
     [None] sem sexo
     *[other] {$sex}
 }[/color]
-
 character-species-requirement = Você deve{$inverted ->
     [true]{" "}não
     *[other]{""}

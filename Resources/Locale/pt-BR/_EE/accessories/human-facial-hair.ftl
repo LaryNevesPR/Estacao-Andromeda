@@ -1,0 +1,11 @@
+marking-HumanFacialHairChin2 = Barba (Chinstrap 2)
+marking-HumanFacialHairSuperLong = Barba (Super Longa)
+marking-HumanFacialHairShort = Barba (Curta)
+marking-HumanFacialHairThick = Barba (Espessa)
+marking-HumanFacialHairViking = Barba (Viking)
+marking-HumanFacialHairBristle = Barba (Cerdas)
+marking-HumanFacialHairMoustacheWithStubble = Bigode (Com Saliências)
+marking-HumanFacialHairThickBristle = Barba (Cerdas Espessas)
+marking-HumanFacialHairHandlebar = Bigode (Guidão 1)
+marking-HumanFacialHairHandlebar2 = Bigode (Guidão 2)
+

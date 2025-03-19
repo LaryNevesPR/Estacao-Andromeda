@@ -1,42 +1,42 @@
 - type: entity
   parent: BaseComputer
   id: BaseComputerModular
-  name: modular computer
-  description: Part of a recent initiative to make computers less static. Comes with a disk slot for various "program disks".
+  name: Computador Modular
+  description: Parte de uma iniciativa recente para tornar os computadores menos estáticos. Vem com um slot de disco para vários "discos de programas".
   components:
-    - type: Computer
-      board: BaseComputerModularCircuitBoard
-    - type: ModularComputer
-    - type: ItemSlots
-      slots:
-        modularComputerDiskSlot:
-          name: Program disk
-          insertSound:
-            path: /Audio/Machines/terminal_insert_disc.ogg
-          ejectSound:
-            path: /Audio/Machines/terminal_insert_disc.ogg
-          whitelist:
-            tags:
-              - ComputerDisk
-    - type: ContainerContainer
-      containers:
-        board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        modularComputerDiskSlot: !type:ContainerSlot
-          showEnts: False
-          occludes: True
-          ent: null
+  - type: Computer
+    board: BaseComputerModularCircuitBoard
+  - type: ModularComputer
+  - type: ItemSlots
+    slots:
+      modularComputerDiskSlot:
+        name: Disco de Programa
+        insertSound:
+          path: /Audio/Machines/terminal_insert_disc.ogg
+        ejectSound:
+          path: /Audio/Machines/terminal_insert_disc.ogg
+        whitelist:
+          tags:
+          - ComputerDisk
+  - type: ContainerContainer
+    containers:
+      board: !type:Container
+        showEnts: False
+        occludes: True
+        ents: []
+      modularComputerDiskSlot: !type:ContainerSlot
+        showEnts: False
+        occludes: True
+        ent: null
 
 - type: entity
   parent: BaseComputerCircuitboard
   id: BaseComputerModularCircuitBoard
-  name: modular computer board
-  description: A computer printed circuit board for a modular computer.
+  name: Placa de Circuito de Computador Modular
+  description: Uma placa de circuito impresso de computador para um computador modular.
   components:
-    - type: ComputerBoard
-      prototype: BaseComputerModular
+  - type: ComputerBoard
+    prototype: BaseComputerModular
 
 - type: latheRecipe
   id: BaseComputerModularCircuitBoard
@@ -44,6 +44,6 @@
   category: Circuitry
   completetime: 4
   materials:
-     Steel: 100
-     Glass: 500
-     Gold: 100
+    Steel: 100
+    Glass: 500
+    Gold: 100

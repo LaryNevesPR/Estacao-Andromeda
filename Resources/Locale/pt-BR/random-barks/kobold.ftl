@@ -1,0 +1,19 @@
+bark-kobold-1 = Grrr
+bark-kobold-2 = Tesouro, meu agora
+bark-kobold-3 = Faminto
+bark-kobold-4 = Mais brilhantes!
+bark-kobold-5 = Preciso coletar coisas
+bark-kobold-6 = Furtivo furtivo
+bark-kobold-7 = Meu agora
+bark-kobold-8 = Yip yip
+bark-kobold-9 = Com medo
+bark-kobold-10 = Se esconde
+bark-kobold-11 = Ai!
+bark-kobold-12 = Yip yip yip
+bark-kobold-13 = Vá embora
+bark-kobold-14 = Olha, brilhante
+bark-kobold-15 = Preciso de ajuda
+bark-kobold-16 = Eu vejo você
+bark-kobold-17 = Eu não gosto de você
+bark-kobold-count = 17
+

@@ -1,0 +1,13 @@
+marking-HumanHairArabicGathered = Coletado Árabe
+marking-HumanHairClassicHair = Cabelo Clássico
+marking-HumanHairSideComb = Penteado Lateral
+marking-HumanHairLong4 = Longo Quatro
+marking-HumanHairManbun2 = Coque (Coque Masculino 2)
+marking-HumanHairPigtailTajaran = Marias-Chiquinhas Tajaran
+marking-HumanHairShavedSide = Lado Raspado
+marking-HumanHairShorthair8 = Cabelo Curto 8
+marking-HumanFembun = Coque Feminino
+marking-HumanHairAfricanPigtails = Marias-Chiquinhas Africanas
+marking-HumanHairAfropuffDouble = Afro Puff (Duplo)
+marking-HumanHairAfropuffLeft = Afro Puff (Esquerdo)
+marking-HumanHairAfropuffRight = Afro Puff (Direito)

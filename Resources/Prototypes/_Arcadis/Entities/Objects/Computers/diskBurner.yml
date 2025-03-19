@@ -1,8 +1,8 @@
 - type: entity
   id: DiskBurner
-  parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: disk burner
-  description: Takes a computer circuit board and disk as input. Burns the computer board's program to the disk.
+  parent: [BaseMachinePowered, ConstructibleMachine]
+  name: gravador de discos
+  description: Recebe uma placa de circuito e um disco como entrada. Grava o programa da placa de circuito no disco.
   components:
   - type: Sprite
     sprite: Structures/Machines/circuit_imprinter.rsi
@@ -18,19 +18,19 @@
   - type: ItemSlots
     slots:
       diskSlot:
-        name: Disk
+        name: Disco
         insertSound:
           path: /Audio/Machines/terminal_insert_disc.ogg
         ejectSound:
           path: /Audio/Machines/terminal_insert_disc.ogg
         whitelist:
           tags:
-            - ComputerDisk
+          - ComputerDisk
       boardSlot:
-        name: Board
+        name: Placa
         whitelist:
           tags:
-            - ComputerBoard
+          - ComputerBoard
   - type: DiskBurner
   - type: ContainerContainer
     containers:
@@ -54,7 +54,7 @@
 - type: entity
   id: DiskBurnerMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: disk burner machine board
+  name: placa da máquina de gravar discos
   components:
   - type: Sprite
     state: science
@@ -70,6 +70,6 @@
   category: Circuitry
   completetime: 4
   materials:
-     Steel: 100
-     Glass: 700
-     Gold: 100
+    Steel: 100
+    Glass: 700
+    Gold: 100

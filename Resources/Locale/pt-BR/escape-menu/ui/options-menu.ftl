@@ -13,7 +13,7 @@ ui-options-default = Padrão
 
 # Misc/General menu
 
-ui-options-discordrich = Enable Discord Rich Presence
+ui-options-discordrich = Habilitar Presença Rica do Discord
 ui-options-general-ui-style = Estilo de ui
 ui-options-general-discord = Discord
 ui-options-general-cursor = Cursor

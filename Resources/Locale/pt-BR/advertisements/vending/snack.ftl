@@ -1,7 +1,7 @@
 advertisement-snack-1 = Experimente nossa barra de torrone!
 advertisement-snack-2 = O dobro das calorias por metade do preço!
 advertisement-snack-3 = O mais saudável!
-advertisement-snack-4 = O chocolate vencedor do oscar!
+advertisement-snack-4 = O chocolate vencedor do Oscar!
 advertisement-snack-5 = Mmm! Tão bom!
 advertisement-snack-6 = É tão suculento!
 advertisement-snack-7 = Pegue um pouquinho.

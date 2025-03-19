@@ -1,1 +1,1 @@
-clothing-boots-sidearm = Arma lateral
+clothing-boots-sidearm = Arma secundária

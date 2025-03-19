@@ -1,0 +1,10 @@
+marking-HumanHairShortBedhead = Despenteado Curto
+marking-HumanHairBobClassic = Bob Clássico
+marking-HumanHairMessyClassic = Despenteado Clássico
+marking-HumanHairClassicGentle = Clássico Suave
+marking-HumanHairClassicNoFade = Desbotado (Nenhum, Clássico)
+marking-HumanHairClassicLowFade = Desbotado (Baixo, Clássico)
+marking-HumanHairClassicMedFade = Desbotado (Médio, Clássico)
+marking-HumanHairClassicOmbre = Clássico Ombre
+marking-HumanHairClassicCrewcut = Clássico Militar
+marking-HumanHairClassicLong = Cabelo Longo Clássico 1
