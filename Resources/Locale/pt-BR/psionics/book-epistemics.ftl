@@ -1,4 +1,4 @@
-book-text-epistemics1 = OS EFEITOS DE ALTOS NÍVEIS DE BRILHO
+book-text-epistemics1 = OS EFEITOS DE ALTOS NÍVEIS DO GLIMMER
 
       Em um turno que servi em uma de nossas estações remotas, tínhamos um místico excêntrico como o único membro do comando.
       Sua grande experiência foi... elevar o Glimmer ao máximo que pôde, até que nosso gramateu não conseguiu mais medir a quantidade.

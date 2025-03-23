@@ -1,7 +1,7 @@
-command-glimmershow-description = Mostra o nível de Brilho atual.
+command-glimmershow-description = Mostra o nível do Glimmer atual.
 command-glimmershow-help = Sem argumentos.
 
-command-glimmerset-description = Definir Brilho para um número.
+command-glimmerset-description = Definir Glimmer para um número.
 command-glimmerset-help = glimmerset (integer)
 
 command-lspsionic-description = Lista os psiônicos.
