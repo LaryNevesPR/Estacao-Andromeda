@@ -42,7 +42,7 @@
   - type: NightVision
     isActive: false
     toggleAction: ToggleNightVisionDaengati
-    color: "#1c2d2e"
+    color: "#7a5858"
     strength: 2
     activateSound: null
     deactivateSound: null
