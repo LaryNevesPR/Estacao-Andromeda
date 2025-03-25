@@ -839,6 +839,7 @@
   id: DisasterVictimCMO
   randomizeName: false
   components:
+    - type: SurgerySkill
     - type: GhostRole
       name: ghost-role-information-disaster-victim-name
       description: ghost-role-information-disaster-victim-description
@@ -857,6 +858,7 @@
   id: DisasterVictimCaptain
   randomizeName: false
   components:
+    - type: SurgerySkill
     - type: GhostRole
       name: ghost-role-information-disaster-victim-name
       description: ghost-role-information-disaster-victim-description
