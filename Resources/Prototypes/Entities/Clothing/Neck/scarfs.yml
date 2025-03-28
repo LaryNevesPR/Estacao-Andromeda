@@ -1,5 +1,5 @@
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedRed
   name: striped red scarf
   description: A stylish striped red scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -12,7 +12,7 @@
     coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedBlue
   name: striped blue scarf
   description: A stylish striped blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -25,7 +25,7 @@
     coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedGreen
   name: striped green scarf
   description: A stylish striped green scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -38,7 +38,7 @@
     coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedBlack
   name: striped black scarf
   description: A stylish striped black scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -51,7 +51,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedBrown
   name: striped brown scarf
   description: A stylish striped brown scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -64,7 +64,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedLightBlue
   name: striped light blue scarf
   description: A stylish striped light blue scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -77,7 +77,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedOrange
   name: striped orange scarf
   description: A stylish striped orange scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -90,7 +90,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedPurple
   name: striped purple scarf
   description: A stylish striped purple scarf. The perfect winter accessory for those with a keen fashion sense, and those who just can't handle a cold breeze on their necks.
@@ -103,7 +103,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedSyndieGreen
   name: striped syndicate green scarf
   description: A stylish striped syndicate green scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
@@ -116,7 +116,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedSyndieRed
   name: striped syndicate red scarf
   description: A stylish striped syndicate red scarf. The perfect winter accessory for those with a keen fashion sense, and those who are in the mood to steal something.
@@ -129,7 +129,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedCentcom
   name: striped CentCom scarf
   description: A stylish striped centcom colored scarf. The perfect winter accessory for those with a keen fashion sense, and those who need to do paperwork in the cold.
@@ -142,7 +142,7 @@
       coefficient: 0.8
 
 - type: entity
-  parent: ClothingNeckBase
+  parent: ClothingNeckScarfBase
   id: ClothingNeckScarfStripedZebra
   name: zebra scarf
   description: A striped scarf, a mandatory accessory for artists.
