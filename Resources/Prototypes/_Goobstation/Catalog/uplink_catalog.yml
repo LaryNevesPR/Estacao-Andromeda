@@ -50,7 +50,7 @@
   description: uplink-sleeping-carp-desc
   productEntity: SleepingCarpScroll
   cost:
-    Telecrystal: 70
+    Telecrystal: 90 #Nerf por agora - Andromeda
   categories:
   - UplinkWeaponry
   conditions:
