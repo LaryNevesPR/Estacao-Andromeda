@@ -90,3 +90,13 @@
   - type: Sprite
     sprite: _Andromeda/misc/figures_catarse.rsi
     state: lawlaw_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineMarcos
+  name: Marcos Felipe Azevedo
+  description: Template
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: marcos_figure
