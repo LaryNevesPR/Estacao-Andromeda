@@ -17,6 +17,9 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
       min: 36000 # 20 hrs
+    - !type:CharacterEmployerRequirement
+      employers:
+      - NanoTrasen
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

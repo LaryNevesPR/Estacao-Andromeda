@@ -10,6 +10,10 @@
     - !type:CharacterDepartmentTimeRequirement # DeltaV - Medical dept time requirement
       department: Medical
       min: 14400 # Andromeda
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
     # - !type:OverallPlaytimeRequirement # DeltaV - No playtime requirement
     #   time: 54000 # 15 hrs
   startingGear: ParamedicGear

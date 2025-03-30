@@ -3,11 +3,17 @@
   name: job-name-salvagespec
   description: job-description-salvagespec
   playTimeTracker: JobSalvageSpecialist
-  antagAdvantage: 5 # Verificar agora com o rebalence do TC
+  antagAdvantage: 10 # Verificar agora com o rebalence do TC
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Logistics
       min: 14400 # 4 hores
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
+  #  - !type:OverallPlaytimeRequirement #DeltaV
+  #    time: 36000 #10 hrs
   icon: "JobIconShaftMiner"
   startingGear: SalvageSpecialistGear
   supervisors: job-supervisors-qm
