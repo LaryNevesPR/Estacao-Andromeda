@@ -1,0 +1,17 @@
+{
+    "version": 1,
+    "license": "CC-BY-SA-3.0",
+    "copyright": "By Lary",
+    "size": {
+        "x": 32,
+        "y": 32
+    },
+    "states": [
+        {
+            "name": "passport_andromeda_closed"
+        },
+        {
+            "name": "passport_andromeda_open"
+        }
+    ]
+}

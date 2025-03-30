@@ -1,0 +1,4 @@
+- type: employer
+  id: Andromeda
+  nameKey: employer_name_andromeda
+  descriptionKey: employer_description_andromeda
