@@ -10,6 +10,11 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 7200 # 2 horas de sec para aprender que não é legal sofrer pra clown
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
+
   access:
   - Theatre
   - Maintenance
@@ -30,11 +35,6 @@
     - type: Snoring # Necessary so SleepEmitSound sound effects play
   - !type:AddImplantSpecial
     implants: [ SadTromboneImplant ]
-  requirements:
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
 
 - type: startingGear
   id: ClownGear

@@ -11,6 +11,10 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       min: 7200 # 2 horas de sec para aprender que não é legal sofrer pra clown
+    - !type:CharacterEmployerRequirement
+      inverted: true
+      employers:
+      - Unemployed
   access:
   - Theatre
   - Maintenance
@@ -20,11 +24,6 @@
     components:
     - type: MimePowers
     - type: FrenchAccent
-  requirements:
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
 
 - type: startingGear
   id: MimeGear
