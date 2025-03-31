@@ -79,7 +79,7 @@
   - greenshift
   - shittersafarideluxeedition
   name: greenshift-title
-  showInVote: true
+  showInVote: false # Wtf porque demonios habilitaram o Greenshift? #Andrômeda
   description: greenshift-description
   rules:
   - LavalandStormScheduler # Lavaland Change
