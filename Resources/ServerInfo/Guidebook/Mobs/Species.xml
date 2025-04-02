@@ -20,5 +20,6 @@
   # Parkstation specific species
   <Box>
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
+  <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
   </Box>
 </Document>
