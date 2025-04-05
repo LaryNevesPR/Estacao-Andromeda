@@ -9,7 +9,7 @@ dispel-power-metapsionic-feedback = {CAPITALIZE($entity)} é uma pedra poderosa,
 # Sono em massa
 mass-sleep-power-description = Coloque alvos em uma pequena área para dormir.
 mass-sleep-initialization-feedback = Alcançando as mentes ao meu redor, localizei as palavras que podem enviar outros ao reino dos sonhos.
-mass-sleep-metapsionic-feedback = {CAPITALIZE($entity)} carrega a marca inesquecível de um ladrão de sonhos.
+mass-sleep-power-metapsionic-feedback = {CAPITALIZE($entity)} carrega a marca inesquecível de um ladrão de sonhos.
 
 # Troca de mente
 mind-swap-power-description = Troque mentes com o alvo. Ambos podem voltar ao normal após 20 segundos.
@@ -179,3 +179,44 @@ ghost-role-information-familiar-name = Familiar psiônico
 ghost-role-information-familiar-description = Uma criatura interdimensional ligada à vontade de um Psiônico.
 ghost-role-information-familiar-rules =
     Obedeça quem te convocou. Não aja contra os interesses do seu mestre. Você morrerá pelo seu mestre se for necessário.
+# Assay Power
+assay-begin = O ar ao redor de {CAPITALIZE($entity)} começa a brilhar levemente
+assay-self = EU SOU.
+no-powers = {CAPITALIZE($entity)} nunca despertará do sonho nesta vida
+assay-body = Minha vontade lançada sobre {CAPITALIZE($entity)} revela isso.
+    Amplificação: {$amplification}
+    Atenuação: {$dampening}
+    Potentia: {$potentia}
+assay-power-initialization-feedback =
+    Eu desço mais uma vez à luz dos sonhos, lá eu bebo mais profundamente do cálice do conhecimento. O toque da noosfera sobre os outros me é revelado,
+    posso lançar minha vontade sobre eles, discernindo a natureza interior dos outros.
+assay-power-metapsionic-feedback = {CAPITALIZE($entity)} carrega uma centelha do julgamento divino, eles beberam profundamente do cálice do conhecimento.
+
+# Anoigo Power
+action-name-anoigo = Anoigo
+action-description-anoigo = Abra portas trancadas e emperradas.
+anoigo-power-initialization-feedback =
+    O conhecimento chegou até mim em uma garrafa ao longo das margens da Entropia.
+    Guardiões de riquezas e segredos podem ser persuadidos se você falar sua língua.
+anoigo-power-metapsionic-feedback = {CAPITALIZE($entity)} possui a língua do Guardião dos Portões.
+
+# Entity Specific Feedback Messages
+ifrit-feedback = Um espírito de Gehenna, vinculado pela vontade de um poderoso psíquico
+prober-feedback = Um espelho para o fim dos tempos, os gritos de estrelas mortas emanam desta máquina
+drain-feedback = Um espelho para um reino onde as estrelas permanecem imóveis para sempre, uma malevolência fria e distante encara de volta
+sophic-grammateus-feedback = BUSCADOR, VOCÊ PRECISA APENAS PEDIR MINHA SABEDORIA.
+oracle-feedback = POR QUE ME INCOMODA, BUSCADOR? NÃO DEIXEI CLAROS MEUS DESEJOS?
+orecrab-feedback = Arautos do Senhor da Terra, convocados para este reino do reino de Grome
+reagent-slime-feedback = Arautos do Senhor da Água, convocados para este reino do reino de Straasha.
+flesh-golem-feedback = Abominações retiradas de reinos mortos, amalgamações distorcidas daqueles que caíram sob a influência do Caos primordial
+glimmer-mite-feedback = Um parasita semi-corpóreo nativo da luz dos sonhos, sua presença aqui traz os gritos de estrelas mortas.
+anomaly-pyroclastic-feedback = Um pequeno espelho para o plano de Gehenna, a verdade reside dentro do Segredo do Fogo
+anomaly-gravity-feedback = Violeta e carmesim, azul do azul, impossivelmente escuro, mas maior que o mais branco dos brancos, uma estrela negra brilha fracamente no fim de tudo
+anomaly-electricity-feedback = Um espelho para um reino pavimentado por silício, o sangue vital do pensamento artificial flui dele
+anomaly-flesh-feedback = De dentro dele vem o sofrimento de mutantes condenados uivando por toda a eternidade
+anomaly-bluespace-feedback = Uma ponte de luz dos sonhos, cruzando para o espaço entre os reinos do multiverso
+anomaly-ice-feedback = Paredes de pedra enegrecida, ruína e fome aguardam aqueles que caem dentro
+anomaly-rock-feedback = Um vasto carvalho antigo habita alto sobre um plano de pedra, ele se vira para encarar de volta
+anomaly-flora-feedback = Notas musicais flutuam ao seu redor, chamando de forma brincalhona, elas desejam se banquetear
+anomaly-liquid-feedback = Um reino de correntes sinuosas. Sua placidez é uma mentira. Os olhos dentro olham famintos
+anomaly-shadow-feedback = No fim dos tempos, quando todos os sóis se puserem para sempre, lá no meio do vazio está um monumento aos pecados passados.
