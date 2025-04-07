@@ -49,3 +49,13 @@
       id: SkeletonAccent
     - type: trait
       id: NerdAccent
+    - type: trait
+      id: GermanAccent
+    - type: trait
+      id: RussianAccent
+    - type: trait
+      id: FrenchAccent
+    - type: trait
+      id: ItalianAccent
+    - type: trait
+      id: SpanishAccent

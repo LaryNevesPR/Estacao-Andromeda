@@ -33,6 +33,7 @@ using Robust.Client.UserInterface.XAML;
 using Robust.Shared.ContentPack;
 using Robust.Client.Utility;
 using Robust.Client.Player;
+using Robust.Shared;
 using Robust.Shared.Configuration;
 using Robust.Shared.Enums;
 using Robust.Shared.Map;
@@ -275,30 +276,37 @@ namespace Content.Client.Lobby.UI
 
             #region Contractors
 
-            Background.Orphan();
-            CTabContainer.AddTab(Background, Loc.GetString("humanoid-profile-editor-background-tab"));
-
-            RefreshNationalities();
-            RefreshEmployers();
-            RefreshLifepaths();
-
-            NationalityButton.OnItemSelected += args =>
+            if(_cfgManager.GetCVar(CCVars.ContractorsEnabled))
             {
-                NationalityButton.SelectId(args.Id);
-                SetNationality(_nationalies[args.Id].ID);
-            };
+                Background.Orphan();
+                CTabContainer.AddTab(Background, Loc.GetString("humanoid-profile-editor-background-tab"));
 
-            EmployerButton.OnItemSelected += args =>
-            {
-                EmployerButton.SelectId(args.Id);
-                SetEmployer(_employers[args.Id].ID);
-            };
+                RefreshNationalities();
+                RefreshEmployers();
+                RefreshLifepaths();
 
-            LifepathButton.OnItemSelected += args =>
+                NationalityButton.OnItemSelected += args =>
+                {
+                    NationalityButton.SelectId(args.Id);
+                    SetNationality(_nationalies[args.Id].ID);
+                };
+
+                EmployerButton.OnItemSelected += args =>
+                {
+                    EmployerButton.SelectId(args.Id);
+                    SetEmployer(_employers[args.Id].ID);
+                };
+
+                LifepathButton.OnItemSelected += args =>
+                {
+                    LifepathButton.SelectId(args.Id);
+                    SetLifepath(_lifepaths[args.Id].ID);
+                };
+            }
+            else
             {
-                LifepathButton.SelectId(args.Id);
-                SetLifepath(_lifepaths[args.Id].ID);
-            };
+                Background.Visible = false;
+            }
 
             #endregion Contractors
 
@@ -2097,7 +2105,7 @@ namespace Content.Client.Lobby.UI
                     continue;
 
                 points += preferenceSelector.Trait.Points;
-                _traitCount += 1;
+                _traitCount += preferenceSelector.Trait.Slots;
             }
 
             TraitPointsBar.Value = points;
@@ -2319,8 +2327,9 @@ namespace Content.Client.Lobby.UI
                 {
                     // Make sure they have enough trait points
                     preference = CheckPoints(preference ? selector.Trait.Points : -selector.Trait.Points, preference);
+
                     // Make sure they have enough trait slots
-                    preference = preference ? _traitCount < _cfgManager.GetCVar(CCVars.GameTraitsMax) : preference;
+                    preference = CheckSlots(preference ? selector.Trait.Slots : -selector.Trait.Slots, preference);
 
                     // Update Preferences
                     Profile = Profile?.WithTraitPreference(selector.Trait.ID, preference);
@@ -2334,6 +2343,13 @@ namespace Content.Client.Lobby.UI
             {
                 var temp = TraitPointsBar.Value + points;
                 return preference ? !(temp < 0) : temp < 0;
+            }
+
+            bool CheckSlots(int slots, bool preference)
+            {
+                var temp = _traitCount + slots;
+                var max = _cfgManager.GetCVar(CCVars.GameTraitsMax);
+                return preference ? !(temp > max) : temp > max;
             }
         }
 
@@ -2679,9 +2695,10 @@ namespace Content.Client.Lobby.UI
                 selector.PreferenceChanged += preference =>
                 {
                     // Make sure they have enough loadout points
-                    var selected = preference.Selected
-                        ? CheckPoints(-selector.Loadout.Cost, preference.Selected)
-                        : CheckPoints(selector.Loadout.Cost, preference.Selected);
+                    var wasSelected = Profile?.LoadoutPreferences
+                        .FirstOrDefault(it => it.LoadoutName == selector.Loadout.ID)
+                        ?.Selected ?? false;
+                    var selected = preference.Selected && (wasSelected || CheckPoints(-selector.Loadout.Cost, true));
 
                     // Update Preferences
                     Profile = Profile?.WithLoadoutPreference(
@@ -2700,7 +2717,7 @@ namespace Content.Client.Lobby.UI
             bool CheckPoints(int points, bool preference)
             {
                 var temp = LoadoutPointsBar.Value + points;
-                return preference ? !(temp < 0) : temp < 0;
+                return preference ? temp >= 0 : temp < 0;
             }
         }
 
