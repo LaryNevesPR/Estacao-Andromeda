@@ -91,6 +91,24 @@
     noMovementLayers:
       movement:
         state: quadspriteCC
+  - type: IntrinsicRadioTransmitter
+    channels:
+    - Medical
+    - Supply
+    - Service
+    - Security
+    - Binary
+    - Common
+    - Science
+  - type: ActiveRadio
+    channels:
+    - Medical
+    - Supply
+    - Service
+    - Security
+    - Binary
+    - Common
+    - Science
       
 - type: entity
   id: BorgChassisQuadsalv
@@ -286,7 +304,7 @@
     - Common
     - Science
   - type: BorgChassis
-    maxModules: 4
+    maxModules: 6
     moduleWhitelist:
       tags:
       - BorgModuleGeneric
