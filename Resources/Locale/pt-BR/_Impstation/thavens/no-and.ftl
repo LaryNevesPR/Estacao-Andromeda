@@ -50,13 +50,13 @@ thaven-mood-avoid-puddles-name = Não Molhe Seus Pés
 thaven-mood-avoid-puddles-desc = É indigno e insalubre andar sobre líquidos derramados. Você deve evitar isso a todo custo.
 thaven-mood-food-restrict-name = Estrito {$food}
 thaven-mood-food-restrict-desc = Você deve comer apenas {$food ->
-  [Carnívoro] carnes
-  *[Vegetariano] vegetais
-  [Frugívoro] frutas
-  [Fungívoro] fungos
-  [Ovivoro] ovos
-  [Caçador] o que você pode matar
-  [Sopivoro] sopa
+  [Carnivore] carnes
+  *[Vegetarian] vegetais
+  [Frugivore] frutas
+  [Fungivore] fungos
+  [Ovivore] ovos
+  [Hunter] o que você pode matar
+  [Soupivore] sopa
 }.
 thaven-mood-claustrophobic-name = Claustrofóbico
 thaven-mood-claustrophobic-desc = Quartos pequenos causam grande angústia. Evite-os sempre que possível e renove seu local de trabalho, se necessário.
