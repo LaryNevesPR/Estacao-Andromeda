@@ -87,3 +87,9 @@
   background: /Textures/_Andromeda/LobbyScreens/Yvo_e_Luna.webp
   name: YvoELuna
   artist: akxiahkoi
+
+- type: lobbyBackground
+  id: NosfordGunther
+  background: /Textures/LobbyScreens/nosfordgunther.webp
+  name: CALL CODE WHITE
+  artist: LeonardoDaBepis
