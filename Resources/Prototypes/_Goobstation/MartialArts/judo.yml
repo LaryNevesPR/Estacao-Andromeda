@@ -2,7 +2,7 @@
   id: CorporateJudo
   martialArtsForm: CorporateJudo
   roundstartCombos: CorporateJudoMoves
-  baseDamageModifier: 5
+  baseDamageModifier: 0 #Ta bugado essa porra #Andromeda
 
 - type: comboList
   id: CorporateJudoMoves
