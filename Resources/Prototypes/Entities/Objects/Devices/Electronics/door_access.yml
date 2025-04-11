@@ -94,7 +94,7 @@
   suffix: Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Lawyer"]]
+    access: [["Lawyer"], ["Command"]]
 
 - type: entity
   parent: DoorElectronics
@@ -226,7 +226,7 @@
   suffix: Security/Lawyer, Locked
   components:
   - type: AccessReader
-    access: [["Security"], ["Lawyer"]]
+    access: [["Security"], ["Lawyer"], ["Command"]]
 
 - type: entity
   parent: DoorElectronics
