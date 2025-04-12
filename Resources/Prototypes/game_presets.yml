@@ -199,7 +199,7 @@
   - zomber
   name: zombie-title
   description: zombie-description
-  showInVote: True
+  showInVote: false
   rules:
   - Zombie
   - BasicStationEventScheduler
