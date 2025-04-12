@@ -28,3 +28,12 @@ employer_description_interdyne = Um nome de destaque na pesquisa biomédica sola
 
 employer_name_andromeda = Andrômeda Research
 employer_description_andromeda = O centro de pesquisa e inovação, localizado na galáxia de Andrômeda, dá nome à empresa. Reconhecida como o berço de anomalias e pesquisa de artefatos arriscados, a Andrômeda Research reúne os melhores cientistas, que não temem cometer erros em sua busca por inovação.
+
+employer_name_idrisincorporated = Idris Incorporated
+employer_description_idrisincorporated = A Idris Incorporated é um banco corporativo interestelar com sede na Aliança Solariana. O banco começou a oferecer bônus de contratação para funcionários de outras grandes corporações interestelares, com o objetivo de atrair talentos e enfraquecer seus concorrentes. No entanto, ainda enfrenta dificuldades em competir com a NanoTrasen, já que grande parte da base de funcionários dessa empresa utiliza o banco corporativo da própria NanoTrasen como principal meio de armazenar fundos — o que impede a Idris de conquistar um número significativo de clientes.
+
+employer_name_orionexpress = Orion Express
+employer_description_orionexpress = A Orion Express é uma megacorporação criada com o propósito de lidar com logística após a escassez de phoron e o súbito colapso das cadeias de suprimento, que deixou a galáxia em uma luta por recursos. Sua principal divisão é dedicada a serviços de carga e transporte, mas a corporação também conta com uma nascente divisão de robótica, voltada principalmente para o desenvolvimento de sintéticos industriais que auxiliem em suas operações logísticas.
+
+employer_name_pmcg = PMCG
+employer_description_pmcg = Uma coalizão de contratados de segurança a serviço do Conglomerado Corporativo Estelar, o Grupo de Contrato Militar Privado é um dos elementos surgidos da necessidade de proteger um império corporativo em constante expansão. Reunindo mercenários de toda a galáxia, o Grupo de Contrato Militar Privado mobiliza uma força diversificada para qualquer lugar onde sua presença seja necessária.
