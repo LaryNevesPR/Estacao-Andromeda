@@ -1,7 +1,7 @@
 <Document>
   # Species
 
-  Nanotrasen employs a variety of sapient species.
+  A Nanotrasen emprega uma variedade de espécies inteligentes.
 
   <Box>
   <GuideEntityEmbed Entity="MobArachnid" Caption="Arachnid"/>
@@ -18,7 +18,7 @@
   <GuideEntityEmbed Entity="MobThaven" Caption="Thaven"/>
   </Box>
 
-  # Parkstation specific species
+  # Espécies específicas de Parkstation
   <Box>
   <GuideEntityEmbed Entity="MobIPCDummy" Caption="I.P.C."/>
   <GuideEntityEmbed Entity="MobRodentia" Caption="Rodentia"/>
