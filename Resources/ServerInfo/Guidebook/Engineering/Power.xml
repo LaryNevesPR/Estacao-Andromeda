@@ -1,49 +1,50 @@
 <Document>
-  # Power
+  # Energia
 
-  SS14 has a fairly in-depth power system through which all devices on the station receive electricity. It's divided into three main powernets; High Voltage, Medium Voltage, and Low Voltage.
+  A SS14 possui um sistema de energia bastante abrangente, por meio do qual todos os dispositivos da estação recebem eletricidade. Ele é dividido em três redes principais: Alta Tensão, Média Tensão e Baixa Tensão.
   <Box>
   <GuideEntityEmbed Entity="CableHVStack"/>
   <GuideEntityEmbed Entity="CableMVStack"/>
   <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  ## Cabling
-  The three major cable types (HV, MV, and LV) can be used to form independent powernets. Examine them for a description of their uses.
+  ## Cabeamento
+
+  Os três principais tipos de cabos (HV, MV e LV) podem ser usados para formar redes elétricas independentes. Examine-os para obter uma descrição de seus usos.
   <Box>
   <GuideEntityEmbed Entity="CableHV"/>
   <GuideEntityEmbed Entity="CableMV"/>
   <GuideEntityEmbed Entity="CableApcExtension"/>
   </Box>
 
-  ## Power storage
-  Each power storage device presented functions as the transformer for its respective power level (HV, MV, and LV), and also provides a fairly sizable backup battery to help flatten out spikes and dips in power usage.
+  ## Armazenamento de energia
+  Cada dispositivo de armazenamento de energia apresentado funciona como um transformador para seu respectivo nível de potência (HV, MV e LV) e também fornece uma bateria reserva de tamanho considerável para ajudar a atenuar picos e quedas no consumo de energia.
   <Box>
   <GuideEntityEmbed Entity="SMESBasic"/>
   <GuideEntityEmbed Entity="SubstationBasic"/>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Ramping
-  Contrary to what one might expect from a video game electrical simulation, power is not instantly provided upon request. Generators and batteries take time to ramp up to match the draw imposed on them, which leads to brownouts when there are large changes in current draw all at once; for example, when batteries run out.
+  ## Rampa de Aceleração
+  Ao contrário do que se poderia esperar de uma simulação elétrica de videogame, a energia não é fornecida instantaneamente mediante solicitação. Geradores e baterias levam tempo para aumentar a potência para corresponder ao consumo imposto a eles, o que leva a quedas de energia quando há grandes variações no consumo de corrente simultaneamente; por exemplo, quando as baterias acabam.
 
-  ## Installing power storage
-  Substations are the most self-explanatory. Simply install the machine on top of an MV and HV cable; it will draw power from the HV cable to provide to MV.
+  ## Instalação de armazenamento de energia
+  Subestações são as mais autoexplicativas. Basta instalar a máquina sobre um cabo de MV e HV; ela extrairá energia do cabo de HV para fornecer à MV.
 
-  Installing APCs is similarly simple, except APCs are exclusively wallmounted machinery and cannot be installed on the floor. Make sure it has both MV and LV connections.
+  A instalação de APCs é igualmente simples, exceto que os APCs são máquinas exclusivamente montadas na parede e não podem ser instaladas no chão. Certifique-se de que ele tenha conexões de MV e LV.
 
-  Installing a SMES requires you construct a cable terminal to use as the input. The SMES will draw power from the terminal and send power out from underneath. The terminal will ensure that the HV input and HV output do not connect. Avoid connecting a SMES to itself; this will result in a short circuit, which can result in power flickering or outages depending on severity.
+  A instalação de um SMES requer a construção de um terminal de cabo para usar como entrada. O SMES extrairá energia do terminal e enviará energia por baixo. O terminal garantirá que a entrada e a saída de HV não se conectem. Evite conectar um SMES a si mesmo; Isso resultará em um curto-circuito, que pode causar oscilações ou cortes de energia, dependendo da gravidade.
 
-  ## APC breaking
-  Currently the only power storage device that has a limit to its power to the network is the APC. As soon as all connected devices and machinery demand more than [color=#a4885c]24kW[/color] of power, its breaker will pop and everything will turn off. In the case that you are not an engineer, call an engineer (or cyborg) to re-enable it, after reducing the load back down to [color=#a4885c]below[/color] 24kW.
+  ## Quebra do APC
+  Atualmente, o único dispositivo de armazenamento de energia que possui um limite para a potência fornecida à rede é o APC. Assim que todos os dispositivos e máquinas conectados demandarem mais de [color=#a4885c]24 kW[/color] de energia, o disjuntor disparará e tudo será desligado. Caso você não seja um engenheiro, chame um engenheiro (ou um cyborg) para religá-lo, após reduzir a carga para [color=#a4885c]abaixo[/color] de 24 kW.
   <Box>
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  ## Checking the power grid
-  1. Use the [color=#a4885c]t-ray scanner[/color] in order to locate cables that are hidden under tiles. (skip this step if cables aren't hidden)
-  2. Pry open the tile that is blocking your access to the cable with a [color=#a4885c]crowbar[/color]. (skip this step if cables aren't hidden)
-  3. Equip your trusty [color=#a4885c]Multitool[/color] and click on any cable to see the power-grid stats.
+  ## Verificando a rede elétrica
+  1. Use o [color=#a4885c]scanner de raio-T[/color] para localizar cabos escondidos sob os azulejos. (pule esta etapa se os cabos não estiverem escondidos)
+  2. Abra o azulejo que está bloqueando o acesso ao cabo com um [color=#a4885c]pé-de-cabra[/color]. (pule esta etapa se os cabos não estiverem escondidos)
+  3. Equipe sua confiável [color=#a4885c]ferramenta multifuncional[/color] e clique em qualquer cabo para ver as estatísticas da rede elétrica.
   <Box>
   <GuideEntityEmbed Entity="Multitool"/>
   <GuideEntityEmbed Entity="Crowbar"/>
