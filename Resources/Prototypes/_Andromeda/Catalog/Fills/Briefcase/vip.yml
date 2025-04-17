@@ -1,0 +1,32 @@
+﻿- type: entity
+  id: LockedMicroCofreVIP
+  parent: BaseStorageItem
+  name: Micro-cofre V.P.I
+  suffix: Filled
+  description: Um cofre particular de bolso, uma tecnologia que custa mais que o rendimento de uma pequena colonia durante 10 anos.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Storage/Briefcases/briefcasevip_locked.rsi
+    state: icon
+  - type: AccessReader
+    access:
+    - ["Command"]
+  - type: Lock
+  - type: ResistLocker
+  - type: Item
+    size: Small
+  - type: StorageFill
+    contents:
+    - id: SpaceCash25000
+      amount: 3
+    - id: BoxFolderBlue
+    - id: TreasureCoinDiamond
+    - id: SilverRingDiamond
+    - id: DrinkGildlagerBottleFull
+    - id: DrinkGlassCoupeShaped
+      amount: 2
+    - id: IngotGold
+  - type: Storage
+    maxItemSize: Huge
+    grid:
+    - 0,0,6,3
