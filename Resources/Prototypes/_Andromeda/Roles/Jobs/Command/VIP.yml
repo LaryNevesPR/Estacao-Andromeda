@@ -21,7 +21,7 @@
   canBeAntag: false
   requireAdminNotify: true
   joinNotifyCrew: true
-
+  whitelisted: true
   access:
   - Command
   - External
