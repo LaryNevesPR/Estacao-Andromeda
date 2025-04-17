@@ -18,7 +18,7 @@
     - !type:CharacterEmployerRequirement
       employers:
       - NanoTrasen
-      - Cybersun
+      - ZavodskoiInterstellar
       - HephaestusIndustries
   weight: 10
   startingGear: ChiefEngineerGear

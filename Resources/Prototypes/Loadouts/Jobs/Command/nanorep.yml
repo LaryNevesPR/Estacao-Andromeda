@@ -116,7 +116,7 @@
     - ClothingOuterCorporateJacket
 
 - type: loadout
-  id: LoadoutClothingOuterCorporateJacketCyberSunCorporateLiaison
+  id: LoadoutClothingOuterCorporateJacketZavodskoiInterstellarCorporateLiaison
   category: JobsCommandNanorep
   cost: 0
   exclusive: true
@@ -128,9 +128,9 @@
         - NanotrasenRepresentative
     - !type:CharacterEmployerRequirement
       employers:
-      - Cybersun
+      - ZavodskoiInterstellar
   items:
-    - ClothingOuterCsCorporateJacket
+    - ClothingOuterZiCorporateJacket
 
 - type: loadout
   id: LoadoutClothingOuterCorporateJacketEinsteinEnginesCorporateLiaison

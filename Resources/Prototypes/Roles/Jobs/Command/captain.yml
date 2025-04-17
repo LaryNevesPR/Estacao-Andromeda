@@ -10,7 +10,7 @@
         - Foreigner
         - ForeignerLight
         - Pacifist
-        - JobHeadOfSecurity
+        - Muted
     - !type:CharacterPlaytimeRequirement
       tracker: JobHeadOfSecurity
       min: 21600 #6 hrs
@@ -37,7 +37,6 @@
     implants: [ MindShieldImplant ]
   - !type:AddComponentSpecial
     components:
-      - type: SurgerySkill
       - type: CommandStaff
   afterLoadoutSpecial:
   - !type:ModifyEnvirosuitSpecial
