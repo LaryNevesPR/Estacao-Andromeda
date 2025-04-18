@@ -1,30 +1,30 @@
 <Document>
-  # Singularity / Tesla Engine
+  # Singularidade / Motor Tesla
 
-  The Singularity Engine / Tesla Engine can yield [color=#a4885c]infinite power[/color], with no fueling required. It can also [color=red]destroy the whole station[/color] with equal ease. It uses a Particle Accelerator to fire high energy particles at a Singularity Generator to form a singularity or ball lightning.
-  The singularity then pulses radiation which is absorbed by Radiation Collectors, or the ball lightning then zaps nearby tesla coils and grounding rods to provide power.
+  O Motor Singularidade / Motor Tesla pode gerar [color=#a4885c]energia infinita[/color], sem a necessidade de combustível. Ele também pode [color=red]destruir a estação inteira[/color] com a mesma facilidade. Ele usa um Acelerador de Partículas para disparar partículas de alta energia em um Gerador de Singularidade para formar uma singularidade ou raio globular.
+  A singularidade então pulsa radiação que é absorvida pelos Coletores de Radiação, ou o raio globular então atinge as bobinas de Tesla e as hastes de aterramento próximas para fornecer energia.
 
-  # Setting it up
+  # Configurando
 
-  Both engines requires 4 subsystems to work properly; two are shared between both engines:
+  Ambos os motores requerem 4 subsistemas para funcionar corretamente; dois são compartilhados entre ambos os motores:
 
-  ## Containment field generators and Emitters
+  ## Geradores e Emissores do Campo de Contenção
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator"/>
     <GuideEntityEmbed Entity="ContainmentField"/>
   </Box>
-  The emitters connect to MV cables and fire lasers as long as they have power and are turned on.
-  Fire the emitters at enabled containment field generators to activate them.
-  If two containment field generators are active, in range and are in the same cardinal axis, a containment field will appear.
-  The containment field will repel the singularity or tesla, keeping it from escaping, and yield a little bit of power every time anything bounces off of them.
+  Os emissores se conectam a cabos de média tensão e disparam lasers enquanto estiverem energizados e ligados.
+  Dispare os emissores em geradores de campo de contenção habilitados para ativá-los.
+  Se dois geradores de campo de contenção estiverem ativos, dentro do alcance e no mesmo eixo cardinal, um campo de contenção aparecerá.
+  O campo de contenção repelirá a singularidade ou tesla, impedindo-a de escapar, e liberará um pouco de energia sempre que algo ricochetear neles.
 
-  The emitter lasers and the containment fields can also cause damage and/or cause you to be sent flying into deep space; [color=#a4885c]avoid touching them[/color] when active.
-  It is recommended to [color=#a4885c]lock the emitters[/color] with [keybind="AltActivateItemInWorld"/], to prevent any break-in no-gooders from loosing the singularity or tesla by simply switching off the field.
+  Os lasers emissores e os campos de contenção também podem causar danos e/ou fazer com que você seja lançado para o espaço profundo; [color=#a4885c]evite tocá-los[/color] quando estiverem ativos.
+  Recomenda-se [color=#a4885c]travar os emissores[/color] com [keybind="AltActivateItemInWorld"/], para evitar que invasores percam a singularidade ou tesla simplesmente desligando o campo.
 
-  Teslas can have significantly smaller containment fields than singularity containment fields; adjusting field size is recommended, as the tesla becomes easier to keep watch on in a simply 3x3 field setup.
+  Teslas podem ter campos de contenção significativamente menores do que os campos de contenção de singularidade; ajustar o tamanho do campo é recomendado, pois o Tesla se torna mais fácil de observar em uma configuração de campo simples de 3x3.
 
-  ## Particle accelerator
+  ## Acelerador de partículas
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
@@ -46,54 +46,54 @@
     <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
   </Box>
 
-  The Particle Accelerator (PA) is a multi-tile structure that launches accelerated particles from its emitters. Its emitters should always face the generator.
-  Some stations already have an unfinished PA. To complete it, first ensure there is a MV cable beneath the PA power box, anchor all the parts, and then add an LV cable to each part.
+  O Acelerador de Partículas (PA) é uma estrutura com várias peças que lança partículas aceleradas a partir de seus emissores. Seus emissores devem estar sempre voltados para o gerador.
+  Algumas estações já possuem um PA inacabado. Para completá-lo, primeiro certifique-se de que haja um cabo de média tensão (MV) sob a caixa de energia do PA, fixe todas as peças e, em seguida, adicione um cabo de baixa tensão (LV) a cada peça.
   <Box>
     <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
-  Then use a screwdriver to screw back the panels.
-  [color=#a4885c]Scan parts[/color] using the PA control computer to check if it's operational (the PA will not function if you do not scan it!). If it shows up as incomplete, examine what's missing.
+  Em seguida, use uma chave de fenda para parafusar os painéis de volta.
+  [color=#a4885c]Escaneie as peças[/color] usando o computador de controle do PA para verificar se está funcionando (o PA não funcionará se você não o escanear!). Se aparecer como incompleto, examine o que está faltando.
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorControlBox"/>
   </Box>
 
-  The other two subsystems are unique to each other:
+  Os outros dois subsistemas são únicos entre si:
 
-  ## Gravitational singularity generator or Ball lightning generator
+  ## Gerador de singularidade gravitacional ou gerador de raios globulares
   <Box>
     <GuideEntityEmbed Entity="SingularityGenerator"/>
     <GuideEntityEmbed Entity="TeslaGenerator"/>
   </Box>
-  The generator should be anchored at the center of the containment area, since this is where the singularity/tesla should appear at.
+  O gerador deve ser ancorado no centro da área de contenção, pois é onde a singularidade/tesla deve aparecer.
 
-  ## Radiation collectors or Tesla coils
+  ## Coletores de radiação ou bobinas de Tesla
   <Box>
     <GuideEntityEmbed Entity="RadiationCollector"/>
     <GuideEntityEmbed Entity="PlasmaTank"/>
   </Box>
-  The radition collectors connect to HV cables and generate power from nearby radiation sources when turned on.
-  Radiation collectors require a tank full of gaseous plasma in order to operate.
-  Continous radiation exposure will gradually convert the stored plasma into tritium, so replace depleted plasma tanks with fresh ones regularly to maintain a high power output.
+  Os coletores de radiação conectam-se a cabos de alta tensão e geram energia a partir de fontes de radiação próximas quando ligados.
+  Os coletores de radiação requerem um tanque cheio de plasma gasoso para operar.
+  A exposição contínua à radiação converterá gradualmente o plasma armazenado em trítio, portanto, substitua os tanques de plasma vazios por novos regularmente para manter uma alta potência de saída.
 
   <Box>
     <GuideEntityEmbed Entity="TeslaCoil"/>
     <GuideEntityEmbed Entity="TeslaGroundingRod"/>
   </Box>
-  The tesla coils connect to HV cables and provide a stream of power after being zapped by the ball lightning.
-  However, tesla coils usually do not fully absorb the lightning strike, and the grounding rods are required to prevent lighting from arcing to and obliterating nearby machines.
-  Do note that one grounding rod is not a foolproof solution; get [color=#a4885c]atleast 4 rods[/color] around the containment field to make it mathematically unlikely for the tesla to escape.
-  As the ball lightning zaps tesla coils, they will degrade from wear; make sure to [color=#a4885c]weld them[/color] every now and then to keep generating power.
+  As bobinas de Tesla conectam-se aos cabos de alta tensão e fornecem um fluxo de energia após serem atingidas pelo raio globular.
+  No entanto, as bobinas de Tesla geralmente não absorvem totalmente o raio, e as hastes de aterramento são necessárias para evitar que o raio forme arcos e destrua máquinas próximas.
+  Observe que uma haste de aterramento não é uma solução infalível; coloque [color=#a4885c]pelo menos 4 hastes[/color] ao redor do campo de contenção para tornar matematicamente improvável que o Tesla escape.
+  À medida que o raio globular atinge as bobinas de Tesla, elas se degradam devido ao desgaste; certifique-se de [color=#a4885c]soldá-las[/color] de vez em quando para continuar gerando energia.
 
-  ## Turing on the Engines
+  ## Ligando os Motores
 
-  [color=red]Do not[/color] turn the PA on unless all the other subsystems are working properly and there is enough power to start the engine.
+  [color=red]Não[/color] ligue o PA a menos que todos os outros subsistemas estejam funcionando corretamente e haja energia suficiente para dar partida no motor.
 
-  Turn power on using the PA control computer. Set the strength to an appropiate level. Currently the only appropriate level is [color=#f0684d]1[/color]; anything above that will ensure that singularity grows too strong to handle.
-  The higher the output stength is set on PA control computer, the bigger the singularity will be.
+  Ligue a energia usando o computador de controle do PA. Defina a intensidade para um nível apropriado. Atualmente, o único nível apropriado é [color=#f0684d]1[/color]; qualquer valor acima disso garantirá que a singularidade se torne forte demais para ser controlada.
+  Quanto maior a intensidade de saída definida no computador de controle do PA, maior será a singularidade.
 
-  Currently, the output power does not affect the ball lightning, beyond giving the ball lightning extra orbs around it.
+  Atualmente, a potência de saída não afeta o raio globular, além de fornecer ao raio globular orbes extras ao seu redor.
 
-  The PA will now draw power from the power net and start firing particles at the generators.
+  O PA agora consumirá energia da rede elétrica e começará a disparar partículas nos geradores.
 
   <Box>
     <GuideEntityEmbed Entity="ParticlesProjectile" Caption=""/>
@@ -101,18 +101,18 @@
     <GuideEntityEmbed Entity="ParticlesProjectile" Caption=""/>
   </Box>
 
-  A singularity or ball lightning will soon appear at the position of the Gravitational singularity generator.
+  Uma singularidade ou raio globular aparecerá em breve na posição do gerador de singularidade gravitacional.
   <Box>
     <GuideEntityEmbed Entity="Singularity"/>
     or
     <GuideEntityEmbed Entity="TeslaEnergyBall"/>
   </Box>
 
-  If no particles are hitting the singularity, the singularity will start to slowly decay until it disappears.
-  This is not the case for the tesla; feel free to disconnect the PA after the tesla has been set up.
+  Se nenhuma partícula atingir a singularidade, ela começará a decair lentamente até desaparecer.
+  Este não é o caso do Tesla; sinta-se à vontade para desconectar o PA após a configuração do Tesla.
 
-  ## Safety
-  The singularity emits a large amount of radiation around it, so always keep a distance from it. Consider getting [color=yellow]radiation shielding gear[/color] beforehand. Seek medical attention if you are experiencing health issues.
+  ## Segurança
+  A singularidade emite uma grande quantidade de radiação ao seu redor, portanto, mantenha-se sempre distante dela. Considere adquirir [color=yellow]equipamento de proteção contra radiação[/color] com antecedência. Procure atendimento médico se tiver problemas de saúde.
 
   <Box>
     <GuideEntityEmbed Entity="ClothingOuterHardsuitEngineering"/>
@@ -124,18 +124,18 @@
     <GuideEntityEmbed Entity="GeigerCounter"/>
   </Box>
 
-  The singularity might move around, but the containment field will repel it.
+  A singularidade pode se mover, mas o campo de contenção a repelirá.
 
-  The tesla creates large bolts of lightning around it, so make sure to wear insuls before approaching it. If you aren't, and it zaps you, pray that the ball lightning doesn't stunlock you and eventually send you into crit.
+  O Tesla cria grandes raios ao seu redor, então certifique-se de usar insuls antes de se aproximar. Se não estiver usando e ele te atingir, reze para que o raio globular não te atordoe e eventualmente te coloque em dano crítico.
   <Box>
     <GuideEntityEmbed Entity="ClothingHandsGlovesColorYellow"/>
   </Box>
-  If a singularity or tesla escapes its containment field, often referred to as a "singuloose" or "tesloose" respectively, it will attract and then consume everything in its way, growing larger as it does so, or it will begin to obliterate every machine in its path, and shock all crew personnel.
+  Se uma singularidade ou tesla escapar do seu campo de contenção, frequentemente chamado de "singuloose" ou "tesloose", respectivamente, ela atrairá e consumirá tudo em seu caminho, crescendo à medida que o faz, ou começará a obliterar todas as máquinas em seu caminho e a chocar toda a tripulação.
 
-  In such circumstances, there is little to be done other than running in the opposite direction.
+  Em tais circunstâncias, pouco resta a fazer além de correr na direção oposta.
   <Box>
     <GuideEntityEmbed Entity="WeaponParticleDecelerator"/>
   </Box>
-  However, if science has happened to research [color=#D381C9]Portable Particle Decelerators[/color], or if cargo can order them in time, you may be able to stop the singularity from eating the whole station.
-  Good luck on the tesla, though; it is merely too powerful to recontain after breaching.
+  No entanto, se a ciência tiver a chance de pesquisar [color=#D381C9]Desaceleradores de Partículas Portáteis[/color], ou se a carga puder encomendá-los a tempo, você poderá impedir que a singularidade devore a estação inteira.
+  Boa sorte com o Tesla, no entanto; ele é simplesmente poderoso demais para ser recontido após a brecha.
 </Document>

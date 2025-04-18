@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Feito pelo wellnachapara da comunidade do discord Andromeda",
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "states": [
+    {
+      "name": "barbanegra",
+      "directions": 4
+    },
+    {
+      "name": "imperadorchines",
+      "directions": 4
+    }
+  ]
+}

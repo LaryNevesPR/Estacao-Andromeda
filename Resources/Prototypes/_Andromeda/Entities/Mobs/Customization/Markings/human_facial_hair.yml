@@ -1,0 +1,15 @@
+- type: marking
+  id: HumanFacialHairImperadorChines
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  sprites:
+  - sprite: _Andromeda/Mobs/Customization/human_facial_hair.rsi
+    state: imperadorchines
+
+- type: marking
+  id: HumanFacialHairBarbaNegra
+  bodyPart: FacialHair
+  markingCategory: FacialHair
+  sprites:
+  - sprite: _Andromeda/Mobs/Customization/human_facial_hair.rsi
+    state: barbanegra
