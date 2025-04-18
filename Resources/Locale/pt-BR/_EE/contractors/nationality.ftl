@@ -19,3 +19,12 @@ nationality_description_elyran = Cidadãos da República de Elyra, uma potência
 
 nationality_name_nederlandic = Nederlandic
 nationality_description_nederlandic = Uma nação de comerciantes e terraformadores. Enquanto a maioria das nações sensatas se expandiram para estruturas orbitais, os Nederlandeses preferem se estabelecer em planetas, não importa quão inóspitos, e moldá-los ao seu gosto. Com a agricultura impulsionando seus motores econômicos, grande parte da galáxia civilizada desfruta de seus produtos.
+
+nationality_name_izweski = Izweski
+nationality_description_izweski = A Hegemonia Izweski, também conhecida como Nação Izweski e Terceira Hegemonia de Moghes, é a principal nação Unathi do Braço de Órion – um império feudal localizado nas Terras Áridas, governado por um monarca conhecido como o Hegemon. A nação é composta por centenas de clãs nobres proprietários de terras e seus vassalos, dos quais algumas dezenas exercem grande influência na política do Hegemon.
+
+nationality_name_adhomai = Adhomai
+nationality_description_adhomai = A República Popular de Adhomai foi estabelecida em 2431 como o único governo governante em Adhomai após sua vitória na Primeira Revolução. Com o líder popular Rhagrrhuzau Hadii como seu primeiro presidente, o governo conseguiu implementar reformas profundas, como a distribuição de terras, a criação de escolas estatais e o estabelecimento de um sistema de saúde pública.
+
+nationality_name_goldendeep = Golden Deep
+nationality_description_goldendeep = O Golden Deep é um crescente Estado-nação formado por sintéticos independentes, unidos pela visão comum de construir uma economia inabalável. Esses sintéticos, notavelmente autônomos, têm em sua maioria origens ligadas à conquista ilícita da liberdade, mas estão se expandindo e se transformando em um refúgio peculiar para o sintético comum. A maioria dos comerciantes dentro do coletivo são IPCs, mas não é incomum encontrar outros tipos de sintéticos em sua estrutura.
