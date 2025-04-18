@@ -16,10 +16,6 @@
         - !type:CharacterTraitRequirement
           traits:
             - AnomalousPositronics
-    - !type:CharacterEmployerRequirement
-      inverted: true
-      employers:
-      - Unemployed
     - !type:CharacterItemGroupRequirement
       group: TraitsCasterType
   startingGear: ChaplainGear

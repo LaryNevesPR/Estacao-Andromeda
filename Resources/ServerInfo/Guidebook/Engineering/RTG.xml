@@ -1,20 +1,20 @@
 <Document>
-  # Radioisotope Thermoelectric Generator (RTG)
+  # Gerador Termoelétrico de Radioisótopos (RTG)
 
   <Box>
     <GuideEntityEmbed Entity="GeneratorRTG" Caption="RTG" />
   </Box>
 
-  Making power using a Radioisotope Thermoelectric Generator (RTG) is similar to making power using solars.
-  RTGs only provide [color=#a4885c]10kW[/color] of power, but they provide it for free and for the entire round.
-  Basically, if you connect an RTG to your power grid, it'll give you [color=#a4885c]free power[/color].
-  However, they're only accessible through salvage finding one on an expedition. Should they bring some in, make sure to thank them!
+  Produzir energia usando um Gerador Termoelétrico de Radioisótopos (RTG) é semelhante a produzir energia usando energia solar.
+  Os RTGs fornecem apenas [color=#a4885c]10 kW[/color] de energia, mas a fornecem gratuitamente e durante toda a rodada.
+  Basicamente, se você conectar um RTG à sua rede elétrica, ele fornecerá [color=#a4885c]energia gratuita[/color].
+  No entanto, eles só são acessíveis por meio de sucata, encontrando um numa expedição. Se trouxerem algum, agradeça!
 
   <Box>
     <GuideEntityEmbed Entity="GeneratorRTGDamaged" Caption="Damaged RTG" />
   </Box>
-  Sometimes, RTGs appear damaged.
-  Damaged RTGs behave just like regular ones, but they're [color=yellow]radioactive[/color].
-  That means they're more dangerous, but on the bright side, you can put radiation collectors next to them to turn that radiation into more power.
-  This is usually more worthwhile, considering the power is still free, so long as you can find a safe spot to put the RTG(s) in.
+  Às vezes, os RTGs parecem danificados.
+  Os RTGs danificados se comportam como os normais, mas são [color=yellow]radioativos[/color].
+  Isso significa que são mais perigosos, mas, pelo lado positivo, você pode colocar coletores de radiação próximos a eles para transformar essa radiação em mais energia.
+  Isso geralmente vale mais a pena, considerando que a energia ainda é gratuita, desde que você encontre um local seguro para colocar o(s) RTG(s).
 </Document>

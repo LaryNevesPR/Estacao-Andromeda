@@ -23,20 +23,21 @@
           traits:
             - Pacifist
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - NanoTrasen
+      - ZengHuPharmaceuticals
     - !type:CharacterItemGroupRequirement
       group: TraitsCasterType
   startingGear: ForensicMantisGear
   icon: "JobIconForensicMantis"
   supervisors: job-supervisors-rd
-  canBeAntag: true # DeltaV - Mantis is no longer a Detective
+  canBeAntag: false # Andromeda - Nahhh Deixa ele sem ser antag
   # whitelistRequired: true
   access:
   - Research
   - Maintenance
   - Mantis # DeltaV - Mantis, see Resources/Prototypes/DeltaV/Access/epistemics.yml
+  - Lawyer # Andromeda - Acesso de leve a sec
   special:
   - !type:AddComponentSpecial
     components:

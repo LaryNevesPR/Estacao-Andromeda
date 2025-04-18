@@ -19,6 +19,8 @@
       min: 36000 # 20 hrs
     - !type:CharacterEmployerRequirement
       employers:
+      - ZengHuPharmaceuticals
+      - Interdyne
       - NanoTrasen
   weight: 10
   startingGear: CMOGear

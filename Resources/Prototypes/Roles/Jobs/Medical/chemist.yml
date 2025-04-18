@@ -8,9 +8,10 @@
       department: Medical
       min: 14400 # Andromeda
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - ZengHuPharmaceuticals
+      - Interdyne
+      - NanoTrasen
   startingGear: ChemistGear
   icon: "JobIconChemist"
   supervisors: job-supervisors-cmo

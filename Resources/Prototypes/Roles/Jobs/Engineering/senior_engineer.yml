@@ -14,9 +14,11 @@
       department: Engineering
       min: 72000 # 20 hrs
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - HephaestusIndustries
+      - ZavodskoiInterstellar
+      - EinsteinEngines
+      - NanoTrasen
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce

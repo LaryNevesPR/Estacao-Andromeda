@@ -69,6 +69,7 @@
   - BlueshieldOfficer # Goobstation
   - NanotrasenRepresentative # Goobstation
   - Magistrate # Goobstation
+  - VisitorVIP # Andromeda - VIP, see Resources/Prototypes/_Andromeda/Roles/Jobs/Command/VIP.yml
   primary: false
   weight: 101
 

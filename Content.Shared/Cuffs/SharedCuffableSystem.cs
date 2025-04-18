@@ -473,7 +473,18 @@ namespace Content.Shared.Cuffs
             if (!_interaction.InRangeUnobstructed(handcuff, target))
                 return false;
 
+            // if the amount of hands the target has is equal to or less than the amount of hands that are cuffed
+            // don't apply the new set of cuffs
+            // (how would you even end up with more cuffed hands than actual hands? either way accounting for it)
+            if (TryComp<HandsComponent>(target, out var hands) && hands.Count <= component.CuffedHandCount)
+                return false;
+
+            // Shitmed Change Start
+            EnsureComp<HandcuffComponent>(handcuff, out var handcuffsComp);
+            handcuffsComp.Used = true;
+            Dirty(handcuff, handcuffsComp);
             // Success!
+            //Andromeda
             if (cuff.RemoveOnUse)
                 _hands.TryDrop(user, handcuff);
             else
@@ -482,8 +493,10 @@ namespace Content.Shared.Cuffs
                 var newcuffs = EnsureComp<HandcuffComponent>(handcuff);
                 newcuffs.Used = true;
             }
+            // Fim da mudança andromeda
+            var result = _container.Insert(handcuff, component.Container);
+            // Shitmed Change End
 
-            _container.Insert(handcuff, component.Container);
             UpdateHeldItems(target, handcuff, component);
             return true;
         }

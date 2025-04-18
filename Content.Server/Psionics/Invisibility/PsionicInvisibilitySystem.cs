@@ -1,14 +1,14 @@
 using Content.Shared.Abilities.Psionics;
-using Content.Server.Abilities.Psionics;
 using Content.Shared.Eye;
-using Content.Server.NPC.Systems;
+using Content.Shared.NPC.Systems;
+using Content.Shared.Psionics;
+using Content.Shared.Psionics.Abilities.PsionicInvisibility;
+using Robust.Server.GameObjects;
 using Robust.Shared.Containers;
 using Robust.Shared.Player;
-using Robust.Server.GameObjects;
-using Content.Shared.NPC.Systems;
 
 
-namespace Content.Server.Psionics
+namespace Content.Server.Psionics.Invisibility
 {
     public sealed class PsionicInvisibilitySystem : EntitySystem
     {
@@ -83,6 +83,7 @@ namespace Content.Server.Psionics
             _visibilitySystem.AddLayer((uid, visibility), (int) VisibilityFlags.PsionicInvisibility, false);
             _visibilitySystem.RemoveLayer((uid, visibility), (int) VisibilityFlags.Normal, false);
             _visibilitySystem.RefreshVisibility(uid, visibility);
+            SetCanSeePsionicInvisiblity(uid, true);
         }
 
 
@@ -93,6 +94,7 @@ namespace Content.Server.Psionics
                 _visibilitySystem.RemoveLayer((uid, visibility), (int) VisibilityFlags.PsionicInvisibility, false);
                 _visibilitySystem.AddLayer((uid, visibility), (int) VisibilityFlags.Normal, false);
                 _visibilitySystem.RefreshVisibility(uid, visibility);
+                SetCanSeePsionicInvisiblity(uid, false);
             }
         }
 

@@ -1,0 +1,7 @@
+﻿- type: jobIcon
+  parent: JobIcon
+  id: JobIconVisitorVIP
+  icon:
+    sprite: /Textures/_Andromeda/Interface/Misc/job_icons.rsi
+    state: visitorvip
+  jobName: Visitante V.I.P

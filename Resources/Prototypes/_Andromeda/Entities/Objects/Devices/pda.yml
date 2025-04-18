@@ -1,0 +1,17 @@
+﻿- type: entity
+  parent: AdminAssistantPDA
+  id: VisitorVIPPDA
+  name: Visitante V.I.P PDA
+  description: Se você tem isso, talvez consiga comprar um pequeno país no caminho de volta para casa.
+  components:
+  - type: Pda
+    id: VIPIDCard
+    state: pda-visitor-vip
+  - type: Icon
+    sprite: _Andromeda/Objects/Devices/pda.rsi
+    state: pda-visitor-vip
+  - type: Sprite
+    sprite: _Andromeda/Objects/Devices/pda.rsi
+    state: pda-visitor-vip
+  - type: PdaBorderColor
+    borderColor: "#d6b70f"

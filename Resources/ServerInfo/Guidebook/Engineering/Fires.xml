@@ -1,15 +1,15 @@
 <Document>
-  # Fires & Space
+  # Incêndios e Espaço
 
-  Fires and spacings are an inevitability due to the highly flammable plasma gas and the endless vacuum of space present in and around the station, so it's important to know how to manage them.
+  Incêndios e espaçamentos são inevitáveis devido ao gás de plasma altamente inflamável e ao vácuo infinito do espaço presente dentro e ao redor da estação, por isso é importante saber como lidar com eles.
 
-  ## Spacing
-  Space is arguably the easier of the two to handle.
-  While it does render an area uninhabitable, it can be trivially solved by simply sealing the hole that resulted in the vacuum. After that, assuming distro vents and pipes have not been destroyed in some unfortunate accident, the room will slowly begin to repressurize.
-  Be aware; active spacings will slowly siphon the air out of the station's air reserves. If you find it impossible to fix structural damage due to some other hazard, make sure to limit the airflow to that room. (Currently only half-valid due to the Gas Miners infinitely replenishing most of the useful gases)
+  ## Espaçamento
+  O espaço é indiscutivelmente o mais fácil de lidar.
+  Embora torne uma área inabitável, pode ser resolvido de forma trivial simplesmente selando o buraco que resultou no vácuo. Depois disso, supondo que as saídas de ar e os canos da distribuição não tenham sido destruídos em algum acidente infeliz, a sala começará a se re-pressurizar lentamente.
+  Esteja ciente: espaçamentos ativos drenarão lentamente o ar das reservas de ar da estação. Se você achar impossível consertar danos estruturais devido a algum outro perigo, certifique-se de limitar o fluxo de ar para essa sala. (Atualmente válido apenas pela metade devido aos Mineradores de Gás reabastecerem infinitamente a maioria dos gases úteis)
 
-  ## Fires
-  Fires can be dealt with through a multitude of ways, but some of the most effective methods include:
-    - Spacing the enflamed area if possible. This will destroy all of the gasses in the room, which may be a problem if you're already straining life support.
-    - Dumping a Frezon canister into the enflamed area. This will ice over the flames and halt any ongoing reaction, provided you use enough Frezon. Additionally, this does not result in destruction of material, so you can simply scrub the room afterwards.
+  ## Incêndios
+  Incêndios podem ser combatidos de várias maneiras, mas alguns dos métodos mais eficazes incluem:
+  - Afastar a área inflamada, se possível. Isso destruirá todos os gases na sala, o que pode ser um problema se você já estiver sobrecarregando o suporte de vida.
+  - Despejar uma lata de Frezon na área inflamada. Isso congelará as chamas e interromperá qualquer reação em andamento, desde que você use Frezon suficiente. Além disso, isso não resulta na destruição de material, então você pode simplesmente limpar a sala depois.
 </Document>

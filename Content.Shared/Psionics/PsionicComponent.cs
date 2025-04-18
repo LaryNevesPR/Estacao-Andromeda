@@ -24,7 +24,7 @@ namespace Content.Shared.Abilities.Psionics
         ///     The base cost for new powers.
         /// </summary>
         [DataField]
-        public float BaselinePowerCost = 50;
+        public float BaselinePowerCost = 100;
 
         /// <summary>
         ///     Each time a Psion rolls for a new power, they roll a number between 0 and 100, adding any relevant modifiers. This number is then added to Potentia,
@@ -32,7 +32,7 @@ namespace Content.Shared.Abilities.Psionics
         ///     This variable stores the cost of the next power.
         /// </summary>
         [DataField]
-        public float NextPowerCost = 50;
+        public float NextPowerCost = 100;
 
         /// <summary>
         ///     The baseline chance of obtaining a psionic power when rolling for one.

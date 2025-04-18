@@ -1,0 +1,16 @@
+﻿- type: entity
+  parent: ClothingHeadset
+  id: ClothingHeadsetVisitorVIP
+  name: fones de ouvido de visitante V.I.P
+  description: Um fone de ouvido usado por visitante VIP.
+  components:
+  - type: ContainerFill
+    containers:
+      key_slots:
+      - EncryptionKeyCentCom
+      - EncryptionKeyCommand
+      - EncryptionKeyCommon
+  - type: Sprite
+    sprite: DeltaV/Clothing/Ears/Headsets/adminassistant.rsi
+  - type: Clothing
+    sprite: DeltaV/Clothing/Ears/Headsets/adminassistant.rsi
