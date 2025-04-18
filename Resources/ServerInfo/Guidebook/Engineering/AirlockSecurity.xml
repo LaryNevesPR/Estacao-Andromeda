@@ -1,13 +1,13 @@
 <Document>
-  # Airlock Upgrades
-  It is not uncommon for plucky individuals to try and bypass an airlock by meddling with its internal wiring.
+  # Melhorias em Câmaras de Compressão
+  Não é incomum que indivíduos corajosos tentem burlar uma câmara de compressão mexendo em sua fiação interna.
 
-  Fortunately, certain countermeasures can installed into airlocks to inconvenience any would-be trespassers.
+  Felizmente, certas contramedidas podem ser instaladas em câmaras de compressão para incomodar possíveis invasores.
 
-  ## Medium security airlocks
-  The most basic form of intrusion deterrence is to install a secured steel plating that will prevent access to internal wiring of the airlock.
+  ## Câmaras de compressão de segurança média
+  A forma mais básica de dissuasão de intrusão é instalar uma chapa de aço segura que impeça o acesso à fiação interna da câmara de compressão.
 
-  To upgrade a basic airlock to a medium security airlock, you will require the following materials:
+  Para atualizar uma câmara de compressão básica para uma câmara de compressão de segurança média, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetSteel" Caption="2 steel sheets"/>
@@ -20,16 +20,16 @@
 	  </Box>
   </Box>
 
-  To upgrade a basic airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the steel sheets to the airlock.
-  -	Weld the steel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Para atualizar uma câmara de descompressão básica:
+  - Use a chave de fenda para abrir o painel de manutenção da câmara de descompressão.
+  - Adicione as chapas de aço à câmara de descompressão.
+  - Solde as chapas de aço no lugar.
+  - Feche o painel de manutenção usando a chave de fenda.
 
-  ## High security airlocks
-  For airlocks leading to the more sensitive areas of the space station, the use of stronger deterrents are advised. High security airlocks have improved armor plating to protect its internal wiring, along with an electrified security grille.
+  ## Câmaras de descompressão de alta segurança
+  Para câmaras de descompressão que levam às áreas mais sensíveis da estação espacial, recomenda-se o uso de dispositivos de dissuasão mais fortes. As câmaras de descompressão de alta segurança possuem blindagem aprimorada para proteger sua fiação interna, juntamente com uma grade de segurança eletrificada.
 
-  To upgrade a medium security airlock to a high security airlock, you will require the following materials:
+  Para atualizar uma câmara de descompressão de segurança média para uma câmara de descompressão de alta segurança, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -45,17 +45,17 @@
 	  </Box>
   </Box>
 
-  To upgrade a medium security airlock:
-  - Use the screwdriver to open the airlock maintenance panel.
-  - Add the plasteel sheets to the airlock.
-  - Weld the plasteel sheets into place.
-  - Add the metal rods to the airlock.
-  - Close the maintenance panel using the screwdriver.
+  Para atualizar uma câmara de ar de segurança média:
+  - Use a chave de fenda para abrir o painel de manutenção da câmara de ar.
+  - Adicione as chapas de plasteel à câmara de ar.
+  - Solde as chapas de plasteel no lugar.
+  - Adicione as hastes de metal à câmara de ar.
+  - Feche o painel de manutenção usando a chave de fenda.
 
-  ## Maximum security airlocks
-  You can optionally upgrade a high security airlock to a maximum security airlock. Maximum security airlocks possess an additional layer of plasteel plating on top of its other protections.
+  ## Câmaras de ar de segurança máxima
+  Opcionalmente, você pode atualizar uma câmara de ar de alta segurança para uma câmara de ar de segurança máxima. As câmaras de ar de segurança máxima possuem uma camada adicional de revestimento de plasteel sobre suas outras proteções.
 
-  To upgrade a high security airlock to a maximum security airlock, you will require the following materials:
+  Para atualizar uma câmara de ar de alta segurança para uma câmara de ar de segurança máxima, você precisará dos seguintes materiais:
   <Box HorizontalAlignment="Stretch">
 	  <Box>
 		  <GuideEntityEmbed Entity="SheetPlasteel" Caption="2 plasteel sheets"/>
@@ -68,9 +68,9 @@
 	  </Box>
   </Box>
 
-  To upgrade a high security airlock:
-  -	Use the screwdriver to open the airlock maintenance panel.
-  -	Add the plasteel sheets to the airlock.
-  -	Weld the plasteel sheets into place.
-  -	Close the maintenance panel using the screwdriver.
+  Para atualizar uma câmara de descompressão de alta segurança:
+  - Use a chave de fenda para abrir o painel de manutenção da câmara de descompressão.
+  - Adicione as placas de plasteel à câmara de descompressão.
+  - Solde as placas de plasteel no lugar.
+  - Feche o painel de manutenção usando a chave de fenda.
 </Document>

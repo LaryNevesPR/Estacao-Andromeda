@@ -1,40 +1,41 @@
 <Document>
-  # Network Configurator
-  The network configurator allows you to manipulate device lists, link devices together and configure accesses for airlocks through door electronics.
+  # Configurador de Rede
+  O configurador de rede permite manipular listas de dispositivos, conectá-los e configurar acessos para câmaras de descompressão por meio de componentes eletrônicos de portas.
   <Box>
     <GuideEntityEmbed Entity="NetworkConfigurator"/>
   </Box>
-  The configurator has two modes: List and Link. You can press [color=gray]Alt+Z[/color] or [color=gray]Alt+Y[/color] to switch between them.
+  O configurador possui dois modos: Lista e Link. Você pode pressionar [color=gray]Alt+Z[/color] ou [color=gray]Alt+Y[/color] para alternar entre eles.
 
-  ## List Mode
-  In list mode you can click on network devices to save them on the configurator and then on a network device that has a device list like the [color=#a4885c]Air Alarm[/color].
+  ## Modo Lista
+  No modo Lista, você pode clicar nos dispositivos de rede para salvá-los no configurador e, em seguida, num dispositivo de rede que tenha uma lista de dispositivos, como o [color=#a4885c]Alarme de Ar[/color].
 
-  When clicking on a device like the Air Alarm, a UI will open displaying the list currently saved on the device and buttons to manipulate that list.
+  Ao clicar num dispositivo, como o Alarme de Ar, uma interface de usuário será aberta exibindo a lista salva no dispositivo e botões para manipular essa lista.
 
-  You can:
-  - Replace the current list with the one saved on the configurator
-  - Add the list on the configurator to the current one
-  - Clear the current list
-  - Copy the current list to the configurator
-  - Visualize the connections to the devices on the current list
+  Você pode:
+  - Substituir a lista atual pela salva no configurador
+  - Adicionar a lista no configurador à atual
+  - Limpar a lista atual
+  - Copiar a lista atual para o configurador
+  - Visualizar as conexões com os dispositivos na lista atual
 
-  Pressing [color=gray][keybind="ActivateItemInHand"][/color] opens the list saved on the configurator where you can remove saved devices.
+  Pressionar [color=gray][keybind="ActivateItemInHand"][/color] abre a lista salva no configurador, onde você pode remover os dispositivos salvos.
 
-  ## Link Mode
-  With link mode, you can click on a device that is capable of device linking and then click on any other device that is either a sink or source.
+  ## Modo Link
 
-  For example, first clicking on a source, like a [color=#a4885c]signal button[/color], and then on sink, like a [color=#a4885c]small light[/color], opens a UI that displays the source ports on the left side and the sink ports on the right.
+  Com o modo link, você pode clicar em um dispositivo compatível com a vinculação de dispositivos e, em seguida, clicar em qualquer outro dispositivo que seja um coletor ou uma fonte.
 
-  Now, you can either click [color=gray]Link Defaults[/color] to link the default ports for a source + sink combination, or press on a source port and then a sink port to connect them.
+  Por exemplo, clicar primeiro em uma fonte, como um [color=#a4885c]botão de sinalização[/color], e depois em um coletor, como uma [color=#a4885c]luzinha[/color], abre uma interface que exibe as portas de fonte à esquerda e as portas de coletor à direita.
 
-  An example of a default link for the aformentioned combinaton of devices would be:
+  Agora, você pode clicar em [color=gray]Vincular Padrões[/color] para vincular as portas padrão para uma combinação de fonte + coletor, ou clicar em uma porta de fonte e, em seguida, em uma porta de coletor para conectá-las.
+
+  Um exemplo de um link padrão para a combinação de dispositivos mencionada seria:
   <Box>
-    [color=cyan]Pressed 🠒 Toggle[/color]
+    [color=cyan]Pressionado 🠒 Alternar[/color]
    </Box>
-  When you're done connecting the ports you want you can click on [color=gray]OK[/color] to close the UI.
+  Após terminar de conectar as portas desejadas, clique em [color=gray]OK[/color] para fechar a interface.
 
-  You can quickly link multiple devices to their default port by first clicking on a device that can be linked and then using [color=gray]Alt+Left Mouse button[/color] on the devices you want to link together.
+  Você pode vincular rapidamente vários dispositivos à sua porta padrão clicando primeiro em um dispositivo que pode ser vinculado e, em seguida, usando [color=gray]Alt+Botão Esquerdo do Mouse[/color] nos dispositivos que deseja vincular.
 
-  ## Airlock Access
-  To configure an airlock's access, simply take the airlock's door electronics and interact with it using a network configurator (or multitool). Select the accesses you want, insert the door electronics into an airlock frame, and construct to finish!
+  ## Acesso à Câmara de Compressão
+  Para configurar o acesso de uma câmara de compressão, basta pegar a eletrônica da porta da câmara e interagir com ela usando um configurador de rede (ou multiferramenta). Selecione os acessos desejados, insira a eletrônica da porta na estrutura da câmara de compressão e monte para finalizar!
 </Document>
