@@ -67,11 +67,39 @@ namespace Content.Client.Canvas.Ui
             IoCManager.InjectDependencies(this);
 
             _spriteSystem = _entManager.System<SpriteSystem>();
-            Search.OnTextChanged += SearchChanged;
             //ColorSelector.OnColorChanged += SelectColor;
             ImportButton.OnPressed += _ =>
             {
-                string inputCode = Search.Text.Trim();
+                string inputCode = PaintCodeInput.Text.Trim();
+
+                // Check if the input starts with dimensions like 32x32;
+                if (inputCode.Contains(";"))
+                {
+                    int semicolonIndex = inputCode.IndexOf(';');
+                    string possibleSize = inputCode.Substring(0, semicolonIndex);
+
+                    if (possibleSize.Contains("x"))
+                    {
+                        string[] dimensions = possibleSize.Split('x');
+                        if (dimensions.Length == 2 &&
+                            int.TryParse(dimensions[0], out int width) &&
+                            int.TryParse(dimensions[1], out int height))
+                        {
+                            SetWidth((int) width);
+                            WidthSize.Value = width;
+                            WidthSizeLabel.Text = width.ToString();
+                            OnResizeWidth?.Invoke(width);
+
+                            SetHeight((int) height);
+                            HeightSize.Value = height;
+                            HeightSizeLabel.Text = height.ToString();
+                            OnResizeHeight?.Invoke(height);
+
+                            // Remove the size prefix including the semicolon
+                            inputCode = inputCode.Substring(semicolonIndex + 1);
+                        }
+                    }
+                }
 
                 // Ensure the input code is not empty
                 if (!string.IsNullOrEmpty(inputCode))
@@ -92,13 +120,14 @@ namespace Content.Client.Canvas.Ui
                 else
                 {
                     // Optionally, show an error message
-                    Search.Text = "Invalid Code";
+                    PaintCodeInput.Text = "Invalid Code";
                 }
             };
 
+
             ExportButton.OnPressed += _ =>
             {
-                Search.Text = _paintingCode;
+                PaintCodeInput.Text = _paintingCode;
                 FixPaintingCode();
                 PopulatePaintingGrid();
             };
@@ -154,10 +183,6 @@ namespace Content.Client.Canvas.Ui
             _color = color;
 
             OnColorSelected?.Invoke(color);
-        }
-
-        private void SearchChanged(LineEdit.LineEditEventArgs obj)
-        {
         }
 
         public void UpdateState(BoundUserInterfaceState state)

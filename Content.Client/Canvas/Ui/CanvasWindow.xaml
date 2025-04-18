@@ -11,14 +11,14 @@
                 <gfx:StyleBoxFlat BackgroundColor="#1e1e1e" />
             </PanelContainer.PanelOverride>
             <BoxContainer Name="HeaderColorPreview" Orientation="Horizontal" Align="Center" Margin="0 8 0 8">
-                <Label Text="Colour:" Margin="0 0 8 0"/>
+                <Label Text="{Loc 'canvas-color'}:" Margin="0 0 8 0"/>
                 <Button Name="ColorPreview" Margin="8 0 0 0" />
             </BoxContainer>
             <BoxContainer Name="HeaderTools" Orientation="Horizontal" Margin="0 0 0 8">
-                <LineEdit Name="Search" PlaceHolder="Paint Code" HorizontalExpand="True" />
-                <Button Name="ImportButton" Text="Import" Margin="8 0 0 0" />
-                <Button Name="ExportButton" Text="Export" Margin="8 0 0 0" />
-                <Button Name="FinalizeButton" Text="Finalize" Margin="8 0 0 0" />
+                <LineEdit Name="PaintCodeInput" PlaceHolder="{Loc 'canvas-paintcode'}" HorizontalExpand="True" />
+                <Button Name="ImportButton" Text="{Loc 'canvas-finalize-import'}" Margin="8 0 0 0" />
+                <Button Name="ExportButton" Text="{Loc 'canvas-export'}" Margin="8 0 0 0" />
+                <Button Name="FinalizeButton" Text="{Loc 'canvas-finalize'}" Margin="8 0 0 0" />
             </BoxContainer>
         </PanelContainer>
         
@@ -55,7 +55,7 @@
                             <Control MinSize="4 0"/>
                         </BoxContainer>
                         <BoxContainer Orientation="Horizontal" Align="Center">
-                            <LineEdit Name="ArtistSignature" PlaceHolder="Signature" HorizontalExpand="True" />
+                            <LineEdit Name="ArtistSignature" PlaceHolder="{Loc 'canvas-signature'}" HorizontalExpand="True" />
                         </BoxContainer>
                         <BoxContainer Name="ColorSelector" Orientation="Horizontal" Align="Center">
                         </BoxContainer>

@@ -69,22 +69,22 @@ def load_image(image):
     app.image = image
 
 def convert_image_to_code(image, height, width):
-    """Convert an image into PaintingCode format using segments."""
-    image = image.resize((width, height), Image.Resampling.NEAREST)  # Resize the image to the specified dimensions
+    """Convert an image into PaintingCode format using segments and add dimensions prefix."""
+    image = image.resize((width, height), Image.Resampling.NEAREST)  # Resize the image
     pixels = image.load()
     code = []
 
     for y in range(height):
         row_code = []
         for x in range(width):
-            # Check the format of the pixel
             pixel = pixels[x, y]
-            if isinstance(pixel, int):  # Grayscale image
-                r = g = b = pixel  # Set R, G, B to the grayscale value
-                a = 255  # Default alpha value for opaque
+
+            if isinstance(pixel, int):  # Grayscale
+                r = g = b = pixel
+                a = 255
             elif len(pixel) == 3:  # RGB
                 r, g, b = pixel
-                a = 255  # Default alpha value for opaque
+                a = 255
             elif len(pixel) == 4:  # RGBA
                 r, g, b, a = pixel
             else:
@@ -93,16 +93,28 @@ def convert_image_to_code(image, height, width):
             segment = get_color_code_from_rgba(r, g, b, a)
             row_code.append(segment)
 
-        # Join each row with ';' but avoid an extra semicolon at the end of the row
-        code.append(";".join(row_code))  # No extra newline here, only add `;` between segments
+        code.append(";".join(row_code))
 
-    return ";\n".join(code), code  # Join the rows with newlines
-
-
-
+    # Combine everything and add dimensions prefix
+    flat_code = ";\n".join(code)
+    full_code = f"{width}x{height};{flat_code}"
+    
+    return full_code, code
 
 def generate_image_from_code(code, height, width):
-    """Generate an image from PaintingCode using segments."""
+    """Generate an image from PaintingCode using segments, removing size prefix if present."""
+    # Check if code starts with dimensions like 32x32;
+    if ";" in code:
+        first_part = code.split(";", 1)[0]
+        if "x" in first_part:
+            try:
+                int(first_part.split("x")[0])
+                int(first_part.split("x")[1])
+                # Strip the prefix
+                code = code[len(first_part) + 1:]
+            except ValueError:
+                pass  # Not a valid size prefix; ignore
+
     rows = code.strip().split(";\n")  # Split the PaintingCode into rows
     if len(rows) != height:
         raise ValueError("Code dimensions do not match specified height.")
@@ -121,6 +133,7 @@ def generate_image_from_code(code, height, width):
 
     # Scale up for better visibility
     return image.resize((width * 10, height * 10), Image.Resampling.NEAREST)
+
 
 
 def preview_generated_image():
