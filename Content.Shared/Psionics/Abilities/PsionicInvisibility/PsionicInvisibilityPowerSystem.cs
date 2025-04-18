@@ -13,7 +13,7 @@ using Content.Shared.Weapons.Ranged.Events;
 using Content.Shared.Throwing;
 using Robust.Shared.Timing;
 
-namespace Content.Server.Abilities.Psionics;
+namespace Content.Shared.Psionics.Abilities.PsionicInvisibility;
 
 public sealed class PsionicInvisibilityPowerSystem : EntitySystem
 {

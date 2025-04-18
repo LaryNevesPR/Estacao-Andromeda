@@ -1,13 +1,14 @@
 using Content.Shared.Abilities.Psionics;
-using Content.Server.Abilities.Psionics;
 using Content.Shared.Eye;
-using Robust.Shared.Containers;
-using Robust.Shared.Player;
-using Robust.Server.GameObjects;
 using Content.Shared.NPC.Systems;
 using Content.Shared.Psionics;
+using Content.Shared.Psionics.Abilities.PsionicInvisibility;
+using Robust.Server.GameObjects;
+using Robust.Shared.Containers;
+using Robust.Shared.Player;
 
-namespace Content.Server.Psionics
+
+namespace Content.Server.Psionics.Invisibility
 {
     public sealed class PsionicInvisibilitySystem : EntitySystem
     {
