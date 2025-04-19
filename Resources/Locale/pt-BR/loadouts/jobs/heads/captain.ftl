@@ -1,0 +1,12 @@
+loadout-description-LoadoutCommandCapNeckMantle = Para mostrar quem tem a autoridade por aqui.
+loadout-description-LoadoutCommandCapNeckCloak = Para realmente mostrar quem tem a autoridade por aqui.
+loadout-description-LoadoutCommandCapNeckCloakFormal = Mais do que apenas mostrar quem tem a autoridade, também mostra quem tem o maior senso de moda.
+loadout-description-LoadoutCommandCapJumpsuitFormal = A roupa é bem elegante. Estou curioso para saber aonde o usuário poderia estar indo para justificar um visual tão estiloso.
+loadout-description-LoadoutCommandCapJumpskirtFormal = A roupa é bem elegante. Estou curioso para saber aonde o usuário poderia estar indo para justificar um visual tão estiloso.
+loadout-description-LoadoutCommandCapOuterWinter = Um casaco quente para o frio do espaço.
+loadout-description-LoadoutCommandCapGloves = As luvas do capitão. São luvas muito boas.
+loadout-description-LoadoutCommandCapHat = O chapéu do capitão. É um chapéu muito bonito.
+loadout-description-LoadoutCommandCapHatCapcap = O boné do capitão, bem bacana.
+loadout-description-LoadoutCommandCapHatBeret = A boina do capitão, muito boa.
+loadout-description-LoadoutCommandCapMaskGas = Por que o capitão precisaria disso? Eu não sei, mas parece legal.
+loadout-description-LoadoutCommandCapItemDrinkFlask = A melhor das garrafas, para as melhores bebidas.

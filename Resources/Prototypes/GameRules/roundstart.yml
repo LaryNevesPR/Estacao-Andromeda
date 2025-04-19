@@ -83,7 +83,7 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 15
   - type: LoadMapRule
     gameMap: NukieOutpost
   - type: AntagSelection
@@ -100,6 +100,7 @@
         nameSegments:
         - nukeops-role-commander
         - SyndicateNamesElite
+      - type: SurgerySkill
       - type: NpcFactionMember
         factions:
         - Syndicate
@@ -111,6 +112,7 @@
       playerRatio: 10
       startingGear: SyndicateOperativeMedicFull
       components:
+      - type: SurgerySkill
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -128,6 +130,7 @@
       playerRatio: 10
       startingGear: SyndicateOperativeGearFull
       components:
+      - type: SurgerySkill
       - type: NukeOperative
       - type: RandomMetadata
         nameSegments:
@@ -173,6 +176,8 @@
         components:
         - AntagImmune
       lateJoinAdditional: true
+      components:
+      - type: SurgerySkill
       mindRoles:
       - MindRoleTraitor
 
@@ -196,7 +201,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 10
   - type: RevolutionaryRule
   - type: AntagSelection
     definitions:
@@ -234,7 +239,7 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 10
     delay:
       min: 600
       max: 900

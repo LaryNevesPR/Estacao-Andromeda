@@ -4,6 +4,12 @@
   description: job-description-hos
   playTimeTracker: JobHeadOfSecurity
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Security
+      min: 36000 # 10 hours
+    - !type:CharacterPlaytimeRequirement # DeltaV - JobSecurityOfficer time requirement. Make them experienced in proper officer work.
+      tracker: JobWarden
+      min: 18000 # 5 horas
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

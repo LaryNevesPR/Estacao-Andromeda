@@ -484,7 +484,16 @@ namespace Content.Shared.Cuffs
             handcuffsComp.Used = true;
             Dirty(handcuff, handcuffsComp);
             // Success!
-            _hands.TryDrop(user, handcuff);
+            //Andromeda
+            if (cuff.RemoveOnUse)
+                _hands.TryDrop(user, handcuff);
+            else
+            {
+                handcuff = Spawn("Zipties", Transform(user).Coordinates);
+                var newcuffs = EnsureComp<HandcuffComponent>(handcuff);
+                newcuffs.Used = true;
+            }
+            // Fim da mudança andromeda
             var result = _container.Insert(handcuff, component.Container);
             // Shitmed Change End
 

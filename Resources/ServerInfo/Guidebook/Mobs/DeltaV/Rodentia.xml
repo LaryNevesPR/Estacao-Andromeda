@@ -1,0 +1,33 @@
+<Document>
+  # Rodentia
+
+  <Box>
+    <GuideEntityEmbed Entity="MobRodentiaDummy" Caption=""/>
+  </Box>
+
+  Rodentia é uma raça de seres humanoides semelhantes a roedores. Engenhosos, evasivos, furtivos, mas frágeis.
+
+  ## Dieta
+
+  - Pode comer carne crua.
+  - Será envenenado por Teobromina (Chocolate, Chá, Café) e Alicina (Cebola, Alho).
+
+  ## Benefícios
+
+  - Usa suas garras para causar dano cortante e contundente.
+  - Menor que humanos.
+  - Cabe em mochilas.
+
+  ## Especial
+
+  - Podem vasculhar calhas de descarte, o que às vezes pode desenterrar comida.
+  - Podem armazenar pequenos itens nas bochechas. Ter itens na boca torna a sua fala incompreensível, e eles deixarão cair todos os itens que estiverem na boca se forem atacados, atordoados ou empurrados.
+  - Podem "se esgueirar" por baixo das mesas, mas não das portas.
+
+  ## Desvantagens
+
+  - Recebe 30% a mais de dano contundente e 15% a mais de dano cortante e perfurante.
+  - Sempre aciona ratoeiras, independentemente de estarem ou não usando sapatos.
+  - Fica com fome 33% mais rápido.
+
+</Document>

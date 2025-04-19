@@ -1,0 +1,3 @@
+death-gasp-normal = convulsiona e cai mole, seus olhos mortos e sem vida...
+death-gasp-medium = libera um sopro final de vida, perceptível em algum nível estranho.
+death-gasp-high = fica tenso quando sua alma sai do seu corpo, deixando seu antigo recipiente e iniciando sua viagem para o próximo mundo.

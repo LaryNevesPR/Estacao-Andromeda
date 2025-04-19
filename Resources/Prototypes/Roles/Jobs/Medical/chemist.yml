@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 28800 # DeltaV - 8 hours
+      min: 14400 # Andromeda
     - !type:CharacterEmployerRequirement
       employers:
       - ZengHuPharmaceuticals
@@ -23,6 +23,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+    - type: SurgerySkill
     - type: SurgerySpeedModifier
       speedModifier: 1.75
 

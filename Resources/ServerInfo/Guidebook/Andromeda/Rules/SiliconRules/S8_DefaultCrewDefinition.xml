@@ -1,0 +1,20 @@
+<Document>
+  # Regra S8 - Definição Padrão de Tripulação
+  A menos que uma lei redefina a definição de tripulação, seu HUD indica quem é tripulação por meio de um ícone de trabalho presente. A exceção notável são ameaças óbvias à estação, como Zumbis e Operativos Nucleares. Você não pode fazer algo que faça com que alguém não seja considerado tripulação, mas pode permitir que outra pessoa faça algo que faça com que alguém não seja tripulação.
+
+  ## Exemplos
+  Esses exemplos assumem que você não tem nenhuma lei reclassificando o que é "tripulação".
+
+  Tripulação:
+  - Todos com um ícone de trabalho não-visitante/passageiro
+  - Alguém que você viu com um ícone de trabalho, mas agora perdeu seu ID
+  - Alguém que um membro da comando chama de tripulação.
+
+  Não Tripulação:
+  - Todos com um ícone de trabalho de visitante/passageiro.
+  - Pessoal zombificado, independentemente do ícone de trabalho
+  - Qualquer pessoa vestindo o uniforme de Operadores Nucleares
+  - Animais de estimação e pragas
+  - Qualquer pessoa que um membro relevante da Comando demita de seu departamento.
+
+</Document>

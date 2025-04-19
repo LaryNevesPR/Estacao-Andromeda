@@ -8,3 +8,5 @@
     sprite: _NF/Clothing/Neck/Scarfs/chaplain_stole.rsi
   - type: Clothing
     sprite: _NF/Clothing/Neck/Scarfs/chaplain_stole.rsi
+  - type: TemperatureProtection
+    coefficient: 0.8

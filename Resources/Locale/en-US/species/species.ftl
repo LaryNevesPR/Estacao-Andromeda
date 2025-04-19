@@ -11,6 +11,7 @@ species-name-moth = Moth Person
 species-name-skeleton = Skeleton
 species-name-vox = Vox
 species-name-ipc = IPC
+species-name-daengati = Daengati
 species-name-shadowkin = Shadowkin
 species-name-plasmaman = Plasmaman
 

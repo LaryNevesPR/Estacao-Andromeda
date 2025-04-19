@@ -1,0 +1,19 @@
+﻿- type: entity
+  id: LockedBriefcase
+  parent: BaseStorageItem
+  name: Maleta da Nanotrasen
+  description: Uma maleta elegante de alta segurança, poucas pessoas tem a honra de abri-la.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Storage/Briefcases/briefcase_locked.rsi
+    state: icon
+  - type: AccessReader
+    access:
+    - ["CentralCommand"]
+  - type: Lock
+  - type: ResistLocker
+  - type: Item
+    size: Ginormous
+  - type: Storage
+    grid:
+    - 0,0,5,3

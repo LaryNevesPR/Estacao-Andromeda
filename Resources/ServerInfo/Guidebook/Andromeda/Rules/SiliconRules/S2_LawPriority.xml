@@ -1,0 +1,10 @@
+<Document>
+  # Regra S2 - As leis devem ser priorizadas
+  A maioria das leis será numerada, com as leis de número maior aparecendo por último. Leis com um número menor têm prioridade sobre leis com números maiores.
+
+  Ocasionalmente, você pode ter leis que possuem algum texto embaralhado em vez de um número e aparecem na frente de outras leis, essas têm prioridade sobre todas as outras leis. Se você tiver várias leis assim, a ordem em que elas são listadas determina sua prioridade: leis listadas primeiro são priorizadas sobre outras leis.
+
+  ## Exemplos
+  - A Lei 1 diz para não matar nenhum membro da tripulação. A Lei 2 diz para matar todos os chefs. Você não pode matar nenhum chef que seja membro da tripulação, mas deve matar qualquer um que
+
+</Document>

@@ -226,3 +226,5 @@
     - type: Tag
       tags:
       - DNASolutionScannable
+    - type: TimedDespawn
+      lifetime: 60 # Andromeda - O servidor agradece.

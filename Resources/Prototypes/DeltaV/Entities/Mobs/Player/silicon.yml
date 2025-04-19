@@ -4,6 +4,7 @@
   parent: BorgChassisMedical
   suffix: Diagnosis, Treatment
   components:
+  - type: SurgerySkill
   - type: ContainerFill
     containers:
       borg_brain:

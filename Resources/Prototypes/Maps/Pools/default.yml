@@ -2,7 +2,7 @@
   id: DefaultMapPool
   maps:
   - Anchor # Maintained by the SiN Mapping Team
-  - Arena # Maintained by astriloqua.
+#  - Arena # Maintained by astriloqua.
   - Asterisk # Maintained by mrs.
   - Core # No current Maintainer. In need of a rework...
  # - Edge # De-rotated, no current maintainer.

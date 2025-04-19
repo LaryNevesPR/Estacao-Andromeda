@@ -104,6 +104,7 @@
     - BorgChassis
   chatMessages: [ barks ]
   chatTriggers:
+    - late
     - barks
 
 - type: emote
@@ -136,6 +137,7 @@
     - BorgChassis
   chatMessages: [ whines ]
   chatTriggers:
+    - choraminga
     - whines
 
 - type: emote
@@ -152,6 +154,7 @@
     - BorgChassis
   chatMessages: [ howls ]
   chatTriggers:
+    - uiva
     - howls
 
 - type: emote

@@ -1,0 +1,144 @@
+- type: loadout
+  id: LoadoutNeckCloakMoth
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCloakMoth
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+- type: loadout
+  id: LoadoutItemsNeckRedHood
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCloakRedHood
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+# Generic collars
+- type: loadout
+  id: LoadoutItemsNeckBlueCollar
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCollarBlue
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+- type: loadout
+  id: LoadoutItemsNeckBlackCollar
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCollarBlack
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+- type: loadout
+  id: LoadoutItemsNeckPinkCollar
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCollarPink
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+- type: loadout
+  id: LoadoutItemsNeckSyndieCollar
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingNeckCollarSyndi
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+- type: loadout
+  id: LoadoutItemsNeckShockCollar
+  category: Neck
+  cost: 1
+  exclusive: true
+  items:
+    - ShockCollar
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutNeck
+
+#job collars
+- type: loadout
+  id: LoadoutMedicalNeckCollar
+  category: JobsMedicalAUncategorized
+  cost: 1
+  requirements:
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Medical
+  items:
+  - ClothingNeckCollarMed
+
+- type: loadout
+  id: LoadoutScienceNeckCollar
+  category: JobsEpistemicsAAUncategorized
+  cost: 1
+  requirements:
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Epistemics
+  items:
+  - ClothingNeckCollarEpi
+
+- type: loadout
+  id: LoadoutCommandCapCollar
+  category: JobsCommandCaptain
+  cost: 1
+  requirements:
+  - !type:CharacterJobRequirement
+    jobs:
+    - Captain
+  items:
+  - ClothingNeckCollarCmd
+
+- type: loadout
+  id: LoadoutSecurityNeckCollar
+  category: JobsSecurityAUncategorized
+  cost: 1
+  requirements:
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Security
+  items:
+  - ClothingNeckCollarSec
+
+- type: loadout
+  id: LoadoutCargoNeckCollar
+  category: JobsLogisticsAUncategorized
+  cost: 1
+  requirements:
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Logistics
+  items:
+  - ClothingNeckCollarLogi
+
+- type: loadout
+  id: LoadoutEngineeringNeckCollar
+  category: JobsEngineeringAAUncategorized
+  cost: 1
+  items:
+  - ClothingNeckCollarEngi
+  requirements:
+  - !type:CharacterDepartmentRequirement
+    departments:
+    - Engineering

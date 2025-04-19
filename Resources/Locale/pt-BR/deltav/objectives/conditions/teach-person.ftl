@@ -1,0 +1,1 @@
+objective-condition-teach-person-title = De uma surra em{$targetName}, {CAPITALIZE($job)}. Você precisa estar a 30 metros do alvo, caso contrário, o sindicato não pode levar o crédito pelo trabalho. Não há necessidade de apagá-lo da existência.

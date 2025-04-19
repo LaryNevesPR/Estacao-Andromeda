@@ -3,10 +3,11 @@
   name: job-name-atmostech
   description: job-description-atmostech
   playTimeTracker: JobAtmosphericTechnician
+  antagAdvantage: 10 # Verificar agora com o rebalence do TC
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Engineering
-      min: 36000 # DeltaV - 10 hours
+      min: 18000 # 5 horas
     - !type:CharacterEmployerRequirement
       employers:
       - HephaestusIndustries

@@ -1,0 +1,102 @@
+- type: entity
+  parent: BaseFigurine
+  id: ToyFigurineLunaraGooben
+  name: Lunara Gooben
+  description: Deusa. Somente Deusa.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: luna_figure
+    scale: 0.5, 0.5
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurinePodroSilva
+  name: Podro Coelho da Silva
+  description: "Essa famosa raposa do ártico curiosa come todos os ratos que vê pela frente, mas, não importa oque aconteça... não puxe o seu rabo!!"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: podro_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineWellsChaplon
+  name: Wells Chaplon
+  description: "Dizem que ele é melhor que o Capitão Ronaldo"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: wells_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurinePhilMal
+  name: Phil-Mal
+  description: "Uma lagartixa muito azul"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: phil_figure
+
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineJanieSmith
+  name: Janie Smith Coelho da Silva
+  description: "Lembrete da Medbay: Liguem os localizadores"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: janie_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineRonaldo
+  name: Ronaldo Raimundo
+  description: "Dizem que ele é melhor que o Capitão Wells"
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: ronaldo_figure
+
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineGui
+  name: Guilherme Carneiro Mendes
+  description: "O prodigio da Nanotrasen!!! Quem eu to querendo enganar... É só um CLT médio da Nanotrasen."
+  components:
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: gui_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineLao
+  name: Lao Tsung
+  description: Template
+  components:
+    - type: Sprite
+      sprite: _Andromeda/misc/figures_catarse.rsi
+      state: Lao_Figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineLawLaw
+  name: Law Law
+  description: "Ao apertar a barriga dela, ela pergunta: 'Quer um cafezinho?'. Perfeita para você que é um head solitário."
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: lawlaw_figure
+
+- type: entity
+  parent: ToyFigurineLunaraGooben
+  id: ToyFigurineMarcos
+  name: Marcos Felipe Azevedo
+  description: Template
+  components:
+  - type: Sprite
+    sprite: _Andromeda/misc/figures_catarse.rsi
+    state: marcos_figure

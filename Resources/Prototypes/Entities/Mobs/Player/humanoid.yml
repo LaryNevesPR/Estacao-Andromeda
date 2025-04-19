@@ -100,6 +100,7 @@
     - Monkey # Shitmed Change
     - Kobold # Shitmed Change
   components:
+    - type: SurgerySkill
     - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-leader-name
@@ -463,6 +464,7 @@
   id: ERTMedical
   parent: ERTLeader
   components:
+    - type: SurgerySkill
     - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
@@ -494,6 +496,7 @@
   id: ERTMedicalEVA
   parent: ERTMedical
   components:
+    - type: SurgerySkill
     - type: MindShield
     - type: GhostRole
       name: ghost-role-information-ert-medical-name
@@ -875,6 +878,7 @@
   id: DisasterVictimCMO
   randomizeName: false
   components:
+    - type: SurgerySkill
     - type: GhostRole
       name: ghost-role-information-disaster-victim-name
       description: ghost-role-information-disaster-victim-description
@@ -893,6 +897,7 @@
   id: DisasterVictimCaptain
   randomizeName: false
   components:
+    - type: SurgerySkill
     - type: GhostRole
       name: ghost-role-information-disaster-victim-name
       description: ghost-role-information-disaster-victim-description

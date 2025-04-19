@@ -4,6 +4,12 @@
   description: job-description-qm
   playTimeTracker: JobQuartermaster
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Logistics
+      min: 28800 # 8 horas
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobSalvageSpecialist
+      min: 14400 #4 hrs
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

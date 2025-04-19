@@ -46,6 +46,7 @@
     - !type:CharacterDepartmentTimeRequirement
       department: Security
       time: 7200 #2 hours
+  - type: SurgerySkill
   - type: AbductorScientist
   - type: SurgeryIgnoreClothing
   - type: Sanitized
@@ -70,6 +71,7 @@
       department: Medical
       time: 10800 #3 hours
   - type: AbductorScientist
+  - type: SurgerySkill
   - type: SurgeryIgnoreClothing
   - type: Sanitized
   - type: SurgerySpeedModifier

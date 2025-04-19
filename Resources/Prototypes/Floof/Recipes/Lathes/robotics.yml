@@ -1,0 +1,7 @@
+- type: latheRecipe
+  id: Quadborgendoskeleton
+  result: Quadborgendoskeleton
+  category: Robotics
+  completetime: 3
+  materials:
+    Steel: 1800

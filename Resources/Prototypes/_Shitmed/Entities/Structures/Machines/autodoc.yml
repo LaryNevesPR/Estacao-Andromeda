@@ -80,6 +80,7 @@
     - 0,0,3,3
   - type: SurgerySpeedModifier
     speedModifier: 0.5 # on par with a surgeon using normal tools
+  - type: SurgerySkill
   - type: GuideHelp
     guides: [ Autodoc ]
 

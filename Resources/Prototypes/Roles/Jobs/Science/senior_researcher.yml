@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Epistemics # DeltaV - Epistemics Department replacing Science
-      min: 216000 #60 hrs
+      min: 72000 # 20 hrs
     - !type:CharacterEmployerRequirement
       employers:
       - NanoTrasen

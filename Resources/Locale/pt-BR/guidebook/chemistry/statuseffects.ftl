@@ -1,0 +1,13 @@
+﻿reagent-effect-status-effect-Stun = atordoamento
+reagent-effect-status-effect-KnockedDown = derrubado
+reagent-effect-status-effect-Jitter = tremor
+reagent-effect-status-effect-TemporaryBlindness = cegueira temporária
+reagent-effect-status-effect-SeeingRainbows = alucinações
+reagent-effect-status-effect-Muted = incapacidade de falar
+reagent-effect-status-effect-Stutter = gagueira
+reagent-effect-status-effect-ForcedSleep = inconsciência
+reagent-effect-status-effect-Drunk = embriaguez
+reagent-effect-status-effect-PressureImmunity = imunidade à pressão
+reagent-effect-status-effect-Pacified = pacificação de combate
+reagent-effect-status-effect-RatvarianLanguage = padrões de linguagem ratvarianos
+reagent-effect-status-effect-StaminaModifier = modificação de vigor

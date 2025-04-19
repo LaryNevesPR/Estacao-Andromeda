@@ -285,26 +285,26 @@
       addFactions:
         - AnimalFriend
 
-- type: trait
-  id: SurgeryTraining
-  category: Mental
-  points: -3
-  functions:
-    - !type:TraitAddComponent
-      components:
-        - type: SurgerySpeedModifier
-          speedModifier: 1.6
-  requirements:
-    - !type:CharacterJobRequirement
-      inverted: true
-      jobs:
-        - MedicalDoctor
-        - Chemist
-        - MedicalIntern
-        - Paramedic
-        - ChiefMedicalOfficer
-        - Brigmedic
-        - SeniorPhysician
+#- type: trait
+#  id: SurgeryTraining # Por enquanto não. #Andrômeda
+#  category: Mental
+#  points: -3
+#  functions:
+#    - !type:TraitAddComponent
+#      components:
+#        - type: SurgerySpeedModifier
+#          speedModifier: 1.6
+#  requirements:
+#    - !type:CharacterJobRequirement
+#      inverted: true
+#      jobs:
+#        - MedicalDoctor
+#        - Chemist
+#        - MedicalIntern
+#        - Paramedic
+#        - ChiefMedicalOfficer
+#        - Brigmedic
+#        - SeniorPhysician
 
 - type: trait
   id: ExperiencedSurgeon

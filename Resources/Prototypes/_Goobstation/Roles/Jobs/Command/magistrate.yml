@@ -6,10 +6,10 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 54000 # 15 hours
+      min: 10800 # 6 horas
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 54000 # 15 hours
+      min: 28800 # 6 horas
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -25,6 +25,7 @@
   icon: "JobIconMagistrate"
   requireAdminNotify: true
   joinNotifyCrew: true
+  whitelisted: true
   supervisors: job-supervisors-centcom
   canBeAntag: false
   access:

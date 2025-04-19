@@ -420,6 +420,7 @@
       state: icon
     event: !type:ToggleNightVisionEvent
 
+
 - type: entity
   id: ToggleThermalVision
   name: Switch Thermal vision
@@ -443,6 +444,18 @@
   components:
   - type: InstantAction
     useDelay: 4
+
+- type: entity
+  id: ToggleNightVisionDaengati
+  name: Switch night vision
+  description: Switches night vision.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: InstantAction
+    itemIconStyle: BigAction
+    priority: -20
+    icon: Interface/Actions/eyeopen.png
+    event: !type:ToggleNightVisionEvent
 
 - type: entity
   id: ActionSelfExtinguish

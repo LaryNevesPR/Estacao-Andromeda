@@ -66,6 +66,7 @@
       - type: AbductorScientist
       - type: SurgeryIgnoreClothing
       - type: Sanitized
+      - type: SurgerySkill
       - type: SurgerySpeedModifier
         speedModifier: 1.5
       mindRoles:
@@ -122,6 +123,7 @@
         color: Green
         sound: /Audio/_Shitmed/Misc/abductor.ogg
       components:
+      - type: SurgerySkill
       - type: Abductor
       - type: Psionic
         removable: false

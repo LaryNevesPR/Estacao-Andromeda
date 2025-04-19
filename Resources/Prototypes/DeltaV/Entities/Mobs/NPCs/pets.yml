@@ -53,3 +53,8 @@
     - CannotSuicide
     - VimPilot
     - DoorBumpOpener
+  - type: StaminaDamageOnHit
+    damage: 35
+  - type: DogVision
+  - type: ScentTracker
+

@@ -6,13 +6,13 @@
   requirements:
     - !type:CharacterPlaytimeRequirement
       tracker: JobChemist
-      min: 21600 #6 hrs
+      min: 10800 #3 hrs #3 hrs
     - !type:CharacterPlaytimeRequirement
       tracker: JobMedicalDoctor
-      min: 21600 #6 hrs
+      min: 10800 #3 hrs #3 hrs
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 216000 # 60 hrs
+      min: 72000 # 20 hrs
     - !type:CharacterEmployerRequirement
       employers:
       - ZengHuPharmaceuticals
@@ -29,6 +29,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+    - type: SurgerySkill
     - type: SurgerySpeedModifier
       speedModifier: 2.0
 

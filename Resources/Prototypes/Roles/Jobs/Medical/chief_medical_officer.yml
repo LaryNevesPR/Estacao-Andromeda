@@ -11,7 +11,12 @@
       traits:
         - Foreigner
         - ForeignerLight
-        - Muted
+    - !type:CharacterPlaytimeRequirement
+      tracker: JobChemist
+      min: 21600 #6 hrs
+    - !type:CharacterDepartmentTimeRequirement
+      department: Medical
+      min: 36000 # 20 hrs
     - !type:CharacterEmployerRequirement
       employers:
       - ZengHuPharmaceuticals
@@ -42,6 +47,7 @@
   - !type:AddComponentSpecial
     components:
     - type: CPRTraining
+    - type: SurgerySkill
     - type: SurgerySpeedModifier
       speedModifier: 2.5
   afterLoadoutSpecial:

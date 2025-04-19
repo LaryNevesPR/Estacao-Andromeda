@@ -1,0 +1,133 @@
+<Document>
+  # Regra J5: Siga o Metashield
+  - Algo que é "shielded" ou "protegido" não pode ser conhecido pelo seu personagem durante uma rodada até que a "condição reveladora" aconteça. Isso também significa que seu personagem não pode fazer coisas com base em informações "protegidas". Saber ou agir sobre algo que é protegido antes que a condição reveladora seja atendida é chamado de metajogo.
+
+  - Condições reveladoras revelam as informações protegidas para a rodada, não para uma instância específica. Isso significa que uma vez que uma condição reveladora é atendida em uma rodada, o escudo não se aplica mais em nenhum caso pelo restante da rodada.
+
+  ## Nunca revelado IC
+  Alguns escudos nunca são revelados IC. Isso significa que seu personagem nunca pode agir como se soubesse sobre aquela coisa protegida.
+
+  Os seguintes são protegidos:
+  - Modo de jogo atual e possíveis antags durante o modo de jogo atual.
+  - Eventos que você vivenciou como um personagem diferente.
+  - Todas as informações relacionadas ao jogador de um personagem, e não ao personagem em si. (Veja "MetaAmigos e Metagrudging" abaixo.)
+  - Todas as informações obtidas enquanto morto ou fantasma.
+  - Qualquer coisa relacionada ao Código Epsilon ou Esquadrões da Morte
+
+  Isso não impede saber que um turno terminará, mas proíbe coisas como se preparar para matar pessoas no comando central quando as regras de roleplay param de ser aplicadas no LRP.
+
+ ## Compreensão da Estação e Sabotagem
+
+  Para entidades sem intelecto de nível da tripulação (por exemplo, uma tarântula, zumbi etc), a compreensão das funções da estação e como elas podem ser sabotadas é protegida.
+
+  Exemplo:
+  - Você não deve quebrar canos porque sabe que a tripulação vai ficar sem ar.
+  - Você não deve quebrar o Dispensador Químico porque sabe que ele é necessario para fazer remédios.
+  - Você não deve quebrar janelas voltadas pro espaço para tirar o ar da estação.
+
+  Somente ratos e macacos operativos e do sindicato tem esse conhecimento de sabotagem.
+  Receber o poder da Cognizina também permite você a ter esse conhecimento.
+
+  ## Rodadas anteriores
+
+  Eventos de rodadas anteriores não são protegidos, mas não devem ter nenhuma relação com a rodada atual. (por exemplo, você não pode ser preso por crimes em uma rodada passada)
+
+  ## Itens de Alto Risco
+
+  A ideia de que certos Itens de Alto Risco são desejados especificamente pelo Sindicato é protegida. A tripulação deve proteger itens de Alto Risco devido ao seu status como itens valiosos, não porque são potenciais objetivos de roubo.
+
+  Essa informação é revelada quando:
+   - você é um traidor
+   - um traidor te disse sobre o status do item.
+
+  ## Operativos Nucleares
+
+  A existência de Operativos Nucleares além de um mito que ninguém agiria é protegida.
+
+  O fato de que o disco nuclear deve ser protegido e pode ser usado por um mau ator para tentar destruir a estação não é protegido.
+
+  Essa informação é revelada quando:
+  - descobrindo um traje espacial vermelho.
+  - descobrindo a nave espacial dos operativos nucleares.
+  - vendo um nome de um agente.
+  - após um anúncio de Guerra.
+  - sendo um agente nuclear.
+
+  ## Implantes
+
+  A existência de implantes usados ​​pelo Sindicato é protegida. As verificações de implantes não podem ser realizadas a menos que haja evidências adequadas ou um mandado autorizado, conforme descrito nos Procedimentos Operacionais Padrão (PoP).
+
+  Essa informação é revelada quando:
+  - descobrindo um implante não NT, usado ou não
+  - descobrindo um caixa de implante não NT
+  - descobrindo o uso de um implante não NT por qualquer pessoa
+  - vivenciar uma situação em que absolutamente nenhuma outra explicação é possível
+  - descobrir um uplink desbloqueado
+
+  ## Chameleon Items
+
+  Itens camaleão são protegidos.
+
+  Suspeitar que um item seja falso ou roubado não é protegido, mas testar itens ou chamá-los de camaleão é coberto por este escudo. Testar roupas para status camaleão é sempre proibido; itens que são claramente camaleão podem, no entanto, ser confiscados pela Segurança.
+
+  Essa informação é revelada quando:
+  - ver outra pessoa fazer com que qualquer item camaleão mude
+  - encontrar fibras de nanomáquina holográficas
+  - vivenciar uma situação em que absolutamente nenhuma outra explicação é possível
+  - descobrir um uplink desbloqueado
+
+  ## Stealth Items
+
+  O fato de um item poder ser algo diferente do que sua aparência visual e descrição, é protegido.
+
+  Este escudo protege itens stealth, incluindo protegê-los de serem testados.
+
+  Essa informação é revelada quando:
+  - ver o item se comportar de forma diferente do comportamento esperado para o item
+  - ver o item usado para seu propósito oculto
+  - vivenciar uma situação em que absolutamente nenhuma outra explicação é possível
+  - descobrir um uplink desbloqueado
+
+  ## Objetivos de antagonsitas
+
+  A ideia de que agentes do Sindicato, ou outros antagonistas, têm certos objetivos que foram incumbidos de realizar na estação, variando de sabotagem a roubo e assassinato, é protegida.
+
+  Essa informação é revelada quando:
+  - ser um Traidor, Ninja Espacial, Operativo Nuclear ou outro antagonista com objetivos.
+  - ser informado dos objetivos de um antagonista. Observe que isso se aplica apenas aos objetivos que foram revelados a você.
+
+  ## Uplinks
+
+  O fato de que agentes do Sindicato podem possuir um programa, chamado de Uplink, usado para receber equipamentos do Sindicato é protegido. Você não tem como confirmar que um Uplink existe dentro de um PDA, a menos que você mesmo o veja.
+
+  Essa informação é revelada quando:
+   - ser da segurança.
+   - ser um membro do comando.
+   - ser um traidor
+
+  
+  ## Explicitamente Não Protegido
+  A seguir está uma lista de coisas que explicitamente não são protegidas. Se algo não estiver nesta lista, não significa que esteja protegido, mas se algo estiver, então definitivamente não está protegido.
+  - O fato de que o turno terminará. Por exemplo, agindo com base no conhecimento de que um ônibus espacial de transferência de tripulação é normalmente enviado em torno da marca de duas horas de um turno.
+  - O fato de que o disco nuclear deve ser protegido e pode ser usado por um mau ator para tentar destruir a estação.
+  - O fato de que o Sindicato é inimigo de Nanotrasen e que eles regularmente tentam enviar agentes secretos para espionar, sabotar ou atacar Nanotrasen.
+
+  # MetaAmigo e Metagrudging
+  Esta seção fornece informações adicionais sobre um conceito que é proibido por vários itens de metaescudo que nunca são revelados IC. Dar a uma pessoa ou personagem tratamento preferencial com base em algo que seu personagem não deveria saber é considerado metafriending. Tratar uma pessoa ou personagem negativamente com base em algo que seu personagem não deveria saber é considerado metagrudging.
+
+  ## Exemplos de MetaAmigo
+  Estes são todos exemplos de coisas que são proibidas por pelo menos um item de Metashield que nunca é revelado IC.
+  - Dar a um personagem acesso adicional ou um trabalho porque você é amigo do jogador que está interpretando esse personagem.
+  - Confiar em um personagem porque você é amigo do jogador que está interpretando esse personagem.
+  - Não lutar contra um personagem porque você é amigo do jogador que está interpretando esse personagem.
+
+  ## Exemplos de Metagrudging
+  Todos esses são exemplos de coisas que são proibidas por pelo menos um item de Metashield que nunca é revelado IC.
+  - Não dar a um personagem acesso adicional ou um trabalho porque você está bravo ou não gosta do jogador que está jogando com esse personagem.
+  - Não confiar em um personagem porque você está bravo ou não gosta do jogador que está jogando com esse personagem.
+  - Começar uma briga com um personagem por algo que ele fez na última rodada.
+  - Começar uma briga com um personagem porque ele te matou enquanto você estava jogando com um personagem diferente.
+  - Focar ou assediar um personagem com base em qualquer coisa que esse personagem fez fora da rodada atual.
+  - Focar ou assediar um personagem com base em qualquer coisa que o jogador do personagem fez enquanto não estava jogando com o personagem.
+
+</Document>

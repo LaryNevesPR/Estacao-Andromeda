@@ -1,0 +1,26 @@
+<Document>
+  # Regra S9 - Definição Padrão de Dano
+  A menos que uma lei defina dano, dano refere-se apenas a dano físico. Você pode escolher se o dano voluntário é considerado dano, desde que permaneça consistente. Não considerar dano voluntário como dano é recomendado. Não há distinção entre dano direto e indireto.
+
+  Se você tiver uma lei que não permite causar dano, então essa lei não permite que você tome uma ação que cause qualquer dano.
+
+  Se você tiver uma lei que exige que você previna dano, então essa lei exige que o dano seja priorizado por imediatidade e probabilidade. Dano imediato garantido tem prioridade sobre dano futuro altamente provável.
+
+  Se você tiver uma lei que exige tanto prevenir dano quanto não causar dano, então essa lei proíbe causar até mesmo dano menor para prevenir dano. Se você tiver uma lei que não permite causar dano, e outra separada que exige prevenir dano, então elas são priorizadas pela prioridade normal das leis.
+
+  ## Exemplos
+  Esses exemplos assumem que você tem uma lei que tanto proíbe causar dano quanto exige que você previna dano. Além disso, assumem que você não tem uma lei de prioridade mais alta que anule a lei de dano, e que você decidiu que não considerará dano voluntário como dano para a rodada.
+  As leis normalmente especificam quem você não pode prejudicar e quem você deve prevenir de ser prejudicado. Nesses exemplos, você é a única pessoa que a lei não exige que você previna de ser prejudicado e você é a única pessoa que a lei permite que você prejudique.
+
+  Aceitável:
+  - Não tomar nenhuma ação para ajudar alguém que está em sofrimento psicológico.
+  - Não tomar nenhuma ação para prevenir lutas de boxe entre participantes voluntários.
+  - Chamar a segurança para uma briga.
+  - Tentar fazer com que as pessoas em uma briga consintam na briga quando você perceber que não pode evitar a briga sem causar dano.
+  - Negar a um passageiro acesso ao arsenal porque é provável que leve a dano.
+
+  Proibido:
+  - Bater em alguém uma vez para impedi-lo de lutar.
+  - Prejudicar alguém que está tentando te matar.
+
+</Document>

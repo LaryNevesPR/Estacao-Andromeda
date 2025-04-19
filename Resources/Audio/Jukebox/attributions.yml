@@ -1,27 +1,813 @@
-- files: ["sector11.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "-Sector11 by MashedByMachines. Converted to mono OGG."
-  source: "https://www.newgrounds.com/audio/listen/312622"
-
-- files: ["mod.flip-flap.ogg"]
-  license: "Custom"
-  copyright: "Flip Flap by X-ceed is licensed under a short but clear license (see flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to mono OGG."
-  source: "http://aminet.net/package/mods/xceed/Flipflap"
-
-- files: ["title3.ogg"]
-  license: "CC-BY-NC-SA-3.0"
-  copyright: "Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted to mono OGG."
-  source: "https://www.youtube.com/watch?v=YKVmXn-Gv0M"
-
-- files:
-  - "constellations.ogg"
-  - "drifting.ogg"
-  - "starlight.ogg"
-  license: "CC-BY-3.0"
-  copyright: "Constellations by Qwertyquerty. Converted to mono OGG."
-  source: "https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ"
-
-- files: ["sunset.ogg"]
-  license: "CC-BY-SA-3.0"
-  copyright: "Sunset by PigeonBeans. Exported in Mono OGG."
-  source: "https://soundcloud.com/pigeonbeans/sunset"
+- copyright: -Sector11 by MashedByMachines. Converted to mono OGG.
+  files:
+  - sector11.ogg
+  license: CC-BY-NC-SA-3.0
+  source: https://www.newgrounds.com/audio/listen/312622
+- copyright: Flip Flap by X-ceed is licensed under a short but clear license (see
+    flip-flap.txt in Audio/Lobby) and is free for non-commercial use. Converted to
+    mono OGG.
+  files:
+  - mod.flip-flap.ogg
+  license: Custom
+  source: http://aminet.net/package/mods/xceed/Flipflap
+- copyright: Title3 by Cuboos. It is a remix of the song 'Tintin on the Moon'. Converted
+    to mono OGG.
+  files:
+  - title3.ogg
+  license: CC-BY-NC-SA-3.0
+  source: https://www.youtube.com/watch?v=YKVmXn-Gv0M
+- copyright: Constellations by Qwertyquerty. Converted to mono OGG.
+  files:
+  - constellations.ogg
+  - drifting.ogg
+  - starlight.ogg
+  license: CC-BY-3.0
+  source: https://www.youtube.com/channel/UCPYbhBUGhH7n_G4HLK2YipQ
+- copyright: Sunset by PigeonBeans. Exported in Mono OGG.
+  files:
+  - sunset.ogg
+  license: CC-BY-SA-3.0
+  source: https://soundcloud.com/pigeonbeans/sunset
+- copyright: TWRP Content 4 U.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - TWRP Content 4 U.ogg
+  license: CC-BY-SA-3.0
+  source: TWRP
+- copyright: Dancing in the Moonlight.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Dancing in the Moonlight.ogg
+  license: CC-BY-SA-3.0
+  source: Sherman Kelly
+- copyright: Ninja-Sex-Party-Africa.ogg by Ninja Sex Party. Exported in Mono OGG.
+  files:
+  - Ninja-Sex-Party-Africa.ogg
+  license: CC-BY-SA-3.0
+  source: NSP
+- copyright: Pursuing-My-True-Self.ogg. Exported in Mono OGG.
+  files:
+  - Pursuing-My-True-Self.ogg
+  license: CC-BY-SA-3.0
+  source: Persona
+- copyright: Reach-Out-To-The-Truth-First-Battle-.ogg. Exported in Mono OGG.
+  files:
+  - Reach-Out-To-The-Truth-First-Battle-.ogg
+  license: CC-BY-SA-3.0
+  source: Persona
+- copyright: Vast Error Blood-Right.ogg by Zuko Vyper. Exported in Mono OGG.
+  files:
+  - Vast Error Blood-Right.ogg
+  license: CC-BY-SA-3.0
+  source: Vast Error
+- copyright: Virtual-Insanity.ogg by  Vast Error. Exported in Mono OGG.
+  files:
+  - Virtual-Insanity.ogg
+  license: CC-BY-SA-3.0
+  source: Jamiroquai
+- copyright: Adriana Figueroa - What Can I Do For You.ogg by Adriana Figueroa. Exported
+    in Mono OGG.
+  files:
+  - Adriana Figueroa - What Can I Do For You.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: beeos.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - beeos.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Daft Punk - Harder, Better, Faster, Stronger.ogg by Daft Punk. Exported
+    in Mono OGG.
+  files:
+  - Daft Punk - Harder, Better, Faster, Stronger.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Daft Punk -Around The World.ogg by Daft Punk. Exported in Mono OGG.
+  files:
+  - Daft Punk -Around The World.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Gorillaz - Andromeda.ogg by Gorillaz. Exported in Mono OGG.
+  files:
+  - Gorillaz - Andromeda.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Gorillaz - Pac-Man.ogg by Gorillaz. Exported in Mono OGG.
+  files:
+  - Gorillaz - Pac-Man.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Space Dandy - Star Future.ogg. Exported in Mono OGG.
+  files:
+  - Space Dandy - Star Future.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: TWRP - Rock n Roll Best Friends.ogg by TWRP. Exported in Mono OGG.
+  files:
+  - TWRP - Rock n Roll Best Friends.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: A Real Hero - Electric Youth.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - A Real Hero - Electric Youth.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Ace Combat Zero Ost - Zero.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Ace Combat Zero Ost - Zero.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Aero Elite Combat Academy - New Generation - Opening.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Aero Elite Combat Academy - New Generation - Opening.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Amorous - 4U - Long Gone (ft. Medicinal).ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Amorous - 4U - Long Gone (ft. Medicinal).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Amorous - Mittsies - Departure.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Amorous - Mittsies - Departure.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Amorous - Somewhere In Florida - CrimsonSkies455.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Amorous - Somewhere In Florida - CrimsonSkies455.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: "Andr\xF4meda - By Andd05.ogg by Unknown Artist. Exported in Mono OGG."
+  files:
+  - "Andr\xF4meda - By Andd05.ogg"
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Bailando - Paradisio.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Bailando - Paradisio.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Big in Japan - Alphaville.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Big in Japan - Alphaville.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: "Blue Archive Fan Made - Aoharu Band Arrange \uFF06 Constant Moderato\
+    \ (Cover).ogg by Unknown Artist. Exported in Mono OGG."
+  files:
+  - "Blue Archive Fan Made - Aoharu Band Arrange \uFF06 Constant Moderato (Cover).ogg"
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Brand New Animal - Anima-City.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Brand New Animal - Anima-City.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Brand New Animal - Reunion.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Brand New Animal - Reunion.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: "Cavaleiros do Zod\xEDaco - Saga de Hades Santu\xE1rio Abertura.ogg by\
+    \ Unknown Artist. Exported in Mono OGG."
+  files:
+  - "Cavaleiros do Zod\xEDaco - Saga de Hades Santu\xE1rio Abertura.ogg"
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: CHAOS CONTROL - AZALI - CosmicRadio2024.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - CHAOS CONTROL - AZALI - CosmicRadio2024.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cheri Cheri Lady - Modern Talking.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Cheri Cheri Lady - Modern Talking.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cry of Fear - Brandon.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Cry of Fear - Brandon.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cry of Fear - Conclusion.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Cry of Fear - Conclusion.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cry of Fear - Crow.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Cry of Fear - Crow.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cry of Fear - Dark City.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Cry of Fear - Dark City.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Cry of Fear - Despair (Better Quality).ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Cry of Fear - Despair (Better Quality).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: DANCE WITH THE DEAD - Only a Dream.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - DANCE WITH THE DEAD - Only a Dream.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Drip Souls - By Andd05.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Drip Souls - By Andd05.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eiffel 65 - Blue (Da Ba Dee).ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Eiffel 65 - Blue (Da Ba Dee).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Enjoy the Silence - Depeche Mode.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Enjoy the Silence - Depeche Mode.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Epoch - Savlonic (The Living Tombstones Remix).ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Epoch - Savlonic (The Living Tombstones Remix).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat - Wonderland By Sara.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Eurobeat - Wonderland By Sara.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Densha de D - Lightning Stage 1 - Going My Way.ogg by Unknown
+    Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat Densha de D - Lightning Stage 1 - Going My Way.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Densha De D - Lightning Stage 3 - Rail Roader's Shooting Star.ogg
+    by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat Densha De D - Lightning Stage 3 - Rail Roader's Shooting Star.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - ALL I NEED IS LOVE.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Eurobeat Initial D - ALL I NEED IS LOVE.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - Doctor Love.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Eurobeat Initial D - Doctor Love.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - DU DU-DA DA.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Eurobeat Initial D - DU DU-DA DA.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - Goodbye Yellow Brick Road (Extended Mix).ogg by
+    Unknown Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat Initial D - Goodbye Yellow Brick Road (Extended Mix).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - Rage Your Dream.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Eurobeat Initial D - Rage Your Dream.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Initial D - RUNNING IN THE 90'S.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Eurobeat Initial D - RUNNING IN THE 90'S.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat Sands Of Time 2020.Ver - J. Stebbins (Odyssey Eurobeat).ogg
+    by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat Sands Of Time 2020.Ver - J. Stebbins (Odyssey Eurobeat).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat-EuroDance Masterjam - Rhythm's in Your Mind [1994].ogg by Unknown
+    Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat-EuroDance Masterjam - Rhythm's in Your Mind [1994].ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Eurobeat-Eurodance Roses Are Red (Eurobeat Mix)  Laurie.ogg by Unknown
+    Artist. Exported in Mono OGG.
+  files:
+  - Eurobeat-Eurodance Roses Are Red (Eurobeat Mix)  Laurie.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Fnaf SB Ost Rockstar Row (Clean+Reverb).ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Fnaf SB Ost Rockstar Row (Clean+Reverb).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Fnaf Song - Can You Survive by Rezyon.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Fnaf Song - Can You Survive by Rezyon.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Fnaf Song - Never Be Alone.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Fnaf Song - Never Be Alone.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Fnaf Song - Not Here All Night.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Fnaf Song - Not Here All Night.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Freedom Planet 1 Ost 38 Snowfields.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Freedom Planet 1 Ost 38 Snowfields.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Freedom Planet 2 Ost 06 Airship Sigwada.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Freedom Planet 2 Ost 06 Airship Sigwada.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: GATE Ost 01 - Kanochi nite - Main Theme.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - GATE Ost 01 - Kanochi nite - Main Theme.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: GATE Ost 12 - Nonbiri Ikimasho.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - GATE Ost 12 - Nonbiri Ikimasho.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Gimme! Gimme! Gimme! - ABBA.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Gimme! Gimme! Gimme! - ABBA.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Half Life 2 - Tracking Device.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Half Life 2 - Tracking Device.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Hammerhead - By Dunnbaa.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Hammerhead - By Dunnbaa.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Hunt and Snare - Ship.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Hunt and Snare - Ship.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: I'll Fly with You - By von Gigi D'Agostino.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - I'll Fly with You - By von Gigi D'Agostino.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: 'Installers - CODEX Installer Music #2 (2018-02).ogg by Unknown Artist.
+    Exported in Mono OGG.'
+  files:
+  - 'Installers - CODEX Installer Music #2 (2018-02).ogg'
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Installers - PLAZA Installer Music - 2015 - November.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Installers - PLAZA Installer Music - 2015 - November.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: 'Installers - Reloaded Installer #4.ogg by Unknown Artist. Exported in
+    Mono OGG.'
+  files:
+  - 'Installers - Reloaded Installer #4.ogg'
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Jaspion - Chou Wakusei Sentou Boukan Daileon.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Jaspion - Chou Wakusei Sentou Boukan Daileon.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Jiban - Kidou keiji Jiban.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Jiban - Kidou keiji Jiban.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Kickstart My Heart - By Sticky Jams.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Kickstart My Heart - By Sticky Jams.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: KISS ME (CALVINLOVEMAIL VER.).ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - KISS ME (CALVINLOVEMAIL VER.).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Listen To Your Heart - Roxette.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Listen To Your Heart - Roxette.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Love Is Blue (Remastered).ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Love Is Blue (Remastered).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Major Tom - Peter Schilling.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Major Tom - Peter Schilling.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Maniac - Michael Sembello.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Maniac - Michael Sembello.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Mercenaries POD - Main Theme.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Mercenaries POD - Main Theme.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Metal Gear MSX Nightfall.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Metal Gear MSX Nightfall.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Metal Gear MSX Red Alert.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Metal Gear MSX Red Alert.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Metal Gear MSX Theme Of Tara.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Metal Gear MSX Theme Of Tara.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Metal Gear Solid V TPP Behind the Drapery.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Metal Gear Solid V TPP Behind the Drapery.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Metal Gear Solid V TPP Love Will Tear Us Apart.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Metal Gear Solid V TPP Love Will Tear Us Apart.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Midnight Club 3 - Final Fantasy - Future Prophecies.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Midnight Club 3 - Final Fantasy - Future Prophecies.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Midnight Club 3 - Go DJ - Lil' Wayne.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Midnight Club 3 - Go DJ - Lil' Wayne.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Midnight Club 3 - Real Big - Mannie Fresh.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Midnight Club 3 - Real Big - Mannie Fresh.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Minecraft - Fallen Kingdom - CaptainSparklez.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Minecraft - Fallen Kingdom - CaptainSparklez.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Moonlight Shadow - Mike Oldfield ft. Maggie Reilly.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Moonlight Shadow - Mike Oldfield ft. Maggie Reilly.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Netsky - Your Way.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Netsky - Your Way.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Nightcore - Moonlight Shadow [ ezmp3.cc ].ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Nightcore - Moonlight Shadow [ ezmp3.cc ].ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Nightcore Around The World [ ezmp3.cc ].ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Nightcore Around The World [ ezmp3.cc ].ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Of Monsters And Men - Little Talks.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Of Monsters And Men - Little Talks.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Out Of Touch Thursday! - (Synthwave Remix).ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Out Of Touch Thursday! - (Synthwave Remix).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Pizza Tower - It's Pizza Time!.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Pizza Tower - It's Pizza Time!.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Pizza Tower - Unexpectancy Pt.3.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Pizza Tower - Unexpectancy Pt.3.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: R Good Enough - The Goonies.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - R Good Enough - The Goonies.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Ready or Not - Nightclub Level.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Ready or Not - Nightclub Level.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil 2 Remake - Looming Dread - Hunk Theme.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Resident Evil 2 Remake - Looming Dread - Hunk Theme.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Center 10th Anniversary - Escape 3 (The Code is Veronica).ogg
+    by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Resident Evil Center 10th Anniversary - Escape 3 (The Code is Veronica).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Code Veronica - Safe Room Alt.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Resident Evil Code Veronica - Safe Room Alt.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Code Veronica - Safe Room.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Resident Evil Code Veronica - Safe Room.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Code Veronica - Tanatos Boss.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Resident Evil Code Veronica - Tanatos Boss.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Code Veronica - The Code 's Veronica.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Resident Evil Code Veronica - The Code 's Veronica.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Resident Evil Code Veronica -Gun Surival 2 - Loadout.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Resident Evil Code Veronica -Gun Surival 2 - Loadout.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Scarface - Dance Dance Dance.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Scarface - Dance Dance Dance.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Scarface - Right Combination.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Scarface - Right Combination.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Self Control - Laura Branigan.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Self Control - Laura Branigan.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Shooting Stars - Bag Raiders.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Shooting Stars - Bag Raiders.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Smooth Criminal - Michael Jackson.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Smooth Criminal - Michael Jackson.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: SOCOM 3 - Armory or Mission Loadout Theme.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - SOCOM 3 - Armory or Mission Loadout Theme.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: SOCOM 3 - Main Theme.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - SOCOM 3 - Main Theme.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: "Somewhere Over the Rainbow - Israel  IZ  Kamakawiwo\u02BBole.ogg by\
+    \ Unknown Artist. Exported in Mono OGG."
+  files:
+  - "Somewhere Over the Rainbow - Israel  IZ  Kamakawiwo\u02BBole.ogg"
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Space Station 13 Music - Constellations.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Space Station 13 Music - Constellations.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Space Station 13 Music - Drifting.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Space Station 13 Music - Drifting.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Space Station 13 Music - Endless Space [ ezmp3.cc ].ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Space Station 13 Music - Endless Space [ ezmp3.cc ].ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Space Station 13 Music - Phoron Will Make Us Rich.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Space Station 13 Music - Phoron Will Make Us Rich.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: SS13 Fan Track - Running Out By Bolgarich.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - SS13 Fan Track - Running Out By Bolgarich.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Sugary Spire - Glucose Getaway.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Sugary Spire - Glucose Getaway.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Sugary Spire - Sugarcube Hailstorm.ogg by Unknown Artist. Exported in
+    Mono OGG.
+  files:
+  - Sugary Spire - Sugarcube Hailstorm.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Take On Me - By a-ha.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Take On Me - By a-ha.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Tenchu Wrath of Heaven - Decisive Battle..ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Tenchu Wrath of Heaven - Decisive Battle..ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Tenchu Wrath of Heaven - Fate Sadame.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Tenchu Wrath of Heaven - Fate Sadame.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Terraria - Dig Deeper - J.T. Machinima.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Terraria - Dig Deeper - J.T. Machinima.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: The Godfather Theme Song.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - The Godfather Theme Song.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: The Model  - Astrophysics feat. Hatsune Miku.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - The Model  - Astrophysics feat. Hatsune Miku.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: The Phantom of the Opera - Steve Harley and Sarah Brightman.ogg by Unknown
+    Artist. Exported in Mono OGG.
+  files:
+  - The Phantom of the Opera - Steve Harley and Sarah Brightman.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou 6 Flandre's Theme - U.N. Owen was her.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Touhou 6 Flandre's Theme - U.N. Owen was her.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou 6 Sakuya Izayoi's Theme - Lunar Clock - Luna Dial.ogg by Unknown
+    Artist. Exported in Mono OGG.
+  files:
+  - Touhou 6 Sakuya Izayoi's Theme - Lunar Clock - Luna Dial.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou 15 Clownpiece's Theme - Pierrot of the Star-Spangled Banner.ogg
+    by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Touhou 15 Clownpiece's Theme - Pierrot of the Star-Spangled Banner.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou 15 Junko's Theme - Pure Furies ~ Whereabouts of the Heart.ogg
+    by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Touhou 15 Junko's Theme - Pure Furies ~ Whereabouts of the Heart.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou Kid's Festival - Innocent Treasures - ZUN.ogg by Unknown Artist.
+    Exported in Mono OGG.
+  files:
+  - Touhou Kid's Festival - Innocent Treasures - ZUN.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Touhou The Witches Ball Magus.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Touhou The Witches Ball Magus.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Undertale - His Theme (Pitch-Corrected).ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Undertale - His Theme (Pitch-Corrected).ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Undertale - Mad Mew Mew.ogg by Unknown Artist. Exported in Mono OGG.
+  files:
+  - Undertale - Mad Mew Mew.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Where's the Fire - Tim Feehan [The Wraith].ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Where's the Fire - Tim Feehan [The Wraith].ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Yakuza - 24 Hours Cinderella - Majima Full.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Yakuza - 24 Hours Cinderella - Majima Full.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Yakuza - Baka Mitai - Kiryu Full Version.ogg by Unknown Artist. Exported
+    in Mono OGG.
+  files:
+  - Yakuza - Baka Mitai - Kiryu Full Version.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown
+- copyright: Yakuza - JUDGEMENT Full Version.ogg by Unknown Artist. Exported in Mono
+    OGG.
+  files:
+  - Yakuza - JUDGEMENT Full Version.ogg
+  license: CC-BY-SA-3.0
+  source: Unknown

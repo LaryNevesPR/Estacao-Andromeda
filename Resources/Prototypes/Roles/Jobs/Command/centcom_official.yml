@@ -10,6 +10,9 @@
   canBeAntag: false
   accessGroups:
   - AllAccess
+  requirements:
+    - !type:CharacterOverallTimeRequirement
+      min: 43200
   access:
   - CentralCommand
   afterLoadoutSpecial:

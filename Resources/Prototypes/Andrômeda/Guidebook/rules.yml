@@ -1,0 +1,203 @@
+- type: guideEntry
+  id: DefaultRuleset
+  name: guide-entry-deltav-Rules
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/DeltaVRuleset.xml"
+  priority: 200
+  ruleEntry: true
+  children:
+    - RuleC0
+    - RuleC1
+    - RuleC2
+    - RuleC3
+    - RuleC4
+    - RuleC5
+    - RuleJ1
+    - RuleJ2
+    - RuleJ3
+    - RuleJ4
+    - RuleJ5
+    - RuleJ6
+    - RuleJ7
+    - RuleJ8
+    - RuleCC1
+    - RuleCC2
+    - RuleCC3
+    - RuleCC4
+    - DeltaVRuleS1
+    - DeltaVRuleS2
+    - DeltaVRuleS3
+    - DeltaVRuleS4
+    - DeltaVRuleS5
+    - DeltaVRuleS6
+    - DeltaVRuleS7
+    - DeltaVRuleS8
+    - DeltaVRuleS9
+    - DeltaVRuleS10
+
+- type: guideEntry
+  id: RuleC0
+  name: guide-entry-deltav-rule-0
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/0_Admin.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleC1
+  name: guide-entry-deltav-rule-a1
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/CommunityRules/A1_ERP.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleC2
+  name: guide-entry-deltav-rule-a2
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/CommunityRules/A2_Community.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleC3
+  name: guide-entry-deltav-rule-a3
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/CommunityRules/A3_Idade.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleC4
+  name: guide-entry-deltav-rule-a4
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/CommunityRules/A4_Ahelp.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleC5
+  name: guide-entry-deltav-rule-a5
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/CommunityRules/A5_Exploits.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ1
+  name: guide-entry-deltav-rule-1
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/1_Behave.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ2
+  name: guide-entry-deltav-rule-2
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/2_Nomes.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ3
+  name: guide-entry-deltav-rule-3
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/3_OCC.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ4
+  name: guide-entry-deltav-rule-4
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/4_Morte.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ5
+  name: guide-entry-deltav-rule-5
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/5_Metagaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ6
+  name: guide-entry-deltav-rule-6
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/6_Powergaming.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ7
+  name: guide-entry-deltav-rule-7
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/7_Self-antag.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleJ8
+  name: guide-entry-deltav-rule-8
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/GameRules/8_Leaving.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleCC1
+  name: guide-entry-deltav-rule-c1
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C1_CommandSecurityJustice.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleCC2
+  name: guide-entry-deltav-rule-c2
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C2_PrisonerRule.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleCC3
+  name: guide-entry-deltav-rule-c3
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C3_Antags.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: RuleCC4
+  name: guide-entry-andromeda-rule-c4
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/RoleRules/C4_GhostRoles.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS1
+  name: guide-entry-deltav-rule-s1
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S1_Laws.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS2
+  name: guide-entry-deltav-rule-s2
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S2_LawPriority.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS3
+  name: guide-entry-deltav-rule-s3
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S3_LawRedefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS4
+  name: guide-entry-deltav-rule-s4
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S4_RequestChanges.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS5
+  name: guide-entry-deltav-rule-s5
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S5_FreeSilicon.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS6
+  name: guide-entry-deltav-rule-s6
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S6_UnreasonableOrders.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS7
+  name: guide-entry-deltav-rule-s7
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S7_Consistency.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS8
+  name: guide-entry-deltav-rule-s8
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S8_DefaultCrewDefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS9
+  name: guide-entry-deltav-rule-s9
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S9_DefaultHarmDefinition.xml"
+  ruleEntry: true
+
+- type: guideEntry
+  id: DeltaVRuleS10
+  name: guide-entry-deltav-rule-s10
+  text: "/ServerInfo/Guidebook/Andromeda/Rules/SiliconRules/S10_OrderConflicts.xml"
+  ruleEntry: true

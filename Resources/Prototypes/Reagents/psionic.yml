@@ -85,7 +85,7 @@
         conditions:
         - !type:ReagentThreshold
           reagent: LotophagoiOil
-          min: 20
+          min: 10
       - !type:GenericStatusEffect
         key: Stutter
         component: ScrambledAccent

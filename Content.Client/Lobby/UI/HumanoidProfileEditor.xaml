@@ -30,16 +30,20 @@
                 </prefUi:HighlightedContainer>
             </BoxContainer>
             <!-- Import/Export -->
-            <BoxContainer Orientation="Vertical">
+            <BoxContainer Orientation="Vertical" MinSize="60 0" HorizontalExpand="True" HorizontalAlignment="Right">
                 <prefUi:HighlightedContainer>
-                    <BoxContainer Orientation="Horizontal" SeparationOverride="5">
+                    <BoxContainer Orientation="Vertical" SeparationOverride="5">
                         <Button Name="ImportButton" Text="{Loc 'humanoid-profile-editor-import-button'}"/>
                         <Button Name="ExportButton" Text="{Loc 'humanoid-profile-editor-export-button'}"/>
                         <Button Name="SaveButton" Text="{Loc 'humanoid-profile-editor-save-button'}" />
                         <Button Name="ResetButton" Disabled="True" Text="{Loc 'humanoid-profile-editor-reset-button'}"/>
+                        <Button Name="ExportImageButton" Text="{Loc 'humanoid-profile-editor-export-image-button'}"/>
+                        <Button Name="OpenImagesButton" Text="{Loc 'humanoid-profile-editor-open-image-button'}"/>
                     </BoxContainer>
                 </prefUi:HighlightedContainer>
             </BoxContainer>
+
+
         </BoxContainer>
         <Control MinHeight="10" />
         <!-- TabContainer -->

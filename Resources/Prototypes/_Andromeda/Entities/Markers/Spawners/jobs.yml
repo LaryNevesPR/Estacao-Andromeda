@@ -1,0 +1,13 @@
+﻿#Comando Central
+
+- type: entity
+  id: SpawnPointCentralCommandOperador
+  parent: SpawnPointJobBase
+  name: operador da CentCom
+  components:
+  - type: SpawnPoint
+    job_id: CentralCommandOperador
+  - type: Sprite
+    layers:
+    - state: green
+    - state: centcom

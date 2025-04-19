@@ -55,7 +55,8 @@ public sealed class PsionicsSystem : EntitySystem
     // We haven't generated a prototype yet, and I'm not going to duplicate them on the PsionicComponent.
     private const string PsionicRollFailedMessage = "psionic-roll-failed";
     private const string PsionicRollFailedColor = "#8A00C2";
-    private const int PsionicRollFailedFontSize = 12;
+        // Andrômeda - Aumenta um pouco a fonte do texto no chat.
+    private const int PsionicRollFailedFontSize = 16; //Era 12
     private const ChatChannel PsionicRollFailedChatChannel = ChatChannel.Emotes;
 
     /// <summary>
@@ -125,8 +126,8 @@ public sealed class PsionicsSystem : EntitySystem
         foreach (var powerId in innate.PowersToAdd)
             if (_protoMan.TryIndex(powerId, out var power))
                 powerCount += power.PowerSlotCost;
-
-        component.NextPowerCost = 100 * MathF.Pow(2, powerCount);
+    //Andromeda - Diminui o custo de poder para 50, para que os jogadores possam ter mais poderes.
+        component.NextPowerCost = 50 * MathF.Pow(2, powerCount);
     }
 
     /// <summary>
@@ -208,7 +209,7 @@ public sealed class PsionicsSystem : EntitySystem
 
     /// <summary>
     ///     Now we handle Potentia calculations, the more powers you have, the harder it is to obtain psionics, but the content of your roll carries over to the next roll.
-    ///     Your first power costs 100(2^0 is always 1), your second power costs 200, your 3rd power costs 400, and so on. This also considers people with roundstart powers.
+    ///     Your first power costs 50[Andromeda](2^0 is always 1), your second power costs 200, your 3rd power costs 400, and so on. This also considers people with roundstart powers.
     ///     Such that a Mystagogue(who has 3 powers at roundstart) needs 800 Potentia to gain his 4th power.
     /// </summary>
     /// <remarks>

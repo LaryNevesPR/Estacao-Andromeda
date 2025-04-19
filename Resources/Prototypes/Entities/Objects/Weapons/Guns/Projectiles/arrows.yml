@@ -63,7 +63,7 @@
 
 - type: entity
   parent: BaseArrow
-  id: ArrowRegular
+  id: ArrowRegularr
   name: arrow
   description: You can feel the power of the steppe within you.
   components:

@@ -720,6 +720,7 @@
     - RightLegBorgService
     - HeadBorgService
     - TorsoBorgService
+    - Quadborgendoskeleton
     - MechAirTank # Goobstation
     - MechThruster # Goobstation
     - PowerCageMedium # Goobstation - Powercell to exosuit fab
@@ -980,6 +981,9 @@
       - Zipties
       - GrenadeFlashBang # Goobstation
       - ShockCollar
+      - BorgModuleStun
+      - BorgModuleKill
+      - BorgModuleInvestigation
       # DeltaV - .38 special ammo - Add various .38 special ammo to security techfab
       - MagazineBoxSpecial
       - MagazineBoxSpecialPractice
@@ -1313,6 +1317,7 @@
     - AACTablet # DeltaV
     - VehicleWheelchairFolded # Goobstation - Vehicles
     - SyringeCase # Morphine
+    - WhiteCane
     dynamicRecipes:
     - ChemicalPayload
     - CryostasisBeaker

@@ -4,6 +4,11 @@
   description: job-description-hop
   playTimeTracker: JobHeadOfPersonnel
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Civilian
+      min: 28800
+    - !type:CharacterOverallTimeRequirement
+      min: 43200
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

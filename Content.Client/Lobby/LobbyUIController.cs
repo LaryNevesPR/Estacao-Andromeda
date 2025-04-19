@@ -206,6 +206,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
             _dialogManager,
             _playerManager,
             _prototypeManager,
+            _resourceCache,
             _jobRequirements,
             _markings,
             _random);

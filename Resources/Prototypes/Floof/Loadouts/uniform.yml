@@ -1,0 +1,91 @@
+- type: loadout
+  id: LoadoutUniformJumpskirtTacticalMaid
+  category: Uniform
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtTacticalMaid
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+       inverted: true
+       departments:
+         - Security
+         - Command
+
+- type: loadout
+  id: LoadoutUniformJumpskirtJanimaid
+  category: Uniform
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtJanimaid
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+       inverted: true
+       departments:
+         - Security
+         - Command
+
+- type: loadout
+  id: LoadoutUniformJumpskirtJanimaidmini
+  category: Uniform
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtJanimaidmini
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+       inverted: true
+       departments:
+         - Security
+         - Command
+
+- type: loadout
+  id: LoadoutUniformJumpskirtTacticool
+  category: Uniform
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpskirtTacticool
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+       inverted: true
+       departments:
+         - Security
+         - Command
+
+- type: loadout
+  id: LoadoutUniformJumpsuitTacticool
+  category: Uniform
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformJumpsuitTacticool
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian
+    - !type:CharacterDepartmentRequirement
+       inverted: true
+       departments:
+         - Security
+         - Command
+
+#Floofstation - Sock ect Uniform add ins
+- type: loadout
+  id: LoadoutClothingUniformReotaSuit
+  category: Uniform
+  cost: 0
+  exclusive: true
+  items:
+    - ClothingUniformReotaSuit
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutUniformsCivilian

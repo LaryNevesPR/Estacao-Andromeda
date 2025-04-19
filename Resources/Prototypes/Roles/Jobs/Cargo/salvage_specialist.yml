@@ -3,10 +3,11 @@
   name: job-name-salvagespec
   description: job-description-salvagespec
   playTimeTracker: JobSalvageSpecialist
+  antagAdvantage: 10 # Verificar agora com o rebalence do TC
   requirements:
     - !type:CharacterDepartmentTimeRequirement
-      department: Logistics # DeltaV - Logistics Department replacing Cargo
-      min: 21600 #DeltaV 6 hrs
+      department: Logistics
+      min: 14400 # 4 hores
     - !type:CharacterEmployerRequirement
       employers:
       - OrionExpress

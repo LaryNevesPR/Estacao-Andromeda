@@ -1,10 +1,10 @@
 <Document>
-  # Shuttle-craft
+  # Nave-ônibus
 
-  Shuttle construction is simple and easy, albeit rather expensive and hard to pull off within an hour. It's a good activity if you have a significant amount of spare time on your hands and want a bit of a challenge.
+  A construção de uma nave-ônibus é simples e fácil, embora seja bastante cara e difícil de ser concluída em uma hora. É uma boa atividade se você tiver bastante tempo livre e quiser um pouco de desafio.
 
-  ## Getting started
-  <Box>Required parts:</Box>
+  ## Começando
+  <Box>Peças necessárias:</Box>
   <Box>
   <GuideEntityEmbed Entity="Thruster"/>
   <GuideEntityEmbed Entity="Gyroscope"/>
@@ -19,7 +19,7 @@
   <GuideEntityEmbed Entity="APCBasic"/>
   </Box>
 
-  <Box>Optional parts:</Box>
+  <Box>Peças opcionais:</Box>
   <Box>
   <GuideEntityEmbed Entity="AirCanister"/>
   <GuideEntityEmbed Entity="LightTube"/>
@@ -31,9 +31,9 @@
   <GuideEntityEmbed Entity="NuclearBomb"/>
   </Box>
 
-  Head out into space with steel sheets and metal rods in hand, and once you're three or more tiles away from the station, click near or under you with the rods in hand. This will place some lattice, which can then be turned into plating with steel sheets or floor tiles. Expand your lattice platform by clicking just off the edge with some rods in hand.
+  Vá para o espaço com chapas de aço e barras de metal em mãos e, quando estiver a três ou mais quadrados de distância da estação, clique perto ou abaixo de você com as barras em mãos. Isso criará uma estrutura treliçada, que pode então ser transformada em revestimento com chapas de aço ou placas de piso. Expanda sua plataforma de estrutura treliçada clicando um pouco fora da borda com algumas barras em mãos.
 
-  From there, once you have the shape you want, bring out and install thrusters at the edges. They must be pointing outward into space to function and will not fire if there's a tile in the way of the nozzle. Install a gyroscope where convenient, and use your substation and generator to set up power. Construct a wall on top of an MV cable and then install an APC on that to power the devices onboard.
+  A partir daí, quando tiver o formato desejado, retire e instale os propulsores nas bordas. Eles devem estar apontando para o espaço para funcionar e não dispararão se houver um quadrado no caminho do bocal. Instale um giroscópio onde for conveniente e use sua subestação e gerador para configurar a energia. Construa uma parede sobre um cabo de média tensão e, em seguida, instale um APC nela para alimentar os dispositivos a bordo.
 
-  Finally, install the shuttle computer wherever is convenient and ensure all your thrusters and gyroscopes are receiving power (remember to wire the MV and LV networks!). If they are; congratulations, you should have a functional shuttle! Making it livable and good looking is left as an exercise to the reader.
+  Finalmente, instale o computador do ônibus espacial onde for conveniente e certifique-se de que todos os seus propulsores e giroscópios estejam recebendo energia (lembre-se de conectar as redes de média tensão e baixa tensão!). Se estiverem, parabéns, você deve ter um ônibus espacial funcional! Deixar o local habitável e bonito como um exercício para o leitor.
 </Document>

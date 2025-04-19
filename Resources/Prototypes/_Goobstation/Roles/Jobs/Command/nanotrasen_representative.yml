@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 54000 # 15 hours
+      min: 21600 # 6 horas
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
@@ -14,14 +14,23 @@
         - ForeignerLight
         - Muted
     - !type:CharacterEmployerRequirement
-      inverted: true
       employers:
-      - Unemployed
+      - NanoTrasen
+      - HephaestusIndustries
+      - EinsteinEngines
+      - ZengHuPharmaceuticals
+      #- Cybersun
+      - Interdyne
+      - IdrisIncorporated
+      - OrionExpress
+      - PMCG
+      - Andromeda
   weight: 20
   startingGear: NanotrasenRepresentativeGear
   icon: "JobIconNanotrasenRepresentative"
   requireAdminNotify: true
   joinNotifyCrew: true
+  whitelisted: true
   supervisors: job-supervisors-centcom
   canBeAntag: true
   access:

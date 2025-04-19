@@ -1,0 +1,13 @@
+﻿- type: gamePreset
+  id: SecretCult #For Admin Use: Mostra Secret No Lobby - Andromeda
+  alias:
+  - secretcult
+  name: secret-title
+  showInVote: false #Admin Use
+  description: secret-description
+  rules:
+  - BloodCult
+  - SubGamemodesRule
+  - BasicStationEventScheduler
+  - BasicRoundstartVariation
+  - LavalandStormScheduler # Lavaland Change

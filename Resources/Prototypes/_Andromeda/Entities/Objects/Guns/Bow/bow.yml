@@ -1,0 +1,54 @@
+﻿- type: entity
+  name: bow
+  parent: BaseBow
+  id: CupidoBow
+  description: O ARCO DO CUPIDO?? ELE EXISTE???
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Weapons/Guns/Bow/cupido.rsi
+    layers:
+    - state: unwielded
+      map: [ base ]
+    - state: unwielded-arrow
+      map: [ arrow ]
+      visible: false
+  - type: Appearance
+  - type: ItemMapper
+    spriteLayers:
+    - arrow
+    mapLayers:
+      arrow:
+        whitelist:
+          tags:
+          - Arrow
+  - type: GenericVisualizer
+    visuals:
+      enum.WieldableVisuals.Wielded:
+        arrow:
+          True: { state: wielded-arrow }
+          False: { state: unwielded-arrow }
+        base:
+          True: { state: wielded }
+          False: { state: unwielded }
+
+- type: entity
+  parent: BaseArrow
+  id: ArrowCupido
+  name: Flecha do cupido
+  description: A lendária flecha do cupido. Seu amor está a uma flechada de distancia.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Objects/Weapons/Guns/Bow/flecha.rsi
+    layers:
+    - state: tail
+      color: red
+    - state: rod
+      color: brown
+    - state: tip
+    - state: solution1
+      map: ["enum.SolutionContainerLayers.Fill"]
+      visible: false
+  - type: Projectile
+    damage:
+      types:
+        Piercing: 1

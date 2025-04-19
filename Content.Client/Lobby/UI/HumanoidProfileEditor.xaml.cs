@@ -5,6 +5,7 @@ using Content.Client.Administration.UI;
 using Content.Client.Humanoid;
 using Content.Client.Message;
 using Content.Client.Players.PlayTimeTracking;
+using Content.Client.Sprite;
 using Content.Client.UserInterface.Controls;
 using Content.Client.UserInterface.Systems.Guidebook;
 using Content.Shared._EE.Contractors.Prototypes;
@@ -28,6 +29,7 @@ using Robust.Client.Graphics;
 using Robust.Client.UserInterface;
 using Robust.Client.UserInterface.Controls;
 using Robust.Client.UserInterface.XAML;
+using Robust.Shared.ContentPack;
 using Robust.Client.Utility;
 using Robust.Client.Player;
 using Robust.Shared.Configuration;
@@ -38,12 +40,14 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
+using Robust.Shared.Log;
 
 namespace Content.Client.Lobby.UI
 {
     [GenerateTypedNameReferences]
     public sealed partial class HumanoidProfileEditor : BoxContainer
     {
+        private readonly IResourceManager _resManager;
         private readonly IConfigurationManager _cfgManager;
         private readonly IEntityManager _entManager;
         private readonly IFileDialogManager _dialogManager;
@@ -61,9 +65,11 @@ namespace Content.Client.Lobby.UI
         private LineEdit _customspecienameEdit => CCustomSpecieNameEdit;
         private TextEdit? _flavorTextEdit;
 
+
         /// If we're attempting to save
         public event Action? Save;
         private bool _exporting;
+        private bool _imaging;
         private bool _isDirty;
 
         /// The character slot for the current profile
@@ -116,6 +122,7 @@ namespace Content.Client.Lobby.UI
             IFileDialogManager dialogManager,
             IPlayerManager playerManager,
             IPrototypeManager prototypeManager,
+            IResourceManager resManager,
             JobRequirementsManager requirements,
             MarkingManager markings,
             IRobustRandom random
@@ -129,8 +136,10 @@ namespace Content.Client.Lobby.UI
             _prototypeManager = prototypeManager;
             _markingManager = markings;
             _preferencesManager = preferencesManager;
+            _resManager = resManager;
             _requirements = requirements;
             _random = random;
+
 
             _characterRequirementsSystem = _entManager.System<CharacterRequirementsSystem>();
             _controller = UserInterfaceManager.GetUIController<LobbyUIController>();
@@ -143,6 +152,15 @@ namespace Content.Client.Lobby.UI
                 SetProfile(
                     (HumanoidCharacterProfile?) _preferencesManager.Preferences?.SelectedCharacter,
                     _preferencesManager.Preferences?.SelectedCharacterIndex);
+            };
+            ExportImageButton.OnPressed += args =>
+            {
+                ExportImage();
+            };
+
+            OpenImagesButton.OnPressed += args =>
+            {
+                _resManager.UserData.OpenOsWindow(ContentSpriteSystem.Exports);
             };
 
             #region Left
@@ -853,6 +871,7 @@ namespace Content.Client.Lobby.UI
 
             PreviewDummy = _controller.LoadProfileEntity(Profile, ShowClothes.Pressed, ShowLoadouts.Pressed);
             SpriteView.SetEntity(PreviewDummy);
+            _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, Profile.Name);
         }
 
         /// Reloads the dummy entity's clothes for preview
@@ -1377,7 +1396,17 @@ namespace Content.Client.Lobby.UI
             base.Dispose(disposing);
             if (!disposing)
                 return;
+        }
 
+        protected override void EnteredTree()
+        {
+            base.EnteredTree();
+            ReloadPreview();
+        }
+
+        protected override void ExitedTree()
+        {
+            base.ExitedTree();
             _entManager.DeleteEntity(PreviewDummy);
             PreviewDummy = EntityUid.Invalid;
 
@@ -1504,6 +1533,10 @@ namespace Content.Client.Lobby.UI
         {
             Profile = Profile?.WithName(newName);
             IsDirty = true;
+            if (!IsDirty)
+                return;
+
+            _entManager.System<MetaDataSystem>().SetEntityName(PreviewDummy, newName);
         }
 
         private void SetCustomSpecieName(string customname)
@@ -1961,7 +1994,18 @@ namespace Content.Client.Lobby.UI
             SetName(name);
             UpdateNameEdit();
         }
+        private async void ExportImage()
+        {
+            if (_imaging)
+                return;
 
+            var dir = SpriteView.OverrideDirection ?? Direction.South;
+
+            // I tried disabling the button but it looks sorta goofy as it only takes a frame or two to save
+            _imaging = true;
+            await _entManager.System<ContentSpriteSystem>().Export(PreviewDummy, dir, includeId: false);
+            _imaging = false;
+        }
         private async void ImportProfile()
         {
             if (_exporting || CharacterSlot == null || Profile == null)

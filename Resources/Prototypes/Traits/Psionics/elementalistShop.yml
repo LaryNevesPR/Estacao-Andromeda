@@ -50,18 +50,18 @@
       psionicPowers:
         - ShadeskipPower
 
-- type: trait
-  id: ElementalistDarkSwapPower
-  category: TraitsPsionicsPowers
-  points: -10
-  requirements:
-    - !type:CharacterTraitRequirement
-      traits:
-        - ElementalistShadeskipPower
-  functions:
-    - !type:TraitAddPsionics
-      psionicPowers:
-        - DarkSwapPower
+#- type: trait # Bagulho quebrado demais, votado para remover #Andromeda
+ # id: ElementalistDarkSwapPower
+ # category: TraitsPsionicsPowers
+ # points: -10
+ # requirements:
+ #   - !type:CharacterTraitRequirement
+ #     traits:
+ #       - ElementalistShadeskipPower
+ # functions:
+ #   - !type:TraitAddPsionics
+ #     psionicPowers:
+ #       - DarkSwapPower
 
 - type: trait
   id: ElementalistTelekineticPulsePower

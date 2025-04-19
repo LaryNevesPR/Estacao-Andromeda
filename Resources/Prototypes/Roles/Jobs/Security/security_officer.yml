@@ -6,7 +6,7 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 36000 # 10 hours
+      min: 7200 # 10 hours
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

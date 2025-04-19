@@ -1,4 +1,4 @@
-irregular-title = Irregular
+irregular-title = Extended Irregular
 irregular-description = Threat level varies throughout the shift. Sometimes it's a paradise, sometimes it's a disaster.
 
 irregular-extended-title = Irregular Extended

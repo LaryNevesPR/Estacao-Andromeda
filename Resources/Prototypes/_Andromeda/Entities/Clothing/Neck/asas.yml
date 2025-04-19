@@ -1,0 +1,8 @@
+﻿- type: entity
+  parent: ClothingNeckBase
+  id: ClothingNeckCupidoAsa
+  name: Asas de Cupido
+  description: Oxe asas? Ata é um cupido. Cupido?
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Neck/Cupido/asas.rsi

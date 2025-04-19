@@ -1,0 +1,14 @@
+{
+    "copyright" : "Made by Wells",
+    "license" : "CC-BY-SA-3.0",
+    "version": 1,
+    "size": {
+      "x": 32,
+      "y": 64
+    },
+    "states": [
+      {
+        "name": "saraiva"
+      }
+    ]
+  }

@@ -54,6 +54,8 @@
   components:
   - type: Sprite
     layers:
+    - state: wielded
+      map: [ arrow ]
     - state: unwielded
       map: [ base ]
     - state: unwielded-arrow

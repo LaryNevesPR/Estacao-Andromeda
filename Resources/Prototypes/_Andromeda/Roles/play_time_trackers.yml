@@ -1,0 +1,5 @@
+﻿- type: playTimeTracker
+  id: JobCentralCommandOperador
+
+- type: playTimeTracker
+  id: JobVisitorVIP

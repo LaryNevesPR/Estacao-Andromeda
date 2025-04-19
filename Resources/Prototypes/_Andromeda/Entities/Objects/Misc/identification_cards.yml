@@ -1,0 +1,14 @@
+﻿- type: entity
+  parent: IDCardStandard
+  id: VIPIDCard
+  name: Visitante V.I.P ID card
+  components:
+  - type: Sprite
+    layers:
+    - state: vip
+  - type: Item
+    heldPrefix: blue
+  - type: PresetIdCard
+    job: VisitorVIP
+  - type: NanoChatCard # DeltaV
+    listNumber: false

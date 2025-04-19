@@ -6,13 +6,13 @@
   requirements:
     - !type:CharacterDepartmentTimeRequirement
       department: Command
-      min: 54000 # 15 hours
+      min: 21600 # 6 horas
     - !type:CharacterDepartmentTimeRequirement
       department: Medical
-      min: 54000 # 15 hours
+      min: 21600 # 6 horas
     - !type:CharacterDepartmentTimeRequirement
       department: Security
-      min: 54000 # 15 hours
+      min: 21600 # 6 horas
     - !type:CharacterTraitRequirement
       inverted: true
       traits:

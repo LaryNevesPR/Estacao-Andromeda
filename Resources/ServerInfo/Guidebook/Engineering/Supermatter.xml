@@ -2,64 +2,64 @@
 
   <GuideEntityEmbed Entity="Supermatter" Caption="" Margin="0"/>
 
-  # The Supermatter Engine
+  # O Motor de Supermatéria
 
-  So you've decided to take on the challenge and set up the Supermatter Engine? First, let's give you a short overview of the main Supermatter crystal beforehand.
+  Então você decidiu aceitar o desafio e configurar o Motor de Supermatéria? Primeiro, vamos dar uma breve visão geral do cristal principal de Supermatéria.
 
-  Its primary features are emitting electrical arcs that are harnessed to power the station through tesla coils.
+  Suas principais características são a emissão de arcos elétricos que são aproveitados para alimentar a estação por meio de bobinas de Tesla.
 
-  Side effects include radiation emission, releasing hot oxygen and plasma, heating the air around, and exploding, transforming into a black hole or an energy ball and eating the entire station if you screw up hard enough.
+  Os efeitos colaterais incluem emissão de radiação, liberação de oxigênio quente e plasma, aquecimento do ar ao redor e explosão, transformando-se em um buraco negro ou uma bola de energia e devorando a estação inteira se você errar muito.
 
-  It begins inert but being hit by an object or a projectile will activate it and it'll start exhibiting nearly all of the aforementioned properties.
+  Ele começa inerte, mas ser atingido por um objeto ou projétil o ativará e começará a exibir quase todas as propriedades mencionadas.
 
-  ## Words of Warning
+  ## Aviso
 
-  1. The Supermatter crystal is [color=red]VERY DANGEROUS[/color]. Activating the crystal should be the last step in setting up any form of Supermatter based power!
+  1. O cristal de Supermatéria é [color=red]MUITO PERIGOSO[/color]. A ativação do cristal deve ser o último passo para configurar qualquer forma de energia baseada em Supermatéria!
 
-  2. [color=red]PUT YOUR RADIATION SUIT ON[/color].
+  2. [color=red]VISTA SEU TRAJE DE RADIAÇÃO[/color].
 
-  3. Most the Supermatter setup involves a gas loop that is designed to cool down the Supermatter chamber. Please have at least some knowledge of gases and their atmospheric properties.
+  3. A maior parte da configuração da Supermatéria envolve um circuito de gás projetado para resfriar a câmara da Supermatéria. Por favor, tenha pelo menos algum conhecimento sobre gases e suas propriedades atmosféricas.
 
-  4. Anything that bumps into the Supermatter is [color=red]fundamentally annihilated[/color]. [color=red]Do not touch it[/color]. This means weld and bolt the door to the chamber.
+  4. Qualquer coisa que colida com a Supermatéria é [color=red]fundamentalmente aniquilada[/color]. [color=red]Não toque nela[/color]. Isso significa soldar e parafusar a porta da câmara.
 
-  ## Gas Interactions
+  ## Interações Gasosas
 
-  Here's a list of all gases from least dangerous to most dangerous.
+  Aqui está uma lista de todos os gases, do menos perigoso ao mais perigoso.
 
-  1. [color=#bffffe]Frezon[/color]. Aside from cooling down the Supermatter, it basically stops power and waste production, which may come handy if the Supermatter is close to delaminating and you need to shut it down fast.
+  1. [color=#bffffe]Frezon[/color]. Além de resfriar a Supermatéria, ele basicamente interrompe a produção de energia e resíduos, o que pode ser útil se a Supermatéria estiver prestes a se deslaminar e você precisar desligá-la rapidamente.
 
-  2. [color=#c20000]Nitrogen[/color]. N2 is the basic gas most Supermatter setups will run exclusively, being very simple to set up for. It dampens the power generation from heat, and reduces the amount of plasma the SM belches out, making it good for when you aren't trying to do something silly.
+  2. [color=#c20000]Nitrogênio[/color]. O N2 é o gás básico que a maioria das instalações de Supermatéria utiliza exclusivamente, sendo muito simples de configurar. Ele amortece a geração de energia a partir do calor e reduz a quantidade de plasma que o SM emite, sendo ideal para quando você não está tentando fazer algo bobo.
 
-  3. [color=#b16d6d]Nitrous oxide[/color]. Reinforces the heat resistance of the crystal, allowing for much hotter setups than usual. However, at high temperatures it will decompose into Nitrogen and Oxygen. While N2 is good, O2 certainly is not. This O2 will also react with the Plasma to create Tritium and then a Tritium fire.
+  3. [color=#b16d6d]Óxido nitroso[/color]. Reforça a resistência ao calor do cristal, permitindo instalações muito mais quentes do que o normal. No entanto, em altas temperaturas, ele se decompõe em Nitrogênio e Oxigênio. Embora o N2 seja bom, o O2 certamente não é. Este O2 também reagirá com o Plasma para criar Trítio e, em seguida, um incêndio de Trítio.
 
-  4. [color=#62d5ca]Oxygen[/color]. Provides a boost to power transmission without actively increasing the waste gas amount or temperature. Pretty risky to use, as any disruption of the cooling loop will soon cause a plasma fire in the crystal chamber. Even just a high concentration of O2 will activate and continuously power the crystal.
+  4. [color=#62d5ca]Oxigênio[/color]. Fornece um impulso à transmissão de energia sem aumentar ativamente a quantidade de gás residual ou a temperatura. Bastante arriscado de usar, pois qualquer interrupção no circuito de resfriamento causará um incêndio de plasma na câmara do cristal. Mesmo uma alta concentração de O2 ativará e alimentará continuamente o cristal.
 
-  5. [color=#19b348]Ammonia[/color]. Increases the power generation slightly at a minor cost to the heat penalty.
+  5. [color=#19b348]Amônia[/color]. Aumenta ligeiramente a geração de energia com um pequeno custo para a perda de calor.
 
-  6. [color=#979797]Carbon Dioxide[/color]. In low concentrations, it will increase the crystal's power generation. In high concentrations it will raise the crystal's energy to extremely high levels. With poor management and insufficient or downright bad preparation, it will eventually exceed safe energy levels and begin a charge delamination, producing electric arcs and anomalies until it eventually explodes into a Tesla ball.
+  6. [color=#979797]Dióxido de Carbono[/color]. Em baixas concentrações, aumentará a geração de energia do cristal. Em altas concentrações, elevará a energia do cristal a níveis extremamente altos. Com gerenciamento inadequado e preparação insuficiente ou totalmente ruim, ele eventualmente excederá os níveis de energia seguros e iniciará uma delaminação de carga, produzindo arcos elétricos e anomalias até explodir em uma bola de Tesla.
 
-  [color=red]7[/color]. [color=#ff9d00]Plasma[/color]. Very similar to Oxygen but provides a higher power boost as well as a much higher waste and heat penalty. The extreme pressures and volumes of gas produced by this gas are very likely to clog pipes and overheat the chamber.
+  [color=red]7[/color]. [color=#ff9d00]Plasma[/color]. Muito semelhante ao Oxigênio, mas fornece um aumento de potência maior, bem como uma perda de calor e uma penalidade de desperdício muito maiores. As pressões e volumes extremos de gás produzidos por este gás têm grande probabilidade de entupir canos e superaquecer a câmara.
 
-  [color=red]8[/color]. [color=#08a800]Tritium[/color]. Increases the power production of the Supermatter by up to 3 times, there is one slight issue with it. It is dangerous. It is very dangerous. Tritium is a horrifyingly irritable and jumpy gas. While it isn't as harmful to the heat level as Plasma is (just barely), it also has the second worst heat capacity of all gasses while Plasma has the second highest. This means that Plasma can be kept happy with enough cooling, whereas Tritium eagerly goes from a safe space loop into a burning hellfire. Add to this the byproduct of large amounts of Oxygen production (not exclusive to Tritium, an issue in a Plasma engine too), and you have a tritium fire and a very hot crystal. Do not use this gas unless you have a very strong understanding of atmospherics and the Supermatter, and are willing to get creative.
+  [color=red]8[/color]. [color=#08a800]Trítio[/color]. Aumenta a produção de energia da Supermatéria em até 3 vezes, mas há um pequeno problema com ele. É perigoso. É muito perigoso. O Trítio é um gás terrivelmente irritável e instável. Embora não seja tão prejudicial ao nível de calor quanto o Plasma (por pouco), também tem a segunda pior capacidade térmica de todos os gases, enquanto o Plasma tem a segunda maior. Isso significa que o Plasma pode ser mantido satisfeito com resfriamento suficiente, enquanto o Trítio passa avidamente de um loop espacial seguro para um fogo infernal ardente. Adicione a isso o subproduto da produção de grandes quantidades de oxigênio (não exclusivo do trítio, um problema também em motores de plasma), e você terá um incêndio de trítio e um cristal muito quente. Não use este gás a menos que você tenha um conhecimento profundo da atmosfera e da supermatéria, e esteja disposto a ser criativo.
 
-  ## Practical guide to the Supermatter
+  ## Guia prático para a supermatéria
 
-  Now, forget about everything you've just read and get to setting up the most basic loop there is: the Nitrogen loop.
+  Agora, esqueça tudo o que você acabou de ler e comece a configurar o circuito mais básico que existe: o circuito de nitrogênio.
 
-  The atmospheric setup in its' most basic form should look like this:
+  A configuração atmosférica em sua forma mais básica deve ser assim:
 
-  (We did not have enough budget for images, here is a text representation)
+  (Não tínhamos orçamento suficiente para imagens, aqui está uma representação em texto)
 
-  1. Nitrogen gets pumped into the chamber by passive vents from one side
+  1. O nitrogênio é bombeado para a câmara por aberturas passivas de um lado
 
-  2. Every gas gets pumped out of the chamber by using scrubbers set on Siphon on the other side.
+  2. Todo gás é bombeado para fora da câmara usando depuradores instalados no sifão do outro lado.
 
-  3. The output gets filtered, cooled down, and excess nitrogen gets either routed into space or rerouted into the input.
+  3. A saída é filtrada, resfriada e o excesso de nitrogênio é direcionado para o espaço ou redirecionado para a entrada.
 
-  That's basically it. I hope you understand at least something in this example. Now get to it!
+  É basicamente isso. Espero que você tenha entendido pelo menos alguma coisa neste exemplo. Agora, mãos à obra!
 
-  ## Experiment
+  ## Experimento
 
-  You're not a real engineer if you haven't figured out the most efficient way to produce electricity using the Supermatter crystal, are you?
+  Você não é um engenheiro de verdade se ainda não descobriu a maneira mais eficiente de produzir eletricidade usando o cristal de supermatéria, não é?
 
 </Document>

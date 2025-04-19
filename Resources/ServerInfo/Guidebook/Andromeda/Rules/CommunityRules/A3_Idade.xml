@@ -1,0 +1,5 @@
+﻿<Document>
+  # Regra 3C - Jogadores devem ter pelo menos 16 anos.
+  Todo jogador que seja menor de 16 anos será banido até o dia que completar 16 anos e 1 dia.
+  Administradores tem permissão de banir o jogador caso note o mesmo agindo como uma pessoa menor de 16 anos.
+</Document>

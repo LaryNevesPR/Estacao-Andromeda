@@ -1,0 +1,3 @@
+all-at-once-title = Tudo de uma vez
+all-at-once-description = Não será um bom dia para você...
+
