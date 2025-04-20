@@ -174,15 +174,9 @@ namespace Content.Client.Canvas.Ui
                 _signature = ArtistSignature.Text;
                 OnSignature?.Invoke(_signature);
             };
+            ColorSelector.OnColorChanged += HandleColorSelected;
             //FixPaintingCode();
             //PopulatePaintingGrid();
-        }
-
-        private void SelectColor(Color color)
-        {
-            _color = color;
-
-            OnColorSelected?.Invoke(color);
         }
 
         public void UpdateState(BoundUserInterfaceState state)
@@ -213,7 +207,7 @@ namespace Content.Client.Canvas.Ui
         public void PopulateColorSelector(List<Color> colors)
         {
             // Clear existing children in ColorSelector
-            ColorSelector.RemoveAllChildren();
+            ColorSelectorBox.RemoveAllChildren();
 
             // Create a new BoxContainer for each set of 10 colors
             BoxContainer? colorGroup = null;
@@ -222,12 +216,12 @@ namespace Content.Client.Canvas.Ui
             foreach (var color in colors)
             {
                 // Create a new BoxContainer every 10 colors
-                if (colorCount % 16 == 0)
+                if (colorCount % 6 == 0)
                 {
                     // If colorGroup already exists, add it to the ColorSelector before starting a new one
                     if (colorGroup != null)
                     {
-                        ColorSelector.AddChild(colorGroup);
+                        ColorSelectorBox.AddChild(colorGroup);
                     }
 
                     // Create a new BoxContainer for the next 10 colors
@@ -258,7 +252,7 @@ namespace Content.Client.Canvas.Ui
             // Add the last group if it contains any colors
             if (colorGroup != null && colorGroup.ChildCount > 0)
             {
-                ColorSelector.AddChild(colorGroup);
+                ColorSelectorBox.AddChild(colorGroup);
             }
 
             // Add a button specifically for transparency
@@ -310,6 +304,12 @@ namespace Content.Client.Canvas.Ui
                 ResolutionContainer.Visible = false;
                 HeaderColorPreview.Visible = false;
                 HeaderTools.Visible = false;
+            }
+            else
+            {
+                ResolutionContainer.Visible = true;
+                HeaderColorPreview.Visible = true;
+                HeaderTools.Visible = true;
             }
 
             int index = 0; // Index to track the position in the painting code

@@ -3,7 +3,7 @@
                xmlns:gfx="clr-namespace:Robust.Client.Graphics;assembly=Robust.Client"
                Title="Canvas"
                Resizable="True"
-               SetSize="700 700"
+               SetSize="800 700"
                MinSize="700 700">
     <BoxContainer Orientation="Vertical">
         <PanelContainer>
@@ -11,8 +11,6 @@
                 <gfx:StyleBoxFlat BackgroundColor="#1e1e1e" />
             </PanelContainer.PanelOverride>
             <BoxContainer Name="HeaderColorPreview" Orientation="Horizontal" Align="Center" Margin="0 8 0 8">
-                <Label Text="{Loc 'canvas-color'}:" Margin="0 0 8 0"/>
-                <Button Name="ColorPreview" Margin="8 0 0 0" />
             </BoxContainer>
             <BoxContainer Name="HeaderTools" Orientation="Horizontal" Margin="0 0 0 8">
                 <LineEdit Name="PaintCodeInput" PlaceHolder="{Loc 'canvas-paintcode'}" HorizontalExpand="True" />
@@ -36,7 +34,7 @@
                                     MinValue="16"
                                     MaxValue="64"
                                     HorizontalExpand="True"
-                                    MinSize="80 0"
+                                    MinSize="256 0"
                                     Rounded="True" />
                             <Control MinSize="8 0" />
                             <Label Name="HeightSizeLabel" Text="16" MinSize="48 0"/>
@@ -48,7 +46,7 @@
                                     MinValue="16"
                                     MaxValue="64"
                                     HorizontalExpand="True"
-                                    MinSize="80 0"
+                                    MinSize="256 0"
                                     Rounded="True" />
                             <Control MinSize="8 0" />
                             <Label Name="WidthSizeLabel" Text="16" MinSize="48 0"/>
@@ -57,8 +55,14 @@
                         <BoxContainer Orientation="Horizontal" Align="Center">
                             <LineEdit Name="ArtistSignature" PlaceHolder="{Loc 'canvas-signature'}" HorizontalExpand="True" />
                         </BoxContainer>
-                        <BoxContainer Name="ColorSelector" Orientation="Horizontal" Align="Center">
+                        <BoxContainer Orientation="Horizontal" Align="Center">
+                            <Label Text="{Loc 'canvas-color'}:" Margin="0 0 8 0"/>
+                            <Button Name="ColorPreview" Margin="8 0 0 0" />
                         </BoxContainer>
+                        <ColorSelectorSliders Name="ColorSelector" ></ColorSelectorSliders>
+                        <BoxContainer Name="ColorSelectorBox" Orientation="Horizontal" Align="Center">
+                        </BoxContainer>
+                    
                     </BoxContainer>
                 </PanelContainer>
                 
