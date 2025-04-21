@@ -4,9 +4,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    earliestStart: 15
+    earliestStart: 30
     reoccurrenceDelay: 45
-    weight: 7.5
+    weight: 6.5
     minimumPlayers: 10
     duration: 1
   - type: RuleGrids
@@ -98,9 +98,9 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: StationEvent
-    earliestStart: 15
+    earliestStart: 35
     reoccurrenceDelay: 45
-    weight: 7.5
+    weight: 6
     minimumPlayers: 20
     duration: 1
   - type: RuleGrids
