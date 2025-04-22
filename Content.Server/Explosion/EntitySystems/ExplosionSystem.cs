@@ -326,11 +326,11 @@ public sealed partial class ExplosionSystem : SharedExplosionSystem
         _queuedExplosions.Add(boom);
 
         // Sunrise added start
-        if (!user.HasValue)
+        if (!cause.HasValue)
             return;
 
         var ev = new CMExplosiveTriggeredEvent();
-        RaiseLocalEvent(user.Value, ref ev);
+        RaiseLocalEvent(cause.Value, ref ev);
         // Sunrise added end
     }
 
