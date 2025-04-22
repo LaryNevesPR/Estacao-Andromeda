@@ -1,6 +1,5 @@
 using Content.Client._RMC14.Explosion;
 using Content.Client._RMC14.Xenonids.Screech;
-using Content.Client._Sunrise.ServersHub;
 using Content.Client.Administration.Managers;
 using Content.Client.Changelog;
 using Content.Client.Chat.Managers;
