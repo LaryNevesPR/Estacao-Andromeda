@@ -497,6 +497,22 @@
     - HappyHonk
   - type: StorageFill
     contents:
+      - id: ToyFigurineLunaraGooben
+        orGroup: GiftPool
+      - id: ToyFigurinePodroSilva
+        orGroup: GiftPool
+      - id: ToyFigurineWellsChaplon
+        orGroup: GiftPool
+      - id: ToyFigurinePhilMal
+        orGroup: GiftPool
+      - id: ToyFigurineJanieSmith
+        orGroup: GiftPool
+      - id: ToyFigurineLao
+        orGroup: GiftPool
+      - id: ToyFigurineLawLaw
+        orGroup: GiftPool
+      - id: ToyFigurineMarcos
+        orGroup: GiftPool
       - id: ToyMouse
         orGroup: GiftPool
       - id: ToyAi

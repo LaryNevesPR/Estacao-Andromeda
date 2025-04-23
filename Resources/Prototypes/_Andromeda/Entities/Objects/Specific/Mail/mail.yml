@@ -1,0 +1,41 @@
+- type: entity
+  categories: [ HideSpawnMenu ]
+  parent: BaseMail
+  id: MailNFFigurinesCatarse
+  suffix: figurines, extended
+  components:
+  - type: Mail
+    isFragile: true
+    isPriority: true
+    contents:
+    - id: ToyFigurineLunaraGooben
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurinePodroSilva
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurinePhilMal
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineWellsChaplon
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineJanieSmith
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineGui
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineMarcos
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineLao
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineRonaldo
+      orGroup: Figurine
+      prob: 0.5
+    - id: ToyFigurineLawLaw
+      orGroup: Figurine
+      prob: 0.5
+    
