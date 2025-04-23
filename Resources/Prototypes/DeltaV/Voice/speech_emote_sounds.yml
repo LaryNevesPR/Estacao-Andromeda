@@ -82,6 +82,10 @@
       collection: Mars
     Wurble:
       collection: Wurble
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: MaleVulpkanin
@@ -122,6 +126,10 @@
       collection: VulpkaninHowls
     Awoo:
       collection: VulpkaninHowls
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleVulpkanin
@@ -162,6 +170,10 @@
       collection: VulpkaninHowls
     Awoo:
       collection: VulpkaninHowls
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: MobDog
@@ -208,6 +220,10 @@
       collection: MaleYawn
     Hiss:
       path: /Audio/Animals/snake_hiss.ogg
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: MaleRodentia
@@ -238,6 +254,10 @@
       collection: Weh
     Squeak:
       path: /Audio/Animals/mouse_squeak.ogg
+    # Sunrise start
+    SevereCough:
+      collection: MaleSevereCough
+    # Sunrise end
 
 - type: emoteSounds
   id: FemaleRodentia
@@ -268,3 +288,7 @@
       collection: Weh
     Squeak:
       path: /Audio/Animals/mouse_squeak.ogg
+    # Sunrise start
+    SevereCough:
+      collection: FemaleSevereCough
+    # Sunrise end
