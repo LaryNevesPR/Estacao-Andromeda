@@ -7,6 +7,7 @@ let offsetY = 0;
 const canvas = document.getElementById("grid");
 const ctx = canvas.getContext("2d");
 
+
 document.getElementById("file-input").addEventListener("change", handleFiles);
 document.getElementById("save").addEventListener("click", () => {
   if (selected) {
@@ -26,6 +27,18 @@ document.getElementById("download").addEventListener("click", () => {
   link.click();
 });
 
+window.addEventListener("DOMContentLoaded", () => {
+  fetch("default.yml")
+    .then(response => response.text())
+    .then(text => {
+      const doc = jsyaml.load(text);
+      if (Array.isArray(doc)) {
+        techs.push(...doc.filter(t => t.type === "technology" && t.position));
+        draw();
+      }
+    })
+    .catch(err => console.error("Failed to load default.yml:", err));
+});
 
 function handleFiles(e) {
   const files = e.target.files;
