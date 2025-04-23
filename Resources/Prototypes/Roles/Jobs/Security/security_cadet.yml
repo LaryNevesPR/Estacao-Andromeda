@@ -4,6 +4,9 @@
   description: job-description-cadet
   playTimeTracker: JobSecurityCadet
   requirements:
+    - !type:CharacterDepartmentTimeRequirement
+      department: Civilian
+      min: 18000 #DeltaV 1 hour
     - !type:CharacterTraitRequirement
       inverted: true
       traits:
