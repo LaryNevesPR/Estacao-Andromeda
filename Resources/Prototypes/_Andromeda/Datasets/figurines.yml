@@ -1,0 +1,35 @@
+- type: localizedDataset
+  id: FigurinesPodro
+  values:
+    prefix: figurines-podro-
+    count: 29
+
+- type: localizedDataset
+  id: FigurinesJanie
+  values:
+    prefix: figurines-janie-
+    count: 41
+
+- type: localizedDataset
+  id: FigurinesMarcos
+  values:
+    prefix: figurines-marcos-
+    count: 8
+
+- type: localizedDataset
+  id: FigurinesLao
+  values:
+    prefix: figurines-lao-
+    count: 3
+
+- type: localizedDataset
+  id: FigurinesGui
+  values:
+    prefix: figurines-gui-
+    count: 25
+
+- type: localizedDataset
+  id: FigurinesLunara
+  values:
+    prefix: figurines-lunara-
+    count: 8
