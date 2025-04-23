@@ -1,7 +1,3 @@
-# Tier 1
-
-# Tier 2
-
 - type: technology
   id: AdvancedTreatment
   name: research-technology-advanced-treatment
@@ -18,7 +14,7 @@
   - EnergyCautery
   - AdvancedRetractor
   - BorgModuleAdvancedSurgery
-
+  position: -4,-3
 - type: technology
   id: CyberneticEnhancements
   name: research-technology-cybernetic-enhancements
@@ -36,7 +32,7 @@
   - BasicCyberneticEyes
   - SecurityCyberneticEyes
   - MedicalCyberneticEyes
-
+  position: -2,-4
 - type: technology
   id: Autodoc
   name: research-technology-autodoc
@@ -48,9 +44,7 @@
   cost: 10000
   recipeUnlocks:
   - AutodocCircuitboard
-
-# Tier 3
-
+  position: -3,-4
 - type: technology
   id: HighEndSurgery
   name: research-technology-high-end-surgery
@@ -63,3 +57,4 @@
   recipeUnlocks:
   - OmnimedTool
   softCapContribution: 1.2
+  position: -4,-4

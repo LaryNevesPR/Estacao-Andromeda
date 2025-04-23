@@ -1,4 +1,3 @@
-# Tier 1
 - type: technology
   id: BasicCybernetics
   name: research-technology-basic-cybernetics
@@ -29,7 +28,7 @@
   - BorgModuleArtifact
   - BorgModuleAnomaly
   - DroneElectronics
-
+  position: -1,-2
 - type: technology
   id: BasicElectronics
   name: research-technology-basic-electronics
@@ -55,35 +54,7 @@
   - FatExtractorMachineCircuitboard
   - BiofabricatorMachineCircuitboard
   - BiomassReclaimerMachineCircuitboard
-
-# TODO: Add recipes to manufacture Vacsuits.
-# - type: technology
-#   id: BasicVacsuits
-#   name: research-technology-basic-vacsuits
-#   icon:
-#     sprite: Clothing/OuterClothing/Suits/eva_emergency.rsi
-#     state: icon
-#   discipline: CivilianServices
-#   tier: 1
-#   cost: 10000
-#   recipeUnlocks:
-#   - ClothingOuterSuitEmergency
-
-# Tier 2
-
-# TODO: Add recipes to manufacture Hardsuits
-# - type: technology
-#   id: BasicHardsuits
-#   name: research-technology-basic-hardsuits
-#   icon:
-#     sprite: Clothing/OuterClothing/Hardsuits/engineering.rsi
-#     state: icon
-#   discipline: CivilianServices
-#   tier: 1
-#   cost: 15000
-#   recipeUnlocks:
-#   - ClothingOuterHardsuitEngineering
-
+  position: 0,-2
 - type: technology
   id: BasicLifeImprovements
   name: research-technology-basic-life-improvements
@@ -107,7 +78,7 @@
   - MedicalScannerMachineCircuitboard
   - MetempsychoticMachineCircuitboard
   - EnvirosuitExtinguisherRefill
-
+  position: -2,-3
 - type: technology
   id: HONKMech
   name: research-technology-honk-mech
@@ -127,22 +98,7 @@
   - HonkerPeripheralsElectronics
   - HonkerTargetingElectronics
   - MechEquipmentHorn
-
-# Tier 3
-# TODO: Add recipes to manufacture Advanced Hardsuits
-# - type: technology
-#   id: AdvancedHardsuits
-#   name: research-technology-advanced-hardsuits
-#   icon:
-#     sprite: Clothing/OuterClothing/Hardsuits/engineering-white.rsi
-#     state: icon
-#   discipline: CivilianServices
-#   tier: 1
-#   cost: 15000
-#   recipeUnlocks:
-#   - ClothingOuterHardsuitEngineeringWhite
-#   softCapContribution: 1.5
-
+  position: -4,-5
 - type: technology
   id: AdvancedLifeImprovements
   name: research-technology-advanced-life-improvements
@@ -153,13 +109,12 @@
   tier: 3
   cost: 15000
   recipeUnlocks:
-  - ClothingShoesBootsMagAdv # TODO: Separate this out from the silly "Steal the CE's Timbs" objective
+  - ClothingShoesBootsMagAdv
   - ClothingShoesBootsSpeed
   - BluespaceBeaker
   - SyringeBluespace
-  # TODO: Add things like frontier's Hyposprays.
   softCapContribution: 1.5
-
+  position: 0,-5
 - type: technology
   id: AdvancedTranslation
   name: research-technology-advanced-translation
@@ -181,3 +136,4 @@
   - AnimalTranslator
   - MofficTranslatorImplanter
   softCapContribution: 1.5
+  position: -2,-5

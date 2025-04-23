@@ -1,7 +1,3 @@
-# Tier 1
-
-# STOP. STOP ADDING NEW WEAPONS AS A SINGLE RESEARCH ENTRY. ADD NEW WEAPONS HERE, NOT ON THEIR OWN.
-# DO NOT ADD ANOTHER TECH
 - type: technology
   id: BasicWeapons
   name: research-technology-basic-weapons
@@ -15,7 +11,7 @@
   - WeaponProtoKineticAccelerator
   - ShuttleGunKineticCircuitboard
   - WeaponLaserCarbine
-  - WeaponMechCombatFiredartLaser # Goobstation
+  - WeaponMechCombatFiredartLaser
   - WeaponEnergyGun
   - WeaponEnergyGunMini
   - WeaponLaserSvalinn
@@ -24,12 +20,10 @@
   - Truncheon
   - WeaponDisabler
   - WeaponCivilianDisabler
-  - WeaponMechCombatDisabler # Goobstation
-  #- WeaponPistolMk58 #todo: Add a bunch of basic ballistic guns to the list and make lathe recipes for them.
-  - MechEquipmentKineticAccelerator # Goobstation
+  - WeaponMechCombatDisabler
+  - MechEquipmentKineticAccelerator
   - WeaponPistolMk58
-  # These are roundstart but not replenishable for salvage
-
+  position: 2,0
 - type: technology
   id: DraconicMunitions
   name: research-technology-draconic-munitions
@@ -58,7 +52,9 @@
   - CartridgeSpecialIncendiary
   - MagazineBoxSpecialIncendiary
   - MagazineUniversalMagnumIncendiary
-
+  position: 3,-1
+  technologyPrerequisites:
+  - BasicWeapons
 - type: technology
   id: UraniumMunitions
   name: research-technology-uranium-munitions
@@ -76,7 +72,7 @@
   - MagazineLightRifleUranium
   - MagazineCaselessRifleUranium
   - SpeedLoaderMagnumUranium
-  - SpeedLoaderRifleHeavyUranium # Frontier
+  - SpeedLoaderRifleHeavyUranium
   - MagazineBoxPistolUranium
   - MagazineBoxMagnumUranium
   - MagazineBoxLightRifleUranium
@@ -86,9 +82,9 @@
   - CartridgeSpecialUranium
   - MagazineBoxSpecialUranium
   - MagazineUniversalMagnumUranium
-
-# Tier 2
-
+  position: 4,0
+  technologyPrerequisites:
+  - BasicWeapons
 - type: technology
   id: AdvancedTacsuits
   name: research-technology-advanced-tacsuits
@@ -102,7 +98,9 @@
   - ClothingOuterHardsuitCombatStandard
   - ClothingOuterHardsuitCombatMedical
   - ClothingOuterHardsuitCombatRiot
-
+  position: 4,1
+  technologyPrerequisites:
+  - UraniumMunitions
 - type: technology
   id: ExplosiveTechnology
   name: research-technology-explosive-technology
@@ -120,8 +118,9 @@
   - FlashPayload
   - ExplosivePayload
   - ChemicalPayload
-  # TODO: Add "Explosive Ammunition" to this tech to make it waaaay more interesting.
-
+  position: 4,3
+  technologyPrerequisites:
+  - AdvancedTacsuits
 - type: technology
   id: ShrapnelMunitions
   name: research-technology-shrapnel-munitions
@@ -144,7 +143,9 @@
   - MagazineBoxRifleShrapnel
   - MagazineBoxCaselessRifleShrapnel
   - MagazineUniversalMagnumShrapnel
-
+  position: 4,2
+  technologyPrerequisites:
+  - AdvancedTacsuits
 - type: technology
   id: AdvancedWeapons
   name: research-technology-advanced-weapons
@@ -167,7 +168,7 @@
   - WeaponXrayCannon
   - WeaponGunLaserCarbineAutomatic
   - WeaponLaserCannon
-  - WeaponMechCombatSolarisLaser # Goobstation
+  - WeaponMechCombatSolarisLaser
   - WeaponSubMachineGunFPA90
   - WeaponPistolN1984
   - WeaponPistolViper
@@ -176,9 +177,7 @@
   - WeaponPistolUniversal
   technologyPrerequisites:
   - BasicWeapons
-
-# Tier 3
-
+  position: 2,1
 - type: technology
   id: PrototypeTacsuits
   name: research-technology-prototype-tacsuits
@@ -196,7 +195,7 @@
   technologyPrerequisites:
   - AdvancedTacsuits
   softCapContribution: 1.5
-
+  position: 5,2
 - type: technology
   id: LaserTurrets
   name: research-technology-laser-sentry-turrets
@@ -214,7 +213,7 @@
   technologyPrerequisites:
   - AdvancedWeapons
   softCapContribution: 1.5
-
+  position: 2,2
 - type: technology
   id: PrototypeWeapons
   name: research-technology-prototype-weapons
@@ -230,9 +229,10 @@
   - GrenadeEMP
   - PowerCageHigh
   - ShuttleGunDusterCircuitboard
-  - WeaponMechCombatImmolationGun # Goobstation
-  - EnergySword # TODO: Add a bunch of stupidly exotic energy weapons to act as a reaaaaaally nice incentive for research to consider this.
+  - WeaponMechCombatImmolationGun
+  - EnergySword
   - EnergySwordDouble
   - EnergyCutlass
   - WeaponSubMachineGunBRDIR25
   softCapContribution: 1.5
+  position: 5,3

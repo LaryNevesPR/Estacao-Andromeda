@@ -1,0 +1,315 @@
+- type: technology
+  id: BasicWeapons
+  name: research-technology-basic-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - WeaponProtoKineticAccelerator
+  - ShuttleGunKineticCircuitboard
+  - WeaponLaserCarbine
+  - WeaponMechCombatFiredartLaser
+  - WeaponEnergyGun
+  - WeaponEnergyGunMini
+  - WeaponLaserSvalinn
+  - WeaponEnergyGunPistol
+  - WeaponDisablerSMG
+  - Truncheon
+  - WeaponDisabler
+  - WeaponCivilianDisabler
+  - WeaponMechCombatDisabler
+  - MechEquipmentKineticAccelerator
+  - WeaponPistolMk58
+  position: 1,0
+- type: technology
+  id: DraconicMunitions
+  name: research-technology-draconic-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    state: incendiarydisplay
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+  - BoxShotgunIncendiary
+  - MagazineRifleIncendiary
+  - MagazinePistolIncendiary
+  - MagazinePistolSubMachineGunIncendiary
+  - MagazineMagnumIncendiary
+  - MagazineLightRifleIncendiary
+  - MagazineCaselessRifleIncendiary
+  - SpeedLoaderMagnumIncendiary
+  - SpeedLoaderRifleHeavyIncendiary
+  - MagazineShotgunIncendiary
+  - MagazineBoxPistolIncendiary
+  - MagazineBoxMagnumIncendiary
+  - MagazineBoxLightRifleIncendiary
+  - MagazineBoxRifleIncendiary
+  - MagazineBoxCaselessRifleIncendiary
+  - CartridgeSpecialIncendiary
+  - MagazineBoxSpecialIncendiary
+  - MagazineUniversalMagnumIncendiary
+  position: 3,3
+  technologyPrerequisites:
+  - BasicWeapons
+- type: technology
+  id: UraniumMunitions
+  name: research-technology-uranium-munitions
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: uranium
+  discipline: Arsenal
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+  - MagazineRifleUranium
+  - MagazinePistolUranium
+  - MagazinePistolSubMachineGunUranium
+  - MagazineMagnumUranium
+  - MagazineLightRifleUranium
+  - MagazineCaselessRifleUranium
+  - SpeedLoaderMagnumUranium
+  - SpeedLoaderRifleHeavyUranium
+  - MagazineBoxPistolUranium
+  - MagazineBoxMagnumUranium
+  - MagazineBoxLightRifleUranium
+  - MagazineBoxRifleUranium
+  - MagazineBoxCaselessRifleUranium
+  - BoxShotgunUranium
+  - CartridgeSpecialUranium
+  - MagazineBoxSpecialUranium
+  - MagazineUniversalMagnumUranium
+  position: 4,0
+  technologyPrerequisites:
+  - BasicWeapons
+- type: technology
+  id: AdvancedTacsuits
+  name: research-technology-advanced-tacsuits
+  icon:
+    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - ClothingOuterHardsuitCombatStandard
+  - ClothingOuterHardsuitCombatMedical
+  - ClothingOuterHardsuitCombatRiot
+  position: 4,1
+  technologyPrerequisites:
+  - UraniumMunitions
+- type: technology
+  id: ExplosiveTechnology
+  name: research-technology-explosive-technology
+  icon:
+    sprite: Objects/Devices/payload.rsi
+    state: payload-explosive-armed
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+  - SignallerAdvanced
+  - SignalTrigger
+  - VoiceTrigger
+  - TimerTrigger
+  - FlashPayload
+  - ExplosivePayload
+  - ChemicalPayload
+  position: 4,2
+  technologyPrerequisites:
+  - AdvancedTacsuits
+- type: technology
+  id: ShrapnelMunitions
+  name: research-technology-shrapnel-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    state: base
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - MagazineRifleShrapnel
+  - MagazinePistolShrapnel
+  - MagazinePistolSubMachineGunShrapnel
+  - MagazineMagnumShrapnel
+  - MagazineLightRifleShrapnel
+  - MagazineCaselessRifleShrapnel
+  - MagazineBoxPistolShrapnel
+  - MagazineBoxMagnumShrapnel
+  - MagazineBoxLightRifleShrapnel
+  - MagazineBoxRifleShrapnel
+  - MagazineBoxCaselessRifleShrapnel
+  - MagazineUniversalMagnumShrapnel
+  position: 4,2
+  technologyPrerequisites:
+  - AdvancedTacsuits
+- type: technology
+  id: AdvancedWeapons
+  name: research-technology-advanced-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+  - PowerCageRechargerCircuitboard
+  - PowerCageSmall
+  - PowerCageMedium
+  - MagazineGrenadeEmpty
+  - GrenadeFlash
+  - GrenadeBlast
+  - ShuttleGunSvalinnMachineGunCircuitboard
+  - ShuttleGunPerforatorCircuitboard
+  - ShuttleGunFriendshipCircuitboard
+  - WeaponXrayCannon
+  - WeaponGunLaserCarbineAutomatic
+  - WeaponLaserCannon
+  - WeaponMechCombatSolarisLaser
+  - WeaponSubMachineGunFPA90
+  - WeaponPistolN1984
+  - WeaponPistolViper
+  - WeaponPistolCobra
+  - Terminus
+  - WeaponPistolUniversal
+  technologyPrerequisites:
+  - BasicWeapons
+  position: 2,2
+- type: technology
+  id: PrototypeTacsuits
+  name: research-technology-prototype-tacsuits
+  icon:
+    sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/syndicate.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+  - ClothingOuterHardsuitCombatAdvanced
+  - ClothingOuterHardsuitShanlinUnpainted
+  - ClothingOuterHardsuitShiweiUnpainted
+  - ClothingOuterHardsuitJuggernautReverseEngineered
+  technologyPrerequisites:
+  - AdvancedTacsuits
+  softCapContribution: 1.5
+  position: 6,2
+- type: technology
+  id: LaserTurrets
+  name: research-technology-laser-sentry-turrets
+  icon:
+    sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi
+    state: base
+  discipline: Arsenal
+  tier: 3
+  cost: 20000
+  recipeUnlocks:
+  - WeaponEnergyTurretAIMachineCircuitboard
+  - WeaponEnergyTurretStationMachineCircuitboard
+  - WeaponEnergyTurretAIControlPanelElectronics
+  - WeaponEnergyTurretStationControlPanelElectronics
+  technologyPrerequisites:
+  - AdvancedWeapons
+  softCapContribution: 1.5
+  position: 2,1
+- type: technology
+  id: PrototypeWeapons
+  name: research-technology-prototype-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 20000
+  recipeUnlocks:
+  - WeaponAdvancedLaser
+  - PortableRecharger
+  - GrenadeEMP
+  - PowerCageHigh
+  - ShuttleGunDusterCircuitboard
+  - WeaponMechCombatImmolationGun
+  - EnergySword
+  - EnergySwordDouble
+  - EnergyCutlass
+  - WeaponSubMachineGunBRDIR25
+  softCapContribution: 1.5
+  position: 6,2
+- type: technology
+  id: Gygax
+  name: research-technology-gygax
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: gygax
+  discipline: Arsenal
+  tier: 2
+  cost: 12000
+  recipeUnlocks:
+  - GygaxHarness
+  - GygaxArmor
+  - GygaxHead
+  - GygaxLArm
+  - GygaxLLeg
+  - GygaxRArm
+  - GygaxRLeg
+  - GygaxCentralElectronics
+  - GygaxPeripheralsElectronics
+  - GygaxTargetingElectronics
+  - WeaponMechCombatUltraRifle
+  technologyPrerequisites:
+  - Ripley2
+  position: 3,0
+- type: technology
+  id: ExplosiveMechAmmunition
+  name: research-technology-explosive-mech-ammunition
+  icon:
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: mecha_missilerack
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+  - WeaponMechCombatMissileRack8
+  technologyPrerequisites:
+  - ExplosiveTechnology
+  position: 3,1
+- type: technology
+  id: Durand
+  name: research-technology-durand
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: durand
+  discipline: Arsenal
+  tier: 3
+  cost: 16000
+  recipeUnlocks:
+  - DurandHarness
+  - DurandArmor
+  - DurandHead
+  - DurandLArm
+  - DurandLLeg
+  - DurandRArm
+  - DurandRLeg
+  - DurandCentralElectronics
+  - DurandPeripheralsElectronics
+  - DurandTargetingElectronics
+  - WeaponMechCombatShotgun
+  - WeaponMechCombatShotgunIncendiary
+  technologyPrerequisites:
+  - Gygax
+  position: 3,3
+- type: technology
+  id: KineticModifications
+  name: research-technology-kinetic-modifications
+  icon:
+    sprite: _Lavaland/Objects/Weapons/upgrade.rsi
+    state: display
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - PKAUpgradeDamage
+  - PKAUpgradeRange
+  - PKAUpgradeFireRate
+  position: -3,0
