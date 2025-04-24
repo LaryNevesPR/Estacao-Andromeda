@@ -15,6 +15,7 @@
   - AdvancedRetractor
   - BorgModuleAdvancedSurgery
   position: -4,-3
+
 - type: technology
   id: CyberneticEnhancements
   name: research-technology-cybernetic-enhancements
@@ -33,6 +34,7 @@
   - SecurityCyberneticEyes
   - MedicalCyberneticEyes
   position: -2,-4
+
 - type: technology
   id: Autodoc
   name: research-technology-autodoc
@@ -45,6 +47,9 @@
   recipeUnlocks:
   - AutodocCircuitboard
   position: -3,-4
+  technologyPrerequisites:
+  - AdvancedTreatment
+
 - type: technology
   id: HighEndSurgery
   name: research-technology-high-end-surgery
@@ -58,3 +63,5 @@
   - OmnimedTool
   softCapContribution: 1.2
   position: -4,-4
+  technologyPrerequisites:
+  - AdvancedTreatment

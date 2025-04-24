@@ -15,7 +15,8 @@
   - MechEquipmentDrill
   - OreProcessorIndustrialMachineCircuitboard
   - ClothingMaskWeldingGas
-  position: -3,0
+  position: -1,0
+
 - type: technology
   id: AdvancedPowercells
   name: research-technology-advanced-powercells
@@ -30,7 +31,8 @@
   - PowerCellMicrortg
   - TurboItemRechargerCircuitboard
   - SMESAdvancedMachineCircuitboard
-  position: -3,3
+  position: -2,3
+
 - type: technology
   id: MechanicalCompression
   name: research-technology-mechanical-compression
@@ -42,7 +44,8 @@
   cost: 10000
   recipeUnlocks:
   - FlatpackerMachineCircuitboard
-  position: -5,2
+  position: -3,2
+
 - type: technology
   id: IndustrialEngineering
   name: research-technology-industrial-engineering
@@ -57,7 +60,8 @@
   - ProtolatheHyperConvectionMachineCircuitboard
   - CircuitImprinterHyperConvectionMachineCircuitboard
   - SheetifierMachineCircuitboard
-  position: -3,1
+  position: -1,1
+
 - type: technology
   id: PowerGeneration
   name: research-technology-power-generation
@@ -75,7 +79,8 @@
   - SolarControlComputerCircuitboard
   - SolarTrackerElectronics
   - EmitterCircuitboard
-  position: -5,3
+  position: -4,3
+
 - type: technology
   id: AtmosphericTech
   name: research-technology-atmospheric-tech
@@ -89,7 +94,8 @@
   - ThermomachineFreezerMachineCircuitBoard
   - GasRecyclerMachineCircuitboard
   - AlertsComputerCircuitboard
-  position: -4,3
+  position: -3,3
+
 - type: technology
   id: RipleyAPLU
   name: research-technology-ripley-aplu
@@ -108,7 +114,8 @@
   - RipleyCentralElectronics
   - RipleyPeripheralsElectronics
   - MechEquipmentGrabber
-  position: 1,3
+  position: 2,3
+
 - type: technology
   id: SpaceScanning
   name: research-technology-space-scanning
@@ -122,7 +129,8 @@
   - RadarConsoleCircuitboard
   - HandHeldMassScanner
   - BorgModuleGPS
-  position: -4,1
+  position: -2,1
+
 - type: technology
   id: Shuttlecraft
   name: research-technology-shuttlecraft
@@ -137,7 +145,8 @@
   - ThrusterMachineCircuitboard
   - GyroscopeMachineCircuitboard
   - MiniGravityGeneratorCircuitboard
-  position: -6,2
+  position: -4,2
+
 - type: technology
   id: AdvancedAtmospherics
   name: research-technology-advanced-atmospherics
@@ -151,7 +160,8 @@
   - HellfireFreezerMachineCircuitBoard
   - PortableScrubberMachineCircuitBoard
   - HolofanProjector
-  position: -4,2
+  position: -2,2
+
 - type: technology
   id: AdvancedToolsTechnology
   name: research-technology-advanced-tools
@@ -167,7 +177,10 @@
   - JawsOfLife
   - BorgModuleAdvancedTool
   - BorgModuleRCD
-  position: -5,-1
+  position: -1,2
+  technologyPrerequisites:
+  - IndustrialEngineering
+
 - type: technology
   id: MassExcavation
   name: research-technology-excavation
@@ -181,7 +194,8 @@
   - OreBagOfHolding
   - MiningDrillDiamond
   - MechEquipmentDrillDiamond
-  position: -5,0
+  position: -3,0
+
 - type: technology
   id: Ripley2
   name: research-technology-ripley-mkii
@@ -196,7 +210,8 @@
   - RipleyUpgradeKit
   technologyPrerequisites:
   - RipleyAPLU
-  position: 1,4
+  position: 2,4
+
 - type: technology
   id: Clarke
   name: research-technology-clarke
@@ -218,7 +233,8 @@
   - ClarkePeripheralsElectronics
   technologyPrerequisites:
   - Ripley2
-  position: -1,4
+  position: 0,4
+
 - type: technology
   id: BluespaceStorage
   name: research-technology-bluespace-storage
@@ -234,7 +250,10 @@
   - ClothingBackpackDuffelHolding
   - MaterialSiloCircuitboard
   softCapContribution: 1.5
-  position: -4,4
+  position: -3,4
+  technologyPrerequisites:
+  - PortableFission
+
 - type: technology
   id: PortableFission
   name: research-technology-portable-fission
@@ -249,4 +268,4 @@
   technologyPrerequisites:
   - AdvancedPowercells
   softCapContribution: 1.5
-  position: -3,4
+  position: -2,4

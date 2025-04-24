@@ -21,7 +21,8 @@
   - WeaponMechCombatUltraRifle
   technologyPrerequisites:
   - Ripley2
-  position: 3,4
+  position: 4,4
+
 - type: technology
   id: ExplosiveMechAmmunition
   name: research-technology-explosive-mech-ammunition
@@ -35,7 +36,8 @@
   - WeaponMechCombatMissileRack8
   technologyPrerequisites:
   - ExplosiveTechnology
-  position: 4,4
+  position: 5,3
+
 - type: technology
   id: Durand
   name: research-technology-durand
@@ -60,4 +62,4 @@
   - WeaponMechCombatShotgunIncendiary
   technologyPrerequisites:
   - Gygax
-  position: 3,3
+  position: 4,3

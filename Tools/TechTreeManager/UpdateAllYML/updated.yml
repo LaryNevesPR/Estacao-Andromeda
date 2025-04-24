@@ -23,8 +23,8 @@
     - WeaponMechCombatDisabler
     - MechEquipmentKineticAccelerator
     - WeaponPistolMk58
-  position: 2,0
-  _x: 1200
+  position: 4,0
+  _x: 1400
   _y: 500
 - type: technology
   id: DraconicMunitions
@@ -54,10 +54,10 @@
     - CartridgeSpecialIncendiary
     - MagazineBoxSpecialIncendiary
     - MagazineUniversalMagnumIncendiary
-  position: 3,-1
+  position: 4,-1
   technologyPrerequisites:
     - BasicWeapons
-  _x: 1300
+  _x: 1400
   _y: 400
 - type: technology
   id: UraniumMunitions
@@ -86,10 +86,10 @@
     - CartridgeSpecialUranium
     - MagazineBoxSpecialUranium
     - MagazineUniversalMagnumUranium
-  position: 4,0
+  position: 6,0
   technologyPrerequisites:
     - BasicWeapons
-  _x: 1400
+  _x: 1600
   _y: 500
 - type: technology
   id: AdvancedTacsuits
@@ -104,10 +104,10 @@
     - ClothingOuterHardsuitCombatStandard
     - ClothingOuterHardsuitCombatMedical
     - ClothingOuterHardsuitCombatRiot
-  position: 4,1
+  position: 6,1
   technologyPrerequisites:
     - UraniumMunitions
-  _x: 1400
+  _x: 1600
   _y: 600
 - type: technology
   id: ExplosiveTechnology
@@ -126,11 +126,11 @@
     - FlashPayload
     - ExplosivePayload
     - ChemicalPayload
-  position: 4,3
+  position: 5,2
   technologyPrerequisites:
     - AdvancedTacsuits
-  _x: 1400
-  _y: 800
+  _x: 1500
+  _y: 700
 - type: technology
   id: ShrapnelMunitions
   name: research-technology-shrapnel-munitions
@@ -153,10 +153,10 @@
     - MagazineBoxRifleShrapnel
     - MagazineBoxCaselessRifleShrapnel
     - MagazineUniversalMagnumShrapnel
-  position: 4,2
+  position: 6,2
   technologyPrerequisites:
     - AdvancedTacsuits
-  _x: 1400
+  _x: 1600
   _y: 700
 - type: technology
   id: AdvancedWeapons
@@ -189,8 +189,8 @@
     - WeaponPistolUniversal
   technologyPrerequisites:
     - BasicWeapons
-  position: 2,1
-  _x: 1200
+  position: 4,1
+  _x: 1400
   _y: 600
 - type: technology
   id: PrototypeTacsuits
@@ -209,8 +209,8 @@
   technologyPrerequisites:
     - AdvancedTacsuits
   softCapContribution: 1.5
-  position: 5,2
-  _x: 1500
+  position: 7,2
+  _x: 1700
   _y: 700
 - type: technology
   id: LaserTurrets
@@ -229,8 +229,8 @@
   technologyPrerequisites:
     - AdvancedWeapons
   softCapContribution: 1.5
-  position: 2,2
-  _x: 1200
+  position: 4,2
+  _x: 1400
   _y: 700
 - type: technology
   id: PrototypeWeapons
@@ -253,8 +253,8 @@
     - EnergyCutlass
     - WeaponSubMachineGunBRDIR25
   softCapContribution: 1.5
-  position: 5,3
-  _x: 1500
+  position: 7,3
+  _x: 1700
   _y: 800
 - type: technology
   id: Gygax
@@ -279,8 +279,8 @@
     - WeaponMechCombatUltraRifle
   technologyPrerequisites:
     - Ripley2
-  position: 3,4
-  _x: 1300
+  position: 4,4
+  _x: 1400
   _y: 900
 - type: technology
   id: ExplosiveMechAmmunition
@@ -295,9 +295,9 @@
     - WeaponMechCombatMissileRack8
   technologyPrerequisites:
     - ExplosiveTechnology
-  position: 4,4
-  _x: 1400
-  _y: 900
+  position: 5,3
+  _x: 1500
+  _y: 800
 - type: technology
   id: Durand
   name: research-technology-durand
@@ -322,8 +322,8 @@
     - WeaponMechCombatShotgunIncendiary
   technologyPrerequisites:
     - Gygax
-  position: 3,3
-  _x: 1300
+  position: 4,3
+  _x: 1400
   _y: 800
 - type: technology
   id: KineticModifications
@@ -338,8 +338,8 @@
     - PKAUpgradeDamage
     - PKAUpgradeRange
     - PKAUpgradeFireRate
-  position: 3,1
-  _x: 1300
+  position: 5,1
+  _x: 1500
   _y: 600
 - type: technology
   id: BasicCybernetics
@@ -372,6 +372,8 @@
     - BorgModuleAnomaly
     - DroneElectronics
   position: '-1,-2'
+  technologyPrerequisites:
+    - BasicElectronics
   _x: 900
   _y: 300
 - type: technology
@@ -426,6 +428,8 @@
     - MetempsychoticMachineCircuitboard
     - EnvirosuitExtinguisherRefill
   position: '-2,-3'
+  technologyPrerequisites:
+    - BasicCybernetics
   _x: 800
   _y: 200
 - type: technology
@@ -490,6 +494,8 @@
     - MofficTranslatorImplanter
   softCapContribution: 1.5
   position: '-2,-5'
+  technologyPrerequisites:
+    - CyberneticEnhancements
   _x: 800
   _y: 0
 - type: technology
@@ -572,6 +578,8 @@
   recipeUnlocks:
     - AutodocCircuitboard
   position: '-3,-4'
+  technologyPrerequisites:
+    - AdvancedTreatment
   _x: 700
   _y: 100
 - type: technology
@@ -587,6 +595,8 @@
     - OmnimedTool
   softCapContribution: 1.2
   position: '-4,-4'
+  technologyPrerequisites:
+    - AdvancedTreatment
   _x: 600
   _y: 100
 - type: technology
@@ -687,9 +697,9 @@
   recipeUnlocks:
     - WeaponParticleDecelerator
     - HoloprojectorField
-  position: 5,-1
-  _x: 1500
-  _y: 400
+  position: 6,-2
+  _x: 1600
+  _y: 300
 - type: technology
   id: NightVisionTech
   name: research-technology-night-vision
@@ -705,6 +715,8 @@
     - ClothingEyesNightVisionMedicalGoggles
     - ClothingEyesNightVisionDiagnosticGoggles
   position: 5,-4
+  technologyPrerequisites:
+    - AdvancedParts
   _x: 1500
   _y: 100
 - type: technology
@@ -719,6 +731,8 @@
   recipeUnlocks:
     - ClothingEyesThermalVisionGoggles
   position: 3,-4
+  technologyPrerequisites:
+    - AdvancedParts
   _x: 1300
   _y: 100
 - type: technology
@@ -736,6 +750,8 @@
     - PicoManipulatorStockPart
   softCapContribution: 1.2
   position: 4,-5
+  technologyPrerequisites:
+    - AdvancedParts
   _x: 1400
   _y: 0
 - type: technology
@@ -752,6 +768,8 @@
     - WeaponTetherGun
   softCapContribution: 1.5
   position: 5,-5
+  technologyPrerequisites:
+    - SuperParts
   _x: 1500
   _y: 0
 - type: technology
@@ -766,7 +784,9 @@
   recipeUnlocks:
     - DeviceQuantumSpinInverter
   softCapContribution: 1.5
-  position: 2,-5
+  position: 3,-5
+  technologyPrerequisites:
+    - SuperParts
   _x: 1200
   _y: 0
 - type: technology
@@ -784,8 +804,8 @@
     - CartridgeSpecialHoly
     - CartridgeSpecialMindbreaker
     - ShellSoulbreaker
-  position: '-5,1'
-  _x: 500
+  position: '-3,1'
+  _x: 700
   _y: 600
 - type: technology
   id: ModsuitsTech
@@ -806,8 +826,8 @@
     - ModsuitGauntlets
     - ModsuitShell
     - ModsuitPlatingExternal
-  position: 5,1
-  _x: 1500
+  position: 7,1
+  _x: 1700
   _y: 600
 - type: technology
   id: SalvageEquipment
@@ -826,8 +846,8 @@
     - MechEquipmentDrill
     - OreProcessorIndustrialMachineCircuitboard
     - ClothingMaskWeldingGas
-  position: '-3,0'
-  _x: 700
+  position: '-1,0'
+  _x: 900
   _y: 500
 - type: technology
   id: AdvancedPowercells
@@ -843,8 +863,8 @@
     - PowerCellMicrortg
     - TurboItemRechargerCircuitboard
     - SMESAdvancedMachineCircuitboard
-  position: '-3,3'
-  _x: 700
+  position: '-2,3'
+  _x: 800
   _y: 800
 - type: technology
   id: MechanicalCompression
@@ -857,8 +877,8 @@
   cost: 10000
   recipeUnlocks:
     - FlatpackerMachineCircuitboard
-  position: '-5,2'
-  _x: 500
+  position: '-3,2'
+  _x: 700
   _y: 700
 - type: technology
   id: IndustrialEngineering
@@ -874,8 +894,8 @@
     - ProtolatheHyperConvectionMachineCircuitboard
     - CircuitImprinterHyperConvectionMachineCircuitboard
     - SheetifierMachineCircuitboard
-  position: '-3,1'
-  _x: 700
+  position: '-1,1'
+  _x: 900
   _y: 600
 - type: technology
   id: PowerGeneration
@@ -894,8 +914,8 @@
     - SolarControlComputerCircuitboard
     - SolarTrackerElectronics
     - EmitterCircuitboard
-  position: '-5,3'
-  _x: 500
+  position: '-4,3'
+  _x: 600
   _y: 800
 - type: technology
   id: AtmosphericTech
@@ -910,8 +930,8 @@
     - ThermomachineFreezerMachineCircuitBoard
     - GasRecyclerMachineCircuitboard
     - AlertsComputerCircuitboard
-  position: '-4,3'
-  _x: 600
+  position: '-3,3'
+  _x: 700
   _y: 800
 - type: technology
   id: RipleyAPLU
@@ -931,8 +951,8 @@
     - RipleyCentralElectronics
     - RipleyPeripheralsElectronics
     - MechEquipmentGrabber
-  position: 1,3
-  _x: 1100
+  position: 2,3
+  _x: 1200
   _y: 800
 - type: technology
   id: SpaceScanning
@@ -947,8 +967,8 @@
     - RadarConsoleCircuitboard
     - HandHeldMassScanner
     - BorgModuleGPS
-  position: '-4,1'
-  _x: 600
+  position: '-2,1'
+  _x: 800
   _y: 600
 - type: technology
   id: Shuttlecraft
@@ -964,8 +984,8 @@
     - ThrusterMachineCircuitboard
     - GyroscopeMachineCircuitboard
     - MiniGravityGeneratorCircuitboard
-  position: '-6,2'
-  _x: 400
+  position: '-4,2'
+  _x: 600
   _y: 700
 - type: technology
   id: AdvancedAtmospherics
@@ -980,8 +1000,8 @@
     - HellfireFreezerMachineCircuitBoard
     - PortableScrubberMachineCircuitBoard
     - HolofanProjector
-  position: '-4,2'
-  _x: 600
+  position: '-2,2'
+  _x: 800
   _y: 700
 - type: technology
   id: AdvancedToolsTechnology
@@ -998,8 +1018,10 @@
     - JawsOfLife
     - BorgModuleAdvancedTool
     - BorgModuleRCD
-  position: '-5,-1'
-  _x: 500
+  position: '-1,2'
+  technologyPrerequisites:
+    - IndustrialEngineering
+  _x: 700
   _y: 400
 - type: technology
   id: MassExcavation
@@ -1014,8 +1036,8 @@
     - OreBagOfHolding
     - MiningDrillDiamond
     - MechEquipmentDrillDiamond
-  position: '-5,0'
-  _x: 500
+  position: '-3,0'
+  _x: 700
   _y: 500
 - type: technology
   id: Ripley2
@@ -1031,8 +1053,8 @@
     - RipleyUpgradeKit
   technologyPrerequisites:
     - RipleyAPLU
-  position: 1,4
-  _x: 1100
+  position: 2,4
+  _x: 1200
   _y: 900
 - type: technology
   id: Clarke
@@ -1055,8 +1077,8 @@
     - ClarkePeripheralsElectronics
   technologyPrerequisites:
     - Ripley2
-  position: '-1,4'
-  _x: 900
+  position: 0,4
+  _x: 1000
   _y: 900
 - type: technology
   id: BluespaceStorage
@@ -1073,8 +1095,10 @@
     - ClothingBackpackDuffelHolding
     - MaterialSiloCircuitboard
   softCapContribution: 1.5
-  position: '-4,4'
-  _x: 600
+  position: '-3,4'
+  technologyPrerequisites:
+    - PortableFission
+  _x: 700
   _y: 900
 - type: technology
   id: PortableFission
@@ -1090,6 +1114,6 @@
   technologyPrerequisites:
     - AdvancedPowercells
   softCapContribution: 1.5
-  position: '-3,4'
-  _x: 700
+  position: '-2,4'
+  _x: 800
   _y: 900

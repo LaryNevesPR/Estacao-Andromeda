@@ -29,6 +29,9 @@
   - BorgModuleAnomaly
   - DroneElectronics
   position: -1,-2
+  technologyPrerequisites:
+  - BasicElectronics
+
 - type: technology
   id: BasicElectronics
   name: research-technology-basic-electronics
@@ -55,6 +58,7 @@
   - BiofabricatorMachineCircuitboard
   - BiomassReclaimerMachineCircuitboard
   position: 0,-2
+
 - type: technology
   id: BasicLifeImprovements
   name: research-technology-basic-life-improvements
@@ -79,6 +83,9 @@
   - MetempsychoticMachineCircuitboard
   - EnvirosuitExtinguisherRefill
   position: -2,-3
+  technologyPrerequisites:
+  - BasicCybernetics
+
 - type: technology
   id: HONKMech
   name: research-technology-honk-mech
@@ -99,6 +106,7 @@
   - HonkerTargetingElectronics
   - MechEquipmentHorn
   position: -4,-5
+
 - type: technology
   id: AdvancedLifeImprovements
   name: research-technology-advanced-life-improvements
@@ -115,6 +123,7 @@
   - SyringeBluespace
   softCapContribution: 1.5
   position: 0,-5
+
 - type: technology
   id: AdvancedTranslation
   name: research-technology-advanced-translation
@@ -137,3 +146,5 @@
   - MofficTranslatorImplanter
   softCapContribution: 1.5
   position: -2,-5
+  technologyPrerequisites:
+  - CyberneticEnhancements

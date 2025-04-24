@@ -21,6 +21,8 @@ def load_updated_items(path):
     return {}
 
 
+import io
+
 def update_file(filepath, updates):
     updated = False
     try:
@@ -43,12 +45,29 @@ def update_file(filepath, updates):
 
     if updated:
         try:
+            # Dump each item individually
+            yaml_chunks = []
+            for item in new_list:
+                stream = io.StringIO()
+                yaml.dump([item], stream, sort_keys=False, allow_unicode=True)
+                yaml_text = stream.getvalue().strip()
+                # Remove the enclosing list brackets and dash
+                if yaml_text.startswith("- "):
+                    yaml_text = yaml_text[2:]
+                yaml_chunks.append(f"- {yaml_text}")
+
+            # Join with double newlines
+            final_yaml = "\n\n".join(yaml_chunks)
+
             with open(filepath, "w", encoding="utf-8") as f:
-                yaml.dump(new_list, f, sort_keys=False, allow_unicode=True)
+                f.write(final_yaml + "\n")  # Final newline at EOF
             MODIFIED_FILES[filepath] = True
         except Exception as e:
             print(f"Failed to write {filepath}: {e}")
     return updated
+
+
+
 
 def update_all_files(updates):
     start_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..", "Resources", "Prototypes"))

@@ -14,6 +14,7 @@
   - APECircuitboard
   - AnomalyVesselCircuitboard
   position: 5,-2
+
 - type: technology
   id: BasicXenoArcheology
   name: research-technology-basic-xenoarcheology
@@ -30,6 +31,7 @@
   - TechDiskComputerCircuitboard
   - ReverseEngineeringMachineCircuitboard
   position: 6,-3
+
 - type: technology
   id: AnomalyCoreHarnessing
   name: research-technology-anomaly-harnessing
@@ -42,6 +44,7 @@
   recipeUnlocks:
   - WeaponGauntletGorilla
   position: 4,-3
+
 - type: technology
   id: AdvancedParts
   name: research-technology-advanced-parts
@@ -57,6 +60,7 @@
   - NanoManipulatorStockPart
   - RPED
   position: 4,-4
+
 - type: technology
   id: AdvancedAnomalyResearch
   name: research-technology-advanced-anomaly-research
@@ -74,6 +78,7 @@
   technologyPrerequisites:
   - BasicAnomalousResearch
   position: 5,-3
+
 - type: technology
   id: DeterrenceTechnologies
   name: research-technology-deterrence
@@ -86,7 +91,8 @@
   recipeUnlocks:
   - WeaponParticleDecelerator
   - HoloprojectorField
-  position: 5,-1
+  position: 6,-2
+
 - type: technology
   id: NightVisionTech
   name: research-technology-night-vision
@@ -102,6 +108,9 @@
   - ClothingEyesNightVisionMedicalGoggles
   - ClothingEyesNightVisionDiagnosticGoggles
   position: 5,-4
+  technologyPrerequisites:
+  - AdvancedParts
+
 - type: technology
   id: ThermalVisionTech
   name: research-technology-thermal-vision
@@ -114,6 +123,9 @@
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
   position: 3,-4
+  technologyPrerequisites:
+  - AdvancedParts
+
 - type: technology
   id: SuperParts
   name: research-technology-super-parts
@@ -129,6 +141,9 @@
   - PicoManipulatorStockPart
   softCapContribution: 1.2
   position: 4,-5
+  technologyPrerequisites:
+  - AdvancedParts
+
 - type: technology
   id: GravityManipulation
   name: research-technology-gravity-manipulation
@@ -143,6 +158,9 @@
   - WeaponTetherGun
   softCapContribution: 1.5
   position: 5,-5
+  technologyPrerequisites:
+  - SuperParts
+
 - type: technology
   id: QuantumLeaping
   name: research-technology-quantum-leaping
@@ -155,4 +173,6 @@
   recipeUnlocks:
   - DeviceQuantumSpinInverter
   softCapContribution: 1.5
-  position: 2,-5
+  position: 3,-5
+  technologyPrerequisites:
+  - SuperParts
