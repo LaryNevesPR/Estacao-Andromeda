@@ -107,6 +107,16 @@
         - ToyDurand
         - ToySkeleton
         - MysteryFigureBox
+        - ToyFigurineMarcos
+        - ToyFigurineLao
+        - ToyFigurineGui
+        - ToyFigurineJanie
+        - ToyFigurinePodro
+        - ToyFigurineLawLaw
+        - ToyFigurineRonaldo
+        - ToyFigurineLunara
+        - ToyFigurinePhilMal
+        - ToyFigurineWellsChaplon
         - ToyZero # DeltaV Toy, see Resources/Prototypes/DeltaV/Entities/Objects/Fun/toys.yml
         - ToyRenault # DeltaV Toy, see Resources/Prototypes/DeltaV/Entities/Objects/Fun/toys.yml
         - ToySiobhan # DeltaV Toy, see Resources/Prototypes/DeltaV/Entities/Objects/Fun/toys.yml
@@ -175,5 +185,15 @@
       - ToyFigurineMouse
       - ToyFigurineHamlet
       - ToyFigurineThief
+      - ToyFigurineMarcos
+      - ToyFigurineLao
+      - ToyFigurineGui
+      - ToyFigurineJanie
+      - ToyFigurinePodro
+      - ToyFigurineLawLaw
+      - ToyFigurineRonaldo
+      - ToyFigurineLunara
+      - ToyFigurinePhilMal
+      - ToyFigurineWellsChaplon
       chance: 0.90
       offset: 0.2

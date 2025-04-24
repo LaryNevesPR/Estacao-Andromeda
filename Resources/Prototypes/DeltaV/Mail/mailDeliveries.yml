@@ -1,6 +1,7 @@
 - type: mailDeliveryPool
   id: RandomDeltaVMailDeliveryPool #This entire table is messy as fuck but the weights add up to 35. TODO: ORGANIZE THIS SHIT AAAA
   everyone:
+    MailNFFigurinesCatarse: 1
     MailNFAlcohol: 1
     MailNFBakedGoods: 1
     MailNFBible: 1
