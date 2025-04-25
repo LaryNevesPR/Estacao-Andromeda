@@ -6,20 +6,20 @@ public static class NumberConverter
 {
     private static readonly string[] Units =
     [
-        "", "one", "two", "three", "four", "five", "six",
-        "seven", "eight", "nine", "ten", "eleven",
-        "twelve", "thirteen", "fourteen", "fifteen",
-        "sixteen", "seventeen", "eighteen", "nineteen"
+        "", "um", "dois", "três", "quatro", "cinco", "seis",
+        "sete", "oito", "nove", "dez", "onze",
+        "doze", "treze", "quatorze", "quinze",
+        "dezesseis", "dezessete", "dezoito", "dezenove"
     ];
 
     private static readonly string[] Tens =
     [
-        "", "ten", "twenty", "thirty", "forty", "fifty",
-        "sixty", "seventy", "eighty", "ninety"
+        "", "dez", "vinte", "trinta", "quarenta", "cinquenta",
+        "sessenta", "setenta", "oitenta", "noventa"
     ];
 
     private static readonly string[] Scales =
-    ["", "thousand", "million", "billion", "trillion"];
+        ["", "mil", "milhões", "bilhões", "trilhões"];
 
     public static string NumberToText(long number)
     {
@@ -48,7 +48,7 @@ public static class NumberConverter
                 if (tensUnits > 0)
                 {
                     if (hundreds != 0)
-                        chunk.Append(" and ");
+                        chunk.Append(" e ");
 
                     if (tensUnits < 20)
                         chunk.Append(Units[tensUnits]);

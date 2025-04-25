@@ -240,34 +240,28 @@ public sealed partial class TTSSystem : EntitySystem
 
     private async Task<byte[]?> GenerateTTS(string text, int voice, bool isRadio = false, bool isAnnounce = false)
     {
-        _sawmill.Warning($"TTS System Log: {text}");
+        _sawmill.Warning($"TTS System Log a: {text}");
         try
         {
             text = DecimalConverter().Replace(text, " point ");
+            _sawmill.Warning($"TTS System Log b: {text}");
             text = Number2Word().Replace(text, ReplaceNumber2Word);
+            _sawmill.Warning($"TTS System Log c: {text}");
             text = SymbolFilter().Replace(text, ReplaceAbbreviations);
+            _sawmill.Warning($"TTS System Log d: {text}");
             text = CharFilter().Replace(text.Trim(), "");
+            _sawmill.Warning($"TTS System Log e: {text}");
 
             if (text == "") return null;
             if (char.IsLetter(text[^1]))
                 text += ".";
-            _sawmill.Warning($"TTS System Log: {text}");
-            //return isRadio
-            //    ? await _ttsManager.ConvertTextToSpeechRadio(voice, text)
-            //    : isAnnounce
-            //        ? await _ttsManager.ConvertTextToSpeechAnnounce(voice, text)
-            //        : await _ttsManager.ConvertTextToSpeechStandard(voice, text);
-            //if (isRadio)
-            //{
-            //    return await _ttsManager.ConvertTextToSpeechRadio(voice, text);
-            //}
+            _sawmill.Warning($"TTS System Log f: {text}");
 
-            //if (isAnnounce)
-            //{
-            //    return await _ttsManager.ConvertTextToSpeechAnnounce(voice, text);
-            //}
-
-            return await _ttsManager.ConvertTextToSpeechStandard(voice, text);
+            return isRadio
+               ? await _ttsManager.ConvertTextToSpeechRadio(voice, text)
+               : isAnnounce
+                   ? await _ttsManager.ConvertTextToSpeechAnnounce(voice, text)
+                   : await _ttsManager.ConvertTextToSpeechStandard(voice, text);
 
         }
         catch (Exception e)
@@ -314,7 +308,7 @@ public sealed partial class TTSSystem : EntitySystem
             {"ш", "w"},
         };
 
-    [GeneratedRegex(@"[^a-zA-Z0-9,\-+?!. ]")]
+    [GeneratedRegex(@"[^\p{L}\p{N},\-+?!. ]")]
     private static partial Regex CharFilter();
 
     [GeneratedRegex(@"(?<=\d)[.,](?=\d)")]
