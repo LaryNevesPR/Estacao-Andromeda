@@ -1,0 +1,35 @@
+- type: voice
+  id: maria
+  name: Microsoft Maria
+  sex: Female
+  silicon: false
+  voice: 0
+
+- type: voice
+  id: zira
+  name: Microsoft Zira Desktop
+  sex: Female
+  silicon: false
+  voice: 1
+
+- type: voice
+  id: leticia
+  voice: 2
+  name: RHVoice Letícia-F123
+  sex: Female
+  silicon: false
+
+- type: voice
+  id: espeak1
+  voice: 3
+  name: eSpeak-pt+f2
+  sex: Unsexed
+  silicon: true
+
+
+- type: voice
+  id: espeak2
+  voice: 4
+  name: eSpeak-pt+f2
+  sex: Unsexed
+  silicon: true

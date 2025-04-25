@@ -41,6 +41,8 @@ using Robust.Shared.Random;
 using Robust.Shared.Utility;
 using Direction = Robust.Shared.Maths.Direction;
 using Robust.Shared.Log;
+using Content.Shared.Andromeda.TextToSpeech;
+using Content.Client.Andromeda.TTS;
 
 namespace Content.Client.Lobby.UI
 {
@@ -114,6 +116,8 @@ namespace Content.Client.Lobby.UI
 
         [ValidatePrototypeId<DatasetPrototype>]
         private const string CyborgNames = "names_borg";
+
+        private List<VoicePrototype> _voices = [];
 
         public HumanoidProfileEditor(
             IClientPreferencesManager preferencesManager,
@@ -596,6 +600,48 @@ namespace Content.Client.Lobby.UI
 
             ReloadPreview();
             IsDirty = false;
+
+            _voices = _prototypeManager
+                .EnumeratePrototypes<VoicePrototype>()
+                .Where(o => !o.Silicon)
+                .ToList();
+
+            VoiceButton.OnItemSelected += args =>
+            {
+                VoiceButton.SelectId(args.Id);
+                Profile = Profile?.WithVoice(_voices[args.Id].ID);
+                IsDirty = true;
+            };
+            VoicePreviewButton.OnPressed +=
+                _ => _entManager.System<TextToSpeechSystem>().RequestPreviewTts(Profile?.Voice ?? "");
+        }
+
+        private void UpdateVoicesControls()
+        {
+            if (Profile is null)
+                return;
+
+            VoiceButton.Clear();
+
+            for (var i = 0; i < _voices.Count; i++)
+            {
+                var voice = _voices[i];
+
+                VoiceButton.AddItem($"[{voice.Sex}] {Loc.GetString(voice.Name)}", i);
+            }
+
+            if (string.IsNullOrEmpty(Profile.Voice))
+            {
+                var available = _voices.ToArray();
+                if (available.Length > 0)
+                {
+                    var index = new Random().Next(0, available.Length);
+                    Profile.Voice = available[index].ID;
+                }
+            }
+            var voiceChoiceId = _voices.FindIndex(x => x.ID == Profile.Voice);
+            if (voiceChoiceId != -1)
+                VoiceButton.TrySelectId(voiceChoiceId);
         }
 
         /// Refreshes the flavor text editor status
@@ -924,6 +970,7 @@ namespace Content.Client.Lobby.UI
             UpdateHeightWidthSliders();
             UpdateWeight();
             UpdateCharacterRequired();
+            UpdateVoicesControls();
 
             RefreshAntags();
             RefreshJobs();

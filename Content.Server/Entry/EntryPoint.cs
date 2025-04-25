@@ -33,6 +33,7 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server.Andromeda.TextToSpeech;
 
 namespace Content.Server.Entry
 {
@@ -114,6 +115,7 @@ namespace Content.Server.Entry
                 _playTimeTracking.Initialize();
                 IoCManager.Resolve<JobWhitelistManager>().Initialize();
                 IoCManager.Resolve<PlayerRateLimitManager>().Initialize();
+                IoCManager.Resolve<ITTSManager>().Initialize();
             }
         }
 
