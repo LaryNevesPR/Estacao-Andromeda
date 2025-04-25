@@ -64,10 +64,22 @@ public static class NumberConverter
                     }
                 }
 
-                chunk.Append(" " + Scales[unit]);
+                // Ajustar para singular quando o multiplicador é 1
+                if (unit > 0 && number % 1000 == 1)
+                {
+                    // Converter para forma singular (remover o "ões" final)
+                    var scale = Scales[unit];
+                    if (scale.EndsWith("ões"))
+                        scale = scale.Substring(0, scale.Length - 3) + "ão";
+                    chunk.Append(" " + scale);
+                }
+                else
+                {
+                    chunk.Append(" " + Scales[unit]);
+                }
 
                 if (words.Length > 0)
-                    chunk.Append(", ");
+                    chunk.Append(" e ");
 
                 words.Insert(0, chunk);
             }
