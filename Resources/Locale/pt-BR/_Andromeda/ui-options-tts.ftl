@@ -1,9 +1,9 @@
-ui-options-tts-label = Text-To-Speech
-ui-options-tts-volume = TTS Volume:
-credits-window-tts-title = TTS (Text-To-Speech) Feature
+ui-options-tts-label = Text To Speech
+ui-options-tts-volume = Volume do TTS:
+credits-window-tts-title = Recurso TTS
 
-ui-options-tts-radio-volume = Radio Volume:
-ui-options-tts-announce-volume = Announcement Volume:
+ui-options-tts-radio-volume = Volume TTS do Rádio:
+ui-options-tts-announce-volume = Volume TTS de Anúncios:
 
-ui-options-tts-enabled = Text-To-Speech Enabled
-ui-options-tts-radio-queue-enabled = Queue Radio TTS
+ui-options-tts-enabled = Text To Speech Ativado
+ui-options-tts-radio-queue-enabled = Fila TTS do Rádio

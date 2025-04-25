@@ -43,7 +43,7 @@ public static class NumberConverter
                 var tensUnits = (int)(number % 100);
 
                 if (hundreds != 0)
-                    chunk.Append(Units[hundreds] + " hundred");
+                    chunk.Append(hundreds == 1 ? "cem" : Units[hundreds] + " centos");
 
                 if (tensUnits > 0)
                 {

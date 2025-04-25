@@ -95,14 +95,17 @@ public sealed class TTSManager : ITTSManager
             SpeedMultiplier = 1.0,
             Effect = isRadio ? Effect.Radio : 0,
         });
+
         var content = new StringContent(jsonBody, System.Text.Encoding.UTF8, "application/json");
         content.Headers.Add("X-Api-Key", _apiToken);
         var requestUrl = string.Format(_apiUrl, _apiToken);
 
         try
         {
+            using var httpClient = new HttpClient();
             var cts = new CancellationTokenSource(TimeSpan.FromSeconds(_timeout));
-            var response = await _httpClient.PostAsync(_apiUrl, content, cts.Token);
+            var response = await httpClient.PostAsync(requestUrl, content, cts.Token);
+
             if (!response.IsSuccessStatusCode)
             {
                 _sawmill.Error($"TTS request returned bad status code: {response.StatusCode}");
@@ -113,7 +116,6 @@ public sealed class TTSManager : ITTSManager
 
             _sawmill.Debug($"Generated new audio for '{text}' speech by voice ID '{voiceId}' ({audio.Length} bytes)");
             RequestTime.WithLabels("Success").Observe(stopwatch.Elapsed.TotalSeconds);
-
             return audio;
         }
         catch (TaskCanceledException)
@@ -133,6 +135,7 @@ public sealed class TTSManager : ITTSManager
             stopwatch.Stop();
         }
     }
+
 
     private record TTSRequest
     {
