@@ -72,11 +72,13 @@ public sealed class TTSManager : ITTSManager
     public async Task<byte[]?> ConvertTextToSpeechRadio(int voice, string text)
     {
         RequestedRadioCount.Inc();
+        _sawmill.Verbose($"Generate new audio for RADIO '{text}' speech by voice ID");
         return await ConvertTextToSpeech(voice, text, true);
     }
     public async Task<byte[]?> ConvertTextToSpeechAnnounce(int voice, string text)
     {
         RequestedAnnounceCount.Inc();
+        _sawmill.Verbose($"Generate new audio for ANNOUNCE '{text}' speech by voice ID");
         return await ConvertTextToSpeech(voice, text, true);
     }
     private async Task<byte[]?> ConvertTextToSpeech(int voiceId, string text, bool isRadio = false)

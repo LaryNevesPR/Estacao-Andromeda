@@ -15,7 +15,8 @@ public readonly record struct RadioReceiveEvent(
     ChatMessage OriginalChatMsg,
     ChatMessage LanguageObfuscatedChatMsg,
     LanguagePrototype Language,
-    EntityUid RadioSource
+    EntityUid RadioSource,
+    List<EntityUid> Receivers
 );
 
 /// <summary>

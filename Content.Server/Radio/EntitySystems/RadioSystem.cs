@@ -141,7 +141,7 @@ public sealed class RadioSystem : EntitySystem
         var obfuscatedWrapped = WrapRadioMessage(messageSource, channel, name, obfuscated, language, frequency);
         var notUdsMsg = new ChatMessage(ChatChannel.Radio, obfuscated, obfuscatedWrapped, NetEntity.Invalid, null);
 
-        var ev = new RadioReceiveEvent(messageSource, channel, msg, notUdsMsg, language, radioSource);
+        var ev = new RadioReceiveEvent(messageSource, channel, msg, notUdsMsg, language, radioSource, []);
 
         var sendAttemptEv = new RadioSendAttemptEvent(channel, radioSource);
         RaiseLocalEvent(ref sendAttemptEv);
@@ -188,6 +188,12 @@ public sealed class RadioSystem : EntitySystem
             // send the message
             RaiseLocalEvent(receiver, ref ev);
         }
+        RaiseLocalEvent(new RadioSpokeEvent
+        {
+            Source = messageSource,
+            Message = message,
+            Receivers = [.. ev.Receivers]
+        });
 
         if (name != Name(messageSource))
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Radio message from {ToPrettyString(messageSource):user} as {name} on {channel.LocalizedName}: {message}");

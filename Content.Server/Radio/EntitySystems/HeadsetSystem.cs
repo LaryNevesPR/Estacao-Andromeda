@@ -8,6 +8,7 @@ using Content.Shared.Inventory.Events;
 using Content.Shared.Radio;
 using Content.Shared.Radio.Components;
 using Content.Shared.Radio.EntitySystems;
+using Content.Shared.Andromeda.TextToSpeech;
 using Robust.Shared.Network;
 using Robust.Shared.Player;
 
@@ -112,6 +113,8 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
                 Message = canUnderstand ? args.OriginalChatMsg : args.LanguageObfuscatedChatMsg
             };
             _netMan.ServerSendMessage(msg, actor.PlayerSession.Channel);
+            if (parent != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
+                args.Receivers.Add(parent);
         }
     }
 
