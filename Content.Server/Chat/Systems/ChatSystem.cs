@@ -351,12 +351,13 @@ public sealed partial class ChatSystem : SharedChatSystem
         {
             _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, Filter.Broadcast(), true, AudioParams.Default.WithVolume(-2f));
         }
-        RaiseLocalEvent(new AnnouncementSpokeEvent
-        {
-            Message = message,
-            Source = Filter.Broadcast(),
-            AnnouncementSound = announcementSound
-        });
+        // Esses anuncios são eventos como ánúncio do console de comunicação, eventos anunciados na radio e alertas
+        //RaiseLocalEvent(new AnnouncementSpokeEvent
+        //{
+        //    Message = message,
+        //    Source = Filter.Broadcast(),
+        //    AnnouncementSound = announcementSound
+        //});
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Global station announcement from {sender}: {message}");
     }
 
@@ -395,12 +396,13 @@ public sealed partial class ChatSystem : SharedChatSystem
         {
             _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, filter, true, AudioParams.Default.WithVolume(-2f));
         }
-        RaiseLocalEvent(new AnnouncementSpokeEvent
-        {
-            AnnouncementSound = announcementSound,
-            Message = message,
-            Source = filter
-        });
+        // Esses anuncios são eventos como "Nome da pessoa (Capitão) chegou a estação
+        //RaiseLocalEvent(new AnnouncementSpokeEvent
+        //{
+        //    AnnouncementSound = announcementSound,
+        //    Message = message,
+        //    Source = filter
+        //});
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Station Announcement on {station} from {sender}: {message}");
     }
 
