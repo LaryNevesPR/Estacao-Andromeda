@@ -194,39 +194,39 @@ public sealed partial class TTSSystem : EntitySystem
         if (soundData is null)
             return;
 
-var transformQuery = GetEntityQuery<TransformComponent>();
-var sourcePos = _xforms.GetWorldPosition(transformQuery.GetComponent(uid), transformQuery);
-var receptions = Filter.Pvs(uid).Recipients;
-foreach (var session in receptions)
-{
-    if (!session.AttachedEntity.HasValue
-        || _ignoredRecipients.Contains(session))
-        continue;
-
-    var transform = transformQuery.GetComponent(session.AttachedEntity.Value);
-    var distance = (sourcePos - _xforms.GetWorldPosition(transform, transformQuery)).Length();
-
-    if (distance > WhisperVoiceRange)
-        continue;
-
-    if (session.AttachedEntity == uid && TryComp<EyeComponent>(uid, out var eye) && eye is not null)
-    {
-        RaiseNetworkEvent(new PlayTTSEvent
+        var transformQuery = GetEntityQuery<TransformComponent>();
+        var sourcePos = _xforms.GetWorldPosition(transformQuery.GetComponent(uid), transformQuery);
+        var receptions = Filter.Pvs(uid).Recipients;
+        foreach (var session in receptions)
         {
-            Data = soundData,
-            SourceUid = GetNetEntity(eye.Target)
-        }, Filter.Empty().FromEntities(uid));
-    }
-    else
-    {
-        RaiseNetworkEvent(new PlayTTSEvent
-        {
-            Data = soundData,
-            SourceUid = GetNetEntity(uid),
-            VolumeModifier = WhisperVoiceVolumeModifier * (1f - MathF.Clamp(distance / WhisperVoiceRange, 0f, 1f))
-        }, session);
-    }
-}
+            if (!session.AttachedEntity.HasValue
+                || _ignoredRecipients.Contains(session))
+                continue;
+
+            var transform = transformQuery.GetComponent(session.AttachedEntity.Value);
+            var distance = (sourcePos - _xforms.GetWorldPosition(transform, transformQuery)).LengthSquared();
+
+            if (distance > WhisperVoiceRange)
+                continue;
+
+            if (session.AttachedEntity == uid && TryComp<EyeComponent>(uid, out var eye) && eye is not null)
+            {
+                RaiseNetworkEvent(new PlayTTSEvent
+                {
+                    Data = soundData,
+                    SourceUid = GetNetEntity(eye.Target)
+                }, Filter.Empty().FromEntities(uid));
+            }
+            else
+            {
+                RaiseNetworkEvent(new PlayTTSEvent
+                {
+                    Data = soundData,
+                    SourceUid = GetNetEntity(uid),
+                    VolumeModifier = WhisperVoiceVolumeModifier * (1f - distance / WhisperVoiceRange)
+                }, session);
+            }
+        }
     }
 
     private async void HandleRadio(EntityUid[] uIds, string message, int voice)
