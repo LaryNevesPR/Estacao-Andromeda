@@ -244,13 +244,9 @@ public sealed partial class TTSSystem : EntitySystem
         try
         {
             text = DecimalConverter().Replace(text, " point ");
-            _sawmill.Warning($"TTS System Log b: {text}");
             text = Number2Word().Replace(text, ReplaceNumber2Word);
-            _sawmill.Warning($"TTS System Log c: {text}");
             text = SymbolFilter().Replace(text, ReplaceAbbreviations);
-            _sawmill.Warning($"TTS System Log d: {text}");
             text = CharFilter().Replace(text.Trim(), "");
-            _sawmill.Warning($"TTS System Log e: {text}");
 
             if (text == "") return null;
             if (char.IsLetter(text[^1]))
