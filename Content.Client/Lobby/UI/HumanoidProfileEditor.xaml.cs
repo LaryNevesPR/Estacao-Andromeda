@@ -603,7 +603,6 @@ namespace Content.Client.Lobby.UI
 
             _voices = _prototypeManager
                 .EnumeratePrototypes<VoicePrototype>()
-                .Where(o => !o.Silicon)
                 .ToList();
 
             VoiceButton.OnItemSelected += args =>

@@ -22,14 +22,27 @@
 - type: voice
   id: espeak1
   voice: 3
-  name: eSpeak-pt+f2
+  name: eSpeak-pt
   sex: Unsexed
   silicon: true
-
 
 - type: voice
   id: espeak2
   voice: 4
   name: eSpeak-pt+f2
   sex: Unsexed
+  silicon: true
+
+- type: voice
+  id: edresson
+  voice: 5
+  name: edresson
+  sex: Male
+  silicon: true
+
+- type: voice
+  id: faber
+  voice: 6
+  name: faber
+  sex: Male
   silicon: true
