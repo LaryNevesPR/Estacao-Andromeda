@@ -1,0 +1,81 @@
+- type: entity
+  name: Mini Space Shrimp #minizinho
+  parent: MobSpaceShrimp
+  id: MiniSpaceShrimp
+  description: A mini shrimply cursed...
+  components:
+  - type: MeleeWeapon
+    soundHit:
+        path: /Audio/Effects/pop.ogg
+  - type: MovementSpeedModifier
+    baseWalkSpeed : 6
+    baseSprintSpeed : 6
+  - type: Sprite
+    sprite: DeltaV/Mobs/Animals/shrimp.rsi
+    scale: 0.6, 0.6
+    layers:
+    - map: ["enum.DamageStateVisualLayers.Base"]
+      state: shrimp
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeCircle
+          radius: 0.35
+        density: 100
+        mask:
+        - FlyingMobMask
+        layer:
+        - FlyingMobLayer
+  - type: Physics
+  - type: DamageStateVisuals
+    states:
+      Alive:
+        Base: shrimp
+      Dead:
+        Base: dead
+  - type: Butcherable
+    spawned:
+    - id: FoodMeatCrab
+      amount: 3
+  - type: Bloodstream
+    bloodMaxVolume: 100
+    bloodReagent: BbqSauce # Australia reference
+  - type: InteractionPopup
+    successChance: 0.5
+    interactSuccessString: petting-success-possum
+    interactFailureString: petting-failure-possum
+    interactSuccessSpawn: EffectHearts
+    interactSuccessSound:
+      path: /Audio/Animals/raccoon_chatter.ogg
+  - type: Speech
+    speechSounds: Slime
+  - type: Puller
+    needsHands: false
+  - type: MindContainer
+    showExamineInfo: true
+  - type: NpcFactionMember
+    factions:
+    - Passive
+  - type: Body
+    prototype: Animal
+  - type: HTN
+    rootTask:
+      task: SimpleHostileCompound
+  - type: Item
+    size: Tiny
+
+- type: entity
+  parent: MiniSpaceShrimp
+  id: PetMiniSpaceShrimp
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0

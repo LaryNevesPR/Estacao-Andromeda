@@ -897,6 +897,34 @@
       group: LoadoutPets
   functions:
     - !type:LoadoutMakeFollower
+  
+- type: loadout
+  id: LoadoutItemPetFrog
+  category: Items
+  cost: 2
+  canBeHeirloom: true
+  customColorTint: true
+  items:
+    - MobPetFrog
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPets
+  functions:
+    - !type:LoadoutMakeFollower
+
+- type: loadout
+  id: LoadoutItemPetSpaceShrimp
+  category: Items
+  cost: 2
+  canBeHeirloom: true
+  customColorTint: true
+  items:
+    - PetMiniSpaceShrimp
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPets
+  functions:
+    - !type:LoadoutMakeFollower
 
 - type: loadout
   id: LoadoutItemBlackDeck
