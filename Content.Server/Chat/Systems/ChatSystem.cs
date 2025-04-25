@@ -41,6 +41,7 @@ using Content.Server.Shuttles.Components;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Dynamics.Joints;
 using Content.Server.Andromeda.TTS;
+using Content.Shared.Andromeda.CCVar;
 
 namespace Content.Server.Chat.Systems;
 
@@ -352,12 +353,16 @@ public sealed partial class ChatSystem : SharedChatSystem
             _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, Filter.Broadcast(), true, AudioParams.Default.WithVolume(-2f));
         }
         // Esses anuncios são eventos como ánúncio do console de comunicação, eventos anunciados na radio e alertas
-        //RaiseLocalEvent(new AnnouncementSpokeEvent
-        //{
-        //    Message = message,
-        //    Source = Filter.Broadcast(),
-        //    AnnouncementSound = announcementSound
-        //});
+        if (_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceGlobalEnabled))
+        {
+            RaiseLocalEvent(new AnnouncementSpokeEvent
+            {
+                Message = message,
+                Source = Filter.Broadcast(),
+                AnnouncementSound = announcementSound
+            });
+        }
+
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Global station announcement from {sender}: {message}");
     }
 
@@ -397,12 +402,15 @@ public sealed partial class ChatSystem : SharedChatSystem
             _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, filter, true, AudioParams.Default.WithVolume(-2f));
         }
         // Esses anuncios são eventos como "Nome da pessoa (Capitão) chegou a estação
-        //RaiseLocalEvent(new AnnouncementSpokeEvent
-        //{
-        //    AnnouncementSound = announcementSound,
-        //    Message = message,
-        //    Source = filter
-        //});
+        if(_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceDispatchEnabled))
+        {
+            RaiseLocalEvent(new AnnouncementSpokeEvent
+            {
+                AnnouncementSound = announcementSound,
+                Message = message,
+                Source = filter
+            });
+        }
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Station Announcement on {station} from {sender}: {message}");
     }
 

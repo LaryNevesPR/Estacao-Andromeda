@@ -6,7 +6,7 @@ namespace Content.Shared.Andromeda.CCVar;
 public sealed partial class AndromedaCCVars
 {
     /// <summary>
-    /// URL of the TTS server API.
+    /// Liga TTS
     /// </summary>
     public static readonly CVarDef<bool> TTSEnabled =
         CVarDef.Create("tts.enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
@@ -28,6 +28,20 @@ public sealed partial class AndromedaCCVars
     /// </summary>
     public static readonly CVarDef<int> TTSApiTimeout =
         CVarDef.Create("tts.api_timeout", 5, CVar.SERVERONLY | CVar.ARCHIVE);
+
+
+    /// <summary>
+    /// Esses anuncios são eventos como ánúncio do console de comunicação, eventos anunciados na radio e alertas
+    /// </summary>
+    public static readonly CVarDef<bool> TTsAnnounceGlobalEnabled =
+        CVarDef.Create("tts.announce_global_enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+
+
+    /// <summary>
+    /// Esses anuncios são eventos como "Nome da pessoa (Capitão) chegou a estação
+    /// </summary>
+    public static readonly CVarDef<bool> TTsAnnounceDispatchEnabled =
+        CVarDef.Create("tts.announce_dispatch_enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
     /// <summary>
     /// Option to disable TTS events for client

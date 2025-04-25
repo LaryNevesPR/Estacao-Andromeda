@@ -122,7 +122,7 @@
                                 <OptionButton Name="SpawnPriorityButton" HorizontalAlignment="Right" />
                             </BoxContainer>
                             <!-- Voice -->
-                            <BoxContainer HorizontalExpand="True">
+                            <BoxContainer HorizontalExpand="True" Visible="False">
                                 <Label Text="{Loc 'humanoid-profile-editor-voice-label'}" />
                                 <Control HorizontalExpand="True"/>
                                 <OptionButton Name="VoiceButton" HorizontalAlignment="Left" />
