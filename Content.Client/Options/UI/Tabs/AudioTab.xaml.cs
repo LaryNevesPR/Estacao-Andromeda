@@ -32,6 +32,7 @@ namespace Content.Client.Options.UI.Tabs
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
             RadioChatterCheckbox.Pressed = _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             TtsClientCheckBox.Pressed = _cfg.GetCVar(AndromedaCCVars.TTSClientEnabled);
+            TtsRadioQueueCheckBox.Pressed = _cfg.GetCVar(AndromedaCCVars.TTSRadioQueueEnabled);
 
             RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-very-low"));
             RadioCooldown.AddItem(Loc.GetString("ui-options-lighting-low"));
@@ -62,7 +63,8 @@ namespace Content.Client.Options.UI.Tabs
                 AnnouncerDisableMultipleSoundsCheckBox,
                 AdminSoundsCheckBox,
                 RadioChatterCheckbox,
-                TtsClientCheckBox
+                TtsClientCheckBox,
+                TtsRadioQueueCheckBox
             );
 
             AmbienceSoundsSlider.MinValue = _cfg.GetCVar(CCVars.MinMaxAmbientSourcesConfigured);
@@ -113,7 +115,8 @@ namespace Content.Client.Options.UI.Tabs
                 AnnouncerDisableMultipleSoundsCheckBox,
                 AdminSoundsCheckBox,
                 RadioChatterCheckbox,
-                TtsClientCheckBox
+                TtsClientCheckBox,
+                TtsRadioQueueCheckBox
             );
 
             base.Dispose(disposing);
@@ -164,6 +167,7 @@ namespace Content.Client.Options.UI.Tabs
             _cfg.SetCVar(CCVars.RadioSoundsEnabled, RadioChatterCheckbox.Pressed);
             _cfg.SetCVar(CCVars.RadioSoundsEnabled, RadioChatterCheckbox.Pressed);
             _cfg.SetCVar(AndromedaCCVars.TTSClientEnabled, TtsClientCheckBox.Pressed);
+            _cfg.SetCVar(AndromedaCCVars.TTSRadioQueueEnabled, TtsRadioQueueCheckBox.Pressed);
 
             var value = RadioCooldown.SelectedId;
             SetConfigRadioSpam(value);
@@ -198,6 +202,7 @@ namespace Content.Client.Options.UI.Tabs
             AnnouncerDisableMultipleSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AnnouncerDisableMultipleSounds);
             AdminSoundsCheckBox.Pressed = _cfg.GetCVar(CCVars.AdminSoundsEnabled);
             TtsClientCheckBox.Pressed = _cfg.GetCVar(AndromedaCCVars.TTSClientEnabled);
+            TtsRadioQueueCheckBox.Pressed = _cfg.GetCVar(AndromedaCCVars.TTSRadioQueueEnabled);
             UpdateChanges();
         }
 
@@ -236,13 +241,15 @@ namespace Content.Client.Options.UI.Tabs
             var isAdminSoundsSame = AdminSoundsCheckBox.Pressed == _cfg.GetCVar(CCVars.AdminSoundsEnabled);
             var isRadioSoundsSame = RadioChatterCheckbox.Pressed == _cfg.GetCVar(CCVars.RadioSoundsEnabled);
             var isTtsEnabledSame = TtsClientCheckBox.Pressed == _cfg.GetCVar(AndromedaCCVars.TTSClientEnabled);
+            var isTtsQueueSame = TtsRadioQueueCheckBox.Pressed == _cfg.GetCVar(AndromedaCCVars.TTSRadioQueueEnabled);
 
             var isRadioSpamSame = RadioCooldown.SelectedId == GetConfigRadioSpam();
             var isEverythingSame = isMasterVolumeSame && isMidiVolumeSame && isAmbientVolumeSame
                 && isAmbientMusicVolumeSame && isAmbientSoundsSame && isLobbySame && isRestartSoundsSame && isEventSame
                 && isAnnouncerDisableMultipleSoundsSame && isAdminSoundsSame && isLobbyVolumeSame
                 && isInterfaceVolumeSame && isAnnouncerVolumeSame
-                && isRadioVolumeSame && isRadioSoundsSame && isRadioSpamSame && isTtsVolumeSame && isTtsRadioSame && isTtsAnnounceSame && isTtsEnabledSame;
+                && isRadioVolumeSame && isRadioSoundsSame && isRadioSpamSame
+                && isTtsVolumeSame && isTtsRadioSame && isTtsAnnounceSame && isTtsEnabledSame && isTtsQueueSame;
             ApplyButton.Disabled = isEverythingSame;
             ResetButton.Disabled = isEverythingSame;
             MasterVolumeLabel.Text =

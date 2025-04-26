@@ -90,6 +90,12 @@
                     <Control MinSize="8 0" />
                     <CheckBox Name="TtsClientCheckBox" Text="{Loc 'ui-options-tts-enabled'}" />
                 </BoxContainer>
+                
+                <BoxContainer Orientation="Horizontal" Margin="5 0 0 0">
+                    <Label Text="{Loc 'ui-options-tts-radio-queue-enabled'}" StyleClasses="LabelKeyText" />
+                    <Control MinSize="8 0" />
+                    <CheckBox Name="TtsRadioQueueCheckBox"/>
+                </BoxContainer>
 
                 <BoxContainer Orientation="Horizontal" Margin="5 0 0 0">
                     <Label Text="{Loc 'ui-options-tts-volume'}" HorizontalExpand="True" />
