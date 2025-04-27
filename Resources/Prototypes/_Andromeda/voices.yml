@@ -38,11 +38,18 @@
   voice: 5
   name: edresson
   sex: Male
-  silicon: true
+  silicon: false
 
 - type: voice
   id: faber
   voice: 6
   name: faber
   sex: Male
+  silicon: false
+
+- type: voice
+  id: glados
+  voice: 7
+  name: glados
+  sex: Female
   silicon: true
