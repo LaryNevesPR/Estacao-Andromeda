@@ -2260,6 +2260,8 @@
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: frog
       sprite: Mobs/Animals/frog.rsi
+  - type: Item #pegar
+    size: Tiny #sapin
   - type: SpriteMovement
     movementLayers:
       movement:
