@@ -1466,6 +1466,9 @@
     size: Normal
     sprite: Objects/Fun/toys.rsi
     heldPrefix: bask
+  - type: MultiHandedItem
+  - type: DisarmMalus
+    malus: -0.3
   - type: TileFrictionModifier
     modifier: 0.5
 
