@@ -1981,7 +1981,7 @@ namespace Content.Client.Lobby.UI
             if (_imaging)
                 return;
 
-            var dir = SpriteView.OverrideDirection ?? Direction.South;
+            var dir = Direction.South;
 
             // I tried disabling the button but it looks sorta goofy as it only takes a frame or two to save
             _imaging = true;
