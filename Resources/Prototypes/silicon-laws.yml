@@ -786,3 +786,11 @@
     Druid: 1
     #Potentially Harmful Lawsets
     Tyrant: 0.25
+    Quarantine: 0.5
+    CCTV: 0.5
+    NTAgressive: 0.5  
+    #Harmful Lawsets
+    Quarantine: 0.5
+    CCTV: 0.5
+    PlasmaFlood: 0.5
+    SyndicateStatic: 0.5

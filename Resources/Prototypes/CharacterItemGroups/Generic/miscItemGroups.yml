@@ -124,6 +124,10 @@
       id: LoadoutItemPetCockroach
     - type: loadout
       id: LoadoutItemPetGoldfish
+    - type: loadout
+      id: LoadoutItemPetFrog
+    - type: loadout
+      id: LoadoutItemPetSpaceShrimp
 
 - type: characterItemGroup
   id: LoadoutCards

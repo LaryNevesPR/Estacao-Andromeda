@@ -67,11 +67,39 @@ namespace Content.Client.Canvas.Ui
             IoCManager.InjectDependencies(this);
 
             _spriteSystem = _entManager.System<SpriteSystem>();
-            Search.OnTextChanged += SearchChanged;
             //ColorSelector.OnColorChanged += SelectColor;
             ImportButton.OnPressed += _ =>
             {
-                string inputCode = Search.Text.Trim();
+                string inputCode = PaintCodeInput.Text.Trim();
+
+                // Check if the input starts with dimensions like 32x32;
+                if (inputCode.Contains(";"))
+                {
+                    int semicolonIndex = inputCode.IndexOf(';');
+                    string possibleSize = inputCode.Substring(0, semicolonIndex);
+
+                    if (possibleSize.Contains("x"))
+                    {
+                        string[] dimensions = possibleSize.Split('x');
+                        if (dimensions.Length == 2 &&
+                            int.TryParse(dimensions[0], out int width) &&
+                            int.TryParse(dimensions[1], out int height))
+                        {
+                            SetWidth((int) width);
+                            WidthSize.Value = width;
+                            WidthSizeLabel.Text = width.ToString();
+                            OnResizeWidth?.Invoke(width);
+
+                            SetHeight((int) height);
+                            HeightSize.Value = height;
+                            HeightSizeLabel.Text = height.ToString();
+                            OnResizeHeight?.Invoke(height);
+
+                            // Remove the size prefix including the semicolon
+                            inputCode = inputCode.Substring(semicolonIndex + 1);
+                        }
+                    }
+                }
 
                 // Ensure the input code is not empty
                 if (!string.IsNullOrEmpty(inputCode))
@@ -92,13 +120,14 @@ namespace Content.Client.Canvas.Ui
                 else
                 {
                     // Optionally, show an error message
-                    Search.Text = "Invalid Code";
+                    PaintCodeInput.Text = "Invalid Code";
                 }
             };
 
+
             ExportButton.OnPressed += _ =>
             {
-                Search.Text = _paintingCode;
+                PaintCodeInput.Text = _paintingCode;
                 FixPaintingCode();
                 PopulatePaintingGrid();
             };
@@ -145,19 +174,9 @@ namespace Content.Client.Canvas.Ui
                 _signature = ArtistSignature.Text;
                 OnSignature?.Invoke(_signature);
             };
+            ColorSelector.OnColorChanged += HandleColorSelected;
             //FixPaintingCode();
             //PopulatePaintingGrid();
-        }
-
-        private void SelectColor(Color color)
-        {
-            _color = color;
-
-            OnColorSelected?.Invoke(color);
-        }
-
-        private void SearchChanged(LineEdit.LineEditEventArgs obj)
-        {
         }
 
         public void UpdateState(BoundUserInterfaceState state)
@@ -188,7 +207,7 @@ namespace Content.Client.Canvas.Ui
         public void PopulateColorSelector(List<Color> colors)
         {
             // Clear existing children in ColorSelector
-            ColorSelector.RemoveAllChildren();
+            ColorSelectorBox.RemoveAllChildren();
 
             // Create a new BoxContainer for each set of 10 colors
             BoxContainer? colorGroup = null;
@@ -197,12 +216,12 @@ namespace Content.Client.Canvas.Ui
             foreach (var color in colors)
             {
                 // Create a new BoxContainer every 10 colors
-                if (colorCount % 16 == 0)
+                if (colorCount % 6 == 0)
                 {
                     // If colorGroup already exists, add it to the ColorSelector before starting a new one
                     if (colorGroup != null)
                     {
-                        ColorSelector.AddChild(colorGroup);
+                        ColorSelectorBox.AddChild(colorGroup);
                     }
 
                     // Create a new BoxContainer for the next 10 colors
@@ -233,7 +252,7 @@ namespace Content.Client.Canvas.Ui
             // Add the last group if it contains any colors
             if (colorGroup != null && colorGroup.ChildCount > 0)
             {
-                ColorSelector.AddChild(colorGroup);
+                ColorSelectorBox.AddChild(colorGroup);
             }
 
             // Add a button specifically for transparency
@@ -285,6 +304,12 @@ namespace Content.Client.Canvas.Ui
                 ResolutionContainer.Visible = false;
                 HeaderColorPreview.Visible = false;
                 HeaderTools.Visible = false;
+            }
+            else
+            {
+                ResolutionContainer.Visible = true;
+                HeaderColorPreview.Visible = true;
+                HeaderTools.Visible = true;
             }
 
             int index = 0; // Index to track the position in the painting code
