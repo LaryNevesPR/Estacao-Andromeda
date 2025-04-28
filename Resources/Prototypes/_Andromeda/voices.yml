@@ -119,3 +119,10 @@
   silicon: false
   voice: 14
 
+- type: voice
+  id: aecho-leticia
+  name: aecho+Letícia
+  nameId: Letícia com echo
+  sex: Female
+  silicon: false
+  voice: 15
