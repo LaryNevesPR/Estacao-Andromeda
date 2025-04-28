@@ -678,8 +678,8 @@
     sprite: Objects/Fun/ducky.rsi
     state: icon
   - type: MeleeWeapon
-    attackRate: .6666
-    range: 1.5
+    attackRate: .6
+    range: 1.6
     damage:
       types:
         Blunt: 0.1
@@ -1466,6 +1466,9 @@
     size: Normal
     sprite: Objects/Fun/toys.rsi
     heldPrefix: bask
+  - type: MultiHandedItem
+  - type: DisarmMalus
+    malus: -0.3
   - type: TileFrictionModifier
     modifier: 0.5
 

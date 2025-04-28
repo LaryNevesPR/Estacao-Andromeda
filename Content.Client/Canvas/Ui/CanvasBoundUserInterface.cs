@@ -80,7 +80,6 @@ namespace Content.Client.Canvas.Ui
                 new Color(0.0f, 0.25f, 0.25f), // Darker Dark Cyan (lowercase)
                 new Color(0.4f, 0.2f, 0.6f),   // Deep Purple
                 new Color(0.2f, 0.1f, 0.3f),   // Darker Deep Purple (lowercase)
-                Color.Black, // Darker Black (lowercase)
                 Color.Black, // Black
                 new Color(0.76f, 0.29f, 0.56f), // New Color 1 (Pinkish)
                 new Color(0.38f, 0.15f, 0.28f), // Darker New Color 1 (lowercase)

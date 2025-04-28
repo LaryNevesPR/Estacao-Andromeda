@@ -252,6 +252,10 @@
   - type: SurgeryTarget
   - type: MovedByPressure
     cutoffTime: 1.0
+  - type: Paws
+    screamInterval: 3
+    thresholdDamage: 5
+    coughInterval: 5
 
 - type: entity
   save: false

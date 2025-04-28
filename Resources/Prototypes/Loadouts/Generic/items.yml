@@ -899,6 +899,35 @@
     - !type:LoadoutMakeFollower
 
 - type: loadout
+  id: LoadoutItemPetFrog
+  category: Items
+  cost: 2
+  canBeHeirloom: true
+  customColorTint: true
+  items:
+    - MobPetFrog
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutPets
+  functions:
+    - !type:LoadoutMakeFollower
+
+#- type: loadout
+#  id: LoadoutItemPetSpaceShrimp  #Até descobrirmos como deixa em whitelistlist
+#  category: Items
+#  cost: 2
+#  canBeHeirloom: true
+#  customColorTint: true
+#  whitelisted: true
+#  items:
+#    - PetMiniSpaceShrimp
+#  requirements:
+#    - !type:CharacterItemGroupRequirement
+#      group: LoadoutPets
+#  functions:
+#    - !type:LoadoutMakeFollower
+
+- type: loadout
   id: LoadoutItemBlackDeck
   category: Items
   cost: 3

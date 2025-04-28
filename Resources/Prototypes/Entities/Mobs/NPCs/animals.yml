@@ -2260,6 +2260,8 @@
     - map: ["enum.DamageStateVisualLayers.Base", "movement"]
       state: frog
       sprite: Mobs/Animals/frog.rsi
+  - type: Item #pegar
+    size: Tiny #sapin
   - type: SpriteMovement
     movementLayers:
       movement:
@@ -2304,6 +2306,21 @@
     - VimPilot
   - type: RandomBark
     barkMultiplier: 1.3
+
+- type: entity
+  parent: MobFrog
+  id: MobPetFrog
+  components:
+  - type: HTN
+    rootTask:
+      task: FollowCompound
+    blackboard:
+      IdleRange: !type:Single
+        1.5
+      FollowCloseRange: !type:Single
+        1.0
+      FollowRange: !type:Single
+        2.0
 
 # Would be cool to have some functionality for the parrot to be able to sit on stuff
 - type: entity
