@@ -437,6 +437,7 @@ public abstract class SharedHumanoidAppearanceSystem : EntitySystem
         }
 
         EnsureDefaultMarkings(uid, humanoid);
+        SetTTSVoice(uid, profile.Voice, humanoid);
 
         humanoid.Gender = profile.Gender;
         if (TryComp<GrammarComponent>(uid, out var grammar))
