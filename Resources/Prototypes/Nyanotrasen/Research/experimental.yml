@@ -1,10 +1,8 @@
-# Tier 2
-
 - type: technology
   id: PsionicCountermeasures
   name: research-technology-psionic-countermeasures
   icon:
-    sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi # DeltaV - Change the icon to the insulative skullcap
+    sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
     state: icon
   discipline: Experimental
   tier: 2
@@ -15,17 +13,4 @@
   - CartridgeSpecialHoly
   - CartridgeSpecialMindbreaker
   - ShellSoulbreaker
-
-# Tier 3
-
-# - type: technology
-#   id: Teleportation
-#   name: research-technology-teleportation
-#   icon:
-#     sprite: Nyanotrasen/Objects/Devices/QSI.rsi
-#     state: icon
-#   discipline: Experimental
-#   tier: 3
-#   cost: 15000
-#   recipeUnlocks:
-#   - CoreSilver
+  position: -3,1

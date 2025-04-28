@@ -1,3 +1,5 @@
+using Content.Shared._Goobstation.Research;
+using Content.Shared.Research;
 using Robust.Shared.Serialization;
 
 namespace Content.Shared.Research.Components
@@ -30,10 +32,14 @@ namespace Content.Shared.Research.Components
     {
         public int Points;
         public float SoftCapMultiplier;
-        public ResearchConsoleBoundInterfaceState(int points, float softCapMultiplier)
+        /// <summary>
+        /// Goobstation field - all researches and their availablities
+        /// </summary>
+        public Dictionary<string, ResearchAvailability> Researches;
+        public ResearchConsoleBoundInterfaceState(int points, Dictionary<string, ResearchAvailability> researches)   // Goobstation R&D console rework = researches field
         {
             Points = points;
-            SoftCapMultiplier = softCapMultiplier;
+            Researches = researches;    // Goobstation R&D console rework
         }
     }
 }

@@ -13,8 +13,7 @@
   - AnomalyLocatorWide
   - APECircuitboard
   - AnomalyVesselCircuitboard
-  position: 5,-2
-
+  position: -1,0
 - type: technology
   id: BasicXenoArcheology
   name: research-technology-basic-xenoarcheology
@@ -30,8 +29,7 @@
   - ArtifactAnalyzerMachineCircuitboard
   - TechDiskComputerCircuitboard
   - ReverseEngineeringMachineCircuitboard
-  position: 6,-3
-
+  position: -1,0
 - type: technology
   id: AnomalyCoreHarnessing
   name: research-technology-anomaly-harnessing
@@ -43,8 +41,7 @@
   cost: 10000
   recipeUnlocks:
   - WeaponGauntletGorilla
-  position: 4,-3
-
+  position: -1,0
 - type: technology
   id: AdvancedParts
   name: research-technology-advanced-parts
@@ -59,8 +56,7 @@
   - AdvancedMatterBinStockPart
   - NanoManipulatorStockPart
   - RPED
-  position: 4,-4
-
+  position: -1,0
 - type: technology
   id: AdvancedAnomalyResearch
   name: research-technology-advanced-anomaly-research
@@ -77,8 +73,7 @@
   - ArtifactCrusherMachineCircuitboard
   technologyPrerequisites:
   - BasicAnomalousResearch
-  position: 5,-3
-
+  position: -1,0
 - type: technology
   id: DeterrenceTechnologies
   name: research-technology-deterrence
@@ -91,8 +86,7 @@
   recipeUnlocks:
   - WeaponParticleDecelerator
   - HoloprojectorField
-  position: 6,-2
-
+  position: -1,0
 - type: technology
   id: NightVisionTech
   name: research-technology-night-vision
@@ -107,10 +101,7 @@
   - ClothingEyesNightVisionSecurityGoggles
   - ClothingEyesNightVisionMedicalGoggles
   - ClothingEyesNightVisionDiagnosticGoggles
-  position: 5,-4
-  technologyPrerequisites:
-  - AdvancedParts
-
+  position: -1,0
 - type: technology
   id: ThermalVisionTech
   name: research-technology-thermal-vision
@@ -122,10 +113,7 @@
   cost: 10000
   recipeUnlocks:
   - ClothingEyesThermalVisionGoggles
-  position: 3,-4
-  technologyPrerequisites:
-  - AdvancedParts
-
+  position: -1,0
 - type: technology
   id: SuperParts
   name: research-technology-super-parts
@@ -140,10 +128,7 @@
   - SuperMatterBinStockPart
   - PicoManipulatorStockPart
   softCapContribution: 1.2
-  position: 4,-5
-  technologyPrerequisites:
-  - AdvancedParts
-
+  position: -1,0
 - type: technology
   id: GravityManipulation
   name: research-technology-gravity-manipulation
@@ -157,10 +142,7 @@
   - WeaponForceGun
   - WeaponTetherGun
   softCapContribution: 1.5
-  position: 5,-5
-  technologyPrerequisites:
-  - SuperParts
-
+  position: -1,0
 - type: technology
   id: QuantumLeaping
   name: research-technology-quantum-leaping
@@ -173,6 +155,40 @@
   recipeUnlocks:
   - DeviceQuantumSpinInverter
   softCapContribution: 1.5
-  position: 3,-5
+  position: -1,0
+- type: technology
+  id: PsionicCountermeasures
+  name: research-technology-psionic-countermeasures
+  icon:
+    sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+  - ClothingHeadHelmetInsulated
+  - ClothingHeadCage
+  - CartridgeSpecialHoly
+  - CartridgeSpecialMindbreaker
+  - ShellSoulbreaker
+  position: -1,0
+- type: technology
+  id: ModsuitsTech
+  name: research-technology-modsuits
+  icon:
+    sprite: _Goobstation/Objects/Specific/Robotics/modsuit_parts.rsi
+    state: mod-core-standard
+  discipline: Experimental
+  tier: 3
+  cost: 5000
   technologyPrerequisites:
-  - SuperParts
+  - AdvancedTacsuits
+  softCapContribution: 1.5
+  recipeUnlocks:
+  - ModsuitChestplate
+  - ModsuitBoots
+  - ModsuitHelmet
+  - ModsuitGauntlets
+  - ModsuitShell
+  - ModsuitPlatingExternal
+  position: -1,0

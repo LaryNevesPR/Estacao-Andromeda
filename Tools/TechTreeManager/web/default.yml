@@ -1,0 +1,1095 @@
+- type: technology
+  id: BasicWeapons
+  name: research-technology-basic-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_gun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+    - WeaponProtoKineticAccelerator
+    - ShuttleGunKineticCircuitboard
+    - WeaponLaserCarbine
+    - WeaponMechCombatFiredartLaser
+    - WeaponEnergyGun
+    - WeaponEnergyGunMini
+    - WeaponLaserSvalinn
+    - WeaponEnergyGunPistol
+    - WeaponDisablerSMG
+    - Truncheon
+    - WeaponDisabler
+    - WeaponCivilianDisabler
+    - WeaponMechCombatDisabler
+    - MechEquipmentKineticAccelerator
+    - WeaponPistolMk58
+  position: 2,0
+  _x: 1200
+  _y: 500
+- type: technology
+  id: DraconicMunitions
+  name: research-technology-draconic-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Boxes/pistol.rsi
+    state: incendiarydisplay
+  discipline: Arsenal
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+    - BoxShotgunIncendiary
+    - MagazineRifleIncendiary
+    - MagazinePistolIncendiary
+    - MagazinePistolSubMachineGunIncendiary
+    - MagazineMagnumIncendiary
+    - MagazineLightRifleIncendiary
+    - MagazineCaselessRifleIncendiary
+    - SpeedLoaderMagnumIncendiary
+    - SpeedLoaderRifleHeavyIncendiary
+    - MagazineShotgunIncendiary
+    - MagazineBoxPistolIncendiary
+    - MagazineBoxMagnumIncendiary
+    - MagazineBoxLightRifleIncendiary
+    - MagazineBoxRifleIncendiary
+    - MagazineBoxCaselessRifleIncendiary
+    - CartridgeSpecialIncendiary
+    - MagazineBoxSpecialIncendiary
+    - MagazineUniversalMagnumIncendiary
+  position: 3,-1
+  technologyPrerequisites:
+    - BasicWeapons
+  _x: 1300
+  _y: 400
+- type: technology
+  id: UraniumMunitions
+  name: research-technology-uranium-munitions
+  icon:
+    sprite: Objects/Materials/Sheets/other.rsi
+    state: uranium
+  discipline: Arsenal
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - MagazineRifleUranium
+    - MagazinePistolUranium
+    - MagazinePistolSubMachineGunUranium
+    - MagazineMagnumUranium
+    - MagazineLightRifleUranium
+    - MagazineCaselessRifleUranium
+    - SpeedLoaderMagnumUranium
+    - SpeedLoaderRifleHeavyUranium
+    - MagazineBoxPistolUranium
+    - MagazineBoxMagnumUranium
+    - MagazineBoxLightRifleUranium
+    - MagazineBoxRifleUranium
+    - MagazineBoxCaselessRifleUranium
+    - BoxShotgunUranium
+    - CartridgeSpecialUranium
+    - MagazineBoxSpecialUranium
+    - MagazineUniversalMagnumUranium
+  position: 4,0
+  technologyPrerequisites:
+    - BasicWeapons
+  _x: 1400
+  _y: 500
+- type: technology
+  id: AdvancedTacsuits
+  name: research-technology-advanced-tacsuits
+  icon:
+    sprite: DeltaV/Clothing/OuterClothing/Hardsuits/Combat/standard.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+    - ClothingOuterHardsuitCombatStandard
+    - ClothingOuterHardsuitCombatMedical
+    - ClothingOuterHardsuitCombatRiot
+  position: 4,1
+  technologyPrerequisites:
+    - UraniumMunitions
+  _x: 1400
+  _y: 600
+- type: technology
+  id: ExplosiveTechnology
+  name: research-technology-explosive-technology
+  icon:
+    sprite: Objects/Devices/payload.rsi
+    state: payload-explosive-armed
+  discipline: Arsenal
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - SignallerAdvanced
+    - SignalTrigger
+    - VoiceTrigger
+    - TimerTrigger
+    - FlashPayload
+    - ExplosivePayload
+    - ChemicalPayload
+  position: 4,3
+  technologyPrerequisites:
+    - AdvancedTacsuits
+  _x: 1400
+  _y: 800
+- type: technology
+  id: ShrapnelMunitions
+  name: research-technology-shrapnel-munitions
+  icon:
+    sprite: Objects/Weapons/Guns/Ammunition/Casings/shotgun_shell.rsi
+    state: base
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - MagazineRifleShrapnel
+    - MagazinePistolShrapnel
+    - MagazinePistolSubMachineGunShrapnel
+    - MagazineMagnumShrapnel
+    - MagazineLightRifleShrapnel
+    - MagazineCaselessRifleShrapnel
+    - MagazineBoxPistolShrapnel
+    - MagazineBoxMagnumShrapnel
+    - MagazineBoxLightRifleShrapnel
+    - MagazineBoxRifleShrapnel
+    - MagazineBoxCaselessRifleShrapnel
+    - MagazineUniversalMagnumShrapnel
+  position: 4,2
+  technologyPrerequisites:
+    - AdvancedTacsuits
+  _x: 1400
+  _y: 700
+- type: technology
+  id: AdvancedWeapons
+  name: research-technology-advanced-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/laser_cannon.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+    - PowerCageRechargerCircuitboard
+    - PowerCageSmall
+    - PowerCageMedium
+    - MagazineGrenadeEmpty
+    - GrenadeFlash
+    - GrenadeBlast
+    - ShuttleGunSvalinnMachineGunCircuitboard
+    - ShuttleGunPerforatorCircuitboard
+    - ShuttleGunFriendshipCircuitboard
+    - WeaponXrayCannon
+    - WeaponGunLaserCarbineAutomatic
+    - WeaponLaserCannon
+    - WeaponMechCombatSolarisLaser
+    - WeaponSubMachineGunFPA90
+    - WeaponPistolN1984
+    - WeaponPistolViper
+    - WeaponPistolCobra
+    - Terminus
+    - WeaponPistolUniversal
+  technologyPrerequisites:
+    - BasicWeapons
+  position: 2,1
+  _x: 1200
+  _y: 600
+- type: technology
+  id: PrototypeTacsuits
+  name: research-technology-prototype-tacsuits
+  icon:
+    sprite: Nyanotrasen/Clothing/OuterClothing/ReverseEngineering/syndicate.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 25000
+  recipeUnlocks:
+    - ClothingOuterHardsuitCombatAdvanced
+    - ClothingOuterHardsuitShanlinUnpainted
+    - ClothingOuterHardsuitShiweiUnpainted
+    - ClothingOuterHardsuitJuggernautReverseEngineered
+  technologyPrerequisites:
+    - AdvancedTacsuits
+  softCapContribution: 1.5
+  position: 5,2
+  _x: 1500
+  _y: 700
+- type: technology
+  id: LaserTurrets
+  name: research-technology-laser-sentry-turrets
+  icon:
+    sprite: Objects/Weapons/Guns/Turrets/sentry_turret.rsi
+    state: base
+  discipline: Arsenal
+  tier: 3
+  cost: 20000
+  recipeUnlocks:
+    - WeaponEnergyTurretAIMachineCircuitboard
+    - WeaponEnergyTurretStationMachineCircuitboard
+    - WeaponEnergyTurretAIControlPanelElectronics
+    - WeaponEnergyTurretStationControlPanelElectronics
+  technologyPrerequisites:
+    - AdvancedWeapons
+  softCapContribution: 1.5
+  position: 2,2
+  _x: 1200
+  _y: 700
+- type: technology
+  id: PrototypeWeapons
+  name: research-technology-prototype-weapons
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/advancedlasergun.rsi
+    state: icon
+  discipline: Arsenal
+  tier: 3
+  cost: 20000
+  recipeUnlocks:
+    - WeaponAdvancedLaser
+    - PortableRecharger
+    - GrenadeEMP
+    - PowerCageHigh
+    - ShuttleGunDusterCircuitboard
+    - WeaponMechCombatImmolationGun
+    - EnergySword
+    - EnergySwordDouble
+    - EnergyCutlass
+    - WeaponSubMachineGunBRDIR25
+  softCapContribution: 1.5
+  position: 5,3
+  _x: 1500
+  _y: 800
+- type: technology
+  id: Gygax
+  name: research-technology-gygax
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: gygax
+  discipline: Arsenal
+  tier: 2
+  cost: 12000
+  recipeUnlocks:
+    - GygaxHarness
+    - GygaxArmor
+    - GygaxHead
+    - GygaxLArm
+    - GygaxLLeg
+    - GygaxRArm
+    - GygaxRLeg
+    - GygaxCentralElectronics
+    - GygaxPeripheralsElectronics
+    - GygaxTargetingElectronics
+    - WeaponMechCombatUltraRifle
+  technologyPrerequisites:
+    - Ripley2
+  position: 3,4
+  _x: 1300
+  _y: 900
+- type: technology
+  id: ExplosiveMechAmmunition
+  name: research-technology-explosive-mech-ammunition
+  icon:
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: mecha_missilerack
+  discipline: Arsenal
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+    - WeaponMechCombatMissileRack8
+  technologyPrerequisites:
+    - ExplosiveTechnology
+  position: 4,4
+  _x: 1400
+  _y: 900
+- type: technology
+  id: Durand
+  name: research-technology-durand
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: durand
+  discipline: Arsenal
+  tier: 3
+  cost: 16000
+  recipeUnlocks:
+    - DurandHarness
+    - DurandArmor
+    - DurandHead
+    - DurandLArm
+    - DurandLLeg
+    - DurandRArm
+    - DurandRLeg
+    - DurandCentralElectronics
+    - DurandPeripheralsElectronics
+    - DurandTargetingElectronics
+    - WeaponMechCombatShotgun
+    - WeaponMechCombatShotgunIncendiary
+  technologyPrerequisites:
+    - Gygax
+  position: 3,3
+  _x: 1300
+  _y: 800
+- type: technology
+  id: KineticModifications
+  name: research-technology-kinetic-modifications
+  icon:
+    sprite: _Lavaland/Objects/Weapons/upgrade.rsi
+    state: display
+  discipline: Arsenal
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - PKAUpgradeDamage
+    - PKAUpgradeRange
+    - PKAUpgradeFireRate
+  position: 3,1
+  _x: 1300
+  _y: 600
+- type: technology
+  id: BasicCybernetics
+  name: research-technology-basic-cybernetics
+  icon:
+    sprite: Mobs/Silicon/chassis.rsi
+    state: robot
+  discipline: CivilianServices
+  tier: 1
+  cost: 15000
+  recipeUnlocks:
+    - BorgModuleLightReplacer
+    - BorgModuleAdvancedCleaning
+    - BorgModuleGardening
+    - BorgModuleHarvesting
+    - BorgModuleMusique
+    - BorgModuleClowning
+    - HamtrHarness
+    - HamtrLArm
+    - HamtrRArm
+    - HamtrLLeg
+    - HamtrRLeg
+    - HamtrCentralElectronics
+    - HamtrPeripheralsElectronics
+    - MechEquipmentGrabberSmall
+    - VimHarness
+    - ProximitySensor
+    - ExosuitFabricatorMachineCircuitboard
+    - BorgModuleArtifact
+    - BorgModuleAnomaly
+    - DroneElectronics
+  position: '-1,-2'
+  _x: 900
+  _y: 300
+- type: technology
+  id: BasicElectronics
+  name: research-technology-basic-electronics
+  icon:
+    sprite: Structures/Machines/computers.rsi
+    state: television
+  discipline: CivilianServices
+  tier: 1
+  cost: 12500
+  recipeUnlocks:
+    - SurveillanceCameraRouterCircuitboard
+    - SurveillanceCameraWirelessRouterCircuitboard
+    - SurveillanceWirelessCameraMovableCircuitboard
+    - SurveillanceWirelessCameraAnchoredCircuitboard
+    - SurveillanceCameraMonitorCircuitboard
+    - SurveillanceWirelessCameraMonitorCircuitboard
+    - TelecomServerCircuitboard
+    - ComputerTelevisionCircuitboard
+    - SynthesizerInstrument
+    - DawInstrumentMachineCircuitboard
+    - MassMediaCircuitboard
+    - JukeboxCircuitBoard
+    - FatExtractorMachineCircuitboard
+    - BiofabricatorMachineCircuitboard
+    - BiomassReclaimerMachineCircuitboard
+  position: 0,-2
+  _x: 1000
+  _y: 300
+- type: technology
+  id: BasicLifeImprovements
+  name: research-technology-basic-life-improvements
+  icon:
+    sprite: Structures/Machines/stasis_bed.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+    - CryostasisBeaker
+    - SyringeCryostasis
+    - AdvMopItem
+    - MegaSprayBottle
+    - WeaponSprayNozzle
+    - ClothingBackpackWaterTank
+    - CargoTelepadMachineCircuitboard
+    - ClothingShoesBootsMag
+    - ClothingShoesBootsMoon
+    - CloningConsoleComputerCircuitboard
+    - MedicalScannerMachineCircuitboard
+    - MetempsychoticMachineCircuitboard
+    - EnvirosuitExtinguisherRefill
+  position: '-2,-3'
+  _x: 800
+  _y: 200
+- type: technology
+  id: HONKMech
+  name: research-technology-honk-mech
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: honker
+  discipline: CivilianServices
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - HonkerHarness
+    - HonkerLArm
+    - HonkerRArm
+    - HonkerLLeg
+    - HonkerRLeg
+    - HonkerCentralElectronics
+    - HonkerPeripheralsElectronics
+    - HonkerTargetingElectronics
+    - MechEquipmentHorn
+  position: '-4,-5'
+  _x: 600
+  _y: 0
+- type: technology
+  id: AdvancedLifeImprovements
+  name: research-technology-advanced-life-improvements
+  icon:
+    sprite: Clothing/Shoes/Boots/speedboots.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+    - ClothingShoesBootsMagAdv
+    - ClothingShoesBootsSpeed
+    - BluespaceBeaker
+    - SyringeBluespace
+  softCapContribution: 1.5
+  position: 0,-5
+  _x: 1000
+  _y: 0
+- type: technology
+  id: AdvancedTranslation
+  name: research-technology-advanced-translation
+  icon:
+    sprite: Objects/Devices/translator.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+    - XenoTranslator
+    - AdvancedGalaticCommonTranslatorImplanter
+    - BubblishTranslatorImplanter
+    - NekomimeticTranslatorImplanter
+    - DraconicTranslatorImplanter
+    - CanilunztTranslatorImplanter
+    - SolCommonTranslatorImplanter
+    - RootSpeakTranslatorImplanter
+    - AnimalTranslator
+    - MofficTranslatorImplanter
+  softCapContribution: 1.5
+  position: '-2,-5'
+  _x: 800
+  _y: 0
+- type: technology
+  id: PositronicInterfacing
+  name: research-technology-positronic-interfacing
+  icon:
+    sprite: _EE/Objects/Specific/Robotics/reversemmi.rsi
+    state: icon
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - ReverseMMI
+  position: '-1,-4'
+  _x: 900
+  _y: 100
+- type: technology
+  id: HONKWeapons
+  name: research-technology-honk-weapons
+  icon:
+    sprite: Objects/Specific/Mech/mecha_equipment.rsi
+    state: mecha_bananamrtr
+  discipline: CivilianServices
+  tier: 2
+  cost: 6000
+  recipeUnlocks:
+    - MechEquipmentHonkerBananaMortar
+    - MechEquipmentHonkerMousetrapMortar
+  position: 0,-4
+  _x: 1000
+  _y: 100
+- type: technology
+  id: AdvancedTreatment
+  name: research-technology-advanced-treatment
+  icon:
+    sprite: _Shitmed/Objects/Specific/Medical/Surgery/e-scalpel.rsi
+    state: e-scalpel-on
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - BorgModuleAdvancedTreatment
+    - BorgModuleDefibrillator
+    - EnergyScalpel
+    - EnergyCautery
+    - AdvancedRetractor
+    - BorgModuleAdvancedSurgery
+  position: '-4,-3'
+  _x: 600
+  _y: 200
+- type: technology
+  id: CyberneticEnhancements
+  name: research-technology-cybernetic-enhancements
+  icon:
+    sprite: Mobs/Species/IPC/organs.rsi
+    state: eyes
+  discipline: CivilianServices
+  tier: 2
+  cost: 15000
+  recipeUnlocks:
+    - JawsOfLifeLeftArm
+    - JawsOfLifeRightArm
+    - SpeedLeftLeg
+    - SpeedRightLeg
+    - BasicCyberneticEyes
+    - SecurityCyberneticEyes
+    - MedicalCyberneticEyes
+  position: '-2,-4'
+  _x: 800
+  _y: 100
+- type: technology
+  id: Autodoc
+  name: research-technology-autodoc
+  icon:
+    sprite: _Shitmed/Structures/Machines/autodoc.rsi
+    state: idle
+  discipline: CivilianServices
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - AutodocCircuitboard
+  position: '-3,-4'
+  _x: 700
+  _y: 100
+- type: technology
+  id: HighEndSurgery
+  name: research-technology-high-end-surgery
+  icon:
+    sprite: _Shitmed/Objects/Specific/Medical/Surgery/omnimed.rsi
+    state: omnimed
+  discipline: CivilianServices
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+    - OmnimedTool
+  softCapContribution: 1.2
+  position: '-4,-4'
+  _x: 600
+  _y: 100
+- type: technology
+  id: BasicAnomalousResearch
+  name: research-technology-basic-anomalous-research
+  icon:
+    sprite: Objects/Specific/Research/anomalyscanner.rsi
+    state: icon
+  discipline: Experimental
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+    - AnomalyScanner
+    - AnomalyLocator
+    - AnomalyLocatorWide
+    - APECircuitboard
+    - AnomalyVesselCircuitboard
+  position: 5,-2
+  _x: 1500
+  _y: 300
+- type: technology
+  id: BasicXenoArcheology
+  name: research-technology-basic-xenoarcheology
+  icon:
+    sprite: Structures/Machines/artifact_analyzer.rsi
+    state: display
+  discipline: Experimental
+  tier: 1
+  cost: 5000
+  recipeUnlocks:
+    - NodeScanner
+    - AnalysisComputerCircuitboard
+    - ArtifactAnalyzerMachineCircuitboard
+    - TechDiskComputerCircuitboard
+    - ReverseEngineeringMachineCircuitboard
+  position: 6,-3
+  _x: 1600
+  _y: 200
+- type: technology
+  id: AnomalyCoreHarnessing
+  name: research-technology-anomaly-harnessing
+  icon:
+    sprite: Objects/Weapons/Melee/gorilla.rsi
+    state: icon
+  discipline: Experimental
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+    - WeaponGauntletGorilla
+  position: 4,-3
+  _x: 1400
+  _y: 200
+- type: technology
+  id: AdvancedParts
+  name: research-technology-advanced-parts
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: advanced_matter_bin
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - AdvancedCapacitorStockPart
+    - AdvancedMatterBinStockPart
+    - NanoManipulatorStockPart
+    - RPED
+  position: 4,-4
+  _x: 1400
+  _y: 100
+- type: technology
+  id: AdvancedAnomalyResearch
+  name: research-technology-advanced-anomaly-research
+  icon:
+    sprite: Structures/Machines/anomaly_sync.rsi
+    state: base
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - WeaponPistolCHIMP
+    - AnomalySynchronizerCircuitboard
+    - AnomalyVesselExperimentalCircuitboard
+    - ArtifactCrusherMachineCircuitboard
+  technologyPrerequisites:
+    - BasicAnomalousResearch
+  position: 5,-3
+  _x: 1500
+  _y: 200
+- type: technology
+  id: DeterrenceTechnologies
+  name: research-technology-deterrence
+  icon:
+    sprite: Objects/Weapons/Guns/Battery/particle_decelerator.rsi
+    state: base
+  discipline: Experimental
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - WeaponParticleDecelerator
+    - HoloprojectorField
+  position: 5,-1
+  _x: 1500
+  _y: 400
+- type: technology
+  id: NightVisionTech
+  name: research-technology-night-vision
+  icon:
+    sprite: Clothing/Eyes/Goggles/nightvision.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - ClothingEyesNightVisionGoggles
+    - ClothingEyesNightVisionSecurityGoggles
+    - ClothingEyesNightVisionMedicalGoggles
+    - ClothingEyesNightVisionDiagnosticGoggles
+  position: 5,-4
+  _x: 1500
+  _y: 100
+- type: technology
+  id: ThermalVisionTech
+  name: research-technology-thermal-vision
+  icon:
+    sprite: Clothing/Eyes/Goggles/thermal.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - ClothingEyesThermalVisionGoggles
+  position: 3,-4
+  _x: 1300
+  _y: 100
+- type: technology
+  id: SuperParts
+  name: research-technology-super-parts
+  icon:
+    sprite: Objects/Misc/stock_parts.rsi
+    state: super_matter_bin
+  discipline: Experimental
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+    - SuperCapacitorStockPart
+    - SuperMatterBinStockPart
+    - PicoManipulatorStockPart
+  softCapContribution: 1.2
+  position: 4,-5
+  _x: 1400
+  _y: 0
+- type: technology
+  id: GravityManipulation
+  name: research-technology-gravity-manipulation
+  icon:
+    sprite: Objects/Weapons/Guns/Launchers/tether_gun.rsi
+    state: base
+  discipline: Experimental
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+    - WeaponForceGun
+    - WeaponTetherGun
+  softCapContribution: 1.5
+  position: 5,-5
+  _x: 1500
+  _y: 0
+- type: technology
+  id: QuantumLeaping
+  name: research-technology-quantum-leaping
+  icon:
+    sprite: Objects/Devices/swapper.rsi
+    state: icon
+  discipline: Experimental
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+    - DeviceQuantumSpinInverter
+  softCapContribution: 1.5
+  position: 2,-5
+  _x: 1200
+  _y: 0
+- type: technology
+  id: PsionicCountermeasures
+  name: research-technology-psionic-countermeasures
+  icon:
+    sprite: Nyanotrasen/Clothing/Head/Helmets/insulative_skullcap.rsi
+    state: icon
+  discipline: Experimental
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - ClothingHeadHelmetInsulated
+    - ClothingHeadCage
+    - CartridgeSpecialHoly
+    - CartridgeSpecialMindbreaker
+    - ShellSoulbreaker
+  position: '-5,1'
+  _x: 500
+  _y: 600
+- type: technology
+  id: ModsuitsTech
+  name: research-technology-modsuits
+  icon:
+    sprite: _Goobstation/Objects/Specific/Robotics/modsuit_parts.rsi
+    state: mod-core-standard
+  discipline: Experimental
+  tier: 3
+  cost: 5000
+  technologyPrerequisites:
+    - AdvancedTacsuits
+  softCapContribution: 1.5
+  recipeUnlocks:
+    - ModsuitChestplate
+    - ModsuitBoots
+    - ModsuitHelmet
+    - ModsuitGauntlets
+    - ModsuitShell
+    - ModsuitPlatingExternal
+  position: 5,1
+  _x: 1500
+  _y: 600
+- type: technology
+  id: SalvageEquipment
+  name: research-technology-salvage-equipment
+  icon:
+    sprite: Objects/Tools/handdrill.rsi
+    state: handdrill
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - MiningDrill
+    - WeaponGrapplingGun
+    - BorgModuleMining
+    - BorgModuleGrapplingGun
+    - MechEquipmentDrill
+    - OreProcessorIndustrialMachineCircuitboard
+    - ClothingMaskWeldingGas
+  position: '-3,0'
+  _x: 700
+  _y: 500
+- type: technology
+  id: AdvancedPowercells
+  name: research-technology-advanced-powercells
+  icon:
+    sprite: Structures/Power/turbo_recharger.rsi
+    state: empty
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - PowerCellHigh
+    - PowerCellMicrortg
+    - TurboItemRechargerCircuitboard
+    - SMESAdvancedMachineCircuitboard
+  position: '-3,3'
+  _x: 700
+  _y: 800
+- type: technology
+  id: MechanicalCompression
+  name: research-technology-mechanical-compression
+  icon:
+    sprite: Structures/Machines/flatpacker.rsi
+    state: base
+  discipline: Industrial
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+    - FlatpackerMachineCircuitboard
+  position: '-5,2'
+  _x: 500
+  _y: 700
+- type: technology
+  id: IndustrialEngineering
+  name: research-technology-industrial-engineering
+  icon:
+    sprite: Structures/Machines/protolathe_hypercon.rsi
+    state: building
+  discipline: Industrial
+  tier: 1
+  cost: 10000
+  recipeUnlocks:
+    - AutolatheHyperConvectionMachineCircuitboard
+    - ProtolatheHyperConvectionMachineCircuitboard
+    - CircuitImprinterHyperConvectionMachineCircuitboard
+    - SheetifierMachineCircuitboard
+  position: '-3,1'
+  _x: 700
+  _y: 600
+- type: technology
+  id: PowerGeneration
+  name: research-technology-power-generation
+  icon:
+    sprite: Structures/Power/Generation/portable_generator.rsi
+    state: portgen0
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - PortableGeneratorPacmanMachineCircuitboard
+    - PortableGeneratorSuperPacmanMachineCircuitboard
+    - PortableGeneratorJrPacmanMachineCircuitboard
+    - PowerComputerCircuitboard
+    - SolarControlComputerCircuitboard
+    - SolarTrackerElectronics
+    - EmitterCircuitboard
+  position: '-5,3'
+  _x: 500
+  _y: 800
+- type: technology
+  id: AtmosphericTech
+  name: research-technology-atmospheric-tech
+  icon:
+    sprite: Structures/Piping/Atmospherics/thermomachine.rsi
+    state: freezerOff
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - ThermomachineFreezerMachineCircuitBoard
+    - GasRecyclerMachineCircuitboard
+    - AlertsComputerCircuitboard
+  position: '-4,3'
+  _x: 600
+  _y: 800
+- type: technology
+  id: RipleyAPLU
+  name: research-technology-ripley-aplu
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: ripley
+  discipline: Industrial
+  tier: 1
+  cost: 7500
+  recipeUnlocks:
+    - RipleyHarness
+    - RipleyLArm
+    - RipleyRArm
+    - RipleyLLeg
+    - RipleyRLeg
+    - RipleyCentralElectronics
+    - RipleyPeripheralsElectronics
+    - MechEquipmentGrabber
+  position: 1,3
+  _x: 1100
+  _y: 800
+- type: technology
+  id: SpaceScanning
+  name: research-technology-space-scanning
+  icon:
+    sprite: Objects/Tools/handheld_mass_scanner.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - RadarConsoleCircuitboard
+    - HandHeldMassScanner
+    - BorgModuleGPS
+  position: '-4,1'
+  _x: 600
+  _y: 600
+- type: technology
+  id: Shuttlecraft
+  name: research-technology-shuttlecraft
+  icon:
+    sprite: Structures/Shuttles/gyroscope.rsi
+    state: base
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - ShuttleConsoleCircuitboard
+    - ThrusterMachineCircuitboard
+    - GyroscopeMachineCircuitboard
+    - MiniGravityGeneratorCircuitboard
+  position: '-6,2'
+  _x: 400
+  _y: 700
+- type: technology
+  id: AdvancedAtmospherics
+  name: research-technology-advanced-atmospherics
+  icon:
+    sprite: Objects/Devices/Holoprojectors/atmos.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 7500
+  recipeUnlocks:
+    - HellfireFreezerMachineCircuitBoard
+    - PortableScrubberMachineCircuitBoard
+    - HolofanProjector
+  position: '-4,2'
+  _x: 600
+  _y: 700
+- type: technology
+  id: AdvancedToolsTechnology
+  name: research-technology-advanced-tools
+  icon:
+    sprite: Objects/Tools/welder_experimental.rsi
+    state: icon
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - WelderExperimental
+    - PowerDrill
+    - JawsOfLife
+    - BorgModuleAdvancedTool
+    - BorgModuleRCD
+  position: '-5,-1'
+  _x: 500
+  _y: 400
+- type: technology
+  id: MassExcavation
+  name: research-technology-excavation
+  icon:
+    sprite: Objects/Tools/handdrilldiamond.rsi
+    state: handdrill
+  discipline: Industrial
+  tier: 2
+  cost: 12500
+  recipeUnlocks:
+    - OreBagOfHolding
+    - MiningDrillDiamond
+    - MechEquipmentDrillDiamond
+  position: '-5,0'
+  _x: 500
+  _y: 500
+- type: technology
+  id: Ripley2
+  name: research-technology-ripley-mkii
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: ripleymkii
+  discipline: Industrial
+  tier: 2
+  cost: 8000
+  recipeUnlocks:
+    - RipleyMKIIHarness
+    - RipleyUpgradeKit
+  technologyPrerequisites:
+    - RipleyAPLU
+  position: 1,4
+  _x: 1100
+  _y: 900
+- type: technology
+  id: Clarke
+  name: research-technology-clarke
+  icon:
+    sprite: Objects/Specific/Mech/mecha.rsi
+    state: clarke
+  discipline: Industrial
+  tier: 2
+  cost: 10000
+  recipeUnlocks:
+    - BorgModulePka
+    - BorgModuleJetpack
+    - ClarkeHarness
+    - ClarkeHead
+    - ClarkeLArm
+    - ClarkeRArm
+    - ClarkeTreads
+    - ClarkeCentralElectronics
+    - ClarkePeripheralsElectronics
+  technologyPrerequisites:
+    - Ripley2
+  position: '-1,4'
+  _x: 900
+  _y: 900
+- type: technology
+  id: BluespaceStorage
+  name: research-technology-bluespace-storage
+  icon:
+    sprite: Clothing/Back/Backpacks/holding.rsi
+    state: holding
+  discipline: Industrial
+  tier: 3
+  cost: 15000
+  recipeUnlocks:
+    - ClothingBackpackHolding
+    - ClothingBackpackSatchelHolding
+    - ClothingBackpackDuffelHolding
+    - MaterialSiloCircuitboard
+  softCapContribution: 1.5
+  position: '-4,4'
+  _x: 600
+  _y: 900
+- type: technology
+  id: PortableFission
+  name: research-technology-portable-fission
+  icon:
+    sprite: Objects/Power/power_cells.rsi
+    state: microreactor
+  discipline: Industrial
+  tier: 3
+  cost: 10000
+  recipeUnlocks:
+    - PowerCellMicroreactor
+  technologyPrerequisites:
+    - AdvancedPowercells
+  softCapContribution: 1.5
+  position: '-3,4'
+  _x: 700
+  _y: 900

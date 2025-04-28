@@ -10,3 +10,4 @@
   recipeUnlocks:
   - BaseComputerModularCircuitBoard
   - DiskBurnerMachineCircuitboard
+  position: -2,0

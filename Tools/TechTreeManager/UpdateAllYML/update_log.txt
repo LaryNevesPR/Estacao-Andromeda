@@ -1,0 +1,12 @@
+Modified files:
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\Research\arsenal.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\Research\civilianservices.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\Research\experimental.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\Research\industrial.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\Nyanotrasen\Research\experimental.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_EE\Research\civilianservices.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_Goobstation\Research\arsenal.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_Goobstation\Research\civilianservices.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_Goobstation\Research\experimental.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_Lavaland\Research\arsenal.yml
+D:\Development\ss14\Estacao-Andromeda-fork\Resources\Prototypes\_Shitmed\Research\civilianservices.yml
