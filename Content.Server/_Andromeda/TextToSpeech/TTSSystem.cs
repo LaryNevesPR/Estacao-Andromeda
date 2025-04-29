@@ -154,8 +154,8 @@ public sealed partial class TTSSystem : EntitySystem
         }
 
         //Adicione condições para linguas aqui
-        //if (args.Language.ID != "TauCetiBasic")
-        //    return;
+        if (args.Language.ID == "Sign")
+            return;
 
         HandleSay(uid, args.Message, voice);
     }
