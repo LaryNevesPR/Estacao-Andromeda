@@ -348,12 +348,9 @@ public sealed partial class ChatSystem : SharedChatSystem
     {
         var wrappedMessage = Loc.GetString("chat-manager-sender-announcement-wrap-message", ("sender", sender), ("message", FormattedMessage.EscapeText(message)));
         _chatManager.ChatMessageToAll(ChatChannel.Radio, message, wrappedMessage, default, false, true, colorOverride);
-        if (playSound)
-        {
-            _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, Filter.Broadcast(), true, AudioParams.Default.WithVolume(-2f));
-        }
-        // Esses anuncios são eventos como ánúncio do console de comunicação, eventos anunciados na radio e alertas
-        if (_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceGlobalEnabled))
+
+        // Esses anúncios são eventos como anúncio do console de comunicação, eventos anunciados na rádio e alertas
+        if (_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceGlobalEnabled) && _configurationManager.GetCVar(AndromedaCCVars.TTSEnabled))
         {
             RaiseLocalEvent(new AnnouncementSpokeEvent
             {
@@ -362,6 +359,19 @@ public sealed partial class ChatSystem : SharedChatSystem
                 AnnouncementSound = announcementSound
             });
         }
+        else
+        {
+            // Som global alternativo se o anúncio local estiver desabilitado
+            if (playSound)
+            {
+                _audio.PlayGlobal(
+                    announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound,
+                    Filter.Broadcast(),
+                    true,
+                    AudioParams.Default.WithVolume(-2f));
+            }
+        }
+
 
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Global station announcement from {sender}: {message}");
     }
@@ -397,12 +407,10 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Radio, message, wrappedMessage, source, false, true, colorOverride);
 
-        if (playDefaultSound)
-        {
-            _audio.PlayGlobal(announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound, filter, true, AudioParams.Default.WithVolume(-2f));
-        }
-        // Esses anuncios são eventos como "Nome da pessoa (Capitão) chegou a estação
-        if(_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceDispatchEnabled))
+        
+
+        // Esses anúncios são eventos como "Nome da pessoa (Capitão) chegou à estação"
+        if (_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceDispatchEnabled) && _configurationManager.GetCVar(AndromedaCCVars.TTSEnabled))
         {
             RaiseLocalEvent(new AnnouncementSpokeEvent
             {
@@ -411,6 +419,19 @@ public sealed partial class ChatSystem : SharedChatSystem
                 Source = filter
             });
         }
+        else
+        {
+            // Caso o anúncio de Dispatch esteja desabilitado, reproduz o som globalmente
+            if (playDefaultSound)
+            {
+                _audio.PlayGlobal(
+                    announcementSound != null ? announcementSound.ToString() : DefaultAnnouncementSound,
+                    filter,
+                    true,
+                    AudioParams.Default.WithVolume(-2f));
+            }
+        }
+
         _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Station Announcement on {station} from {sender}: {message}");
     }
 
