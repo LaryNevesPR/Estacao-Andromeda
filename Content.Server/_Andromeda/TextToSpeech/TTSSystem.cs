@@ -249,6 +249,7 @@ public sealed partial class TTSSystem : EntitySystem
         {
             text = DecimalConverter().Replace(text, " point ");
             text = Number2Word().Replace(text, ReplaceNumber2Word);
+            text = CyrillicCharFilter().Replace(text, ReplaceCyrillicChar);
             text = SymbolFilter().Replace(text, ReplaceAbbreviations);
             text = CharFilter().Replace(text.Trim(), "");
 
@@ -280,8 +281,42 @@ public sealed partial class TTSSystem : EntitySystem
         new Dictionary<string, string>()
         {
             {"id", "Ai Di"},
-            {"pda", "PiDiA"},
+            {"pda", "P D A"},
             {"sci", "sai"},
+            {"vdd", "verdade"},
+            {"fds", "foda se"},
+            {"blz", "beleza"},
+            {"vlw", "valeu"},
+            {"flw", "falou"},
+            {"qq", "qualquer coisa"},
+            {"pq", "porque"},
+            {"q", "que"},
+            {"kd", "cadê"},
+            {"tmj", "tamo junto"},
+            {"obg", "obrigado"},
+            {"obgda", "obrigada"},
+            {"vc", "você"},
+            {"vcs", "vocês"},
+            {"mt", "muito"},
+            {"mto", "muito"},
+            {"msm", "mesmo"},
+            {"aq", "aqui"},
+            {"aki", "aqui"},
+            {"cmg", "comigo"},
+            {"ctz", "certeza"},
+            {"n", "não"},
+            {"ñ", "não"},
+            {"s", "sim"},
+            {"bjs", "beijos"},
+            {"bj", "beijo"},
+            {"pfv", "por favor"},
+            {"pls", "por favor"},
+            {"gr4", "grana"},
+            {"dps", "depois"},
+            {"hj", "hoje"},
+            {"amanha", "amanhã"},
+            {"mlk", "moleque"},
+            {"crlh", "caralho"},
 
             //owo
             {"(•`ω´•)", "meow"},
@@ -308,6 +343,29 @@ public sealed partial class TTSSystem : EntitySystem
             {"ш", "w"},
         };
 
+    private string ReplaceCyrillicChar(Match match)
+    => _cyrillicReplacement.TryGetValue(match.Value, out var replace) ? replace : match.Value;
+
+    private static readonly IReadOnlyDictionary<string, string> _cyrillicReplacement =
+        new Dictionary<string, string>()
+        {
+        {"Д", "A"},
+        {"в", "b"},
+        {"И", "N"},
+        {"и", "n"},
+        {"К", "K"},
+        {"к", "k"},
+        {"м", "m"},
+        {"н", "h"},
+        {"т", "t"},
+        {"Я", "R"},
+        {"я", "r"},
+        {"У", "Y"},
+        {"Ш", "W"},
+        {"ш", "w"},
+        };
+
+
     [GeneratedRegex(@"[^\p{L}\p{N},\-+?!. ]")]
     private static partial Regex CharFilter();
 
@@ -317,6 +375,11 @@ public sealed partial class TTSSystem : EntitySystem
     [GeneratedRegex(@"\d+")]
     private static partial Regex Number2Word();
 
-    [GeneratedRegex(@"(?<![a-zA-Zа-яёА-ЯЁ0-9])([a-zA-Zа-яёА-ЯЁ]+|(\(•`ω´•\)|;;w;;|owo|UwU|>w<|\^w\^))(?![a-zA-Zа-яёА-ЯЁ0-9])", RegexOptions.IgnoreCase | RegexOptions.Multiline, "en-US")]
+    [GeneratedRegex(@"[а-яА-ЯёЁ]", RegexOptions.IgnoreCase | RegexOptions.Multiline, "en-US")]
+    private static partial Regex CyrillicCharFilter();
+
+
+    [GeneratedRegex(@"\b([a-zA-Zа-яёА-ЯЁ]+|(\(•`ω´•\)|;;w;;|owo|UwU|>w<|\^w\^))\b", RegexOptions.IgnoreCase | RegexOptions.Multiline, "en-US")]
     private static partial Regex SymbolFilter();
+
 }
