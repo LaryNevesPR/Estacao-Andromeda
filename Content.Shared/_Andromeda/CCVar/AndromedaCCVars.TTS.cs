@@ -9,13 +9,13 @@ public sealed partial class AndromedaCCVars
     /// Liga TTS
     /// </summary>
     public static readonly CVarDef<bool> TTSEnabled =
-        CVarDef.Create("tts.enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+        CVarDef.Create("tts.enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
     /// <summary>
     /// URL of the TTS server API.
     /// </summary>
     public static readonly CVarDef<string> TTSApiUrl =
-        CVarDef.Create("tts.api_url", "http://localhost:3000/comic/public/api/tts", CVar.SERVERONLY | CVar.CONFIDENTIAL);
+        CVarDef.Create("tts.api_url", "http://example:3000/api/tts", CVar.SERVERONLY | CVar.CONFIDENTIAL);
 
     /// <summary>
     /// Auth token of the TTS server API.
@@ -34,14 +34,14 @@ public sealed partial class AndromedaCCVars
     /// Esses anuncios são eventos como ánúncio do console de comunicação, eventos anunciados na radio e alertas
     /// </summary>
     public static readonly CVarDef<bool> TTsAnnounceGlobalEnabled =
-        CVarDef.Create("tts.announce_global_enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+        CVarDef.Create("tts.announce_global_enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
 
     /// <summary>
     /// Esses anuncios são eventos como "Nome da pessoa (Capitão) chegou a estação
     /// </summary>
     public static readonly CVarDef<bool> TTsAnnounceDispatchEnabled =
-        CVarDef.Create("tts.announce_dispatch_enabled", false, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
+        CVarDef.Create("tts.announce_dispatch_enabled", true, CVar.SERVER | CVar.REPLICATED | CVar.ARCHIVE);
 
     /// <summary>
     /// Option to disable TTS events for client
