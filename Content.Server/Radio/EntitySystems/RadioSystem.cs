@@ -86,13 +86,13 @@ public sealed class RadioSystem : EntitySystem
             // Einstein-Engines - languages mechanic
             var listener = component.Owner;
             var msg = args.OriginalChatMsg;
-
-            if (listener != null && !_language.CanUnderstand(listener, args.Language.ID))
+            var canUnderstand = _language.CanUnderstand(listener, args.Language.ID);
+            if (listener != null && !canUnderstand)
                 msg = args.LanguageObfuscatedChatMsg;
 
             _netMan.ServerSendMessage(new MsgChatMessage { Message = msg}, actor.PlayerSession.Channel);
 
-            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
+            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _) && canUnderstand)
                 args.Receivers.Add(uid);
         }
     }
