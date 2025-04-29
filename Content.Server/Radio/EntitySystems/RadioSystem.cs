@@ -25,6 +25,7 @@ using Robust.Shared.Utility;
 using Content.Shared.Access.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.PDA;
+using Content.Shared.Andromeda.TextToSpeech;
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -79,6 +80,7 @@ public sealed class RadioSystem : EntitySystem
 
     private void OnIntrinsicReceive(EntityUid uid, IntrinsicRadioReceiverComponent component, ref RadioReceiveEvent args)
     {
+        //var parent = Transform(uid).ParentUid;
         if (TryComp(uid, out ActorComponent? actor))
         {
             // Einstein-Engines - languages mechanic
@@ -89,6 +91,9 @@ public sealed class RadioSystem : EntitySystem
                 msg = args.LanguageObfuscatedChatMsg;
 
             _netMan.ServerSendMessage(new MsgChatMessage { Message = msg}, actor.PlayerSession.Channel);
+
+            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
+                args.Receivers.Add(uid);
         }
     }
 

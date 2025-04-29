@@ -147,12 +147,13 @@ public sealed partial class TTSSystem : EntitySystem
         else
             voice = proto.Voice;
 
-        //if (args.ObfuscatedMessage != null)
-        //{
-        //    HandleWhisper(uid, args.Message, voice);
-        //    return;
-        //}
-        // Adicione condições para linguas aqui
+        if (args.IsWhisper)
+        {
+            HandleWhisper(uid, args.Message, voice);
+            return;
+        }
+
+        //Adicione condições para linguas aqui
         if (args.Language.ID != "TauCetiBasic")
             return;
 
