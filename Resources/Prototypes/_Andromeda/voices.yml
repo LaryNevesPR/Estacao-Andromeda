@@ -121,8 +121,32 @@
 
 - type: voice
   id: aecho-leticia
-  name: aecho+Letícia
-  nameId: Letícia com echo
+  name: Letícia com echo
+  nameId: aecho+Letícia
   sex: Female
   silicon: false
   voice: 15
+
+- type: voice
+  id: ricardo
+  name: Ricardo
+  nameId: Ricardo
+  sex: Male
+  silicon: false
+  voice: 16
+
+- type: voice
+  id: highpitch-ricardo
+  name: Ricardo fino
+  nameId: highpitch+Ricardo
+  sex: Male
+  silicon: false
+  voice: 17
+
+- type: voice
+  id: higherpitch-ricardo
+  name: Ricardo mais fino
+  nameId: higherpitch+Ricardo
+  sex: Male
+  silicon: false
+  voice: 18
