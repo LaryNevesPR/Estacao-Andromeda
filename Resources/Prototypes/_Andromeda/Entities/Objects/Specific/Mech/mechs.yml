@@ -90,7 +90,6 @@
         mech-equipment-container: !type:Container
         mech-battery-slot: !type:ContainerSlot
     - type: Damageable
-      damageContainer: Mech
       damageModifierSet: LightArmor
     - type: GuideHelp
       guides:
@@ -160,9 +159,6 @@
     pilotWhitelist:
       components:
       - HumanoidAppearance
-    pilotBlacklist:
-      species:
-      - Felinid
     equipmentWhitelist:
       tags:
       - CombatMech

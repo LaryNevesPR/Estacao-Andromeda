@@ -52,5 +52,5 @@
   name: Urist McDemon
   parent: MobHumanDummy
   id: MobDaengatiDummy
-  noSpawn: true
+  categories: [HideSpawnMenu]
   description: A dummy Daengati meant to be used in character setup.

@@ -23,7 +23,6 @@
 - type: entity
   parent: ClothingHeadHatHoodWinterBase
   id: ClothingHeadHatHoodMarsHoodieHood
-  noSpawn: true
   name: pink hoodie hood
   components:
   - type: Sprite
