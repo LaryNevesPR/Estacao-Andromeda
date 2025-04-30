@@ -429,11 +429,11 @@
   path:
     path: /Audio/Jukebox/The-Engineer's-Hymn.ogg
   type: jukebox
-- id: Undefined Theory - SS13 Fan Track
-  name: Undefined Theory - SS13 Fan Track
-  path:
-    path: /Audio/Jukebox/Undefined Theory - SS13 Fan Track.ogg
-  type: jukebox
+#- id: Undefined Theory - SS13 Fan Track
+#  name: Undefined Theory - SS13 Fan Track
+#  path:
+#    path: /Audio/Jukebox/Undefined Theory - SS13 Fan Track.ogg
+#  type: jukebox
 - id: VIOLET (alt. version) by mrjajkes
   name: VIOLET (alt. version) by mrjajkes
   path:
