@@ -9,6 +9,7 @@ public sealed class PlayTTSEvent : EntityEventArgs
     public NetEntity? SourceUid { get; set; }
     public bool IsRadio { get; set; }
     public float VolumeModifier { get; set; } = 1;
+    public string LanguageId { get; set; } = "TauCetiBasic";
 
     public void SetVolumeModifier(float modifier)
     {

@@ -11,6 +11,8 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
+using Content.Server.Language;
+using static Content.Shared.Administration.Notes.AdminMessageEuiState;
 
 namespace Content.Server.Andromeda.TTS;
 
@@ -21,6 +23,7 @@ public sealed partial class TTSSystem : EntitySystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly ITTSManager _ttsManager = default!;
     [Dependency] private readonly IRobustRandom _rng = default!;
+    [Dependency] private readonly LanguageSystem _language = default!;
 
     private readonly List<string> _sampleText =
     [
@@ -80,16 +83,20 @@ public sealed partial class TTSSystem : EntitySystem
         if (!_isEnabled
             || args.Message.Length > MaxChars)
             return;
+        string newMessage = args.Message;
+        _sawmill.Info(args.Language.ID);
+        if (args.Language != null && args.Language.ID != "TauCetiBasic")
+            newMessage = _language.ObfuscateSpeech(args.Message, args.Language);
 
         if (!TryComp(args.Source, out TextToSpeechComponent? senderComponent)
             || senderComponent.VoicePrototypeId is not string voiceId)
         {
-            HandleRadio(args.Receivers, args.Message, 92);
+            HandleRadio(args.Receivers, newMessage, 92);
         }
         else
         {
             var voice = _prototypeManager.TryIndex(voiceId, out VoicePrototype? proto) ? proto.Voice : 1;
-            HandleRadio(args.Receivers, args.Message, voice);
+            HandleRadio(args.Receivers, newMessage, voice);
         }
     }
 
@@ -115,6 +122,15 @@ public sealed partial class TTSSystem : EntitySystem
     private async void OnEntitySpoke(EntityUid uid, TextToSpeechComponent component, EntitySpokeEvent args)
     {
         if (!_isEnabled || args.Message.Length > MaxChars) return;
+
+        //Adicione condições para linguas aqui
+
+        if (args.Language.ID == "Sign")
+            return;
+
+        //if (args.Language.ID != "TauCetiBasic")
+        //    return;
+
         var voice = DefaultAnnounceVoice;
         if (!_prototypeManager.TryIndex(component.VoicePrototypeId ?? "", out VoicePrototype? proto))
         {
@@ -147,17 +163,17 @@ public sealed partial class TTSSystem : EntitySystem
         else
             voice = proto.Voice;
 
+        string newMessage = args.Message;
+        if (args.Language.ID != "TauCetiBasic")
+            newMessage = _language.ObfuscateSpeech(args.Message, args.Language);
+
         if (args.IsWhisper)
         {
-            HandleWhisper(uid, args.Message, voice);
+            HandleWhisper(uid, newMessage, voice);
             return;
         }
 
-        //Adicione condições para linguas aqui
-        if (args.Language.ID == "Sign")
-            return;
-
-        HandleSay(uid, args.Message, voice);
+        HandleSay(uid, newMessage, voice);
     }
     private void OnTransformSpeech(TransformSpeechEvent args)
     {

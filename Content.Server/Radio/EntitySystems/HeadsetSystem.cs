@@ -113,7 +113,7 @@ public sealed class HeadsetSystem : SharedHeadsetSystem
                 Message = canUnderstand ? args.OriginalChatMsg : args.LanguageObfuscatedChatMsg
             };
             _netMan.ServerSendMessage(msg, actor.PlayerSession.Channel);
-            if (parent != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _) && canUnderstand)
+            if (parent != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
                 args.Receivers.Add(parent);
         }
     }

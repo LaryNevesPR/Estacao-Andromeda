@@ -92,7 +92,7 @@ public sealed class RadioSystem : EntitySystem
 
             _netMan.ServerSendMessage(new MsgChatMessage { Message = msg}, actor.PlayerSession.Channel);
 
-            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _) && canUnderstand)
+            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
                 args.Receivers.Add(uid);
         }
     }
@@ -143,8 +143,6 @@ public sealed class RadioSystem : EntitySystem
         var content = escapeMarkup
             ? FormattedMessage.EscapeText(message)
             : message;
-
-        
 
         var wrappedMessage = WrapRadioMessage(messageSource, channel, name, content, language, frequency);
         var msg = new ChatMessage(ChatChannel.Radio, content, wrappedMessage, NetEntity.Invalid, null);
@@ -205,7 +203,8 @@ public sealed class RadioSystem : EntitySystem
         {
             Source = messageSource,
             Message = message,
-            Receivers = [.. ev.Receivers]
+            Receivers = [.. ev.Receivers],
+            Language = language
         });
 
         if (name != Name(messageSource))
