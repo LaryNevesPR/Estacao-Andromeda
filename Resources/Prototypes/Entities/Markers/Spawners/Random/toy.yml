@@ -110,11 +110,11 @@
         - ToyFigurineMarcos
         - ToyFigurineLao
         - ToyFigurineGui
-        - ToyFigurineJanie
-        - ToyFigurinePodro
+        - ToyFigurineJanieSmith
+        - ToyFigurinePodroSilva
         - ToyFigurineLawLaw
         - ToyFigurineRonaldo
-        - ToyFigurineLunara
+        - ToyFigurineLunaraGooben
         - ToyFigurinePhilMal
         - ToyFigurineWellsChaplon
         - ToyZero # DeltaV Toy, see Resources/Prototypes/DeltaV/Entities/Objects/Fun/toys.yml
@@ -188,11 +188,11 @@
       - ToyFigurineMarcos
       - ToyFigurineLao
       - ToyFigurineGui
-      - ToyFigurineJanie
-      - ToyFigurinePodro
+      - ToyFigurineJanieSmith
+      - ToyFigurinePodroSilva
       - ToyFigurineLawLaw
       - ToyFigurineRonaldo
-      - ToyFigurineLunara
+      - ToyFigurineLunaraGooben
       - ToyFigurinePhilMal
       - ToyFigurineWellsChaplon
       chance: 0.90
