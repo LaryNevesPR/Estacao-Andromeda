@@ -398,11 +398,6 @@
   path:
     path: /Audio/Jukebox/SS13 Fan Track - Revolution.ogg
   type: jukebox
-- id: SS13 Fan Track - Undefined Theory
-  name: SS13 Fan Track - Undefined Theory
-  path:
-    path: /Audio/Jukebox/SS13 Fan Track - Undefined Theory.ogg
-  type: jukebox
 - id: Stories from The Space Station - Zombies Album By Bolgarich & Dari
   name: Stories from The Space Station - Zombies Album By Bolgarich & Dari
   path:
