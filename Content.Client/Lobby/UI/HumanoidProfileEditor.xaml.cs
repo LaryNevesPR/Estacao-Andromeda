@@ -587,10 +587,13 @@ namespace Content.Client.Lobby.UI
 
             _voices = _prototypeManager
                 .EnumeratePrototypes<VoicePrototype>()
+                .Where(o => !o.Silicon)
                 .ToList();
 
             VoiceButton.OnItemSelected += args =>
             {
+                if (Profile is null)
+                    return;
                 VoiceButton.SelectId(args.Id);
                 Profile = Profile?.WithVoice(_voices[args.Id].ID);
                 IsDirty = true;
