@@ -7,7 +7,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_box
 
 - type: decal
@@ -15,7 +15,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_corner_ne
 
 - type: decal
@@ -23,7 +23,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_corner_se
 
 - type: decal
@@ -31,7 +31,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_corner_nw
 
 - type: decal
@@ -39,7 +39,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_corner_sw
 
 - type: decal
@@ -47,7 +47,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_inner_ne
 
 - type: decal
@@ -55,7 +55,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_inner_se
 
 - type: decal
@@ -63,7 +63,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_inner_nw
 
 - type: decal
@@ -71,7 +71,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_inner_sw
 
 - type: decal
@@ -79,7 +79,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_end_n
 
 - type: decal
@@ -87,7 +87,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_end_e
 
 - type: decal
@@ -95,7 +95,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_end_s
 
 - type: decal
@@ -103,7 +103,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_end_w
 
 - type: decal
@@ -111,7 +111,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_line_n
 
 - type: decal
@@ -119,7 +119,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_line_e
 
 - type: decal
@@ -127,7 +127,7 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_line_s
 
 - type: decal
@@ -135,6 +135,6 @@
   parent: WoodTrimThin
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/wood_trim.rsi
+    sprite: DeltaV/Decals/wood_trim.rsi #Delta V - Retexture Decals
     state: thin_line_w
 
