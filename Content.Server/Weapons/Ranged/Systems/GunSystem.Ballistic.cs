@@ -6,11 +6,9 @@ namespace Content.Server.Weapons.Ranged.Systems;
 
 public sealed partial class GunSystem
 {
-    protected override void Cycle(EntityUid uid, BallisticAmmoProviderComponent component, MapCoordinates coordinates, GunComponent? gunComponent)
+    protected override void Cycle(EntityUid uid, BallisticAmmoProviderComponent component, MapCoordinates coordinates)
     {
         EntityUid? ent = null;
-        if (!Resolve(uid, ref gunComponent, false))
-            return;
 
         // TODO: Combine with TakeAmmo
         if (component.Entities.Count > 0)
@@ -20,7 +18,6 @@ public sealed partial class GunSystem
 
             Containers.Remove(existing, component.Container);
             EnsureShootable(existing);
-            EjectCartridge(existing, gunComp: gunComponent);
         }
         else if (component.UnspawnedCount > 0)
         {
@@ -30,7 +27,7 @@ public sealed partial class GunSystem
         }
 
         if (ent != null)
-            EjectCartridge(ent.Value, gunComp: gunComponent);
+            EjectCartridge(ent.Value);
 
         var cycledEvent = new GunCycledEvent();
         RaiseLocalEvent(uid, ref cycledEvent);
