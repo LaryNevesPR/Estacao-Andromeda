@@ -458,10 +458,11 @@ namespace Content.Server.Connection
         public async Task<bool> HasPrivilegedJoin(NetUserId userId)
         {
             var isAdmin = await _db.GetAdminDataForAsync(userId) != null;
+            var isDonator = await _db.GetWhitelistStatusAsync(userId); // New check for donator status
             var wasInGame = EntitySystem.TryGet<GameTicker>(out var ticker) &&
                 ticker.PlayerGameStatuses.TryGetValue(userId, out var status) &&
                 status == PlayerGameStatus.JoinedGame;
-            return isAdmin || wasInGame;
+            return isAdmin || wasInGame || isDonator;
         }
     }
 }
