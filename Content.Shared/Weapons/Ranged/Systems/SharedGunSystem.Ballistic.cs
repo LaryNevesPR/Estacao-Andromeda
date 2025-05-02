@@ -42,9 +42,13 @@ public abstract partial class SharedGunSystem
 
     private void OnBallisticInteractUsing(EntityUid uid, BallisticAmmoProviderComponent component, InteractUsingEvent args)
     {
-        if (args.Handled
-            || _whitelistSystem.IsWhitelistFailOrNull(component.Whitelist, args.Used)
-            || GetBallisticShots(component) >= component.Capacity)
+        if (args.Handled)
+            return;
+
+        if (_whitelistSystem.IsWhitelistFailOrNull(component.Whitelist, args.Used))
+            return;
+
+        if (GetBallisticShots(component) >= component.Capacity)
             return;
 
         component.Entities.Add(args.Used);
@@ -52,20 +56,23 @@ public abstract partial class SharedGunSystem
         // Not predicted so
         Audio.PlayPredicted(component.SoundInsert, uid, args.User);
         args.Handled = true;
-        component.Cycled = true;
-        UpdateAmmoCount(uid);
         UpdateBallisticAppearance(uid, component);
         Dirty(uid, component);
     }
 
     private void OnBallisticAfterInteract(EntityUid uid, BallisticAmmoProviderComponent component, AfterInteractEvent args)
     {
-        if (args.Handled || !component.MayTransfer || !Timing.IsFirstTimePredicted
-            || args.Target is null || args.Used == args.Target
-            || Deleted(args.Target)
-            || !TryComp(args.Target, out BallisticAmmoProviderComponent? targetComponent)
-            || targetComponent.Whitelist is null)
+        if (args.Handled ||
+            !component.MayTransfer ||
+            !Timing.IsFirstTimePredicted ||
+            args.Target == null ||
+            args.Used == args.Target ||
+            Deleted(args.Target) ||
+            !TryComp<BallisticAmmoProviderComponent>(args.Target, out var targetComponent) ||
+            targetComponent.Whitelist == null)
+        {
             return;
+        }
 
         args.Handled = true;
 
@@ -79,9 +86,9 @@ public abstract partial class SharedGunSystem
 
     private void OnBallisticAmmoFillDoAfter(EntityUid uid, BallisticAmmoProviderComponent component, AmmoFillDoAfterEvent args)
     {
-        if (Deleted(args.Target)
-            || !TryComp(args.Target, out BallisticAmmoProviderComponent? target)
-            || target.Whitelist is null)
+        if (Deleted(args.Target) ||
+            !TryComp<BallisticAmmoProviderComponent>(args.Target, out var target) ||
+            target.Whitelist == null)
             return;
 
         if (target.Entities.Count + target.UnspawnedCount == target.Capacity)
@@ -135,8 +142,6 @@ public abstract partial class SharedGunSystem
                 // play sound to be cool
                 Audio.PlayPredicted(component.SoundInsert, uid, args.User);
                 SimulateInsertAmmo(ent.Value, args.Target.Value, Transform(args.Target.Value).Coordinates);
-                component.Cycled = true; // Make sure when loading shells in shotguns, that the first round is chambered.
-                UpdateAmmoCount(uid);
             }
 
             if (IsClientSide(ent.Value))
@@ -154,12 +159,16 @@ public abstract partial class SharedGunSystem
         if (!args.CanAccess || !args.CanInteract || args.Hands == null || !component.Cycleable)
             return;
 
-        args.Verbs.Add(new Verb()
+        if (component.Cycleable)
         {
-            Text = Loc.GetString("gun-ballistic-cycle"),
-            Disabled = GetBallisticShots(component) == 0,
-            Act = () => ManualCycle(uid, component, TransformSystem.GetMapCoordinates(uid), args.User),
-        });
+            args.Verbs.Add(new Verb()
+            {
+                Text = Loc.GetString("gun-ballistic-cycle"),
+                Disabled = GetBallisticShots(component) == 0,
+                Act = () => ManualCycle(uid, component, TransformSystem.GetMapCoordinates(uid), args.User),
+            });
+
+        }
     }
 
     private void OnBallisticExamine(EntityUid uid, BallisticAmmoProviderComponent component, ExaminedEvent args)
@@ -176,17 +185,18 @@ public abstract partial class SharedGunSystem
             return;
 
         // Reset shotting for cycling
-        if (Resolve(uid, ref gunComp, false)
-            && gunComp is { FireRateModified: > 0f }
-            && !Paused(uid))
+        if (Resolve(uid, ref gunComp, false) &&
+            gunComp is { FireRateModified: > 0f } &&
+            !Paused(uid))
+        {
             gunComp.NextFire = Timing.CurTime + TimeSpan.FromSeconds(1 / gunComp.FireRateModified);
+        }
 
         Dirty(uid, component);
         Audio.PlayPredicted(component.SoundRack, uid, user);
 
         var shots = GetBallisticShots(component);
-        component.Cycled = true;
-        Cycle(uid, component, coordinates, gunComp);
+        Cycle(uid, component, coordinates);
 
         var text = Loc.GetString(shots == 0 ? "gun-ballistic-cycled-empty" : "gun-ballistic-cycled");
 
@@ -195,7 +205,7 @@ public abstract partial class SharedGunSystem
         UpdateAmmoCount(uid);
     }
 
-    protected abstract void Cycle(EntityUid uid, BallisticAmmoProviderComponent component, MapCoordinates coordinates, GunComponent? gunComponent = null);
+    protected abstract void Cycle(EntityUid uid, BallisticAmmoProviderComponent component, MapCoordinates coordinates);
 
     private void OnBallisticInit(EntityUid uid, BallisticAmmoProviderComponent component, ComponentInit args)
     {
@@ -217,15 +227,15 @@ public abstract partial class SharedGunSystem
         }
     }
 
-    protected int GetBallisticShots(BallisticAmmoProviderComponent component) => component.Entities.Count + component.UnspawnedCount;
+    protected int GetBallisticShots(BallisticAmmoProviderComponent component)
+    {
+        return component.Entities.Count + component.UnspawnedCount;
+    }
 
     private void OnBallisticTakeAmmo(EntityUid uid, BallisticAmmoProviderComponent component, TakeAmmoEvent args)
     {
         for (var i = 0; i < args.Shots; i++)
         {
-            if (!component.Cycled)
-                break;
-
             EntityUid entity;
 
             if (component.Entities.Count > 0)
@@ -233,9 +243,6 @@ public abstract partial class SharedGunSystem
                 entity = component.Entities[^1];
 
                 args.Ammo.Add((entity, EnsureShootable(entity)));
-                // if entity in container it can't be ejected, so shell will remain in gun and block next shoot
-                if (!component.AutoCycle)
-                    break;
                 component.Entities.RemoveAt(component.Entities.Count - 1);
                 Containers.Remove(entity, component.Container);
             }
@@ -244,17 +251,7 @@ public abstract partial class SharedGunSystem
                 component.UnspawnedCount--;
                 entity = Spawn(component.Proto, args.Coordinates);
                 args.Ammo.Add((entity, EnsureShootable(entity)));
-
-                // Put it back in if it doesn't auto-cycle
-                if (Timing.IsFirstTimePredicted && HasComp<CartridgeAmmoComponent>(entity) && !component.AutoCycle)
-                {
-                    component.Entities.Add(entity);
-                    Containers.Insert(entity, component.Container);
-                }
             }
-
-            if (!component.AutoCycle)
-                component.Cycled = false;
         }
 
         UpdateBallisticAppearance(uid, component);
@@ -281,4 +278,6 @@ public abstract partial class SharedGunSystem
 /// DoAfter event for filling one ballistic ammo provider from another.
 /// </summary>
 [Serializable, NetSerializable]
-public sealed partial class AmmoFillDoAfterEvent : SimpleDoAfterEvent { }
+public sealed partial class AmmoFillDoAfterEvent : SimpleDoAfterEvent
+{
+}

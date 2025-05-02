@@ -68,8 +68,8 @@
   - type: Sprite
     sprite: Objects/Weapons/Guns/Snipers/bolt_gun_wood.rsi
   - type: Gun
-    fireRate: 0.75 
-    damageModifier: 1.5 
+    fireRate: 0.75
+    damageModifier: 1.5
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
