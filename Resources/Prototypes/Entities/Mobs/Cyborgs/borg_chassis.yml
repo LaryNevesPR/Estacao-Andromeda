@@ -2,6 +2,8 @@
   id: BorgChassisSelectable
   parent: BaseBorgChassisNT
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: robot
@@ -46,6 +48,8 @@
   parent: BorgChassisSelectable
   name: salvage cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: mining
 
@@ -54,6 +58,8 @@
   parent: BorgChassisSelectable
   name: engineer cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: engineering
 
@@ -62,6 +68,8 @@
   parent: BorgChassisSelectable
   name: janitor cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: janitor
 
@@ -70,6 +78,8 @@
   parent: BorgChassisSelectable
   name: service cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: service
 
@@ -78,6 +88,8 @@
   parent: BorgChassisSelectable
   name: medical cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: medical
 
@@ -87,6 +99,8 @@
   id: BorgChassisGenericBare
   parent: BaseBorgChassisNT
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: robot
@@ -120,6 +134,8 @@
   parent: BaseBorgChassisNT
   name: salvage cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: miner
@@ -176,6 +192,8 @@
   parent: BaseBorgChassisNT
   name: engineer cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: engineer
@@ -226,6 +244,8 @@
   parent: BaseBorgChassisNT
   name: janitor cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: janitor
@@ -284,6 +304,8 @@
   parent: BaseBorgChassisNT
   name: medical cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: medical
@@ -363,6 +385,8 @@
   parent: BorgChassisSelectable
   name: service cyborg
   components:
+  - type: TextToSpeech
+    voice: espeak-pt
   - type: Sprite
     layers:
     - state: service
@@ -412,6 +436,8 @@
   name: syndicate assault cyborg
   description: A lean, mean killing machine with access to a variety of deadly modules.
   components:
+    - type: TextToSpeech
+      voice: espeak-pt
     - type: Sprite
       layers:
         - state: synd_sec
@@ -444,6 +470,8 @@
   name: syndicate medical cyborg
   description: A combat medical cyborg. Has limited offensive potential, but makes more than up for it with its support capabilities.
   components:
+    - type: TextToSpeech
+      voice: espeak-pt
     - type: Sprite
       layers:
         - state: synd_medical
@@ -483,6 +511,8 @@
   name: syndicate saboteur cyborg
   description: A streamlined engineering cyborg, equipped with covert modules. Its chameleon projector lets it disguise itself as a Nanotrasen cyborg.
   components:
+    - type: TextToSpeech
+      voice: espeak-pt
     - type: Sprite
       layers:
         - state: synd_engi

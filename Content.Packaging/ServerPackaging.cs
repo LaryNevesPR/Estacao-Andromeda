@@ -44,6 +44,8 @@ public static class ServerPackaging
         // Python script had Npgsql. though we want Npgsql.dll as well soooo
         "Npgsql",
         "Microsoft",
+        "NAudio",
+        "OggVorbisEncoder"
     };
 
     private static readonly List<string> ServerNotExtraAssemblies = new()
@@ -191,6 +193,7 @@ public static class ServerPackaging
                 contentAssemblies.Add(fileName);
             }
         }
+        pass.InjectFileFromDisk("build.json", Path.Combine(contentDir, "Content.Server", "build.json"));
 
         await RobustSharedPackaging.DoResourceCopy(
             Path.Combine("RobustToolbox", "bin", "Server",

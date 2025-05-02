@@ -31,6 +31,7 @@ public sealed partial class ContentAudioSystem : SharedContentAudioSystem
     public const float InterfaceMultiplier = 2f;
     public const float AnnouncerMultiplier = 3f;
     public const float RadioMultiplier = 3f;
+    public const float TtsMultiplier = 1f;
 
     public override void Initialize()
     {

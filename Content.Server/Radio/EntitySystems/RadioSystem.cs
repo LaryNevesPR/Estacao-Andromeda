@@ -3,6 +3,7 @@ using Content.Server.Chat.Systems;
 using Content.Server.Language;
 using Content.Server.Power.Components;
 using Content.Server.Radio.Components;
+using Content.Server.Andromeda.TTS;
 using Content.Shared.Chat;
 using Content.Shared.Database;
 using Content.Shared.Language;
@@ -24,6 +25,7 @@ using Robust.Shared.Utility;
 using Content.Shared.Access.Systems;
 using Content.Shared.Access.Components;
 using Content.Shared.PDA;
+using Content.Shared.Andromeda.TextToSpeech;
 
 namespace Content.Server.Radio.EntitySystems;
 
@@ -78,16 +80,20 @@ public sealed class RadioSystem : EntitySystem
 
     private void OnIntrinsicReceive(EntityUid uid, IntrinsicRadioReceiverComponent component, ref RadioReceiveEvent args)
     {
+        //var parent = Transform(uid).ParentUid;
         if (TryComp(uid, out ActorComponent? actor))
         {
             // Einstein-Engines - languages mechanic
             var listener = component.Owner;
             var msg = args.OriginalChatMsg;
-
-            if (listener != null && !_language.CanUnderstand(listener, args.Language.ID))
+            var canUnderstand = _language.CanUnderstand(listener, args.Language.ID);
+            if (listener != null && !canUnderstand)
                 msg = args.LanguageObfuscatedChatMsg;
 
             _netMan.ServerSendMessage(new MsgChatMessage { Message = msg}, actor.PlayerSession.Channel);
+
+            if (uid != args.MessageSource && TryComp(args.MessageSource, out TextToSpeechComponent? _))
+                args.Receivers.Add(uid);
         }
     }
 
@@ -138,8 +144,6 @@ public sealed class RadioSystem : EntitySystem
             ? FormattedMessage.EscapeText(message)
             : message;
 
-        
-
         var wrappedMessage = WrapRadioMessage(messageSource, channel, name, content, language, frequency);
         var msg = new ChatMessage(ChatChannel.Radio, content, wrappedMessage, NetEntity.Invalid, null);
 
@@ -148,7 +152,7 @@ public sealed class RadioSystem : EntitySystem
         var obfuscatedWrapped = WrapRadioMessage(messageSource, channel, name, obfuscated, language, frequency);
         var notUdsMsg = new ChatMessage(ChatChannel.Radio, obfuscated, obfuscatedWrapped, NetEntity.Invalid, null);
 
-        var ev = new RadioReceiveEvent(messageSource, channel, msg, notUdsMsg, language, radioSource);
+        var ev = new RadioReceiveEvent(messageSource, channel, msg, notUdsMsg, language, radioSource, []);
 
         var sendAttemptEv = new RadioSendAttemptEvent(channel, radioSource);
         RaiseLocalEvent(ref sendAttemptEv);
@@ -195,6 +199,13 @@ public sealed class RadioSystem : EntitySystem
             // send the message
             RaiseLocalEvent(receiver, ref ev);
         }
+        RaiseLocalEvent(new RadioSpokeEvent
+        {
+            Source = messageSource,
+            Message = message,
+            Receivers = [.. ev.Receivers],
+            Language = language
+        });
 
         if (name != Name(messageSource))
             _adminLogger.Add(LogType.Chat, LogImpact.Low, $"Radio message from {ToPrettyString(messageSource):user} as {name} on {channel.LocalizedName}: {message}");

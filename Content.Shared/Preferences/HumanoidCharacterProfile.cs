@@ -55,6 +55,9 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     [DataField]
     public string Name { get; set; } = "John Doe";
 
+    [DataField]
+    public string Voice { get; set; } = "";
+
     /// Detailed text that can appear for the character if <see cref="CCVars.FlavorText"/> is enabled
     [DataField]
     public string FlavorText { get; set; } = string.Empty;
@@ -133,6 +136,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
 
     public HumanoidCharacterProfile(
         string name,
+        string voice,
         string flavortext,
         string species,
         string customspeciename,
@@ -160,6 +164,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
         HashSet<LoadoutPreference> loadoutPreferences)
     {
         Name = name;
+        Voice = voice;
         FlavorText = flavortext;
         Species = species;
         Customspeciename = customspeciename;
@@ -191,6 +196,7 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     public HumanoidCharacterProfile(HumanoidCharacterProfile other)
         : this(
             other.Name,
+            other.Voice,
             other.FlavorText,
             other.Species,
             other.Customspeciename,
@@ -320,6 +326,10 @@ public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     // EE - Contractors Change End
     public HumanoidCharacterProfile WithSex(Sex sex) => new(this) { Sex = sex };
     public HumanoidCharacterProfile WithGender(Gender gender) => new(this) { Gender = gender };
+    public HumanoidCharacterProfile WithVoice(string id)
+    {
+        return new(this) { Voice = id };
+    }
     public HumanoidCharacterProfile WithDisplayPronouns(string? displayPronouns) => new(this) { DisplayPronouns = displayPronouns };
     public HumanoidCharacterProfile WithStationAiName(string? stationAiName) => new(this) { StationAiName = stationAiName };
     public HumanoidCharacterProfile WithCyborgName(string? cyborgName) => new(this) { CyborgName = cyborgName };
