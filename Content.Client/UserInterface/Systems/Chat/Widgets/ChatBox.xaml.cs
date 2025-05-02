@@ -14,7 +14,6 @@ using Robust.Shared.Configuration;
 using Robust.Shared.Input;
 using Robust.Shared.Player;
 using Robust.Shared.Utility;
-using System.Linq;
 using static Robust.Client.UserInterface.Controls.LineEdit;
 
 namespace Content.Client.UserInterface.Systems.Chat.Widgets;
@@ -152,13 +151,21 @@ public partial class ChatBox : UIWidget
     public void Repopulate()
     {
         Contents.Clear();
-        foreach (var child in Contents.Children.ToArray())
+        var toRemove = new List<Control>();
+
+        foreach (var child in Contents.Children)
         {
             if (child.Name != "_v_scroll")
             {
-                Contents.RemoveChild(child);
+                toRemove.Add(child);
             }
         }
+
+        foreach (var child in toRemove)
+        {
+            Contents.RemoveChild(child);
+        }
+
         _chatStackList = new List<ChatStackData>(_chatStackAmount);
         foreach (var message in _controller.History)
         {
@@ -169,13 +176,21 @@ public partial class ChatBox : UIWidget
     private void OnChannelFilter(ChatChannel channel, bool active)
     {
         Contents.Clear();
-        foreach (var child in Contents.Children.ToArray())
+        var toRemove = new List<Control>();
+
+        foreach (var child in Contents.Children)
         {
             if (child.Name != "_v_scroll")
             {
-                Contents.RemoveChild(child);
+                toRemove.Add(child);
             }
         }
+
+        foreach (var child in toRemove)
+        {
+            Contents.RemoveChild(child);
+        }
+
 
         foreach (var message in _controller.History)
         {
