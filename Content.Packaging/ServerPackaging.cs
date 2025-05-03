@@ -193,7 +193,6 @@ public static class ServerPackaging
                 contentAssemblies.Add(fileName);
             }
         }
-        pass.InjectFileFromDisk("build.json", Path.Combine(contentDir, "Content.Server", "build.json"));
 
         await RobustSharedPackaging.DoResourceCopy(
             Path.Combine("RobustToolbox", "bin", "Server",
