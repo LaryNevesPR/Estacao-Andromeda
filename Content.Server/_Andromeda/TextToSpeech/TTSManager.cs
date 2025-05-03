@@ -72,19 +72,19 @@ public sealed class TTSManager : ITTSManager
     public async Task<byte[]?> ConvertTextToSpeechRadio(int voice, string text)
     {
         RequestedRadioCount.Inc();
-        _sawmill.Verbose($"Generate new audio for RADIO '{text}' speech by voice ID");
+        //_sawmill.Verbose($"Generate new audio for RADIO '{text}' speech by voice ID");
         return await ConvertTextToSpeech(voice, text, true);
     }
     public async Task<byte[]?> ConvertTextToSpeechAnnounce(int voice, string text)
     {
         RequestedAnnounceCount.Inc();
-        _sawmill.Verbose($"Generate new audio for ANNOUNCE '{text}' speech by voice ID");
+        //_sawmill.Verbose($"Generate new audio for ANNOUNCE '{text}' speech by voice ID");
         return await ConvertTextToSpeech(voice, text, true);
     }
     private async Task<byte[]?> ConvertTextToSpeech(int voiceId, string text, bool isRadio = false)
     {
         RequestedCount.Inc();
-        _sawmill.Verbose($"Generate new audio for '{text}' speech by voice ID '{voiceId}'");
+        //_sawmill.Verbose($"Generate new audio for '{text}' speech by voice ID '{voiceId}'");
         var stopwatch = Stopwatch.StartNew();
 
         var jsonBody = JsonSerializer.Serialize(new TTSRequest
@@ -114,7 +114,7 @@ public sealed class TTSManager : ITTSManager
 
             var audio = await response.Content.ReadAsByteArrayAsync(cts.Token);
 
-            _sawmill.Debug($"Generated new audio for '{text}' speech by voice ID '{voiceId}' ({audio.Length} bytes)");
+            //_sawmill.Debug($"Generated new audio for '{text}' speech by voice ID '{voiceId}' ({audio.Length} bytes)");
             RequestTime.WithLabels("Success").Observe(stopwatch.Elapsed.TotalSeconds);
             return audio;
         }
