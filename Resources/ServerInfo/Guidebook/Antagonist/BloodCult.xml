@@ -1,184 +1,182 @@
 <Document>
-  Be ware - this document is just almost a full copy of /tg/ station blood cult guide.
+  Cuidado - este documento é quase uma cópia completa do guia do culto de sangue da estação /tg/.
 
-  # Blood Cult
+  # Culto de Sangue
 
-  Even in the far future, some things are never quite understood. There are things that lurk in the darkness of space,
-  unspeakable horrors of ancient power that wish to bring ruin to the universe and to shape it into their image. They
-  reach out from the void, and turn the minds of mortal men and women in their favor in hopes that one day they shall be
-  brought once more into this plane of existence.
+  Mesmo em um futuro distante, algumas coisas nunca são totalmente compreendidas. Há coisas que espreitam na escuridão do espaço,
+  horrores indizíveis de poder ancestral que desejam trazer a ruína ao universo e moldá-lo à sua imagem. Eles
+  estão surgindo do vazio e influenciam as mentes de homens e mulheres mortais a seu favor, na esperança de que um dia sejam
+  trazidos novamente a este plano de existência.
 
-  The Geometer of Blood, Nar-Sie, has sent a number of her followers to Space Station 14. As a cultist, you have an
-  abundance of cult magics at your disposal, something for all situations. You must work with your brethren to summon an
-  avatar of your eldritch goddess!
+  A Geômetra de Sangue, Nar-Sie, enviou vários de seus seguidores para a Estação Espacial 14. Como cultista, você tem
+  uma abundância de magias de culto à sua disposição, algo para todas as situações. Você deve trabalhar com seus irmãos para invocar um
+  avatar de sua deusa sobrenatural!
 
-  ## Objectives
+  ## Objetivos
 
-  Your objective requires you to sacrifice a certain crewmember and summon Nar-Sie.
+  Seu objetivo requer que você sacrifique um certo membro da tripulação e invoque Nar-Sie.
 
-  The general path of action of the cult and those in it:
+  O caminho geral de ação do culto e daqueles que o compõem:
 
-  - 1. From a discrete location, contact your allies. You can do it by speaking Eldritch language - everyone in the cult
-  can hear you when you speak it.
-  - 2. Find an area to convert into a base, usually accessible by one or more members of the cult, but well-hidden
-  enough that security or crew won't find it easily.
-  - 3. Setup a teleport rune, so all cultists can access it.
-  - 4. Setup an empowering rune and then prepare up to 4 blood spells. Stun spells are your bread and butter - but
-  diversifying with spells like EMP, Teleport, Blood Rites, etc. will ensure you're ready for anything.
-  - 5. Convert new members, or sacrifice implanted crew, on the offering rune. Combine the filled soul shard from
-  sacrificed humans to create powerful cult constructs!
-  - 6. Use teamwork to find your sacrifice target.
-  - 7. Kill the sacrifice target and place them on an offer rune with 3 cultists nearby.
-  - 8. Prepare to summon Nar-Sie. She can only be summoned in a few locations and the crew will fight desperately to
-  stop you! Make sure you have enough cultists and equipment to withstand their assault.
-  - 9. Gather 10 cultists on the final rune to summon Nar-Sie!
+  - 1. De um local discreto, entre em contato com seus aliados. Você pode fazer isso falando a língua dos Eldritch - todos no culto
+  podem ouvi-lo quando você a fala.
+  - 2. Encontre uma área para converter em base, geralmente acessível a um ou mais membros do culto, mas bem escondida
+  o suficiente para que a segurança ou a tripulação não a encontrem facilmente.
+  - 3. Configure uma runa de teletransporte para que todos os cultistas possam acessá-la.
+  - 4. Configure uma runa de fortalecimento e prepare até 4 magias de sangue. Magias de atordoamento são o seu ganha-pão - mas
+  diversificar com magias como PEM, Teletransporte, Ritos de Sangue, etc. garantirá que você esteja pronto para qualquer coisa.
+  - 5. Converta novos membros ou sacrifique a tripulação implantada na runa de oferenda. Combine o fragmento de alma preenchido de
+  humanos sacrificados para criar poderosos constructos do culto!
+  - 6. Use o trabalho em equipe para encontrar seu alvo de sacrifício.
+  - 7. Mate o alvo do sacrifício e coloque-o em uma runa de oferta com 3 cultistas por perto.
+  - 8. Prepare-se para invocar Nar-Sie. Ela só pode ser invocada em alguns locais e a tripulação lutará desesperadamente para
+  detê-lo! Certifique-se de ter cultistas e equipamentos suficientes para resistir ao ataque.
+  - 9. Reúna 10 cultistas na runa final para invocar Nar-Sie!
 
-  ## Ritual Dagger
+  ## Adaga Ritual
 
   <Box>
     <GuideEntityEmbed Entity="RitualDagger" Caption="Ritual Dagger"/>
   </Box>
 
-  Your dagger is your most important tool and has several functions:
+  Sua adaga é sua ferramenta mais importante e tem várias funções:
 
-  - You can draw runes with it.
-  - Hitting a non-cultist with it will result in you stabbing them (huh), dealing 15 piercing damage.
-  - Using it on the rune with erase it.
-  - Using it on the cult barrier will remove it.
+  - Você pode desenhar runas com ela.
+  - Atingir um não cultista com ela resultará em você esfaqueá-lo (hum), causando 15 de dano perfurante.
+  - Usá-la na runa a apagará.
+  - Usá-la na barreira do culto a removerá.
 
-  ## Minor Runes
+  ## Runas Menores
 
-  These are minor runes cultists can draw anywhere on the station.
+  Estas são runas menores que os cultistas podem desenhar em qualquer lugar da estação.
 
   <Box Orientation="Vertical" HorizontalAlignment="Center">
     <Box>
       <GuideEntityEmbed Entity="CultRuneOffering" Caption="Rune of Offering"/>
     </Box>
-    Can be used to convert or sacrifice targets on it. It takes two cultists to convert someone.
+    Pode ser usado para converter ou sacrificar alvos. São necessários dois cultistas para converter alguém.
 
-    [bold]REMINDER: One cultist is required to sacrifice a dead body and three for a live one,
-    standing adjacent to the rune. Each sacrifice will add to the Cult's total number of sacrifices, which are used
-    to revive deceased bretheren instantly over a Revival Rune.[/bold]
+    [bold]LEMBRETE: Um cultista precisa sacrificar um cadáver e três para um vivo,
+    permanecendo ao lado da runa. Cada sacrifício será adicionado ao número total de sacrifícios do Culto, que são usados
+    para reviver irmãos falecidos instantaneamente com uma Runa de Renascimento.[/bold]
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneEmpower" Caption="Rune of Empower"/>
     </Box>
-    Grants a buff allowing cultists to prepare greater amounts of blood magic at far less of a cost. While you have
-    it, the spell count is capped at 4 instead of 1. Additionally, drawing runes takes far less time and you don't
-    lose as much blood while doing it.
+    Concede um bônus que permite aos cultistas preparar maiores quantidades de magia de sangue a um custo muito menor. Enquanto você a tiver,
+    a contagem de magias será limitada a 4 em vez de 1. Além disso, desenhar runas leva muito menos tempo e você não
+    perde tanto sangue ao fazê-lo.
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneTeleport" Caption="Rune of Teleportation"/>
     </Box>
-    This rune warps everything above it to another teleport rune when used. Creating a teleport rune will allow you to
-    set a tag for it.
+    Esta runa teletransporta tudo acima dela para outra runa de teletransporte quando usada. Criar uma runa de teletransporte permitirá que você
+    defina uma tag para ela.
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneRevive" Caption="Rune of Rejuvenation"/>
     </Box>
-    Placing a cultist corpse on the rune and activating it will bring them back to life. Consumes one charge on use
-    and starts with three freebie revivals, so use it sparingly. .
+    Colocar um cadáver de cultista na runa e ativá-la o trará de volta à vida. Consome uma carga ao usar
+    e começa com três renascimentos gratuitos, então use com moderação.
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneBarrier" Caption="Rune of Barrier"/>
     </Box>
-    When invoked, makes a temporary barrier to block passage.
+    Quando invocado, cria uma barreira temporária para bloquear a passagem.
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneSummoning" Caption="Rune of Summoning"/>
     </Box>
-    This rune allows you to instantly summon any living cultist to the rune, consuming it afterward. Does not work on
-    restrained cultists who are buckled or being pulled.
+    Esta runa permite que você invoque instantaneamente qualquer cultista vivo para a runa, consumindo-a em seguida. Não funciona em
+    cultistas imobilizados que estejam presos ou sendo puxados.
 
     <Box>
       <GuideEntityEmbed Entity="CultRuneBloodBoil" Caption="Rune of Boiling Blood"/>
     </Box>
-    When invoked, it saps some health from the invokers to send three damaging pulses to anyone who can see the
-    rune and ignites them.
+    Quando invocada, ela drena um pouco da vida dos invocadores para enviar três pulsos danosos a qualquer um que possa ver a runa
+    e os incendeia.
   </Box>
 
-  ## Major runes
+  ## Runas Principais
 
-  These are the major runes cultists can draw once they meet certain conditions. They need a free 3x3 space, and can only
-  be summoned in 3 areas around the station (or have 3 global charges). Depleting all of them makes you unable to draw
-  them anymore. So be careful not to consume all of them with apocalypse runes or you'll never be able to summon
+  Estas são as runas principais que os cultistas podem sacar quando atendem a certas condições. Elas precisam de um espaço livre de 3x3 e só podem
+  ser invocadas em 3 áreas ao redor da estação (ou ter 3 cargas globais). Esgotar todas elas torna você incapaz de sacá-las
+  mais. Portanto, tome cuidado para não consumir todas elas com runas de apocalipse ou você nunca mais poderá invocar
   Nar'Sie!
 
   <Box>
     <GuideEntityEmbed Entity="CultRuneApocalypse" Caption="Rune of Apocalypse"/>
   </Box>
 
-  A harbinger of the end times. It scales depending on the crew's strength relative to the cult. Effect includes a
-  massive EMP, total blackout, solar flare and if the cult is doing poorly, certain events. If the cult makes up to
-  less than 15% of current players, and an apocalypse rune is activated, a random event will
-  occur:
-  - Immovable Rod x3
-  - Mouse Migration x2
-  - Meteor Swarm x2
-  - Vent Crickets x3
-  - Four Random Anomalies
-  - Kudzu Growth x2
-  - Vendor Mimics x2
+  Um prenúncio do fim dos tempos. Ele escala dependendo da força da tripulação em relação ao culto. O efeito inclui um
+  PEM massivo, apagão total, explosão solar e, se o culto estiver indo mal, certos eventos. Se o culto representar
+  menos de 15% dos jogadores atuais e uma runa de apocalipse for ativada, um evento aleatório
+  ocorrerá:
+  - Bastão Imóvel x3
+  - Migração de Ratos x2
+  - Enxame de Meteoros x2
+  - Grilos de Ventilação x3
+  - Quatro Anomalias Aleatórias
+  - Crescimento de Kudzu x2
+  - Mímicos de Vendedores x2
 
   <Box>
     <GuideEntityEmbed Entity="CultRuneDimensionalRending" Caption="Rune of Dimensional Rending"/>
   </Box>
-  This rune tears apart dimensional barriers, calling forth the Geometer. To start drawing it the requested target
-  must have already been sacrificed. Starting to draw this rune alarms the entire station of its location. The caster
-  must be defended for 45 seconds before it's complete.
-  After it's drawn, 10 cultists, constructs, or summoned ghosts must stand on the rune, which can then be invoked to
-  manifest Nar'Sie itself.
+  Esta runa rompe barreiras dimensionais, invocando o Geômetra. Para começar a desenhar, o alvo solicitado
+  deve já ter sido sacrificado. Começar a desenhar esta runa alerta toda a estação sobre sua localização. O conjurador
+  deve ser defendido por 45 segundos antes de ser concluído.
+  Após ser desenhada, 10 cultistas, constructos ou fantasmas invocados devem ficar sobre a runa, que pode então ser invocada para
+  manifestar a própria Nar'Sie.
 
-  ## Blood Spells
+  ## Feitiços de Sangue
 
-  Blood Spells are limited-use blood magic spells that dissipate after they're spent, and they're your bread and butter
-  when fighting the crew. Blood Spells can be created at any time via a menu when right clicking your character.
-  However, blood spells created without an Empowering Rune will take longer, cause significant blood loss, and
-  will cap your spell count at a measly one
+  Feitiços de Sangue são feitiços de magia de sangue de uso limitado que se dissipam após serem gastos e são seu ganha-pão
+  ao lutar contra a tripulação. Feitiços de Sangue podem ser criados a qualquer momento através de um menu ao clicar com o botão direito do mouse no seu personagem.
+  No entanto, feitiços de sangue criados sem uma Runa de Fortalecimento levarão mais tempo, causarão perda significativa de sangue e
+  limitarão sua contagem de feitiços a um número irrisório.
 
-  A good tip is to make sure to try and have a stun spell and a teleport spell with you to escape risky situations. This
-  will leave only two other options for spells though, so carefully choose what you think might help best for a
-  particular situation.
+  Uma boa dica é certificar-se de ter um feitiço de atordoamento e um feitiço de teletransporte com você para escapar de situações arriscadas. Isso deixará apenas duas outras opções de magias, então escolha cuidadosamente o que você acha que pode ajudar melhor em uma situação específica.
 
 
-  ## Constructs
+  ## Construtos
 
-  Shades and constructs are slaved to their masters will. They must follow the orders of their master at any cost. They
-  are capable of grasping intent, unlike synthetic beings. Constructs created by cultists automatically become cultists
-  themselves, allowing them to identify their team mates, and even count for the escape objective.
+  Sombras e construtos são escravos da vontade de seus mestres. Eles devem seguir as ordens de seu mestre a qualquer custo. Eles
+  são capazes de captar intenções, ao contrário de seres sintéticos. Construtos criados por cultistas tornam-se cultistas automaticamente
+  eles próprios, permitindo-lhes identificar seus companheiros de equipe e até mesmo contar para o objetivo de fuga.
 
   <Box>
     <GuideEntityEmbed Entity="ShadeCult" Caption="Shade"/>
   </Box>
-  Shades are fragile, but being recaptured into their soul shard heals them. Useful if you quickly need someone to help
-  you activate a rune.
+  Sombras são frágeis, mas serem recapturadas em seu fragmento de alma as curam. Útil se você precisar rapidamente de alguém para ajudar
+  você a ativar uma runa.
 
   <Box>
     <GuideEntityEmbed Entity="ConstructArtificer" Caption="Artificer"/>
   </Box>
-  The artificer is the "drone" of the cult. It can construct cult-floors, walls and reinforced walls, as well as take
-  apart the station, but its main purpose is to provide the materials to construct additional constructs. It can create
-  new soul stones or shells after a certain time.
+  O artífice é o "drone" do culto. Ele pode construir pisos, paredes e muros reforçados para o culto, além de desmontar
+  a estação, mas seu principal objetivo é fornecer os materiais para a construção de construções adicionais. Ele pode criar
+  novas pedras da alma ou conchas após um certo tempo.
 
   <Box>
     <GuideEntityEmbed Entity="ConstructWraith" Caption="Wraith"/>
   </Box>
-  The wraith is a tiny bit more fragile than a human but has a strong melee attack. It can become invisible and travel
-  through closed doors and even walls by using it's phase shift ability.
+  O espectro é um pouco mais frágil que um humano, mas possui um forte ataque corpo a corpo. Ele pode se tornar invisível e atravessar
+  portas fechadas e até paredes usando sua habilidade de mudança de fase.
 
   <Box>
     <GuideEntityEmbed Entity="ConstructJuggernaut" Caption="Juggernaut"/>
   </Box>
-  Juggernauts are strong, slow and have lots of health. They can destroy any wall by simply punching it and do more
-  damage than Wraiths. They cannot be pushed or grabbed and even have a force-wall ability similar to the wizard spell.
+  JUggernauts são fortes, lentos e têm muita vida. Eles podem destruir qualquer parede com um simples soco e causar mais
+  dano do que Espectros. Eles não podem ser empurrados ou agarrados e até têm uma habilidade de parede de força semelhante à magia de mago.
 
-  ## Tips
-  - Only cultists can know a rune's name and effects by examining it.
-  - Always be ready to summon a cultist in trouble. You can't summon them if they're already cuffed.
-  - Keeping a shade in a Soulstone Shard with you will allow you to use two-person runes by yourself, by releasing and
-  then recapturing the shade.
-  - Cultists often find a use for medibots. Having a single bot with a low threshold, backed up by brutepacks or pylons,
-  can keep your cult in fighting shape.
-  - The EMP spell and Apocalypse Rune are both incredibly useful. They can give you access almost anywhere, just don't
-  forget your crowbar!
+  ## Dicas
+  - Somente cultistas podem saber o nome e os efeitos de uma runa examinando-a.
+  - Esteja sempre pronto para invocar um cultista em apuros. Você não pode invocá-lo se ele já estiver algemado.
+  - Manter uma sombra em um Fragmento de Pedra da Alma com você permitirá que você use runas de duas pessoas sozinho, liberando e
+  recapturando a sombra.
+  - Cultistas frequentemente encontram utilidade para medibots. Ter um único bot com um limite baixo, apoiado por grupos de brutamontes ou torres,
+  pode manter o seu culto em forma para lutar.
+  - A magia PEM e a Runa do Apocalipse são incrivelmente úteis. Elas podem te dar acesso a quase qualquer lugar, só não
+  se esqueça do seu pé de cabra!
 </Document>

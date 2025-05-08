@@ -1,7 +1,7 @@
 <Document>
-  # Minor Antagonists
+  #Antagonistas Menores
 
-  Most if not all Minor Antagonists are ghost-controlled roles that gives dead people new ways to cause chaos around the station. They are spawned by random events.
+  A maioria, senão todos os Antagonistas Menores, são personagens controlados por fantasmas que dão aos mortos novas maneiras de causar o caos na estação. Eles surgem por eventos aleatórios.
 
   # Revenant
 
@@ -10,51 +10,51 @@
     <GuideEntityEmbed Entity="Ectoplasm" Caption=""/>
   </Box>
 
-  A Revenant is given powers to haunt the crew and steal life essence from them.
+  Um Revenant recebe poderes para assombrar a tripulação e roubar essência vital deles.
 
-  ## Essence
+  ## Essência
 
-  - Your [color=#a4885c]essence[/color] is your very own life force and a way to use abilities for a cost, don't let it drop to 0.
-  - To gain [color=#a4885c]essence[/color] you first inspect various souls for their worth. More worthy souls grant more essence.
-  However merely checking their worth isn't enough for collecting [color=#a4885c]essence[/color]. You must siphon it either when the victim is critical, dead, or sleeping.
-  - A good start is to go to medical or dorms but be wary, you are vulnerable to attacks when you siphon a soul. Taking damage reduces your [color=#a4885c]essence[/color]! So plan your attacks wisely.
+  - Sua [color=#a4885c]essência[/color] é sua própria força vital e uma forma de usar habilidades por um custo, não deixe que ele caia para 0.
+  - Para obter [color=#a4885c]essência[/color], você primeiro inspeciona várias almas para verificar seu valor. Almas mais dignas concedem mais essência.
+  No entanto, apenas verificar seu valor não é suficiente para coletar [color=#a4885c]essência[/color]. Você deve ceifa-la quando a vítima estiver em estado crítico, morta ou dormindo.
+  - Um bom começo é ir ao pronto-socorro ou aos dormitórios, mas tenha cuidado, você fica vulnerável a ataques ao ceifar uma alma. Receber dano reduz sua [color=#a4885c]essência[/color]! Portanto, planeje os seus ataques com sabedoria.
 
-  ## Shop And Powers
+  ## Loja e Poderes
 
-  - Using [color=#a4885c]stolen essence[/color] gotten from siphoning souls, you can gain skills for mischief such as environmental destruction, electrical disruption, and electrocution through the shop.
-  - Using powers leave you vulnerable to attacks for some time, plan ahead and prepare before attacking.
+  - Usando [color=#a4885c]essência roubada[/color] obtida ao sugar almas, você pode adquirir habilidades para causar danos, como destruição ambiental, interrupção elétrica e eletrocussão na loja.
+  - Usar poderes deixa você vulnerável a ataques por algum tempo, então planeje e prepare-se antes de atacar.
 
-  # Rat King
+  # Rei Rato
 
   <Box>
     <GuideEntityEmbed Entity="MobRatKing" Scale="2.4" Caption="Normal Rat King"/>
     <GuideEntityEmbed Entity="MobRatKingBuff" Caption="Buff Rat King"/>
   </Box>
 
-  A Rat King is a giant rat capable of setting a nest and creating rats to do their bidding (usually to get food).
+  Um Rei Rato é um rato gigante capaz de construir um ninho e criar ratos para atender às suas ordens (geralmente para obter comida).
 
-  ## Abilities
+  ## Habilidades
 
-  Abilities come at a cost to the Rat King's hunger. Simply eating replenishes it.
+  As habilidades têm um custo para a fome do Rei Rato. Simplesmente comer a repõe.
 
   <Box>
    <GuideEntityEmbed Entity="MobMouse" Caption="Normal Mouse"/>
    <GuideEntityEmbed Entity="MobRatServant" Caption="Rat Servant"/>
   </Box>
-  - Raise an Army of [color=#a4885c]Rat Servants[/color].
-  - Conjure a cloud of ammonia.
+  - Crie um Exército de [color=#a4885c]Servos Ratos[/color].
+  - Conjure uma nuvem de amônia.
 
-  # Space Dragon
+  # Dragão Espacial
 
   <Box>
     <GuideEntityEmbed Entity="MobDragon" Caption=""/>
   </Box>
 
-  A Space Dragon is a giant dragon that creates space carp rifts and eats the crew.
+  Um Dragão Espacial é um dragão gigante que cria fendas de carpas espaciais e devora a tripulação.
 
-  ## Abilities
+  ## Habilidades
 
-  - Devour critical or dead victims.
+  - Devorar vítimas críticas ou mortas.
 
   <Box>
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
@@ -62,6 +62,6 @@
     <GuideEntityEmbed Entity="MobCarp" Caption=""/>
   </Box>
 
-  - Summon a Carp Rift that periodically spawns [color=#a4885c]Space Carp[/color].
+  - Invoca uma Fenda de carpa que periodicamente gera [color=#a4885c]Carpas Espaciais[/color].
 
 </Document>
