@@ -1,8 +1,8 @@
 <Document>
 
-# Core Medications
+  # Medicamentos Essenciais
 
-These medications are almost always useful to medbay in one way or another.
+  Esses medicamentos são quase sempre úteis para o Medbay de uma forma ou de outra.
 
 <GuideReagentEmbed Reagent="Bicaridine"/>
 <GuideReagentEmbed Reagent="Kelotane"/>
@@ -13,9 +13,9 @@ These medications are almost always useful to medbay in one way or another.
 <GuideReagentEmbed Reagent="DexalinPlus"/>
 <GuideReagentEmbed Reagent="Iron"/>
 
-# Specialty Medications
+  # Medicamentos Especiais
 
-These medications tend to have specific use cases.
+  Esses medicamentos tendem a ter casos de uso específicos.
 
 <GuideReagentEmbed Reagent="Cryoxadone"/>
 <GuideReagentEmbed Reagent="Epinephrine"/>
