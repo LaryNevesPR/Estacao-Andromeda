@@ -84,7 +84,6 @@ public sealed partial class TTSSystem : EntitySystem
             || args.Message.Length > MaxChars)
             return;
         string newMessage = args.Message;
-        _sawmill.Info(args.Language.ID);
         if (args.Language != null && args.Language.ID != "TauCetiBasic")
             newMessage = _language.ObfuscateSpeech(args.Message, args.Language);
 
@@ -260,7 +259,7 @@ public sealed partial class TTSSystem : EntitySystem
 
     private async Task<byte[]?> GenerateTTS(string text, int voice, bool isRadio = false, bool isAnnounce = false)
     {
-        _sawmill.Warning($"TTS System Log a: {text}");
+        //_sawmill.Warning($"TTS System Log: {text}");
         try
         {
             text = DecimalConverter().Replace(text, " point ");
@@ -272,7 +271,6 @@ public sealed partial class TTSSystem : EntitySystem
             if (text == "") return null;
             if (char.IsLetter(text[^1]))
                 text += ".";
-            _sawmill.Warning($"TTS System Log f: {text}");
 
             return isRadio
                ? await _ttsManager.ConvertTextToSpeechRadio(voice, text)

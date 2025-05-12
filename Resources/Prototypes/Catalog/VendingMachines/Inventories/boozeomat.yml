@@ -41,6 +41,7 @@
     DrinkVodkaBottleFull: 5
     DrinkWhiskeyBottleFull: 5
     DrinkWineBottleFull: 5
+    DrinkVampiricBottleFull: 3 # Andromeda - Blood Wine
     DrinkChampagneBottleFull: 2 #because the premium drink
     DrinkSakeBottleFull: 2 # DeltaV - Sake bottle
     DrinkSojuBottleFull: 2 # DeltaV - Soju bottle

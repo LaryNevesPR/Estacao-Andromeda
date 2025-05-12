@@ -1,8 +1,8 @@
 <Document>
 
-# Botanical Chemicals
+  # Produtos Químicos Botânicos
 
-These chemicals are used by botanists. Some of the chemicals change the properties of the plants.
+  Esses produtos químicos são usados por botânicos. Alguns deles alteram as propriedades das plantas.
 
 <GuideReagentEmbed Reagent="Ammonia"/>
 <GuideReagentEmbed Reagent="Diethylamine"/>

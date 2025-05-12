@@ -1,0 +1,18 @@
+
+    - type: entity
+      parent: [DrinkBottleVisualsOpenable, DrinkBottlePlasticBaseFull]
+      id: DrinkVampiricBottleFull
+      name: Blood Wine Bottle
+      description: Pure blood for vampires.
+      components:
+      - type: SolutionContainerManager
+        solutions:
+          drink:
+            reagents:
+            - ReagentId: Blood
+              Quantity: 100
+      - type: Label
+        currentLabel: Blood
+      - type: Sprite
+        sprite: _Andromeda\Objects\Consumable\Drinks\vampiricwinebottle.rsi
+      - type: Sealable
