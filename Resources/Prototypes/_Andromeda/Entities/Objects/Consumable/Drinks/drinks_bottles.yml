@@ -14,5 +14,5 @@
       - type: Label
         currentLabel: Blood
       - type: Sprite
-        sprite: _Andromeda\Objects\Consumable\Drinks\vampiricwinebottle.rsi
+        sprite: _Andromeda/Objects/Consumable/Drinks/vampiricwinebottle.rsi
       - type: Sealable
