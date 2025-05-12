@@ -8,7 +8,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_box
 
 - type: decal
@@ -16,7 +16,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_corner_ne
 
 - type: decal
@@ -24,7 +24,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_corner_se
 
 - type: decal
@@ -32,7 +32,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_corner_nw
 
 - type: decal
@@ -40,7 +40,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_corner_sw
 
 - type: decal
@@ -48,7 +48,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_inner_ne
 
 - type: decal
@@ -56,7 +56,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_inner_se
 
 - type: decal
@@ -64,7 +64,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_inner_nw
 
 - type: decal
@@ -72,7 +72,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_inner_sw
 
 - type: decal
@@ -80,7 +80,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_end_n
 
 - type: decal
@@ -88,7 +88,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_end_e
 
 - type: decal
@@ -96,7 +96,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_end_s
 
 - type: decal
@@ -104,7 +104,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_end_w
 
 - type: decal
@@ -112,7 +112,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_line_n
 
 - type: decal
@@ -120,7 +120,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_line_e
 
 - type: decal
@@ -128,7 +128,7 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_line_s
 
 - type: decal
@@ -136,6 +136,6 @@
   parent: BrickTileWhite
   tags: ["station", "markings"]
   sprite:
-    sprite: Decals/bricktile.rsi
+    sprite: DeltaV/Decals/bricktile.rsi #Delta V - Retexture Decals
     state: white_line_w
 
