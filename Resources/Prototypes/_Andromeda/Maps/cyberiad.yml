@@ -1,7 +1,7 @@
 - type: gameMap
   id: AndromedaCyberiad
   mapName: 'Cyberiad Station'
-  mapPath: /Maps/cyberiad.yml
+  mapPath: /Maps/_Andromeda/cyberiad.yml
   minPlayers: 30
   maxPlayers: 85
   stations:
