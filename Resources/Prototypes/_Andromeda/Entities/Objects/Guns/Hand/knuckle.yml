@@ -1,0 +1,20 @@
+- type: entity
+  parent: ClothingHandsBase
+  id: Knuckle
+  name: soco inglês
+  description: Nada melhor do que resolver a confusão do bar com mais violência!
+  components:
+    - type: Sprite
+      sprite: _Andromeda/Objects/Weapons/Guns/Knuckle/knuckle.rsi
+    - type: Clothing
+      sprite: _Andromeda/Objects/Weapons/Guns/Knuckle/knuckle.rsi
+    - type: StaminaDamageOnHit
+      damage: 15
+    - type: MeleeWeapon
+      soundHit:
+        path: "/Audio/Weapons/smash.ogg"
+      autoAttack: true
+      attackRate: 0.8
+      damage:
+        types:
+          Blunt: 7
