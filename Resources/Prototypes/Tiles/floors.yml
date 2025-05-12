@@ -8,10 +8,10 @@
   - 1.0
   - 1.0
   - 1.0  
-  - 1.0
-  - 0.3
-  - 1.0
-  - 0.3
+  #- 1.0
+  #- 0.3
+  #- 1.0
+  #- 0.3
   baseTurf: Plating
   isSubfloor: false
   deconstructTools: [ Prying ]
