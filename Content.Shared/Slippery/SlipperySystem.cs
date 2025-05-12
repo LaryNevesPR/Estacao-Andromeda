@@ -74,7 +74,7 @@ public sealed class SlipperySystem : EntitySystem
                 && _statusEffects.CanApplyEffect(toSlip, "Stun"); //Should be KnockedDown instead?
     }
 
-    public void TrySlip(EntityUid uid, SlipperyComponent component, EntityUid other)
+    private void TrySlip(EntityUid uid, SlipperyComponent component, EntityUid other)
     {
         if (HasComp<KnockedDownComponent>(other) && !component.SuperSlippery)
             return;
