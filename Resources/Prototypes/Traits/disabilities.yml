@@ -351,3 +351,27 @@
               Piercing: 4
             groups:
               Burn: 3
+
+- type: trait
+  id: Desajeitado
+  category: Physical
+  points: 1
+  requirements:
+  - !type:CharacterJobRequirement
+    inverted: true
+    jobs:
+    - Borg
+    - MedicalBorg
+  - !type:CharacterLifepathRequirement
+    inverted: true
+    lifepaths:
+    - Clone
+  - !type:CharacterSpeciesRequirement
+    inverted: true
+    species:
+    - IPC
+  functions:
+  - !type:TraitAddComponent
+    components:
+    - type: Desastrado
+      timeBetweenIncidents: 30, 60
