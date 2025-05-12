@@ -1,10 +1,10 @@
 <Document>
-# Medical
-This is the department where people go to when they're hurt, it's up to the folks working here to fix them.
+  # Médico
+  Este é o departamento para onde as pessoas vão quando se machucam; cabe às pessoas que trabalham aqui curá-las.
 
-Right now, medbay is divided into two different sets of care:
+  Atualmente, o Medbay está dividido em dois conjuntos de cuidados diferentes:
 
-## Medical Treatment
+  ## Tratamento Médico
 <Box>
 <GuideEntityEmbed Entity="Brutepack"/>
 <GuideEntityEmbed Entity="Bloodpack"/>
@@ -12,7 +12,7 @@ Right now, medbay is divided into two different sets of care:
 <GuideEntityEmbed Entity="Gauze"/>
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
 </Box>
-## Chemical Production
+  ## Produção Química
 <Box>
 <GuideEntityEmbed Entity="ChemDispenser"/>
 <GuideEntityEmbed Entity="LargeBeaker"/>

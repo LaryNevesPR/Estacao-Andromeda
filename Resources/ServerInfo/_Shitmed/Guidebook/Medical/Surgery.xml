@@ -1,27 +1,27 @@
 <Document>
-# Surgery
-Your usual weekly activity. By performing surgical operations on your patients, you can heal wounds, remove or add body parts, organs, and more.
+  # Cirurgia
+  Sua atividade semanal habitual. Ao realizar operações cirúrgicas em seus pacientes, você pode curar feridas, remover ou adicionar partes do corpo, órgãos e muito mais.
 
-## The Basics
-To start surgery your patient needs to be laying down, and ideally sedated.
+  ## Noções básicas
+  Para iniciar a cirurgia, seu paciente precisa estar deitado e, idealmente, sedado.
 
-If they are not sedated, they will be in a lot of pain, which decreases their mood, and will make surgical wounds worse.
+  Se não estiver sedado, sentirá muita dor, o que diminui seu humor e piora as feridas cirúrgicas.
 
 <Box>
 <GuideEntityEmbed Entity="NitrousOxideTank" Caption="nitrous oxide"/>
 <GuideEntityEmbed Entity="ClothingMaskBreathMedical" Caption="any breathing tool"/>
 </Box>
 
-You also need to wear protective gear such as a mask and gloves to prevent harming the patient due to contamination.
+  Você também precisa usar equipamentos de proteção, como máscara e luvas, para evitar danos ao paciente devido à contaminação.
 
 <Box>
 <GuideEntityEmbed Entity="ClothingMaskSterile" Caption="any mask"/>
 <GuideEntityEmbed Entity="ClothingHandsGlovesNitrile" Caption="any gloves"/>
 </Box>
 
-## Getting Started
+  ## Começando
 
-To engage in surgery, you'll need a set of surgical tools.
+  Para realizar uma cirurgia, você precisará de um conjunto de instrumentos cirúrgicos.
 
 <Box>
 <GuideEntityEmbed Entity="Scalpel" Caption="scalpel"/>
@@ -35,11 +35,11 @@ To engage in surgery, you'll need a set of surgical tools.
 <GuideEntityEmbed Entity="BoneGel" Caption="bone gel"/>
 </Box>
 
-Once you've got tools in hand, interact with your patient to begin surgery. You'll be able to choose which part you want to operate on.
+  Depois de ter as ferramentas em mãos, interaja com o paciente para iniciar a cirurgia. Você poderá escolher qual parte deseja operar.
 
-## Ghetto Surgery
+  ## Cirurgia do Gueto
 
-Certain non-surgical tools can be used in a pinch, use the scalpel examine icon to see how good or bad something is.
+  Certos instrumentos não cirúrgicos podem ser usados em caso de emergência. Use o ícone de bisturi para examinar o paciente e verificar se algo está bom ou ruim.
 <Box>
 <GuideEntityEmbed Entity="Welder" Caption="welder"/>
 <GuideEntityEmbed Entity="Wirecutter" Caption="wirecutter"/>
@@ -47,6 +47,6 @@ Certain non-surgical tools can be used in a pinch, use the scalpel examine icon 
 <GuideEntityEmbed Entity="Crowbar" Caption="crowbar"/>
 </Box>
 
-They aren't ideal compared to real surgical equipment, but they'll do in a pinch!
+  Eles não são ideais se comparados aos equipamentos cirúrgicos reais, mas servem em caso de emergência!
 
 </Document>
