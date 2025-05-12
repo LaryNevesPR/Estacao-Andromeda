@@ -43,6 +43,8 @@
         amount: 2
       - id: LunchboxServiceFilledRandom # Delta-V Lunchboxes!
         prob: 0.3
+      - id: Knuckle
+        amount: 2
 
 #- type: entity
 #  id: LockerFormalFilled
