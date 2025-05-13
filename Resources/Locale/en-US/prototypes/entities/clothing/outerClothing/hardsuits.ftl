@@ -146,3 +146,5 @@ ent-ClothingOuterHardsuitMime = mime vacsuit
     .desc = A custom-made mime vacsuit. On closer inspection, it appears to be a normal vacsuit with suspenders and paint applied on top.
 ent-ClothingOuterHardsuitSanta = DNK-31 "Jolly" hardsuit
     .desc = A festive hardsuit produced by Donk Co. for their time-limited celebratory events, provides protection for its jolly gift-giver to sleighride safely in space without worrying about asteroid strikes.
+ent-ClothingOuterHardsuitSpartan = Mk. IV "Prophet" hardsuit
+    .desc = A highly advanced, combat hardsuit developed for supersoldiers. The armor appears to be lined with a very sturdy alloy, it feels a bit heavy.

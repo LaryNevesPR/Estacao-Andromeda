@@ -1,0 +1,32 @@
+#Spartan Hardsuit - adição por SrKolobanov.
+- type: entity
+  parent: ClothingOuterHardsuitBaseMedium
+  id: ClothingOuterHardsuitSpartan
+  name: spartan hardsuit
+  description: A advanced combat hardsuit developed for supersoldiers.
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Clothing/Uniforms/Hardsuits/spartan.rsi
+  - type: Clothing
+    sprite: _Andromeda/Clothing/Uniforms/Hardsuits/spartan.rsi
+  - type: PressureProtection
+    highPressureMultiplier: 0.5
+    lowPressureMultiplier: 1000
+  - type: ExplosionResistance
+    damageCoefficient: 0.25 # 75%
+  - type: Armor # Valores podem ser modificados para balanceamento.
+    modifiers:
+      coefficients:
+        Blunt: 0.35 # 65%
+        Slash: 0.35 # 65%
+        Piercing: 0.35 # 65%
+        Caustic: 0.45 # 55%
+        Heat: 0.45 # 55%
+  - type: ClothingSpeedModifier
+    walkModifier: 0.65 # 35%
+    sprintModifier: 0.65 # 35%
+  - type: HeldSpeedModifier
+  - type: ToggleableClothing
+    clothingPrototype: ClothingHeadHelmetHardsuitSpartan
+  - type: StaminaDamageResistance
+    coefficient: 0.45 # 55%
