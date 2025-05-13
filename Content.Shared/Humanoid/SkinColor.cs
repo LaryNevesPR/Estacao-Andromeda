@@ -344,4 +344,5 @@ public enum HumanoidSkinColor : byte
     TintedHues, //This gives a color tint to a humanoid's skin (10% saturation with full hue range).
     TintedHuesSkin, // DeltaV - Default TintedHues assumes the texture will have the proper skin color, but moths dont
     AnimalFur, // Einstein Engines - limits coloration to more or less what earthen animals might have
+    None, // No custom colors. Sunrise-edit
 }

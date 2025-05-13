@@ -1,21 +1,20 @@
 # © SUNRISE, An EULA/CLA with a hosting restriction, full text: https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt
 - type: species
   id: HumanoidXeno
-  name: Ксеноморф
+  name: Xenomorfo
   roundStart: true
   prototype: MobHumanoidXeno
   sprites: MobHumanoidXenoSprites
   markingLimits: MobHumanoidXenoMarkingLimits
   dollPrototype: MobXenoDummy
   skinColoration: TintedHues
-  sponsorOnly: true
 
 - type: speciesBaseSprites
   id: MobHumanoidXenoSprites
   sprites:
     Head: MobHumanoidXenoHead
     Chest: MobHumanoidXenoTorso
-    Tail: MobHumanoidAnyMarking # Corvax-Sponsors
+    Tail: MobHumanoidAnyMarking # Corvax
     LArm: MobHumanoidXenoLArm
     RArm: MobHumanoidXenoRArm
     LHand: MobHumanoidXenoLHand
@@ -40,16 +39,34 @@
       required: true
       defaultMarkings: [ HumanoidXenoTailsDefault ]
     HeadTop:
-      points: 0
+      points: 1
       required: false
     Chest:
-      points: 0
+      points: 7
       required: false
-    Legs:
-      points: 0
+    RightLeg:
+      points: 7
       required: false
-    Arms:
-      points: 0
+    RightFoot:
+      points: 7
+      required: false
+    LeftLeg:
+      points: 7
+      required: false
+    LeftFoot:
+      points: 7
+      required: false
+    RightArm:
+      points: 7
+      required: false
+    RightHand:
+      points: 7
+      required: false
+    LeftArm:
+      points: 7
+      required: false
+    LeftHand:
+      points: 7
       required: false
 
 - type: humanoidBaseSprite
