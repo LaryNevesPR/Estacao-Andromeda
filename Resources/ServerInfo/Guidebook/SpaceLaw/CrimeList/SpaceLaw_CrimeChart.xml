@@ -66,29 +66,29 @@
     </ColorBox>
     <ColorBox Color="#c02c2c">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Perturbação (V)
+        Perturbação (H)
       </Box>
     </ColorBox>
     <ColorBox Color="#c02c2c">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Agressão (V)
+        Agressão (H)
       </Box>
     </ColorBox>
     <ColorBox Color="#c02c2c">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Agressão
-        \nagravada (V)
+        \nagravada (H)
       </Box>
     </ColorBox>
     <ColorBox Color="#c02c2c">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Assassinato (V)
+        Assassinato (H)
       </Box>
     </ColorBox>
     <ColorBox Color="#c02c2c">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Assassinato
-        \nem Massa/Latrocíonio (V)
+        \nem Massa/Primário (H)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -102,25 +102,25 @@
     </ColorBox>
     <ColorBox Color="#707c84">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Furto (F)
+        Furto (R)
       </Box>
     </ColorBox>
     <ColorBox Color="#707c84">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Roubo/Fraude
-        \nMenor (F)
+        \nMenor (R)
       </Box>
     </ColorBox>
     <ColorBox Color="#707c84">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Roubo/Fraude
-        \nMaior (F)
+        \nMaior (R)
       </Box>
     </ColorBox>
     <ColorBox Color="#707c84">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Roubo/Fraude
-        \nAlto Valor (F)
+        \nAlto Valor (R)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -177,19 +177,19 @@
     <ColorBox Color="#58181F">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Agente
-        \nHostil (H)
+        \nHostil (AH)
       </Box>
     </ColorBox>
     <ColorBox Color="#58181F">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Atividade
-        \nHostil (H)
+        \nHostil (AH)
       </Box>
     </ColorBox>
     <ColorBox Color="#58181F">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Inimigo da
-        \nEstação (H)
+        \nEstação (AH)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -200,13 +200,13 @@
     <ColorBox Color="#daa520">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Pertubação
-        \nno Rádio (X)
+        \nno Rádio (P)
       </Box>
     </ColorBox>
     <ColorBox Color="#daa520">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Pertubar
-        \na Paz (X)
+        \na Paz (P)
       </Box>
     </ColorBox>
     <ColorBox Color="#bd5419">
@@ -243,19 +243,19 @@
     </ColorBox>
     <ColorBox Color="#2e195b">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Motins (R)
+        Motins (M)
       </Box>
     </ColorBox>
     <ColorBox Color="#2e195b">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Incitando um
-        \nMotim (R)
+        \nMotim (M)
       </Box>
     </ColorBox>
     <ColorBox Color="#2e195b">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Subversão
-        \ndo (R)
+        \ndo (M)
         \nComando
       </Box>
     </ColorBox>
@@ -266,8 +266,8 @@
     </ColorBox>
     <ColorBox Color="#555555">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Creating
-        \na Hazard (N)
+        Criar um
+        \nPerigo (N)
       </Box>
     </ColorBox>
     <ColorBox Color="#555555">
@@ -285,14 +285,14 @@
     <ColorBox Color="#775555">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Homicídio culposo
-        \n(V/N)
+        \n(H/N)
       </Box>
     </ColorBox>
     <ColorBox Color="#775555">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Terro
         \nBiologico
-        \n(V/N)
+        \n(H/N)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -306,19 +306,19 @@
     </ColorBox>
     <ColorBox Color="#ba8e23">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Invasão (T)
+        Invasão (I)
       </Box>
     </ColorBox>
     <ColorBox Color="#ba8e23">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Invasão
-        \nde Segurança (T)
+        \nde Segurança (I)
       </Box>
     </ColorBox>
     <ColorBox Color="#ba8e23">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Invasão de
-        \nAlta Segurança (T)
+        \nAlta Segurança (I)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -397,13 +397,13 @@
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Psiônico
-        \nNão relatado (E)
+        \nNão relatado (PS)
       </Box>
     </ColorBox>
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
       Mentindo sobre
-      \nPsiônicos (E)
+      \nPsiônicos (PS)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -412,7 +412,7 @@
     </ColorBox>
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
-        Mindbreaking (E)
+        Mindbreaking (PS)
       </Box>
     </ColorBox>
     <ColorBox>
@@ -431,21 +431,21 @@
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Abuso
-        \nPsiônico (E)
+        \nPsiônico (PS)
       </Box>
     </ColorBox>
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Uso
         \nMalicioso de
-        \nPsiônico (E)
+        \nPsiônico (PS)
       </Box>
     </ColorBox>
     <ColorBox Color="#db7093">
       <Box HorizontalAlignment="Left" VerticalAlignment="Stretch" Margin="2">
         Uso
         \nPerigoso de
-        \nPsiônico (E)
+        \nPsiônico (PS)
       </Box>
     </ColorBox>
     <ColorBox>

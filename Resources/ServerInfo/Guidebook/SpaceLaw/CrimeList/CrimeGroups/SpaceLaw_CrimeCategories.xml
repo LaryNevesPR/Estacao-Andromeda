@@ -25,17 +25,17 @@
 
   Os seguintes grupos de crimes são mostrados abaixo e têm entradas de agrupamento individuais nesta pasta:
   - [textlink="Dano/Crueldade contra Animais (A)" link="Animal SpaceLaw"]
-  - [textlink="Agressão e Homicídio Culposo (V)" link="Assault SpaceLaw"]
-  - [textlink="Contrabando (P)" link="Contraband SpaceLaw"]
-  - [textlink="Perturbação (X)" link="Disruption SpaceLaw"]
+  - [textlink="Agressão e Homicídio Culposo (H)" link="Assault SpaceLaw"]
+  - [textlink="Contrabando (C)" link="Contraband SpaceLaw"]
+  - [textlink="Perturbação (P)" link="Disruption SpaceLaw"]
   - [textlink="Posse/Distribuição de Drogas (D)" link="Drugs SpaceLaw"]
-  - [textlink="Agentes Hostis (H)" link="HostileAgent SpaceLaw"]
+  - [textlink="Agentes Hostis (AH)" link="HostileAgent SpaceLaw"]
   - [textlink="Negligência (N)" link="Negligence SpaceLaw"]
-  - [textlink="Psiônicos (E)" link="Psionics SpaceLaw"]
-  - [textlink="Motins (R)" link="Rioting SpaceLaw"]
+  - [textlink="Psiônicos (PS)" link="Psionics SpaceLaw"]
+  - [textlink="Motins (M)" link="Rioting SpaceLaw"]
   - [textlink="Sabotagem e Vandalismo (S)" link="Sabotage SpaceLaw"]
-  - [textlink="Roubo e Fraude (F)" link="Thievery SpaceLaw"]
-  - [textlink="Invasão (T)" link="Trespassing SpaceLaw"]
+  - [textlink="Roubo e Fraude (R)" link="Thievery SpaceLaw"]
+  - [textlink="Invasão (I)" link="Trespassing SpaceLaw"]
   - [textlink="Encargos não agrupados" link="Ungrouped SpaceLaw"]
 
 </Document>
