@@ -1,25 +1,25 @@
 <Document>
-  # Restricted Weapons - Contraband
-  Many weapons are restricted to Security and Command, but some weapons are allowed for job purposes, whether they be lethal or non-lethal,
-  but should only be handled by those jobs/departments for such cases.
+  # Armas Restritas - Contrabando
+  Muitas armas são restritas à Segurança e Comando, mas algumas armas são permitidas para fins de trabalho, sejam elas letais ou não letais,
+  mas devem ser manuseadas apenas por esses trabalhos/departamentos nesses casos.
 
-  ## Uncategorized (Illegal) Weapons
-  These weapons are illegal in all terms and are only permitted when defending against foreign invaders. Afterwards, they must be turned over to security
-  or considered a crime. Permits may be permitted for [bold]Improvised Weapons[/bold] only.
-  - [color=#cb0000]\[None\][/color] Unlicensed firearms, firearms that are not handled by NanoTrasen or assigned by Security/Command with permit.
-  - [color=#cb0000]\[None\][/color] Exotic weapons (e.g., energy swords), weapons that are not issued by NanoTrasen.
-  - [color=#cb0000]\[None\][/color] Improvised weapons (e.g., baseball bats, pipe tools). Weapons that should not be allowed without a permit.
-  - [color=#cb0000]\[None\][/color] Lethal implants, implants that are not permitted for use by NanoTrasen.
-  - [color=#cb0000]\[None\][/color] Other lethal weapons not listed above, catch-all.
+  ## Sem categoria Armas (Ilegais)
+  Essas armas são ilegais em todos os aspectos e são permitidas apenas para defesa contra invasores estrangeiros. Depois disso, devem ser entregues à segurança
+  ou consideradas crime. Permissões podem ser concedidas apenas para [bold]Armas Improvisadas[/bold].
+  - [color=#cb0000]\[Ninguém\][/color] Armas de fogo sem licença, armas de fogo que não são manuseadas pela NanoTrasen ou atribuídas pela Segurança/Comando com permissão.
+  - [color=#cb0000]\[Ninguém\][/color] Armas exóticas (ex.: espadas de energia), armas que não são fornecidas pela NanoTrasen.
+  - [color=#cb0000]\[Ninguém\][/color] Armas improvisadas (ex.: tacos de beisebol, ferramentas de cano). Armas que não devem ser permitidas sem permissão.
+  - [color=#cb0000]\[Ninguém\][/color] Implantes letais, implantes cujo uso não é permitido pela NanoTrasen.
+  - [color=#cb0000]\[Ninguém\][/color] Outras armas letais não listadas acima, abrangente.
 
-  ## Categorized (Semi-Legal) Weapons
-  These weapons are illegal when used outside the respective job/department, but discretion is advised when making decisions on these.
-  - [color=#cb0000]\[Security\][/color] Lethal firearms (excluding unmarked weapons, specialty tools like proto-kinetic accelerators).
-  - [color=#cb0000]\[Security/Salvage\][/color] Specialty mining tools such as proto-kinetic accelerators, glaives, daggers, and crushers.
-  \[Salvage must use these tools off-station or in authorized operations only, such as self-defense.\]
-  - [color=#cb0000]\[Security/Command\][/color] Command-approved antique weapons (e.g., antique laser gun).
-  - [color=#cb0000]\[Bartender\][/color] Civilian firearms, limited to less-than-lethal ammunition only.
-  - Weapons with permits are permitted for use by any personnel if signed off by Head of Security and/or Captain. These are only allowed with valid
-  reasoning, and Command Personnel should not hand these out without justifications.
+  ## Armas Categorizadas (Semilegais)
+  Estas armas são ilegais quando usadas fora do respectivo trabalho/departamento, mas recomenda-se discrição ao tomar decisões sobre elas.
+  - [color=#cb0000]\[Segurança\][/color] Armas de fogo letais (exceto armas sem identificação e ferramentas especiais, como aceleradores protocinéticos).
+  - [color=#cb0000]\[Segurança/Salvamento\][/color] Ferramentas especiais de mineração, como aceleradores protocinéticos, glaives, adagas e trituradores.
+  \[O salvamento deve usar essas ferramentas fora da estação ou apenas em operações autorizadas, como autodefesa.\]
+  - [color=#cb0000]\[Segurança/Comando\][/color] Armas antigas aprovadas pelo comando (por exemplo, pistola laser antiga).
+  - [color=#cb0000]\[Barman\][/color] Armas de fogo civis, limitadas apenas a munição não letal.
+  - Armas com autorização são permitidas para uso por qualquer funcionário, desde que autorizadas pelo Chefe de Segurança e/ou Capitão. Estas armas são permitidas apenas mediante justificativa válida,
+  e o Pessoal de Comando não deve distribuí-las sem justificativa.
 
 </Document>

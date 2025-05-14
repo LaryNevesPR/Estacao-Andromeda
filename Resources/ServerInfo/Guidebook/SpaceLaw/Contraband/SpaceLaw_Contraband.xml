@@ -1,17 +1,17 @@
 <Document>
-  # Contraband - Restricted Items
-  There are several items, gear, weaponry, and chemical substances that are defined as Contraband when handled by personnel that are not
-  qualified to be handling such restricted entities. The following sections define different contraband that should be looked over when possessed
-  by non-certified personnel.
+  # Contrabando - Itens Restritos
+  Existem diversos itens, equipamentos, armas e substâncias químicas que são definidos como contrabando quando manuseados por pessoal não
+  qualificado para lidar com tais entidades restritas. As seções a seguir definem diferentes tipos de contrabando que devem ser analisados ​​quando em posse
+  por pessoal não certificado.
 
-  Some examples of these are:
-  - A non-Medical personnel handling and distributing narcotics.
-  - A non-Security personnel handling lethal weaponry without a permit.
-  - A non-Command personnel having Command Access and Head of Staff gear.
+  Alguns exemplos são:
+  - Um funcionário não médico que manuseia e distribui narcóticos.
+  - Um funcionário não de segurança que manuseia armamento letal sem autorização.
+  - Um funcionário não de comando com acesso de comando e equipamento de chefe de gabinete.
 
-  There are best defined in their respective sections, listed below:
-  - [textlink="Restricted Gear" link="Gear SpaceLaw"]
-  - [textlink="Restricted Substances" link="Substances SpaceLaw"]
-  - [textlink="Restricted Weapons" link = "Weapons SpaceLaw"]
+  Elas são melhor definidas em suas respectivas seções, listadas abaixo:
+  - [textlink="Equipamento Restrito" link="Gear SpaceLaw"]
+  - [textlink="Substâncias Restritas" link="Substances SpaceLaw"]
+  - [textlink="Armas Restritas" link = "Weapons SpaceLaw"]
 
 </Document>

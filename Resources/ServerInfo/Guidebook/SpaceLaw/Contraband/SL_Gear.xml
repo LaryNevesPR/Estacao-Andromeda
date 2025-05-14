@@ -1,31 +1,31 @@
 <Document>
-  # Restricted Gear - Contraband
-  There are tiers of restricted gear, mostly ranging from Security Personnel to ERT and Central Command personnel, but some gear is allowed for
-  certain jobs, such as Bartender. These sections are sorted.
+  # Equipamentos Restritos - Contrabando
+  Existem níveis de equipamentos restritos, que variam principalmente de Pessoal de Segurança a Pessoal de ERT e Comando Central, mas alguns equipamentos são permitidos para
+  certas funções, como Barman. Essas seções são classificadas.
 
-  ## Uncategorized (Illegal) Gear
-  This gear is considered illegal by all means, and is only ever allowed during station alerts when defending against foreign invaders, and should
-  be turned over to Security afterwards.
-  - [color=#cb0000]\[None\][/color] Unauthorized PDA software, such as uplinks and spyware.
-  - [color=#cb0000]\[None\][/color] Ammunition or explosives not issued by NanoTrasen.
-  - [color=#cb0000]\[None\][/color] Body armor or tactical suits unauthorized for use by crew roles.
-  - [color=#cb0000]\[None\][/color] Communication equipment designed to intercept, decrypt, or bypass corporate channels.
-  - [color=#cb0000]\[None\][/color] Terrorist paraphernalia, including items with clear indicators of association with hostile organizations.
+  ## Equipamento (Ilegal) Sem Categoria
+  Este equipamento é considerado ilegal por todos os meios e só é permitido durante alertas da estação, quando se está defendendo contra invasores estrangeiros, e deve
+  ser entregue à Segurança posteriormente.
+  - [color=#cb0000]\[Ninguém\][/color] Softwares de PDA não autorizados, como uplinks e spywares.
+  - [color=#cb0000]\[Ninguém\][/color] Munições ou explosivos não fornecidos pela NanoTrasen.
+  - [color=#cb0000]\[Ninguém\][/color] Coletes à prova de balas ou trajes táticos não autorizados para uso por membros da tripulação.
+  - [color=#cb0000]\[Ninguém\][/color] Equipamentos de comunicação projetados para interceptar, decifrar ou contornar canais corporativos.
+  - [color=#cb0000]\[Ninguém\][/color] Apetrechos terroristas, incluindo itens com claros indícios de associação com organizações hostis.
 
-  ## Categorized (Semi-Legal) Gear
-  This gear is considered illegal when handled without permits or by personnel that are not associated with these jobs and/or departments.
-  - [color=#cb0000]\[ERT/Central Command\][/color] Equipment and clothing exclusive to Emergency Response Teams (ERT) or Central Command personnel.
-  - [color=#cb0000]\[Command\][/color] Command-level clothing and equipment, including headsets with encrypted channels or access overlays.
-  - [color=#cb0000]\[Security\][/color] Security clothing, protective gear, and equipment that would be found in Security and/or the Armory.
-  - [color=#cb0000]\[Security\][/color] Less-than-lethal and non-lethal weaponry, excluding general-purpose disablers and beanbag shotguns.
-  - [color=#cb0000]\[Security\][/color] Flash technology (e.g., flashbang grenades, flash projectors), excluding handheld flashes.
-  - [color=#cb0000]\[Security\][/color] Helmets, riot shields, and ballistic shields.
-  - [color=#cb0000]\[Security\][/color] Security HUDs and restraining gear (e.g., handcuffs).
-  - [color=#cb0000]\[Security/Command\][/color] Disablers and restraining gear used by authorized personnel.
-  - [color=#cb0000]\[Security/Command\][/color] Security HUDs.
-  - [color=#cb0000]\[Security/Command/Bartender\][/color] Protective vests and chest rigs designed to mitigate damage from projectiles or blunt force.
-  - [color=#cb0000]\[Security/Bartender\][/color] Beanbag shotguns (Bartenders must follow SOP).
-  - [color=#cb0000]\[Security/Science/Command\][/color] Handheld flashes.
-  - [color=#cb0000]\[Engineering\][/color] Engineering goggles, and Rapid Construction Devices.
+  ## Equipamento Categorizado (Semilegal)
+  Este equipamento é considerado ilegal quando manuseado sem autorização ou por pessoal não associado a esses trabalhos e/ou departamentos.
+  - [color=#cb0000]\[ERT/Comando Central\][/color] Equipamentos e vestimentas exclusivos para equipes de Resposta a Emergências (ERT) ou pessoal do Comando Central.
+  - [color=#cb0000]\[Comando\][/color] Vestuário e equipamentos de nível de comando, incluindo fones de ouvido com canais criptografados ou sobreposições de acesso.
+  - [color=#cb0000]\[Segurança\][/color] Vestuário de segurança, equipamentos de proteção e equipamentos que seriam encontrados na Segurança e/ou no Arsenal.
+  - [color=#cb0000]\[Segurança\][/color] Armamento menos letal e não letal, excluindo desabilitadores de uso geral e espingardas de pressão.
+  - [color=#cb0000]\[Segurança\][/color] Tecnologia de flash (por exemplo, granadas de flashbang, projetores de flash), excluindo flashes portáteis.
+  - [color=#cb0000]\[Segurança\][/color] Capacetes, escudos antimotim e escudos balísticos.
+  - [color=#cb0000]\[Segurança\][/color] HUDs de segurança e equipamentos de contenção (por exemplo, algemas).
+  - [color=#cb0000]\[Segurança/Comando\][/color] Dispositivos de desabilitação e equipamentos de contenção usados ​​por pessoal autorizado.
+  - [color=#cb0000]\[Segurança/Comando\][/color] HUDs de segurança.
+  - [color=#cb0000]\[Segurança/Comando/Barman\][/color] Coletes de proteção e coletes peitorais projetados para mitigar danos de projéteis ou força contundente.
+  - [color=#cb0000]\[Segurança/Barman\][/color] Espingardas Beanbag (os bartenders devem seguir os procedimentos operacionais padrão).
+  - [color=#cb0000]\[Segurança/Ciência/Comando\][/color] Flashes portáteis.
+  - [color=#cb0000]\[Engenharia\][/color] Óculos de engenharia e Dispositivos de Construção Rápida.
 
 </Document>
