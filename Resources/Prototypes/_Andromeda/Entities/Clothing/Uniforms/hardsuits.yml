@@ -23,7 +23,7 @@
           Caustic: 0.45 # 55%
           Heat: 0.45 # 55%
     - type: ClothingSpeedModifier
-       walkModifier: 0.65 # 35%
+      walkModifier: 0.65 # 35%
       sprintModifier: 0.65 # 35%
     - type: HeldSpeedModifier
     - type: ToggleableClothing
