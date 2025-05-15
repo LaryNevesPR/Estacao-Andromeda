@@ -2,7 +2,7 @@
 - type: entity
   id: PartHumanoidXeno
   parent: BaseItem
-  name: "правая рука ксеноморфа"
+  name: "Mão direita do xenomorfo"
   abstract: true
   components:
   - type: Damageable
@@ -18,7 +18,7 @@
 
 - type: entity
   id: TorsoHumanoidXeno
-  name: "торс ксеноморфа"
+  name: "Tórax do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -33,7 +33,7 @@
 
 - type: entity
   id: HeadHumanoidXeno
-  name: "голова ксеноморфа"
+  name: "Cabeça do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 
 - type: entity
   id: LeftArmHumanoidXeno
-  name: "левая рука ксеноморфа"
+  name: "Mão esquerda do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 
 - type: entity
   id: RightArmHumanoidXeno
-  name: "правая рука ксеноморфа"
+  name: "Braço direito do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 
 - type: entity
   id: LeftHandHumanoidXeno
-  name: "левая кисть ксеноморфа"
+  name: "Mão esquerda do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 
 - type: entity
   id: RightHandHumanoidXeno
-  name: "правая кисть ксеноморфа"
+  name: "Mão direita do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -118,7 +118,7 @@
 
 - type: entity
   id: LeftLegHumanoidXeno
-  name: "левая нога ксеноморфа"
+  name: "Perna esquerda do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -137,7 +137,7 @@
 
 - type: entity
   id: RightLegHumanoidXeno
-  name: "правая нога ксеноморфа"
+  name: "Perna direita do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -156,7 +156,7 @@
 
 - type: entity
   id: LeftFootHumanoidXeno
-  name: "левая стопа ксеноморфа"
+  name: "Pé esquerdo do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 
 - type: entity
   id: RightFootHumanoidXeno
-  name: "правая стопа ксеноморфа"
+  name: "Pé direito do xenomorfo"
   parent: PartHumanoidXeno
   components:
   - type: Sprite

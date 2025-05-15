@@ -2,7 +2,7 @@
 - type: entity
   id: PartPredator
   parent: [BaseItem, BasePart]
-  name: "голова яутжи"
+  name: "Cabeça do predador"
   abstract: true
   components:
   - type: Extractable
@@ -15,7 +15,7 @@
 
 - type: entity
   id: TorsoPredator
-  name: "торс яутжи"
+  name: "Torso do Predador"
   parent: [PartPredator, BaseTorso]
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 
 - type: entity
   id: HeadPredator
-  name: "голова яутжи"
+  name: "Cabeça do Predador"
   parent: [PartPredator, BaseHead]
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: LeftArmPredator
-  name: "левая рука яутжи"
+  name: "Braço esquerdo do Predador"
   parent: [PartPredator, BaseLeftArm]
   components:
   - type: Sprite
@@ -56,7 +56,7 @@
 
 - type: entity
   id: RightArmPredator
-  name: "правая рука яутжи"
+  name: "Braço direito do Predador"
   parent: [PartPredator, BaseRightArm]
   components:
   - type: Sprite
@@ -65,7 +65,7 @@
 
 - type: entity
   id: LeftHandPredator
-  name: "левая кисть яутжи"
+  name: "Mão esquerda do Predador"
   parent: [PartPredator, BaseLeftHand]
   components:
   - type: Sprite
@@ -74,7 +74,7 @@
 
 - type: entity
   id: RightHandPredator
-  name: "правая кисть яутжи"
+  name: "Mão direita do Predador"
   parent: [PartPredator, BaseRightHand]
   components:
   - type: Sprite
@@ -83,7 +83,7 @@
 
 - type: entity
   id: LeftLegPredator
-  name: "левая нога яутжи"
+  name: "Perna esquerda do Predador"
   parent: [PartPredator, BaseLeftLeg]
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 
 - type: entity
   id: RightLegPredator
-  name: "правая нога нога уятжи"
+  name: "Perna direita do Predador"
   parent: [PartPredator, BaseRightLeg]
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 
 - type: entity
   id: LeftFootPredator
-  name: "левая стопа яутжи"
+  name: "Pé esquerdo do Predador"
   parent: [PartPredator, BaseLeftFoot]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 
 - type: entity
   id: RightFootPredator
-  name: "правая стопа яутжи"
+  name: "Pé direito do Predador"
   parent: [PartPredator, BaseRightFoot]
   components:
   - type: Sprite

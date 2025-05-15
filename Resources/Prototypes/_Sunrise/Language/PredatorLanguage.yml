@@ -1,0 +1,52 @@
+# Predator language
+- type: language
+  id: Yautja
+  isVisibleLanguage: true
+  speech:
+    color: "#f11313"
+    fontId: NovaFlat
+  obfuscation:
+    !type:SyllableObfuscation
+    minSyllables: 1
+    maxSyllables: 3
+    replacement:
+    - kha
+    - khi
+    - kho
+    - khe
+    - khii
+    - dra
+    - dhi
+    - dho
+    - dha
+    - dhii
+    - tra
+    - thi
+    - tho
+    - thu
+    - thae
+    - kri
+    - kro
+    - kru
+    - khae
+    - zhi
+    - zho
+    - zha
+    - zhei
+    - ghu
+    - ghei
+    - shra
+    - shro
+    - shae
+    - qhe
+    - qhu
+    - qhei
+    - qhii
+    - qhra
+    - xa
+    - xe
+    - xi
+    - xei
+    - xae
+    - ju
+    - jae

@@ -11,6 +11,15 @@
     state: full
   - type: Thirst
   - type: Perishable
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - Yautja
+    understands:
+    - TauCetiBasic
+    - Yautja
+  - type: Carriable 
+  - type: FootPrints
   - type: HumanoidAppearance
     species: Predator
   - type: Sprite

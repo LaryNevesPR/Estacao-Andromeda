@@ -14,6 +14,17 @@
         Asphyxiation: -1.0
     maxSaturation: 50
     minSaturation: 40
+  - type: LanguageKnowledge
+    speaks:
+    - TauCetiBasic
+    - XhZaruun
+    understands:
+    - TauCetiBasic
+    - XhZaruun
+  - type: Carriable 
+  - type: FootPrints
+    leftBarePrint: "footprint-left-bare-lizard"
+    rightBarePrint: "footprint-right-bare-lizard"
   - type: Vocal
     sounds:
       Male: XenoHumanoid

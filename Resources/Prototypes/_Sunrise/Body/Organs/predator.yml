@@ -1,11 +1,11 @@
 # © SUNRISE, An EULA/CLA with a hosting restriction, full text: https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt
 - type: entity
-  id: BaseHumanoidXenoOrganUnGibbable
+  id: BasePredatorOrganUnGibbable
   parent: BaseItem
   abstract: true
   components:
   - type: Sprite
-    sprite: _Sunrise/Mobs/Species/HumanoidXeno/organs.rsi
+    sprite: _Sunrise/Mobs/Species/Predator/organs.rsi
   - type: Organ
   - type: Food
   - type: Extractable
@@ -19,7 +19,7 @@
       food:
         maxVol: 5
         reagents:
-        - ReagentId: FluorosulfuricAcidHumanoidXeno
+        - ReagentId: FluorosulfuricAcidPredator
           Quantity: 5
   - type: FlavorProfile
     flavors:
@@ -29,21 +29,22 @@
       - Meat
 
 - type: entity
-  id: BaseHumanoidXenoOrgan
-  parent: BaseHumanoidXenoOrganUnGibbable
+  id: BasePredatorOrgan
+  parent: BasePredatorOrganUnGibbable
   abstract: true
   components:
   - type: Gibbable
 
 - type: entity
-  id: OrganHumanoidXenoBrain
-  parent: BaseHumanoidXenoOrgan
-  name: мозг
-  description: Нексус чужеродного разума. Мысли, которых вы не хотите знать.
+  id: OrganPredatorBrain
+  parent: BasePredatorOrgan
+  name: Cérebro
+  description: Nexus de uma mente alienígena. Pensamentos que você não quer saber.
   components:
   - type: Sprite
     state: brain
   - type: Organ
+    slotId: brain # Shitmed Change
   - type: Input
     context: "ghost"
   - type: Brain
@@ -53,7 +54,7 @@
   - type: BadFood
   - type: Tag
     tags:
-    - Meat
+      - Meat
   - type: SolutionContainerManager
     solutions:
       organ:
@@ -70,19 +71,19 @@
     - people
 
 - type: entity
-  id: OrganHumanoidXenoTongue
-  parent: BaseHumanoidXenoOrgan
-  name: язык
-  description: Длинный и гибкий.
+  id: OrganPredatorTongue
+  parent: BasePredatorOrgan
+  name: Língua
+  description: Longa e flexível
   components:
   - type: Sprite
     state: tongue
 
 - type: entity
-  id: OrganHumanoidXenoAppendix
-  parent: BaseHumanoidXenoOrgan
-  name: аппендикс
-  description: Эволюционный привет из прошлого.
+  id: OrganPredatorAppendix
+  parent: BasePredatorOrgan
+  name: Apêndice
+  description: Saudação evolutiva do passado.
   components:
   - type: Sprite
     layers:
@@ -91,20 +92,23 @@
       visible: false
 
 - type: entity
-  id: OrganHumanoidXenoEars
-  parent: BaseHumanoidXenoOrgan
-  name: уши
-  description: Сверхчувствительные локаторы. Слышат ваши страхи.
+  id: OrganPredatorEars
+  parent: BasePredatorOrgan
+  name: Orelhas
+  description: Localizadores super sensíveis. Ouvirão seus medos.
   components:
   - type: Sprite
     state: ears
+  - type: Ears # Shitmed Change
 
 - type: entity
-  id: OrganHumanoidXenoLungs
-  parent: BaseHumanoidXenoOrgan
-  name: легкие
-  description: Фильтруют кислород из атмосферы и направляют его в кровь, где он используется как переносчик электронов.
+  id: OrganPredatorLungs
+  parent: BasePredatorOrgan
+  name: Pulmões
+  description: Filtram oxigênio da atmosfera e o direcionam para o sangue, onde é usado como transportador de elétrons.
   components:
+  - type: Organ # Shitmed Change
+    slotId: lungs # Shitmed Change
   - type: Sprite
     layers:
       - state: lung-l
@@ -130,77 +134,99 @@
       food:
         maxVol: 5
         reagents:
-        - ReagentId: FluorosulfuricAcidHumanoidXeno
+        - ReagentId: FluorosulfuricAcidPredator
           Quantity: 5
 
 - type: entity
-  id: OrganHumanoidXenoHeart
-  parent: BaseHumanoidXenoOrgan
-  name: сердце ксеноморфа
-  description: Мощный орган, перекачивающий кислую кровь сквозь жесткие ткани и обеспечивающий невероятную выносливость и силу каждому ксеноморфу.
+  id: OrganPredatorHeart
+  parent: BasePredatorOrgan
+  name: Coração do predador
+  description: Órgão poderoso, bombeando sangue ácido através de tecidos duros, fornecendo.
   components:
+  - type: Heart # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: heart # Shitmed Change
   - type: Sprite
     state: heart-on
   - type: Metabolizer
     maxReagents: 2
-    metabolizerTypes: [Animal]
+    metabolizerTypes: [Human]
     groups:
     - id: Medicine
     - id: Poison
     - id: Narcotic
 
 - type: entity
-  id: OrganHumanoidXenoStomach
-  parent: BaseHumanoidXenoOrgan
-  name: желудок
-  description: Прожорливая яма.
+  id: OrganPredatorStomach
+  parent: BasePredatorOrgan
+  name: Estômago
+  description: Um poço faminto.
   components:
+  - type: Organ # Shitmed Change
+    slotId: stomach # Shitmed Change
   - type: Sprite
     state: stomach
   - type: SolutionContainerManager
     solutions:
       stomach:
-        maxVol: 100 # 2x more than human
+        maxVol: 50
       food:
         maxVol: 5
         reagents:
-        - ReagentId: FluorosulfuricAcidHumanoidXeno
+        - ReagentId: FluorosulfuricAcidPredator
           Quantity: 5
   - type: Stomach
   - type: Metabolizer
     maxReagents: 3
-    metabolizerTypes: [Animal]
+    metabolizerTypes: [Human]
     groups:
     - id: Food
     - id: Drink
 
 - type: entity
-  id: OrganHumanoidXenoLiver
-  parent: BaseHumanoidXenoOrgan
-  name: печень
-  description: Мощный детоксикатор, с легкостью нейтрализующий опасные вещества.
+  id: OrganPredatorLiver
+  parent: BasePredatorOrgan
+  name: Fígado
+  description: Poderoso desintoxicante, neutralizando facilmente substâncias perigosas..
   components:
+  - type: Liver # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: liver # Shitmed Change
   - type: Sprite
     state: liver
-  - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
+  - type: Metabolizer
     maxReagents: 1
     metabolizerTypes: [Human]
     groups:
     - id: Alcohol
-      rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink
+      rateModifier: 0.1
 
 - type: entity
-  id: OrganHumanoidXenoKidneys
-  parent: BaseHumanoidXenoOrgan
-  name: почки
-  description: Парные фильтры, безжалостно выводящие всё лишнее.
+  id: OrganPredatorKidneys
+  parent: BasePredatorOrgan
+  name: Rins
+  description: Filtros emparelhados, expulsando impurezas implacavelmente.
   components:
+  - type: Organ # Shitmed
   - type: Sprite
     layers:
       - state: kidney-l
       - state: kidney-r
-  # The kidneys just remove anything that doesn't currently have any metabolisms, as a stopgap.
   - type: Metabolizer
     maxReagents: 5
     metabolizerTypes: [Human]
     removeEmpty: true
+
+- type: entity
+  id: OrganPredatorEyes
+  parent: BasePredatorOrgan
+  name: Olhos
+  description: Eu te vejo!
+  components:
+  - type: Organ # Shitmed Change
+    slotId: eyes # Shitmed Change
+  - type: Eyes # Shitmed Change
+  - type: Sprite
+    layers:
+      - state: eyeball-l
+      - state: eyeball-r
