@@ -1,4 +1,4 @@
-book-text-epistemics1 = OS EFEITOS DE ALTOS NÍVEIS DO VISLUMBRE
+book-text-epistemics1 = OS EFEITOS DE ALTOS NÍVEIS DE VISLUMBRE
 
       Em um turno que servi em uma de nossas estações remotas, tínhamos um místico excêntrico como o único membro do comando.
       Sua grande experiência foi... elevar o Vislumbre ao máximo que pôde, até que nosso gramateu não conseguiu mais medir a quantidade.
