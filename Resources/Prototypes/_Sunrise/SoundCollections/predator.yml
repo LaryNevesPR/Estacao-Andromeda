@@ -13,3 +13,26 @@
   id: PredatorLaugh
   files:
   - /Audio/_Sunrise/Voice/Predator/predator_laugh.ogg
+
+- type: soundCollection
+  id: PredatorClick
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredadorClick1.ogg
+  - /Audio/_Sunrise/Voice/Predator/PredadorClick2.ogg
+
+- type: soundCollection
+  id: PredatorCrying
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorCry.ogg
+
+- type: soundCollection
+  id: PredatorWhistles
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorWhistle.ogg
+
+- type: soundCollection
+  id: PredatorYawn
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorYawn.ogg
+
+

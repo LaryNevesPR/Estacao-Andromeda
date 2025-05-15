@@ -49,7 +49,7 @@
     damage:
       types:
         Blunt: 3
-        Slash: 7
+        Slash: 5
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcidHumanoidXeno
   - type: DamageVisuals
@@ -125,6 +125,7 @@
       - CanPilot
       - FootstepSound
       - DoorBumpOpener
+      - HumanoidXenoEmotes
 
 - type: entity
   parent: BaseSpeciesDummy

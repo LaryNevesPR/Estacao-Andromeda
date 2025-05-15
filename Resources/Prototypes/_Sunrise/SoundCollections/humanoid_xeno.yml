@@ -5,3 +5,24 @@
   - /Audio/_Sunrise/Voice/HumanoidXeno/humanoid_xeno_scream2.ogg
   - /Audio/_Sunrise/Voice/HumanoidXeno/humanoid_xeno_scream3.ogg
   - /Audio/_Sunrise/Voice/HumanoidXeno/humanoid_xeno_scream4.ogg
+
+- type: soundCollection
+  id: HumanoidXenoGrowls
+  files:
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoGrowl1.ogg
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoGrowl2.ogg
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoGrowl3.ogg
+
+- type: soundCollection
+  id: HumanoidXenoYawn
+  files:
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoYawn.ogg
+
+- type: soundCollection
+  id: HumanoidXenoCry
+  files:
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoCry1.ogg
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoCry2.ogg
+  - /Audio/_Sunrise/Voice/HumanoidXeno/XenoCry3.ogg
+
+

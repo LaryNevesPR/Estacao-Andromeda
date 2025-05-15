@@ -20,6 +20,8 @@
     - Yautja
   - type: Carriable 
   - type: FootPrints
+  - type: Speech
+    allowedEmotes: ['Growl','Click']      
   - type: HumanoidAppearance
     species: Predator
   - type: Sprite
@@ -40,6 +42,7 @@
       - CanPilot
       - FootstepSound
       - DoorBumpOpener
+      - PredatorEmotes
   - type: Bloodstream
     bloodReagent: FluorosulfuricAcidPredator
   - type: DamageVisuals

@@ -1531,3 +1531,9 @@
 
 - type: Tag
   id: UnathiEmotes
+
+- type: Tag
+  id: PredatorEmotes
+
+- type: Tag
+  id: HumanoidXenoEmotes
