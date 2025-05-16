@@ -102,7 +102,7 @@
     angle: 225
   - type: BallisticAmmoProvider
     capacity: 5
-    autoCycle: false
+    # autoCycle: false
     proto: CartridgeLightRifle
     whitelist:
       tags:
