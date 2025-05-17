@@ -4,6 +4,9 @@
   antagonist: true
   setPreference: true
   objective: roles-antag-blood-cultist-objective
+  requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 108000 # Andromeda- 30 hours
 
 - type: startingGear
   id: BloodCultistGear

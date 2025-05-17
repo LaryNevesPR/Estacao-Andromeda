@@ -5,6 +5,12 @@
   setPreference: true
   objective: roles-antag-nuclear-operative-objective
   guides: [ NuclearOperatives ]
+  requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 108000 # DeltaV - 30 hours
+  - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
+    department: Security
+    min: 36000 # DeltaV - 10 hours
 
 - type: antag
   id: NukeopsMedic
@@ -13,6 +19,13 @@
   setPreference: true
   objective: roles-antag-nuclear-operative-agent-objective
   guides: [ NuclearOperatives ]
+  requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 108000
+  - !type:CharacterDepartmentTimeRequirement
+    department:  Medical
+    min: 14400 # DeltaV- 4 hours
+  
 - type: antag
   id: NukeopsCommander
   name: roles-antag-nuclear-operative-commander-name
@@ -20,6 +33,12 @@
   setPreference: true
   objective: roles-antag-nuclear-operative-commander-objective
   guides: [ NuclearOperatives ]
+  requirements:
+  - !type:CharacterOverallTimeRequirement
+    min: 216000 # DeltaV - 60 hours
+  - !type:CharacterDepartmentTimeRequirement # DeltaV - Security dept time requirement
+    department: Security
+    min: 36000 # DeltaV - 10 hours
 
 #Lone Operative Gear
 - type: startingGear
