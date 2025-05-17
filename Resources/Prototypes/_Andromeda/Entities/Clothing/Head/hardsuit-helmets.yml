@@ -3,7 +3,7 @@
   parent: ClothingHeadHardsuitWithLightBase
   id: ClothingHeadHelmetHardsuitSpartan
   name: spartan hardsuit helmet
-  description: Advanced armored hardsuit helmet for supersoldiers. 
+  description: Advanced armored hardsuit helmet for supersoldiers.
   components:
     - type: BreathMask
     - type: Sprite
