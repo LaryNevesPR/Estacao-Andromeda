@@ -85,8 +85,7 @@
   ## M-07: Prisioneiro Fugitivo
   Qualquer prisioneiro que tenha escapado da cela permanente ou da cela de detenção terá este modificador adicionado às suas acusações quando for capturado.
 
-  Um prisioneiro que tenha escapado da cela de detenção deve ter o cronômetro zerado e aumentado em 50%. Um prisioneiro permanente deve ser mantido em solitária
-  por 2 a 4 minutos.
+  Um prisioneiro que tenha escapado da cela de detenção deve ter o cronômetro zerado e aumentado em 50%. Um prisioneiro permanente deve ser executado imediatamente.
 
   ## M-08: Falha ao Cometer o Crime
   Qualquer pessoa que seja flagrada em flagrante ou que não tenha cometido um crime na íntegra pode ter sua pena reduzida com este modificador, dependendo da

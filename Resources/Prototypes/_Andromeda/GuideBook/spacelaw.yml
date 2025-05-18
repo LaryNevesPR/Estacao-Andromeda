@@ -55,6 +55,7 @@
   - IPC CourtRulings
   - Cultist CourtRulings
   - Sacrifice CourtRulings
+  - Carpa courtrulings
 
 - type: guideEntry
   id: SpaceLaw CrimeChart
@@ -163,6 +164,11 @@
   id: Sacrifice CourtRulings
   name: guide-entry-spacelaw-courtrulings-sacrifices
   text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_Sacrifices.xml"
+
+- type: guideEntry
+  id: Carpa courtrulings
+  name: guide-entry-spacelaw-courtrulings-carpa
+  text: "/ServerInfo/Guidebook/SpaceLaw/CourtRulings/SL_Carpa.xml"
 
 # Categories
 - type: guideEntry

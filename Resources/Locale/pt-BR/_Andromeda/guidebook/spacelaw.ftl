@@ -28,6 +28,7 @@ guide-entry-spacelaw-procedures-searching = Busca e Apreensão
 guide-entry-spacelaw-courtrulings-ipcbattery = Prisioneiro IPC
 guide-entry-spacelaw-courtrulings-cults = Cultistas
 guide-entry-spacelaw-courtrulings-sacrifices = Sacrifícios
+guide-entry-spacelaw-courtrulings-carpa = Carpa Marcial
 # - Categories
 guide-entry-spacelaw-groups-animal = Animal (A)
 guide-entry-spacelaw-groups-assault = Homicídio (H)
