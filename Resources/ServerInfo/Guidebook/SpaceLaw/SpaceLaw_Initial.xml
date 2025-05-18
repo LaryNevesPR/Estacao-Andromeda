@@ -1,0 +1,48 @@
+<Document>
+  # Lei Espacial
+  A NanoTrasen exigiu que todas as estações sob sua corporação seguissem a abreviada Lei Espacial. A Lei Espacial é usada para lidar com funcionários da estação, visitantes autorizados e pode ser usada contra agentes inimigos.
+
+  Normalmente, essas leis não se aplicam a invasores estrangeiros, como inimigos da estação (Operativos Nucleares, Ninjas, Magos),
+  pessoal comprometido (Changelings, Zumbis) e robôs (Ciborgues, IA da Estação).
+  - Isso, no entanto, [negrito]não é uma desculpa para abusar de Ciborgues e IA da Estação[/negrito].
+
+  ## Crimes e Punições
+  A Lei Espacial abrange diversas formas diferentes de crime, especialmente com modificadores para tais crimes quando há circunstâncias envolvendo
+  o(s) crime(s) que podem levar ao aumento, diminuição ou anulação/expurgo total dos crimes do registro de um indivíduo.
+  A tabela de crimes, as categorias de crimes e os modificadores podem ser encontrados abaixo:
+  - [textlink="Gráfico de Crimes" link="SpaceLaw CrimeChart"]
+  - [textlink="Categorias de Crimes" link="SpaceLaw Categories"]
+  - [textlink="Modificadores" link="SpaceLaw Modifiers"]
+
+  ## Decisões Judiciais
+  Decisões Judiciais são Emendas à Lei Espacial que foram esclarecidas fora dos Adendos à Lei Espacial NanoTrasen. Elas são consideradas uma
+  extensão da Lei Espacial e [negrito]também devem ser seguidas[/negrito].
+  - [itálico]Decisões Judiciais são consideradas leis de extensão que também são aplicadas. O não cumprimento delas não é diferente de violar a Lei Espacial e também será punido.[/itálico]
+  - [textlink="Decisões Judiciais" link="SpaceLaw CourtRulings"]
+
+  ## Julgamentos e Procedimentos de Julgamento
+  Os julgamentos são realizados para decidir se um prisioneiro deve ser preso permanentemente ou quando um prisioneiro está pedindo para ser liberado do sistema de prisão permanente.
+  Os julgamentos podem ser realizados por outros meios, mas os julgamentos que não se enquadram na Lei Espacial não são obrigados a seguir os procedimentos definidos no Direito Espacial. 
+
+  Tudo relacionado aos julgamentos de Direito Espacial pode ser encontrado na entrada listada abaixo:
+  - [textlink="Julgamentos e Procedimentos de Julgamentos" link="SpaceLaw Trials"]
+
+  ## Procedimentos
+  A Lei Espacial descreve diversos procedimentos que devem ser seguidos. Alguns desses procedimentos incluem como funciona a Sentença, como os Prisioneiros devem ser
+  Tratados e como funcionam a Implantação e a Busca. Estes procedimentos podem ser encontrados com mais detalhes abaixo:
+  - [textlink="Procedures" link="SpaceLaw Procedures"]
+
+  ## Itens Restritos - Contrabando
+  Existem várias categorias para Itens Restritos, também conhecidos como Contrabando. Recomenda-se que você as revise com frequência para garantir que
+  esteja atualizado com as informações mais recentes sobre contrabando e itens restritos.
+  Alguns itens são restritos por departamento, enquanto outros são restritos por nível de autoridade, como Somente Segurança,
+  Somente Comando e Somente Comando Central. Mais informações podem ser encontradas aqui:
+  - [textlink="Itens restritos" link="SpaceLaw Contraband"]
+
+  ## Emendas e Exceções
+  A Lei Espacial pode ser alterada ou anulada em circunstâncias específicas:
+    - Situações de emergência: O comando/equipe de dignitários pode implementar medidas temporárias para restaurar a ordem.
+    - Substituições do Comando Central: As diretivas do Comando Central substituem a Lei Espacial quando aplicável.
+    - Poder Executivo: O Capitão e os Chefes de Departamento têm autoridade limitada para interpretar e aplicar leis com base no contexto.
+
+</Document>

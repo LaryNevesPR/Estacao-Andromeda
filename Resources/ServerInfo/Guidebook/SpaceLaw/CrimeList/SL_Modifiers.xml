@@ -1,0 +1,123 @@
+<Document>
+  # Modificadores da Lista de Crimes
+  Abaixo está a lista de modificadores, explicações e notas (para OOC) para esclarecimentos.
+
+  <ColorBox>
+    <Box>
+      Esses modificadores podem adicionar [bold]ou[/bold]reduzir tempos. Use-os com discrição.
+    </Box>
+  </ColorBox>
+
+  Esses modificadores incluem o seguinte:
+  - M-01: Perigo claro e presente
+  - M-02: Repetição da sentença
+  - M-03: Legítima Defesa
+  - M-04: Mente instável/com lavagem cerebral
+  - M-05: Comportamento Coordenado
+  - M-06: Resistindo à prisão
+  - M-07: Prisioneiro Fugitivo
+  - M-08: Falha ao Cometer o Crime
+  - M-09: Conspiração
+  - M-10: Segurança/Comando
+
+  ## M-01: Perigo claro e presente
+  Perigo claro e presente pode ser atribuído a acusações em que o indivíduo estava em uma situação em que cometeu o crime
+  com o objetivo de salvar vidas, propriedades e/ou prevenir um desastre.
+
+  Esses cenários podem ser marcados com esse modificador para reduzir, anular e/ou expurgar suas acusações dos registros.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Isso é usado principalmente em situações em que alguém pode ter que cometer um crime com boas intenções.
+    </Box>
+  </ColorBox>
+
+  ## M-02: Repetição de Penas
+  Apesar do nome, isso também pode se estender a uma ampla gama de crimes em que a sentença se "repete" para múltiplos
+  crimes acumulados. Este modificador pode ser atribuído a acusações em que o infrator cometeu esses crimes muitas vezes e, portanto, o escopo
+  dos crimes se tornou amplo o suficiente para processar a acusação em um nível mais alto..
+
+  Isso significa que o modificador pode ser aplicado para aumentar a carga para o próximo nível.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Destinado principalmente para usos em que há múltiplas infrações, mas não o suficiente para justificar uma prisão completa. Também pode ser usado para ações repetitivas
+      que levam à prisão, quando o indivíduo continua a descumprir o crime sem acumular infrações o suficiente para ser preso permanentemente.
+    </Box>
+  </ColorBox>
+
+  ## M-03: Legítima Defesa
+  Este modificador pode ser aplicado a acusações em que o autor do crime agiu em legítima defesa contra o(s) agressor(es).
+
+  Este modificador permite que o sentenciador reduza, anule e/ou expurgue a acusação do registro.
+
+  ## M-04: Mente Inconstante/Com Lavagem Cerebral
+  Aqueles considerados mentalmente instáveis, agindo de forma errática ou que perderam o controle de si mesmos podem ter este modificador aplicado aos seus protegidos.
+  Isso inclui aqueles que sofreram lavagem cerebral e que comprovadamente realizaram ações sob a influência de efeitos que alteram a mente.
+  
+  Isso significa que um indivíduo incapaz de agir com normalidade e sanidade pode receber tratamento médico para desfazer os efeitos.
+  Posteriormente, quaisquer crimes cometidos sob este efeito podem ser anulados e expurgados.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Português: Insanidade, Controle Mental, Hipnose, etc. O objetivo é abordar a manipulação da mente por CI.
+    </Box>
+  </ColorBox>
+
+  ## M-05: Comportamento Coordenado
+  Este é um modificador que pode ser aplicado àqueles que se movem em grupos como se fossem um departamento próprio, ignorando os departamentos
+  da estação e agindo separadamente dela.
+
+  Este modificador permite que a carga seja aumentada em gravidade em uma instância.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Português: Você não pode atuar como Passageiro/Greytider e trabalhar contra a estação com outros.
+    </Box>
+  </ColorBox>
+
+  ## M-06: Resistência à Prisão
+  Qualquer pessoa que esteja resistindo ativamente a uma prisão legal pode ter este modificador anexado às suas acusações. Resistir à prisão conscientemente
+  é um crime por si só e também se enquadra em "Descumprimento de Lei" (3-10).
+
+  Qualquer pessoa que esteja resistindo ativamente à prisão pode ser penalizada com uma multa adicional de 20% do seu tempo (que não pode ser aplicada para prender alguém permanentemente).
+
+  ## M-07: Prisioneiro Fugitivo
+  Qualquer prisioneiro que tenha escapado da cela permanente ou da cela de detenção terá este modificador adicionado às suas acusações quando for capturado.
+
+  Um prisioneiro que tenha escapado da cela de detenção deve ter o cronômetro zerado e aumentado em 50%. Um prisioneiro permanente deve ser executado imediatamente.
+
+  ## M-08: Falha ao Cometer o Crime
+  Qualquer pessoa que seja flagrada em flagrante ou que não tenha cometido um crime na íntegra pode ter sua pena reduzida com este modificador, dependendo da
+  gravidade do crime.
+
+  Este modificador pode ser aplicado para reduzir a gravidade em um nível; no entanto, isso [negrito]não se aplica[/negrito] a reincidentes.
+
+  ## M-09: Conspiração
+  Ajudar alguém voluntariamente a cometer um crime que não é considerado Comportamento Coordenado, visto que ambos têm funções diferentes.
+  Isso pode variar dependendo do tempo e geralmente deve ser associado às mesmas acusações.
+  O indivíduo acusado disso deve receber a mesma pena, com o acréscimo de 1 minuto.
+
+  Um indivíduo que tenha sido confirmado como estando auxiliando um criminoso sem estar sob a influência de um efeito psicotrópico (consulte acima),
+  e não esteja sendo mantido refém, pode receber este modificador.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Isso deve ser aplicado àqueles que estão auxiliando descaradamente criminosos, como outros membros do sindicato, que não foram confirmados com suas próprias acusações de valor semelhante.
+    </Box>
+  </ColorBox>
+
+  ## M-10: Segurança/Comando
+  Se o indivíduo for membro do departamento de Segurança ou Comando, sua pena deverá ser prorrogada por violar a Lei Espacial.
+  Membros da Segurança e do Comando são submetidos a padrões mais elevados e, portanto, devem ser punidos com mais severidade por violarem crimes de alta gravidade.
+
+  Se o indivíduo que cometeu o crime for um indivíduo legitimamente contratado para um cargo de Comando ou Segurança, a pena
+  deve ser acrescida de dois (2) minutos a mais.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      "[italic]Você está na Segurança/Comando e deve conhecer a lei. Simples assim.[/italic]"
+    </Box>
+  </ColorBox>
+
+</Document>

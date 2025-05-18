@@ -1,0 +1,31 @@
+<Document>
+  # Equipamentos Restritos - Contrabando
+  Existem níveis de equipamentos restritos, que variam principalmente de Pessoal de Segurança a Pessoal de ERT e Comando Central, mas alguns equipamentos são permitidos para
+  certas funções, como Barman. Essas seções são classificadas.
+
+  ## Equipamento (Ilegal) Sem Categoria
+  Este equipamento é considerado ilegal por todos os meios e só é permitido durante alertas da estação, quando se está defendendo contra invasores estrangeiros, e deve
+  ser entregue à Segurança posteriormente.
+  - [color=#cb0000]\[Ninguém\][/color] Softwares de PDA não autorizados, como uplinks e spywares.
+  - [color=#cb0000]\[Ninguém\][/color] Munições ou explosivos não fornecidos pela NanoTrasen.
+  - [color=#cb0000]\[Ninguém\][/color] Coletes à prova de balas ou trajes táticos não autorizados para uso por membros da tripulação.
+  - [color=#cb0000]\[Ninguém\][/color] Equipamentos de comunicação projetados para interceptar, decifrar ou contornar canais corporativos.
+  - [color=#cb0000]\[Ninguém\][/color] Apetrechos terroristas, incluindo itens com claros indícios de associação com organizações hostis.
+
+  ## Equipamento Categorizado (Semilegal)
+  Este equipamento é considerado ilegal quando manuseado sem autorização ou por pessoal não associado a esses trabalhos e/ou departamentos.
+  - [color=#cb0000]\[ERT/Comando Central\][/color] Equipamentos e vestimentas exclusivos para equipes de Resposta a Emergências (ERT) ou pessoal do Comando Central.
+  - [color=#cb0000]\[Comando\][/color] Vestuário e equipamentos de nível de comando, incluindo fones de ouvido com canais criptografados ou sobreposições de acesso.
+  - [color=#cb0000]\[Segurança\][/color] Vestuário de segurança, equipamentos de proteção e equipamentos que seriam encontrados na Segurança e/ou no Arsenal.
+  - [color=#cb0000]\[Segurança\][/color] Armamento menos letal e não letal, excluindo desabilitadores de uso geral e espingardas de pressão.
+  - [color=#cb0000]\[Segurança\][/color] Tecnologia de flash (por exemplo, granadas de flashbang, projetores de flash), excluindo flashes portáteis.
+  - [color=#cb0000]\[Segurança\][/color] Capacetes, escudos antimotim e escudos balísticos.
+  - [color=#cb0000]\[Segurança\][/color] HUDs de segurança e equipamentos de contenção (por exemplo, algemas).
+  - [color=#cb0000]\[Segurança/Comando\][/color] Dispositivos de desabilitação e equipamentos de contenção usados ​​por pessoal autorizado.
+  - [color=#cb0000]\[Segurança/Comando\][/color] HUDs de segurança.
+  - [color=#cb0000]\[Segurança/Comando/Barman\][/color] Coletes de proteção e coletes peitorais projetados para mitigar danos de projéteis ou força contundente.
+  - [color=#cb0000]\[Segurança/Barman\][/color] Espingardas Beanbag (os bartenders devem seguir os procedimentos operacionais padrão).
+  - [color=#cb0000]\[Segurança/Ciência/Comando\][/color] Flashes portáteis.
+  - [color=#cb0000]\[Engenharia\][/color] Óculos de engenharia e Dispositivos de Construção Rápida.
+
+</Document>

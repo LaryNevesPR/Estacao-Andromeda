@@ -2,14 +2,14 @@
 
 # General
 crime-assist-program-name = Crime Assist
-crime-assist-yes-button = Yes
-crime-assist-no-button = No
-crime-assist-crimetype-innocent = Innocent
-crime-assist-crimetype-misdemeanour = Misdemeanour
-crime-assist-crimetype-felony = Felony
+crime-assist-yes-button = Sim
+crime-assist-no-button = Não
+crime-assist-crimetype-innocent = Inocente
+crime-assist-crimetype-misdemeanour = Delito
+crime-assist-crimetype-felony = Crime
 crime-assist-crimetype-capital = Capital
-crime-assist-crime-innocent = No crime was committed
-crime-assist-mainmenu = Welcome to Crime Assist!
+crime-assist-crime-innocent = Nenhum crime foi cometido
+crime-assist-mainmenu = Bem-vindo ao Crime Assist!
 crime-assist-sophont-explanation = A sophont is described as any entity with the capacity to display the following attributes:
                                    • [bold]Sapience[/bold]: the entity possesses basic logic and problem-solving skills, or at a minimum some level of significant intelligence.
                                    • [bold]Sentience[/bold]: the entity has the capacity to process an emotion or lack thereof, or at a minimum the ability to recognise its own pain.
@@ -17,32 +17,32 @@ crime-assist-sophont-explanation = A sophont is described as any entity with the
                                    Any sophont is considered a legal person, regardless of origin or prior cognitive status. Much like any other intelligent organic, a sophont may press charges against crew and be tried for crimes.
 
 # Crimes
-crime-assist-crime-animalcruelty = Code 101: Animal Cruelty
-crime-assist-crime-theft = Code 102: Theft
-crime-assist-crime-trespass = Code 110: Trespass
-crime-assist-crime-vandalism = Code 111: Vandalism
-crime-assist-crime-hooliganism = Code 112: Hooliganism
-crime-assist-crime-manslaughter = Code 201: Manslaughter
-crime-assist-crime-grandtheft = Code 202: Grand Theft
-crime-assist-crime-blackmarketeering = Code 203: Black Marketeering
-crime-assist-crime-sabotage = Code 204: Sabotage
-crime-assist-crime-mindbreaking = Code 205: Mindbreaking
-crime-assist-crime-assault = Code 206: Assault
-crime-assist-crime-abuseofpower = Code 207: Abuse of Power
-crime-assist-crime-possession = Code 208: Possession
-crime-assist-crime-endangerment = Code 209: Endangerment
-crime-assist-crime-breakingandentering = Code 210: Breaking and Entering
-crime-assist-crime-rioting = Code 211: Rioting
-crime-assist-crime-contemptofcourt = Code 212: Contempt of Court
-crime-assist-crime-perjuryfalsereport = Code 213: Perjury or False Report
-crime-assist-crime-obstructionofjustice = Code 214: Obstruction of Justice
-crime-assist-crime-murder = Code 301: Murder
-crime-assist-crime-terrorism = Code 303: Terrorism
-crime-assist-crime-grandsabotage = Code 304: Grand Sabotage
-crime-assist-crime-decorporealisation = Code 305: Decorporealisation
-crime-assist-crime-kidnapping = Code 309: Kidnapping
-crime-assist-crime-sedition = Code 311: Sedition
-crime-assist-crime-sexualharassment = Code 314: Sexual Harassment
+crime-assist-crime-animalcruelty = Código 310: Crueldade Animal
+crime-assist-crime-theft = Código 302: Roubo Menor
+crime-assist-crime-trespass = Código 110: Invasão de Propriedade
+crime-assist-crime-vandalism = Código 111: Vandalismo
+crime-assist-crime-hooliganism = Código 112: Hooliganismo
+crime-assist-crime-manslaughter = Código 201: Homicídio Culposo
+crime-assist-crime-grandtheft = Código 202: Roubo Qualificado
+crime-assist-crime-blackmarketeering = Código 203: Comércio Ilegal
+crime-assist-crime-sabotage = Código 204: Sabotagem
+crime-assist-crime-mindbreaking = Código 205: Quebra de Mente
+crime-assist-crime-assault = Código 206: Agressão
+crime-assist-crime-abuseofpower = Código 207: Abuso de Poder
+crime-assist-crime-possession = Código 208: Posse
+crime-assist-crime-endangerment = Código 209: Colocação em Perigo
+crime-assist-crime-breakingandentering = Código 210: Arrombamento
+crime-assist-crime-rioting = Código 211: Motim
+crime-assist-crime-contemptofcourt = Código 212: Desacato ao Tribunal
+crime-assist-crime-perjuryfalsereport = Código 213: Perjúrio ou Denúncia Falsa
+crime-assist-crime-obstructionofjustice = Código 214: Obstrução da Justiça
+crime-assist-crime-murder = Código 301: Homicídio
+crime-assist-crime-terrorism = Código 303: Terrorismo
+crime-assist-crime-grandsabotage = Código 304: Grande Sabotagem
+crime-assist-crime-decorporealisation = Código 305: Descorporeização
+crime-assist-crime-kidnapping = Código 309: Sequestro
+crime-assist-crime-sedition = Código 311: Sedição
+crime-assist-crime-sexualharassment = Código 314: Assédio Sexual
 
 # Questions
 crime-assist-question-isitterrorism = Did the suspect hold hostages, cause many deaths or major destruction to force compliance from the crew?

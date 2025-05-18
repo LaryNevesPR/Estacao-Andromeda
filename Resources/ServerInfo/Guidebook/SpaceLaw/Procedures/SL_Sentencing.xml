@@ -1,0 +1,45 @@
+<Document>
+  # Procedimentos de Sentença
+  Existem vários procedimentos que devem ser seguidos ao sentenciar qualquer indivíduo com acusações que o levarão à prisão temporária (cadeia) e/ou à prisão permanente.
+
+  Esses procedimentos dependem de diferentes situações, e a acusação de qualquer pessoa deve seguir os seguintes prazos por categoria, conforme listado na Tabela de Crimes:
+  - 1-XX: Aviso (Nota para ocorrências futuras)
+  - 2-XX: 1-2 Minutos
+  - 3-XX: 2-5 Minutos
+  - 4-XX: 5-10 Minutos
+  - 5-XX: Prisão Permanente (Levar ao Tribunal também)
+
+  ## Regras de Sentença
+  Estas são regras que devem ser seguidas, também do ponto de vista das regras do servidor:
+  - O tempo [color=#EB2D3A][bold]máximo[/bold][/color] de pena é de 10 minutos. Qualquer tempo superior a esse deve ser reduzido para 10 minutos.
+  - Se o tempo total for de 15 minutos ou mais, o prisioneiro deverá ser julgado em tribunal por prisão preventiva permanente, a menos que o prisioneiro aceite prisão preventiva permanente.
+  - Se o tempo total for de 20 minutos ou mais, o prisioneiro deverá ser preso permanentemente, independentemente de qualquer motivo.
+  - Se o tempo total for de 30 minutos ou mais, o prisioneiro deverá ser transferido para execução com aprovação do Magistrado/Capitão.
+
+  ## Diretrizes
+  Estes procedimentos também seguem as diretrizes listadas abaixo:
+  - O Magistrado, o Chefe de Segurança, o Diretor e o Capitão são os únicos funcionários que devem aplicar a pena, caso constem no Manifesto da Tripulação.
+
+  - Do ponto de vista das regras do servidor, espera-se que os Oficiais de Segurança sejam obrigados a aplicar apenas sentenças inferiores a
+  [color=#EB2D3A][bold]10 minutos[/bold][/color], a menos que a Lei Espacial os force a serem julgados e/ou confinados permanentemente (por terem acusações mais altas).
+  - Desenvolvendo o ponto anterior, Oficiais de Segurança que aplicam penas mais altas de forma maliciosa devem ser controlados por aqueles que podem sentenciar criminosos;
+  no entanto, isso não significa que definir penas altas de forma maliciosa constantemente ficará impune.
+  - Use o bom senso e a humanidade ao aplicar punições. Nem todas as punições precisam do tempo máximo nem do tempo mínimo. Você não deve aplicar a pena máxima
+  para um crime simples, a menos que tenha causado um resultado grave. [bold][italic]Advogados existem para esse propósito.[/italic][/bold]
+
+  ## Crimes Acumuláveis
+  Crimes devem ser considerados "acumuláveis" no sentido de que, se você acusar alguém de dois ou
+  mais crimes diferentes, você deve combinar os tempos que daria a cada crime.
+  - Crimes vinculados, mostrados em cores e parênteses correspondentes na Tabela de Crimes, não podem ser acumulados e, em vez disso, se sobrepõem.
+  Você deve escolher o crime de maior gravidade que corresponda ao caso e adicionar modificadores conforme necessário.
+  - Essas categorias podem ser encontradas na página: [textlink="Categorias" link="SpaceLaw Categories"].
+
+  ## Anexando Modificadores
+  É importante anexar modificadores, conforme aplicável, aos crimes. Os modificadores substituem os padrões e são mais flexíveis, podendo, e devendo, ser
+  atribuídos com discrição.
+  - Esses modificadores podem ser encontrados na página: [textlink="Modificadores" link="SpaceLaw Modifiers"].
+
+  ##Exceções
+  - Se não houver um Magistrado a bordo, o Capitão ou o Diretor podem decidir negar completamente o direito do criminoso a julgamento e puni-lo imediatamente. Isso só deve acontecer em situações extremas, nas quais não seja razoável conceder um julgamento ao criminoso.
+  - Com a permissão do Capitão, prisioneiros permanentes que escaparem mais de duas vezes podem ser submetidos à execução imediata enquanto estiverem sob custódia. Ordens de "matar à vista" não devem ser dadas, exceto nos casos em que o prisioneiro esteja agredindo membros da tripulação com uma arma letal.
+</Document>

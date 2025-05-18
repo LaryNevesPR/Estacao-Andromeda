@@ -1,0 +1,41 @@
+<Document>
+  # Categorias de Crime
+  Esta é a lista de categorias de crimes e suas respectivas tags. Você deve consultá-la para entender melhor o que é um crime
+  e como ele é classificado na lista.
+
+  <ColorBox>
+    <Box HorizontalAlignment="Center" VerticalAlignment="Center">
+      Os horários dos crimes estão listados abaixo, e a duração máxima para cada categoria [bold]não é necessariamente[/bold] o tempo que deve ser usado para cada acusação individual dessa categoria.
+    </Box>
+  </ColorBox>
+
+  [bold][color=#dac471]Discrição[/color][/bold] deve ser usada ao determinar o tempo de cada acusação.
+  - Nem todos os crimes exigem a acusação máxima.
+  - Nem todos os crimes devem ter a acusação mínima.
+
+ Acusações criminais, para referência, mais uma vez:
+  - 1-XX: Aviso (Nota para ocorrências futuras)
+  - 2-XX: 1-2 Minutos
+  - 3-XX: 2-5 Minutos
+  - 4-XX: 5-10 Minutos
+  - 5-XX: Prisão Permanente (Levar ao Tribunal também)
+
+  ## Avisos
+  Os avisos são emitidos para crimes menores e devem ser anotados em caso de reincidência [italic]após o aviso ter sido dado[/italic].
+
+  Os seguintes grupos de crimes são mostrados abaixo e têm entradas de agrupamento individuais nesta pasta:
+  - [textlink="Dano/Crueldade contra Animais (A)" link="Animal SpaceLaw"]
+  - [textlink="Agressão e Homicídio Culposo (H)" link="Assault SpaceLaw"]
+  - [textlink="Contrabando (C)" link="Contraband SpaceLaw"]
+  - [textlink="Perturbação (P)" link="Disruption SpaceLaw"]
+  - [textlink="Posse/Distribuição de Drogas (D)" link="Drugs SpaceLaw"]
+  - [textlink="Agentes Hostis (AH)" link="HostileAgent SpaceLaw"]
+  - [textlink="Negligência (N)" link="Negligence SpaceLaw"]
+  - [textlink="Psiônicos (PS)" link="Psionics SpaceLaw"]
+  - [textlink="Motins (M)" link="Rioting SpaceLaw"]
+  - [textlink="Sabotagem e Vandalismo (S)" link="Sabotage SpaceLaw"]
+  - [textlink="Roubo e Fraude (R)" link="Thievery SpaceLaw"]
+  - [textlink="Invasão (I)" link="Trespassing SpaceLaw"]
+  - [textlink="Encargos não agrupados" link="Ungrouped SpaceLaw"]
+
+</Document>
