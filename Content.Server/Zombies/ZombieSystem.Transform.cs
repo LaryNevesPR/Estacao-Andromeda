@@ -39,6 +39,7 @@ using Content.Shared.Prying.Components;
 using Robust.Shared.Audio.Systems;
 using Content.Shared.Traits.Assorted.Components;
 using Content.Server.Abilities.Psionics;
+using Content.Shared.Cuffs.Components;
 
 namespace Content.Server.Zombies
 {
@@ -138,19 +139,9 @@ namespace Content.Server.Zombies
             melee.AltDisarm = false;
             melee.Range = 1.5f; // Sunrise-Edit
             melee.Angle = 45.0f;
-            melee.HitSound = zombiecomp.BiteSound;
 
             // Sunrise-Start
             RemComp<CuffableComponent>(target);
-
-            var collectiveMindComponent = EnsureComp<CollectiveMindComponent>(target);
-            foreach (var collectiveMind in collectiveMindComponent.Minds.ToArray())
-            {
-                collectiveMindComponent.Minds.Remove(collectiveMind);
-            }
-
-            if (!collectiveMindComponent.Minds.Contains("Zombie"))
-                collectiveMindComponent.Minds.Add("Zombie");
             // Sunrise-End
 
             if (mobState.CurrentState == MobState.Alive)
