@@ -160,7 +160,7 @@ public sealed partial class ZombieComponent : Component
     public string ActionFlairId = "ZombieFlair";
 
     [DataField]
-    public float ParalyzeTime = 2f;
+    public float ParalyzeTime = 1f;
 
     [DataField]
     public DamageSpecifier Damage = new()
