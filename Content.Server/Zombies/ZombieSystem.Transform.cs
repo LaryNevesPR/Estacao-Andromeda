@@ -137,8 +137,8 @@ namespace Content.Server.Zombies
             melee.Animation = zombiecomp.AttackAnimation;
             melee.WideAnimation = zombiecomp.AttackAnimation;
             melee.AltDisarm = false;
-            melee.Range = 1.5f; // Sunrise-Edit
-            melee.Angle = 45.0f;
+            melee.Range = 1.2f; // Sunrise-Edit
+            melee.Angle = 0.0f;
 
             // Sunrise-Start
             RemComp<CuffableComponent>(target);
@@ -191,7 +191,7 @@ namespace Content.Server.Zombies
 
                 // humanoid zombies get to pry open doors and shit
                 var pryComp = EnsureComp<PryingComponent>(target);
-                pryComp.SpeedModifier = 10.00f; // Sunrise-Edit
+                pryComp.SpeedModifier = 0.75f; // Sunrise-Edit
                 pryComp.PryPowered = true;
                 pryComp.Force = true;
 

@@ -21,17 +21,17 @@ public sealed partial class ZombieComponent : Component
     /// The baseline infection chance you have if you are completely nude
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float MaxZombieInfectionChance = 1.00f;
+    public float MaxZombieInfectionChance = 0.8f;
 
     /// <summary>
     /// The minimum infection chance possible. This is simply to prevent
     /// being invincible by bundling up.
     /// </summary>
     [ViewVariables(VVAccess.ReadWrite)]
-    public float MinZombieInfectionChance = 0.6f; // Sunrise-Edit
+    public float MinZombieInfectionChance = 0.25f; // Sunrise-Edit
 
     [ViewVariables(VVAccess.ReadWrite)]
-    public float ZombieMovementSpeedBuff = 1.05f; // Sunrise-Edit
+    public float ZombieMovementSpeedBuff = 0.95f; // Sunrise-Edit
 
     /// <summary>
     /// The skin color of the zombie
@@ -100,9 +100,9 @@ public sealed partial class ZombieComponent : Component
     {
         DamageDict = new ()
         {
-            { "Blunt", -5 }, // Sunrise-Edit
-            { "Slash", -5 }, // Sunrise-Edit
-            { "Piercing", -5 }, // Sunrise-Edit
+            { "Blunt", -0.4 }, // Sunrise-Edit
+            { "Slash", -0.2 }, // Sunrise-Edit
+            { "Piercing", -0.2 }, // Sunrise-Edit
             { "Heat", -0.02 },
             { "Shock", -0.02 },
         }
@@ -122,9 +122,9 @@ public sealed partial class ZombieComponent : Component
     {
         DamageDict = new()
         {
-            { "Blunt", -5 }, // Sunrise-Edit
-            { "Slash", -5 }, // Sunrise-Edit
-            { "Piercing", -5 }, // Sunrise-Edit
+            { "Blunt", -2 }, // Sunrise-Edit
+            { "Slash", -2 }, // Sunrise-Edit
+            { "Piercing", -2 }, // Sunrise-Edit
         }
     };
 
@@ -160,14 +160,14 @@ public sealed partial class ZombieComponent : Component
     public string ActionFlairId = "ZombieFlair";
 
     [DataField]
-    public float ParalyzeTime = 5f;
+    public float ParalyzeTime = 2f;
 
     [DataField]
     public DamageSpecifier Damage = new()
     {
         DamageDict = new Dictionary<string, FixedPoint2>
         {
-            { "Slash", 30 },
+            { "Slash", 15 },
         },
     };
 

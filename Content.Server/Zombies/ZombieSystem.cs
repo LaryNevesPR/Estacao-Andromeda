@@ -47,6 +47,7 @@ namespace Content.Server.Zombies
         [Dependency] private readonly ActionsSystem _action = default!;
         [Dependency] private readonly SharedStunSystem _stun = default!;
         [Dependency] private readonly NavMapSystem _navMap = default!; // Sunrise-Zombies
+        [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
 
         public const SlotFlags ProtectiveSlots =
             SlotFlags.FEET |
@@ -132,11 +133,11 @@ namespace Content.Server.Zombies
 
             if (nearestUid == null || nearestUid == default!)
             {
-                _popup.PopupEntity($"Ближайших выживших не найдено.", uid, uid, PopupType.LargeCaution);
+                _popup.PopupEntity($"Nenhum sobrevivente próximo encontrado.", uid, uid, PopupType.LargeCaution);
             }
             else
             {
-                _popup.PopupEntity($"Ближайший выживший находится {RemoveColorTags(_navMap.GetNearestBeaconString(nearestUid.Value))}", uid, uid, PopupType.LargeCaution);
+                _popup.PopupEntity($"O sobrevivente mais próximo está localizado {RemoveColorTags(_navMap.GetNearestBeaconString(nearestUid.Value))}", uid, uid, PopupType.LargeCaution);
             }
 
             args.Handled = true;
@@ -166,7 +167,7 @@ namespace Content.Server.Zombies
 
             args.Handled = true;
             var xform = Transform(uid);
-            var mapCoords = args.Target.ToMap(EntityManager);
+            var mapCoords = args.Target.ToMap(EntityManager, _transformSystem);
             var direction = mapCoords.Position - xform.MapPosition.Position;
 
             if (direction.Length() > component.MaxThrow)
