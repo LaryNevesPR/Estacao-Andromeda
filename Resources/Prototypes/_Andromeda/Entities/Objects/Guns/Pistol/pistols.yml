@@ -19,7 +19,7 @@
       shotsPerBurst: 3
       availableModes:
         - SemiAuto
-        - Burst 
+        - Burst
       soundGunshot:
         path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
       fireOnDropChance: 0.5
@@ -30,8 +30,8 @@
   id: WeaponPistolMX3REmpty
   suffix: Empty
   components:
-  - type: ItemSlots
-    slots:
+    - type: ItemSlots
+      slots:
       gun_magazine:
         name: Magazine
         startingItem: null
