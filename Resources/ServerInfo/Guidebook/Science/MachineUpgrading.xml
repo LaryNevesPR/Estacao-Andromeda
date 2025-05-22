@@ -1,38 +1,38 @@
 <Document>
-# Machine Upgrading
+  # Melhoria de Máquinas
 
-Machines help the station run smoothly, and as a scientist, you can help them run even better!
+  As máquinas ajudam a estação a funcionar sem problemas e, como cientista, você pode ajudá-las a funcionar ainda melhor!
 
-## Parts
-<Box>Stock Parts:</Box>
+  ## Peças
+<Box>Peças de estoque:</Box>
 <Box>
 <GuideEntityEmbed Entity="CapacitorStockPart"/>
 <GuideEntityEmbed Entity="MatterBinStockPart"/>
 <GuideEntityEmbed Entity="MicroManipulatorStockPart"/>
 </Box>
-You can examine each machine part to see both the type and the rating, which range from 1 to 4.
+  Você pode examinar cada peça da máquina para ver o tipo e a classificação, que variam de 1 a 4.
 
-Parts of higher levels can be researched as well as found through artifacts or salvage.
+  Peças de níveis mais altos podem ser pesquisadas e encontradas por meio de artefatos ou sucata.
 <Box>
 <GuideEntityEmbed Entity="AdvancedMatterBinStockPart"/>
 <GuideEntityEmbed Entity="SuperMatterBinStockPart"/>
 <GuideEntityEmbed Entity="BluespaceMatterBinStockPart"/>
 </Box>
 
-## Upgrading
-To know if a machine can be upgraded, you can examine it and check for the [color=#a4885c]lightning bolt[/color] icon in the lower right corner. Clicking on it will allow you to see what kinds of upgrades the machine has.
+  ## Melhorias
+  Para saber se uma máquina pode ser melhorada, você pode examiná-la e verificar o ícone de [color=#a4885c]raio[/color] no canto inferior direito. Clicar nele permitirá que você veja quais tipos de melhorias a máquina possui.
 
-To check what parts a machine needs, you can examine its board. Try it here:
+  Para verificar quais peças uma máquina precisa, você pode examinar sua placa. Experimente aqui:
 <Box Orientation="Vertical">
 <GuideEntityEmbed Entity="ProtolatheMachineCircuitboard"/>
 <GuideEntityEmbed Entity="CloningPodMachineCircuitboard"/>
 <GuideEntityEmbed Entity="TraversalDistorterMachineCircuitboard"/>
 <GuideEntityEmbed Entity="ThermomachineFreezerMachineCircuitBoard"/>
 </Box>
-You can use any rating part for any part requirement. Using higher rated parts will increase how effective the machine is.
+  Você pode usar qualquer peça de classificação para qualquer requisito de peça. Usar peças de classificação mais alta aumentará a eficácia da máquina.
 
-If you want to upgrade an existing machine, simply deconstruct it with a screwdriver and crowbar, and replace the existing parts with parts of a higher level.
+  Se quiser aprimorar uma máquina existente, basta desmontá-la com uma chave de fenda e um pé de cabra e substituir as peças existentes por peças de nível superior.
 
-You can also quickly upgrade machines by using an RPED, loading it with machine parts, and then clicking on a machine. It will quickly be upgraded with whatever parts were inserted.
+  Você também pode aprimorar máquinas rapidamente usando um RPED, carregando-o com peças de máquina e clicando em uma máquina. Ela será rapidamente aprimorada com as peças inseridas.
 <GuideEntityEmbed Entity="RPED"/>
 </Document>
