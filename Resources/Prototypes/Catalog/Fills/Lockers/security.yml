@@ -253,6 +253,10 @@
       amount: 2
     - id: MagazineRifle
       amount: 4
+    - id: WeaponLightMachineGunM492
+      amount: 1
+    - id: SmartgunMagazineLightRifleBox
+      amount: 1     
 
 - type: entity
   parent: GunSafe
