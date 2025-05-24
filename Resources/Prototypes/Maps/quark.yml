@@ -12,7 +12,7 @@
           mapNameTemplate: '{0} Quark Station {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
-            prefixCreator: 'NYA'
+            prefixCreator: 'EOC'
 #        - type: GridSpawn
 #          groups:
 #            AISAT:
@@ -31,7 +31,7 @@
             HeadOfPersonnel: [ 1, 1 ]
             Bartender: [ 1, 2 ]
             Botanist: [ 2, 2 ]
-            Boxer: [ 2, 2 ]
+            Boxer: [ 0, 0 ]
             Chef: [ 2 , 2 ]
             Clown: [ 1, 1 ]
             Lawyer: [ 1, 1 ]
