@@ -43,3 +43,7 @@ employer_description_orionexpress = Orion Express is a manufactured megacorporat
 employer_name_pmcg = PMCG
 employer_name_pmcg_command = PMCG Command
 employer_description_pmcg = A coalition of security contractors in service of the Stellar Corporate Conglomerate, the Private Military Contracting Group is one of the elements born from the necessity of protecting an ever-growing corporate empire. Gathering mercenaries from all across the galaxy, the Private Military Contracting Group deploys a diverse force to anywhere they are needed.
+
+employer_name_cybersun = Cybersun
+employer_name_cybersun_command = Cybersun Command
+employer_description_cybersun = The public face of the Solarian military-industrial complex and one of the most influential defence contractors in known space. From cutting-edge weapons to next-generation warships, Cybersun supplies the Alliance with the tools of war, securing its dominance in the stars. To Solarians, they are patriots and protectors—outsiders, however, may see something far more sinister.

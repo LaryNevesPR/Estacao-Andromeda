@@ -25,6 +25,7 @@
       - Interdyne
       - PMCG
       - NanoTrasen
+      - Cybersun
   startingGear: CorpsmanGear
   icon: "JobIconBrigmedic"
   supervisors: job-supervisors-hos

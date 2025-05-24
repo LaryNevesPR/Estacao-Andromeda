@@ -21,6 +21,7 @@
       - ZavodskoiInterstellar
       - PMCG
       - NanoTrasen
+      - Cybersun
   startingGear: SecurityCadetGear
   icon: "JobIconSecurityCadet"
   supervisors: job-supervisors-security
