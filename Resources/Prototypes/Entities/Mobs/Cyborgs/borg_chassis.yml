@@ -33,6 +33,11 @@
     inherentRadioChannels:
     - Common
     - Binary
+  # Have to add the following components here or it doesn't work.
+  - type: SurgeryIgnoreClothing
+  - type: SurgerySpeedModifier
+    speedModifier: 1.5
+  - type: Sanitized
 
 - type: entity
   id: BorgChassisGeneric
@@ -92,6 +97,11 @@
     voice: espeak-pt
   - type: BorgSwitchableType
     selectedBorgType: medical
+  # Have to add the following components here or it doesn't work.
+  - type: SurgeryIgnoreClothing
+  - type: SurgerySpeedModifier
+    speedModifier: 1.5
+  - type: Sanitized
 
 # Robotics Made
 
@@ -379,6 +389,9 @@
     interactFailureString: petting-failure-medical-cyborg
     interactSuccessSound:
       path: /Audio/Ambience/Objects/periodic_beep.ogg
+  - type: SurgeryIgnoreClothing
+  - type: SurgerySpeedModifier
+    speedModifier: 1.5
 
 - type: entity
   id: BorgChassisServiceBare
