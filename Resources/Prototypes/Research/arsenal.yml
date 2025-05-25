@@ -29,6 +29,7 @@
   - MechEquipmentKineticAccelerator # Goobstation
   - WeaponPistolMk58
   # These are roundstart but not replenishable for salvage
+  - SmartgunMagazineLightRifleBoxRubber
 
 - type: technology
   id: DraconicMunitions
@@ -58,6 +59,7 @@
   - CartridgeSpecialIncendiary
   - MagazineBoxSpecialIncendiary
   - MagazineUniversalMagnumIncendiary
+  - SmartgunMagazineLightRifleBoxIncendiary
 
 - type: technology
   id: UraniumMunitions
@@ -86,6 +88,7 @@
   - CartridgeSpecialUranium
   - MagazineBoxSpecialUranium
   - MagazineUniversalMagnumUranium
+  - SmartgunMagazineLightRifleBoxUranium
 
 # Tier 2
 
@@ -144,6 +147,7 @@
   - MagazineBoxRifleShrapnel
   - MagazineBoxCaselessRifleShrapnel
   - MagazineUniversalMagnumShrapnel
+  - SmartgunMagazineLightRifleBoxShrapnel
 
 - type: technology
   id: AdvancedWeapons
