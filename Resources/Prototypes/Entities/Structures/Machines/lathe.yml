@@ -1054,6 +1054,9 @@
       - MagazineUniversalMagnumRubber
       - MagazineLightRifleMarkOneEmpty
       - MagazineLightRifleMarkOne
+      - SmartgunMagazineLightRifleBox
+      - SmartgunMagazineLightRifleBoxPractice
+      - SmartgunMagazineLightRifleBoxEmpty
     dynamicRecipes:
       - Truncheon
       - Terminus
@@ -1181,6 +1184,11 @@
       - MagazineUniversalMagnumIncendiary
       - MagazineUniversalMagnumShrapnel
       - WeaponPistolUniversal
+      - SmartgunMagazineLightRifleBoxShrapnel
+      - SmartgunMagazineLightRifleBoxRubber
+      - SmartgunMagazineLightRifleBoxUranium
+      - SmartgunMagazineLightRifleBoxIncendiary
+
   - type: MaterialStorage
     whitelist:
       tags:

@@ -1,24 +1,23 @@
 <Document>
-# Glimmer
-[color=#a4885c]Glimmer[/color] is a more colloquial term for [color=#a4885c]noöspheric pressure[/color], measured in [color=#a4885c]milli-Psi (mΨ)[/color]. The Noösphere can be considered analogous to a pool of still,
-onyx black water. The waters have an inherent desire for stillness, for law, for an order of all things. The usage of psychic powers is like throwing a rock into the pool, creating waves that can be measured. As the waves
-build up, primordial chaos can potentially enter through our realm through areas where the pool is at its thinnest. While exceptions exist, the psychic powers generally follow Gunderaan's First Law when increasing
-Glimmer. Thus, Glimmer increases are approximated by the formula:
+  # Vislumbre
+  [color=#a4885c]Vislumbre[/color] é um termo mais coloquial para [color=#a4885c]pressão noosférica[/color], medida em [color=#a4885c]mili-Psi (mΨ)[/color]. A Noosfera pode ser considerada análoga a uma piscina de água parada, negra como ônix. As águas têm um desejo inerente por quietude, por lei, por uma ordem em todas as coisas. O uso de poderes psíquicos é como jogar uma pedra na piscina, criando ondas mensuráveis. À medida que as ondas
+  se acumulam, o caos primordial pode potencialmente entrar em nosso reino através de áreas onde a piscina é mais fina. Embora existam exceções, os poderes psíquicos geralmente seguem a Primeira Lei de Gunderaan ao aumentar o
+  Vislumbre. Assim, os aumentos de Glimmer são aproximados pela fórmula:
 
-ΔΨ = ~0.006 * kα - kδ
+  ΔΨ = ~0,006 * kα - kδ
 
-Verbally, this law is read as, "Change in Glimmer is equal to approximately six milli-Psi times Amplification, minus Dampening."
+  Verbalmente, esta lei é lida como: "A variação em Glimmer é igual a aproximadamente seis mili-Psi vezes a Amplificação, menos o Amortecimento."
 
-## Strossmayer's Constant ƥ (Glimmer Equilibrium)
-Named after Ljiljana Strossmayer, First Mystagogue, Original Founder of the Epistemics Cult. Strossmayer's Constant is approximated as the number 502.941.
+  ## Constante de Strossmayer ƥ (Equilíbrio de Glimmer)
+  Nomeada em homenagem a Ljiljana Strossmayer, Primeira Mistagoga, Fundadora Original do Culto Epistêmico. A Constante de Strossmayer é aproximada como o número 502,941.
 
-Glimmer does not operate on a linear scale, rather it follows a logistic curve between values of 0 and 1000.
-Given sufficient time and minimal input, Glimmer will always attempt to equalize itself at this value. If glimmer is below this number, it will rapidly attempt to increase until it reaches it.
-If glimmer is raised above the constant, it will rapidly attempt to decrease until it reaches it.
+  O Glimmer não opera em uma escala linear, mas segue uma curva logística entre os valores de 0 e 1000.
+  Dado tempo suficiente e entrada mínima, o Glimmer sempre tentará se equalizar nesse valor. Se o Glimmer estiver abaixo desse número, ele tentará aumentar rapidamente até alcançá-lo.
+  Se o brilho for aumentado acima da constante, ele tentará diminuir rapidamente até alcançá-la.
 
-[color=#4169e1]As a general rule of thumb, psionic powers are weakened when glimmer is less than 500, and strengthened when glimmer is greater than 500[/color]
+  [color=#4169e1]Como regra geral, os poderes psiônicos são enfraquecidos quando o brilho é menor que 500 e fortalecidos quando é maior que 500[/color]
 
-## Glimmer Sources
+  ## Fontes de Brilho
 <Box>
 <GuideEntityEmbed Entity="GlimmerProber"/>
 <GuideEntityEmbed Entity="GlimmerDrain"/>
@@ -31,46 +30,46 @@ There exist several entities which can interact with glimmer, usually by causing
 - All Anomalies
 - Glimmer Mites
 
-Epistemics can build devices to interact with glimmer. These are usually the main determiners of where glimmer is going.
-[color=#a4885c]Glimmer probers[/color] will increase glimmer, but directly generate research points without further input. [color=#a4885c]Glimmer drains[/color] simply drain glimmer at the cost of electricity.
-Glimmer Probers and Drainers work by agitating the Noösphere, which causes glimmer to fluctuate randomly.
+  Epistêmicos podem construir dispositivos para interagir com o brilho. Estes geralmente são os principais determinantes de para onde o brilho está indo.
+  [color=#a4885c]Sondas de Brilho[/color] aumentam o brilho, mas geram pontos de pesquisa diretamente sem entrada adicional. [color=#a4885c]Drenos de Brilho[/color] simplesmente drenam o brilho ao custo de eletricidade.
+  Sondadores e Drenos de Brilho funcionam agitando a Noosfera, o que faz com que o brilho flutue aleatoriamente.
 
-Probers increase the range of random fluctuations, while Drainers decrease the range of fluctations.
-This increase in range follows an exponential scale. The more sources of glimmer there are, the more chaotic glimmer becomes. For example, one Prober will cause glimmer to fluctuate between 502.941 and 550.
-But two probers will cause it to fluctuate between 502.941 and 620. Four sources will make it jump randomly between 502.941 and 750.
+  Sondadores aumentam o alcance das flutuações aleatórias, enquanto Drenos diminuem o alcance das flutuações.
+  Este aumento no alcance segue uma escala exponencial. Quanto mais fontes de brilho houver, mais caótico o brilho se torna. Por exemplo, um Sondador fará com que o brilho flutue entre 502,941 e 550.
+  Mas dois Sondasdores farão com que ele flutue entre 502,941 e 620. Quatro fontes farão com que ele salte aleatoriamente entre 502,941 e 750.
 
-Probers in turn generate research based on observing the generated Noöspheric fluctuations. As a baseline, probers generate 20 research points per second. When glimmer is less than 500, they generate less points.
-When glimmer is greater than 500, probers generate more points. Unfortunately, Probers are interfered with by the presence of other glimmer sources. For each additional glimmer source (Prober, Drainer, Anomaly, etc.)
-research output is dramatically decreased. This pattern follows an inverse log base 4 scale. Meaning that, if one prober generates 20 research points, 2 probers will each generate 13.333 points(for a total of 26).
-4 probers are required to generate 40 research points per second. 8 probers will generate 64 research points.
+  Os Sondasdores, por sua vez, geram pesquisas com base na observação das flutuações noosféricas geradas. Como base, os Sondasdores geram 20 pontos de pesquisa por segundo. Quando o brilho é menor que 500, eles geram menos pontos.
+  Quando o brilho é maior que 500, os Sondasdores geram mais pontos. Infelizmente, os Sondasdores sofrem interferência da presença de outras fontes de brilho. Para cada fonte de brilho adicional (Sondador, Drenador, Anomalia, etc.),
+  a produção da pesquisa diminui drasticamente. Esse padrão segue uma escala logarítmica inversa de base 4. Isso significa que, se um sondador gerar 20 pontos de pesquisa, 2 sondadores gerarão 13.333 pontos cada (para um total de 26).
+  São necessários 4 sondadores para gerar 40 pontos de pesquisa por segundo. 8 sondadores gerarão 64 pontos de pesquisa.
 
-If your probers are not generating any points at all, it is likely that you will need to "prime" the station's local Glimmer. This can be done by using two or three psionic powers in a short span of time.
+  Se seus sondadores não estiverem gerando nenhum ponto, é provável que você precise "preparar" o Glimmer local da estação. Isso pode ser feito usando dois ou três poderes psiônicos em um curto espaço de tempo.
 
-Prober research output can be visualized by a graph located here: https://www.desmos.com/calculator/q183tseun8
+  O resultado da pesquisa do sondador pode ser visualizado por um gráfico localizado aqui: https://www.desmos.com/calculator/q183tseun8
 
-A clever Epistemiologist would at this point realize that they can detect the presence of anomalies or glimmer mites, merely by observing the research point generation of their probers.
-If one prober is generating 13.333 points, there must exist an anomaly somewhere on the station.
+  Um epistemiologista astuto perceberia, neste ponto, que pode detectar a presença de anomalias ou ácaros de glimmer simplesmente observando a geração de pontos de pesquisa de seus sondadores.
+  Se um sondador estiver gerando 13.333 pontos, deve haver uma anomalia em algum lugar da estação.
 
-## Discharges
-Glimmer will occasionally discharge if it's above 500 mΨ, causing a wide range of effects based on how high it is. The most common is giving all entities with psionic potential a small seizure,
-which is something most people working on stations with an Epistemics department have grown used to.
+  ## Descargas
+  O glimmer ocasionalmente descarregará se estiver acima de 500 mΨ, causando uma ampla gama de efeitos dependendo de sua altura. O mais comum é causar uma pequena convulsão em todas as entidades com potencial psiônico,
+  algo a que a maioria das pessoas que trabalham em estações com um departamento de Epistêmica se acostumou.
 
-## Handling Glimmer Emergencies
+  ## Lidando com emergências de Glimmer
 <Box>
 <GuideEntityEmbed Entity="GlimmerProber"/>
 <GuideEntityEmbed Entity="GlimmerDrain"/>
 <GuideEntityEmbed Entity="MaterialNormality"/>
 <GuideEntityEmbed Entity="Ectoplasm" />
 </Box>
-Probers should be turned off before glimmer exceeds 750 mΨ.
+  Os sondadores devem ser desligados antes que o brilho exceda 750 mΨ.
 
-Glimmer drains are quite effective at draining glimmer, taking it out as fast as a prober can put it in. Glimmer Drains are constructed using Normality Crystals, which can be quite rare.
-Normality Crystals can be manufactured out of Ectoplasm, but they are much more easily obtained from mining during Planetary Expeditions. Therefore one should ask their station's Salvage Specialists
-to bring in any normality they find while mining, and use them to build drains as often as possible.
+  Drenos de brilho são bastante eficazes para drenar brilho, removendo-o o mais rápido que um sondador consegue inseri-lo. Drenos de brilho são construídos usando Cristais de Normalidade, que podem ser bastante raros.
+  Cristais de Normalidade podem ser fabricados a partir de Ectoplasma, mas são muito mais facilmente obtidos por meio da mineração durante Expedições Planetárias. Portanto, deve-se pedir aos Especialistas em Salvatagen de sua estação
+  que tragam qualquer normalidade que encontrarem durante a mineração e a usem para construir drenos com a maior frequência possível.
 
-[color=#a4885c]Ectoplasm[/color] when combined in a beaker with equal parts water, ash, blood, plasma, [color=#fcdf03]and heated to at least 400 celsius[/color] will produce a normality crystal.
-Ectoplasm is a very rare substance that can only be obtained from noöspheric entities.
+  [color=#a4885c]Ectoplasma[/color] quando combinado em um béquer com partes iguais de água, cinzas, sangue, plasma [color=#fcdf03]e aquecido a pelo menos 400 graus Celsius[/color] produzirá um cristal de normalidade.
+  Ectoplasma é uma substância muito rara que só pode ser obtida de entidades noosféricas.
 
-In a true emergency, Psionic individuals can be sacrificed upon an altar by the station's Chaplain or Mystagogue. Doing so causes glimmer to massively decrease. Be ready to shut off the probers immediately
-once this is done.
+  Em uma emergência real, indivíduos Psiônicos podem ser sacrificados em um altar pelo Capelão ou Mistagogo da estação. Isso faz com que o brilho diminua drasticamente. Esteja pronto para desligar os sondadores imediatamente
+  assim que isso for feito.
 </Document>

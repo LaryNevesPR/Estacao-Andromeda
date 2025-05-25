@@ -1,15 +1,15 @@
 <Document>
-# Altars and Golemancy
-## Altars
+  # Altares e Golemancia
+  ## Altares
 <GuideEntityEmbed Entity="AltarNanotrasen" />
-The chapel has a [color=#a4885c]sacrificial altar[/color]. To use it, a psionic humanoid must be placed on it, and someone with either psionics or clerical training must initiate the sacrifice.
-It appears in the context menu on the altar, which can be opened with the right mouse button by default.
+  A capela possui um [color=#a4885c]altar de sacrifício[/color]. Para usá-lo, um humanoide psiônico deve ser colocado sobre ele, e alguém com treinamento psiônico ou clerical deve iniciar o sacrifício.
+  Ele aparece no menu de contexto do altar, que pode ser aberto com o botão direito do mouse por padrão.
 
 <GuideEntityEmbed Entity="MaterialBluespace1" />
 <GuideEntityEmbed Entity="ClothingEyesTelegnosisSpectacles" />
-As a reward for sacrificing a psionic, glimmer will be lowered substantially and you will be given some loot.
-Usually this is a few bluespace crystals, but you can also get a powerful psionic item.
+  Como recompensa por sacrificar um psiônico, o brilho será reduzido substancialmente e você receberá algum saque.
+  Normalmente, são alguns cristais de espaço azul, mas você também pode obter um item psiônico poderoso.
 
-## Golemancy
-[color=red]Note: Golemancy is not implemented yet. Once you sacrifice a psionic you can borg them with an MMI.[/color]
+  ## Golemância
+  [color=red]Observação: Golemância ainda não foi implementada. Após sacrificar um psiônico, você pode destruí-lo com um MMI.[/color]
 </Document>

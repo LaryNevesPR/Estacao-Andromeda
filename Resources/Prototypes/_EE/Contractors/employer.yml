@@ -80,3 +80,10 @@
   descriptionKey: employer_description_eastorioncompany
   primaryColour: "#ff8a13"
   secondaryColour: "#336b83"
+
+- type: employer
+  id: Cybersun
+  nameKey: employer_name_cybersun
+  descriptionKey: employer_description_cybersun
+  primaryColour: "#920a0a"
+  secondaryColour: "#7a6347"

@@ -1462,3 +1462,65 @@
   completetime: 2
   materials:
     Steel: 200
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxEmpty
+  result: SmartgunMagazineLightRifleBoxEmpty
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 5000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxPractice
+  result: SmartgunMagazineLightRifleBoxPractice
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 10000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBox
+  result: SmartgunMagazineLightRifleBox
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 20000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxRubber
+  result: SmartgunMagazineLightRifleBoxRubber
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 20000
+    Plastic: 20000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxUranium
+  result: SmartgunMagazineLightRifleBoxUranium
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 20000
+    Plastic: 10000
+    Uranium: 10000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxIncendiary
+  result: SmartgunMagazineLightRifleBoxIncendiary
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 30000
+    Plastic: 20000
+
+- type: latheRecipe
+  id: SmartgunMagazineLightRifleBoxShrapnel
+  result: SmartgunMagazineLightRifleBoxShrapnel
+  category: Ammo
+  completetime: 10
+  materials:
+    Steel: 35000
+    Plastic: 35000
+    Plasteel: 35000

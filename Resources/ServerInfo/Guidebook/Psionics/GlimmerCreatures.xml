@@ -1,87 +1,87 @@
 <Document>
-# Glimmer Creatures
-As glimmer rises higher and higher, there can be occasional disturbances in the [color=#a4885c]noösphere[/color].
-When new psionic signatures are detected Central Command will make an announcement to the station.
-Sometimes these signatures can be the appearance of glimmer creatures!
+  # Criaturas Cintilantes
+  À medida que o Glimmer se eleva cada vez mais, pode haver perturbações ocasionais na [color=#a4885c]noosfera[/color].
+  Quando novas assinaturas psiônicas forem detectadas, o Comando Central fará um anúncio à estação.
+  Às vezes, essas assinaturas podem ser o aparecimento de criaturas cintilantes!
 
-Glimmer creatures can appear in numbers as low as 1, or multiple depending on how high glimmer is and how many psionics there are.
+  Criaturas cintilantes podem aparecer em números tão baixos quanto 1, ou múltiplos, dependendo da intensidade do Glimmer e de quantos psiônicos existem.
 
-These are the entities currently known to NanoTrasen.
-Research is ongoing, more are yet to be discovered.
+  Estas são as entidades atualmente conhecidas por NanoTrasen.
+  A pesquisa está em andamento, mas mais ainda serão descobertas.
 
-# Glimmer Mite
+  # Ácaro Cintilante
 
 <GuideEntityEmbed Entity="MobGlimmerMite"/>
 
-The glimmer mite is a small insect-like being that naturally provokes the noösphere.
+  O ácaro-brilho é um pequeno ser semelhante a um inseto que naturalmente provoca a noosfera.
 
-Minimum glimmer rating: Low
+  Nível mínimo de Glimmer: Baixo
 
-## Assessment
-As long as it is physically intact it will slowly raise glimmer.
+  ## Avaliação
+  Enquanto estiver fisicamente intacto, ele emitirá brilho lentamente.
 
-They show no signs of aggression and are physically harmless.
+  Eles não mostram sinais de agressão e são fisicamente inofensivos.
 
-## Procedure
-Kill them as soon as they're spotted, they affect the noösphere and the brooding sound drives crew insane!
+  ## Procedimento
+  Mate-os assim que forem avistados, pois eles afetam a noosfera e o som de chocalho deixa a tripulação louca!
 
-## Analysis
-You can get liquid [color=#a4885c]Ectoplasm[/color] from blending its body, so they can be a decent source of [color=#a4885c]Normality Crystals[/color].
+  ## Análise
+  Você pode obter [color=#a4885c]Ectoplasma[/color] líquido misturando seu corpo, então eles podem ser uma fonte decente de [color=#a4885c]Cristais de Normalidade[/color].
 
-In an emergency the body can be beaten to a pulp which will make it cease raising glimmer, at the cost of not yielding ectoplasm.
+  Em uma emergência, o corpo pode ser esmagado até virar uma polpa, o que o fará parar de emitir brilho, ao custo de não produzir ectoplasma.
 
-Overall, a mild help to stopping glimmer, if you can find them.
+  No geral, uma pequena ajuda para interromper o brilho, se você conseguir encontrá-los.
 
-# Glimmer Wisp
+  # Fogo-fátuo-brilho
 
 <GuideEntityEmbed Entity="MobGlimmerWisp"/>
 
-These wisps are physical manifestations of glimmer that are ghostly in appearance.
+  Esses fios são manifestações físicas de Glimmer com aparência fantasmagórica.
 
-Minimum glimmer rating: High
+  Nível mínimo de Glimmer: Alto
 
-## Assessment
+  ## Avaliação
 
-They don't directly affect the noösphere themselves, the main threat is that they [color=#a4885c]hunt down[/color] any psionics!
+  Eles não afetam diretamente a noosfera; a principal ameaça é que eles [color=#a4885c]caçam[/color] qualquer psiônico!
 
-Once a psionic is critically injured, they will begin to drain the life out of the body to [color=#a4885c]heal all injuries[/color].
+  Uma vez que um psiônico esteja gravemente ferido, ele começará a drenar a vida do corpo para [color=#a4885c]curar todos os ferimentos[/color].
 
-## Procedure
-Most physical attacks pass through them unnoticed, but holy weapons like the Chaplain's [color=#a4885c]Bible[/color] will weaken it.
+  ## Procedimento
+  A maioria dos ataques físicos passa despercebida por eles, mas armas sagradas como a [color=#a4885c]Bíblia[/color] do Capelão o enfraquecerão.
 
-Once attacked they will retaliate for some time, so be prepared for a fight!
+  Uma vez atacados, eles retaliarão por algum tempo, então esteja preparado para uma luta!
 
-They can also be dispelled by any gifted psionic.
+  Eles também podem ser dissipados por qualquer psiônico talentoso.
 
-## Analysis
-If you manage to kill a wisp, it will leave behind a large amount of ectoplasm which can easily make a drain or two.
+  ## Análise
+  Se você conseguir matar um fio, ele deixará para trás uma grande quantidade de ectoplasma que pode facilmente drenar um ou dois.
 
-Extremely useful to a trained Epistemics team, but will require coordination to take it down.
+  Extremamente útil para uma equipe Epistêmica treinada, mas exigirá coordenação para derrubá-lo.
 
-# Revenant
+  # Revenant
 
 <GuideEntityEmbed Entity="MobRevenant"/>
 
-A tortured soul taking revenge on those who wronged them, brought to this plane by the noösphere.
+  Uma alma torturada em busca de vingança contra aqueles que a injustiçaram, trazida a este plano pela noosfera.
 
-Minimum glimmer rating: Dangerous
+  Nível mínimo de Glimmer: Perigoso
 
-## Assessment
+  ## Avaliação
 
-They have no effect on the noösphere but are a serious threat to the station, feeding on the souls of dead crew.
+  Eles não têm efeito na noosfera, mas são uma séria ameaça à estação, alimentando-se das almas dos tripulantes mortos.
 
-Unlike wisps, revenants cannot be attacked in any way by default.
+  Ao contrário de fogos-fátuos, os revenants não podem ser atacados de forma alguma por padrão.
 
-Once a revenant uses their abilities, they can be attacked by any means for a short time.
+  Uma vez que um revenant usa suas habilidades, ele pode ser atacado por qualquer meio por um curto período.
 
-## Procedure
-Holy damage from a bible or anti-psionic knife is especially effective at taking down wisps.
+  ## Procedimento
+  Dano sagrado de uma bíblia ou faca antipsiônica é especialmente eficaz para derrubar fogos-fátuos.
 
-Assistance from the Security department is usually recommended.
+  A assistência do departamento de Segurança geralmente é recomendada.
 
-Spare no time in putting down a revenant.
+  Não perca tempo para abater um revenant.
 
-## Analysis
-Mostly annoying to the crew, limited exploitation due to low amount of ectoplasm when killed.
+  ## Análise
+  Principalmente irritante para a tripulação, exploração limitada devido à baixa quantidade de ectoplasma ao ser morto.
 
 </Document>

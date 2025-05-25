@@ -4,39 +4,40 @@
   <Box>
     <GuideEntityEmbed Entity="MobLoneAbductor"/>
   </Box>
-  Abductors are an alien society set on cataloging and experimenting on the sectors personnel.
-  Its important to note: Abductors, unlike most antagonists are [color=red]NOT set on killing people[/color] and are rather purely interested in completing their experiments.
+  Abdutores são uma sociedade alienígena empenhada em catalogar e realizar experimentos com o pessoal do setor.
+  É importante observar: Abdutores, ao contrário da maioria dos antagonistas, [color=red]NÃO têm a intenção de matar pessoas[/color] e estão puramente interessados em concluir seus experimentos.
 
-  Abductors do not possess the ability to speak and therefore communicate through more... mime-like methods.
+  Abdutores não possuem a capacidade de falar e, portanto, se comunicam por métodos mais... semelhantes a mímicas.
 
-  ##Abduction
-  Abductors begin on their ship somewhere near the station. Using the [color=#a149bf]"Human Observation Console"[/color] you can seek out victims who are alone and [color=lightblue]warp[/color] near them to begin abduction.
+  ##Abdução
+  Os abdutores começam em sua nave em algum lugar perto da estação. Usando o [color=#a149bf]"Console de Observação Humana"[/color], você pode procurar vítimas que estejam sozinhas e [color=lightblue]teletransportar-se[/color] para perto delas para iniciar a abdução.
 
-  The wonderprod is the primary tool of an Abductor. It has four modes you will use for abduction:
-  - [color=yellow]{Stun}[/color] Stuns the victim for roughly 5 seconds.
-  - [color=pink]{Restrain}[/color] binds the victims hands in weak cables.
-  - [color=blue]{Sleep}[/color] Induces a sleep-like state in the victim.
-  - [color=red]{Harm}[/color] Burns the target, dealing damage. [bold]ONLY USE IF YOU MUST.[/bold]
+  O Wonderprod é a principal ferramenta de um Abdutor. Ele possui quatro modos que você usará para abdução:
+  - [color=yellow]{Atordoar}[/color] Atordoa a vítima por aproximadamente 5 segundos.
 
-  Once a target is immobilized you can use the [italic]gizmo[/italic] to implant them with a nano tracker, return to your ship using the [color=lightblue]return action[/color], then use the gizmo on your [color=#a149bf]Abductor Console[/color].
+  - [color=pink]{Restrain}[/color] prende as mãos da vítima com cabos fracos.
+  - [color=blue]{Sleep}[/color] Induz um estado semelhante ao sono na vítima.
+  - [color=red]{Harm}[/color] Queima o alvo, causando dano. [bold]USE SOMENTE SE FOR NECESSÁRIO.[/bold]
 
-  ##Experimentation
-  Once you have linked the most recent nano tracker to the console, select [bold]{ATTRACT}[/bold] to warp your victim to your ship.
+  Assim que o alvo estiver imobilizado, você pode usar o [italic]dispositivo[/italic] para implantar um nano rastreador nele, retornar à sua nave usando a [color=lightblue]ação de retorno[/color] e, em seguida, usar o dispositivo no seu [color=#a149bf]Console do Abdutor[/color].
 
-  Now that you have your victim aboard, its recommended you:
-  - Buckle them to your surgical table.
-  - Change out their cuffs for a higher grade of handcuffs provided on the ship.
-  - Remove any of their belongings that could damage you or the secrecy of the experiment.
-  - Use your vast surgical knowledge to replace their heart with a gland. You don't need to remove their clothes to do surgery, unlike normal surgeons.
+  ##Experimentação
+  Após conectar o nano rastreador mais recente ao console, selecione [bold]{ATTRACT}[/bold] para teletransportar sua vítima para sua nave.
 
-  Finally, drag the victim whom you have completed your experiment on into the [color=#a149bf]Experimentator[/color] to confirm the results of the experiment on the [color=#a149bf]Abductor Console[/color] and send them back where you found them.
+  Agora que sua vítima está a bordo, é recomendável que você:
+  - Prenda-a à sua mesa cirúrgica.
+  - Troque as algemas por algemas de melhor qualidade fornecidas na nave.
+  - Remova quaisquer pertences que possam causar danos a você ou ao sigilo do experimento.
+  - Use seu vasto conhecimento cirúrgico para substituir o coração dela por uma glândula. Você não precisa tirar as roupas dela para realizar a cirurgia, ao contrário dos cirurgiões comuns.
 
-  ## Abductor Tools
+  Finalmente, arraste a vítima com a qual você concluiu o experimento para o [color=#a149bf]Experimentador[/color] para confirmar os resultados do experimento no [color=#a149bf]Console do Abdutor[/color] e envie-a de volta para onde você a encontrou.
 
-  Abductors have access to more advanced tools than normal surgeons or engineers. Their surgical tools are faster than advanced surgical tools, and from their normal tools, the multitool's alternative mode is able to be used to hijack doors.
+  ## Ferramentas do Abdutor
 
-  ##Getting rid of an Abductor
-  Like [textlink="Changelings" link="Changelings"], Abductors are not protected by [textlink="space law" link="SpaceLaw"] and are able to be executed freely.
+  Os abdutores têm acesso a ferramentas mais avançadas do que cirurgiões ou engenheiros comuns. Seus instrumentos cirúrgicos são mais rápidos do que os avançados e, a partir de suas ferramentas normais, o modo alternativo da multiferramenta pode ser usado para roubar portas.
 
-  Also, an abductor's ship is a physical object in the world, anyone with access to a space-faring ship such as [textlink="salvage" link="Salvage"] can bump into them in space and dismantle their ship.
+  ##Livrando-se de um abdutor
+  Assim como [textlink="Changelings" link="Changelings"], os abdutores não são protegidos pela [textlink="lei espacial" link="Lei Espacial"] e podem ser executados livremente.
+
+  Além disso, a nave de um abdutor é um objeto físico no mundo; qualquer pessoa com acesso a uma nave espacial como [textlink="salvage" link="Salvage"] pode esbarrar com ele no espaço e desmontar sua nave.
 </Document>

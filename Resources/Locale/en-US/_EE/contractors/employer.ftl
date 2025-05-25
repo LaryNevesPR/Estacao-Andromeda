@@ -47,3 +47,7 @@ employer_description_pmcg = A coalition of security contractors, the Private Mil
 employer_name_eastorioncompany = East-Orion Company
 employer_name_eastorioncompany_command = East-Orion Company Command
 employer_description_eastorioncompany = A Nederlandic initiative to exploit an untapped market in 2157, the United East-Orion Company was an old idea made new. Rooted in tradition that went back centuries, two large agricultural corporations — the New-Nederic agricultural machinery manufacturer and the Farmer's Civil Union — came together under one banner to offer planet-honed skillsets to a growing number of corporate space stations.
+
+employer_name_cybersun = Cybersun
+employer_name_cybersun_command = Cybersun Command
+employer_description_cybersun = The public face of the Solarian military-industrial complex and one of the most influential defence contractors in known space. From cutting-edge weapons to next-generation warships, Cybersun supplies the Alliance with the tools of war, securing its dominance in the stars. To Solarians, they are patriots and protectors—outsiders, however, may see something far more sinister.

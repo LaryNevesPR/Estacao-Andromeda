@@ -32,6 +32,7 @@
       - PMCG
       - NanoTrasen
       - EastOrionCompany
+      - Cybersun
   startingGear: SeniorOfficerGear
   icon: "JobIconSeniorOfficer"
   supervisors: job-supervisors-hos

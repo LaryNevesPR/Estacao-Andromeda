@@ -1,18 +1,18 @@
 <Document>
-# Traversal Distorter
+  # Distorcedor de Travessia
 
-The traversal distorter is a late-game artifact machine that can aid in moving through the nodes of an artifact. 
+  O Distorcedor de Travessia é uma máquina de artefatos do final do jogo que pode auxiliar na movimentação pelos nós de um artefato.
 <Box>
 <GuideEntityEmbed Entity="MachineTraversalDistorter"/>
 </Box>
-Artifacts placed on top of a powered traversal distorter are subjected to a bias which affects which node they will move to after being activated. The bias can be set by clicking on the distorter.
+  Artefatos colocados sobre um distorcedor de travessia motorizado são submetidos a uma polarização que afeta o nó para o qual serão movidos após serem ativados. A polarização pode ser definida clicando no distorcedor.
 
-There are two types of biases:
-- [color=#a4885c]In:[/color] favors nodes closer to the origin. Results in a decrease of depth.
-- [color=#a4885c]Out:[/color] favors nodes farther away from the origin. Results in an increase of depth.
+  Existem dois tipos de polarização:
+  - [color=#a4885c]Entrada:[/color] favorece os nós mais próximos da origem. Resulta em uma diminuição da profundidade.
+  - [color=#a4885c]Saída:[/color] favorece os nós mais distantes da origem. Resulta em um aumento da profundidade.
 
-Setting it to bias inwards allows you to return to the beginning of an artifact graph, if you've reached a dead end. 
+  Definir a polarização para dentro permite retornar ao início de um gráfico de artefato, caso tenha chegado a um beco sem saída.
 
-Likewise, if you find yourself stuck at low depths, setting it to bias outward will help you find new nodes. In certain circumstances, toggling between the two allows you to repeatedly activate the same node.
+  Da mesma forma, se você estiver preso em profundidades baixas, defini-la como polarização para fora ajudará você a encontrar novos nós. Em certas circunstâncias, alternar entre os dois permite ativar repetidamente o mesmo nó.
 
 </Document>
