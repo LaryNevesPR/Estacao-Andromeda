@@ -2422,7 +2422,7 @@
 - type: loadout
   id: ClothingUniformJumpsuitTacticool
   category: Uniform
-  cost: 2
+  cost: 1
   exclusive: true
   items:
     - ClothingUniformJumpsuitTacticool
@@ -2437,7 +2437,7 @@
 - type: loadout
   id: ClothingUniformJumpskirtTacticool
   category: Uniform
-  cost: 2
+  cost: 1
   exclusive: true
   items:
     - ClothingUniformJumpskirtTacticool
@@ -2452,7 +2452,7 @@
 - type: loadout
   id: ClothingUniformJumpskirtTacticalMaid
   category: Uniform
-  cost: 2
+  cost: 1
   exclusive: true
   items:
     - ClothingUniformJumpskirtTacticalMaid

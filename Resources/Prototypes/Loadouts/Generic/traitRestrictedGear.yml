@@ -1,0 +1,76 @@
+
+- type: loadout
+  id: LoadoutOuterRestrictedGearWinterSyndieCap
+  category: Outer
+  cost: 1
+  exclusive: true
+  requirements:
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutOuter
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+  items:
+    - ClothingOuterWinterSyndieCap
+
+
+- type: loadout
+  id: LoadoutMaskRestrictedGearMaskGasSyndicate
+  category: Mask
+  cost: 2
+  exclusive: true
+  customColorTint: false
+  items:
+    - ClothingMaskGasSyndicate
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutMasks
+
+- type: loadout
+  id: LoadoutHeadRestrictedGearHatSyndieMAA
+  category: Head
+  cost: 1
+  exclusive: true
+  items:
+    - ClothingHeadHatSyndieMAA
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutHead
+
+- type: loadout
+  id: LoadoutShoesRestrictedGearBootsWinterSyndicate
+  category: Shoes
+  cost: 1
+  exclusive: true
+  customColorTint: false
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutShoes
+  items:
+    - ClothingShoesBootsWinterSyndicate
+
+- type: loadout
+  id: LoadoutBackpackRestrictedGearBackpackSyndicate
+  category: Backpacks
+  cost: 3
+  exclusive: true
+  customColorTint: true
+  items:
+    - ClothingBackpackSyndicate
+  requirements:
+    - !type:CharacterTraitRequirement
+      traits:
+        - RestrictedGear
+    - !type:CharacterItemGroupRequirement
+      group: LoadoutBackpacks
+
+
