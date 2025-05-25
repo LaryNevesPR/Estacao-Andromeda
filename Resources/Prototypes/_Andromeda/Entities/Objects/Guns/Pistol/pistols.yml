@@ -30,8 +30,8 @@
   id: WeaponPistolMX3REmpty
   suffix: Empty
   components:
-    - type: ItemSlots
-      slots:
+  - type: ItemSlots
+    slots:
       gun_magazine:
         name: Magazine
         startingItem: null
