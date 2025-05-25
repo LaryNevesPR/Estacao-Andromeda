@@ -151,10 +151,10 @@ figurines-rd-0 = Explodindo todos os borgs!
 figurines-rd-1 = Arsenal de nível 3? De jeito nenhum.
 figurines-rd-2 = Agora, onde eu deixei meu traje de proteção...?
 figurines-rd-3 = Agora você está pensando com portais!
-figurines-rd-4 = O Glimmer está seguro!
-figurines-rd-5 = Glimmer a 960Ψ? Me parece seguro.
+figurines-rd-4 = O Vislumbre está seguro!
+figurines-rd-5 = Vislumbre a 960Ψ? Me parece seguro.
 
-figurines-scientist-0 = Não sei abaixar o Glimmer.
+figurines-scientist-0 = Não sei abaixar o Vislumbre.
 figurines-scientist-1 = Ele pediu para ser transformado em borg!
 figurines-scientist-2 = Carpa na ciência!
 figurines-scientist-3 = Explosão na ciência!
