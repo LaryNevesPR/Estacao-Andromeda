@@ -19,6 +19,7 @@
       - ZavodskoiInterstellar
       - EinsteinEngines
       - NanoTrasen
+      - Cybersun
   startingGear: SeniorEngineerGear
   icon: "JobIconSeniorEngineer"
   supervisors: job-supervisors-ce

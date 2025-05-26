@@ -109,3 +109,5 @@ ent-ClothingHeadHelmetHardsuitMime = mime vacsuit helmet
     .desc = A mime vacsuit helmet. On closer inspection, it appears to be a normal helmet painted with crayons, and a mime mask glued on top.
 ent-ClothingHeadHelmetHardsuitSanta = DNK-31 helmet
     .desc = A festive-looking hardsuit helmet that provides the jolly gift-giver protection from low-pressure environments.
+ent-ClothingHeadHelmetHardsuitSpartan = Mk. IV helmet
+    .desc = A bulky helmet designed for the Mk. IV combat hardsuit.

@@ -12,6 +12,8 @@
       - ZavodskoiInterstellar
       - HephaestusIndustries
       - NanoTrasen
+      - Andromeda
+      - Cybersun
   startingGear: RoboticistGear
   icon: "JobIconRoboticist"
   supervisors: job-supervisors-rd

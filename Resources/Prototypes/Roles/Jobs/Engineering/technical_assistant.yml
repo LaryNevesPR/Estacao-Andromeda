@@ -18,6 +18,7 @@
       - ZavodskoiInterstellar
       - EinsteinEngines
       - NanoTrasen
+      - Cybersun
 
 - type: startingGear
   id: TechnicalAssistantGear

@@ -2,7 +2,7 @@ reagent-effect-guidebook-change-glimmer-reaction-effect =
     { $chance ->
         [1] Modifica
         *[other] modificar
-    } o Glimmer conta por {$count} pontos
+    } o Vislumbre conta por {$count} pontos
 
 reagent-effect-guidebook-chem-remove-psionic =
     { $chance ->

@@ -24,6 +24,7 @@
       - ZavodskoiInterstellar
       - PMCG
       - NanoTrasen
+      - Cybersun
   startingGear: WardenGear
   icon: "JobIconWarden"
   supervisors: job-supervisors-hos

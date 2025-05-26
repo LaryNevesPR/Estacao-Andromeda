@@ -1,20 +1,20 @@
 <Document>
-# A.P.E.
+  # A.P.E.
 
-The Anomalous Particle Emitter is a machine used to interface with anomalies. It is the primary way of manipulating the stats of an anomaly.
+  O Emissor de Partículas Anômalas é uma máquina usada para interagir com anomalias. É a principal forma de manipular as estatísticas de uma anomalia.
 
 <Box>
 <GuideEntityEmbed Entity="MachineAPE"/>
 </Box>
 
-The A.P.E. can shoot three different kinds of anomalous particles: Delta, Epsilon, and Zeta. Each particle types has certain effects:
+  O A.P.E. pode disparar três tipos diferentes de partículas anômalas: Delta, Epsilon e Zeta. Cada tipo de partícula possui efeitos específicos:
 
-- [color=#a4885c]Danger:[/color] Increases the severity of an anomaly.
-- [color=#a4885c]Unstable:[/color] Increases the instability of an anomaly.
-- [color=#a4885c]Containment:[/color] Increases the stability at the cost of health.
+  - [color=#a4885c]Perigo:[/color] Aumenta a gravidade de uma anomalia.
+  - [color=#a4885c]Instável:[/color] Aumenta a instabilidade de uma anomalia.
+  - [color=#a4885c]Contenção:[/color] Aumenta a estabilidade ao custo de vida.
 
-Which particle type corresponds to each effect is unique and can be learned by scanning the anomaly.
+  O tipo de partícula correspondente a cada efeito é único e pode ser descoberto escaneando a anomalia.
 
-The A.P.E. can also be locked by anyone with epistemics access, which prevents it from being deconstructed, turned on or off, or having the particle type switched.
+  O A.P.E. também pode ser bloqueado por qualquer pessoa com acesso epistêmico, o que impede que ele seja desconstruído, ativado ou desativado, ou que o tipo de partícula seja alterado.
 
 </Document>

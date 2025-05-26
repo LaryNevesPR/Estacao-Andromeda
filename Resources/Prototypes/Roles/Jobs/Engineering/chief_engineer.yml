@@ -20,6 +20,7 @@
       - NanoTrasen
       - ZavodskoiInterstellar
       - HephaestusIndustries
+      - Cybersun
   weight: 10
   startingGear: ChiefEngineerGear
   icon: "JobIconChiefEngineer"
