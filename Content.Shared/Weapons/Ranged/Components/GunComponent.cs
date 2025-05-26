@@ -14,6 +14,7 @@ namespace Content.Shared.Weapons.Ranged.Components;
 [Access(typeof(SharedGunSystem), typeof(SharedMultishotSystem), typeof(SharedOniSystem))] // DeltaV - I didn't feel like rewriting big chunks of code
 public sealed partial class GunComponent : Component
 {
+
     #region Jamming
 
     [DataField, AutoNetworkedField]
@@ -155,7 +156,7 @@ public sealed partial class GunComponent : Component
     /// <summary>
     /// Who the gun is being requested to shoot at directly.
     /// </summary>
-    [ViewVariables]
+    [DataField]
     public EntityUid? Target = null;
 
     /// <summary>

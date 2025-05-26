@@ -204,7 +204,7 @@ public sealed partial class NPCCombatSystem
                 return;
             }
 
-            gun.Target = comp.AlwaysDirectTargets || _random.Prob(comp.DirectTargetChance) ? comp.Target : null;
+            //gun.Target = comp.AlwaysDirectTargets || _random.Prob(comp.DirectTargetChance) ? comp.Target : null;
 
             _gun.AttemptShoot(uid, gunUid, gun, targetCordinates);
         }
