@@ -104,7 +104,7 @@ psionic-language-power-metapsionic-feedback = A noosfera flui livremente atravé
 psychognomy-power-description = Você tem uma leve noção da forma da fonte de mensagens telepáticas.
 psychognomy-power-initialization-feedback =
     Perfurei o véu, e sei que não estou sozinho. Mais preocupante é que a perfuração que fiz parece estar ainda indefinidamente permeável.
-    Quando a energia passa pelas perfurações na noosfera, tenho um Brilho vago da origem material.
+    Quando a energia passa pelas perfurações na noosfera, tenho um vislumbre vago da origem material.
 
 # Telepatia
 telepathy-power-description = Você é capaz de enviar e receber mensagens telepáticas.
@@ -140,9 +140,9 @@ action-description-pyrokinetic-flare =
     Cria um flash de luz solar de Gehenna para cegar seus inimigos.
 pyrokinetic-flare-power-description = { action-description-pyrokinetic-flare }
 pyrokinetic-flare-power-initialization-feedback =
-    Meu olhar é brevemente preenchido com um flash de imensa luz, e por um único momento eu posso ver um Brilho de um reino
-    de fogo e dor, de fome e sofrimento. Assim que eu o vislumbro, a visão desaparece. Mas a memória daquele flash permanece em minha mente.
-    Eu ainda posso me lembrar disso, um Brilho dos fogos de Gehenna.
+    Meu olhar é brevemente preenchido com um flash de imensa luz, e por um único momento eu posso ver um vislumbre de um reino
+    de fogo e dor, de fome e sofrimento. Assim que eu o noto, a visão desaparece. Mas a memória daquele flash permanece em minha mente.
+    Eu ainda posso me lembrar disso, um vislumbre dos fogos de Gehenna.
 pyrokinetic-flare-power-metapsionic-feedback = Guh these don't even matter because nobody can read this line in-game and I don't know when I'm ever bringing back Narrow Pulse
 
 # Invocar Imp

@@ -16,7 +16,7 @@
     sprite: _NF/Objects/Weapons/Guns/Rifles/gestio.rsi
   - type: Gun
     fireRate: 1.5
-    projectileSpeed: 30
+    projectileSpeed: 37
     angleDecay: 4 #in testing 3 was more balanced
     angleIncrease: 6
     minAngle: 21 #generally meant to be 1 when used properly

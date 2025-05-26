@@ -1,0 +1,96 @@
+# Magazines
+- type: entity
+  id: SmartgunMagazineLightRifleBox
+  name: "Smartgun box magazine (.30 rifle)"
+  parent: BaseMagazineLightRifle
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifle
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+  - type: MagazineVisuals
+    magState: mag
+    steps: 8
+    zeroVisible: false
+  - type: Appearance
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxPractice
+  name: "Smartgun box magazine (.30 rifle practice)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRiflePractice
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxRubber
+  name: "Smartgun box magazine (.30 rifle rubber)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleRubber
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxIncendiary
+  name: "Smartgun box magazine (.30 rifle incendiary)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleIncendiary
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxUranium
+  name: "Smartgun box magazine (.30 rifle uranium)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleUranium
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxShrapnel
+  name: "Smartgun magazine box (.30 rifle shrapnel)"
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: CartridgeLightRifleShrapnel
+
+- type: entity
+  id: SmartgunMagazineLightRifleBoxEmpty
+  name: "Smartgun magazine box (.30 rifle any)"
+  suffix: empty
+  parent: MagazineLightRifleBox
+  components:
+  - type: Tag
+    tags:
+      - LightRifleHeavy
+  - type: BallisticAmmoProvider
+    proto: null
+    capacity: 100
+  - type: Item
+  - type: Sprite
+    sprite: Objects/Weapons/Guns/Ammunition/Magazine/LightRifle/light_rifle_box.rsi
+    layers:
+    - state: base
+      map: ["enum.GunVisualLayers.Base"]
+    - state: mag-1
+      map: ["enum.GunVisualLayers.Mag"]
