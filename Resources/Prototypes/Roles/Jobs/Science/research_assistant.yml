@@ -12,6 +12,7 @@
       employers:
       - NanoTrasen
       - ZengHuPharmaceuticals
+      - Andromeda
   startingGear: ResearchAssistantGear
   icon: "JobIconResearchAssistant"
   supervisors: job-supervisors-science

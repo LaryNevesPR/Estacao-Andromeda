@@ -9,6 +9,7 @@
       min: 72000 # 20 hrs
     - !type:CharacterEmployerRequirement
       employers:
+      - Andromeda
       - NanoTrasen
       - ZengHuPharmaceuticals
   startingGear: SeniorResearcherGear
