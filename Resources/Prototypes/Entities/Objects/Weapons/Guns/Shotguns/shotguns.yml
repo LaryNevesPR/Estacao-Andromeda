@@ -98,6 +98,8 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
     fireOnDropChance: 0.3
+    averageShotsBeforeJamming: 44
+    timeToUnjam: 2
   - type: Wieldable
   - type: ItemSlots
     slots:
@@ -186,6 +188,8 @@
   - type: Gun
     fireRate: 2
     fireOnDropChance: 0.5
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 0.5
   - type: Wieldable
   - type: BallisticAmmoProvider
     capacity: 2
@@ -232,6 +236,9 @@
         Blunt: 9
   - type: DamageOtherOnHit
     staminaCost: 8.0
+  - type: Gun
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 1
 
 - type: entity
   parent: WeaponShotgunEnforcer
@@ -265,6 +272,8 @@
   - type: Wieldable
   - type: Gun
     shotgunSpreadMultiplier: 0.5
+    averageShotsBeforeJamming: 26
+    timeToUnjam: 2
 
 - type: entity
   name: sawn-off shotgun
@@ -284,6 +293,8 @@
     fireOnDropChance: 0.5
     shotgunSpreadMultiplier: 3
     damageModifier: 1.5
+    averageShotsBeforeJamming: 24
+    timeToUnjam: 0.6
   - type: BallisticAmmoProvider
     capacity: 2
   - type: Construction
@@ -338,6 +349,8 @@
   - type: Gun
     fireRate: 4
     fireOnDropChance: 1
+    averageShotsBeforeJamming: 12
+    timeToUnjam: 1
   - type: BallisticAmmoProvider
     capacity: 1
   - type: Construction
@@ -372,6 +385,8 @@
   - type: Gun
     fireRate: 2
     fireOnDropChance: 1
+    averageShotsBeforeJamming: 16
+    timeToUnjam: 4.1
   - type: BallisticAmmoProvider
     capacity: 1
   - type: StaticPrice
@@ -397,6 +412,8 @@
   - type: Gun
     fireRate: 4 #No reason to stifle the firerate since you have to manually reload every time anyways.
     fireOnDropChance: 1
+    averageShotsBeforeJamming: 10
+    timeToUnjam: 1.6
   - type: BallisticAmmoProvider
     capacity: 1
     proto: null

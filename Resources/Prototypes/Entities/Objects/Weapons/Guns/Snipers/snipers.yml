@@ -76,6 +76,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/sniper.ogg
     fireOnDropChance: 1
+    averageShotsBeforeJamming: 22
+    timeToUnjam: 7
   - type: MeleeWeapon
     range: 1.75
     damage:
@@ -154,6 +156,8 @@
   - type: GunRequiresWield # DeltaV - Firing an antimateriel rifle is.. incredibly unweildy with one hand.
   - type: Gun # DeltaV
     fireRate: 0.5
+    averageShotsBeforeJamming: 29
+    timeToUnjam: 2
 
 - type: entity
   name: musket
@@ -174,6 +178,8 @@
     availableModes:
     - SemiAuto
     fireOnDropChance: 1
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 5
   - type: UseDelayOnShoot
   - type: UseDelay
     delay: 8 #it's a musket
@@ -208,6 +214,7 @@
   - type: ThrowingAngle
     angle: 225
 
+# Why the hell is this under snipers?? - SkySnowFlok
 - type: entity
   name: flintlock pistol
   parent: BaseWeaponSniper
@@ -217,6 +224,8 @@
   - type: Gun
     minAngle: 0
     maxAngle: 30 #miss him entirely because the barrel is smoothbore
+    averageShotsBeforeJamming: 7
+    timeToUnjam: 5.6
     fireOnDropChance: 1
   - type: Item
     size: Small

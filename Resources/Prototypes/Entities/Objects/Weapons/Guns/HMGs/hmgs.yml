@@ -54,6 +54,8 @@
   - type: Gun
     minAngle: 80
     maxAngle: 200
+    averageShotsBeforeJamming: 60
+    timeToUnjam: 10
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/minigun.ogg
   - type: GunWieldBonus

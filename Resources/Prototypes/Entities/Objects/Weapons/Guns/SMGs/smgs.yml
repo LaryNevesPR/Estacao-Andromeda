@@ -94,6 +94,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
     fireOnDropChance: 0.3
+    averageShotsBeforeJamming: 44
+    timeToUnjam: 2
   - type: MagazineVisuals
     magState: mag
     steps: 1
@@ -130,6 +132,8 @@
     - FullAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/c-20r.ogg
+    averageShotsBeforeJamming: 37
+    timeToUnjam: 4
     fireOnDropChance: 0.3
   - type: ChamberMagazineAmmoProvider
     autoEject: true
@@ -203,6 +207,8 @@
         path: /Audio/Weapons/Guns/Gunshots/atreides.ogg
       availableModes:
         - FullAuto
+      averageShotsBeforeJamming: 50
+      timeToUnjam: 3
     - type: ItemSlots
       slots:
         gun_magazine:
@@ -314,6 +320,8 @@
     - Burst
     - FullAuto
     fireOnDropChance: 0.1
+    averageShotsBeforeJamming: 33
+    timeToUnjam: 2.6
   - type: ItemSlots
     slots:
       gun_magazine:
