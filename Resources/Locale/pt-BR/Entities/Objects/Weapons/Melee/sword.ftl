@@ -9,3 +9,5 @@ ent-Machete = facão
 
 ent-Claymore = claymore
      .desc = Uma antiga lâmina de guerra.
+ent-MantisBlackBlade = Lâmina Negra
+     .desc = Uma enorme lâmina tão escura quanto o cosmos profundo. Ela sussura em sua mente.
