@@ -14,7 +14,7 @@
 - type: entity
   id: ActionMantisSummonBlackBlade
   name: Summon Black Blade
-  description: Beckon forth the testament of your herectic sins.
+  description: Beckon forth the testament of your heretic sins.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
   name: black sword
   parent: BaseItem
   id: MantisBlackBlade
-  description: A huge black sword as dark as the deep cosmos. It whispers incessantly to its wielder.
+  description: A huge black sword as dark as the deep cosmos. It whispers to its wielder.
   components:
   - type: Sharp
   - type: Sprite

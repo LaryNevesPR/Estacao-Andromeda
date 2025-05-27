@@ -69,5 +69,5 @@ action-description-psychokinesis = Dobre o espaço para se mover instantanemanet
 action-name-rf-sensitivity = Alternar Sensibilidade RF
 action-desc-rf-sensitivity = Ativa ou desativa sua habilidade de interpretar ondas de rádio.
 
-ActionMantisSummonBlackBlade = Invocar Lâmina Negra
-    .desc = Invoque o julgamento sobre os pecados dos hereges!
+action-name-mantis-summon-black-blade = Invocar Lâmina Negra
+action-description-mantis-summon-black-blade = Invoque o julgamento sobre os pecados dos hereges!
