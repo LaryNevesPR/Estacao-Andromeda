@@ -229,6 +229,9 @@
   - type: BallisticAmmoProvider
   - type: Wieldable
   - type: GunRequiresWield
+  - type: Gun
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 1
   - type: MeleeWeapon
     attackRate: 1.4
     damage:
@@ -236,9 +239,6 @@
         Blunt: 9
   - type: DamageOtherOnHit
     staminaCost: 8.0
-  - type: Gun
-    averageShotsBeforeJamming: 100
-    timeToUnjam: 1
 
 - type: entity
   parent: WeaponShotgunEnforcer

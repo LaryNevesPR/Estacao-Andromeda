@@ -221,8 +221,8 @@
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
       params:
         volume: -14
-      averageShotsBeforeJamming: 80
-      timeToUnjam: 2.3
+    averageShotsBeforeJamming: 80
+    timeToUnjam: 2.3
     availableModes:
     - SemiAuto
     fireOnDropChance: 0.1
