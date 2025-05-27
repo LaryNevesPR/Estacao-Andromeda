@@ -130,6 +130,7 @@ public sealed partial class TTSSystem : EntitySystem
         //if (args.Language.ID != "TauCetiBasic")
         //    return;
 
+
         var voice = DefaultAnnounceVoice;
         if (!_prototypeManager.TryIndex(component.VoicePrototypeId ?? "", out VoicePrototype? proto))
         {
@@ -183,6 +184,30 @@ public sealed partial class TTSSystem : EntitySystem
     {
         var recipients = Robust.Shared.Player.Filter.Pvs(uid, 1F).RemovePlayers(_ignoredRecipients);
 
+        // This checks if the message is too long. - SuperNova
+        if (message.Length > MaxChars)
+        {
+            long.Error($"TTS System: Message too long ({message.Length} characters). Max allowed is {MaxChars} characters.");
+            return;
+        }
+
+        // Ignore TTS if the entity is an active NPC - SuperNova
+        if (HasComp<ActiveNPCComponent>(uid)) { return; }
+
+        // This checks that the entity is speaking any language at all.
+        // It also gets the language speaker component, which is needed to check if the recipients understand the language. - SuperNova
+        if (TryComp<LanguageSpeakerComponent>(uid, out var LanguageSpeaker) { return; })
+
+        // If the speaker is not speaking a language that a recipient understands, we remove the recipient from the list. - SuperNova
+        foreach (var session in recipients)
+        {
+            if (TryComp<LanguageKnowledgeComponent>(session.AttachedEntity, out var languageKnowledge) &&
+                !languageKnowledge.UnderstoodLanguages.Contains(LanguageSpeaker.CurrentLanguage))
+            {
+                recipients.RemovePlayer(session);
+            }
+        }
+
         var soundData = await GenerateTTS(message, voice);
 
         if (soundData is null)
@@ -190,6 +215,8 @@ public sealed partial class TTSSystem : EntitySystem
 
         var netEntity = GetNetEntity(uid);
 
+        // If the entity has an EyeComponent, we will play the sound from the target of the eye.
+        // This is useful for entities that have a different target, like cameras or drones.
         if (TryComp<EyeComponent>(uid, out var eye) && eye is not null)
         {
             recipients.RemovePlayerByAttachedEntity(uid);
