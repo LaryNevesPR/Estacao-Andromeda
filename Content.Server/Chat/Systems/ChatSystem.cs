@@ -407,7 +407,7 @@ public sealed partial class ChatSystem : SharedChatSystem
 
         _chatManager.ChatMessageToManyFiltered(filter, ChatChannel.Radio, message, wrappedMessage, source, false, true, colorOverride);
 
-        
+
 
         // Esses anúncios são eventos como "Nome da pessoa (Capitão) chegou à estação"
         if (_configurationManager.GetCVar(AndromedaCCVars.TTsAnnounceDispatchEnabled) && _configurationManager.GetCVar(AndromedaCCVars.TTSEnabled))
