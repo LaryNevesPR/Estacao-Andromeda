@@ -1,0 +1,37 @@
+- type: entity
+  parent: BaseStructure
+  id: WaterContainerBase
+  name: water container
+  description: Is this the container that holds water? Yes, yes it is.
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PhysShapeAabb
+          bounds: "-0.5,-0.5,0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+        density: 1000
+  - type: Tag
+    tag:
+      - Pipe
+      - WaterPipe
+
+- type: entity
+  parent: WaterContainerBase
+  id: WaterContainer
+  name: water container
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Hydraulic/Containers/water_tank.rsi
+    layers:
+      - state: water_tank

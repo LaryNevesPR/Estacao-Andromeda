@@ -1,0 +1,51 @@
+- type: entity
+  parent: BaseItem
+  id: WaterPipeBase
+  name: water pipe
+  description: A simple pipe used to transport liquid.
+  placement:
+    mode: SnapgridCenter
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Hydraulic/Pipes/pipe.rsi
+    layers:
+      - state: pipe
+        map: [ "enum.PipeVisualLayers.Pipe" ]
+  - type: Tag
+    tag:
+      - Pipe
+      - WaterPipe
+  
+
+- type: entity
+  parent: WaterPipeBase
+  id: WaterPipe
+  name: water pipe
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Hydraulic/Pipes/pipe.rsi
+    layers:
+      - state: pipe
+
+- type: entity
+  parent: WaterPipeBase
+  id: WaterPipeCurved
+  description: A curved pipe used to transport liquid.
+  name: curved water pipe
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Hydraulic/Pipes/turn_pipe.rsi
+    layers:
+      - state: turn_pipe
+
+- type: entity
+  parent: WaterPipeBase
+  id: WaterPipeThreeWay
+  description: A three-way pipe used to transport liquid.
+  name: threewaya water pipe
+  components:
+  - type: Sprite
+    sprite: _Andromeda/Hydraulic/Pipes/threeway_pipe.rsi
+    state: water_pipe
+    layers:
+      - state: threeway_pipe
