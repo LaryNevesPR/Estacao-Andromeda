@@ -121,6 +121,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/pistol.ogg
     fireOnDropChance: 0.3
+    averageShotsBeforeJamming: 60
+    timeToUnjam: 1.7
 
 - type: entity
   name: viper
@@ -219,6 +221,8 @@
       path: /Audio/Weapons/Guns/Gunshots/silenced.ogg
       params:
         volume: -14
+    averageShotsBeforeJamming: 80
+    timeToUnjam: 2.3
     availableModes:
     - SemiAuto
     fireOnDropChance: 0.1
@@ -292,6 +296,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
     fireOnDropChance: 0.5
+    averageShotsBeforeJamming: 91
+    timeToUnjam: 2
 
 - type: entity
   name: mk58
@@ -391,6 +397,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mk58.ogg
     fireOnDropChance: 0.6
+    averageShotsBeforeJamming: 120
+    timeToUnjam: 0.5
   - type: ItemSlots
     slots:
       gun_magazine:

@@ -89,6 +89,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/rifle2.ogg
     fireOnDropChance: 0.5
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 7
   - type: ChamberMagazineAmmoProvider
     soundRack:
       path: /Audio/Weapons/Guns/Cock/ltrifle_cock.ogg
@@ -162,6 +164,10 @@
     steps: 1
     zeroVisible: true
   - type: Appearance
+  - type: Gun
+    averageShotsBeforeJamming: 57
+    timeToUnjam: 5
+
 
 - type: entity
   name: Lecter
@@ -182,6 +188,8 @@
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/ltrifle.ogg
     fireOnDropChance: 0.2
+    averageShotsBeforeJamming: 43
+    timeToUnjam: 4
   - type: ItemSlots
     slots:
       gun_magazine:
@@ -264,6 +272,8 @@
     soundEmpty:
       path: /Audio/Weapons/Guns/Empty/empty.ogg
     clumsyProof: true
+    averageShotsBeforeJamming: 100
+    timeToUnjam: 2
   - type: MeleeWeapon
     damage:
       types:
