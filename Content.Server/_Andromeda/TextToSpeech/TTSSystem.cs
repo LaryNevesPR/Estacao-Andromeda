@@ -12,6 +12,9 @@ using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Content.Server.Language;
+using Content.Shared.Language;
+using Content.Shared.Language.Components;
+using Content.Shared.NPC;
 using static Content.Shared.Administration.Notes.AdminMessageEuiState;
 
 namespace Content.Server.Andromeda.TTS;
@@ -39,7 +42,12 @@ public sealed partial class TTSSystem : EntitySystem
     private const int WhisperVoiceRange = 3;
 
     private readonly ISawmill _sawmill = Logger.GetSawmill("tts-system");
-    private readonly List<ICommonSession> _ignoredRecipients = [];
+    private readonly List<ICommonSession> obfuscatedRecipients = [];
+    private readonly List<EntityUid> obfuscatedRecipientsUid = [];
+
+    private List<ICommonSession> _ignoredRecipients = [];
+
+    private string? obfuscatedMessage;
 
     private bool _isEnabled;
 
@@ -127,8 +135,24 @@ public sealed partial class TTSSystem : EntitySystem
         if (args.Language.ID == "Sign")
             return;
 
-        //if (args.Language.ID != "TauCetiBasic")
-        //    return;
+        // if the language isn't TauCetiBasic, obfuscate the language into a new variable. - SuperNova
+        if (args.Language.ID != "TauCetiBasic")
+        {
+            string obfuscatedMessage = _language.ObfuscateSpeech(args.Message, args.Language);
+        }
+
+
+        // Ignore TTS if the entity is an active NPC - SuperNova
+        if (HasComp<ActiveNPCComponent>(uid)) { return; }
+
+        // This checks that the entity is speaking any language at all. - SuperNova
+        if (TryComp<LanguageSpeakerComponent>(uid, out var LanguageSpeaker)) { return; }
+
+
+
+
+
+
 
         var voice = DefaultAnnounceVoice;
         if (!_prototypeManager.TryIndex(component.VoicePrototypeId ?? "", out VoicePrototype? proto))
@@ -172,24 +196,43 @@ public sealed partial class TTSSystem : EntitySystem
             return;
         }
 
-        HandleSay(uid, newMessage, voice);
+        HandleSay(uid, args.Message, newMessage, voice);
     }
     private void OnTransformSpeech(TransformSpeechEvent args)
     {
         if (!_isEnabled) return;
         args.Message = args.Message.Replace("+", "");
     }
-    private async void HandleSay(EntityUid uid, string message, int voice)
+    private async void HandleSay(EntityUid uid, string message, string obfuscatedMessage, int voice)
     {
         var recipients = Robust.Shared.Player.Filter.Pvs(uid, 1F).RemovePlayers(_ignoredRecipients);
 
+        foreach (var recipient in recipients.Recipients)
+        {
+            if (TryComp<LanguageKnowledgeComponent>(recipient.AttachedEntity, out var LanguageKnowledgeComponentRecipient) &&
+                TryComp<LanguageKnowledgeComponent>(uid, out var LanguageKnowledgeComponentSender) &&
+                LanguageKnowledgeComponentRecipient.UnderstoodLanguages.Intersect(LanguageKnowledgeComponentSender.SpokenLanguages).Any())
+            {
+                obfuscatedRecipients.Add(recipient);
+
+                // This sucks, but i wanna rip my eyes out with chat and tts code already, so fuck it. - SuperNova
+                EntityUid? recipientUid = recipient.AttachedEntity;
+                if (recipientUid is { } notNullRecipient) { obfuscatedRecipientsUid.Add(notNullRecipient); }
+            }
+        }
+
+        recipients.RemovePlayers(obfuscatedRecipients);
+
+        var obfuscatedSoundData = await GenerateTTS(obfuscatedMessage, voice);
         var soundData = await GenerateTTS(message, voice);
 
-        if (soundData is null)
+        if (soundData == null || obfuscatedSoundData == null)
             return;
 
         var netEntity = GetNetEntity(uid);
 
+        // If the entity has an EyeComponent, we will play the sound from the target of the eye.
+        // This is useful for entities that have a different target, like cameras or drones.
         if (TryComp<EyeComponent>(uid, out var eye) && eye is not null)
         {
             recipients.RemovePlayerByAttachedEntity(uid);
@@ -197,7 +240,7 @@ public sealed partial class TTSSystem : EntitySystem
             {
                 Data = soundData,
                 SourceUid = GetNetEntity(eye.Target)
-            }, Filter.Empty().FromEntities(uid));
+            }, Filter.Empty().FromEntities(new[] { uid }));
         }
 
         RaiseNetworkEvent(new PlayTTSEvent
@@ -205,6 +248,12 @@ public sealed partial class TTSSystem : EntitySystem
             Data = soundData,
             SourceUid = netEntity
         }, recipients);
+
+        RaiseNetworkEvent(new PlayTTSEvent
+        {
+            Data = soundData,
+            SourceUid = netEntity
+        }, Filter.Empty().FromEntities(obfuscatedRecipientsUid.ToArray()));
     }
 
     private async void HandleWhisper(EntityUid uid, string message, int voice)
