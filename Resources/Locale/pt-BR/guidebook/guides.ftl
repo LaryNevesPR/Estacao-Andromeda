@@ -60,6 +60,7 @@ guide-entry-traversal-distorter = Distorcedor de Trajetória
 guide-entry-machine-upgrading = Melhorando Máquinas
 guide-entry-robotics = Robótica
 guide-entry-cyborgs = Ciborgues
+guide-entry-quadborgs = Quadborgs
 guide-entry-security = Segurança
 guide-entry-forensics = Forense
 guide-entry-defusal = Desarme de bombas
