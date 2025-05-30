@@ -1,0 +1,220 @@
+# © SUNRISE, An EULA/CLA with a hosting restriction, full text: https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt
+- type: entity
+  id: BaseHumanoidXenoOrganUnGibbable
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/HumanoidXeno/organs.rsi
+  - type: Organ
+  - type: Food
+  - type: Extractable
+    grindableSolutionName: organ
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidHumanoidXeno
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+      - people
+  - type: Tag
+    tags:
+      - Meat
+
+- type: entity
+  id: BaseHumanoidXenoOrgan
+  parent: BaseHumanoidXenoOrganUnGibbable
+  abstract: true
+  components:
+  - type: Gibbable
+
+- type: entity
+  id: OrganHumanoidXenoBrain
+  parent: BaseHumanoidXenoOrgan
+  name: cérebro
+  description: Nexus de uma mente alienígena. Pensamentos que você não quer conhecer.
+  components:
+  - type: Sprite
+    state: brain
+  - type: Organ
+    slotId: brain # Shitmed Change
+  - type: Input
+    context: "ghost"
+  - type: Brain
+  - type: InputMover
+  - type: Examiner
+  - type: BlockMovement
+  - type: BadFood
+  - type: Tag
+    tags:
+    - Meat
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: GreyMatter
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+    - people
+
+- type: entity
+  id: OrganHumanoidXenoTongue
+  parent: BaseHumanoidXenoOrgan
+  name: Lingua
+  description: Longo e flexível.
+  components:
+  - type: Sprite
+    state: tongue
+
+- type: entity
+  id: OrganHumanoidXenoAppendix
+  parent: BaseHumanoidXenoOrgan
+  name: apêndice
+  description: Um cumprimento evolutivo do passado.
+  components:
+  - type: Sprite
+    layers:
+    - state: appendix
+    - state: appendix-inflamed
+      visible: false
+
+- type: entity
+  id: OrganHumanoidXenoEars
+  parent: BaseHumanoidXenoOrgan
+  name: Orelha
+  description: Localizadores supersensíveis. Ouvem seus medos.
+  components:
+  - type: Sprite
+    state: ears
+  - type: Ears # Shitmed Change
+
+- type: entity
+  id: OrganHumanoidXenoLungs
+  parent: BaseHumanoidXenoOrgan
+  name: Pulmão
+  description: Filtram o oxigênio da atmosfera e o enviam para o sangue, onde ele é usado como transportador de elétrons.
+  components:
+  - type: Organ # Shitmed Change
+    slotId: lungs # Shitmed Change
+  - type: Sprite
+    layers:
+      - state: lung-l
+      - state: lung-r
+  - type: Lung
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Human ]
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      Lung:
+        maxVol: 100.0
+        canReact: false
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidHumanoidXeno
+          Quantity: 5
+
+- type: entity
+  id: OrganHumanoidXenoHeart
+  parent: BaseHumanoidXenoOrgan
+  name: Coração de Xenoformo
+  description: Órgão poderoso, bombeando sangue ácido através de tecidos rígidos e proporcionando incrível resistência e força a cada xenomorfo.
+  components:
+  - type: Heart # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: heart # Shitmed Change
+  - type: Sprite
+    state: heart-on
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [Animal]
+    groups:
+    - id: Medicine
+    - id: Poison
+    - id: Narcotic
+
+- type: entity
+  id: OrganHumanoidXenoStomach
+  parent: BaseHumanoidXenoOrgan
+  name: Estomago
+  description: Poço devorador.
+  components:
+  - type: Organ # Shitmed Change
+    slotId: stomach # Shitmed Change
+  - type: Sprite
+    state: stomach
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 100 # 2x more than human
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidHumanoidXeno
+          Quantity: 5
+  - type: Stomach
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [Animal]
+    groups:
+    - id: Food
+    - id: Drink
+
+- type: entity
+  id: OrganHumanoidXenoLiver
+  parent: BaseHumanoidXenoOrgan
+  name: Fígado
+  description: Poderoso detoxificador, neutralizando facilmente substâncias perigosas.
+  components:
+  - type: Liver # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: liver # Shitmed Change
+  - type: Sprite
+    state: liver
+  - type: Metabolizer # The liver metabolizes certain chemicals only, like alcohol.
+    maxReagents: 1
+    metabolizerTypes: [Human]
+    groups:
+    - id: Alcohol
+      rateModifier: 0.1 # removes alcohol very slowly along with the stomach removing it as a drink
+
+- type: entity
+  id: OrganHumanoidXenoKidneys
+  parent: BaseHumanoidXenoOrgan
+  name: Rins
+  description: Filtros emparelhados, que implacavelmente eliminam tudo o que é desnecessário.
+  components:
+  - type: Organ # Shitmed
+    slotId: kidneys
+  - type: Sprite
+    layers:
+      - state: kidney-l
+      - state: kidney-r
+  # The kidneys just remove anything that doesn't currently have any metabolisms, as a stopgap.
+  - type: Metabolizer
+    maxReagents: 5
+    metabolizerTypes: [Human]
+    removeEmpty: true

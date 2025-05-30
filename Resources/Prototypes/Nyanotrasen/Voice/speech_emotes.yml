@@ -59,6 +59,7 @@
     tags:
     - FelinidEmotes
     - HarpyEmotes
+    - HumanoidXenoEmotes
   blacklist:
     components:
     - BorgChassis

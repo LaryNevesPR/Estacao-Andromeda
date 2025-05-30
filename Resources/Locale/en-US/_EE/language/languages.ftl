@@ -21,3 +21,11 @@ language-Delvahii-description =
 language-Qiilour-name = Qiilour
 language-Qiilour-description =
     The native and principal language of the Xelthia, Qiilour is spoken by nearly all members of their species to some degree. It is a refined fusion of several ancient tongues—such as Telenarii, Voskarn, and Old Xelthec—each now lost to history.
+
+language-Yautja-name = Yautja
+language-Yautja-description =
+    An ancient and honor-bound language spoken by the Predators, marked by guttural tones and cryptic symbols. Still used in hunting rituals, clan rites, and as a means of silent communication among seasoned warriors.
+
+language-XhZaruun-name = XhZaruun
+language-XhZaruun-description =
+    An ancient, primal language of the Xenomorph hive-mind, consisting of guttural clicks, hisses, and telepathic impulses. Used primarily for coordination within the hive and to communicate aggression, XhZaruun embodies the alien nature of its speakers and is incomprehensible to most other species.

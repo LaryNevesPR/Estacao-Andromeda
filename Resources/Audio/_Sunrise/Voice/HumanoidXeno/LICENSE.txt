@@ -1,0 +1,10 @@
+The following sound files do not belong to this project:
+
+- XenoGrowl1
+- XenoGrowl2
+- XenoGrowl3
+- XenoCry1
+- XenoCry2
+- XenoCry3
+
+These sounds are the property of the RMC server. All rights to these audio files belong to the RMC server.

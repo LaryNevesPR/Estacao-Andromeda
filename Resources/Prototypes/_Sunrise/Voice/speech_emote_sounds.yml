@@ -1,0 +1,40 @@
+- type: emoteSounds
+  id: XenoHumanoid
+  sounds:
+    Scream:
+      collection: HumanoidXenoScreams
+    Growl:
+      collection: HumanoidXenoGrowls
+    Yawn:
+      collection: HumanoidXenoYawn
+    Crying:
+      collection: HumanoidXenoCry
+    Sigh:
+      collection: HumanoidXenoScreams
+    Whistle:
+      collection: HumanoidXenoScreams
+   
+  params:
+    variation: 0.125
+
+
+- type: emoteSounds
+  id: Predator
+  params:
+    variation: 0.125
+  sounds:
+    Scream:
+      collection: PredatorScreams
+    Sigh:
+      collection: PredatorSigh
+    Laugh:
+      collection: PredatorLaugh
+    Click:
+      collection: PredatorClick
+    Crying:
+      collection: PredatorCrying
+    Whistle:
+      collection: PredatorWhistles
+    Yawn:
+      collection: PredatorYawn
+    

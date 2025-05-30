@@ -1,0 +1,38 @@
+- type: soundCollection
+  id: PredatorScreams
+  files:
+  - /Audio/_Sunrise/Voice/Predator/predator_screams1.ogg
+  - /Audio/_Sunrise/Voice/Predator/predator_screams2.ogg
+
+- type: soundCollection
+  id: PredatorSigh
+  files:
+  - /Audio/_Sunrise/Voice/Predator/predator_sigh.ogg
+
+- type: soundCollection
+  id: PredatorLaugh
+  files:
+  - /Audio/_Sunrise/Voice/Predator/predator_laugh.ogg
+
+- type: soundCollection
+  id: PredatorClick
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredadorClick1.ogg
+  - /Audio/_Sunrise/Voice/Predator/PredadorClick2.ogg
+
+- type: soundCollection
+  id: PredatorCrying
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorCry.ogg
+
+- type: soundCollection
+  id: PredatorWhistles
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorWhistle.ogg
+
+- type: soundCollection
+  id: PredatorYawn
+  files:
+  - /Audio/_Sunrise/Voice/Predator/PredatorYawn.ogg
+
+

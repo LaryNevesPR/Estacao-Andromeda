@@ -1,0 +1,118 @@
+# © SUNRISE, An EULA/CLA with a hosting restriction, full text: https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt
+- type: entity
+  id: PartPredator
+  parent: [BaseItem, BasePart]
+  name: "Cabeça do predador"
+  abstract: true
+  components:
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 3
+      - ReagentId: FluorosulfuricAcidHumanoidXeno
+        Quantity: 10
+
+- type: entity
+  id: TorsoPredator
+  name: "Torso do Predador"
+  parent: [PartPredator, BaseTorso]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "torso_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 10
+      - ReagentId: FluorosulfuricAcidHumanoidXeno
+        Quantity: 20
+
+- type: entity
+  id: HeadPredator
+  name: "Cabeça do Predador"
+  parent: [PartPredator, BaseHead]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "head_m"
+  - type: Extractable
+    juiceSolution:
+      reagents:
+      - ReagentId: Fat
+        Quantity: 5
+      - ReagentId: FluorosulfuricAcidHumanoidXeno
+        Quantity: 10
+
+- type: entity
+  id: LeftArmPredator
+  name: "Braço esquerdo do Predador"
+  parent: [PartPredator, BaseLeftArm]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "l_arm"
+
+- type: entity
+  id: RightArmPredator
+  name: "Braço direito do Predador"
+  parent: [PartPredator, BaseRightArm]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "r_arm"
+
+- type: entity
+  id: LeftHandPredator
+  name: "Mão esquerda do Predador"
+  parent: [PartPredator, BaseLeftHand]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "l_hand"
+
+- type: entity
+  id: RightHandPredator
+  name: "Mão direita do Predador"
+  parent: [PartPredator, BaseRightHand]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "r_hand"
+
+- type: entity
+  id: LeftLegPredator
+  name: "Perna esquerda do Predador"
+  parent: [PartPredator, BaseLeftLeg]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "l_leg"
+
+- type: entity
+  id: RightLegPredator
+  name: "Perna direita do Predador"
+  parent: [PartPredator, BaseRightLeg]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "r_leg"
+
+- type: entity
+  id: LeftFootPredator
+  name: "Pé esquerdo do Predador"
+  parent: [PartPredator, BaseLeftFoot]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "l_foot"
+
+- type: entity
+  id: RightFootPredator
+  name: "Pé direito do Predador"
+  parent: [PartPredator, BaseRightFoot]
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/parts.rsi/
+    state: "r_foot"

@@ -1,0 +1,232 @@
+# © SUNRISE, An EULA/CLA with a hosting restriction, full text: https://github.com/space-sunrise/space-station-14/blob/master/CLA.txt
+- type: entity
+  id: BasePredatorOrganUnGibbable
+  parent: BaseItem
+  abstract: true
+  components:
+  - type: Sprite
+    sprite: _Sunrise/Mobs/Species/Predator/organs.rsi
+  - type: Organ
+  - type: Food
+  - type: Extractable
+    grindableSolutionName: organ
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidPredator
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+      - people
+  - type: Tag
+    tags:
+      - Meat
+
+- type: entity
+  id: BasePredatorOrgan
+  parent: BasePredatorOrganUnGibbable
+  abstract: true
+  components:
+  - type: Gibbable
+
+- type: entity
+  id: OrganPredatorBrain
+  parent: BasePredatorOrgan
+  name: Cérebro
+  description: Nexus de uma mente alienígena. Pensamentos que você não quer saber.
+  components:
+  - type: Sprite
+    state: brain
+  - type: Organ
+    slotId: brain # Shitmed Change
+  - type: Input
+    context: "ghost"
+  - type: Brain
+  - type: InputMover
+  - type: Examiner
+  - type: BlockMovement
+  - type: BadFood
+  - type: Tag
+    tags:
+      - Meat
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: GreyMatter
+          Quantity: 5
+  - type: FlavorProfile
+    flavors:
+    - people
+
+- type: entity
+  id: OrganPredatorTongue
+  parent: BasePredatorOrgan
+  name: Língua
+  description: Longa e flexível
+  components:
+  - type: Sprite
+    state: tongue
+
+- type: entity
+  id: OrganPredatorAppendix
+  parent: BasePredatorOrgan
+  name: Apêndice
+  description: Saudação evolutiva do passado.
+  components:
+  - type: Sprite
+    layers:
+    - state: appendix
+    - state: appendix-inflamed
+      visible: false
+
+- type: entity
+  id: OrganPredatorEars
+  parent: BasePredatorOrgan
+  name: Orelhas
+  description: Localizadores super sensíveis. Ouvirão seus medos.
+  components:
+  - type: Sprite
+    state: ears
+  - type: Ears # Shitmed Change
+
+- type: entity
+  id: OrganPredatorLungs
+  parent: BasePredatorOrgan
+  name: Pulmões
+  description: Filtram oxigênio da atmosfera e o direcionam para o sangue, onde é usado como transportador de elétrons.
+  components:
+  - type: Organ # Shitmed Change
+    slotId: lungs # Shitmed Change
+  - type: Sprite
+    layers:
+      - state: lung-l
+      - state: lung-r
+  - type: Lung
+  - type: Metabolizer
+    removeEmpty: true
+    solutionOnBody: false
+    solution: "Lung"
+    metabolizerTypes: [ Human ]
+    groups:
+    - id: Gas
+      rateModifier: 100.0
+  - type: SolutionContainerManager
+    solutions:
+      organ:
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 10
+      Lung:
+        maxVol: 100.0
+        canReact: false
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidPredator
+          Quantity: 5
+
+- type: entity
+  id: OrganPredatorHeart
+  parent: BasePredatorOrgan
+  name: Coração do predador
+  description: Órgão poderoso, bombeando sangue ácido através de tecidos duros, fornecendo.
+  components:
+  - type: Heart # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: heart # Shitmed Change
+  - type: Sprite
+    state: heart-on
+  - type: Metabolizer
+    maxReagents: 2
+    metabolizerTypes: [Human]
+    groups:
+    - id: Medicine
+    - id: Poison
+    - id: Narcotic
+
+- type: entity
+  id: OrganPredatorStomach
+  parent: BasePredatorOrgan
+  name: Estômago
+  description: Um poço faminto.
+  components:
+  - type: Organ # Shitmed Change
+    slotId: stomach # Shitmed Change
+  - type: Sprite
+    state: stomach
+  - type: SolutionContainerManager
+    solutions:
+      stomach:
+        maxVol: 50
+      food:
+        maxVol: 5
+        reagents:
+        - ReagentId: FluorosulfuricAcidPredator
+          Quantity: 5
+  - type: Stomach
+  - type: Metabolizer
+    maxReagents: 3
+    metabolizerTypes: [Human]
+    groups:
+    - id: Food
+    - id: Drink
+
+- type: entity
+  id: OrganPredatorLiver
+  parent: BasePredatorOrgan
+  name: Fígado
+  description: Poderoso desintoxicante, neutralizando facilmente substâncias perigosas..
+  components:
+  - type: Liver # Shitmed Change
+  - type: Organ # Shitmed Change
+    slotId: liver # Shitmed Change
+  - type: Sprite
+    state: liver
+  - type: Metabolizer
+    maxReagents: 1
+    metabolizerTypes: [Human]
+    groups:
+    - id: Alcohol
+      rateModifier: 0.1
+
+- type: entity
+  id: OrganPredatorKidneys
+  parent: BasePredatorOrgan
+  name: Rins
+  description: Filtros emparelhados, expulsando impurezas implacavelmente.
+  components:
+  - type: Organ # Shitmed
+  - type: Sprite
+    layers:
+      - state: kidney-l
+      - state: kidney-r
+  - type: Metabolizer
+    maxReagents: 5
+    metabolizerTypes: [Human]
+    removeEmpty: true
+
+- type: entity
+  id: OrganPredatorEyes
+  parent: BasePredatorOrgan
+  name: Olhos
+  description: Eu te vejo!
+  components:
+  - type: Organ # Shitmed Change
+    slotId: eyes # Shitmed Change
+  - type: Eyes # Shitmed Change
+  - type: Sprite
+    layers:
+      - state: eyeball-l
+      - state: eyeball-r
