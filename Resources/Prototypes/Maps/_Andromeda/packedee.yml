@@ -1,0 +1,64 @@
+- type: gameMap
+  id: Packed
+  mapName: 'Packed'
+  mapPath: /Maps/_Andromeda/packedee.yml
+  minPlayers: 0
+  maxPlayers: 40
+  stations:
+    Packed:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Packed {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: 'VG'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/_Andromeda/Shuttles/emergency_crimson.yml
+        - type: StationJobs
+          availableJobs:
+            #command
+            Captain: [ 1, 1 ]
+            HeadOfPersonnel: [ 1, 1 ]
+            HeadOfSecurity: [ 1, 1 ]
+            ChiefMedicalOfficer: [ 1, 1 ]
+            ChiefEngineer: [ 1, 1 ]
+            ResearchDirector: [ 1, 1 ]
+            Quartermaster: [ 1, 1 ]
+            #service
+            Bartender: [ 1, 1 ]
+            Botanist: [ 1, 2 ]
+            Chef: [ 1, 1 ]
+            Janitor: [ 1, 1 ]
+            Chaplain: [ 1, 1 ]
+            Librarian: [ 1, 1 ]
+            ServiceWorker: [ 1, 2 ]
+            #engineering
+            AtmosphericTechnician: [ 1, 2 ]
+            StationEngineer: [ 2, 4 ]
+            TechnicalAssistant: [ 4, 4 ]
+            #medical
+            Chemist: [ 1, 2 ]
+            MedicalDoctor: [ 2, 4 ]
+            MedicalIntern: [ 2, 2 ]
+            Paramedic: [ 1, 1 ]
+            #science
+            Scientist: [ 2, 4 ]
+            ResearchAssistant: [ 2, 2 ]
+            #security
+            Warden: [ 1, 1 ]
+            SecurityOfficer: [ 2, 4 ]
+            Detective: [ 1, 1 ]
+            SecurityCadet: [ 2, 2 ]
+            Lawyer: [ 1, 2 ]
+            #supply
+            SalvageSpecialist: [ 2, 4 ]
+            CargoTechnician: [ 1, 2 ]
+            #civilian
+            Passenger: [ -1, -1 ]
+            Clown: [ 1, 1 ]
+            Mime: [ 1, 1 ]
+            Musician: [ 1, 1 ]
+            #silicon
+            StationAi: [ 1, 1 ]
+            Borg: [ 1, 2 ]
