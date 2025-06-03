@@ -329,7 +329,7 @@ entities:
             1: 4
             0: 3072
           -2,-4:
-            0: 30582
+            0: 30590
           -2,-3:
             0: 26471
           -3,-2:
@@ -344,8 +344,7 @@ entities:
             0: 2191
             1: 768
           -1,-4:
-            1: 17
-            0: 28672
+            0: 28791
           -1,-3:
             0: 30711
           -1,-2:
@@ -353,7 +352,7 @@ entities:
           -1,-1:
             0: 65455
           -1,-5:
-            1: 30481
+            0: 29303
           -1,0:
             0: 558
             1: 2048
@@ -576,7 +575,7 @@ entities:
           2,6:
             0: 65535
           2,7:
-            0: 48063
+            0: 47935
           2,8:
             0: 35763
           3,5:
@@ -584,7 +583,7 @@ entities:
           3,6:
             0: 46079
           3,7:
-            0: 48063
+            0: 48031
           4,4:
             0: 3845
           4,5:
@@ -1176,23 +1175,26 @@ entities:
             0: 65295
           0,8:
             1: 9728
+            0: 32768
           0,9:
             1: 9826
-            0: 2176
           0,10:
-            1: 59938
+            1: 8802
+          0,11:
+            1: 57890
           1,9:
             0: 32754
           1,10:
-            0: 7
-            1: 63488
+            0: 39
+          1,11:
+            1: 61440
           2,10:
-            1: 15906
+            1: 11826
+          2,11:
+            1: 62178
           2,9:
             1: 8930
             0: 8
-          2,11:
-            1: 58082
           3,11:
             1: 61680
           3,9:
@@ -1423,7 +1425,7 @@ entities:
           15,3:
             0: 65524
           15,4:
-            0: 21789
+            0: 56733
           16,1:
             0: 26383
           16,3:
@@ -1431,7 +1433,7 @@ entities:
           16,2:
             0: 61166
           16,4:
-            0: 65309
+            0: 60941
           17,1:
             0: 56797
           17,2:
@@ -1439,7 +1441,7 @@ entities:
           17,3:
             0: 65520
           17,4:
-            0: 3855
+            0: 3871
           18,1:
             0: 63351
           18,2:
@@ -1522,7 +1524,7 @@ entities:
           14,8:
             0: 47935
           15,5:
-            0: 64789
+            0: 64797
           15,6:
             0: 50431
             1: 4096
@@ -1532,7 +1534,7 @@ entities:
           15,8:
             1: 25668
           16,5:
-            0: 56783
+            0: 56782
           16,6:
             0: 56541
           16,7:
@@ -9699,7 +9701,7 @@ entities:
       pos: 44.5,30.5
       parent: 2
     - type: Door
-      secondsUntilStateChange: -12434.036
+      secondsUntilStateChange: -12906.97
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -10897,6 +10899,18 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: 6.5,17.5
+      parent: 2
+  - uid: 15576
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -2.5,-20.5
+      parent: 2
+  - uid: 15578
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,-18.5
       parent: 2
 - proto: APCElectronics
   entities:
@@ -22427,6 +22441,41 @@ entities:
     - type: Transform
       pos: 43.5,21.5
       parent: 2
+  - uid: 15577
+    components:
+    - type: Transform
+      pos: -3.5,-15.5
+      parent: 2
+  - uid: 15579
+    components:
+    - type: Transform
+      pos: -2.5,-15.5
+      parent: 2
+  - uid: 15580
+    components:
+    - type: Transform
+      pos: -2.5,-16.5
+      parent: 2
+  - uid: 15581
+    components:
+    - type: Transform
+      pos: -2.5,-17.5
+      parent: 2
+  - uid: 15582
+    components:
+    - type: Transform
+      pos: -2.5,-18.5
+      parent: 2
+  - uid: 15600
+    components:
+    - type: Transform
+      pos: -3.5,-18.5
+      parent: 2
+  - uid: 15601
+    components:
+    - type: Transform
+      pos: -4.5,-18.5
+      parent: 2
 - proto: CableApcStack
   entities:
   - uid: 5386
@@ -33342,6 +33391,96 @@ entities:
     components:
     - type: Transform
       pos: 43.5,21.5
+      parent: 2
+  - uid: 15575
+    components:
+    - type: Transform
+      pos: -6.5,-9.5
+      parent: 2
+  - uid: 15583
+    components:
+    - type: Transform
+      pos: -6.5,-10.5
+      parent: 2
+  - uid: 15584
+    components:
+    - type: Transform
+      pos: -6.5,-11.5
+      parent: 2
+  - uid: 15585
+    components:
+    - type: Transform
+      pos: -6.5,-12.5
+      parent: 2
+  - uid: 15586
+    components:
+    - type: Transform
+      pos: -6.5,-13.5
+      parent: 2
+  - uid: 15587
+    components:
+    - type: Transform
+      pos: -4.5,-18.5
+      parent: 2
+  - uid: 15588
+    components:
+    - type: Transform
+      pos: -6.5,-14.5
+      parent: 2
+  - uid: 15589
+    components:
+    - type: Transform
+      pos: -6.5,-15.5
+      parent: 2
+  - uid: 15590
+    components:
+    - type: Transform
+      pos: -5.5,-15.5
+      parent: 2
+  - uid: 15591
+    components:
+    - type: Transform
+      pos: -2.5,-15.5
+      parent: 2
+  - uid: 15592
+    components:
+    - type: Transform
+      pos: -4.5,-15.5
+      parent: 2
+  - uid: 15593
+    components:
+    - type: Transform
+      pos: -3.5,-15.5
+      parent: 2
+  - uid: 15594
+    components:
+    - type: Transform
+      pos: -3.5,-18.5
+      parent: 2
+  - uid: 15595
+    components:
+    - type: Transform
+      pos: -2.5,-17.5
+      parent: 2
+  - uid: 15596
+    components:
+    - type: Transform
+      pos: -2.5,-16.5
+      parent: 2
+  - uid: 15597
+    components:
+    - type: Transform
+      pos: -2.5,-18.5
+      parent: 2
+  - uid: 15598
+    components:
+    - type: Transform
+      pos: -6.5,-8.5
+      parent: 2
+  - uid: 15599
+    components:
+    - type: Transform
+      pos: -6.5,-7.5
       parent: 2
 - proto: CableMVStack
   entities:
@@ -45151,6 +45290,11 @@ entities:
     - type: Transform
       pos: 51.5,11.5
       parent: 2
+    - type: DeviceLinkSink
+      links:
+      - 12287
+    - type: MaterialSiloUtilizer
+      silo: 12287
 - proto: ExplosivesSignMed
   entities:
   - uid: 10438
@@ -70077,6 +70221,8 @@ entities:
         - MaterialSilo: MaterialSiloUtilizer
         9369:
         - MaterialSilo: MaterialSiloUtilizer
+        12579:
+        - MaterialSilo: MaterialSiloUtilizer
 - proto: MaterialWoodPlank
   entities:
   - uid: 2898
@@ -77846,6 +77992,13 @@ entities:
     components:
     - type: Transform
       pos: 86.54398,28.473265
+      parent: 2
+- proto: Roboisseur
+  entities:
+  - uid: 15602
+    components:
+    - type: Transform
+      pos: 36.5,-8.5
       parent: 2
 - proto: RockGuitarInstrument
   entities:
