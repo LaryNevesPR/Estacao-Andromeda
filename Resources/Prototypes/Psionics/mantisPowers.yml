@@ -14,21 +14,21 @@
 - type: entity
   id: ActionMantisSummonBlackBlade
   name: Summon Black Blade
-  description: Beckon forth the testament of your sins.
+  description: Beckon forth the testament of your heretic sins.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_blade.rsi
+    sprite: _Andromeda/Objects/Weapons/Melee/BlackBlade/black_blade.rsi
     state: icon
   - type: InstantAction
     useDelay: 20
     checkCanInteract: false
     itemIconStyle: BigAction
     icon:
-      sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_blade.rsi
+      sprite: _Andromeda/Objects/Weapons/Melee/BlackBlade/black_blade.rsi
       state: icon
     event: !type:SummonEquipmentEvent
-      speech: "thrusts their open hand to the side. A black blade forms from nothingness into their waiting hand. Whispering demonic voices echo around the sword..."
+      speech: "thrusts their open hand to the side. A black blade forms from nothingness into their waiting hand. Whispering obscure voices echo around the sword..."
       invokeChatType: Emote
       prototypes:
         hand1: MantisBlackBlade
@@ -39,11 +39,11 @@
   name: black sword
   parent: BaseItem
   id: MantisBlackBlade
-  description: A huge black sword covered in strange runes. It whispers incessantly to its wielder.
+  description: A huge black sword as dark as the deep cosmos. It whispers to its wielder.
   components:
   - type: Sharp
   - type: Sprite
-    sprite: WhiteDream/BloodCult/Entities/Items/Weapons/cult_blade.rsi
+    sprite: _Andromeda/Objects/Weapons/Melee/BlackBlade/black_blade.rsi
     state: icon
   - type: MeleeWeapon
     wideAnimationRotation: -135
@@ -74,12 +74,12 @@
   - type: CultItem
     allowUseToEveryone: true
   - type: PointLight
-    color: "#793a80"
+    color: "#c74646"
     radius: 1.5
     energy: 12.5
   - type: DeleteOnDrop
   - type: AmbientSound
-    range: 5
-    volume: -5
+    range: 2
+    volume: -14
     sound:
       path: /Audio/Ambience/anomaly_scary.ogg
