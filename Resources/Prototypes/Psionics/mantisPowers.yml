@@ -74,7 +74,7 @@
   - type: CultItem
     allowUseToEveryone: true
   - type: PointLight
-    color: "#793a80"
+    color: "#c74646"
     radius: 1.5
     energy: 12.5
   - type: DeleteOnDrop
