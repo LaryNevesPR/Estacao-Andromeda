@@ -15,7 +15,8 @@
   - Medical
   - Maintenance
   - External # DeltaV
-  - Paramedic # DeltaV - Add Paramedic access
+  - Paramedic
+  - Surgery # DeltaV - Add Paramedic access
   extendedAccess:
   - Chemistry
   # special: # DeltaV - role modifiers bad
